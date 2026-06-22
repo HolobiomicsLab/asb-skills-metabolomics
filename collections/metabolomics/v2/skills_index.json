@@ -3598,7 +3598,7 @@
  {
   "slug": "baseline-method-comparison-and-benchmarking",
   "name": "baseline-method-comparison-and-benchmarking",
-  "description": "Use when you have developed or adapted an analytical method (e.g., NPFimg for GC–MS marker identification) and need to demonstrate its reliability or superiority over a widely-used reference method (e.g., XCMS). Apply this skill when you have access to both the same raw input data (e.",
+  "description": "Use when you have developed or adapted an analytical method (e.g., NPFimg for GC–MS marker identification) and need to demonstrate its reliability or improved performance over a widely-used reference method (e.g., XCMS). Apply this skill when you have access to both the same raw input data (e.",
   "edam_operation": "http://edamontology.org/operation_3445",
   "edam_topics": [
    "http://edamontology.org/topic_0091",
