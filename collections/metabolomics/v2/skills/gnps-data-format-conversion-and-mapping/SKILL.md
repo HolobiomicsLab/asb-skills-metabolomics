@@ -15,7 +15,7 @@ metadata:
   - Dynaconf
   - PODP (Paired Omics Data Platform)
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1101/2024.10.11.617756
   title: NPLinker

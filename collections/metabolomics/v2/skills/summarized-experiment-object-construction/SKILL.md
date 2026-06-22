@@ -13,7 +13,7 @@ metadata:
   - SummarizedExperiment
   - readData
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/jasms.5c00073
   title: mzquality

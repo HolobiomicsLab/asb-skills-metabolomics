@@ -10,7 +10,7 @@ metadata:
   tools:
   - DeepMASS2
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1101/2024.05.30.596727v2
   title: DeepMASS

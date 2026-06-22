@@ -15,7 +15,7 @@ metadata:
   - GNPS
   - Cytoscape
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1186/s13321-025-01051-y
   title: minems2

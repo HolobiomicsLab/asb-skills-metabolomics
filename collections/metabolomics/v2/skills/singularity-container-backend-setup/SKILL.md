@@ -13,7 +13,7 @@ metadata:
   - Nextflow
   - MS-DIAL
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/jasms.4c00364
   title: nextflow4msdial

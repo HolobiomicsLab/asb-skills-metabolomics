@@ -13,7 +13,7 @@ metadata:
   - ADViSELipidomics
   - LIPID MAPS
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1093/bioinformatics/btac706
   title: ADViSELipidomics

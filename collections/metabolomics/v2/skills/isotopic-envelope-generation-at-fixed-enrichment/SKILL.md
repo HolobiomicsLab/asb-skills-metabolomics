@@ -14,7 +14,7 @@ metadata:
   - annotatePSM (Aerith function)
   - R (language/environment)
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.5c03207
   title: Aerith

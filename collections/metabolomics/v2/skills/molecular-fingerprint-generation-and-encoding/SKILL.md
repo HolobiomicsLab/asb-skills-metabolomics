@@ -12,7 +12,7 @@ metadata:
   - MIST
   - MIST-CF
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s42256-023-00708-3
   title: MIST (chemical formula transformer)

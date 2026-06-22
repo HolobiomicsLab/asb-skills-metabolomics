@@ -18,7 +18,7 @@ metadata:
   - NumPy
   - Python time module
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.9b04884
   title: spectrumutils

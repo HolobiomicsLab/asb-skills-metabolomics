@@ -14,7 +14,7 @@ metadata:
   - limma
   - ProteoMM
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1016/j.isci.2023.106881
   title: MultiABLER

@@ -13,7 +13,7 @@ metadata:
   - scipy
   - numpy
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41467-022-30118-9
   title: SIMILE

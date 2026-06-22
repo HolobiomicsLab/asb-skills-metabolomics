@@ -18,7 +18,7 @@ metadata:
   - pip
   - Distributed Data Parallel (DDP)
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.5c01594
   title: CSU-MS2

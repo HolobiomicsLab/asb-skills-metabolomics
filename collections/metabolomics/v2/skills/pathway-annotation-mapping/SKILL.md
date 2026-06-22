@@ -11,7 +11,7 @@ metadata:
   - Lilikoi v2.0
   - R
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1093/gigascience/giaa162
   title: Lilikoi V2.0

@@ -13,7 +13,7 @@ metadata:
   - Python
   - keras.regularizers
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1101/2024.03.25.586580v5
   title: MS2DeepScore 2.0

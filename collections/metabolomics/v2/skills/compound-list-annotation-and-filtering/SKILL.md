@@ -15,7 +15,7 @@ metadata:
   - KEGG_Enrich_PlotPanel
   - R (>= 3.5.0)
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1093/bib/bbac455
   title: LargeMetabo

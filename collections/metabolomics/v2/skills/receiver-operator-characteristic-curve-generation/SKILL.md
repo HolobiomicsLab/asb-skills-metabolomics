@@ -18,7 +18,7 @@ metadata:
   - Word2Vec (gensim)
   - scikit-learn or scipy.metrics
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1371/journal.pcbi.1008724
   title: Spec2Vec

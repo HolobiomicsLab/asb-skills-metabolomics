@@ -13,7 +13,7 @@ metadata:
   - QIIME 2
   - MZmine2
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41589-020-00677-3
   title: qemistree

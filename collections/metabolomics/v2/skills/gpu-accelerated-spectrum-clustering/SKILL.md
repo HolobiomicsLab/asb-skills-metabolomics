@@ -14,7 +14,7 @@ metadata:
   - Python
   - CUDA
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.jproteome.2c00612
   title: HyperSpec

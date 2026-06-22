@@ -17,7 +17,7 @@ metadata:
   - GNPS-FBMN
   - R (with tidyverse, Spectra, MetaboCoreUtils)
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.3389/fpls.2019.01329
   title: tima

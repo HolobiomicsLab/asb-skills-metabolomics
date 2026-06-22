@@ -12,7 +12,7 @@ metadata:
   - Python
   - numpy
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.3389/fbinf.2022.842964
   title: memo

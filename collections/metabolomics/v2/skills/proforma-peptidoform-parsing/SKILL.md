@@ -13,7 +13,7 @@ metadata:
   - PSI-MOD Protein Modifications Ontology
   - spectrum_utils MsmsSpectrum.annotate_proforma()
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.9b04884
   title: spectrumutils

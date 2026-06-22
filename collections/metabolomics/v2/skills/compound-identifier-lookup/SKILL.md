@@ -16,7 +16,7 @@ metadata:
   - GNPS
   - RChemMass
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.2c04343
   title: MeRgeION

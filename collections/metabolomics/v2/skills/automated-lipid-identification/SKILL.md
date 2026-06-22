@@ -12,7 +12,7 @@ metadata:
   - git
   - MSConvert (ProteoWizard)
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.5c00520
   title: LipidA-IDER

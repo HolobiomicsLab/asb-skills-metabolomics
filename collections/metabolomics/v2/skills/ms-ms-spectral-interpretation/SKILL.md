@@ -12,7 +12,7 @@ metadata:
   - MAGMa
   - PubChem
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.5702/massspectrometry.S0033
   title: magma

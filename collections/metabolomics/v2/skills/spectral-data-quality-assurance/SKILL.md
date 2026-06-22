@@ -12,7 +12,7 @@ metadata:
   - pytest
   - matchms
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1186/s13321-024-00878-1
   title: matchms

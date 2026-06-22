@@ -15,7 +15,7 @@ metadata:
   - ms-pred (coleygroup/ms-pred)
   - MAGMa (Mass Spectrum Annotation by Genetic Mass Spectrometry Analysis)
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s42256-024-00816-8
   title: ICEBERG

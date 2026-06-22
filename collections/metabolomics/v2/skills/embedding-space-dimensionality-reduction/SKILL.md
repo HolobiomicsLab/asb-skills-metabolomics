@@ -12,7 +12,7 @@ metadata:
   - Python
   - Conda
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41592-022-01496-1
   title: GLEAMS

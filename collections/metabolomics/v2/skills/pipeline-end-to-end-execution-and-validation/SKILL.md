@@ -14,7 +14,7 @@ metadata:
   - GNN-SOM
   - BAM
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.4c01565
   title: bam

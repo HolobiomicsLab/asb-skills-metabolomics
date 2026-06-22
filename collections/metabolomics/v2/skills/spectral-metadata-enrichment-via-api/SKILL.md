@@ -19,7 +19,7 @@ metadata:
   - Python
   - pytest
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.21105/joss.04494
   title: msmetaenhancer

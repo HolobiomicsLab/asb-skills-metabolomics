@@ -13,7 +13,7 @@ metadata:
   - e1071
   - caret
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.3c04046
   title: AVIR

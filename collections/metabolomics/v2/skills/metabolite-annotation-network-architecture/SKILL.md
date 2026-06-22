@@ -13,7 +13,7 @@ metadata:
   - MrnAnnoAlgo3
   - MetDNA3
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41467-025-63536-6
   title: MetDNA3

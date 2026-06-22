@@ -10,7 +10,7 @@ metadata:
   tools:
   - BioTransformer
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1186/s13321-019-0375-2
   title: BioTransformer 1.0

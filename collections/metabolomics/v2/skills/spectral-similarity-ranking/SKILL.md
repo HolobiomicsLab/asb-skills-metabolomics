@@ -13,7 +13,7 @@ metadata:
   - matchms
   - RDKit
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41467-023-37446-4
   title: ms2query

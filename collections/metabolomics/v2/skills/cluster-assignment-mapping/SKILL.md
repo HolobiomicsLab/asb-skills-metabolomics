@@ -11,7 +11,7 @@ metadata:
   - falcon
   - DBSCAN
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1002/rcm.9153
   title: falcon

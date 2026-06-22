@@ -14,7 +14,7 @@ metadata:
   - Python 3 virtualenv
   - pytest / unittest
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1371/journal.pcbi.1003123
   title: mummichog

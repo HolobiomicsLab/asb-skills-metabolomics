@@ -12,7 +12,7 @@ metadata:
   - MassQLab
   - pandas.DataFrame.to_csv
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1002/rcm.10132
   title: MassQLab

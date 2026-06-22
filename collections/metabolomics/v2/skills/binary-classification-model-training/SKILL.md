@@ -10,7 +10,7 @@ metadata:
   tools:
   - AnnoMe
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1093/bioadv/vbag111
   title: AnnoMe

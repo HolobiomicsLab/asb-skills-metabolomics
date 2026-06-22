@@ -13,7 +13,7 @@ metadata:
   - xcms
   - RamClustR
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.1c03032
   title: metaboannotator

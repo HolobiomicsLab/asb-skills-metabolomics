@@ -18,7 +18,7 @@ metadata:
   - MassIVE
   - MetabolomicsSpectrumResolver
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1101/2020.05.09.086066
   title: Metabolomics Spectrum Resolver

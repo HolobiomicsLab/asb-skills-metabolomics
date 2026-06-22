@@ -19,7 +19,7 @@ metadata:
   - check_candidates
   - get_pmz_statistics
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41592-025-02646-x
   title: Spectral Denoising

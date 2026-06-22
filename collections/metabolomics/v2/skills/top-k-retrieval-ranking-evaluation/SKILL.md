@@ -16,7 +16,7 @@ metadata:
   - ProcessMSP utility
   - MSBERTSimilarity
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.4c02426
   title: MSBERT

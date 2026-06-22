@@ -10,7 +10,7 @@ metadata:
   tools:
   - DecoMetDIA
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.9b02655
   title: DecoMetDIA

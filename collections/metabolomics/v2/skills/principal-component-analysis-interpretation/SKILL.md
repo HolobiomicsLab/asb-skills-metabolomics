@@ -12,7 +12,7 @@ metadata:
   - PeakQC
   - Mirador
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/jasms.4c00146
   title: PeakQC

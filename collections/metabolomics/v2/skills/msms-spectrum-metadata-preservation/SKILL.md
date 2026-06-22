@@ -15,7 +15,7 @@ metadata:
   - Python 3.12
   - PyTorch 2.6.0
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.5c02655
   title: SpecEmbedding

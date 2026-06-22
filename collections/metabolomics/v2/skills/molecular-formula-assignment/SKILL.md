@@ -13,7 +13,7 @@ metadata:
   - BUDDY
   - SIRIUS
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41467-025-66060-9
   title: fiddle

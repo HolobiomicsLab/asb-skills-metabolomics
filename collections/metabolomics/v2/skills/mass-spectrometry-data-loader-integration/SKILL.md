@@ -15,7 +15,7 @@ metadata:
   - pandas
   - networkx
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/jasms.5c00237
   title: MMSA

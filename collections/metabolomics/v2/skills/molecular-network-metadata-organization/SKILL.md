@@ -14,7 +14,7 @@ metadata:
   - GNPSDownloader
   - GNPSExtractor
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1186/s40168-022-01444-3
   title: NPClassScore

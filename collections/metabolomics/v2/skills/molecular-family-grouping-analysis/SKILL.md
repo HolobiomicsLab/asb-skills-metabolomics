@@ -15,7 +15,7 @@ metadata:
   - MS2LDA (Mass2Motif Latent Dirichlet Allocation)
   - PALS Viewer
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.3390/metabo11020103
   title: pals

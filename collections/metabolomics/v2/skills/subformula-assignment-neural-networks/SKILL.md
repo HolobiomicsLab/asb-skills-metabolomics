@@ -14,7 +14,7 @@ metadata:
   - SCARF
   - SIRIUS
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.jcim.3c01082
   title: mistcf

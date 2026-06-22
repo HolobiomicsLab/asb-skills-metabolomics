@@ -16,7 +16,7 @@ metadata:
   - CUDA 11.8
   - RDKit
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1093/bioinformatics/btaf354
   title: JESTR

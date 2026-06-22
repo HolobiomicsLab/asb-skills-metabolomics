@@ -13,7 +13,7 @@ metadata:
   - ChemEmbed
   - PyTorch
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1101/2025.02.07.637102v1
   title: ChemEmbed

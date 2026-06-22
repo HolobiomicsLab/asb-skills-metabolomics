@@ -11,7 +11,7 @@ metadata:
   - msFeaST
   - Desktop web browser
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1093/bioinformatics/btae584
   title: msFeaST

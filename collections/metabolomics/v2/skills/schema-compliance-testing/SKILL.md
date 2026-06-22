@@ -12,7 +12,7 @@ metadata:
   - Github
   - GitHub
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41589-020-00724-z
   title: pairedomicsdatapla

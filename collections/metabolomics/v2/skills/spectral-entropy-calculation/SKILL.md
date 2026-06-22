@@ -18,7 +18,7 @@ metadata:
   - Entropy Search GUI
   - ms-entropy Python package
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41592-021-01331-z
   title: Spectral entropy

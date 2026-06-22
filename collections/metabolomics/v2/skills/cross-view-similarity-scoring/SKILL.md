@@ -15,7 +15,7 @@ metadata:
   - DGL (Deep Graph Library)
   - MassSpecGym
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1101/2025.11.12.688047v1
   title: MVP

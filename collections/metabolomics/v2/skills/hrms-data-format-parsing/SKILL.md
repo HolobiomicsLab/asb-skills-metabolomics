@@ -17,7 +17,7 @@ metadata:
   - MS-DIAL
   - Compound Discoverer
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1186/s12859-017-1744-3
   title: lipidmatch

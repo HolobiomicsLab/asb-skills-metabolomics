@@ -11,7 +11,7 @@ metadata:
   - masscube
   - Python
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41467-025-60640-5
   title: MassCube

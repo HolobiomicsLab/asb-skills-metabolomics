@@ -15,7 +15,7 @@ metadata:
   - KEGG_Enrich_Plot
   - Enrich_Plot
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1093/bib/bbac455
   title: LargeMetabo

@@ -11,7 +11,7 @@ metadata:
   - SQL
   - massql
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41592-025-02785-1
   title: MassQL

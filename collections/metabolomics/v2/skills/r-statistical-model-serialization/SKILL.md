@@ -13,7 +13,7 @@ metadata:
   - DNMS2Purifier_model_generation.r
   - DNMS2Purifier.r
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.3c00736
   title: DNMS2Purifier

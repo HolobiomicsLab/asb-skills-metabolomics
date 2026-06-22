@@ -11,7 +11,7 @@ metadata:
   - IDSL.CSA
   - R
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.3c00376
   title: IDSL.CSA

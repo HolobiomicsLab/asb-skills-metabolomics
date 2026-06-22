@@ -15,7 +15,7 @@ metadata:
   - metDataModel
   - mass2chem
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1371/journal.pcbi.1003123
   title: mummichog

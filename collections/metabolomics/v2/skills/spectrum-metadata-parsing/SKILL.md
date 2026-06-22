@@ -19,7 +19,7 @@ metadata:
   - Fast Search API
   - jobs.py
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41564-023-01575-9
   title: microbemasst

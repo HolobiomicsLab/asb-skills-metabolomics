@@ -20,7 +20,7 @@ metadata:
   - Retip R package
   - Retip Python package (pyRetip)
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s42256-025-01140-5
   title: MSGo

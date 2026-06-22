@@ -12,7 +12,7 @@ metadata:
   - Python 3.8+
   - spectrum-utils
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1002/rcm.9153
   title: falcon

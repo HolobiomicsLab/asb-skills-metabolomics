@@ -14,7 +14,7 @@ metadata:
   - ms-pred repository
   - PubChem
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/acs.analchem.3c04654
   title: ICEBERG / fragmentation graph generation

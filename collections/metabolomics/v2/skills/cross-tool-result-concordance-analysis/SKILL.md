@@ -18,7 +18,7 @@ metadata:
   - Dereplicator+
   - ProteoWizard msconvert
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1038/s41467-018-06082-8
   title: dereplicator

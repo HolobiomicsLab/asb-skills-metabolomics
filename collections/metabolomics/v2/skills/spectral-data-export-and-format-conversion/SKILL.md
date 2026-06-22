@@ -15,7 +15,7 @@ metadata:
   - MSFinder
   - Sirius
   techniques:
-  - tandem-MS
+  - LC-MS
 derived_from:
 - doi: 10.1021/ac501530d
   title: RAMClust
