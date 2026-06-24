@@ -346,7 +346,7 @@
   "techniques": [
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "activity-score-computation-and-reporting",
@@ -673,7 +673,7 @@
   "techniques": [
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "adduct-mass-adjustment-calculation",
@@ -904,7 +904,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "adduct-signature-identification-mass-spectrometry",
@@ -4676,7 +4676,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "batch-script-performance-profiling",
@@ -4743,7 +4743,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "batch-structure-inspection-macroscopic-scale",
@@ -5782,7 +5782,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "bioassay-activity-data-integration",
@@ -5808,7 +5808,7 @@
    "LC-MS",
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "biobase-object-serialization",
@@ -6966,7 +6966,7 @@
    "10.1093/bioinformatics/btac344"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "box-cox-transformation-parameter-estimation",
@@ -11377,7 +11377,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "chromatographic-alignment-tuning",
@@ -11472,7 +11472,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "chromatographic-data-structuring",
@@ -11562,7 +11562,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "chromatographic-method-transfer",
@@ -11820,7 +11820,7 @@
    "GC-MS",
    "ion-mobility-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "chromatographic-peak-detection-gradient-descent",
@@ -11843,7 +11843,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "chromatographic-peak-detection-msw",
@@ -11941,7 +11941,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "chromatographic-peak-detection-with-prominence-control",
@@ -11994,7 +11994,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "chromatographic-peak-isolation-and-refinement",
@@ -12043,7 +12043,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "chromatographic-peak-overlap-resolution",
@@ -12179,7 +12179,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "chromatographic-profile-quality-assessment",
@@ -12225,7 +12225,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "chromatographic-retention-time-matching",
@@ -13099,7 +13099,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "cloud-hosted-computational-chemistry",
@@ -13374,7 +13374,7 @@
    "10.1093/bioinformatics/btac344"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "cnn-architecture-design-for-spectral-data",
@@ -14201,7 +14201,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "column-name-variant-matching",
@@ -14641,7 +14641,7 @@
    "10.1021/acs.analchem.4c05039"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "comparative-algorithm-benchmarking-for-peak-detection",
@@ -15131,7 +15131,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "compound-area-aggregation-across-samples",
@@ -16799,7 +16799,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "conditional-dispatch-routing-logic",
@@ -17008,7 +17008,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "confidence-score-assignment-and-filtering",
@@ -17029,7 +17029,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "confidence-score-extraction-from-neural-networks",
@@ -17665,7 +17665,7 @@
    "LC-MS",
    "CE-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "consensus-taxonomy-generation",
@@ -18915,7 +18915,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "correlation-matrix-construction",
@@ -19654,7 +19654,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "cross-dataset-feature-matching",
@@ -20471,7 +20471,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "cross-sample-feature-matching",
@@ -20970,7 +20970,7 @@
    "10.1186/s12859-017-1744-3"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "csv-delimiter-parsing-and-configuration",
@@ -20991,7 +20991,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "csv-file-parsing-and-peak-indexing",
@@ -21451,7 +21451,7 @@
    "10.1093/bioinformatics/btv194"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "d-ratio-threshold-filtering",
@@ -21566,7 +21566,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "data-deduplication",
@@ -22020,7 +22020,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "data-quality-control-report-generation",
@@ -22103,7 +22103,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "data-serialization-format-interoperability",
@@ -22390,7 +22390,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "database-record-retrieval",
@@ -23916,7 +23916,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "dense-neural-network-layer-construction",
@@ -24268,7 +24268,7 @@
    "10.1021/acs.analchem.4c05039"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "descriptor-deduplication-across-toolkits",
@@ -26910,7 +26910,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "dynamic-branch-cutting-module-detection",
@@ -27105,7 +27105,7 @@
    "10.1021/acs.analchem.4c05039"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "effective-mobility-calibration-single-marker",
@@ -27344,7 +27344,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "eigenmetabolite-direction-of-effect-validation",
@@ -27547,7 +27547,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "elution-profile-normalization-and-preprocessing",
@@ -27586,7 +27586,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "embedding-similarity-computation",
@@ -29680,7 +29680,7 @@
    "direct-infusion-MS",
    "MS-imaging"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "experimental-predicted-fragment-comparison",
@@ -30523,7 +30523,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "extracted-ion-chromatogram-processing",
@@ -31032,7 +31032,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-abundance-correlation-grouping",
@@ -31053,7 +31053,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-abundance-normalization",
@@ -31098,7 +31098,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-abundance-pattern-matching",
@@ -31119,7 +31119,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-abundance-table-preparation",
@@ -31252,7 +31252,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-annotation-filtering",
@@ -31708,7 +31708,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-fidelity-prediction",
@@ -31844,7 +31844,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "feature-group-fragment-classification",
@@ -31865,7 +31865,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "feature-group-isotope-annotation",
@@ -31886,7 +31886,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "feature-group-refinement-multicriteria",
@@ -31909,7 +31909,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-group-spectral-mapping",
@@ -32001,7 +32001,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-hashing-dimensionality-reduction",
@@ -32857,7 +32857,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "feature-quality-assessment-by-rsd-within-class",
@@ -32900,7 +32900,7 @@
    "LC-MS",
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "feature-quality-assessment-via-qvalue",
@@ -33113,7 +33113,7 @@
    "LC-MS",
    "MS-imaging"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-sub-group-refinement-and-validation",
@@ -33135,7 +33135,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-table-alignment-and-integration",
@@ -33207,7 +33207,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-table-annotation-table-construction",
@@ -33368,7 +33368,7 @@
    "direct-infusion-MS",
    "MS-imaging"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-table-export-and-validation",
@@ -33496,7 +33496,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-table-generation-from-chromatography",
@@ -33629,7 +33629,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-table-parsing-and-loading",
@@ -34526,7 +34526,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "file-format-conversion-troubleshooting",
@@ -34548,7 +34548,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "file-format-conversion-validation",
@@ -34726,7 +34726,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "file-format-robustness-testing",
@@ -34751,7 +34751,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "file-format-specification-compliance",
@@ -35028,7 +35028,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "file-path-abstraction-and-normalization",
@@ -35783,7 +35783,7 @@
    "10.1021/acs.analchem.4c05039"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "fold-change-calculation-across-groups",
@@ -36545,7 +36545,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "fragment-ion-mass-calibration",
@@ -37828,7 +37828,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "galaxy-installation-configuration",
@@ -41169,7 +41169,7 @@
    "10.1093/bioinformatics/bty590"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "group-annotation-integration",
@@ -41449,7 +41449,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "hash-function-parameterization",
@@ -42381,7 +42381,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "high-resolution-mass-spectrometry-interpretation",
@@ -42513,7 +42513,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "histogram-peak-occurrence-analysis",
@@ -42867,7 +42867,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "hrms-feature-annotation-integration",
@@ -43401,7 +43401,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "igraph-object-creation-manipulation",
@@ -44006,7 +44006,7 @@
    "direct-infusion-MS",
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "in-silico-fragment-prediction",
@@ -44075,7 +44075,7 @@
   "techniques": [
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "in-silico-spectrum-generation-cfmid",
@@ -44119,7 +44119,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "in-source-fragment-adduct-candidate-flagging",
@@ -44771,7 +44771,7 @@
   "techniques": [
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "instrument-type-filtering-gnps",
@@ -45085,7 +45085,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "intensity-threshold-filtering-ms-data",
@@ -45449,7 +45449,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "interactive-plot-backend-evaluation",
@@ -45497,7 +45497,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "interactive-plot-customization-bokeh",
@@ -45823,7 +45823,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "internal-standard-intensity-calibration",
@@ -45956,7 +45956,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "internal-standard-selection-optimization",
@@ -48167,7 +48167,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "isotopic-pattern-mispicking-detection",
@@ -49620,7 +49620,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "json-spectral-format-parsing",
@@ -49643,7 +49643,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "json-structure-validation-for-metabolomics-data",
@@ -50118,7 +50118,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "kendrick-mass-defect-calculation",
@@ -50326,7 +50326,7 @@
    "LC-MS",
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "knn-imputation-quality-assessment",
@@ -50891,7 +50891,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "lc-hrms-data-preprocessing-pipeline",
@@ -51035,7 +51035,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lc-ms-data-preprocessing",
@@ -51200,7 +51200,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lc-ms-feature-grouping-by-retention-time",
@@ -51221,7 +51221,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lc-ms-feature-m-z-rt-extraction",
@@ -51295,7 +51295,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "lc-ms-gradient-encoding-vector-representation",
@@ -51709,7 +51709,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lcms-feature-extraction",
@@ -51730,7 +51730,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "lcms-feature-probability-scoring",
@@ -51820,7 +51820,7 @@
    "LC-MS",
    "ion-mobility-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lcms-metabolomics-data-processing",
@@ -51936,7 +51936,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lcms-result-table-structure",
@@ -52051,7 +52051,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lda-convergence-monitoring-and-iteration",
@@ -52379,7 +52379,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "library-object-validation",
@@ -52847,7 +52847,7 @@
    "10.1021/acs.analchem.4c05039"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-adduct-pairing-by-neutral-mass",
@@ -52892,7 +52892,7 @@
   "techniques": [
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-category-classification",
@@ -53139,7 +53139,7 @@
   "techniques": [
    "ion-mobility-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-database-querying",
@@ -53213,7 +53213,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-feature-annotation-and-sorting",
@@ -53349,7 +53349,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-fragmentation-pattern-recognition",
@@ -53440,7 +53440,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-identifier-normalization",
@@ -53495,7 +53495,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-library-curation",
@@ -53541,7 +53541,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-library-format-specification",
@@ -53561,7 +53561,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-maps-database-lookup",
@@ -53609,7 +53609,7 @@
   "techniques": [
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-metadata-annotation-mapping",
@@ -53684,7 +53684,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-nomenclature-pattern-matching",
@@ -53878,7 +53878,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-species-annotation-assessment",
@@ -53990,7 +53990,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipid-type-category-enumeration",
@@ -54010,7 +54010,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "lipidomics-data-mining",
@@ -54084,7 +54084,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "local-sequence-availability-assessment",
@@ -54217,7 +54217,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "log-transformation-and-scale-adjustment",
@@ -54842,7 +54842,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "m-z-tolerance-window-matching",
@@ -55580,7 +55580,7 @@
    "LC-MS",
    "ion-mobility-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-accuracy-collision-energy-optimization",
@@ -55601,7 +55601,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-accuracy-ppm-filtering",
@@ -55690,7 +55690,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-accuracy-tolerance-filtering",
@@ -55935,7 +55935,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-defect-calculation",
@@ -56250,7 +56250,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-error-calculation-and-assessment",
@@ -57226,7 +57226,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "mass-spectral-similarity-binning-and-stratification",
@@ -57357,7 +57357,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "mass-spectrometry-adduct-nomenclature-and-formula-transformation",
@@ -57685,7 +57685,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-spectrometry-data-constraint-validation",
@@ -58674,7 +58674,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-spectrometry-data-visualization-pandas",
@@ -59182,7 +59182,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-spectrometry-feature-representation",
@@ -59531,7 +59531,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-spectrometry-fragmentation-modeling",
@@ -60104,7 +60104,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-spectrometry-mass-accuracy-and-precision-tuning",
@@ -60223,7 +60223,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-spectrometry-metadata-interpretation",
@@ -60897,7 +60897,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-spectrometry-quality-metrics-extraction",
@@ -62642,7 +62642,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-to-charge-ratio-matching-against-kegg",
@@ -62868,7 +62868,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-tolerance-parameter-calibration",
@@ -64803,7 +64803,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolite-abundance-matrix-filtering",
@@ -66702,7 +66702,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolite-feature-normalization-across-batches",
@@ -66851,7 +66851,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolite-feature-table-normalization",
@@ -67381,7 +67381,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolite-kegg-pathway-enrichment",
@@ -68355,7 +68355,7 @@
    "10.1093/bioinformatics/bty590"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolite-sample-clustering-visualization",
@@ -69746,7 +69746,7 @@
    "10.1093/bioinformatics/btv194"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomic-peak-matrix-preprocessing",
@@ -69814,7 +69814,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomic-spectral-annotation-and-molecular-family-clustering",
@@ -70061,7 +70061,7 @@
    "LC-MS",
    "ion-mobility-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomics-data-format-validation",
@@ -70115,7 +70115,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomics-data-import-and-parsing",
@@ -70397,7 +70397,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomics-data-quality-control",
@@ -70514,7 +70514,7 @@
    "10.1021/ac051437y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomics-data-validation",
@@ -72210,7 +72210,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metadata-normalization-and-reconciliation",
@@ -72931,7 +72931,7 @@
   "techniques": [
    "CE-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mispicked-ion-detection-and-merging",
@@ -73316,7 +73316,7 @@
    "LC-MS",
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "missing-value-imputation-metabolomics",
@@ -74210,7 +74210,7 @@
    "10.1093/bioinformatics/btac344"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "model-validation-regression-metrics",
@@ -76325,7 +76325,7 @@
   "techniques": [
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "molecular-model-benchmark-comparison",
@@ -76470,7 +76470,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "molecular-network-graph-construction",
@@ -76636,7 +76636,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "molecular-property-data-structuring",
@@ -77752,7 +77752,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mrm-transition-extraction",
@@ -77795,7 +77795,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "ms-adduct-annotation-and-recognition",
@@ -78239,7 +78239,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "ms-ms-fragment-assignment-and-annotation",
@@ -78312,7 +78312,7 @@
    "LC-MS",
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "ms-ms-similarity-metric-comparison",
@@ -78411,7 +78411,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "ms-ms-spectral-preprocessing-and-normalization",
@@ -79026,7 +79026,7 @@
   "techniques": [
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "ms1-composite-spectra-deconvolution",
@@ -79118,7 +79118,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "ms1-feature-peak-detection-in-full-scan",
@@ -79850,7 +79850,7 @@
    "LC-MS",
    "CE-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "ms2-spectrum-consolidation",
@@ -79900,7 +79900,7 @@
    "LC-MS",
    "CE-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "ms2-spectrum-feature-extraction",
@@ -80112,7 +80112,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "msconvert-parameter-configuration",
@@ -80939,7 +80939,7 @@
   "techniques": [
    "CE-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "msp-to-csv-parsing",
@@ -81415,7 +81415,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "multi-database-structure-querying",
@@ -81483,7 +81483,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "multi-dimensional-data-loading-and-formatting",
@@ -82266,7 +82266,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "multi-sample-cohort-assessment",
@@ -82634,7 +82634,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "multi-tool-spectral-compatibility-encoding",
@@ -84228,7 +84228,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mzml-file-parsing",
@@ -84725,7 +84725,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mzpeak-file-format-parsing",
@@ -85675,7 +85675,7 @@
    "10.1093/bioinformatics/btv194"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "network-graph-manipulation-python",
@@ -85702,7 +85702,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "network-graph-pca-overlay",
@@ -87134,7 +87134,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "neutral-mass-derivation-from-mz",
@@ -88141,7 +88141,7 @@
    "10.1093/bioinformatics/btv194"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "noise-artifact-reduction-optimization",
@@ -88301,7 +88301,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "noise-suppression-spectral-imaging",
@@ -88502,7 +88502,7 @@
    "direct-infusion-MS",
    "MS-imaging"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "normalization-for-unequal-group-sizes",
@@ -88637,7 +88637,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "notification-payload-formatting",
@@ -88658,7 +88658,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "nps-classification-prediction",
@@ -88835,7 +88835,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "numerical-equivalence-testing",
@@ -90803,7 +90803,7 @@
    "10.1021/acs.analchem.4c05039"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "p-value-cutoff-threshold-filtering",
@@ -92618,7 +92618,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "peak-apex-identification-from-intensity-profiles",
@@ -92709,7 +92709,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "peak-border-center-estimation",
@@ -92732,7 +92732,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "peak-boundary-definition-and-validation",
@@ -92753,7 +92753,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "peak-boundary-identification-in-extracted-ion-data",
@@ -92823,7 +92823,7 @@
    "10.1093/bioinformatics/btac344"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "peak-classification-validation",
@@ -93058,7 +93058,7 @@
    "LC-MS",
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "peak-detection-cwt-optimization",
@@ -93142,7 +93142,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "peak-detection-parameter-optimization",
@@ -93528,7 +93528,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "peak-intensity-normalization",
@@ -93719,7 +93719,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "peak-list-filtering-and-cleaning",
@@ -94593,7 +94593,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "peak-shape-correlation-analysis",
@@ -94730,7 +94730,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "peak-table-filtering-metabolomics",
@@ -94777,7 +94777,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "peak-table-harmonization",
@@ -94886,7 +94886,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "peak-to-formula-assignment-mapping",
@@ -95657,7 +95657,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "per-sample-spectral-aggregation",
@@ -97714,7 +97714,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "precursor-ion-chromatogram-extraction",
@@ -99407,7 +99407,7 @@
    "10.1021/acs.analchem.4c05039"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "publication-figure-preparation",
@@ -101293,7 +101293,7 @@
    "LC-MS",
    "CE-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "qc-metric-visualization-across-samples",
@@ -101315,7 +101315,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "qc-reference-chromatogram-extraction",
@@ -102341,7 +102341,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "quality-control-visualization-metabolomics",
@@ -104532,7 +104532,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "ranking-task-loss-optimization",
@@ -105363,7 +105363,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "receiver-operating-characteristic-curve-interpretation",
@@ -105669,7 +105669,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "redundant-node-removal-and-edge-classification",
@@ -105848,7 +105848,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "reference-library-alignment",
@@ -105939,7 +105939,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "reference-prediction-comparison-evaluation",
@@ -108071,7 +108071,7 @@
    "10.1093/bioinformatics/bty590"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-order-prediction-rplc",
@@ -108114,7 +108114,7 @@
    "10.1021/ac051437y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-time-agnostic-spectral-alignment",
@@ -108208,7 +108208,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-time-alignment-correction",
@@ -108411,7 +108411,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-time-and-mz-weight-tuning",
@@ -108456,7 +108456,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-time-based-ion-association",
@@ -108670,7 +108670,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "retention-time-correlation-similarity-scoring",
@@ -108809,7 +108809,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-time-feature-distribution-analysis",
@@ -109104,7 +109104,7 @@
    "LC-MS",
    "ion-mobility-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-time-mz-alignment-matching",
@@ -109173,7 +109173,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "retention-time-mz-indexing",
@@ -109217,7 +109217,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-time-normalization-and-scoring",
@@ -109309,7 +109309,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-time-prediction-chromatography",
@@ -109665,7 +109665,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "retention-time-windowing",
@@ -113034,7 +113034,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "semantic-version-parsing-comparison",
@@ -114229,7 +114229,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "signal-to-noise-filtering-for-peak-candidates",
@@ -114322,7 +114322,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "signal-trend-assessment-across-injections",
@@ -115055,7 +115055,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "slack-api-integration",
@@ -115076,7 +115076,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "slurm-gpu-resource-allocation",
@@ -116287,7 +116287,7 @@
   "techniques": [
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "software-testing-unit-validation",
@@ -116621,7 +116621,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "spatial-coordinate-mapping-msi",
@@ -117640,7 +117640,7 @@
   "techniques": [
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "spectral-alignment-optimization",
@@ -120063,7 +120063,7 @@
    "LC-MS",
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "spectral-image-filtering",
@@ -120565,7 +120565,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "spectral-library-match-assignment",
@@ -121418,7 +121418,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "spectral-metadata-integration",
@@ -121465,7 +121465,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "spectral-metadata-standardization",
@@ -121520,7 +121520,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "spectral-mixture-deconvolution",
@@ -122298,7 +122298,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "spectral-peak-detection-and-picking",
@@ -123554,7 +123554,7 @@
    "CE-MS",
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "spectral-similarity-matrix-computation",
@@ -123691,7 +123691,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "spectral-similarity-prediction-deep-learning",
@@ -123904,7 +123904,7 @@
   "techniques": [
    "CE-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "spectral-similarity-scoring-computation",
@@ -124717,7 +124717,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "spectrum-fingerprint-contrastive-learning",
@@ -124809,7 +124809,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "spectrum-metadata-filtering",
@@ -124831,7 +124831,7 @@
   "techniques": [
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "spectrum-metadata-handling",
@@ -125931,7 +125931,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "state-dict-serialization-and-extraction",
@@ -126244,7 +126244,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "statistical-result-mapping-to-display",
@@ -127182,7 +127182,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "structural-level-pathway-topology-modeling",
@@ -128596,7 +128596,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "system-call-invocation-via-system2",
@@ -129020,7 +129020,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "tabular-data-tag-parsing",
@@ -130254,7 +130254,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "tautomer-standardization",
@@ -130580,7 +130580,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "technical-specification-tabulation",
@@ -130604,7 +130604,7 @@
   "techniques": [
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "technical-variation-assessment",
@@ -131376,7 +131376,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "thermo-raw-file-format-parsing",
@@ -131560,7 +131560,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "threshold-based-match-filtering",
@@ -131852,7 +131852,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "time-temperature-degradation-modeling",
@@ -132509,7 +132509,7 @@
    "10.1093/bioinformatics/btac344"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "training-data-inventory-construction-from-spectral-libraries",
@@ -134101,7 +134101,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "uml-diagram-generation",
@@ -135295,7 +135295,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "usi-namespace-parsing",
@@ -135787,7 +135787,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "vendor-file-format-specification-handling",
@@ -135853,7 +135853,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "vendor-format-routing-dispatch",
@@ -136338,7 +136338,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "volcano-plot-generation",
@@ -137732,7 +137732,7 @@
    "GC-MS",
    "direct-infusion-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "xcms-feature-extraction-and-grouping",
@@ -137777,7 +137777,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "xcms-grouping-result-interpretation",
@@ -137892,7 +137892,7 @@
    "LC-MS",
    "GC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "xcms-profile-parsing",
@@ -137987,7 +137987,7 @@
    "GC-MS",
    "ion-mobility-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "xenobiotic-metabolite-annotation-from-ms-ms",
