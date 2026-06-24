@@ -5371,7 +5371,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "bi-encoder-cross-encoder-architecture-design",
@@ -6043,7 +6043,7 @@
    "10.1186/s13321-019-0375-2"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "bioinformatic-object-conversion",
@@ -6375,7 +6375,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "biotransformation-candidate-integration-with-networking",
@@ -6442,7 +6442,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "biotransformation-rule-application",
@@ -6461,7 +6461,7 @@
    "10.1093/nar/gkac408"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "biotransformation-rule-application-to-metabolites",
@@ -6525,7 +6525,7 @@
    "10.1186/s13321-019-0375-2"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "bipartite-graph-layout-optimization",
@@ -7824,7 +7824,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "candidate-metadata-record-serialization",
@@ -9248,7 +9248,7 @@
   "techniques": [
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "chemical-descriptor-extraction",
@@ -10233,7 +10233,7 @@
    "10.1186/s13321-019-0375-2"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "chemical-structure-annotation-oracle-mode",
@@ -10766,7 +10766,7 @@
    "10.1186/s13321-016-0174-y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "chemical-transformation-annotation",
@@ -10967,7 +10967,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "cheminformatics-table-generation",
@@ -11892,7 +11892,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "chromatographic-peak-detection-validation",
@@ -15571,7 +15571,7 @@
    "10.1186/s13321-016-0174-y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "compound-identifier-lookup",
@@ -15831,7 +15831,7 @@
    "10.1186/s13321-016-0174-y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "compound-reliability-filtering-by-rsd-threshold",
@@ -25419,7 +25419,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "distribution-channel-validation",
@@ -26234,7 +26234,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "domain-context-to-application-routing",
@@ -27046,7 +27046,7 @@
    "10.1093/nar/gkac408"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "edge-case-boundary-testing",
@@ -28598,7 +28598,7 @@
    "10.1093/nar/gkac408"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "environmental-microbial-degradation-prediction",
@@ -28619,7 +28619,7 @@
    "10.1093/nar/gkac408"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "environmental-microbial-metabolism-prediction",
@@ -28637,7 +28637,7 @@
    "10.1186/s13321-019-0375-2"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "enzyme-family-classification-and-mapping",
@@ -28657,7 +28657,7 @@
    "10.1186/s13321-019-0375-2"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "error-handling-confirmation",
@@ -30429,7 +30429,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "extracted-ion-chromatogram-generation",
@@ -38681,7 +38681,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "gene-cluster-family-formation-and-similarity-clustering",
@@ -38724,7 +38724,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "gene-expression-constraint-integration",
@@ -38878,7 +38878,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "generalized-additive-model-fitting",
@@ -39133,7 +39133,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "genomic-metabolomic-link-ranking",
@@ -43125,7 +43125,7 @@
    "10.1186/s13321-016-0174-y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "hybrid-model-fusion-strategy",
@@ -59098,7 +59098,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "mass-spectrometry-feature-grouping",
@@ -65763,7 +65763,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolite-concentration-stoichiometric-mapping",
@@ -67105,7 +67105,7 @@
   "techniques": [
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "metabolite-identification-validation",
@@ -67150,7 +67150,7 @@
    "GC-MS",
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "metabolite-identifier-conversion",
@@ -68061,7 +68061,7 @@
   "techniques": [
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "metabolite-prediction-threshold-determination",
@@ -68860,7 +68860,7 @@
    "10.1093/nar/gkac408"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "metabolite-structure-annotation-integration",
@@ -68924,7 +68924,7 @@
    "10.1093/nar/gkac408"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "metabolite-structure-prediction",
@@ -68947,7 +68947,7 @@
    "LC-MS",
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "metabolite-tandem-ms-library-curation",
@@ -72678,7 +72678,7 @@
    "10.1093/nar/gkac408"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "microbial-genome-annotation-harmonization",
@@ -85949,7 +85949,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "network-topology-comparison",
@@ -89780,7 +89780,7 @@
    "10.1093/nar/gkac408"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "organism-count-distribution-analysis",
@@ -89867,7 +89867,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "organism-taxonomy-identifier-mapping",
@@ -91741,7 +91741,7 @@
    "10.1093/nar/gkac408"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "parent-product-relationship-tracking",
@@ -96074,7 +96074,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "pfas-candidate-prioritization-by-scoring",
@@ -102818,7 +102818,7 @@
    "10.1186/s13321-016-0174-y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "queued-spectrum-preview-generation",
@@ -105645,7 +105645,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "redundant-feature-identification-lcms",
@@ -107815,7 +107815,7 @@
    "10.1186/s13321-016-0174-y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "rest-api-contract-documentation",
@@ -107905,7 +107905,7 @@
    "10.1186/s13321-016-0174-y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "rest-api-query-and-response-parsing",
@@ -114452,7 +114452,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "similarity-ranking-and-retrieval-evaluation",
@@ -115183,7 +115183,7 @@
    "10.1186/s13321-019-0375-2"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "small-molecule-structure-matching",
@@ -115205,7 +115205,7 @@
    "GC-MS",
    "NMR"
   ],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "smarts-pattern-design-for-microbial-degradation",
@@ -115224,7 +115224,7 @@
    "10.1186/s13321-019-0375-2"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "smarts-pattern-matching-for-chemical-transformation",
@@ -115422,7 +115422,7 @@
    "10.1186/s13321-016-0174-y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "smiles-inchi-round-trip-validation",
@@ -116351,7 +116351,7 @@
    "10.1186/s13321-019-0375-2"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "sonarcloud-static-code-analysis-integration",
@@ -123090,7 +123090,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "spectral-quality-filtering-signal-to-noise",
@@ -126489,7 +126489,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "statistical-summary-computation-median-range",
@@ -127222,7 +127222,7 @@
    "10.1186/s13321-016-0174-y"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "noncommercial"
  },
  {
   "slug": "structural-scaffold-feature-identification",
@@ -128023,7 +128023,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "sub-network-detection-from-scored-graphs",
@@ -128141,7 +128141,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "substrate-concentration-normalization",
@@ -129369,7 +129369,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "tandem-mass-spectrometry-metadata-standardization",
@@ -132297,7 +132297,7 @@
    "10.1371/journal.pcbi.1010462"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "topn-acquisition-parameter-tuning",
