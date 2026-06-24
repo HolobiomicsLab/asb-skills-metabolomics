@@ -5833,7 +5833,7 @@
   "techniques": [
    "mass-spectrometry"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "biochemical-annotation-mapping",
@@ -12590,7 +12590,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "circular-dependency-avoidance-in-method-design",
@@ -21097,7 +21097,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "csv-to-dictionary-conversion",
@@ -30328,7 +30328,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "external-calibration-model-fitting",
@@ -33816,7 +33816,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "feature-vector-naming-convention",
@@ -69194,7 +69194,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomic-data-normalization-post-integration",
@@ -69244,7 +69244,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomic-data-quality-assessment",
@@ -69770,7 +69770,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomic-peak-quality-assessment",
@@ -69859,7 +69859,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "metabolomics-analyte-stability-characterization",
@@ -73247,7 +73247,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "missing-value-imputation-for-pca",
@@ -81371,7 +81371,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "multi-criterion-score-combination-and-ranking",
@@ -82803,7 +82803,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "multiclass-data-batch-correction",
@@ -82828,7 +82828,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "multiclass-metabolite-comparison",
@@ -95863,7 +95863,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "performance-metric-comparison-across-backends",
@@ -98201,7 +98201,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "pretrained-model-weight-loading",
@@ -101560,7 +101560,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "qc-summary-data-extraction",
@@ -102156,7 +102156,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "quality-control-sample-metadata-extraction",
@@ -102890,7 +102890,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "r-bioconductor-summarizedexperiment-manipulation",
@@ -103278,7 +103278,7 @@
    "10.1038/s41596-021-00636-9"
   ],
   "techniques": [],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "r-internal-function-implementation",
@@ -111016,7 +111016,7 @@
   "techniques": [
    "LC-MS"
   ],
-  "license_tier": "restricted"
+  "license_tier": "open"
  },
  {
   "slug": "sample-matrix-effect-handling",
