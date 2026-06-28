@@ -43,12 +43,25 @@ def _tech_ok(r: dict, technique: str | None) -> bool:
     return technique.lower() in [t.lower() for t in r.get("techniques", [])]
 
 
-def keyword_search(rows, query, technique, k):
+def _keep(r: dict, technique: str | None, max_tools: int) -> bool:
+    """Technique filter + junk-leaf guard. A leaf advertising more than
+    `max_tools` tools is a registry/meta artifact (e.g. evidence-linking,
+    scientific-task-formulation at ~300 tools), never a procedural skill — drop
+    it so it can't pollute retrieval. Same heuristic as the workflow factory's
+    MAX_TOOLS_PER_LEAF. Set max_tools=0 to disable."""
+    if not _tech_ok(r, technique):
+        return False
+    if max_tools and len(r.get("tools", [])) > max_tools:
+        return False
+    return True
+
+
+def keyword_search(rows, query, technique, k, max_tools):
     terms = [t for t in "".join(c.lower() if c.isalnum() else " " for c in query).split()
              if t not in STOP and len(t) > 2]
     scored = []
     for r in rows:
-        if not _tech_ok(r, technique):
+        if not _keep(r, technique, max_tools):
             continue
         text = _row_text(r)
         score = sum(text.count(t) for t in terms) + 3 * sum(t in r.get("name", "").lower() for t in terms)
@@ -71,7 +84,7 @@ def _cache_for(collection: Path) -> Path | None:
     return None
 
 
-def semantic_search(collection, rows, query, technique, k):
+def semantic_search(collection, rows, query, technique, k, max_tools):
     import numpy as np
     cache = _cache_for(collection)
     key = os.environ.get("OPENAI_API_KEY")
@@ -95,7 +108,7 @@ def semantic_search(collection, rows, query, technique, k):
     for i in order:
         slug = slugs[i]
         r = by_slug.get(slug)
-        if r is None or not _tech_ok(r, technique):
+        if r is None or not _keep(r, technique, max_tools):
             continue
         out.append({"slug": slug, "name": r.get("name"), "score": round(float(scores[i]), 4),
                     "techniques": r.get("techniques", []), "tools": r.get("tools", [])[:4]})
@@ -112,20 +125,24 @@ def main():
     ap.add_argument("--technique", default=None)
     ap.add_argument("--k", type=int, default=10)
     ap.add_argument("--mode", choices=["auto", "semantic", "keyword"], default="auto")
+    ap.add_argument("--max-tools", type=int, default=25,
+                    help="drop leaves with more than this many tools (registry/meta artifacts); 0 disables")
     a = ap.parse_args()
     coll = Path(a.collection)
     rows = json.loads(_index_path(coll, a.target).read_text())
+    # workflow rows are curated composites — the junk-leaf guard only applies to leaf skills
+    max_tools = a.max_tools if a.target == "skills" else 0
     mode = a.mode
     res = None
     if mode in ("auto", "semantic"):
         try:
-            res = semantic_search(coll, rows, a.query, a.technique, a.k)
+            res = semantic_search(coll, rows, a.query, a.technique, a.k, max_tools)
         except Exception:
             res = None
         if res is not None:
             mode = "semantic"
     if res is None:
-        res = keyword_search(rows, a.query, a.technique, a.k)
+        res = keyword_search(rows, a.query, a.technique, a.k, max_tools)
         mode = "keyword"
     print(json.dumps({"mode": mode, "target": a.target, "results": res}, indent=2))
 
