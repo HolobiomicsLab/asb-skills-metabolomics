@@ -1,0 +1,17 @@
+{
+  "intent": "INT-ASB-042",
+  "source_repository": "HolobiomicsLab/asb-skill-collections",
+  "source_commit": "f554641c24ea7c60bbaa5322ec8a56b1a6bd30db",
+  "source_ref": "main after PR #58",
+  "paths": [
+    "collections/metabolomics",
+    "packs/metabolomics",
+    "staged-collections/metabolomics",
+    "LICENSE",
+    "LICENSING.md"
+  ],
+  "method": "git filter-repo --path (history preserved; blobs unchanged)",
+  "blob_count": 17627,
+  "listing_sha256": "461bd0981fbe479103d4db5c48afdf5e6af0c7543be08e41195f9fd3d9c2920e",
+  "generated_at": "2026-09-17T04:44:16Z"
+}

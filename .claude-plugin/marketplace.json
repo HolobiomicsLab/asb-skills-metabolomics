@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "name": "asb-skills-metabolomics",
+  "description": "ASB metabolomics skill collections: evidence-grounded scientific-agent skills and tool records from the AgenticScienceBuilder pipeline. Registry, tooling and governance: https://github.com/HolobiomicsLab/asb-skill-collections.",
+  "owner": {
+    "name": "Holobiomics Lab",
+    "url": "https://github.com/HolobiomicsLab",
+    "orcid_org": "https://orcid.org/0000-0001-6711-6719"
+  },
+  "publisher": {
+    "name": "Holobiomics Lab",
+    "url": "https://github.com/HolobiomicsLab",
+    "orcid_org": "https://orcid.org/0000-0001-6711-6719"
+  },
+  "plugins": [
+    {
+      "name": "metabolomics",
+      "source": "./collections/metabolomics/v2",
+      "description": "ASB Metabolomics. Computational metabolomics (predominantly LC-MS/MS; also LC-MS, GC-MS, NMR, mass-spectrometry imaging, ion mobility, lipidomics, multi-omics): spectral library matching, molecular networking, formula/structure annotation (SIRIUS), preprocessing, normalization, and statistics — 5,859 evidence-grounded skills over 909 tools, each derived from a peer-reviewed method paper. Router-shaped: one router skill is advertised, the corpus ships as data and is retrieved on demand, so installing costs negligible context. Includes a Perspicacité KB auto-grounding binder.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Holobiomics Lab",
+        "url": "https://github.com/HolobiomicsLab"
+      },
+      "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "metabolomics",
+        "mass-spectrometry",
+        "LC-MS",
+        "annotation",
+        "GNPS",
+        "SIRIUS",
+        "molecular-networking"
+      ]
+    },
+    {
+      "name": "metabolomics-ce-ms",
+      "source": "./packs/metabolomics/ce-ms",
+      "description": "ASB Metabolomics — CE-MS. CE-MS subset of the ASB metabolomics collection: 113 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Holobiomics Lab",
+        "url": "https://github.com/HolobiomicsLab"
+      },
+      "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "metabolomics",
+        "CE-MS",
+        "mass-spectrometry"
+      ]
+    },
+    {
+      "name": "metabolomics-direct-infusion",
+      "source": "./packs/metabolomics/direct-infusion",
+      "description": "ASB Metabolomics — direct-infusion-MS. direct-infusion-MS subset of the ASB metabolomics collection: 97 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Holobiomics Lab",
+        "url": "https://github.com/HolobiomicsLab"
+      },
+      "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "metabolomics",
+        "direct-infusion-MS",
+        "mass-spectrometry"
+      ]
+    },
+    {
+      "name": "metabolomics-gc-ms",
+      "source": "./packs/metabolomics/gc-ms",
+      "description": "ASB Metabolomics — GC-MS. GC-MS subset of the ASB metabolomics collection: 367 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Holobiomics Lab",
+        "url": "https://github.com/HolobiomicsLab"
+      },
+      "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "metabolomics",
+        "GC-MS",
+        "mass-spectrometry"
+      ]
+    },
+    {
+      "name": "metabolomics-ion-mobility",
+      "source": "./packs/metabolomics/ion-mobility",
+      "description": "ASB Metabolomics — ion-mobility-MS. ion-mobility-MS subset of the ASB metabolomics collection: 385 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Holobiomics Lab",
+        "url": "https://github.com/HolobiomicsLab"
+      },
+      "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "metabolomics",
+        "ion-mobility-MS",
+        "mass-spectrometry"
+      ]
+    },
+    {
+      "name": "metabolomics-lc-ms",
+      "source": "./packs/metabolomics/lc-ms",
+      "description": "ASB Metabolomics — LC-MS. LC-MS subset of the ASB metabolomics collection: 2617 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Holobiomics Lab",
+        "url": "https://github.com/HolobiomicsLab"
+      },
+      "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "metabolomics",
+        "LC-MS",
+        "mass-spectrometry"
+      ]
+    },
+    {
+      "name": "metabolomics-ms-generic",
+      "source": "./packs/metabolomics/ms-generic",
+      "description": "ASB Metabolomics — mass-spectrometry. mass-spectrometry subset of the ASB metabolomics collection: 804 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Holobiomics Lab",
+        "url": "https://github.com/HolobiomicsLab"
+      },
+      "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "metabolomics",
+        "mass-spectrometry",
+        "mass-spectrometry"
+      ]
+    },
+    {
+      "name": "metabolomics-ms-imaging",
+      "source": "./packs/metabolomics/ms-imaging",
+      "description": "ASB Metabolomics — MS-imaging. MS-imaging subset of the ASB metabolomics collection: 291 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Holobiomics Lab",
+        "url": "https://github.com/HolobiomicsLab"
+      },
+      "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "metabolomics",
+        "MS-imaging",
+        "mass-spectrometry"
+      ]
+    },
+    {
+      "name": "metabolomics-nmr",
+      "source": "./packs/metabolomics/nmr",
+      "description": "ASB Metabolomics — NMR. NMR subset of the ASB metabolomics collection: 276 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Holobiomics Lab",
+        "url": "https://github.com/HolobiomicsLab"
+      },
+      "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "metabolomics",
+        "NMR",
+        "mass-spectrometry"
+      ]
+    }
+  ]
+}
