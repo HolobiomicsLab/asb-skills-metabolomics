@@ -16,7 +16,7 @@ the governance documents and the community contribution loop live in
 |---|---|---|---|---|---|
 | `collections/metabolomics/v1` | ASB Metabolomics Skill Collection v1 | 1,485 | 292 | 2026-06-15 | not deposited |
 | `collections/metabolomics/v2` | ASB Metabolomics Skill Collection v2 (expansion) | 5,859 | 909 | 2026-06-28 | [10.5281/zenodo.20794027](https://doi.org/10.5281/zenodo.20794027) |
-| `collections/metabolomics/v3` | ASB Metabolomics Skill Collection v3 (consolidated rebuild, 20 composite workflows) | 11,830 | 1,989 | 2026-11-09 | pending (new version of the v2 record, concept [10.5281/zenodo.20794026](https://doi.org/10.5281/zenodo.20794026)) |
+| `collections/metabolomics/v3` | ASB Metabolomics Skill Collection v3 (consolidated rebuild, 20 composite workflows) | 11,830 | 1,989 | 2026-11-09 | [10.5281/zenodo.24054446](https://doi.org/10.5281/zenodo.24054446) |
 
 Per-technique packs under `packs/metabolomics/`: `ce-ms`, `direct-infusion`, `gc-ms`, `ion-mobility`, `lc-ms`, `ms-generic`, `ms-imaging`, `nmr`.
 
@@ -25,7 +25,7 @@ The tree shape is the one every ASB consumer resolves (`collections/<domain>/<ve
 
 ## Install
 
-Claude Code, from a local checkout (the route verified in the collection's `USAGE.md`):
+Claude Code, from a local checkout (commands are documented in the collection's `USAGE.md`):
 
 ```bash
 git clone https://github.com/HolobiomicsLab/asb-skills-metabolomics.git
@@ -34,6 +34,17 @@ claude plugin install metabolomics@asb-skills-metabolomics
 ```
 
 `metabolomics` installs the latest release (v3); `metabolomics-v2` pins the previous one.
+
+## Use
+
+- Whole domain: install `metabolomics`; only the router is advertised and leaves load on demand.
+- One task: `asbb install --skills a,b --collection metabolomics/v3 --repo <checkout> --runtime agents` (also `--skills-file` or `--query`).
+- EDAM: `python collections/metabolomics/v3/bin/search_skills.py --edam topic_3172 -k 3` searches offline.
+- End-to-end goal: add `--query "<goal>" --target workflows` to choose among 20 composite workflow outlines.
+- Exact threshold: read the leaf's evidence and ground it against its source paper; Zenodo archives include the Perspicacité binder.
+- Full routes, semantic cache and grounding: [`collections/metabolomics/v3/USAGE.md`](collections/metabolomics/v3/USAGE.md).
+- Cite the collection's version DOI and the source DOI of every skill used.
+- Technique packs are v2-only; EDAM sub-collections are planned, not released.
 
 ## Provenance
 

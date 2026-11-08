@@ -1,7 +1,7 @@
 ASBB release gate — strict mode
   scope      : content-policy checks and bound artifact integrity
-  collection : candidate
-  corpus     : corpus.yaml
+  collection : collections/metabolomics/v3
+  corpus     : collections/metabolomics/v3/corpus.yaml
   reuse      : agentic_science_builder.release.promote
   parser     : scripts.release_gate (gate-owned)
   checks:
@@ -17,12 +17,12 @@ ASBB release gate — strict mode
     PASS  layout_packaging (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
     PASS  skill_frontmatter (gates [10]) [hard-gate] — checked=11831 / skipped=0 / missing=0 / failed=0 [SKILL.md files]
     PASS  unit_closure (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
-    PASS  peer_review_claim (gates []) — checked=5 / skipped=0 / missing=0 / failed=0 [advertised text files]
+    PASS  peer_review_claim (gates []) — checked=6 / skipped=0 / missing=0 / failed=0 [advertised text files]
             coverage: not_peer_reviewed_dois=43
     PASS  leaf_text_floor (gates []) — checked=11830 / skipped=0 / missing=0 / failed=0 [leaf skills]
             coverage: leaves=11830, leaves_without_evidence_spans=11830, leaves_without_any_evidence=3836
     PASS  gate_input_files (gates []) [hard-gate] — checked=2 / skipped=0 / missing=0 / failed=0 [gate input files]
-    PASS  target_binding (gates []) [hard-gate] — checked=13892 / skipped=0 / missing=0 / failed=0 [payload files]
+    PASS  target_binding (gates []) [hard-gate] — checked=13894 / skipped=0 / missing=0 / failed=0 [payload files]
     PASS  catalogue_membership (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
             · [PASS] All 1 collection catalogues agree.
     PASS  collection_inventory (gates []) [hard-gate] — checked=5 / skipped=0 / missing=0 / failed=0 [inventory fields]
