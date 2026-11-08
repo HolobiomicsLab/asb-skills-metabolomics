@@ -42,3 +42,8 @@ file is preserved and every blob is unchanged. The receipt is under `receipts/sp
 ## Licences
 
 Code under Apache-2.0 (`LICENSE`); collection content under CC-BY-4.0 (`LICENSING.md`).
+
+## Contact
+
+Louis-Félix Nothias, Holobiomics Lab (CNRS, Université Côte d'Azur): louis-felix.nothias@univ-cotedazur.fr.
+Questions on a skill, a tool entry or a paper's use go to the issues of this repository first.
