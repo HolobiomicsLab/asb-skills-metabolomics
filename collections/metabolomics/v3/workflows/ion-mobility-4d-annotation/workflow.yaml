@@ -1,0 +1,167 @@
+schema_version: 0.3.0
+workflow_id: ion_mobility_4d_annotation
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess_4d
+  goal: 4D LC-IMS-MS/MS feature extraction (with CCS)
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - ion-mobility-mass-spectrometry-data-processing
+  - lc-ims-msms-feature-detection
+  - ion-mobility-ms-data-processing
+  - ion-mobility-separation-profile-matching
+  tools:
+  - DEIMoS
+  - MS-DIAL
+  - Python
+  - SVR
+  inputs:
+  - type: mzML
+  outputs:
+  - type: feature-table
+  - type: mgf
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-1c05017
+    - asb-paper-10-1021-acs-analchem-3c04290
+    dois:
+    - 10.1021/acs.analchem.1c05017
+    - 10.1021/acs.analchem.3c04290
+  after: []
+  candidate_tools:
+  - scipy
+  - Agilent ESI-L Tune Mix
+  - MOCCal
+  - NIST SRM 1950
+  - Waters SYNAPT XS
+  - poly-dl-alanine
+- id: ccs_calibration
+  goal: collision cross section calibration + filtering
+  edam_operation: http://edamontology.org/operation_3695
+  skills:
+  - collision-cross-section-calibration
+  - ion-mobility-ccs-calibration
+  - collision-cross-section-calculation
+  - reduced-collision-cross-section-correction
+  tools:
+  - DEIMoS
+  - Python
+  inputs:
+  - type: feature-table
+  outputs:
+  - type: feature-table
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-1c05017
+    - asb-paper-10-1093-bioinformatics-btab429
+    dois:
+    - 10.1021/acs.analchem.1c05017
+    - 10.1093/bioinformatics/btab429
+  after:
+  - preprocess_4d
+  candidate_tools:
+  - AutoCCS
+  - conda
+  - pip
+  - Python 3.7
+  inputs_from:
+    preprocess_4d:
+    - feature-table
+- id: ccs_library_match
+  goal: CCS-aware spectral / library annotation
+  edam_operation: http://edamontology.org/operation_3631
+  skills:
+  - ccs-based-compound-identification
+  - msms-longitudinal-fragment-profiling-scoring
+  tools:
+  - GNN-RT
+  - SigmaCCS
+  inputs:
+  - type: mgf
+  - type: feature-table
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-5c01414
+    - asb-paper-10-1038-s42004-023-00939-w
+    dois:
+    - 10.1021/acs.analchem.5c01414
+    - 10.1038/s42004-023-00939-w
+  after:
+  - preprocess_4d
+  - ccs_calibration
+  candidate_tools:
+  - 001-007.ipynb
+  - Jaccard similarity algorithm (optimized)
+  - Jupyter Notebook
+  - Python
+  - Python 3.8.13
+  inputs_from:
+    preprocess_4d:
+    - mgf
+    ccs_calibration:
+    - feature-table
+- id: networking
+  goal: (optional) molecular networking of IM-resolved features
+  edam_operation: http://edamontology.org/operation_3432
+  skills:
+  - feature-based-molecular-networking--7b025a18b065ae1c
+  - feature-based-molecular-networking--f72759146010fbc6
+  - modified-cosine-similarity-networking
+  - feature-based-molecular-networking--a1d4da5bf30d5f86
+  tools:
+  - GNPS
+  - MS-DIAL
+  - MZmine
+  - XCMS
+  inputs:
+  - type: mgf
+  - type: feature-table
+  - type: tsv
+  outputs:
+  - type: graphml
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-021-23953-9
+    - asb-paper-10-1101-2024-08-07-607073
+    - asb-paper-10-1101-2024-10-14-618269
+    - asb-paper-10-3390-metabo12121275
+    dois:
+    - 10.1038/s41467-021-23953-9
+    - 10.1101/2024.08.07.607073
+    - 10.1101/2024.10.14.618269
+    - 10.3390/metabo12121275
+  after:
+  - preprocess_4d
+  - ccs_calibration
+  - ccs_library_match
+  candidate_tools:
+  - CANOPUS
+  - ClassyFire
+  - ConCISE
+  - Python
+  - SIRIUS
+  - GNPS2
+  - ms1-id
+  - ChemWalker
+  - MSConvert
+  - MZmine 2.53
+  - SIRIUS 5.8.5
+  inputs_from:
+    preprocess_4d:
+    - mgf
+    ccs_calibration:
+    - feature-table
+    ccs_library_match:
+    - tsv
+  optional: true
+verification:
+  final_outputs:
+  - path: ccs_annotations.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

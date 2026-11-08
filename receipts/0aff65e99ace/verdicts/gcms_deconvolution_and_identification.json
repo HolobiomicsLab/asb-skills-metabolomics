@@ -1,0 +1,56 @@
+{
+  "workflow": "gcms_deconvolution_and_identification",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Deconvolves chimeric DDA LC-MS/MS spectra, which is a different acquisition modality from GC-MS EI deconvolution.",
+      "severity": "advisory",
+      "slug": "dda-spectra-deconvolution",
+      "stage": "deconvolution"
+    },
+    {
+      "check": "V4",
+      "detail": "Reconstructs pseudo-MS/MS spectra from LC-MS AIF chromatograms rather than deconvolving GC-MS EI chromatograms.",
+      "severity": "advisory",
+      "slug": "eic-peak-shape-correlation-deconvolution",
+      "stage": "deconvolution"
+    },
+    {
+      "check": "V4",
+      "detail": "Joins eRah compound identities and match factors to per-sample integrated areas but does not consolidate the upstream statistical results required by the stage goal.",
+      "severity": "advisory",
+      "slug": "gcms-quantification-table-generation",
+      "stage": "fusion"
+    },
+    {
+      "check": "V4",
+      "detail": "Calibrates LC-MS retention indices with N-alkyl-pyridinium standards for HPLC/UHPLC matching, which is a different chromatographic technique from the requested GC-MS RI calibration.",
+      "severity": "advisory",
+      "slug": "nalkylpyridinium-sulfonate-ri-calibration",
+      "stage": "retention_index"
+    },
+    {
+      "check": "V4",
+      "detail": "Matches LC-MS features to HPLC/UHPLC databases with N-alkyl-pyridinium indices rather than performing the requested GC-MS RI calibration and filtering.",
+      "severity": "advisory",
+      "slug": "retention-index-database-matching",
+      "stage": "retention_index"
+    },
+    {
+      "check": "V4",
+      "detail": "Runs univariate group tests with FDR correction on normalized feature matrices but omits the query's multivariate analysis.",
+      "severity": "advisory",
+      "slug": "metabolomics-univariate-group-comparison",
+      "stage": "statistics"
+    }
+  ],
+  "verdict": "pass"
+}

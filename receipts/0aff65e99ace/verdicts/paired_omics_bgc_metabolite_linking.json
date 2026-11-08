@@ -1,0 +1,42 @@
+{
+  "workflow": "paired_omics_bgc_metabolite_linking",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf parses existing antiSMASH annotations and does not detect BGCs from assembled genomes.",
+      "severity": "advisory",
+      "slug": "biosynthetic-gene-cluster-annotation-parsing",
+      "stage": "bgc_mine"
+    },
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf builds EI GC-MS networks rather than feature-based LC-MS/MS molecular families.",
+      "severity": "advisory",
+      "slug": "gcms-molecular-networking",
+      "stage": "mf_network"
+    },
+    {
+      "check": "V4",
+      "detail": "The primary leaf builds classic GNPS molecular networks but explicitly excludes the feature-based workflow requested by this stage.",
+      "severity": "advisory",
+      "slug": "gnps-molecular-networking-workflow",
+      "stage": "mf_network"
+    },
+    {
+      "check": "V4",
+      "detail": "The primary leaf reports rank comparisons for validated links rather than a consolidated provenance-bearing table of all scored links.",
+      "severity": "advisory",
+      "slug": "validated-link-rank-evaluation",
+      "stage": "report"
+    }
+  ],
+  "verdict": "pass"
+}

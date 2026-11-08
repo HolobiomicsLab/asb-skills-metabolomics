@@ -1,0 +1,220 @@
+schema_version: 0.3.0
+workflow_id: compound_class_annotation
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess
+  goal: raw mzML -> feature table + SIRIUS-flavour MS2 export
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - lc-msms-feature-detection
+  - mass-spectrometry-feature-detection
+  - lc-ms-feature-quantification-processing
+  - lc-ms-feature-detection--e300bd20a9eef616
+  tools:
+  - COSMIC
+  - CSI:FingerID
+  - SIRIUS 4
+  inputs:
+  - type: mzML
+  outputs:
+  - type: feature-table
+  - type: mgf
+    flavour: sirius
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acscentsci-3c00800
+    - asb-paper-10-1038-nprot-2017-122
+    - asb-paper-10-1038-s41587-021-01045-9
+    - asb-paper-10-1038-s41589-020-00677-3
+    dois:
+    - 10.1021/acscentsci.3c00800
+    - 10.1038/nprot.2017.122
+    - 10.1038/s41587-021-01045-9
+    - 10.1038/s41589-020-00677-3
+  after: []
+  candidate_tools:
+  - ClassyFire
+  - GNPS
+  - MZmine2
+  - QIIME 2
+  - Qemistree
+  - SIRIUS
+  - KNIME
+  - MS-FINDER
+  - OpenMS
+  - Optimus
+  - MZmine
+  - ProteoWizard
+  - matchms
+- id: formula
+  goal: MS2 spectra -> molecular formula (SIRIUS + ZODIAC re-ranking)
+  edam_operation: http://edamontology.org/operation_3860
+  skills:
+  - molecular-formula-reranking-zodiac
+  - molecular-formula-determination-isotope-fragmentation
+  - isotope-pattern-based-formula-ranking
+  - molecular-formula-gibbs-sampling
+  tools:
+  - CSI:FingerID
+  - QIIME 2
+  - Qemistree
+  - SIRIUS
+  - ZODIAC
+  - q2-qemistree
+  inputs:
+  - type: mgf
+    flavour: sirius
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41587-021-01045-9
+    - asb-paper-10-1038-s41589-020-00677-3
+    - asb-paper-10-1038-s41592-019-0344-8
+    - asb-paper-10-1038-s42256-020-00234-6
+    dois:
+    - 10.1038/s41587-021-01045-9
+    - 10.1038/s41589-020-00677-3
+    - 10.1038/s41592-019-0344-8
+    - 10.1038/s42256-020-00234-6
+  after:
+  - preprocess
+  candidate_tools:
+  - COSMIC
+  - SIRIUS 4
+  - sirius-client-openAPI
+  - OpenMS 2.4.0 (modified)
+  inputs_from:
+    preprocess:
+    - mgf:sirius
+- id: fingerprint
+  goal: formula + MS2 -> molecular fingerprint (CSI:FingerID)
+  edam_operation: http://edamontology.org/operation_3801
+  skills:
+  - csi-fingerprint-prediction
+  - substructure-fingerprint-prediction
+  - molecular-fingerprint-prediction
+  - csi-fingerid-fingerprint-prediction
+  tools:
+  - CSI:FingerID
+  - GNPS
+  - MZmine2
+  - QIIME 2
+  - Qemistree
+  - SIRIUS
+  - q2-qemistree
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41589-020-00677-3
+    - asb-paper-10-1038-s41592-022-01486-3
+    dois:
+    - 10.1038/s41589-020-00677-3
+    - 10.1038/s41592-022-01486-3
+  after:
+  - formula
+  candidate_tools:
+  - ZODIAC
+  - ClassyFire
+  - AWS CLI
+  - MSNovelist
+  inputs_from:
+    formula:
+    - tsv
+- id: classify
+  goal: 'fingerprint -> compound class (CANOPUS / NPClassifier: superclass/class/pathway)'
+  edam_operation: http://edamontology.org/operation_0224
+  skills:
+  - msms-spectra-canopus-class-prediction
+  - classyfire-npclassifier-ontology-mapping
+  - in-silico-class-prediction-interpretation
+  - molecular-fingerprint-encoding--7b81bc09ce5106ca
+  tools:
+  - CANOPUS
+  - ClassyFire
+  - GNPS
+  - NPClassifier
+  - NPLinker
+  - SIRIUS
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-jnatprod-1c00399
+    - asb-paper-10-1186-s40168-022-01444-3
+    - asb-paper-10-3390-metabo12121275
+    dois:
+    - 10.1021/acs.jnatprod.1c00399
+    - 10.1186/s40168-022-01444-3
+    - 10.3390/metabo12121275
+  after:
+  - fingerprint
+  candidate_tools:
+  - mibig_classifications
+  - ConCISE
+  - Python
+  - TensorFlow
+  - TensorFlow 2.3.0
+  - docker
+  - docker-compose
+  inputs_from:
+    fingerprint:
+    - tsv
+- id: consolidate
+  goal: consolidate formula + fingerprint + class into a class-annotated feature table
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - mass-spectrometry-feature-table-processing
+  - mass-spectrometry-feature-annotation-qc
+  - insilico-ms2-annotation-sirius-canopus
+  - batch-ms2-annotation-automation
+  tools:
+  - ConCISE
+  - GNPS
+  - Python
+  inputs:
+  - type: feature-table
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acscentsci-3c00800
+    - asb-paper-10-3390-metabo12121275
+    dois:
+    - 10.1021/acscentsci.3c00800
+    - 10.3390/metabo12121275
+  after:
+  - preprocess
+  - classify
+  candidate_tools:
+  - CANOPUS
+  - ClassyFire
+  - SIRIUS
+  - ENPKG
+  - ENPKG (04_enpkg_sirius_canopus)
+  - MZmine
+  - RDF
+  - matchms
+  - NPClassifier
+  inputs_from:
+    preprocess:
+    - feature-table
+    classify:
+    - tsv
+verification:
+  final_outputs:
+  - path: class_annotation_table.tsv
+    type: file
+provenance:
+  derived_from_workflows:
+  - coll_npclassscore_cq
+  - coll_molnetenhancer
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

@@ -1,0 +1,205 @@
+schema_version: 0.3.0
+workflow_id: sirius_denovo_structure_elucidation
+kind: composite-workflow
+techniques: []
+steps:
+- id: formula
+  goal: molecular formula determination (SIRIUS + ZODIAC)
+  edam_operation: http://edamontology.org/operation_3860
+  skills:
+  - molecular-formula-reranking-zodiac
+  - molecular-formula-determination-isotope-fragmentation
+  - molecular-formula-gibbs-sampling
+  - isotope-pattern-based-formula-ranking
+  tools:
+  - CSI:FingerID
+  - QIIME 2
+  - Qemistree
+  - SIRIUS
+  - ZODIAC
+  - q2-qemistree
+  inputs:
+  - type: mgf
+    flavour: sirius
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41587-021-01045-9
+    - asb-paper-10-1038-s41589-020-00677-3
+    - asb-paper-10-1038-s41592-019-0344-8
+    - asb-paper-10-1038-s42256-020-00234-6
+    dois:
+    - 10.1038/s41587-021-01045-9
+    - 10.1038/s41589-020-00677-3
+    - 10.1038/s41592-019-0344-8
+    - 10.1038/s42256-020-00234-6
+  after: []
+  candidate_tools:
+  - COSMIC
+  - SIRIUS 4
+  - OpenMS 2.4.0 (modified)
+  - sirius-client-openAPI
+- id: custom_db
+  goal: (optional) build a custom structure database for the search space
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - cheminformatics-structure-standardization
+  - cross-dataset-molecule-deduplication
+  - structure-database-size-validation
+  - structural-descriptor-calculation
+  tools:
+  - CDK
+  - COCONUT compiler
+  - MongoDB
+  - RDKit
+  inputs:
+  - type: smiles
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-023-39279-7
+    - asb-paper-10-1038-s41587-021-01045-9
+    - asb-paper-10-1038-s41592-025-02813-0
+    - asb-paper-10-1186-s13321-020-00478-9
+    dois:
+    - 10.1038/s41467-023-39279-7
+    - 10.1038/s41587-021-01045-9
+    - 10.1038/s41592-025-02813-0
+    - 10.1186/s13321-020-00478-9
+  after: []
+  candidate_tools:
+  - RDKit (v2022.03.3)
+  - COSMIC
+  - SIRIUS 4
+  - SmiLib v2.0
+  - Broad Institute Drug Repurposing Hub
+  - Dictionary of Natural Products
+  - DrugBank
+  - DrugCentral
+  - LOTUS
+  - Prefect 2
+  - PubChem
+  - pip
+  optional: true
+- id: structure
+  goal: structure prediction (CSI:FingerID + COSMIC)
+  edam_operation: http://edamontology.org/operation_3801
+  skills:
+  - fingerprint-based-candidate-re-ranking
+  - csi-fingerid-fingerprint-prediction
+  - structure-candidate-ranking-comparison
+  - confidence-score-fdr-estimation
+  tools:
+  - AWS CLI
+  - CSI:FingerID
+  - MSNovelist
+  - SIRIUS
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-8b04698
+    - asb-paper-10-1038-s41587-021-01045-9
+    - asb-paper-10-1038-s41592-022-01486-3
+    dois:
+    - 10.1021/acs.analchem.8b04698
+    - 10.1038/s41587-021-01045-9
+    - 10.1038/s41592-022-01486-3
+  after:
+  - formula
+  - custom_db
+  candidate_tools:
+  - HILIC-Q Exactive HF mass spectrometry
+  - COSMIC
+  - CSI:FingerID 1.2.0
+  - SIRIUS 4
+  inputs_from:
+    formula:
+    - tsv
+    custom_db:
+    - tsv
+- id: compound_class
+  goal: compound class prediction (CANOPUS / NPClassifier)
+  edam_operation: http://edamontology.org/operation_3803
+  skills:
+  - compound-class-prediction-canopus
+  - classyfire-npclassifier-ontology-mapping
+  - classyfire-superclass-frequency-tabulation
+  - classyfire-superclass-annotation-analysis
+  tools:
+  - CANOPUS
+  - MZmine
+  - Python 3.10
+  - SIRIUS
+  - microbeMASST
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-025-66060-9
+    - asb-paper-10-1038-s41564-023-01575-9
+    - asb-paper-10-1186-s40168-022-01444-3
+    dois:
+    - 10.1038/s41467-025-66060-9
+    - 10.1038/s41564-023-01575-9
+    - 10.1186/s40168-022-01444-3
+  after:
+  - structure
+  candidate_tools:
+  - ClassyFire
+  - GNPS
+  - NPClassifier
+  - NPLinker
+  - mibig_classifications
+  - MolNetEnhancer
+  - FIDDLE
+  - Orbitrap
+  - Q-TOF
+  inputs_from:
+    structure:
+    - tsv
+- id: confidence_filter
+  goal: filter annotations by ZODIAC / COSMIC confidence
+  edam_operation: http://edamontology.org/operation_3695
+  skills:
+  - zodiac-posterior-score-threshold-analysis
+  - annotation-accuracy-benchmarking
+  - mass-spectrometry-annotation-file-parsing
+  tools:
+  - OpenMS
+  - SIRIUS
+  - ZODIAC
+  inputs:
+  - type: tsv
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s42256-020-00234-6
+    dois:
+    - 10.1038/s42256-020-00234-6
+  after:
+  - structure
+  - compound_class
+  candidate_tools:
+  - OpenMS 2.4.0 (modified)
+  inputs_from:
+    structure:
+    - tsv
+    compound_class:
+    - tsv
+verification:
+  final_outputs:
+  - path: denovo_annotations.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

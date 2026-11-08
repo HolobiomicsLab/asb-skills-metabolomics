@@ -1,0 +1,28 @@
+{
+  "workflow": "ms_imaging_spatial_metabolomics",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Submits MALDI ion images to METASPACE and carries annotations into SpaceM but does not specify the stage's FDR control or isotope-scoring criteria.",
+      "severity": "advisory",
+      "slug": "maldi-metabolite-annotation-via-metaspace",
+      "stage": "spatial_annotation"
+    },
+    {
+      "check": "V4",
+      "detail": "Validates existing imaging annotations by intersecting formula-adduct identifiers with LC-MS/MS ground truth rather than annotating ion images.",
+      "severity": "advisory",
+      "slug": "molecular-identifier-mapping-between-imaging-and-lcmsms",
+      "stage": "spatial_annotation"
+    }
+  ],
+  "verdict": "pass"
+}

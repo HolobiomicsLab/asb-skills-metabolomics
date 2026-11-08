@@ -1,0 +1,42 @@
+{
+  "workflow": "statistics_and_biomarker_discovery",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "The leaf ranks metabolite features by random-forest importance, but does not compute the requested per-feature ROC/AUC, sensitivity, specificity or confidence statistics.",
+      "severity": "advisory",
+      "slug": "feature-importance-rank-scoring",
+      "stage": "biomarker"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf aggregates omics-predictor importances from metabolite regression models into a regulome network, rather than ranking metabolite biomarkers for class discrimination.",
+      "severity": "advisory",
+      "slug": "multi-feature-set-model-aggregation",
+      "stage": "biomarker"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf filters missing-value-heavy features, applies KNN imputation and QC-based SVR normalization, but omits the stage's blank removal, covariate-preserving batch correction and log/scaling steps.",
+      "severity": "advisory",
+      "slug": "svr-based-intensity-normalization",
+      "stage": "clean_normalize"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf fits PLS-DA and optional OPLS-DA models and exports VIP scores from labelled metabolomics matrices, covering the supervised component but not the requested PCA exploration.",
+      "severity": "advisory",
+      "slug": "pls-da-multivariate-modeling",
+      "stage": "multivariate"
+    }
+  ],
+  "verdict": "pass"
+}

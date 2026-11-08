@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-08T00:45:54.734776+00:00",
+  "generated_at": "2026-11-08T10:49:04.629892+00:00",
   "collection_dir": "candidate",
   "corpus_path": "corpus.yaml",
   "mode": "strict",
@@ -48,7 +48,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "7daa8587aafff4ed0d5a4293c85047660f8bf84042758421db3c8626f074730f",
+      "sha256": "e247b94b6419dbf72c0aa1cd161672bf8202837b9fc1792a5dec0dd9831eee55",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -58,6 +58,11 @@
           "path": ".claude-plugin/plugin.json",
           "bytes": 527,
           "sha256": "0459dcc61ea6f8b9d0b6ab20dd0bb588bcaf4f46455e2c393199420e126856bf"
+        },
+        {
+          "path": ".zenodo.json",
+          "bytes": 3211,
+          "sha256": "681084ac1963c78fd49935e3aab7fac08cd83dc6a76e912c1f42a037ab4f8745"
         },
         {
           "path": "CITATION.cff",
@@ -75,8 +80,8 @@
         },
         {
           "path": "collection.yaml",
-          "bytes": 525886,
-          "sha256": "19e10f4a6fff7e4dc92cad801e1879e6b465ee0f2031d3308cf9d23759940a5e"
+          "bytes": 525887,
+          "sha256": "54fe5c1b2421d53bc419aea56811558d00ae4102f9fec02464751dec522621e1"
         },
         {
           "path": "corpus.yaml",
@@ -116538,6 +116543,404 @@
           "path": "tools_index.json",
           "bytes": 2625425,
           "sha256": "9444f32621f878c1d2b4d00040b9d7e4aff13607fd82ac29e6bd527b0316ae33"
+        },
+        {
+          "path": "workflows",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router/SKILL.md",
+          "bytes": 7327,
+          "sha256": "6a90f1f1ab00a1b5aee23b35f54f98b5cb498c3ba6b96ec05cde3445aed93e05"
+        },
+        {
+          "path": "workflows/compound-class-annotation",
+          "directory": true
+        },
+        {
+          "path": "workflows/compound-class-annotation/README.md",
+          "bytes": 2042,
+          "sha256": "c28afe99ad926aa300ba2c9ae7995934270ed8fccf75ce6d4161a3526e303066"
+        },
+        {
+          "path": "workflows/compound-class-annotation/SKILL.md",
+          "bytes": 7388,
+          "sha256": "bd570ee7d45117d31e5caad886ef01c3e33ae1a595fcd78e17c217ea183858d6"
+        },
+        {
+          "path": "workflows/compound-class-annotation/workflow.yaml",
+          "bytes": 4922,
+          "sha256": "2c10e9e259fe7315fee3e0bd35a40360335efdd61ea1c11aea92ea89418a186e"
+        },
+        {
+          "path": "workflows/fbmn-annotation-propagation",
+          "directory": true
+        },
+        {
+          "path": "workflows/fbmn-annotation-propagation/README.md",
+          "bytes": 2492,
+          "sha256": "ed7fe829214a9ee5e9428ef523bda7eeea19bf7ce396368311ed5a63140e6c80"
+        },
+        {
+          "path": "workflows/fbmn-annotation-propagation/SKILL.md",
+          "bytes": 9268,
+          "sha256": "3e8c172f6021fa4f4b64db05e1409840dfd64382abf3b12449538c30eda08a3a"
+        },
+        {
+          "path": "workflows/fbmn-annotation-propagation/workflow.yaml",
+          "bytes": 6609,
+          "sha256": "9e9bc399d0613aed3af2cf56d9b40b35b420fe13e9ed7f381fb44107baea7c65"
+        },
+        {
+          "path": "workflows/gcms-deconvolution-and-identification",
+          "directory": true
+        },
+        {
+          "path": "workflows/gcms-deconvolution-and-identification/README.md",
+          "bytes": 1980,
+          "sha256": "dbf8c3c3b6ff45d417dea9e53b9e4f0e0a438afcf72b9e50b6cb1a6833afb3ab"
+        },
+        {
+          "path": "workflows/gcms-deconvolution-and-identification/SKILL.md",
+          "bytes": 6826,
+          "sha256": "2eee1738c79e35a45301dac834e1d5548566f572a239496fb2c8f07f0c5eee65"
+        },
+        {
+          "path": "workflows/gcms-deconvolution-and-identification/workflow.yaml",
+          "bytes": 4807,
+          "sha256": "30b4bdd03657ad677ba040730a9d1e54d2da8798b4e9a43f962a6a53e6889aac"
+        },
+        {
+          "path": "workflows/gnn-spectral-property-prediction",
+          "directory": true
+        },
+        {
+          "path": "workflows/gnn-spectral-property-prediction/README.md",
+          "bytes": 2013,
+          "sha256": "deeaf67511e3cc2ab0a5efd43f5f221c077cf7bf77b48f09b4679344263bf242"
+        },
+        {
+          "path": "workflows/gnn-spectral-property-prediction/SKILL.md",
+          "bytes": 8075,
+          "sha256": "2ae8a9ddc85a926c99d1ed7bc67fc5b06fc0f00bf8c0304dea6efffc055ade19"
+        },
+        {
+          "path": "workflows/gnn-spectral-property-prediction/workflow.yaml",
+          "bytes": 5295,
+          "sha256": "9ce9837107b7d2b240a7c0c82081d6493f7b7de883bed913c4dc8b18ab484251"
+        },
+        {
+          "path": "workflows/in-silico-biotransformation-prediction",
+          "directory": true
+        },
+        {
+          "path": "workflows/in-silico-biotransformation-prediction/README.md",
+          "bytes": 2286,
+          "sha256": "ae6e6b20ebfc17ab3561cc4e2e994b2749b7b42fcc1a5ccee22cb5595d5b6468"
+        },
+        {
+          "path": "workflows/in-silico-biotransformation-prediction/SKILL.md",
+          "bytes": 8555,
+          "sha256": "39df6c87c7db8de66b2487ebffb885c50fdbcd5bfa6bc18ecb3135d55b326f23"
+        },
+        {
+          "path": "workflows/in-silico-biotransformation-prediction/workflow.yaml",
+          "bytes": 5538,
+          "sha256": "e8d5e455ee54ef6408958a5f4d56c8f6b1bee9c709d908f1a6bd01073a30f0ec"
+        },
+        {
+          "path": "workflows/ion-mobility-4d-annotation",
+          "directory": true
+        },
+        {
+          "path": "workflows/ion-mobility-4d-annotation/README.md",
+          "bytes": 1697,
+          "sha256": "5589346d83359e76ac979d2bc9576f5d2700ed49ac25a59800ebfdb505cefa65"
+        },
+        {
+          "path": "workflows/ion-mobility-4d-annotation/SKILL.md",
+          "bytes": 5788,
+          "sha256": "586bb94d45f49053dd79a6132b47d3f68ce0a0f23fa710a13affea13be186ab3"
+        },
+        {
+          "path": "workflows/ion-mobility-4d-annotation/workflow.yaml",
+          "bytes": 3785,
+          "sha256": "5be85b3e54a3a19ec98eda5bc12eaa5a92175032e9be441dc4461c8b4224ead5"
+        },
+        {
+          "path": "workflows/lipidomics-lcms-annotation",
+          "directory": true
+        },
+        {
+          "path": "workflows/lipidomics-lcms-annotation/README.md",
+          "bytes": 2222,
+          "sha256": "8f3f9224bc856f0d9f5ae7cb877e7b981b7bfb96fb1b06c987163e79ec77d70b"
+        },
+        {
+          "path": "workflows/lipidomics-lcms-annotation/SKILL.md",
+          "bytes": 8382,
+          "sha256": "9483ac0308d03ed0a19ab0062e2b77a8b1d4a0c6e0fda8d3781554fd01321f7a"
+        },
+        {
+          "path": "workflows/lipidomics-lcms-annotation/workflow.yaml",
+          "bytes": 6370,
+          "sha256": "239d506728f7a08c151e5a88ae13663781eb9e7228820680d3b2662d6059ca6e"
+        },
+        {
+          "path": "workflows/masst-repository-scale-search",
+          "directory": true
+        },
+        {
+          "path": "workflows/masst-repository-scale-search/README.md",
+          "bytes": 1693,
+          "sha256": "9bda7a0055b88c82bb94900ce4ae03e17fffd35cc4a749aab8952089df3f00d0"
+        },
+        {
+          "path": "workflows/masst-repository-scale-search/SKILL.md",
+          "bytes": 6042,
+          "sha256": "985220c7c947e9821e4ad055eb1f0bf1dd64e45df32647ffd8fb337bea717678"
+        },
+        {
+          "path": "workflows/masst-repository-scale-search/workflow.yaml",
+          "bytes": 3699,
+          "sha256": "1be3135dfeaf93ba705e18c8bab07acd04832949bf22ca34ef365cdad713899d"
+        },
+        {
+          "path": "workflows/ms-imaging-spatial-metabolomics",
+          "directory": true
+        },
+        {
+          "path": "workflows/ms-imaging-spatial-metabolomics/README.md",
+          "bytes": 1851,
+          "sha256": "5950c2c40084ac7827b2d21b6c7c5ecb87dd49b2417ef0915004e962a456dff6"
+        },
+        {
+          "path": "workflows/ms-imaging-spatial-metabolomics/SKILL.md",
+          "bytes": 6138,
+          "sha256": "557b60b80962a4c35616a70347c08777adc2529971b910e0013a7e4984081890"
+        },
+        {
+          "path": "workflows/ms-imaging-spatial-metabolomics/workflow.yaml",
+          "bytes": 3876,
+          "sha256": "4a8b4e3a2d4d574bc085a833c7130dfd39175cbaa38e3595a1ca539ce724f7ba"
+        },
+        {
+          "path": "workflows/ms2lda-substructure-discovery",
+          "directory": true
+        },
+        {
+          "path": "workflows/ms2lda-substructure-discovery/README.md",
+          "bytes": 2147,
+          "sha256": "15642ba746a93f68ebf66fbf5b48e24066e4c7f992db73d3835dc886ebbe98b2"
+        },
+        {
+          "path": "workflows/ms2lda-substructure-discovery/SKILL.md",
+          "bytes": 7623,
+          "sha256": "08843dcb588c100d618e815375249084dc1e93d7c4fc3c6aa421c6f0c0583d8c"
+        },
+        {
+          "path": "workflows/ms2lda-substructure-discovery/workflow.yaml",
+          "bytes": 4759,
+          "sha256": "55767d24567497d70d52ce867a93a410388ae647eb102d302f3d3ae74486a382"
+        },
+        {
+          "path": "workflows/nmr-metabolomics-profiling",
+          "directory": true
+        },
+        {
+          "path": "workflows/nmr-metabolomics-profiling/README.md",
+          "bytes": 1783,
+          "sha256": "c1f66ac69da79cf7638741de52a98a350ebd6cd37879bd6da5246e85f5694df6"
+        },
+        {
+          "path": "workflows/nmr-metabolomics-profiling/SKILL.md",
+          "bytes": 6438,
+          "sha256": "b05d1cc091dcf53986dd12e93ba3300a0d4a0a4dc5c5cd8315421a84623ec0bb"
+        },
+        {
+          "path": "workflows/nmr-metabolomics-profiling/workflow.yaml",
+          "bytes": 4142,
+          "sha256": "9b4d3a645db5e0b32c69c06b435e033f7435a04256e56e1b66a8f70ac0e1ee03"
+        },
+        {
+          "path": "workflows/paired-omics-bgc-metabolite-linking",
+          "directory": true
+        },
+        {
+          "path": "workflows/paired-omics-bgc-metabolite-linking/README.md",
+          "bytes": 2277,
+          "sha256": "1b4ce1c6d7a3ab8cfe10501bf497692031f1fe1ea9dbb9056da4a1e4f0d5355d"
+        },
+        {
+          "path": "workflows/paired-omics-bgc-metabolite-linking/SKILL.md",
+          "bytes": 8677,
+          "sha256": "5fc74afe9f76f45ed46200151e1f682152877451bd1d93d31d9d529395f71caa"
+        },
+        {
+          "path": "workflows/paired-omics-bgc-metabolite-linking/workflow.yaml",
+          "bytes": 5702,
+          "sha256": "74c8946c1d5df171d0dd4c2a1cbc93041928da3f36513bbc47c4c4ca737c7d89"
+        },
+        {
+          "path": "workflows/pathway-functional-analysis",
+          "directory": true
+        },
+        {
+          "path": "workflows/pathway-functional-analysis/README.md",
+          "bytes": 1751,
+          "sha256": "504305cd2f6794be109d7572fa8bd87e2de5494aea54b5ab2c3c2eb3591ed727"
+        },
+        {
+          "path": "workflows/pathway-functional-analysis/SKILL.md",
+          "bytes": 6317,
+          "sha256": "0a7bf4751f8a62664a2a01b3937a0af8d5937ec55d4fc81d393905253538751b"
+        },
+        {
+          "path": "workflows/pathway-functional-analysis/workflow.yaml",
+          "bytes": 4088,
+          "sha256": "f95f72340aec11be1b32d5de1cc3ebee8a7d83aad776bc24c3aefab4c299ad97"
+        },
+        {
+          "path": "workflows/sirius-denovo-structure-elucidation",
+          "directory": true
+        },
+        {
+          "path": "workflows/sirius-denovo-structure-elucidation/README.md",
+          "bytes": 1971,
+          "sha256": "4d23efeb373ce9f510f1b7614e73697dd5761638b18e7e0caa517271f3a98509"
+        },
+        {
+          "path": "workflows/sirius-denovo-structure-elucidation/SKILL.md",
+          "bytes": 7085,
+          "sha256": "75e84e885c58e8e4d49ed136d1a531e4888d4e9142d289ef165578f01904e237"
+        },
+        {
+          "path": "workflows/sirius-denovo-structure-elucidation/workflow.yaml",
+          "bytes": 4717,
+          "sha256": "c5068701e08b940cf8060dae223da09af805349302df78126c0589f95a3dd161"
+        },
+        {
+          "path": "workflows/spec2vec-ml-embedding-annotation",
+          "directory": true
+        },
+        {
+          "path": "workflows/spec2vec-ml-embedding-annotation/README.md",
+          "bytes": 1816,
+          "sha256": "90b329d3899c49703168ac2afd8da9f23e558dc4c50db50c35d9aab8caf5ebdb"
+        },
+        {
+          "path": "workflows/spec2vec-ml-embedding-annotation/SKILL.md",
+          "bytes": 6413,
+          "sha256": "249d33df62210e309202e879e8f3309696d10d6e5bf189c6a3c9102e1e6e4d8f"
+        },
+        {
+          "path": "workflows/spec2vec-ml-embedding-annotation/workflow.yaml",
+          "bytes": 3561,
+          "sha256": "320de07fcd2add8ff35c03c7d357731ef7a2211a7ea80d57a74ad5fd6ca0a91c"
+        },
+        {
+          "path": "workflows/stable-isotope-tracing-fluxomics",
+          "directory": true
+        },
+        {
+          "path": "workflows/stable-isotope-tracing-fluxomics/README.md",
+          "bytes": 1960,
+          "sha256": "163dd72508be531ab147d56c89468d9ca2f4ae4bbebf76ac219a0ba16621fe13"
+        },
+        {
+          "path": "workflows/stable-isotope-tracing-fluxomics/SKILL.md",
+          "bytes": 6834,
+          "sha256": "fda6db316c93cc8ce1aa09929ca515fdb58521c485df732abc4839ea104f3add"
+        },
+        {
+          "path": "workflows/stable-isotope-tracing-fluxomics/workflow.yaml",
+          "bytes": 4546,
+          "sha256": "bcd9e621f4bf44c2932a882613c19c0aa62bf2ff703d729680986e32bc350840"
+        },
+        {
+          "path": "workflows/statistics-and-biomarker-discovery",
+          "directory": true
+        },
+        {
+          "path": "workflows/statistics-and-biomarker-discovery/README.md",
+          "bytes": 2020,
+          "sha256": "8b3fdff2f123012c04a32ebffa6b1151340bfe3855a8ba3050af0e26f763a29b"
+        },
+        {
+          "path": "workflows/statistics-and-biomarker-discovery/SKILL.md",
+          "bytes": 7090,
+          "sha256": "b1731d4895a35ffd78b6c94a11ab25118e6b94b3998b5b9a4b584d0d3f944378"
+        },
+        {
+          "path": "workflows/statistics-and-biomarker-discovery/workflow.yaml",
+          "bytes": 4962,
+          "sha256": "db6bd8557df1b46aaa8689aba47eaa6ba3b31a140744b44c160c071482f1cb08"
+        },
+        {
+          "path": "workflows/suspect-screening-exposomics",
+          "directory": true
+        },
+        {
+          "path": "workflows/suspect-screening-exposomics/README.md",
+          "bytes": 2047,
+          "sha256": "e3016d145f3437db2e16a8f0993f4f1ab0dea768ca45101854d7d247593f5a79"
+        },
+        {
+          "path": "workflows/suspect-screening-exposomics/SKILL.md",
+          "bytes": 7693,
+          "sha256": "1bcda5d2808462b04d29ae8a68e9fe3368f6d205ec9d0e95035a50e9d4490e8b"
+        },
+        {
+          "path": "workflows/suspect-screening-exposomics/workflow.yaml",
+          "bytes": 5363,
+          "sha256": "31129874671b90e1acac8c19d116f441fe1a05154d5779f78adab310d4db7823"
+        },
+        {
+          "path": "workflows/targeted-lcms-quantification",
+          "directory": true
+        },
+        {
+          "path": "workflows/targeted-lcms-quantification/README.md",
+          "bytes": 2087,
+          "sha256": "fafd61488546b788e834439bf991b7ee63aecac117edb0235c4190be06081ec0"
+        },
+        {
+          "path": "workflows/targeted-lcms-quantification/SKILL.md",
+          "bytes": 7214,
+          "sha256": "db5556d449fd41ba7e4adfcb55f4e613e6af3eec508e99005bfc87770fd72fe9"
+        },
+        {
+          "path": "workflows/targeted-lcms-quantification/workflow.yaml",
+          "bytes": 4667,
+          "sha256": "25f6a5e619fc5191ff72f6a464204dbd40717379b36a092f4986ab89ba32a10c"
+        },
+        {
+          "path": "workflows/untargeted-lcmsms-annotation",
+          "directory": true
+        },
+        {
+          "path": "workflows/untargeted-lcmsms-annotation/README.md",
+          "bytes": 2472,
+          "sha256": "940a355b34871c6730352ddec57bf520778ecb4fea906861067ca7387fe09275"
+        },
+        {
+          "path": "workflows/untargeted-lcmsms-annotation/SKILL.md",
+          "bytes": 9943,
+          "sha256": "14cffcd602f54e4c7635d35d20f5ff872bfb1ed7dab38c6628e52615dc21ffde"
+        },
+        {
+          "path": "workflows/untargeted-lcmsms-annotation/workflow.yaml",
+          "bytes": 7912,
+          "sha256": "5f2c10741de28bf8811a12955e48537a2b09dc9c7176c491dec6ece25baac5a5"
+        },
+        {
+          "path": "workflows/workflows_index.json",
+          "bytes": 21815,
+          "sha256": "6aa79ed4a8efe0531b63818e38e22ac663b5fef9a1a0ac6a5e1c12b813671786"
         }
       ],
       "excluded_paths": [
@@ -116556,7 +116959,7 @@
   "inventory": {
     "skills": 11830,
     "tools": 1989,
-    "workflows": 0,
+    "workflows": 20,
     "papers": 477,
     "dois": 477
   },
@@ -116565,7 +116968,6 @@
   "verification_scope": "content-policy checks and bound artifact integrity",
   "release_verified": true,
   "zero_item_checks": [
-    "composite_workflows",
     "layout_packaging",
     "unit_closure",
     "catalogue_membership",
@@ -116575,11 +116977,11 @@
   "blocking": false,
   "exit_code": 0,
   "summary_counts": {
-    "pass": 13,
+    "pass": 14,
     "warn": 1,
     "fail": 0,
     "uncheckable": 0,
-    "not_applicable": 2
+    "not_applicable": 1
   },
   "hard_gate_ids": [
     2,
@@ -116712,21 +117114,16 @@
     },
     {
       "name": "composite_workflows",
-      "status": "not_applicable",
+      "status": "pass",
       "gates": [],
       "hard_gate": false,
-      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.",
-      "n_findings": 1,
-      "details": [
-        {
-          "status": "not_applicable",
-          "message": "No workflows/ subtree; no workflow validation performed."
-        }
-      ],
+      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.  (20 workflows checked)",
+      "n_findings": 0,
+      "details": [],
       "scope": "composite workflows",
-      "required": false,
+      "required": true,
       "counts": {
-        "checked": 0,
+        "checked": 20,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -116804,7 +117201,7 @@
       "scope": "advertised text files",
       "required": false,
       "counts": {
-        "checked": 4,
+        "checked": 5,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -116864,7 +117261,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 13829,
+        "checked": 13892,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -116951,5 +117348,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "f9552562fd7ebeec92f100aa67e5b303a1ca0237dfe8ddb89bc9fcc9a70a3f70"
+  "receipt_sha256": "5f3acae5fa3b8b97893926e615ecd076e99eca557c1e0f2b29234233ede521bb"
 }

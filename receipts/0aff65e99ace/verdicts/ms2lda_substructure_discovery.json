@@ -1,0 +1,56 @@
+{
+  "workflow": "ms2lda_substructure_discovery",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Builds interactive visualizations and term rankings from an already trained LDA model rather than fitting the topic model.",
+      "severity": "advisory",
+      "slug": "lda-topic-model-visualization",
+      "stage": "lda_modeling"
+    },
+    {
+      "check": "V4",
+      "detail": "Renders existing Mass2Motif distributions as interactive bubble plots without learning motifs from a spectral corpus.",
+      "severity": "advisory",
+      "slug": "mass-spectrometry-fragmentation-motif-visualization",
+      "stage": "lda_modeling"
+    },
+    {
+      "check": "V4",
+      "detail": "Constructs the fragment-and-neutral-loss input corpus and document mapping for a downstream trainer rather than performing LDA inference.",
+      "severity": "advisory",
+      "slug": "msms-fragment-bag-of-words-corpus-construction",
+      "stage": "lda_modeling"
+    },
+    {
+      "check": "V4",
+      "detail": "Maps known-compound MS/MS peaks to fragments of a supplied molecular graph rather than assigning substructure labels to inferred Mass2Motifs.",
+      "severity": "advisory",
+      "slug": "combinatorial-fragmentation-substructure-annotation",
+      "stage": "motif_annotation"
+    },
+    {
+      "check": "V4",
+      "detail": "Annotates Mass2Motif pseudo-spectra by fragment-based reference matching but does not implement the requested MotifDB and Spec2Vec MAG procedure.",
+      "severity": "advisory",
+      "slug": "mass2motif-spectral-matching-annotation",
+      "stage": "motif_annotation"
+    },
+    {
+      "check": "V4",
+      "detail": "Retrieves and filters motif-document summaries and exports motif-mapped network tables but does not consolidate motif composition, substructure labels and confidence into the requested report.",
+      "severity": "advisory",
+      "slug": "ms2lda-motif-summary-parsing",
+      "stage": "report"
+    }
+  ],
+  "verdict": "pass"
+}

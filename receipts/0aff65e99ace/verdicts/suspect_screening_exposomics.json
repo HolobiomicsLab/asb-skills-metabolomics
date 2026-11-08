@@ -1,0 +1,70 @@
+{
+  "workflow": "suspect_screening_exposomics",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "The leaf transcribes software-review catalogue entries into a table of tool annotation levels, rather than evaluating confidence for measured compound hits.",
+      "severity": "advisory",
+      "slug": "annotation-confidence-level-mapping",
+      "stage": "confidence"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf labels software-catalogue tools by their annotation capability, rather than assigning evidence-based confidence levels to experimental suspect hits.",
+      "severity": "advisory",
+      "slug": "ms-annotation-confidence-level-assignment",
+      "stage": "confidence"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf detects, aligns and quantifies LC-MS features with UmetaFlow, but its procedure and outputs do not include the stage's MS2-spectrum export.",
+      "severity": "advisory",
+      "slug": "lcms-feature-detection-and-quantification",
+      "stage": "preprocess"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf removes tentative GC-MS identifications and aggregates component areas, rather than consolidating the LC-HRMS suspect-screening evidence required by this stage.",
+      "severity": "advisory",
+      "slug": "compound-decontamination-filtering",
+      "stage": "report"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf constructs consensus MS2 spectra and ranks structures with MVP, rather than merging existing suspect hits, rankings and confidence levels into a report.",
+      "severity": "advisory",
+      "slug": "consensus-spectrum-candidate-ranking",
+      "stage": "report"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf collapses redundant putative-annotation rows into a feature table, but does not describe joining suspect matches, structure rankings and identification-confidence evidence.",
+      "severity": "advisory",
+      "slug": "csv-table-consolidation",
+      "stage": "report"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf filters GC-MS library hits using match factors and database availability, rather than consolidating LC-HRMS suspect annotations, structure ranks and confidence levels.",
+      "severity": "advisory",
+      "slug": "gcms-hit-table-filtering",
+      "stage": "report"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf flags PFAS suspect-list hits by accurate mass with optional isotope-pattern checks, but does not perform the requested retention-time and MS2-fragment matching.",
+      "severity": "advisory",
+      "slug": "accurate-mass-suspect-screening",
+      "stage": "suspect_match"
+    }
+  ],
+  "verdict": "pass"
+}

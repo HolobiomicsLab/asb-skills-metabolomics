@@ -1,0 +1,28 @@
+{
+  "workflow": "spec2vec_ml_embedding_annotation",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf trains an embedding model but does not retrieve or annotate nearest library neighbors for query embeddings.",
+      "severity": "advisory",
+      "slug": "spectral-embedding-model-training",
+      "stage": "retrieve_annotate"
+    },
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf trains and precomputes embeddings but does not perform query-neighbor retrieval or emit annotations.",
+      "severity": "advisory",
+      "slug": "unsupervised-spectral-word2vec-embedding-training",
+      "stage": "retrieve_annotate"
+    }
+  ],
+  "verdict": "pass"
+}

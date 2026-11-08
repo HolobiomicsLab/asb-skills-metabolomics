@@ -1,0 +1,149 @@
+schema_version: 0.3.0
+workflow_id: spec2vec_ml_embedding_annotation
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess
+  goal: raw MS2 spectra -> filtered, normalized spectrum objects
+  edam_operation: http://edamontology.org/operation_3630
+  skills:
+  - mass-spectrometry-peak-list-processing
+  - spectral-data-cleaning-with-matchms
+  - matchms-spectral-filtering
+  - mass-spectra-peak-filtering--7b28be9064fa4584
+  tools:
+  - matchms
+  - pymzml
+  - pyteomics
+  - spectrum_utils
+  inputs:
+  - type: mzML
+  outputs:
+  - type: mgf
+    flavour: sirius
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-023-37446-4
+    - asb-paper-10-1186-s13321-021-00558-4
+    - asb-paper-10-21105-joss-02411
+    - asb-paper-10-21105-joss-08070
+    dois:
+    - 10.1038/s41467-023-37446-4
+    - 10.1186/s13321-021-00558-4
+    - 10.21105/joss.02411
+    - 10.21105/joss.08070
+  after: []
+  candidate_tools:
+  - MS2Query
+  - R
+  - Spectra
+  - SpectriPy
+  - reticulate
+  - MS2DeepScore
+- id: document_conversion
+  goal: filtered spectra -> peak/neutral-loss "documents" for word-embedding training
+  edam_operation: http://edamontology.org/operation_3357
+  skills:
+  - spectral-peak-to-word-tokenization
+  - msms-spectrum-document-conversion
+  - spectra-to-document-conversion
+  - peak-intensity-weighting-of-spectral-tokens
+  tools:
+  - matchms
+  - spec2vec
+  inputs:
+  - type: mgf
+    flavour: sirius
+  outputs:
+  - type: json
+    flavour: spectral-documents
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1371-journal-pcbi-1008724
+    dois:
+    - 10.1371/journal.pcbi.1008724
+  after:
+  - preprocess
+  candidate_tools:
+  - Word2Vec (gensim)
+  - gensim
+  inputs_from:
+    preprocess:
+    - mgf:sirius
+- id: embed
+  goal: peak/loss documents -> Spec2Vec Word2Vec embedding model + query-spectrum
+    embedding vectors
+  edam_operation: http://edamontology.org/operation_3800
+  skills:
+  - spectral-word-embedding-vector-aggregation
+  - word2vec-spectrum-embedding-training
+  - gensim-word2vec-model-inference
+  - spec2vec-spectral-embedding-scoring
+  tools:
+  - gensim
+  - matchms
+  - spec2vec
+  inputs:
+  - type: json
+    flavour: spectral-documents
+  outputs:
+  - type: json
+    flavour: spectrum-embeddings
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1371-journal-pcbi-1008724
+    dois:
+    - 10.1371/journal.pcbi.1008724
+  after:
+  - document_conversion
+  candidate_tools:
+  - Word2Vec
+  - spec2vec_gnps_data_analysis
+  - Word2Vec (gensim)
+  inputs_from:
+    document_conversion:
+    - json:spectral-documents
+- id: retrieve_annotate
+  goal: query embeddings -> nearest-neighbour library matches -> embedding-based annotation
+    table
+  edam_operation: http://edamontology.org/operation_3767
+  skills:
+  - spectral-library-matching--599e7745b946f0de
+  - spectral-embedding-model-training
+  - unsupervised-spectral-word2vec-embedding-training
+  tools:
+  - MS2DECIDE
+  - Spec2Vec
+  - gensim (Word2Vec)
+  - matchms
+  - spec2vec_gnps_data_analysis
+  inputs:
+  - type: json
+    flavour: spectrum-embeddings
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-023-37446-4
+    - asb-paper-10-1371-journal-pcbi-1008724
+    dois:
+    - 10.1038/s41467-023-37446-4
+    - 10.1371/journal.pcbi.1008724
+  after:
+  - embed
+  candidate_tools:
+  - gensim
+  - GNPS
+  - MS2Query
+  - scikit-learn
+  inputs_from:
+    embed:
+    - json:spectrum-embeddings
+verification:
+  final_outputs:
+  - path: spec2vec_embedding_annotation_table.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

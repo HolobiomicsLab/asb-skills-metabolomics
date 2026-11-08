@@ -1,0 +1,49 @@
+{
+  "workflow": "compound_class_annotation",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Runs the upstream batch formula, structure, and class annotation operation and emits records ready for integration rather than assembling the requested master feature table.",
+      "severity": "advisory",
+      "slug": "batch-ms2-annotation-automation",
+      "stage": "consolidate"
+    },
+    {
+      "check": "V4",
+      "detail": "Produces upstream per-feature SIRIUS formulas, structures, and CANOPUS classes for later integration rather than consolidating the named results into the requested feature table.",
+      "severity": "advisory",
+      "slug": "insilico-ms2-annotation-sirius-canopus",
+      "stage": "consolidate"
+    },
+    {
+      "check": "V4",
+      "detail": "Combines GNPS node data and CANOPUS predictions into per-feature consensus classes and sample-level profiles but omits the formula and fingerprint master-table join.",
+      "severity": "advisory",
+      "slug": "mass-spectrometry-feature-table-processing",
+      "stage": "consolidate"
+    },
+    {
+      "check": "V4",
+      "detail": "Reranks existing SIRIUS molecular-formula candidates with ZODIAC across a dataset rather than performing the whole SIRIUS-plus-ZODIAC formula stage.",
+      "severity": "advisory",
+      "slug": "molecular-formula-reranking-zodiac",
+      "stage": "formula"
+    },
+    {
+      "check": "V4",
+      "detail": "Detects LC-MS/MS features and merges fragmentation spectra per feature for SIRIUS, but does not supply the requested aligned quantification table and explicit SIRIUS MGF export.",
+      "severity": "advisory",
+      "slug": "lc-msms-feature-detection",
+      "stage": "preprocess"
+    }
+  ],
+  "verdict": "pass"
+}

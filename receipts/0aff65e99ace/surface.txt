@@ -1,1 +1,1 @@
-surface: 0 findings in 13829 files scanned (0 skipped undecodable)
+surface: 0 findings in 13892 files scanned (0 skipped undecodable)

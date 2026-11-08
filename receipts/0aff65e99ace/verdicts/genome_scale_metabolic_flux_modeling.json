@@ -1,0 +1,55 @@
+{
+  "workflow": "genome_scale_metabolic_flux_modeling",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Performs COMMIT community-dependent gap filling across member models but does not merge conflicting drafts into a single nonredundant consensus model.",
+      "severity": "advisory",
+      "slug": "community-aware-metabolic-modeling",
+      "stage": "community_consensus"
+    },
+    {
+      "check": "V4",
+      "detail": "Aggregates microbial boundary-metabolite fluxes for setting host exchange bounds, covering the extracellular-flux constraint portion of the multi-omics stage.",
+      "severity": "advisory",
+      "slug": "metabolite-exchange-flux-aggregation",
+      "stage": "constrain"
+    },
+    {
+      "check": "V4",
+      "detail": "Computes FVA reaction bounds and directionality classes but does not normalize and statistically compare the sampled distributions.",
+      "severity": "advisory",
+      "slug": "flux-variability-analysis-reaction-directionality",
+      "stage": "interpret_flux"
+    },
+    {
+      "check": "V4",
+      "detail": "Runs community FBA to produce exchange and dependency analyses rather than consolidating sampled and interpreted flux results with the community model.",
+      "severity": "advisory",
+      "slug": "constraint-based-flux-balance-analysis-of-community-models",
+      "stage": "report"
+    },
+    {
+      "check": "V4",
+      "detail": "Runs upstream sampling and Mann-Whitney classification to emit FFD files rather than assembling interpreted flux states with the consensus community model into one report.",
+      "severity": "blocking",
+      "slug": "constraint-based-flux-sampling-of-cell-relative-models",
+      "stage": "report"
+    },
+    {
+      "check": "V4",
+      "detail": "Runs an upstream metabolomics-based flux-prediction operation and emits RPS classes rather than assembling the requested combined flux-state report.",
+      "severity": "advisory",
+      "slug": "mass-action-law-flux-prediction-from-metabolomics",
+      "stage": "report"
+    }
+  ],
+  "verdict": "fail"
+}
