@@ -1,0 +1,22 @@
+name: iMAP
+slug: imap
+version_used: null
+edam_topics: []
+evidence_spans:
+- The backend R scripts are available at https://github.com/IP4M/R-scripts-for-iMAP.
+- Thus, iMAP (integrated Metabolomics Analysis Platform) was developed with extended functions, improved performances, and redesigned structures.
+- All four pipelines can be performed via iMAP workflow.
+- All four pipelines can be performed via iMAP workflow
+- iMAP provided a correlation analysis
+- iMAP is an R-based free web application.
+derived_from:
+- doi: 10.3389/fchem.2021.659656
+  title: 'iMAP: A Web Server for Metabolomics Data Integrative Analysis'
+source_repos:
+- https://github.com/IP4M/R-scripts-for-iMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IP4M/R-scripts-for-iMAP

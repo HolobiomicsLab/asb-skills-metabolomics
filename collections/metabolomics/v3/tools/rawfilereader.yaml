@@ -1,0 +1,19 @@
+name: RawFileReader
+slug: rawfilereader
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.0c00618
+  title: 'lcmsWorld: High-Performance 3D Visualization Software for Mass Spectrometry'
+- doi: 10.1101/2025.11.12.687968
+  title: 'MetaXtract: Extracting Metadata from Raw Files for FAIR Data Practices and Workflow Optimisation'
+source_repos:
+- https://github.com/PGB-LIV/lcmsWorld
+- https://github.com/Rappsilber-Laboratory/MetaXtract
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PGB-LIV/lcmsWorld

@@ -1,0 +1,31 @@
+name: Numba
+slug: numba
+version_used: 1.20.2
+edam_topics: []
+evidence_spans:
+- the preprocessing operations are parallelized to multiple CPU cores using just-in-time (JIT) compilation by Numba
+- 'The HD
+
+  encoding and distance computation functions on a GPU were implemented
+
+  using Numba and CuPy'
+- The spectrum preprocessing functionality was parallelized using the JIT compilation library Numba (version 1.20.2).15
+- Numba (Lam, Pitrou, & Seibert, 2015)
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00612
+  title: 'HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space'
+- doi: 10.21105/joss.02411
+  title: matchms - processing and similarity evaluation of mass spectrometry data.
+- doi: 10.1101/2024.10.14.618269
+  title: 'Structural annotation of full-scan MS data: A unified solution for LC-MS and MS imaging analyses'
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+source_repos:
+- https://github.com/wh-xu/Hyper-Spec
+- https://github.com/bittremieuxlab/falcon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wh-xu/Hyper-Spec

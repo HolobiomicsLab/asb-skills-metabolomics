@@ -1,0 +1,16 @@
+name: FIDDLE
+slug: fiddle
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41467-025-66060-9
+  title: 'FIDDLE: a deep learning method for chemical formulas prediction from tandem mass spectra'
+source_repos:
+- https://github.com/JosieHong/FIDDLE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JosieHong/FIDDLE

@@ -1,0 +1,206 @@
+schema_version: 0.3.0
+workflow_id: targeted_lcms_quantification
+kind: composite-workflow
+techniques: []
+steps:
+- id: integrate
+  goal: raw targeted LC-MS -> integrated peak areas for target transitions
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - lcms-targeted-peak-integration
+  - lcms-peak-integration-evaluation
+  - extracted-ion-chromatogram-peak-integration
+  - srm-hrms-targeted-chromatogram-extraction
+  tools:
+  - R
+  - TARDIS
+  inputs:
+  - type: mzML
+  outputs:
+  - type: feature-table
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-5c00567
+    - asb-paper-10-1021-acs-jproteome-9b00640
+    dois:
+    - 10.1021/acs.analchem.5c00567
+    - 10.1021/acs.jproteome.9b00640
+  after: []
+  candidate_tools:
+  - Panorama
+  - ProteoWizard
+  - Skyline
+  - HMDB
+  - METLIN
+  - MassBank
+  - ProteoWizard (pwiz)
+- id: calibrate
+  goal: calibrant standards -> calibration curves with internal-standard normalization
+  edam_operation: http://edamontology.org/operation_3435
+  skills:
+  - calibration-curve-regression-fitting--d8bf18a2234ca88f
+  - lc-ms-quantification-linear-quadratic-modeling
+  - calibration-curve-regression-fitting--c78126913238471b
+  - calibration-curve-regression-model-selection
+  tools:
+  - MultiQuant
+  - MultiQuant 3.0.3
+  - QuantyFey
+  - R 4.2.0
+  - Shiny
+  - Shiny 1.10.0
+  - renv 1.1.4
+  inputs:
+  - type: feature-table
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-aca-2025-344571
+    - asb-paper-10-1515-jib-2025-0047
+    dois:
+    - 10.1016/j.aca.2025.344571
+    - 10.1515/jib-2025-0047
+  after:
+  - integrate
+  candidate_tools:
+  - GetFeatistics
+  - R
+  inputs_from:
+    integrate:
+    - feature-table
+- id: quantify
+  goal: apply calibration -> absolute / relative concentrations per sample
+  edam_operation: http://edamontology.org/operation_3799
+  skills:
+  - external-calibration-conversion
+  - calibration-curve-based-quantification
+  - metabolite-calibration-curve-quantification
+  tools:
+  - MultiQuant
+  - MultiQuant 3.0.3
+  - QuantyFey
+  - R 4.2.0
+  inputs:
+  - type: feature-table
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-aca-2025-344571
+    - asb-paper-10-1021-acs-analchem-4c03513
+    - asb-paper-10-1515-jib-2025-0047
+    dois:
+    - 10.1016/j.aca.2025.344571
+    - 10.1021/acs.analchem.4c03513
+    - 10.1515/jib-2025-0047
+  after:
+  - integrate
+  - calibrate
+  candidate_tools:
+  - GetFeatistics
+  - R
+  - ggplot
+  - MSI-CE-MS
+  - NIST SRM-1950
+  - PeakMeister
+  inputs_from:
+    integrate:
+    - feature-table
+    calibrate:
+    - tsv
+- id: qc
+  goal: (optional) batch QC — response drift, QC-sample RSD, outlier flagging
+  edam_operation: http://edamontology.org/operation_3435
+  skills:
+  - batch-correction-effect-assessment
+  - lc-ms-batch-correction-with-pooled-qc-samples
+  - targeted-ms-quantification-qc-evaluation
+  - qc-sample-drift-evaluation
+  tools:
+  - R
+  - R-Shiny
+  - mzQuality
+  - mzQualityDashboard
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-aca-2025-344571
+    - asb-paper-10-1021-jasms-5c00073
+    - asb-paper-10-3390-metabo10100416
+    dois:
+    - 10.1016/j.aca.2025.344571
+    - 10.1021/jasms.5c00073
+    - 10.3390/metabo10100416
+  after:
+  - quantify
+  candidate_tools:
+  - SCIEX OS 2.1.6.59781
+  - QuantyFey
+  - R 4.2.0
+  - Python
+  - TidyMS
+  - scikit-learn
+  inputs_from:
+    quantify:
+    - tsv
+  optional: true
+- id: report
+  goal: consolidate concentrations + QC into a reportable quantification table
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - targeted-mrm-data-handling
+  - lc-ms-qc-rsd-calculation
+  - qc-metrics-report-generation
+  - qc-dashboard-metric-tabulation
+  - targeted-quantification-concentration-calculation
+  tools:
+  - R
+  - mzQuality
+  - mzQualityDashboard
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-aca-2025-344571
+    - asb-paper-10-1021-acs-analchem-4c00786
+    - asb-paper-10-1021-jasms-4c00146
+    - asb-paper-10-1021-jasms-5c00073
+    dois:
+    - 10.1016/j.aca.2025.344571
+    - 10.1021/acs.analchem.4c00786
+    - 10.1021/jasms.4c00146
+    - 10.1021/jasms.5c00073
+  after:
+  - quantify
+  - qc
+  candidate_tools:
+  - IonToolPack
+  - PeakQC
+  - MS-DIAL
+  - MSConvert
+  - Python
+  - Rapid QC-MS
+  - MultiQuant
+  - QuantyFey
+  - R 4.2.0
+  - Shiny
+  inputs_from:
+    quantify:
+    - tsv
+verification:
+  final_outputs:
+  - path: quantification_report.tsv
+    type: file
+provenance:
+  derived_from_workflows:
+  - coll_fbmn_stats_cq
+  - coll_peakqc_cq
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

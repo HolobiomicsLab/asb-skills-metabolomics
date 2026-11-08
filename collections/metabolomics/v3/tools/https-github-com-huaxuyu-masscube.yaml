@@ -1,0 +1,19 @@
+name: https://github.com/huaxuyu/masscube
+slug: https-github-com-huaxuyu-masscube
+version_used: null
+edam_topics: []
+evidence_spans:
+- MassCube is available at https://github.com/huaxuyu/masscube for direct use or implementation into larger applications
+- '- **Source code:** https://github.com/huaxuyu/masscube/'
+- along with step-by-step instructions on our project website (https://huaxuyu.github.io/masscubedocs/docs/quickstart/)
+derived_from:
+- doi: 10.1038/s41467-025-60640-5
+  title: MassCube improves accuracy for metabolomics data processing from raw files to phenotype classifiers
+source_repos:
+- https://github.com/huaxuyu/masscube
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/huaxuyu/masscube

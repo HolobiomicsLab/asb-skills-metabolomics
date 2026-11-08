@@ -1,0 +1,17 @@
+name: MongoDB (mongo database)
+slug: mongodb-mongo-database
+version_used: null
+edam_topics: []
+evidence_spans:
+- 12 million new compounds being generated and inserted into a mongo database in approximately nine hours
+derived_from:
+- doi: 10.1186/s12859-023-05149-8
+  title: 'Pickaxe: a Python library for the prediction of novel metabolic reactions'
+source_repos:
+- https://github.com/tyo-nu/pickaxe_paper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tyo-nu/pickaxe_paper

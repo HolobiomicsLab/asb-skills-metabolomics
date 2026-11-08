@@ -1,0 +1,35 @@
+name: C++
+slug: c
+version_used: null
+edam_topics: []
+evidence_spans:
+- These algorithms were implemented in C++ and accessed in R via Rcpp
+- ANN-SoLo is implemented in Python and C++.
+- the low-level C++ API of OpenTIMS [29] for data access
+derived_from:
+- doi: 10.1021/acs.analchem.5c03207
+  title: 'Aerith: Visualization and Annotation of Isotopic Enrichment Patterns of Peptides and Metabolites with Stable Isotope Labeling from Proteomics and Metabolomics'
+- doi: 10.1021/acs.jproteome.8b00359
+  title: Fast Open Modification Spectral Library Searching through Approximate Nearest Neighbor Indexing
+- doi: 10.1021/acs.analchem.1c01309
+  title: 'EVA: Evaluation of Metabolic Feature Fidelity Using a Deep Learning Model Trained With Over 25000 Extracted Ion Chromatograms'
+- doi: 10.1186/s12859-022-04833-5
+  title: Locality-sensitive hashing enables efficient and scalable signal classification in high-throughput mass spectrometry raw data
+- doi: 10.1038/nmeth.3959
+  title: 'OpenMS: a flexible open-source software platform for mass spectrometry data analysis'
+- doi: 10.1101/2020.10.30.362533
+  title: rawR - Direct access to raw mass spectrometry data in R
+source_repos:
+- https://github.com/thepanlab/Aerith
+- https://github.com/bittremieux/ANN-SoLo
+- https://github.com/bittremieux-lab/ANN-SoLo
+- https://github.com/HuanLab-backup/EVA
+- https://github.com/hildebrandtlab/mzBucket
+- https://github.com/OpenMS/OpenMS
+- https://github.com/fgcz/rawrr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thepanlab/Aerith

@@ -1,0 +1,21 @@
+name: ISDB-LOTUS
+slug: isdb-lotus
+version_used: null
+edam_topics: []
+evidence_spans:
+- an in silico database of natural products (ISDB-LOTUS)
+- aggregate the outputs of three widely used annotation tools (GNPS, Sirius, and ISDB‐LOTUS)
+derived_from:
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.1002/cmtd.202400088
+  title: 'MS2DECIDE: Aggregating Multiannotated Tandem Mass Spectrometry Data with Decision Theory Enhances Natural Products Prioritization'
+source_repos:
+- https://github.com/enpkg/enpkg_full
+- https://github.com/MejriY/MS2DECIDE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enpkg/enpkg_full

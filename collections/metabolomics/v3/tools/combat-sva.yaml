@@ -1,0 +1,17 @@
+name: ComBat (sva)
+slug: combat-sva
+version_used: null
+edam_topics: []
+evidence_spans:
+- It can be combined with down-stream batch effect correction methods to further correct for between-batch intensity differences
+derived_from:
+- doi: 10.1038/s41598-020-70850-0
+  title: Addressing the batch effect issue for LC/MS metabolomics data in data preprocessing
+source_repos:
+- https://github.com/tianwei-yu/apLCMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tianwei-yu/apLCMS

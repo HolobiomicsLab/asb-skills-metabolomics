@@ -1,0 +1,17 @@
+name: kmeans
+slug: kmeans
+version_used: null
+edam_topics: []
+evidence_spans:
+- new_clustering_vector <- kmeans(peak_matrix$intensity, centers = 7)$cluster
+derived_from:
+- doi: 10.3390/metabo9080162
+  title: 'rMSIKeyIon: An Ion Filtering R Package for Untargeted Analysis of Metabolomic LDI-MS Images'
+source_repos:
+- https://github.com/LlucSF/rMSIKeyIon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LlucSF/rMSIKeyIon

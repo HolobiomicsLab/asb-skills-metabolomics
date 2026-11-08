@@ -1,0 +1,17 @@
+name: SimStitch
+slug: simstitch
+version_used: null
+edam_topics: []
+evidence_spans:
+- errors from the SimStitch tools along the lines of 'Invalid file identifier'
+derived_from:
+- doi: 10.1186/s13742-016-0115-8
+  title: 'Galaxy-M: a Galaxy workflow for processing and analyzing direct infusion and liquid chromatography mass spectrometry-based metabolomics data'
+source_repos:
+- https://github.com/Viant-Metabolomics/Galaxy-M
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Viant-Metabolomics/Galaxy-M

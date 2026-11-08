@@ -1,0 +1,20 @@
+name: hRUV
+slug: hruv
+version_used: null
+edam_topics: []
+evidence_spans:
+- a novel workflow to remove unwanted variation in a hierarchical structure (hRUV)
+- The hRUV method is accessible as an R package
+- The hRUV method is accessible as an R package and also as a shiny application at https://shiny.maths.usyd.edu.au/hRUV/.
+- An introduction to hRUV package
+derived_from:
+- doi: 10.1101/2020.12.21.423723
+  title: 'hRUV: Hierarchical approach to removal of unwanted variation for large-scale metabolomics data'
+source_repos:
+- https://github.com/SydneyBioX/hRUV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SydneyBioX/hRUV

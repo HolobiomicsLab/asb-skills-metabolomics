@@ -1,0 +1,51 @@
+name: Jupyter notebook
+slug: jupyter-notebook
+version_used: null
+edam_topics: []
+evidence_spans:
+- Launch the reproducible_simulations.ipynb Jupyter notebook and run the code cells
+- Our review is accompanied by a Jupyter notebook which illustrates the discussed concepts and provides a practical tool for applying ICA to the analysis of cancer omics datasets.
+- Jupyter Notebook containing example of Independent Component Analysis (ICA)
+- Our review is accompanied by a Jupyter notebook which illustrates the discussed concepts and provides a practical tool for applying ICA
+- the use of Jupyter notebooks (https://jupyter.org/) is strongly encouraged
+derived_from:
+- doi: 10.1021/acs.jnatprod.7b00737
+  title: 'Bioactivity-Based Molecular Networking for the Discovery
+
+    of Drug Leads in Natural Product Bioassay-Guided Fractionation'
+- doi: 10.1101/2022.08.09.503345
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1021/acs.analchem.2c03491
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1021/acs.analchem.5c01414
+  title: Longitudinal Fragment Profiles Based on Multi-Collision Energy Tandem Mass Spectra Improve the Accuracy of Metabolite Identification in Untargeted Metabolomics
+- doi: 10.1021/acs.jproteome.4c00854
+  title: 'MSConnect: Open-Source, End-to-End Platform for Automated Mass Spectrometry Data Management, Analysis, and Visualization'
+- doi: 10.1371/journal.pcbi.1009105
+  title: 'Pathway analysis in metabolomics: Recommendations for the use of over-representation analysis'
+- doi: 10.48550/arxiv.2502.05114
+  title: ''
+- doi: 10.3390/ijms20184414
+  title: Independent Component Analysis for Unraveling the Complexity of Cancer Omics Datasets
+- doi: 10.1038/s41598-020-70259-9
+  title: 'liputils: a Python module to manage individual fatty acid moieties from complex lipids'
+- doi: 10.1002/anie.202507483
+  title: Quantum Chemistry Calculation‐Assisted Large‐Scale Collision Cross Section Prediction Empowers Derivatization‐Enhanced Multidimensional Metabolomics
+source_repos:
+- https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks
+- https://github.com/facundof2016/CCSP2.0
+- https://github.com/yourusername/LongitudinalProf-MSMS-Method.git
+- https://github.com/academicCQMD/LongitudinalProf-MSMS-Method
+- https://github.com/RTKlab-BYU/MSConnect
+- https://github.com/cwieder/metabolomics-ORA
+- https://github.com/hejjack/SpecTUS
+- https://github.com/ljocha/spectus-demo
+- https://github.com/sysbio-curie/ICA-in-Cancer-research-review-materials
+- https://github.com/Stemanz/liputils
+- https://github.com/Chen-micslab/QCCAssisted4DSterol
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks

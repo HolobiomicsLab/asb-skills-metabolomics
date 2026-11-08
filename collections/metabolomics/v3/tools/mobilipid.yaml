@@ -1,0 +1,22 @@
+name: MobiLipid
+slug: mobilipid
+version_used: null
+edam_topics: []
+evidence_spans:
+- MobiLipid is a R markdown enabling CCS quality control for IM-MS lipidomics by internal standardization
+- enabling CCS quality control for IM-MS
+- MobiLipid is a R markdown enabling CCS quality control for IM-MS
+- we introduce MobiLipid, a novel tool facilitating the CCS quality control of IM-MS lipidomics workflows by internal standardization
+- MobiLipid is a R markdown enabling CCS quality control for IM-MS lipidomics by internal standardization.
+- MobiLipid allows for the correction of CCS
+derived_from:
+- doi: 10.1021/acs.analchem.4c01253
+  title: 'MobiLipid: A Tool for Enhancing CCS Quality Control of Ion Mobility–Mass Spectrometry Lipidomics by Internal Standardization'
+source_repos:
+- https://github.com/FelinaHildebrand/MobiLipid
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FelinaHildebrand/MobiLipid

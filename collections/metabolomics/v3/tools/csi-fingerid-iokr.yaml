@@ -1,0 +1,17 @@
+name: CSI:FingerID IOKR
+slug: csi-fingerid-iokr
+version_used: null
+edam_topics: []
+evidence_spans:
+- Scores of MetFrag, MAGMa+, CFM-ID, CSI:FingerID (original) and CSI:FingerID IOKR were downloaded from the CASMI 2016 results web page
+derived_from:
+- doi: 10.1038/s41587-021-01045-9
+  title: High-confidence structural annotation of metabolites absent from spectral libraries
+source_repos:
+- https://github.com/sirius-ms/sirius
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sirius-ms/sirius

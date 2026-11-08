@@ -1,0 +1,21 @@
+name: G.A.M.E.
+slug: g-a-m-e
+version_used: null
+edam_topics: []
+evidence_spans:
+- The csccp-solver-cli used the DP algorithm (-v idp), implemented in C++ (-v cc).
+- we designed a “compute unified device architecture” (CUDA)-based GPU-accelerated mixture elucidator (G.A.M.E.)
+- The system architecture of G.A.M.E. is identical to the DP algorithm in previous study other than the GPU parallel programming in G.A.M.E.
+- GPU-accelerated mixture elucidator (G.A.M.E.)
+- CUDA)-based GPU-accelerated mixture elucidator (G.A.M.E.) that considerably improves the performance of the DP
+derived_from:
+- doi: 10.1186/s13321-017-0238-7
+  title: 'G.A.M.E.: GPU-accelerated mixture elucidator'
+source_repos:
+- https://github.com/CMDM-Lab/GAME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CMDM-Lab/GAME

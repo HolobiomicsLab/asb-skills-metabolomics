@@ -1,0 +1,19 @@
+name: PRIMA Panel
+slug: prima-panel
+version_used: null
+edam_topics: []
+evidence_spans:
+- the authors developed the PRIMA Panel, an open-source R Shiny tool
+- Here, we introduce the PRIMA Panel (Pre-Analytical Investigator for NMR-based Metabolomics). The PRIMA Panel, an open-source tool, was created to allow researchers to directly assess the
+- Here, we introduce the PRIMA Panel (Pre-Analytical Investigator for NMR-based Metabolomics).
+derived_from:
+- doi: 10.1021/acs.analchem.4c04938
+  title: Validating Centralized Biobanking Workflows for NMR Metabolomics Using the PRIMA Panel
+source_repos:
+- https://github.com/funkam/PRIMA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/funkam/PRIMA

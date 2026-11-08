@@ -1,0 +1,16 @@
+name: SMPDB
+slug: smpdb
+version_used: null
+edam_topics: []
+evidence_spans:
+- with pathways based on the Small Molecule Pathway Database (SMPDB) [31], for the compounds found in more than two sources.
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

@@ -1,0 +1,18 @@
+name: https://github.com/liningtonlab/npanalyst
+slug: https-github-com-liningtonlab-npanalyst
+version_used: null
+edam_topics: []
+evidence_spans:
+- the underlying processing algorithms are freely available as a command line tool via a Docker container at https://github.com/liningtonlab/npanalyst
+- Detailed instructions for data normalization are included in the Web site documentation (https://liningtonlab.github.io/npanalyst_documentation/).
+derived_from:
+- doi: 10.1021/acscentsci.1c01108
+  title: 'NP Analyst: An Open Online Platform for Compound Activity Mapping'
+source_repos:
+- https://github.com/liningtonlab/npanalyst
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liningtonlab/npanalyst

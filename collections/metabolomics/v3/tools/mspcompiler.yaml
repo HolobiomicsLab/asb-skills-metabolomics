@@ -1,0 +1,21 @@
+name: mspcompiler
+slug: mspcompiler
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'we developed a R package, mspcompiler, to clean and compile various MS/MS libraries for identification
+
+  in MS-DIAL'
+- we developed a R package, mspcompiler, to clean and compile various MS/MS libraries for identification
+- we developed a R package, mspcompiler, to clean and compile various MS/MS libraries for identification in MS-DIAL
+derived_from:
+- doi: 10.1021/acs.analchem.2c05389
+  title: Combination of Structure Databases, In Silico Fragmentation, and MS/MS Libraries for Untargeted Screening of Non-Volatile Migrants from Recycled High-Density Polyethylene Milk Bottles
+source_repos:
+- https://github.com/QizhiSu/mspcompiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QizhiSu/mspcompiler

@@ -1,0 +1,22 @@
+name: Python 3.8
+slug: python-3-8
+version_used: '3.8'
+edam_topics: []
+evidence_spans:
+- conda create -n deploy python=3.8
+derived_from:
+- doi: 10.1038/s41586-023-06906-8
+  title: Reverse metabolomics for the discovery of chemical structures from humans
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation
+- https://github.com/bittremieux/falcon
+- https://github.com/bittremieux/falcon_notebooks
+- https://github.com/bittremieuxlab/falcon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation

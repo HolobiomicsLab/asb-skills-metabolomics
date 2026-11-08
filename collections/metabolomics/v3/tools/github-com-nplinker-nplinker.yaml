@@ -1,0 +1,19 @@
+name: github.com/NPLinker/nplinker
+slug: github-com-nplinker-nplinker
+version_used: null
+edam_topics: []
+evidence_spans:
+- (1/5) code repository              | [![github repo badge](https://img.shields.io/badge/github-nplinker-000.svg?color=blue)](https://github.com/NPLinker/nplinker)
+- pip install git+https://github.com/nplinker/nplinker@dev
+- https://github.com/github-changelog-generator/github-changelog-generator
+derived_from:
+- doi: 10.1371/journal.pcbi.1008920
+  title: Ranking microbial metabolomic and genomic links in the NPLinker framework using complementary scoring functions
+source_repos:
+- https://github.com/NPLinker/nplinker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NPLinker/nplinker

@@ -1,0 +1,280 @@
+schema_version: 0.3.0
+workflow_id: lipidomics_lcms_annotation
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess
+  goal: raw lipidomics mzML -> aligned feature table + MS/MS export
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - snakemake-workflow-rule-execution
+  - targeted-lipidomics-transition-list-processing
+  - lipidomics-peak-table-filtering
+  - lipidomics-batch-effect-correction
+  - mass-spectra-preprocessing
+  tools:
+  - MS2Query
+  - OpenMS
+  - SIRIUS
+  - Snakemake
+  - ThermoRawFileParser
+  - UmetaFlow
+  - pyOpenMS
+  inputs:
+  - type: mzML
+  outputs:
+  - type: feature-table
+  - type: mgf
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-4c00359
+    - asb-paper-10-1038-s41467-020-15960-z
+    - asb-paper-10-1093-bioinformatics-btac706
+    - asb-paper-10-1101-2024-10-07-617094
+    - asb-paper-10-1186-s13321-023-00724-w
+    dois:
+    - 10.1021/acs.analchem.4c00359
+    - 10.1038/s41467-020-15960-z
+    - 10.1093/bioinformatics/btac706
+    - 10.1101/2024.10.07.617094
+    - 10.1186/s13321-023-00724-w
+  after: []
+  candidate_tools:
+  - LipidCreator
+  - MSStats
+  - Skyline
+  - Compound Discoverer
+  - LipiDex 2
+  - LipiDex 2 Degreaser
+  - LipiDex 2 Spectrum Searcher
+  - ADViSELipidomics
+  - LIQUID
+  - LipidSearch
+  - Shiny
+  - LipiDetective
+  - h5py
+- id: normalize
+  goal: normalize + batch-correct the lipid feature table
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - combat-batch-effect-correction
+  - lc-ms-feature-table-batch-correction
+  - qc-sample-based-feature-normalization
+  - batch-integration-of-ms-omics-data
+  tools:
+  - ComBat (sva)
+  - R
+  - apLCMS
+  inputs:
+  - type: feature-table
+  outputs:
+  - type: feature-table
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-aca-2018-08-002
+    - asb-paper-10-1038-s41598-020-70850-0
+    - asb-paper-10-1371-journal-pcbi-1011912
+    dois:
+    - 10.1016/j.aca.2018.08.002
+    - 10.1038/s41598-020-70850-0
+    - 10.1371/journal.pcbi.1011912
+  after:
+  - preprocess
+  candidate_tools:
+  - Python
+  - Python 3
+  - pandas
+  - pcpfm
+  - pyComBat
+  - ProteoWizard
+  - Skyline
+  - XCMS
+  - random forest
+  - statTarget
+  inputs_from:
+    preprocess:
+    - feature-table
+- id: lipid_identification
+  goal: identify lipids (class + species) from MS/MS fragmentation
+  edam_operation: http://edamontology.org/operation_3803
+  skills:
+  - lipidblast-in-silico-spectral-matching
+  - lipid-fragment-library-matching
+  - rule-based-lipid-identification
+  - ms2-ms3-fragment-peak-annotation
+  tools:
+  - CAMERA
+  - GNPS
+  - LipidBlast
+  - METLIN
+  - MS-DIAL
+  - MetaboAnnotatoR
+  - R
+  - RAMClustR
+  inputs:
+  - type: mgf
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-1c03032
+    - asb-paper-10-1021-acs-analchem-4c00359
+    - asb-paper-10-1186-s12859-017-1744-3
+    dois:
+    - 10.1021/acs.analchem.1c03032
+    - 10.1021/acs.analchem.4c00359
+    - 10.1186/s12859-017-1744-3
+  after:
+  - preprocess
+  candidate_tools:
+  - xcms
+  - LipidMatch
+  - LipidMatch (GarrettLab-UF GitHub)
+  - MSConvert
+  - LipiDex 2
+  - LipiDex 2 Lipid Spectral Annotator
+  - Spectrum Searcher
+  inputs_from:
+    preprocess:
+    - mgf
+- id: rule_validation
+  goal: validate lipid annotations by adduct / retention-time / class rules
+  edam_operation: http://edamontology.org/operation_3695
+  skills:
+  - lipid-feature-qc-filtering
+  - lipid-class-adduct-filtering
+  - lipidomics-qc-filtering
+  - adduct-aware-lipid-library-querying
+  tools:
+  - Compound Discoverer
+  - LipiDex 2
+  - LipiDex 2 Degreaser
+  - LipiDex 2 Peak Finder
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-4c00359
+    - asb-paper-10-1021-acs-analchem-4c01253
+    - asb-paper-10-1186-s12859-017-1744-3
+    dois:
+    - 10.1021/acs.analchem.4c00359
+    - 10.1021/acs.analchem.4c01253
+    - 10.1186/s12859-017-1744-3
+  after:
+  - lipid_identification
+  candidate_tools:
+  - MobiLipid
+  - R
+  - R Markdown
+  - RStudio
+  - LipiDex 2 Degreaser QC module
+  - Metaboanalyst
+  - LipidMatch
+  - MZmine
+  inputs_from:
+    lipid_identification:
+    - tsv
+- id: statistics
+  goal: differential lipid analysis between sample groups
+  edam_operation: http://edamontology.org/operation_3659
+  skills:
+  - between-group-fold-change-analysis
+  - lipidomics-multivariate-statistical-analysis
+  - metabolomics-feature-differential-analysis
+  - scms-lipidomics-fold-change-analysis
+  tools:
+  - MetaboReport
+  - R
+  inputs:
+  - type: feature-table
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-0c02560
+    - asb-paper-10-1021-acs-analchem-4c02038
+    - asb-paper-10-1038-s41598-021-84824-3
+    - asb-paper-10-1093-bioinformatics-btae373
+    dois:
+    - 10.1021/acs.analchem.0c02560
+    - 10.1021/acs.analchem.4c02038
+    - 10.1038/s41598-021-84824-3
+    - 10.1093/bioinformatics/btae373
+  after:
+  - normalize
+  - rule_validation
+  candidate_tools:
+  - LiPydomics
+  - Python
+  - SciPy
+  - scikit-learn
+  - dbnorm
+  - ggplot2
+  - Geena2
+  - HMDB
+  - METLIN
+  - MetaPhenotype
+  - MetaboAnalyst 6.0
+  inputs_from:
+    normalize:
+    - feature-table
+    rule_validation:
+    - tsv
+- id: fusion
+  goal: consolidate lipid annotations + stats into one master table
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - lipidomics-annotation-appending
+  - multi-dataset-annotation-aggregation
+  - feature-table-assembly
+  - cross-software-annotation-table-reconciliation
+  tools:
+  - LipidMatch
+  - MSConvert
+  - MZmine
+  - R
+  inputs:
+  - type: feature-table
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-isci-2023-106881
+    - asb-paper-10-1038-s41467-025-59683-5
+    - asb-paper-10-1186-s12859-017-1744-3
+    dois:
+    - 10.1016/j.isci.2023.106881
+    - 10.1038/s41467-025-59683-5
+    - 10.1186/s12859-017-1744-3
+  after:
+  - normalize
+  - statistics
+  candidate_tools:
+  - LipidIN
+  - LipidIN EQ module
+  - LipidIN LCI module
+  - LipidIN WMYn module
+  - MS-DIAL
+  - CAMERA
+  - MultiABLER
+  - xcms
+  - CombineSoftwareIDs.R
+  - Greazy
+  inputs_from:
+    normalize:
+    - feature-table
+    statistics:
+    - tsv
+verification:
+  final_outputs:
+  - path: master_lipid_table.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

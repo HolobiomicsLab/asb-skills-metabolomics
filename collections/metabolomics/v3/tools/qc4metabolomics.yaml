@@ -1,0 +1,20 @@
+name: QC4Metabolomics
+slug: qc4metabolomics
+version_used: null
+edam_topics: []
+evidence_spans:
+- We therefore introduce QC4Metabolomics , a real-time quality control monitoring software for untargeted metabolomics data.
+- We therefore introduce QC4Metabolomics, a real-time quality control monitoring software for untargeted metabolomics data.
+- we present QC4Metabolomics, an open-source Shiny web application and R package
+- RT and m/z deviation data for our long-term QC pool (MetNexs) analyzed within all batches
+derived_from:
+- doi: 10.1021/acs.analchem.4c07078
+  title: 'QC4Metabolomics: Real-Time and Retrospective Quality Control of Metabolomics Data'
+source_repos:
+- https://github.com/stanstrup/QC4Metabolomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/stanstrup/QC4Metabolomics

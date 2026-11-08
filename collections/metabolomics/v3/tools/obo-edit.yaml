@@ -1,0 +1,17 @@
+name: OBO-Edit
+slug: obo-edit
+version_used: null
+edam_topics: []
+evidence_spans:
+- The resulting OBO file was generated with OBO-Edit [34], and can be downloaded from the ClassyFire website.
+- The resulting OBO file was generated with OBO-Edit
+derived_from:
+- doi: 10.1186/s13321-016-0174-y
+  title: 'ClassyFire: automated chemical classification with a comprehensive, computable taxonomy'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

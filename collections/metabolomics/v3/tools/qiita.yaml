@@ -1,0 +1,16 @@
+name: Qiita
+slug: qiita
+version_used: null
+edam_topics: []
+evidence_spans:
+- Untargeted metabolomics and metagenomics data, along with associated metadata, are publicly available via GNPS/MassIVE and Qiita.
+derived_from:
+- doi: 10.1101/2025.04.28.651123
+  title: A Multi-Organ Murine Metabolomics Atlas Reveals Molecular Dysregulations in Alzheimer’s Disease
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

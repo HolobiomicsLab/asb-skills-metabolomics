@@ -1,0 +1,17 @@
+name: EntropySearch
+slug: entropysearch
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# EntropySearch'
+derived_from:
+- doi: 10.1038/s41592-023-02012-9
+  title: Flash entropy search to query all mass spectral libraries in real time
+source_repos:
+- https://github.com/YuanyueLi/EntropySearch
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YuanyueLi/EntropySearch

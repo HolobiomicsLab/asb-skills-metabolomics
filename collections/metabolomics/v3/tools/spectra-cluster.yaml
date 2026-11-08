@@ -1,0 +1,21 @@
+name: spectra-cluster
+slug: spectra-cluster
+version_used: 1.1.2
+edam_topics: []
+evidence_spans:
+- spectra-cluster has been utilized for large-scale clustering of public MS data in the PRoteomics IDEntifications (PRIDE) database11
+- For example, MS-Cluster5 and spectra-cluster8 use an iterative greedy approach to efficiently merge similar spectra. spectra-cluster has been utilized for large-scale clustering of public MS data in
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00612
+  title: 'HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space'
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+source_repos:
+- https://github.com/wh-xu/Hyper-Spec
+- https://github.com/bittremieuxlab/falcon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wh-xu/Hyper-Spec

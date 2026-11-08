@@ -1,0 +1,24 @@
+name: RCDK
+slug: rcdk
+version_used: 3.4.7.1
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s00216-021-03392-7
+  title: FluoroMatch 2.0—making automated and comprehensive non-targeted PFAS annotation a reality
+- doi: 10.1093/bioinformatics/bty590
+  title: Liquid-chromatography retention order prediction for metabolite identification
+- doi: 10.1021/acs.analchem.9b05765
+  title: 'Retip: Retention Time Prediction for Compound Annotation in Untargeted Metabolomics'
+source_repos:
+- https://github.com/InnovativeOmics/Core-Match
+- https://github.com/rajarshi/cdkr
+- https://github.com/aalto-ics-kepaco/retention_order_prediction
+- https://github.com/olobion/Retip
+- https://github.com/oloBion/Retip
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/InnovativeOmics/Core-Match

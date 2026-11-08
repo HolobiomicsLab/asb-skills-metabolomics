@@ -1,0 +1,17 @@
+name: ReduceLROnPlateau
+slug: reducelronplateau
+version_used: null
+edam_topics: []
+evidence_spans:
+- a learning rate scheduler (ReduceLROnPlateau) was configured to automatically adjust the learning rate when validation fold performance stagnated.
+derived_from:
+- doi: 10.1371/journal.pone.0321239
+  title: 'MSMCE: A novel representation module for classification of raw mass spectrometry data'
+source_repos:
+- https://github.com/WoodFY/MSMCE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WoodFY/MSMCE

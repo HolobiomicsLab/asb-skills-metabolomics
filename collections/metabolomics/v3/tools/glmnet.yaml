@@ -1,0 +1,23 @@
+name: glmnet
+slug: glmnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- imputation using GSimp
+- imp_model='glmnet_pred')
+- imp_model='glmnet_pred'
+- glmnet (Imports)
+derived_from:
+- doi: 10.1371/journal.pcbi.1005973
+  title: 'GSimp: A Gibbs sampler based left-censored missing value imputation approach for metabolomics studies'
+- doi: 10.1093/gigascience/giy136
+  title: 'Lilikoi: an R package for personalized pathway-based classification modeling using metabolomics data'
+source_repos:
+- https://github.com/WandeRum/GSimp
+- https://github.com/lanagarmire/lilikoi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WandeRum/GSimp

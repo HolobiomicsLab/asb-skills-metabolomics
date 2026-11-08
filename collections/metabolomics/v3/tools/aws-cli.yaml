@@ -1,0 +1,18 @@
+name: AWS CLI
+slug: aws-cli
+version_used: null
+edam_topics: []
+evidence_spans:
+- Build AWS image on job node. Set `SCRATCH_PATH` first.
+- Run AWS image and download data
+derived_from:
+- doi: 10.1038/s41592-022-01486-3
+  title: 'MSNovelist: de novo structure generation from mass spectra'
+source_repos:
+- https://github.com/meowcat/MSNovelist
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/meowcat/MSNovelist

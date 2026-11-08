@@ -1,0 +1,27 @@
+name: HyperSpec
+slug: hyperspec
+version_used: null
+edam_topics: []
+evidence_spans:
+- HyperSpec is publicly available as open source at https://github.com/wh-xu/Hyper-Spec under the BSD license.
+- we present a fast spectral clustering tool, HyperSpec, based on hyperdimensional computing (HDC)
+- 'HyperSpec is a Python
+
+  library for spectral clustering that optimally makes use of both CPU
+
+  and GPU hardware resources'
+- HyperSpec is a Python library for spectral clustering that optimally makes use of both CPU and GPU hardware resources
+- 'HyperSpec’s parallelized preprocessor reduces the preprocessing time
+
+  by vectorizing the computation'
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00612
+  title: 'HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space'
+source_repos:
+- https://github.com/wh-xu/Hyper-Spec
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wh-xu/Hyper-Spec

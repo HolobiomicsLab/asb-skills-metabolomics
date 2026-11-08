@@ -1,0 +1,22 @@
+name: MDAtoolkits
+slug: mdatoolkits
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(MDAtoolkits)
+- We have also developed MDAtoolkits, which include a complete set of tools for statistical analysis
+- We have also developed MDAtoolkits, which include a complete set of tools for statistical analysis, metabolite classification, and enrichment analysis
+- remotes::install_github('ShawnWx2019/MDAtoolkits',ref = 'master')
+- if (!require('MDAtoolkits')) remotes::install_github('ShawnWx2019/MDAtoolkits',ref = 'master');
+derived_from:
+- doi: 10.1111/jipb.13774
+  title: 'MetMiner: A user‐friendly pipeline for large‐scale plant metabolomics data analysis'
+source_repos:
+- https://github.com/ShawnWx2019/MDAtoolkits
+- https://github.com/ShawnWx2019/MetMiner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShawnWx2019/MDAtoolkits

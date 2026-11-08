@@ -1,0 +1,21 @@
+name: XCMS-MRM
+slug: xcms-mrm
+version_used: null
+edam_topics: []
+evidence_spans:
+- While several open-source platforms (ASTS, MAVEN, MaxQuant, MRMAnalyzer, MRMPROBS, Skyline, SmartPeak, XCMS-MRM and METLIN-MRM, etc.)
+derived_from:
+- doi: 10.1021/acs.analchem.5c03730
+  title: 'rtmsEcho: An
+
+    Open-Source R Package for Automated Analysis
+
+    of Acoustic Ejection Mass Spectrometry Data'
+source_repos:
+- https://github.com/nathanieltwarog/rtmsEcho
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nathanieltwarog/rtmsEcho

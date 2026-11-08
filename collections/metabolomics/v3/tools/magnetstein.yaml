@@ -1,0 +1,16 @@
+name: Magnetstein
+slug: magnetstein
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.3c03594
+  title: 'Magnetstein: An Open-Source Tool for Quantitative NMR Mixture Analysis Robust to Low Resolution, Distorted Lineshapes, and Peak Shifts'
+source_repos:
+- https://github.com/ElsevierSoftwareX/SOFTX-D-25-00358
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ElsevierSoftwareX/SOFTX-D-25-00358

@@ -1,0 +1,17 @@
+name: Chemical Translation Service (CTS)
+slug: chemical-translation-service-cts
+version_used: null
+edam_topics: []
+evidence_spans:
+- the Chemical Translator Service (CTS) [27], and results were merged
+- then the Chemical Translation Service is used to retrieve the InChIKey
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

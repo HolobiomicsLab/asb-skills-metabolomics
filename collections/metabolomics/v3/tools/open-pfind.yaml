@@ -1,0 +1,17 @@
+name: Open-pFind
+slug: open-pfind
+version_used: null
+edam_topics: []
+evidence_spans:
+- Open-pFind combines tag-based filtering to speed up open searches with a subsequent standard search including highly abundant variable modifications
+derived_from:
+- doi: 10.1021/acs.jproteome.8b00359
+  title: Fast Open Modification Spectral Library Searching through Approximate Nearest Neighbor Indexing
+source_repos:
+- https://github.com/bittremieux-lab/ANN-SoLo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bittremieux-lab/ANN-SoLo

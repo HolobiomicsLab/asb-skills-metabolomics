@@ -1,0 +1,16 @@
+name: scANVI
+slug: scanvi
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41467-025-63915-z
+  title: Integrating cross-sample and cross-modal data for spatial transcriptomics and metabolomics with SpatialMETA
+source_repos:
+- https://github.com/WanluLiuLab/SpatialMETA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WanluLiuLab/SpatialMETA

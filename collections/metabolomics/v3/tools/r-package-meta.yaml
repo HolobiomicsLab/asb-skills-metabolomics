@@ -1,0 +1,16 @@
+name: R-package meta
+slug: r-package-meta
+version_used: null
+edam_topics: []
+evidence_spans:
+- the meta-analyses were performed using a fixed-effect model implemented in the R-package meta
+derived_from:
+- doi: 10.1038/s41467-019-11311-9
+  title: A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

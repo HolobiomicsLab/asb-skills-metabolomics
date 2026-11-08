@@ -1,0 +1,16 @@
+name: NOREVA
+slug: noreva
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41596-021-00636-9
+  title: Optimization of metabolomic data processing using NOREVA
+source_repos:
+- https://github.com/idrblab/NOREVA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/idrblab/NOREVA

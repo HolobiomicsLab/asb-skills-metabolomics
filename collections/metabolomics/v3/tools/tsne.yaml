@@ -1,0 +1,16 @@
+name: tsne
+slug: tsne
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.chroma.2018.09.050
+  title: eicCluster software, an open-source in silico tool, and on-surface syntheses, an in situ concept, both exploited for signal highlighting in high-resolution mass spectrometry to ease structure elucidation in planar chromatography
+source_repos:
+- https://github.com/OfficeChromatography/eicCluster
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OfficeChromatography/eicCluster

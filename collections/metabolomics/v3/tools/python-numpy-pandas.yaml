@@ -1,0 +1,17 @@
+name: Python (numpy/pandas)
+slug: python-numpy-pandas
+version_used: null
+edam_topics: []
+evidence_spans:
+- pytorch == 2.3.1, scikit_learn == 1.3.0, numpy == 1.24.3, pandas == 2.0.3
+derived_from:
+- doi: 10.1371/journal.pone.0321239
+  title: 'MSMCE: A novel representation module for classification of raw mass spectrometry data'
+source_repos:
+- https://github.com/WoodFY/MSMCE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WoodFY/MSMCE

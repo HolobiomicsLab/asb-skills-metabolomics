@@ -1,0 +1,24 @@
+name: GitHub Actions
+slug: github-actions
+version_used: null
+edam_topics: []
+evidence_spans:
+- A GitHub action will run which will publish the new version to [pypi](https://pypi.org/project/ms2deepscore).
+- Source code and installation instructions can be found on GitHub (https://github.com/matchms/ms2deepscore)
+- https://github.com/matchms/ms2deepscore/issues/67
+- use the search functionality [here](https://github.com/matchms/ms2deepscore/issues) to see if someone already filed the same issue
+- on a continuous integration system using Travis, AppVeyor and GitHub Actions, covering tests on Linux, Mac and Windows
+derived_from:
+- doi: 10.1186/s13321-021-00558-4
+  title: 'MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra'
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+source_repos:
+- https://github.com/matchms/ms2deepscore
+- https://github.com/nutrimetabolomics/POMAShiny
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/matchms/ms2deepscore

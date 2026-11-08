@@ -1,0 +1,22 @@
+name: compareMS2
+slug: comparems2
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- we described a method and software tool, compareMS2, for calculating a distance between sets of tandem mass spectra
+- The compareMS2 2.0 GUI (Figure 2) displays a phylogenetic tree with a quality metric
+- we compared the similarity between tandem mass spectra as a function of precursor m/z difference
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00457
+  title: 'compareMS2 2.0: An Improved Software for Comparing Tandem Mass Spectrometry Datasets'
+- doi: 10.1002/rcm.6162
+  title: Molecular phylogenetics by direct comparison of tandem mass spectra
+source_repos:
+- https://github.com/524D/compareMS2
+- https://github.com/524D/compareMS2.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/524D/compareMS2

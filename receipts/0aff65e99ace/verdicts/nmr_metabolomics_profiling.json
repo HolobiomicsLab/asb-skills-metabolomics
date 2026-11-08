@@ -1,0 +1,21 @@
+{
+  "workflow": "nmr_metabolomics_profiling",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "SAND deconvolves overlapping NMR signals into per-peak amplitudes and other fitted parameters, but stops at a peak table for downstream quantification rather than producing the requested metabolite concentrations.",
+      "severity": "advisory",
+      "slug": "nmr-spectral-deconvolution",
+      "stage": "quantification"
+    }
+  ],
+  "verdict": "pass"
+}

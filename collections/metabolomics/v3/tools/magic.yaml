@@ -1,0 +1,16 @@
+name: MAGIC
+slug: magic
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nar/gkad444
+  title: 'FLUXestimator: a webserver for predicting metabolic flux and variations using transcriptomics data'
+source_repos:
+- https://github.com/changwn/scFEA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/changwn/scFEA

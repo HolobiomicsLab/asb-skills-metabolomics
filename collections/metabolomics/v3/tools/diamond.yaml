@@ -1,0 +1,28 @@
+name: DIAMOND
+slug: diamond
+version_used: null
+edam_topics: []
+evidence_spans:
+- selective gene searches for fldC ... and bsh ... were conducted using DIAMOND57
+- mapped raw metagenomic reads to the UniRef100 [44] reference database using DIAMOND [45]
+- Install the DIAMOND sequence aligner
+- 2. (OPTIONAL) Install the DIAMOND sequence aligner
+- (OPTIONAL) Install the DIAMOND sequence aligner
+- performing a BLASTp search with the DIAMOND sequence aligner tool (Buchfink et al. 2015)
+derived_from:
+- doi: 10.1101/2025.04.28.651123
+  title: A Multi-Organ Murine Metabolomics Atlas Reveals Molecular Dysregulations in Alzheimer’s Disease
+- doi: 10.1186/s12864-020-07357-5
+  title: 'Prediction and analysis of metagenomic operons via MetaRon: a pipeline for prediction of Metagenome and whole-genome opeRons'
+- doi: 10.1093/bioinformatics/btad367
+  title: 'Reconstructor: a COBRApy compatible tool for automated genome-scale metabolic network reconstruction with parsimonious flux-based gap-filling'
+source_repos:
+- https://github.com/zaidissa/MetaRon
+- https://github.com/bbuchfink/diamond
+- https://github.com/emmamglass/reconstructor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zaidissa/MetaRon

@@ -1,0 +1,17 @@
+name: CatBoost
+slug: catboost
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'CatBoost [36]: an interesting question regarding the non-retained molecules is if their inclusion as training data improves the performance of the regressors.'
+derived_from:
+- doi: 10.1186/s13321-022-00613-8
+  title: Probabilistic metabolite annotation using retention time prediction and meta-learned projections
+source_repos:
+- https://github.com/constantino-garcia/cmmrt
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/constantino-garcia/cmmrt

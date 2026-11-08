@@ -1,0 +1,16 @@
+name: R (runtime-implemented simulation and imputation scripts)
+slug: r-runtime-implemented-simulation-and-imputation-scripts
+version_used: null
+edam_topics: []
+evidence_spans:
+- The runtime for one dataset with 50 samples and 400 metabolites and the three missing mechanisms was about 1.20 min on average
+derived_from:
+- doi: 10.1186/s12859-017-1547-6
+  title: Distribution based nearest neighbor imputation for truncated high dimensional data with applications to pre-clinical and clinical metabolomics studies
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

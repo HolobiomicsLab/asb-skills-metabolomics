@@ -1,0 +1,132 @@
+---
+name: biotransformation-rule-mass-difference-matching
+description: Use when a query spectrum has high spectral similarity to a known anchor
+  molecule in a molecular network, and the precursor mass difference between suspect
+  and anchor must be converted into a list of plausible biotransformation-derived
+  candidate structures.
+when_to_use_negative:
+- No known anchor molecule with high spectral similarity to the query spectrum is
+  available (the mass difference is undefined)
+- The precursor mass difference cannot be matched to any biotransformation rule in
+  the chosen rule set (e.g. only 41% of RetroRules rules are applicable at unit resolution)
+- The suspect is expected to arise from non-biochemical transformations not represented
+  in RetroRules/KEGG/MetaCyc rule databases
+edam_operation: http://edamontology.org/operation_2480
+edam_topics:
+- http://edamontology.org/topic_3172
+- http://edamontology.org/topic_3473
+tools:
+- name: BAM
+  role: 'Orchestrates the mass-difference matching: takes molecules_of_interest and
+    reaction dataset, filters biotransformation rules by observed precursor mass difference,
+    and applies them to enumerate derivatives'
+  repo: https://github.com/HassounLab/BAM
+- name: PROXIMAL2
+  role: Applies the matched biotransformation rules to the anchor molecule, identifying
+    suitable reaction centers and generating the candidate derivative structures
+  repo: https://github.com/HassounLab/PROXIMAL2
+- name: GNN-SOM
+  role: 'Downstream: assigns site-of-metabolism likelihoods to each atom of the generated
+    derivatives so candidates can be ranked'
+  repo: https://github.com/HassounLab/GNN-SOM
+provenance:
+  source_task_ids:
+  - task_002
+  source_papers:
+  - doi: 10.1021/acs.analchem.4c01565
+    title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation
+      Rules and Global Molecular Networking
+  source_content_hash: sha256:53828cb45be587af148b2f4ad5402bbcd3ff77f81b6b8e08d0f3f0ea0a6ca962
+schema_version: 0.2.0
+metadata:
+  license_tier: open
+  repo_url: https://github.com/HassounLab/BAM
+  tools:
+  - BAM
+  - BioServices
+  - GNN-SOM
+  - KEGG
+  - PROXIMAL2
+  - PubChemPy
+  - Python 3.9
+  - RDKit
+  - RetroRules
+  - scikit-learn
+  edam_operation: http://edamontology.org/operation_2480
+  edam_topics:
+  - http://edamontology.org/topic_3172
+  - http://edamontology.org/topic_3473
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: promoted
+yes_rate: 1.0
+n_claims: 16
+---
+
+# biotransformation-rule-mass-difference-matching
+
+## Summary
+
+Matches an observed precursor mass difference between an anchor and suspect molecule against biotransformation rules extracted from RetroRules/KEGG (via PROXIMAL2), then applies the matching rules to the anchor structure to enumerate derivative candidate structures for ranking.
+
+## When to use
+
+Use when a query spectrum has high spectral similarity to a known anchor molecule in a molecular network, and the precursor mass difference between suspect and anchor must be converted into a list of plausible biotransformation-derived candidate structures.
+
+## When NOT to use
+
+- No known anchor molecule with high spectral similarity to the query spectrum is available (the mass difference is undefined)
+- The precursor mass difference cannot be matched to any biotransformation rule in the chosen rule set (e.g. only 41% of RetroRules rules are applicable at unit resolution)
+- The suspect is expected to arise from non-biochemical transformations not represented in RetroRules/KEGG/MetaCyc rule databases
+
+## Inputs
+
+- molecules_of_interest CSV with an identifier and mass for the suspect as well as anchor and a SMILES representing the anchor
+- reaction_list CSV with 'id', 'formula', 'EC' columns (e.g. KEGG or RetroRules reactions)
+- metabolites_list CSV of metabolites and their structures (SMILES) included in the reaction dataset
+
+## Outputs
+
+- Subset of biotransformation rules whose mass differences match the observed precursor mass difference
+- Generated candidate derivative structures (with SMILES or mol representations) for each applicable rule
+- Exact-match verdict per candidate: first 14 InChIKey characters equal to the true suspect structure
+
+## How to apply
+
+First compute the observed precursor mass difference between the suspect and the anchor from the molecules_of_interest CSV (identifier and mass for the suspect as well as anchor plus a SMILES representing the anchor). Load the rule set of interest (BAM uses KEGG and RetroRules as examples; RetroRules was chosen for its sizable collection), represented as a CSV of metabolite pairs with 'id', 'formula', 'EC' columns, and match the observed mass difference against the rules to select the subset applicable to the anchor-suspect pair. In the published evaluation, precursor mass differences matched 17,254 biotransformation rules, corresponding to 41% of RetroRules rules applicable for BAM. Each candidate derivative is generated by applying the matching rule via PROXIMAL2, which identifies suitable reaction centers on the anchor's SMILES; a candidate is considered correct when it matches the true structure on the first 14 characters of the InChIKey. The matching rules then feed downstream ranking by GNN-SOM site-of-metabolism likelihoods, with ties resolved by the average-rank method (sum all ranks including duplicates and divide by the number tied).
+
+## Related tools
+
+- **BAM** (Orchestrates the mass-difference matching: takes molecules_of_interest and reaction dataset, filters biotransformation rules by observed precursor mass difference, and applies them to enumerate derivatives) — https://github.com/HassounLab/BAM
+- **PROXIMAL2** (Applies the matched biotransformation rules to the anchor molecule, identifying suitable reaction centers and generating the candidate derivative structures) — https://github.com/HassounLab/PROXIMAL2
+- **GNN-SOM** (Downstream: assigns site-of-metabolism likelihoods to each atom of the generated derivatives so candidates can be ranked) — https://github.com/HassounLab/GNN-SOM
+
+## Examples
+
+```
+sh runBAM.sh
+```
+
+## Evaluation signals
+
+- Proportion of matching rules: reported reference is 41% of RetroRules rules applicable for BAM (17,254 of the 42,307 unique rules) when run on the 60,368 anchor-suspect pairs
+- Correct-candidate criterion: the candidate's first 14 InChIKey characters exactly match those of the true suspect structure
+- Ranking quality: true suspect identity should appear among the top-5 ranked candidates; the paper reports 24.2% of anchor-suspect cases correctly assigned at rank 1
+- Tie resolution sanity check: average rank computed by summing all ranks including duplicates divided by the number of tied candidates
+- Structural validity: PROXIMAL2 may emit products where RDKit 'do not find chemical sense about the prediction' — such candidates must be flagged and excluded from ranking
+
+## Limitations
+
+- Only biotransformation rules whose mass difference matches at unit resolution can be selected (41% of RetroRules rules applicable for BAM), so novel mass differences yield no candidates
+- PROXIMAL2 can apply a rule but RDKit may fail to assign a chemically valid SMILES for the predicted product ('may be not generated')
+- Rule extraction requires curated reaction datasets with 'id', 'formula', 'EC' columns and metabolite structures; cofactors are removed and reactions that are purely cofactor-to-cofactor are dropped
+
+## Evidence
+
+- [results] BAM identifies relevant mass differences between the suspects and the anchor, selects appropriate biotransformation rules corresponding to these mass differences, and applies them: "BAM identifies relevant mass differences between the suspects and the anchor, selects appropriate biotransformation rules corresponding to these mass differences (Figure 2b), and applies them to"
+- [results] Rule applicability threshold from the paper: "observed precursor mass differences matched 17,254 biotransformation rules, corresponding to 41% of rules from the RetroRules database that are applicable for BAM"
+- [readme] Correct-candidate definition: [evidence span withheld — anchor status: not_found]
+- [methods] Tie resolution rule: "To resolve ties, the average rank is computed by summing all ranks, including duplicates, and dividing by the number of tied candidates."
+- [methods] Rule database choice: [evidence span withheld — anchor status: not_found]
+- [readme] Input format specification: "reaction_list = csv file of the reactions of interest. It must have the following columns: "id", "formula", "EC"."
+- [readme] RDKit validity caveat: [evidence span withheld — anchor status: external_doc]

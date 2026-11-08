@@ -1,0 +1,17 @@
+name: LipidSigR
+slug: lipidsigr
+version_used: null
+edam_topics: []
+evidence_spans:
+- '"LipidSigR" is an R package developed based on LipidSig web-based tool'
+derived_from:
+- doi: 10.1093/bioadv/vbaf047
+  title: 'LipidSigR: a R-based solution for integrated lipidomics data analysis and visualization'
+source_repos:
+- https://github.com/BioinfOMICS/LipidSigR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioinfOMICS/LipidSigR

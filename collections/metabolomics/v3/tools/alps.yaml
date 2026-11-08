@@ -1,0 +1,16 @@
+name: ALPS
+slug: alps
+version_used: null
+edam_topics: []
+evidence_spans:
+- The predicted peptides were further processed by the de Bruijn sequence assembler ALPS [27] to evaluate the ability of different de novo sequencing tools to reconstruct complete protein sequences.
+derived_from:
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

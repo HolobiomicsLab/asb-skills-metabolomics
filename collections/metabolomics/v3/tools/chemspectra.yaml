@@ -1,0 +1,19 @@
+name: ChemSpectra
+slug: chemspectra
+version_used: null
+edam_topics: []
+evidence_spans:
+- ChemSpectra, a web-based software to visualize and analyze spectroscopic data, integrating solutions for infrared spectroscopy (IR), mass spectrometry (MS), and one-dimensional 1H and 13C NMR
+- ChemSpectra, a web-based software to visualize and analyze spectroscopic data, integrating solutions for infrared spectroscopy (IR)
+- ChemSpectra, a web-based software to visualize and analyze spectroscopic data
+derived_from:
+- doi: 10.1186/s13321-020-00481-0
+  title: 'ChemSpectra: a web-based spectra editor for analytical data'
+source_repos:
+- https://github.com/ComPlat/chem-spectra-app
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ComPlat/chem-spectra-app

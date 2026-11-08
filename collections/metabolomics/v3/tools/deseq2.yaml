@@ -1,0 +1,27 @@
+name: DESeq2
+slug: deseq2
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Differential expression analyss | R packages: DESeq2, edger, RankProd'
+- '`edger` (or rankprod or deseq2) : Directory of differentially expressed features.'
+- using filtered raw counts as input for DESeq2
+- using filtered raw counts as input for DESeq243
+- DEA was performed separately in each sex and tissue using filtered raw counts as input for DESeq243
+derived_from:
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+- doi: 10.1038/s41467-024-45966-w
+  title: The impact of exercise on gene regulation in association with complex trait genetics
+source_repos:
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+- https://github.com/IxI-97/BiomiX
+- https://github.com/NikVetr/MoTrPAC_Complex_Traits
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses

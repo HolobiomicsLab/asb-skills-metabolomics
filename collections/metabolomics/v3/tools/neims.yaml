@@ -1,0 +1,40 @@
+name: NEIMS
+slug: neims
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Evaluate predictions against ground truth:'
+- we employed NEIMS to predict the mass spectrum of all derivatives within our synthetic NPS database.
+- 'We follow
+
+  the procedure detailed in the NEIMS paper:7 we evaluate the performance of an EI–MS forward model using
+
+  model-inferred spectra'
+- The NEIMS model was downloaded from its official repository (https://storage.googleapis.com/deep-molecular-massspec/massspec_weights/massspec_weights.zip) without re-training
+- The neural electron-ionization mass spectrometry (NEIMS) method takes the extended circular fingerprints (ECFPs) of molecules as inputs and applies fully connected neural networks to predict the
+derived_from:
+- doi: 10.1093/bioinformatics/btad354
+  title: '3DMolMS: prediction of tandem mass spectra from 3D molecular conformations'
+- doi: 10.1021/acs.analchem.3c05019
+  title: 'PS<sup>2</sup>MS: A Deep Learning-Based Prediction System for Identifying New Psychoactive Substances Using Mass Spectrometry'
+- doi: 10.1021/acscentsci.9b00085
+  title: Rapid Prediction of Electron–Ionization Mass Spectrometry Using Neural Networks
+- doi: 10.1021/acs.analchem.2c02093
+  title: Rapid Approximate Subset-Based Spectra Prediction for Electron Ionization–Mass Spectrometry
+- doi: 10.48550/arxiv.2502.05114
+  title: ''
+- doi: 10.1038/s41467-023-39279-7
+  title: Ultra-fast and accurate electron ionization mass spectrum matching for compound identification with million-scale in-silico library
+source_repos:
+- https://github.com/JosieHong/3DMolMS
+- https://github.com/jhhung/PS2MS
+- https://github.com/thejonaslab/rassp-public
+- https://github.com/hejjack/SpecTUS
+- https://github.com/brain-research/deep-molecular-massspec
+- https://github.com/Qiong-Yang/FastEI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JosieHong/3DMolMS

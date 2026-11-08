@@ -1,0 +1,22 @@
+name: SMQVP
+slug: smqvp
+version_used: '1.0'
+edam_topics: []
+evidence_spans:
+- QVP2 quantifies this consistency by calculating the Pearson correlation coefficient of ion peak intensities between the spectra of different background regions.
+- SMQVP has been demonstrated to effectively improve clustering results by removing noise signals and enhancing data quality.
+- SMQVP provides empirically derived default thresholds (e.g., noise score = 60) but encourages users to iteratively refine these values using interactive visualizations.
+- we present Spatial Metabolomics data Quality Visualization and Processing (SMQVP v1.0), a novel software with a user-friendly graphical interface
+- SMQVP utilizes the isotopologues function from MetaboCoreUtils [21] to preliminarily identify potential isotopic peak pairs.
+- clustering performed on the data after preprocessing with SMQVP (Figure 3B) yielded distinct spatial regions
+derived_from:
+- doi: 10.3390/metabo15060354
+  title: 'SMQVP: A Web Application for Spatial Metabolomics Quality Visualization and Processing'
+source_repos:
+- https://github.com/mzlab-research/SMQVP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mzlab-research/SMQVP

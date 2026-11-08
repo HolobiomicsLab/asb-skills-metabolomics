@@ -1,0 +1,25 @@
+name: MetaboCoreUtils
+slug: metabocoreutils
+version_used: 1.12.0
+edam_topics: []
+evidence_spans:
+- library(MetaboCoreUtils)
+- the neutral mass is calculated sequentially according to a user-specified list of possible adduct forms with mz2mass function in MetaboCoreUtils package (1.12.0)
+- SMQVP utilizes the isotopologues function from MetaboCoreUtils [21] to preliminarily identify potential isotopic peak pairs.
+derived_from:
+- doi: 10.3390/metabo12020173
+  title: A Modular and Expandable Ecosystem for Metabolomics Data Annotation in R
+- doi: 10.3390/biom15111562
+  title: 'SMAnalyst: A Web Server for Spatial Metabolomic Data Analysis and Annotation'
+- doi: 10.3390/metabo15060354
+  title: 'SMQVP: A Web Application for Spatial Metabolomics Quality Visualization and Processing'
+source_repos:
+- https://github.com/jorainer/MetaboAnnotationTutorials
+- https://github.com/mzlab-research/SManalyst
+- https://github.com/mzlab-research/SMQVP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jorainer/MetaboAnnotationTutorials

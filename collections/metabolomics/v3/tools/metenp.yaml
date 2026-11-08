@@ -1,0 +1,16 @@
+name: MetENP
+slug: metenp
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2020.11.20.391912
+  title: 'MetENP/MetENPWeb: An R package and web application for metabolomics enrichment and pathway analysis in Metabolomics Workbench'
+source_repos:
+- https://github.com/metabolomicsworkbench/MetENP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/metabolomicsworkbench/MetENP

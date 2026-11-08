@@ -1,0 +1,21 @@
+name: ggplot
+slug: ggplot
+version_used: null
+edam_topics: []
+evidence_spans:
+- output visualisations are fully customisable via the ggplot grammar
+- creating an interactive plot of input features and the filters they failed, if any, using `ggplot` and `plotly`
+derived_from:
+- doi: 10.1515/jib-2025-0047
+  title: 'Streamlining feature elaboration and statistics analysis in metabolomics: the GetFeatistics R-package'
+- doi: 10.1128/mra.00997-24
+  title: 'mpactR: an R adaptation of the metabolomics peak analysis computational tool (MPACT) for use in reproducible data analysis pipelines'
+source_repos:
+- https://github.com/FrigerioGianfranco/GetFeatistics
+- https://github.com/mums2/mpactr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FrigerioGianfranco/GetFeatistics

@@ -1,0 +1,35 @@
+{
+  "workflow": "pathway_functional_analysis",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf only transposes a bioassay matrix and does not prepare or rank m/z features for mummichog.",
+      "severity": "advisory",
+      "slug": "lc-msms-feature-quantification-table-transposition",
+      "stage": "feature_prep"
+    },
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf requires identified selected metabolites and does not realize the no-identification mummichog-output enrichment stage.",
+      "severity": "advisory",
+      "slug": "metabolite-pathway-enrichment-analysis--b4a4fd3929413241",
+      "stage": "pathway_enrichment"
+    },
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf requires named HMDB-mapped metabolites and does not enrich the mummichog pathway-membership output.",
+      "severity": "advisory",
+      "slug": "pathway-over-representation-analysis--2a80d81751b143d3",
+      "stage": "pathway_enrichment"
+    }
+  ],
+  "verdict": "pass"
+}

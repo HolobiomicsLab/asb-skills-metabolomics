@@ -1,0 +1,17 @@
+name: 001-007.ipynb
+slug: 001-007-ipynb
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.5c01414
+  title: Longitudinal Fragment Profiles Based on Multi-Collision Energy Tandem Mass Spectra Improve the Accuracy of Metabolite Identification in Untargeted Metabolomics
+source_repos:
+- https://github.com/academicCQMD/LongitudinalProf-MSMS-Method
+- https://github.com/yourusername/LongitudinalProf-MSMS-Method.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/academicCQMD/LongitudinalProf-MSMS-Method

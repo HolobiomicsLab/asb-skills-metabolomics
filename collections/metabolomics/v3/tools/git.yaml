@@ -1,0 +1,37 @@
+name: git
+slug: git
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/yfWang01/FlavorFormer.git
+- '```shell
+
+  git clone https://github.com/yfWang01/FlavorFormer.git
+
+  ```'
+- git clone https://github.com/yanyan5420/MetAssimulo_2.git
+- '**Git**: Necessary for cloning the repository.'
+- git clone https://github.com/bihealth/WiPP.git
+- git clone --recursive  git@github.com:eugenemel/maven.git maven
+derived_from:
+- doi: 10.1016/j.microc.2025.115372
+  title: 'FlavorFormer: hybrid deep learning for identifying compounds in flavor mixtures based on NMR spectroscopy'
+- doi: 10.1093/bioinformatics/btaf045
+  title: 'MetAssimulo 2.0: a web app for simulating realistic 1D and 2D metabolomic 1H NMR spectra'
+- doi: 10.3390/metabo9090171
+  title: 'WiPP: Workflow for Improved Peak Picking for Gas Chromatography-Mass Spectrometry (GC-MS) Data'
+- doi: 10.3390/metabo12080684
+  title: 'MAVEN2: An Updated Open-Source Mass Spectrometry Exploration Platform'
+source_repos:
+- https://github.com/yfWang01/FlavorFormer.git
+- https://github.com/yfWang01/FlavorFormer
+- https://github.com/yanyan5420/MetAssimulo_2.git
+- https://github.com/yanyan5420/MetAssimulo_2
+- https://github.com/bihealth/WiPP
+- https://github.com/eugenemel/maven
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yfWang01/FlavorFormer.git

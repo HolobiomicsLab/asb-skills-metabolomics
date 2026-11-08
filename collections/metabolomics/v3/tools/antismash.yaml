@@ -1,0 +1,54 @@
+name: antiSMASH
+slug: antismash
+version_used: '3.0'
+edam_topics: []
+evidence_spans:
+- Several tools have been developed to mine genomes for these gene clusters, including antiSMASH (10)
+- Using bioinformatics tools such as [antiSMASH](https://antismash.secondarymetabolites.org/), we can now take a genome sequence to identify BGCs and predict the secondary metabolites
+- Querying [antiSMASH](https://antismash.secondarymetabolites.org/) BGCs
+- BGCs were discarded if they were flagged by antiSMASH as lying on a contig-edge
+- The BGCs predicted by antiSMASH are tokenised by detecting (sub)Pfams in each gene
+- Overlap between predicted SubClusterBlast sub-clusters and output of both sub-cluster prediction methods
+- we ran antiSMASH 6 on the genome of this strain and used iPRESTO to infer sub-clusters in the predicted BGCs
+- antiSMASH 3.0 was used for identification of BGCs in the Streptomyces/Salinispora dataset.
+- computational tools like antiSMASH have played a central role through the analysis of Biosynthetic Gene Clusters (BGCs)
+- multiple genome mining approaches for the identification of BGCs have appeared, such as antiSMASH and DeepBGC
+- multiple genome mining approaches for the identification of BGCs have appeared, such as antiSMASH and DeepBGC [4, 5]
+- '`antismash` directory contains a collection of AntiSMASH BGC data'
+- the bioinformatics tool antiSMASH (1) can make accurate structure prediction for some cases, especially for peptides
+- Run and download the [bacterial antiSMASH](https://antismash.secondarymetabolites.org/#!/start) file.
+- the bioinformatics tool antiSMASH (1) can make accurate structure prediction for some cases
+- we additionally tested RAIChU on antiSMASH predictions of real-world BGCs from the MIBiG database
+derived_from:
+- doi: 10.1128/msystems.00937-21
+  title: 'BiG-MAP: an Automated Pipeline To Profile Metabolic Gene Cluster Abundance and Expression in Microbiomes'
+- doi: 10.1093/gigascience/giaa154
+  title: 'BiG-SLiCE: A highly scalable tool maps the diversity of 1.2 million biosynthetic gene clusters'
+- doi: 10.1371/journal.pcbi.1010462
+  title: 'iPRESTO: Automated discovery of biosynthetic sub-clusters linked to specific natural product substructures'
+- doi: 10.1093/nar/gkz882
+  title: 'MIBiG 2.0: a repository for biosynthetic gene clusters of known function'
+- doi: 10.1186/s40168-022-01444-3
+  title: Enhanced correlation-based linking of biosynthetic gene clusters to their metabolic products through chemical class matching
+- doi: 10.1371/journal.pcbi.1008920
+  title: Ranking microbial metabolomic and genomic links in the NPLinker framework using complementary scoring functions
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+- doi: 10.1093/nar/gkz654
+  title: A deep learning genome-mining strategy for biosynthetic gene cluster prediction
+- doi: 10.1186/s13321-024-00898-x
+  title: 'RAIChU: automating the visualisation of natural product biosynthesis'
+source_repos:
+- https://github.com/medema-group/BiG-MAP
+- https://github.com/medema-group/bigslice
+- https://github.com/mibig-secmet/mibig-api
+- https://github.com/NPLinker/nplinker
+- https://github.com/tiagolbiotech/NPOmix_python
+- https://github.com/Merck/deepbgc
+- https://github.com/BTheDragonMaster/RAIChU
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/medema-group/BiG-MAP

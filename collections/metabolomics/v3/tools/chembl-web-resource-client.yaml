@@ -1,0 +1,17 @@
+name: ChEMBL web resource client
+slug: chembl-web-resource-client
+version_used: 0.10.8
+edam_topics: []
+evidence_spans:
+- Using the Python ChEMBL web resource client (v0.10.8), all compounds with activity against a given target are retrieved with their associated metadata
+derived_from:
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+source_repos:
+- https://github.com/enpkg/enpkg_full
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enpkg/enpkg_full

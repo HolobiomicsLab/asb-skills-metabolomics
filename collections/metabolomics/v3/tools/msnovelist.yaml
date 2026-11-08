@@ -1,0 +1,19 @@
+name: MSNovelist
+slug: msnovelist
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`run_train.sh`: run MSNovelist Singularity container and start `train.sh` in the container.'
+- run MSNovelist Singularity container and start `evaluation.sh` in the container
+- We present MSNovelist, which combines fingerprint prediction with an encoder–decoder neural network to generate structures de novo solely from tandem mass spectrometry (MS2) spectra.
+derived_from:
+- doi: 10.1038/s41592-022-01486-3
+  title: 'MSNovelist: de novo structure generation from mass spectra'
+source_repos:
+- https://github.com/meowcat/MSNovelist
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/meowcat/MSNovelist

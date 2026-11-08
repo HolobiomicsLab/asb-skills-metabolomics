@@ -1,0 +1,24 @@
+name: TidyMS
+slug: tidyms
+version_used: '3.6'
+edam_topics: []
+evidence_spans:
+- TidyMS was implemented in Python 3.6.
+- TidyMS was implemented in Python 3.6. [40], and used the Pandas library to work with a data matrix in tabular form.
+- The present work introduces TidyMS, a package for the Python programming language for preprocessing LC–MS data for quality control (QC) procedures
+- implemented using a CWT-based algorithm [35] with parameters optimized for
+- The present work introduces TidyMS, a package for the Python programming language for preprocessing LC–MS data for quality control (QC) procedures in untargeted metabolomics workflows.
+derived_from:
+- doi: 10.3390/metabo10100416
+  title: A Python-Based Pipeline for Preprocessing LC–MS Data for Untargeted Metabolomics Workflows
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+source_repos:
+- https://github.com/griquelme/tidyms
+- https://github.com/sangeeta97/ccs_find
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/griquelme/tidyms

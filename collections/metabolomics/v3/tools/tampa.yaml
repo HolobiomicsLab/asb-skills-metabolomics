@@ -1,0 +1,22 @@
+name: TAMPA
+slug: tampa
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'The following command was used to run TAMPA:'
+- git clone https://github.com/dkoslicki/TAMPA.git
+- python src/tampa.py -i data/mad_yalow_0.profile.txt -g data/gs_marine_short.profile.txt class -s marmgCAMI2_short_read_sample_0
+- TAMPA takes in a series of input profile files for comparison from the user, along with several customizable visualization options
+- Here we report the development of TAMPA (Taxonomic metagenome profiling evaluation), a robust and easy-to-use method
+derived_from:
+- doi: 10.1093/gigascience/giad008
+  title: 'TAMPA: interpretable analysis and visualization of metagenomics-based taxon abundance profiles'
+source_repos:
+- https://github.com/dkoslicki/TAMPA
+- https://github.com/dkoslicki/TAMPA.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dkoslicki/TAMPA

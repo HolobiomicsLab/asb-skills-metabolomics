@@ -1,0 +1,18 @@
+name: Shinyscreen
+slug: shinyscreen
+version_used: null
+edam_topics: []
+evidence_spans:
+- The core steps of Shinyscreen include initialisation, extraction and prescreening, visualisation and integration with MetFrag
+- Shinyscreen is an R package and Shiny-based web application designed for the exploration, visualization, and quality assessment of raw data from high resolution mass spectrometry instruments.
+- Shinyscreen is an R package and Shiny-based web application designed for the exploration, visualization, and quality assessment of raw data from high resolution mass spectrometry instruments
+derived_from:
+- doi: 10.1186/s13321-025-01044-x
+  title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

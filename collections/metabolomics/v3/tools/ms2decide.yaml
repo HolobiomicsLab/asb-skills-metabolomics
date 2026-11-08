@@ -1,0 +1,18 @@
+name: MS2DECIDE
+slug: ms2decide
+version_used: null
+edam_topics: []
+evidence_spans:
+- tandem mass spectrum to decision (MS2DECIDE) is presented which leverages decision theory and expert knowledge to aggregate the outputs of three widely used annotation tools
+- MejriY/MS2DECIDE
+derived_from:
+- doi: 10.1002/cmtd.202400088
+  title: 'MS2DECIDE: Aggregating Multiannotated Tandem Mass Spectrometry Data with Decision Theory Enhances Natural Products Prioritization'
+source_repos:
+- https://github.com/MejriY/MS2DECIDE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MejriY/MS2DECIDE

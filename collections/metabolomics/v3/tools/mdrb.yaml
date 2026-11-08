@@ -1,0 +1,19 @@
+name: MDRB
+slug: mdrb
+version_used: null
+edam_topics: []
+evidence_spans:
+- the developed MDRB platform is publicly available
+- we integrated the mass spectrometry data of m/z, MS2 fragment matching and mass defect of the difference limit, to establish a novel mass dataset relevance bridging (MDRB) data post-processing
+- which was sequentially analyzed by a R-based mass dataset relevance bridging (MDRB) data post-processing technique
+derived_from:
+- doi: 10.1186/s13020-024-01031-8
+  title: 'An integrated approach for studying exposure, metabolism, and disposition of traditional Chinese medicine using PATBS and MDRB tools: a case study of semen Armeniacae Amarum'
+source_repos:
+- https://github.com/933ZhangDD/MDRB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/933ZhangDD/MDRB

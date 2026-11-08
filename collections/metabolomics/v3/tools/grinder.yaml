@@ -1,0 +1,17 @@
+name: Grinder
+slug: grinder
+version_used: '0.5'
+edam_topics: []
+evidence_spans:
+- Simulate the eight metagenomic libraries from 101 CGR genomes ( Grinder, 0.5×/0.05× coverage, uniform/linear/power-law/exponential structures)
+derived_from:
+- doi: 10.1128/msystems.00937-21
+  title: 'BiG-MAP: an Automated Pipeline To Profile Metabolic Gene Cluster Abundance and Expression in Microbiomes'
+source_repos:
+- https://github.com/medema-group/BiG-MAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/medema-group/BiG-MAP

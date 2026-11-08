@@ -1,0 +1,21 @@
+name: umap-learn
+slug: umap-learn
+version_used: 0.5.1
+edam_topics: []
+evidence_spans:
+- pip install -r requirements.txt
+- umap-learn==0.5.1
+derived_from:
+- doi: 10.1021/acs.analchem.5c06256
+  title: Comprehensive Curation and Harmonization of Small-Molecule MS/MS Libraries in Spectraverse
+- doi: 10.1093/bioinformatics/btad096
+  title: Regularized adversarial learning for normalization of multi-batch untargeted metabolomics data
+source_repos:
+- https://github.com/skinniderlab/spectraverse-analysis
+- https://github.com/zamboni-lab/RALPS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/skinniderlab/spectraverse-analysis

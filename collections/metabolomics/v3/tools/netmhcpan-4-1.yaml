@@ -1,0 +1,17 @@
+name: NetMHCpan-4.1
+slug: netmhcpan-4-1
+version_used: null
+edam_topics: []
+evidence_spans:
+- applications in immunopeptidomics, metaproteomics, and the dark human proteome (Casanovo v4.x)
+derived_from:
+- doi: 10.1038/s41467-024-49731-x
+  title: Sequence-to-sequence translation from mass spectra to peptides with a transformer model
+source_repos:
+- https://github.com/Noble-Lab/casanovo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Noble-Lab/casanovo

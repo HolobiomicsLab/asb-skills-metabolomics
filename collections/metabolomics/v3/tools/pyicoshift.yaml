@@ -1,0 +1,18 @@
+name: pyicoshift
+slug: pyicoshift
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'For More details can be found here : https://github.com/sekro/pyicoshift'
+derived_from:
+- doi: 10.1093/bioadv/vbae192
+  title: 'Protomix: a Python package for 1H-NMR metabolomics data preprocessing'
+source_repos:
+- https://github.com/sekro/pyicoshift
+- https://github.com/mzniber/Protomix
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sekro/pyicoshift

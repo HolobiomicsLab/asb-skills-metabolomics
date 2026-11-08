@@ -1,0 +1,18 @@
+name: Metaboseek
+slug: metaboseek
+version_used: null
+edam_topics: []
+evidence_spans:
+- Metaboseek offers a graphical user interface to set up data analysis with the `xcms` package
+- Metaboseek offers a graphical user interface to set up data analysis with the `xcms` package to detect and align molecular features from LC/MS data across multiple samples.
+derived_from:
+- doi: 10.1038/s41467-022-28391-9
+  title: Comparative metabolomics with Metaboseek reveals functions of a conserved fat metabolism pathway in C. elegans
+source_repos:
+- https://github.com/mjhelf/Metaboseek
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mjhelf/Metaboseek

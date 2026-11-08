@@ -1,0 +1,20 @@
+name: NP Analyst
+slug: np-analyst
+version_used: null
+edam_topics: []
+evidence_spans:
+- Right now things are implemented via a CLI (`npanalyst`) which will process a folder of csv files or basket a folder of replicated CSVs
+- We now present NP Analyst, an open online platform for Compound Activity Mapping that accepts bioassay data of almost any type
+- We now present NP Analyst, a versatile, open access platform for Compound Activity Mapping (www.npanalyst.org)
+- Using an r-tree to build connected component graphs of m/z features with overlapping error ranges (in all dimensions).
+derived_from:
+- doi: 10.1021/acscentsci.1c01108
+  title: 'NP Analyst: An Open Online Platform for Compound Activity Mapping'
+source_repos:
+- https://github.com/liningtonlab/npanalyst
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liningtonlab/npanalyst

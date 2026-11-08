@@ -1,0 +1,56 @@
+name: data.table
+slug: data-table
+version_used: 1.14.8
+edam_topics: []
+evidence_spans:
+- packages <- c("htmltools" ,"rmarkdown", "data.table", "ggplot2", "DT", "webshot", "tcltk", "knitr", "ggbeeswarm")
+- '"rmarkdown", "data.table", "ggplot2"'
+- 'library(mpactr)
+
+  library(tidyverse)
+
+  library(data.table)'
+- Both functions will return a `data.table` object with the corresponding information.
+- data.table (Imports)
+- The data.table package is used extensively for handling mass spectrometry data for reading, writing and processing large internal tabular datasets.
+- '- `data.table (Imports)`'
+- the dataframe can then be quickly sorted/arranged/aggregated as desired with modern libraries such as `data.table`
+- library(data.table)
+- '**data.table** (https://cran.r-project.org/web/packages/data.table/data.table.pdf)'
+- install.packages("data.table")
+- 'library(data.table) # for fast reading and writing of csv files using fread() and fwrite()'
+- '* data.table: 1.14.8'
+derived_from:
+- doi: 10.1016/j.aca.2025.344698
+  title: 'DIATAGeR: Triacylglycerol annotation of data-independent acquisition based lipidomics'
+- doi: 10.1021/acs.analchem.4c01253
+  title: 'MobiLipid: A Tool for Enhancing CCS Quality Control of Ion Mobility–Mass Spectrometry Lipidomics by Internal Standardization'
+- doi: 10.1128/mra.00997-24
+  title: 'mpactR: an R adaptation of the metabolomics peak analysis computational tool (MPACT) for use in reproducible data analysis pipelines'
+- doi: 10.1093/bioinformatics/btab231
+  title: 'mzRAPP: a tool for reliability assessment of data pre-processing in non-targeted metabolomics'
+- doi: 10.1186/s13321-025-01044-x
+  title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
+- doi: 10.1093/bioadv/vbae160
+  title: 'arcMS: transformation of multi-dimensional high-resolution mass spectrometry data to columnar format for compact storage and fast access'
+- doi: 10.1093/nar/gky837
+  title: 'ProGeM: a framework for the prioritization of candidate causal genes at molecular quantitative trait loci'
+- doi: 10.1038/s41597-023-01949-y
+  title: Quality control and removal of technical variation of NMR metabolic biomarker data in ~120,000 UK Biobank participants
+- doi: 10.1038/s41467-024-45966-w
+  title: The impact of exercise on gene regulation in association with complex trait genetics
+source_repos:
+- https://github.com/Velenosi-Lab/DIATAGeR
+- https://github.com/FelinaHildebrand/MobiLipid
+- https://github.com/mums2/mpactr
+- https://github.com/YasinEl/mzRAPP
+- https://github.com/leesulab/arcMS
+- https://github.com/ds763/ProGeM
+- https://github.com/sritchie73/ukbnmr
+- https://github.com/NikVetr/MoTrPAC_Complex_Traits
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Velenosi-Lab/DIATAGeR

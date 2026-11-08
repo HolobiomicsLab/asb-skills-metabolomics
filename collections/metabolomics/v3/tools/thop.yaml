@@ -1,0 +1,17 @@
+name: thop
+slug: thop
+version_used: null
+edam_topics: []
+evidence_spans:
+- FLOPs were calculated using the profile function from the Python library thop.
+derived_from:
+- doi: 10.1371/journal.pone.0321239
+  title: 'MSMCE: A novel representation module for classification of raw mass spectrometry data'
+source_repos:
+- https://github.com/WoodFY/MSMCE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WoodFY/MSMCE

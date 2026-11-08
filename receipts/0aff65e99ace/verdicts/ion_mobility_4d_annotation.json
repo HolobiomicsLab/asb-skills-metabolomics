@@ -1,0 +1,35 @@
+{
+  "workflow": "ion_mobility_4d_annotation",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Fits calibrant-based CCS models and applies them to IMS measurements but does not filter annotations against reference CCS values.",
+      "severity": "advisory",
+      "slug": "collision-cross-section-calibration",
+      "stage": "ccs_calibration"
+    },
+    {
+      "check": "V4",
+      "detail": "Re-ranks mass and retention-time candidates with predicted CCS but does not jointly score observed MS/MS spectral similarity against the same entries.",
+      "severity": "advisory",
+      "slug": "ccs-based-compound-identification",
+      "stage": "ccs_library_match"
+    },
+    {
+      "check": "V4",
+      "detail": "Builds an MS2-similarity FBMN from a feature table and MGF but does not handle CCS-resolved features or import CCS attributes.",
+      "severity": "advisory",
+      "slug": "feature-based-molecular-networking--7b025a18b065ae1c",
+      "stage": "networking"
+    }
+  ],
+  "verdict": "pass"
+}

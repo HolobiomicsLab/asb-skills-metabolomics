@@ -1,0 +1,29 @@
+name: mgcv
+slug: mgcv
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `mgcv (Imports)`'
+- mgcv (Imports)
+derived_from:
+- doi: 10.1021/acs.analchem.0c03693
+  title: '<i>metabCombiner</i>: Paired Untargeted LC-HRMS Metabolomics Feature Matching and Concatenation of Disparately Acquired Data Sets'
+- doi: 10.1101/2025.09.30.679445
+  title: Robust metabolomics data normalization across scales and experimental designs
+- doi: 10.1021/acs.analchem.0c03060
+  title: 'MRMkit: Automated Data Processing for Large-Scale Targeted Metabolomics Analysis'
+- doi: 10.1021/acs.analchem.5c06841
+  title: Robust Metabolomics Data Normalization across Scales and Experimental Designs
+- doi: 10.1007/s11306-021-01839-7
+  title: 'WaveICA 2.0: a novel batch effect removal method for untargeted metabolomics data without using batch information'
+source_repos:
+- https://github.com/hhabra/metabCombiner
+- https://github.com/UGent-LIMET/Metanorm
+- https://github.com/SLINGhub/MRMhub
+- https://github.com/dengkuistat/WaveICA_2.0
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hhabra/metabCombiner

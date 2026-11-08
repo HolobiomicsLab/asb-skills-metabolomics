@@ -1,0 +1,21 @@
+name: Flask
+slug: flask
+version_used: null
+edam_topics: []
+evidence_spans:
+- Viime's processing backend is implemented as a RESTful API using the Flask web framework
+- Viime’s processing backend is implemented as a RESTful API using the Flask web framework.
+derived_from:
+- doi: 10.1021/jasms.5c00237
+  title: Multiple Spectrum Alignment for Molecular Networking Exploration and Discovery
+- doi: 10.21105/joss.02410
+  title: 'Viime: Visualization and Integration of Metabolomics Experiments'
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/NetworkFamily_MultipleAlignment_Website
+- https://github.com/girder/viime
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/NetworkFamily_MultipleAlignment_Website

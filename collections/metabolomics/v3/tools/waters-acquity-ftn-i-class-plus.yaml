@@ -1,0 +1,17 @@
+name: Waters Acquity FTN I-Class Plus
+slug: waters-acquity-ftn-i-class-plus
+version_used: null
+edam_topics: []
+evidence_spans:
+- The HILIC separation was performed on a Waters Acquity FTN I-Class Plus ultraperformance liquid chromatography system
+derived_from:
+- doi: 10.1021/acs.analchem.3c04290
+  title: 'MOCCal: A Multiomic CCS Calibrator for Traveling Wave Ion Mobility Mass Spectrometry'
+source_repos:
+- https://github.com/HinesLab/MOCCal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HinesLab/MOCCal

@@ -1,0 +1,19 @@
+name: NVIDIA Tesla K40c
+slug: nvidia-tesla-k40c
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our graphic card was an NVIDIA® Tesla K40c
+- Our graphic card was an NVIDIA® Tesla K40c with a compute capability of 3.5, equipped with 15 streaming multiprocessors of 192 cores each
+- Our graphic card was an NVIDIA® Tesla K40c with a compute capability of 3.5
+derived_from:
+- doi: 10.1186/s13321-017-0238-7
+  title: 'G.A.M.E.: GPU-accelerated mixture elucidator'
+source_repos:
+- https://github.com/CMDM-Lab/GAME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CMDM-Lab/GAME

@@ -1,0 +1,17 @@
+name: curl
+slug: curl
+version_used: null
+edam_topics: []
+evidence_spans:
+- "curl_download(paste0(url, s_file),\n              destfile = file.path(tempdir(), s_file))"
+derived_from:
+- doi: 10.3390/metabo12020173
+  title: A Modular and Expandable Ecosystem for Metabolomics Data Annotation in R
+source_repos:
+- https://github.com/jorainer/MetaboAnnotationTutorials
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jorainer/MetaboAnnotationTutorials

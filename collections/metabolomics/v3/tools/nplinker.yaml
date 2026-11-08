@@ -1,0 +1,28 @@
+name: NPLinker
+slug: nplinker
+version_used: null
+edam_topics: []
+evidence_spans:
+- Recently, these methods have been made more readily accessible through the NPLinker platform.
+- 'developed NPClassScore: an empirical class matching score that we also implemented in the NPLinker platform'
+- Recently, the NPLinker platform was developed for the systematic linking of MS/MS spectra and BGCs [10]
+- NPLinker is a python framework for data mining microbial natural products by integrating genomics and metabolomics data.
+- pip install nplinker
+- pip install git+https://github.com/NPLinker/nplinker@dev
+- a new set of scores was recently proposed using a number of PoDP datasets with validated BGC–metabolite links
+derived_from:
+- doi: 10.1186/s40168-022-01444-3
+  title: Enhanced correlation-based linking of biosynthetic gene clusters to their metabolic products through chemical class matching
+- doi: 10.1371/journal.pcbi.1008920
+  title: Ranking microbial metabolomic and genomic links in the NPLinker framework using complementary scoring functions
+- doi: 10.1038/s41589-020-00724-z
+  title: A community resource for paired genomic and metabolomic data mining
+source_repos:
+- https://github.com/NPLinker/nplinker
+- https://github.com/iomega/paired-data-form
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NPLinker/nplinker

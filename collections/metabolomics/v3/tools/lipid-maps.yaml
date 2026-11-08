@@ -1,0 +1,27 @@
+name: LIPID MAPS
+slug: lipid-maps
+version_used: null
+edam_topics: []
+evidence_spans:
+- extracted all lipids from databases such as LIPID MAPS and SwissLipids
+- extracted all lipids from databases such as LIPID MAPS and SwissLipids on the highest structural resolution level
+- 'extracts information by parsing lipid species (using LIPID MAPS
+
+  classification)'
+derived_from:
+- doi: 10.1021/acs.jproteome.8b00720
+  title: 'CEU Mass Mediator 3.0: A Metabolite Annotation Tool'
+- doi: 10.1021/acs.analchem.3c02449
+  title: 'LipidSpace: Simple Exploration, Reanalysis, and Quality Control of Large-Scale Lipidomics Studies'
+- doi: 10.1093/bioinformatics/btac706
+  title: 'ADViSELipidomics: a workflow for analyzing lipidomics data'
+source_repos:
+- https://github.com/albertogilf/ceuMassMediator
+- https://github.com/lifs-tools/lipidspace
+- https://github.com/ShinyFabio/ADViSELipidomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/albertogilf/ceuMassMediator

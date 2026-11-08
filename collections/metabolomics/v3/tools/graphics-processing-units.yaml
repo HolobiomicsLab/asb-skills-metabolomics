@@ -1,0 +1,21 @@
+name: graphics processing units
+slug: graphics-processing-units
+version_used: null
+edam_topics: []
+evidence_spans:
+- The HD encoding and distance computation functions on a GPU were implemented using Numba and CuPy.
+- 'We have implemented the HD
+
+  encoding modules using the CUDA platform18'
+- making it possible to run HyperSpec on graphics processing units to achieve extremely efficient spectral clustering performance
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00612
+  title: 'HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space'
+source_repos:
+- https://github.com/wh-xu/Hyper-Spec
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wh-xu/Hyper-Spec

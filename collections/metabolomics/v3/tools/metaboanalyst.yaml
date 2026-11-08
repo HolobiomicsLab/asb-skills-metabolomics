@@ -1,0 +1,128 @@
+name: MetaboAnalyst
+slug: metaboanalyst
+version_used: '4.0'
+edam_topics: []
+evidence_spans:
+- the web-based visualization tools JSpecView [5, 6], NMRPro [7], MetaboAnalyst [8], MetaboHunter [9], COLMAR [10], jsNMR [11], and SpeckTackle [12] are known.
+- MetaboAnalyst [15–17] is a popular metabolomics data processing web-tool providing kNN, Probabilistic PCA (PPCA), Bayesian PCA (BPCA), SVD
+- Several dedicated web-based platforms are available for the analysis of metabolomic data, such as the well-established Metabo Analyst
+- All these statistics are also available in other statistics programs such as MetaboAnalyst, LipidSuite, or Lipid Mini-On.
+- NOREVA17 and SERRF18 for normalization, and MetaboAnalyst19 for statistical analysis.
+- MetaboAnalyst and various R packages for statistical analysis
+- MetaboAnalystR 4.0 is the backend of the MetaboAnalyst 6.0 web application52
+- we provide long-term stable (LTS) release of [MetaboAnalyst-Pro](https://www.xialab.ca/pro/protools.xhtml) with Enterprise Solution for local installation
+- web-based applications such as UltraMassExplorer (UME) [27], FREDA [28], MetaboAnalyst [29], and DropMS [30]
+- publicly available statistical data analysis tools such as MetaboAnalyst
+- we anticipate that metaboprep will be used in conjunction with complementary tools such as MetaboAnalyst (Pang et al., 2021)
+- head to <a href='https://www.metaboanalyst.ca/MetaboAnalyst/upload/ConvertView.xhtml' target='_blank'>MetaboAnalyst</a> for the ID conversion
+- For the conversion of compound names to KEGG identifiers, the MetaboAnalyst 4.0 [47] ID conversion tool was used
+- Pathway enrichment analysis of uniquely identified differential metabolites using Metaboanalyst [42]
+- open-source tools developed by the research community (e.g., XCMS, MZmine, OpenMS, and MetaboAnalyst)
+- Among the most well-known metabolomics workflow tools are MetaboAnalyst (Chong & Xia, 2020) and XCMS Online
+- R packages including ropls, Metabo AnalystR, Hmisc, pROC, random Forest, and Boruta were utilized for analysis.
+- Plenty of open-source platforms, including Metaboanalyst (Chong et al., 2018), W4M (Giacomoni et al., 2015), Galaxy-M
+- several methods exist for metabolite enrichment, with [MetaboAnalyst](https://www.metaboanalyst.ca/) being the most popular.
+- to construct a method that can complement established tools for NMR data analysis like MetaboAnalyst [12], by improving performance
+- a method that can complement established tools for NMR data analysis like MetaboAnalyst [12], by improving performance, analysis quality and reproducibility.
+- This method is widely used in the web-based tools XCMS Online [38] and MetaboAnalyst [39]
+- MZmine2 (Pluskal et al. 2010), MetaboAnalyst (Xia et al. 2015) and metabolomics specific Galaxy workflows
+derived_from:
+- doi: 10.1186/s13321-020-00481-0
+  title: 'ChemSpectra: a web-based spectra editor for analytical data'
+- doi: 10.1021/acs.jproteome.2c00602
+  title: 'CloMet: A Novel Open-Source and Modular Software Platform That Connects Established Metabolomics Repositories and Data Analysis Resources'
+- doi: 10.1038/s41467-024-51433-3
+  title: An end-to-end deep learning method for mass spectrometry data analysis to reveal disease-specific metabolic profiles
+- doi: 10.1371/journal.pcbi.1005973
+  title: 'GSimp: A Gibbs sampler based left-censored missing value imputation approach for metabolomics studies'
+- doi: 10.1021/acs.analchem.4c00359
+  title: LipiDex 2 Integrates MS<sup>n</sup> Tree-Based Fragmentation Methods and Quality Control Modules to Improve Discovery Lipidomics
+- doi: 10.1002/cpz1.70009
+  title: 'LipidOne 2.0: A Web Tool for Discovering Biological Meanings Hidden in Lipidomic Data'
+- doi: 10.1021/acs.analchem.3c02449
+  title: 'LipidSpace: Simple Exploration, Reanalysis, and Quality Control of Large-Scale Lipidomics Studies'
+- doi: 10.1093/bioinformatics/btab591
+  title: 'Amanida: an R package for meta-analysis of metabolomics non-integral data'
+- doi: 10.1038/s41467-025-60640-5
+  title: MassCube improves accuracy for metabolomics data processing from raw files to phenotype classifiers
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+- doi: 10.1186/s40168-023-01476-3
+  title: 'MetaboDirect: an analytical pipeline for the processing of FT-ICR MS-based metabolomic data'
+- doi: 10.3390/metabo15010048
+  title: MetaboLabPy—An Open-Source Software Package for Metabolomics NMR Data Processing and Metabolic Tracer Data Analysis
+- doi: 10.1093/bioinformatics/btac059
+  title: 'metaboprep: an R package for preanalysis data description and processing'
+- doi: 10.1101/2021.02.28.433248
+  title: 'MetaFetcheR: An R package for complete mapping of small compound data'
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+- doi: 10.1016/j.cmpb.2025.108672
+  title: 'MInfer: Bridging MetaboAnalyst and Jacobian analysis for metabolomic networks'
+- doi: 10.1016/j.isci.2023.106881
+  title: Integrative processing of untargeted metabolomic and lipidomic data using MultiABLER
+- doi: 10.1038/s41596-021-00636-9
+  title: Optimization of metabolomic data processing using NOREVA
+- doi: 10.1007/s11306-018-1347-7
+  title: 'NormalizeMets: assessing, selecting and implementing statistical methods for normalizing metabolomics data'
+- doi: 10.1371/journal.pcbi.1009105
+  title: 'Pathway analysis in metabolomics: Recommendations for the use of over-representation analysis'
+- doi: 10.3390/biom15111562
+  title: 'SMAnalyst: A Web Server for Spatial Metabolomic Data Analysis and Annotation'
+- doi: 10.1021/acs.analchem.5c03225
+  title: 'SMART 2.0 Statistical Metabolomics Analysis: An R Tool 2.0'
+- doi: 10.1021/acs.analchem.0c03421
+  title: SmartPeak Automates Targeted and Quantitative Metabolomics Data Processing
+- doi: 10.1016/j.aca.2018.08.002
+  title: 'statTarget: A streamlined tool for signal drift correction and interpretations of quantitative mass spectrometry-based omics data'
+- doi: 10.21105/joss.02410
+  title: 'Viime: Visualization and Integration of Metabolomics Experiments'
+- doi: 10.3389/fchem.2021.659656
+  title: 'iMAP: A Web Server for Metabolomics Data Integrative Analysis'
+- doi: 10.1093/bioadv/vbaf100
+  title: Enrichment analysis for spatial and single-cell metabolomics accounting for molecular ambiguity
+- doi: 10.1371/journal.pcbi.1006018
+  title: 'speaq 2.0: A complete workflow for high-throughput 1D NMR spectra processing and quantification'
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+- doi: 10.1007/s00216-023-04715-6
+  title: Augmented region of interest for untargeted metabolomics mass spectrometry (AriumMS) of multi-platform-based CE-MS and LC-MS data
+- doi: 10.1007/s11306-017-1242-7
+  title: Navigating freely-available software tools for metabolomics analysis
+source_repos:
+- https://github.com/ComPlat/chem-spectra-app
+- https://github.com/rmallol/clomet
+- https://github.com/yjdeng9/DeepMSProfiler
+- https://github.com/WandeRum/GSimp
+- https://github.com/coongroup/LipiDex-2
+- https://github.com/matteogiulietti/LipidOne
+- https://github.com/lifs-tools/lipidspace
+- https://github.com/mariallr/amanida
+- https://github.com/huaxuyu/masscube
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/Coayala/MetaboDirect
+- https://github.com/ludwigc/metabolabpy
+- https://github.com/MRCIEU/metaboprep
+- https://github.com/komorowskilab/MetaFetcheR
+- https://github.com/scibiome/meteor
+- https://github.com/cellbiomaths/MInfer
+- https://github.com/holab-hku/MultiABLER
+- https://github.com/metabolomicstats/NormalizeMets
+- https://github.com/cwieder/metabolomics-ORA
+- https://github.com/mzlab-research/SManalyst
+- https://github.com/YuJenL/SMART
+- https://github.com/AutoFlowResearch/SmartPeak
+- https://github.com/13479776/statTarget
+- https://github.com/girder/viime
+- https://github.com/IP4M/R-scripts-for-iMAP
+- https://github.com/alexandrovteam/S2IsoMEr
+- https://github.com/beirnaert/speaq
+- https://github.com/IxI-97/BiomiX
+- https://github.com/AdrianHaun/AriumMS
+- https://github.com/RASpicer/MetabolomicsTools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ComPlat/chem-spectra-app

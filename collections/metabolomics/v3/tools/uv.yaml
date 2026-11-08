@@ -1,0 +1,24 @@
+name: uv
+slug: uv
+version_used: null
+edam_topics: []
+evidence_spans:
+- Download available public MS/MS resources using the command `uv run annome_downloadresources`
+- Install the uv toolkit.
+- Install the uv toolkit. For installation instructions please refer to https://github.com/astral-sh/uv#installation
+derived_from:
+- doi: 10.1093/bioadv/vbag111
+  title: 'AnnoMe: user-defined classification of HR-MS/MS spectra for natural product discovery'
+- doi: 10.1021/acs.analchem.3c04654
+  title: Generating Molecular Fragmentation Graphs with Autoregressive Neural Networks
+source_repos:
+- https://github.com/astral-sh/uv
+- https://github.com/astral-sh/uv#installation
+- https://github.com/chrboku/AnnoMe
+- https://github.com/samgoldman97/ms-pred
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/astral-sh/uv

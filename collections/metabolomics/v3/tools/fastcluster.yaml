@@ -1,0 +1,20 @@
+name: fastcluster
+slug: fastcluster
+version_used: 1.1.28
+edam_topics: []
+evidence_spans:
+- fast hierarchical clustering with complete linkage in fastcluster
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00612
+  title: 'HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space'
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+source_repos:
+- https://github.com/wh-xu/Hyper-Spec
+- https://github.com/bittremieuxlab/falcon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wh-xu/Hyper-Spec

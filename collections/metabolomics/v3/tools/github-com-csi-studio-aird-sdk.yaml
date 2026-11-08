@@ -1,0 +1,21 @@
+name: github.com/CSi-Studio/Aird-SDK
+slug: github-com-csi-studio-aird-sdk
+version_used: '1.1'
+edam_topics: []
+evidence_spans:
+- They are freely available at https://github.com/CSi-Studio/Aird-SDK and https://github.com/CSi-Studio/AirdPro .
+- 'Visit AirdSDK project for more detail: https://github.com/CSi-Studio/Aird-SDK'
+- we also provide a JSON Aird Schema (https://github.com/CSi-Studio/Aird-SDK/blob/1.1/AirdMetaData.json)
+- AirdSDK is written in Java and is an open-source project for download at https://github.com/CSi-Studio/Aird-SDK.
+- AirdPro is written in C# and is an opensource project for download at https://github.com/CSi-Studio/AirdPro/releases/.
+derived_from:
+- doi: 10.1186/s12859-021-04490-0
+  title: 'Aird: a computation-oriented mass spectrometry data format enables a higher compression ratio and less decoding time'
+source_repos:
+- https://github.com/CSi-Studio/AirdPro
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSi-Studio/AirdPro

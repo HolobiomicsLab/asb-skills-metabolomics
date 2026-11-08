@@ -1,0 +1,16 @@
+name: openxlsx
+slug: openxlsx
+version_used: null
+edam_topics: []
+evidence_spans:
+- openxlsx14 for reading and writing of xlsx files
+derived_from:
+- doi: 10.1021/acs.analchem.1c05224
+  title: 'automRm: An R Package for Fully Automatic LC-QQQ-MS Data Preprocessing Powered by Machine Learning'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

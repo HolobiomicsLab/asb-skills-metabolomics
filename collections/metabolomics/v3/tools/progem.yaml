@@ -1,0 +1,20 @@
+name: ProGeM
+slug: progem
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present a framework for the 'Prioritization of candidate causal Genes at Molecular QTLs' (ProGeM)
+- we introduced an analysis framework and highly configurable R script for the prioritization of candidate causal genes at molecular QTLs
+- Each row provides annotation of a *"bottom-up"* candidate mediating gene
+- ProGeM will highlight any bottom-up candidate mediating genes that contain either a sentinel or a proxy variant
+derived_from:
+- doi: 10.1093/nar/gky837
+  title: 'ProGeM: a framework for the prioritization of candidate causal genes at molecular quantitative trait loci'
+source_repos:
+- https://github.com/ds763/ProGeM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ds763/ProGeM

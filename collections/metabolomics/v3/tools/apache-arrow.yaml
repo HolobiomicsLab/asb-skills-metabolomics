@@ -1,0 +1,20 @@
+name: Apache Arrow
+slug: apache-arrow
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'compatible with the [Apache Arrow
+
+  library](https://arrow.apache.org/)'
+- HRMS data converted with `arcMS` is stored as columnar files in the Apache Parquet format
+derived_from:
+- doi: 10.1093/bioadv/vbae160
+  title: 'arcMS: transformation of multi-dimensional high-resolution mass spectrometry data to columnar format for compact storage and fast access'
+source_repos:
+- https://github.com/leesulab/arcMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/leesulab/arcMS

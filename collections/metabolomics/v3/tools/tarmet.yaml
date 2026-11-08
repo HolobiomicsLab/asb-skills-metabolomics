@@ -1,0 +1,16 @@
+name: TarMet
+slug: tarmet
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s11306-018-1363-7
+  title: 'TarMet: a reactive GUI tool for efficient and confident quantification of MS based targeted metabolic and stable isotope tracer analysis'
+source_repos:
+- https://github.com/hcji/TarMet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hcji/TarMet

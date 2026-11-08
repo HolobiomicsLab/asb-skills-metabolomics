@@ -1,0 +1,19 @@
+name: Cytoscape.js
+slug: cytoscape-js
+version_used: 3.15.1
+edam_topics: []
+evidence_spans:
+- based on Cytoscape.js
+- Users can import the edge table and node table into Cytoscape to perform more personalized modifications.
+- The correlation-based network module was developed by open-source graph network library Cytoscape.js 3.15.1
+derived_from:
+- doi: 10.3389/fchem.2021.659656
+  title: 'iMAP: A Web Server for Metabolomics Data Integrative Analysis'
+source_repos:
+- https://github.com/IP4M/R-scripts-for-iMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IP4M/R-scripts-for-iMAP

@@ -1,0 +1,20 @@
+name: HDBSCAN
+slug: hdbscan
+version_used: 0.8.27
+edam_topics: []
+evidence_spans:
+- hdbscan==0.8.27
+derived_from:
+- doi: 10.1038/s41467-024-55306-7
+  title: 'msiFlow: automated workflows for reproducible and scalable multimodal mass spectrometry imaging and microscopy data analysis'
+- doi: 10.1093/bioinformatics/btad096
+  title: Regularized adversarial learning for normalization of multi-batch untargeted metabolomics data
+source_repos:
+- https://github.com/Immunodynamics-Engel-Lab/msiflow
+- https://github.com/zamboni-lab/RALPS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Immunodynamics-Engel-Lab/msiflow

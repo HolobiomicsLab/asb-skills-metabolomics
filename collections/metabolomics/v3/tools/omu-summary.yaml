@@ -1,0 +1,17 @@
+name: omu_summary
+slug: omu-summary
+version_used: null
+edam_topics: []
+evidence_spans:
+- Omu supports two univariate statistical models, t test and anova, using the functions ```omu_summary``` and ```anova_function``` respectively
+derived_from:
+- doi: 10.1128/mra.00129-19
+  title: omu, a Metabolomics Count Data Analysis Tool for Intuitive Figures and Convenient Metadata Collection
+source_repos:
+- https://github.com/connor-reid-tiffany/Omu
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/connor-reid-tiffany/Omu

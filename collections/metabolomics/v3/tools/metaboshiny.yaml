@@ -1,0 +1,21 @@
+name: MetaboShiny
+slug: metaboshiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaboShiny offers multiple modes of statistical analysis, with various options for bivariate, multivariate
+- MetaboShiny is an R based application, wrapped in a ‘Shiny’ user interface
+- MetaboShiny streamlines the process of m/z annotation, enabling the user to rapidly retrieve matches in a wide range of optimized compound databases
+- MetaboShiny offers to explore specific subsets of the data or select another experimental variable from supplied metadata.
+- MetaboShiny is an R based application, wrapped in a 'Shiny' user interface
+derived_from:
+- doi: 10.1007/s11306-020-01717-8
+  title: 'MetaboShiny: interactive analysis and metabolite annotation of mass spectrometry-based metabolomics data'
+source_repos:
+- https://github.com/joannawolthuis/MetaboShiny
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/joannawolthuis/MetaboShiny

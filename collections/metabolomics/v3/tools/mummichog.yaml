@@ -1,0 +1,22 @@
+name: mummichog
+slug: mummichog
+version_used: null
+edam_topics: []
+evidence_spans:
+- mummichog requires two lists of m/z features, the significant list  (e.g. selected by univariate statistics) and the reference list
+- mummichog requires two lists of m/z features, the significant list  (e.g. selected by univariate statistics) and the reference list  (all features detected in the MS experiment).
+- The software implementation of our approach is named mummichog
+- The software implementation of our approach is named mummichog (mummichog is an American Indian term for by groups, also name of a small fish which live by groups).
+- 'mummichog(3): core algorithm package for pathway/network analysis'
+derived_from:
+- doi: 10.1371/journal.pcbi.1003123
+  title: Predicting Network Activity from High Throughput Metabolomics
+source_repos:
+- https://github.com/metabolomics-cloud/mummichog
+- https://github.com/shuzhao-li/mummichog
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/metabolomics-cloud/mummichog

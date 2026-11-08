@@ -1,0 +1,16 @@
+name: Lipid Mini-ON
+slug: lipid-mini-on
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2020.04.09.033894
+  title: 'LipidLynxX: a data transfer hub to support integration of large scale lipidomics datasets'
+source_repos:
+- https://github.com/SysMedOs/LipidLynxX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SysMedOs/LipidLynxX

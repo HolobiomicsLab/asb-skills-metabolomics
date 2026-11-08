@@ -1,0 +1,16 @@
+name: JainLab GitHub code repository
+slug: jainlab-github-code-repository
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.9b02983
+  title: Deep Neural Networks for Classification of LC-MS Spectral Peaks
+source_repos:
+- https://github.com/JainLab/Manuscript-DNNs-for-Classification-of-LCMS-Peaks
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JainLab/Manuscript-DNNs-for-Classification-of-LCMS-Peaks

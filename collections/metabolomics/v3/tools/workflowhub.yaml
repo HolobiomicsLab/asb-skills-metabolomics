@@ -1,0 +1,17 @@
+name: WorkflowHub
+slug: workflowhub
+version_used: null
+edam_topics: []
+evidence_spans:
+- The workflow RO-Crate can be downloaded from the [WorkflowHub page](https://workflowhub.eu/workflows/402).
+derived_from:
+- doi: 10.1093/gigascience/giad115
+  title: A multi-omics data analysis workflow packaged as a FAIR Digital Object
+source_repos:
+- https://github.com/Xomics/ACTIONdemonstrator_workflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Xomics/ACTIONdemonstrator_workflow

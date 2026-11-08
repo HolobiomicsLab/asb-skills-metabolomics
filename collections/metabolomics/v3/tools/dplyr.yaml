@@ -1,0 +1,67 @@
+name: dplyr
+slug: dplyr
+version_used: 1.1.2
+edam_topics: []
+evidence_spans:
+- "to_plot <- dplyr::bind_rows(\n  NoSmoothed = as.data.frame(one_ims_spec),"
+- dplyr (Imports)
+- dplyr (Imports)
+- '`dplyr (Imports)`'
+- dplyr (Imports)
+- '- `dplyr (Imports)`'
+- the data processing in tidyMass is much more consistent with the ggplot2 and dplyr grammars
+- Data can then be filtered, rearranged, sorted and aggregated with the `dplyr` syntax
+- library(dplyr)
+- dplyr (Imports)
+- required_pkgs <- c("dplyr","tidyr","readr","CHNOSZ",
+- library(dplyr)
+- library(dplyr)
+- "metaspace_annotations = metaspace_annotations %>% \n  dplyr::left_join(condition_metadata"
+- '* dplyr: 1.1.2'
+derived_from:
+- doi: 10.1093/bib/bbaf080
+  title: 'GcDUO: an open-source software for GC × GC–MS data analysis'
+- doi: 10.1016/j.chemolab.2023.104938
+  title: 'GCIMS: An R package for untargeted gas chromatography – Ion mobility spectrometry data processing'
+- doi: 10.1093/bioinformatics/btae373
+  title: 'MetaboReport: from metabolomics data analysis to comprehensive reporting'
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+- doi: 10.1021/acs.analchem.3c03660
+  title: "QC\n                    <i>omics</i>\n                    : Recommendations and Guidelines for Robust, Easily Implementable and Reportable Quality Control of Metabolomics Data"
+- doi: 10.3390/metabo8010016
+  title: 'RaMP: A Comprehensive Relational Database of Metabolomics Pathways for Pathway Enrichment Analysis of Genes and Metabolites'
+- doi: 10.1038/s41467-022-32155-w
+  title: TidyMass an object-oriented reproducible analysis framework for LC–MS data
+- doi: 10.1093/bioadv/vbae160
+  title: 'arcMS: transformation of multi-dimensional high-resolution mass spectrometry data to columnar format for compact storage and fast access'
+- doi: 10.1038/s41467-022-34537-6
+  title: Metabolite annotation from knowns to unknowns through knowledge-guided multi-layer metabolic networking
+- doi: 10.1093/bioadv/vbaf047
+  title: 'LipidSigR: a R-based solution for integrated lipidomics data analysis and visualization'
+- doi: 10.1002/psp4.12689
+  title: Easy and reliable maximum <i>a posteriori</i> Bayesian estimation of pharmacokinetic parameters with the open‐source R package mapbayr
+- doi: 10.1093/bioadv/vbaf100
+  title: Enrichment analysis for spatial and single-cell metabolomics accounting for molecular ambiguity
+- doi: 10.1038/s41467-024-45966-w
+  title: The impact of exercise on gene regulation in association with complex trait genetics
+source_repos:
+- https://github.com/mariallr/GcDuo
+- https://github.com/sipss/GCIMS
+- https://github.com/YonghuiDong/MetReport
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+- https://github.com/ricoderks/QComics
+- https://github.com/Mathelab/RaMP-DB
+- https://github.com/tidymass/tidymass
+- https://github.com/leesulab/arcMS
+- https://github.com/ZhuMetLab/MetDNA2Vis
+- https://github.com/BioinfOMICS/LipidSigR
+- https://github.com/FelicienLL/mapbayr
+- https://github.com/alexandrovteam/S2IsoMEr
+- https://github.com/NikVetr/MoTrPAC_Complex_Traits
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mariallr/GcDuo

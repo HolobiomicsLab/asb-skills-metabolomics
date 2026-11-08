@@ -1,0 +1,20 @@
+name: MySQL
+slug: mysql
+version_used: null
+edam_topics: []
+evidence_spans:
+- The package also includes the raw database file (mysql dump)
+- The package also includes the raw database file (mysql dump), thereby providing a stand-alone downloadable framework for public use
+- RMySQL (Imports)
+derived_from:
+- doi: 10.3390/metabo8010016
+  title: 'RaMP: A Comprehensive Relational Database of Metabolomics Pathways for Pathway Enrichment Analysis of Genes and Metabolites'
+source_repos:
+- https://github.com/Mathelab/RaMP-BackEnd
+- https://github.com/Mathelab/RaMP-DB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mathelab/RaMP-BackEnd

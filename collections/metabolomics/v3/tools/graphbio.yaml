@@ -1,0 +1,20 @@
+name: GraphBio
+slug: graphbio
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present GraphBio, a shiny web app to easily perform visualization analysis for omics data
+- GraphBio was built using R package bs4Dash (Granjon, 2022), a Bootstrap 4 style-based Shiny dashboard web application framework
+- GraphBio was built using R package bs4Dash (Granjon, 2022)
+- GraphBio provides 15 visualization analysis modules, including heatmap, volcano plots, MA plots, network plots
+derived_from:
+- doi: 10.3389/fgene.2022.957317
+  title: 'GraphBio: A shiny web app to easily perform popular visualization analysis for omics data'
+source_repos:
+- https://github.com/databio2022/GraphBio
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/databio2022/GraphBio

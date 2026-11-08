@@ -1,0 +1,18 @@
+name: yamaguchiyuto/label_propagation
+slug: yamaguchiyuto-label-propagation
+version_used: null
+edam_topics: []
+evidence_spans:
+- This implementation of label propagation was adapted from an implementation found at https://github.com/yamaguchiyuto/label_propagation.
+derived_from:
+- doi: 10.1038/s41525-020-0132-5
+  title: 'metPropagate: network-guided propagation of metabolomic information for prioritization of metabolic disease genes'
+source_repos:
+- https://github.com/yamaguchiyuto/label_propagation
+- https://github.com/emmagraham/metPropagate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yamaguchiyuto/label_propagation

@@ -1,0 +1,17 @@
+name: Jupyter notebook tutorial
+slug: jupyter-notebook-tutorial
+version_used: null
+edam_topics: []
+evidence_spans:
+- it includes a tutorial in the form of a Python Jupyter notebook, specifically designed for the analysis of 1D 1H-NMR metabolomics data related to prostate cancer and benign prostatic hyperplasia.
+derived_from:
+- doi: 10.1093/bioadv/vbae192
+  title: 'Protomix: a Python package for 1H-NMR metabolomics data preprocessing'
+source_repos:
+- https://github.com/mzniber/Protomix
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mzniber/Protomix

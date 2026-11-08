@@ -1,0 +1,17 @@
+name: mrgsolve
+slug: mrgsolve
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/psp4.12689
+  title: Easy and reliable maximum <i>a posteriori</i> Bayesian estimation of pharmacokinetic parameters with the open‐source R package mapbayr
+source_repos:
+- https://github.com/metrumresearchgroup/mrgsolve
+- https://github.com/FelicienLL/mapbayr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/metrumresearchgroup/mrgsolve

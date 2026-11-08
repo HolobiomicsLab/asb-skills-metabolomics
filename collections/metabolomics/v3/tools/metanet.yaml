@@ -1,0 +1,16 @@
+name: MetaNet
+slug: metanet
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2025.06.26.661636
+  title: 'MetaNet: a scalable and integrated tool for reproducible omics network analysis'
+source_repos:
+- https://github.com/Asa12138/MetaNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Asa12138/MetaNet

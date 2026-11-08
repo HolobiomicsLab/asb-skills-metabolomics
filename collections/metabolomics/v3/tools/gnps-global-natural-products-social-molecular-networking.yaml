@@ -1,0 +1,20 @@
+name: GNPS (Global Natural Products Social Molecular Networking)
+slug: gnps-global-natural-products-social-molecular-networking
+version_used: null
+edam_topics: []
+evidence_spans:
+- Sharing and community curation of mass spectrometry data with global natural products social molecular networking
+derived_from:
+- doi: 10.1093/bioinformatics/btad078
+  title: 'Improving annotation propagation on molecular networks through random walks: introducing ChemWalker'
+- doi: 10.1021/acs.analchem.3c05829
+  title: 'NP<sup>3</sup> MS Workflow: An Open-Source Software System to Empower Natural Product-Based Drug Discovery Using Untargeted Metabolomics'
+source_repos:
+- https://github.com/computational-chemical-biology/ChemWalker
+- https://github.com/danielatrivella/NP3_MS_Workflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/computational-chemical-biology/ChemWalker

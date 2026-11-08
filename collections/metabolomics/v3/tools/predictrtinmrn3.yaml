@@ -1,0 +1,16 @@
+name: predictRtInMrn3
+slug: predictrtinmrn3
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+source_repos:
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhuMetLab/MrnAnnoAlgo3

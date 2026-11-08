@@ -1,0 +1,27 @@
+name: Goslin
+slug: goslin
+version_used: null
+edam_topics: []
+evidence_spans:
+- It utilizes the C++ library of Goslin4,5 to parse and standardize lipid names
+- It utilizes the C++ library of Goslin4,5 to parse and standardize lipid names.
+- the C++ library of Goslin
+- use the LMSD-derived dictionary and the Goslin package to abbreviate lipid names
+derived_from:
+- doi: 10.1101/2020.04.09.033894
+  title: 'LipidLynxX: a data transfer hub to support integration of large scale lipidomics datasets'
+- doi: 10.1021/acs.analchem.3c02449
+  title: 'LipidSpace: Simple Exploration, Reanalysis, and Quality Control of Large-Scale Lipidomics Studies'
+- doi: 10.3389/fmolb.2022.952149
+  title: 'TurboPutative: A web server for data handling and metabolite classification in untargeted metabolomics'
+source_repos:
+- https://github.com/SysMedOs/LipidLynxX
+- https://github.com/lifs-tools/cppgoslin
+- https://github.com/lifs-tools/lipidspace
+- https://github.com/CNIC-Proteomics/TurboPutative-web
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SysMedOs/LipidLynxX

@@ -1,0 +1,19 @@
+name: github.com/PNNL-Comp-Mass-Spec/AutoCCS
+slug: github-com-pnnl-comp-mass-spec-autoccs
+version_used: null
+edam_topics: []
+evidence_spans:
+- Availability and implementation https://github.com/PNNL-Comp-Mass-Spec/AutoCCS.
+- 'Source: github:github.com__PNNL-Comp-Mass-Spec__AutoCCS'
+- 'Website: https://github.com/PNNL-Comp-Mass-Spec/AutoCCS or https://www.pnnl.gov/integrative-omics'
+derived_from:
+- doi: 10.1093/bioinformatics/btab429
+  title: 'AutoCCS: automated collision cross-section calculation software for ion mobility spectrometry–mass spectrometry'
+source_repos:
+- https://github.com/PNNL-Comp-Mass-Spec/AutoCCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PNNL-Comp-Mass-Spec/AutoCCS

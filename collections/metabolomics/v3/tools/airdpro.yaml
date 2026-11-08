@@ -1,0 +1,27 @@
+name: AirdPro
+slug: airdpro
+version_used: '1.1'
+edam_topics: []
+evidence_spans:
+- Aird-SDK is written in Java, and AirdPro is a GUI client for vendor file converting written in C#
+- CSi-Studio/AirdPro
+- No usage/docs found.
+- '[AirdPro v1.1](https://github.com/CSi-Studio/AirdPro/releases/tag/1.1)'
+- AirdPro (version 1.1.0.0) can be freely downloaded at [GitHub]
+derived_from:
+- doi: 10.1186/s12859-021-04490-0
+  title: 'Aird: a computation-oriented mass spectrometry data format enables a higher compression ratio and less decoding time'
+- doi: 10.1186/s12859-024-05685-x
+  title: 'MRMPro: a web-based tool to improve the speed of manual calibration for multiple reaction monitoring data analysis by mass spectrometry'
+- doi: 10.1007/s11306-023-02018-6
+  title: 'MetaPro: a web-based metabolomics application for LC-MS data batch inspection and library curation'
+source_repos:
+- https://github.com/CSi-Studio/AirdPro
+- https://github.com/CSi-Studio/MRMPro-Doc
+- https://github.com/CSi-Studio/MetaPro
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSi-Studio/AirdPro

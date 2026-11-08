@@ -1,0 +1,18 @@
+name: eQuilibrator
+slug: equilibrator
+version_used: null
+edam_topics: []
+evidence_spans:
+- The thermodynamics filters require the use of [eQuilibrator](https://equilibrator.readthedocs.io/en/latest/).
+- The thermodynamics filters require the use of eQuilibrator
+derived_from:
+- doi: 10.1186/s12859-023-05149-8
+  title: 'Pickaxe: a Python library for the prediction of novel metabolic reactions'
+source_repos:
+- https://github.com/tyo-nu/pickaxe_paper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tyo-nu/pickaxe_paper

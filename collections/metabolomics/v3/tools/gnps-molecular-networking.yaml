@@ -1,0 +1,21 @@
+name: GNPS Molecular Networking
+slug: gnps-molecular-networking
+version_used: null
+edam_topics: []
+evidence_spans:
+- the Global Natural Products Social (GNPS) Molecular Networking tool enables the matching of fragmentation spectra from mass spectrometry experiments (MS)
+- Initiatives such as the Global Natural Products Social (GNPS) molecular networking (MN) project offer both a living MS repository
+derived_from:
+- doi: 10.1186/s13321-023-00738-4
+  title: 'DeepSAT: Learning Molecular Structures from Nuclear Magnetic Resonance Data'
+- doi: 10.3389/fpls.2019.01329
+  title: Taxonomically Informed Scoring Enhances Confidence in Natural Products Annotation
+source_repos:
+- https://github.com/mwang87/DeepSAT
+- https://github.com/taxonomicallyinformedannotation/tima
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mwang87/DeepSAT

@@ -1,0 +1,18 @@
+name: MetaPhyler
+slug: metaphyler
+version_used: null
+edam_topics: []
+evidence_spans:
+- <img src="./figures/metaphyler_CAMIhigh_tree_phylum_CAMI_HIGH_S001.png"
+- '3 profiles from the publicly available CAMI dataset [1–3]: MetaPhyler [14], mOTU [15], and Taxy-Pro [30]'
+derived_from:
+- doi: 10.1093/gigascience/giad008
+  title: 'TAMPA: interpretable analysis and visualization of metagenomics-based taxon abundance profiles'
+source_repos:
+- https://github.com/dkoslicki/TAMPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dkoslicki/TAMPA

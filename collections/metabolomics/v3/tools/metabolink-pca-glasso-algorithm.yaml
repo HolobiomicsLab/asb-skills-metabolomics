@@ -1,0 +1,19 @@
+name: MetaboLINK (PCA-GLASSO algorithm)
+slug: metabolink-pca-glasso-algorithm
+version_used: null
+edam_topics: []
+evidence_spans:
+- We ran PCA over the mean- and stddev-normalized dataset to produce 10 components, of which we use the first three.
+- We introduce a pioneering analytical approach that combines Principal Component Analysis (PCA) with Graphical Lasso (GLASSO).
+derived_from:
+- doi: 10.3389/fnins.2024.1520982
+  title: MetaboLINK is a novel algorithm for unveiling cell-specific metabolic pathways in longitudinal datasets
+source_repos:
+- https://github.com/jlichtarge/pcaGLASSO
+- https://github.com/jlichtarge/pcaglasso
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jlichtarge/pcaGLASSO

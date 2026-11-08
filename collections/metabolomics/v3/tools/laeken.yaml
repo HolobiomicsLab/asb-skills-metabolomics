@@ -1,0 +1,17 @@
+name: laeken
+slug: laeken
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(laeken)
+derived_from:
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+source_repos:
+- https://github.com/scibiome/meteor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scibiome/meteor

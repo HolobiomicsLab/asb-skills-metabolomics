@@ -1,0 +1,37 @@
+name: UMAP
+slug: umap
+version_used: 0.5.1
+edam_topics: []
+evidence_spans:
+- 'we adopt it to obtain
+
+  the denser ion image representation'
+- the UMAP algorithm has been demonstrated to perform better than other dimensionality reduction methods
+- Since the UMAP algorithm has been demonstrated to perform better than other dimensionality reduction methods in many fields, we adopt it
+- the UMAP algorithm has been demonstrated to perform better than other dimensionality reduction methods in many fields, we adopt it
+- directly visualizing MS2Deepscore embeddings using UMAP22
+- '[UMAP](https://github.com/lmcinnes/umap) 0.5.1'
+derived_from:
+- doi: 10.1021/acs.analchem.3c05002
+  title: 'DeepION: A Deep Learning-Based Low-Dimensional Representation Model of Ion Images for Mass Spectrometry Imaging'
+- doi: 10.1093/bioinformatics/btac032
+  title: 'massNet: integrated processing and classification of spatially resolved mass spectrometry data using deep learning for rapid tumor delineation'
+- doi: 10.1101/2024.03.25.586580
+  title: 'Bridging polarities in metabolomics: Cross-ionization mode chemical similarity prediction between tandem mass spectra'
+- doi: 10.1038/s41467-024-55306-7
+  title: 'msiFlow: automated workflows for reproducible and scalable multimodal mass spectrometry imaging and microscopy data analysis'
+- doi: 10.1038/s42004-023-00939-w
+  title: Highly accurate and large-scale collision cross sections prediction with graph neural networks
+source_repos:
+- https://github.com/BioNet-XMU/DeepION
+- https://github.com/wabdelmoula/massNet
+- https://github.com/matchms/MS2DeepScore
+- https://github.com/Immunodynamics-Engel-Lab/msiflow
+- https://github.com/lmcinnes/umap
+- https://github.com/YoujiaZhang/SigmaCCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioNet-XMU/DeepION

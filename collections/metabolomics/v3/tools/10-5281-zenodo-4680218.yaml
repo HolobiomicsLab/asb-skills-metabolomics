@@ -1,0 +1,18 @@
+name: 10.5281/zenodo.4680218
+slug: 10-5281-zenodo-4680218
+version_used: '10.5281'
+edam_topics: []
+evidence_spans:
+- '[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.4680218.svg)](https://doi.org/10.5281/zenodo.4680218)'
+- url="https://zenodo.org/records/10822604/files/nplinker_local_mode_example.zip"
+derived_from:
+- doi: 10.1371/journal.pcbi.1008920
+  title: Ranking microbial metabolomic and genomic links in the NPLinker framework using complementary scoring functions
+source_repos:
+- https://github.com/NPLinker/nplinker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NPLinker/nplinker

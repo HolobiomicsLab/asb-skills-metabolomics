@@ -1,0 +1,27 @@
+name: BUDDY
+slug: buddy
+version_used: null
+edam_topics: []
+evidence_spans:
+- Buddy
+derived_from:
+- doi: 10.48550/arxiv.2502.09571
+  title: ''
+- doi: 10.1007/s11306-025-02379-0
+  title: Automated metabolite formula ranking using formula subset analysis for LC-MS/MS-based metabolomics
+- doi: 10.1093/nar/gkae253
+  title: 'MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation'
+- doi: 10.1038/s41467-025-66060-9
+  title: 'FIDDLE: a deep learning method for chemical formulas prediction from tandem mass spectra'
+source_repos:
+- https://github.com/coleygroup/DiffMS
+- https://github.com/kslynn128171/FSA
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/Philipbear/msbuddy
+- https://github.com/JosieHong/FIDDLE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/coleygroup/DiffMS

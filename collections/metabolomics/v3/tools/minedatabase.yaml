@@ -1,0 +1,21 @@
+name: minedatabase
+slug: minedatabase
+version_used: 2.0.0
+edam_topics: []
+evidence_spans:
+- pip install minedatabase
+- The code in this example requires the minedatabase package
+- or can be installed as a python package (https://pypi.org/project/minedatabase/2.0.0/)
+- The code in this example requires the minedatabase package as well as some additional packages for different filters.
+derived_from:
+- doi: 10.1186/s12859-023-05149-8
+  title: 'Pickaxe: a Python library for the prediction of novel metabolic reactions'
+source_repos:
+- https://github.com/tyo-nu/MINE-Database
+- https://github.com/tyo-nu/pickaxe_paper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tyo-nu/MINE-Database

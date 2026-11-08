@@ -1,0 +1,22 @@
+name: joblib
+slug: joblib
+version_used: '0.11'
+edam_topics: []
+evidence_spans:
+- '- pyvis
+
+  - joblib'
+derived_from:
+- doi: 10.1093/bioinformatics/bty590
+  title: Liquid-chromatography retention order prediction for metabolite identification
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+source_repos:
+- https://github.com/aalto-ics-kepaco/retention_order_prediction
+- https://github.com/kopeckylukas/py-mamsi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aalto-ics-kepaco/retention_order_prediction

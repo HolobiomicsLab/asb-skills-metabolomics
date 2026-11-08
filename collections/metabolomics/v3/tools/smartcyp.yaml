@@ -1,0 +1,18 @@
+name: SMARTCyp
+slug: smartcyp
+version_used: '0.75'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jcim.8b00035
+  title: 'CypReact: A Software Tool for in Silico Reactant Prediction for Human Cytochrome P450 Enzymes'
+- doi: 10.1021/acs.jcim.1c00144
+  title: 'CyProduct: A Software Tool for Accurately Predicting the Byproducts of Human Cytochrome P450 Metabolism'
+source_repos:
+- https://github.com/Le0nT1/CyProduct
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Le0nT1/CyProduct

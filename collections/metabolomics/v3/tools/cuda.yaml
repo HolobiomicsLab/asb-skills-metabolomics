@@ -1,0 +1,33 @@
+name: CUDA
+slug: cuda
+version_used: '10.1'
+edam_topics: []
+evidence_spans:
+- 'We have implemented the HD
+
+  encoding modules using the CUDA platform'
+- "To run ROASMI with GPUs, you need:   •\tcuda >= 8.0"
+- By harnessing the heavily parallel architecture of modern GPUs, we designed a “compute unified device architecture” (CUDA)-based GPU-accelerated mixture elucidator (G.A.M.E.)
+derived_from:
+- doi: 10.1038/s41467-024-51433-3
+  title: An end-to-end deep learning method for mass spectrometry data analysis to reveal disease-specific metabolic profiles
+- doi: 10.1021/acs.jproteome.2c00612
+  title: 'HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space'
+- doi: 10.1186/s13321-025-00968-8
+  title: 'ROASMI: accelerating small molecule identification by repurposing retention data'
+- doi: 10.1186/s13321-017-0238-7
+  title: 'G.A.M.E.: GPU-accelerated mixture elucidator'
+- doi: 10.1002/ange.202517611
+  title: Advancing Structure Elucidation with a Flexible Multi‐Spectral AI Model
+source_repos:
+- https://github.com/yjdeng9/DeepMSProfiler
+- https://github.com/wh-xu/Hyper-Spec
+- https://github.com/FangYuan717/ROASMI
+- https://github.com/CMDM-Lab/GAME
+- https://github.com/mpriessner/MultiModalSpectralTransformer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yjdeng9/DeepMSProfiler

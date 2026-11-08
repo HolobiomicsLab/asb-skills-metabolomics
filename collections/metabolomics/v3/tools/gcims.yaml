@@ -1,0 +1,19 @@
+name: GCIMS
+slug: gcims
+version_used: null
+edam_topics: []
+evidence_spans:
+- GCIMS is an R package implementing a preprocessing pipeline for Gas Chromatography – Ion Mobility Spectrometry samples.
+- library(GCIMS)
+- "This vignette shows how to import your custom data so it can be used\n  with the GCIMS package."
+derived_from:
+- doi: 10.1016/j.chemolab.2023.104938
+  title: 'GCIMS: An R package for untargeted gas chromatography – Ion mobility spectrometry data processing'
+source_repos:
+- https://github.com/sipss/GCIMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sipss/GCIMS

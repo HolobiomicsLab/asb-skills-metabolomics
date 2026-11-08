@@ -1,0 +1,18 @@
+name: DeepMet
+slug: deepmet
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2024.11.13.623458
+  title: Language model-guided anticipation and discovery of unknown metabolites
+source_repos:
+- https://github.com/skinniderlab/CLM
+- https://github.com/skinniderlab/CLM.git
+- https://github.com/skinniderlab/clm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/skinniderlab/CLM

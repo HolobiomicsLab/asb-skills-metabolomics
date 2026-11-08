@@ -1,0 +1,30 @@
+name: Metlin
+slug: metlin
+version_used: '4.0'
+edam_topics: []
+evidence_spans:
+- 'Notable examples include the databases
+
+  METLIN,11 MassBank,12 and GNPS13'
+derived_from:
+- doi: 10.1021/acs.analchem.1c01465
+  title: 'CFM-ID 4.0: More Accurate ESI-MS/MS Spectral Prediction and Compound Identification'
+- doi: 10.1093/bioinformatics/btac032
+  title: 'massNet: integrated processing and classification of spatially resolved mass spectrometry data using deep learning for rapid tumor delineation'
+- doi: 10.1021/acs.analchem.1c03032
+  title: Automated Annotation of Untargeted All-Ion Fragmentation LC–MS Metabolomics Data with MetaboAnnotatoR
+- doi: 10.1021/acs.analchem.4c02038
+  title: 'MetaPhenotype: A Transferable Meta-Learning Model for Single-Cell Mass Spectrometry-Based Cell Phenotype Prediction Using Limited Number of Cells'
+- doi: 10.1021/acs.jproteome.9b00640
+  title: 'Skyline for Small Molecules: A Unifying Software Package for Quantitative Metabolomics'
+source_repos:
+- https://github.com/wabdelmoula/massNet
+- https://github.com/gggraca/MetaboAnnotatoR
+- https://github.com/songyuan93/MetaPhenotype
+- https://github.com/ProteoWizard/pwiz
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wabdelmoula/massNet

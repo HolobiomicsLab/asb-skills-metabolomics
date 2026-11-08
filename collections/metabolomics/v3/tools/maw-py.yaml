@@ -1,0 +1,22 @@
+name: maw-py
+slug: maw-py
+version_used: 1.0.7
+edam_topics: []
+evidence_spans:
+- docker pull zmahnoor/maw-py:1.0.7 --platform=linux/amd64
+- python3.10 Workflow_Python_Script_all_SIRIUS.py --msp_file your_file_name/spectral_dereplication/spectral_results.csv
+- The final candidate selection is performed using the cheminformatics tool RDKit in the Python segment (MAW-Py)
+- Run MAW-Py. First run docker container for MAW-Py
+- python3.10 Workflow_Python_Script_all_SIRIUS.py --msp_file
+- docker pull zmahnoor/maw-py:1.0.7
+derived_from:
+- doi: 10.1186/s13321-023-00695-y
+  title: 'MAW: the reproducible Metabolome Annotation Workflow for untargeted tandem mass spectrometry'
+source_repos:
+- https://github.com/zmahnoor14/MAW
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zmahnoor14/MAW

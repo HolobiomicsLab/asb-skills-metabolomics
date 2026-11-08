@@ -1,0 +1,18 @@
+name: MetIDfyR
+slug: metidfyr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.0c02281
+  title: 'MetIDfyR: An Open-Source R Package to Decipher Small-Molecule
+
+    Drug Metabolism through High-Resolution Mass Spectrometry'
+source_repos:
+- https://github.com/agnesbrnb/MetIDfyR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/agnesbrnb/MetIDfyR

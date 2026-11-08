@@ -1,0 +1,17 @@
+name: Pkg
+slug: pkg
+version_used: null
+edam_topics: []
+evidence_spans:
+- using Pkg ; Pkg.add("NMRInversions")
+derived_from:
+- doi: 10.21105/joss.07745
+  title: NMRInversions.jl, a Julia package for time-domain Nuclear Magnetic Resonance
+source_repos:
+- https://github.com/aris-mav/NMRInversions.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aris-mav/NMRInversions.jl

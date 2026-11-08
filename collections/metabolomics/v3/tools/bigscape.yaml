@@ -1,0 +1,17 @@
+name: BigScape
+slug: bigscape
+version_used: null
+edam_topics: []
+evidence_spans:
+- If the output of BigScape is not provided, NPLinker will run BigScape automatically to generate it using the AntiSMASH BGC data.
+derived_from:
+- doi: 10.1371/journal.pcbi.1008920
+  title: Ranking microbial metabolomic and genomic links in the NPLinker framework using complementary scoring functions
+source_repos:
+- https://github.com/NPLinker/nplinker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NPLinker/nplinker

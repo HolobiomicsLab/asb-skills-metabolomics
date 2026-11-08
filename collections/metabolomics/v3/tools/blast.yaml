@@ -1,0 +1,38 @@
+name: BLAST
+slug: blast
+version_used: null
+edam_topics: []
+evidence_spans:
+- use the script `code/bash/batch-makeblastdb.sh` to generate BLAST databases for each amino acid multi-fasta file
+- We aligned the target contigs with the ground truth antibody sequence to classify the assembly results using BLAST [43].
+- we cross-validated DEREPLICATOR+ identifications by searching their BGCs against the known genome of their producers (BLAST search
+- Protein-sequence alignment algorithms like Needleman–Wunsch, Smith–Waterman, and BLAST yield alignments with statistical significance
+- The HORDB database furnishes the blast tool. Users submit their peptide sequences in FASTA format.
+derived_from:
+- doi: 10.1371/journal.pcbi.1009906
+  title: 'COMMIT: Consideration of metabolite leakage and community composition improves microbial community reconstructions'
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+- doi: 10.1038/s41467-018-06082-8
+  title: Dereplication of microbial metabolites through database search of mass spectra
+- doi: 10.1038/s41467-022-30118-9
+  title: SIMILE enables alignment of tandem mass spectra with statistical significance
+- doi: 10.1093/nar/gkz654
+  title: A deep learning genome-mining strategy for biosynthetic gene cluster prediction
+- doi: 10.1038/s41597-022-01287-5
+  title: HORDB a comprehensive database of peptide hormones
+- doi: 10.1007/978-1-0716-0270-6_14
+  title: BioMagResBank (BMRB) as a Resource for Structural Biology
+source_repos:
+- https://github.com/pwendering/COMMIT
+- https://github.com/ablab/npdtools
+- https://github.com/biorack/simile
+- https://github.com/Merck/deepbgc
+- https://github.com/CPU-HORDB/HORDB
+- https://github.com/bmrb-io/RBMRB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pwendering/COMMIT

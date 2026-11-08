@@ -1,0 +1,35 @@
+{
+  "workflow": "gnn_spectral_property_prediction",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "The leaf runs a fingerprint MLP for electron-ionization spectra rather than inference from the required trained GNN checkpoint.",
+      "severity": "advisory",
+      "slug": "neural-network-model-inference",
+      "stage": "predict"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf decodes NMR spectra into SMILES, which reverses the stage's structure-to-property direction.",
+      "severity": "advisory",
+      "slug": "nmr-spectrum-inference-decoding",
+      "stage": "predict"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf ranks generative samples by frequency without comparing predicted properties to experimental evidence.",
+      "severity": "advisory",
+      "slug": "candidate-frequency-ranking-for-denovo-annotation",
+      "stage": "rescore"
+    }
+  ],
+  "verdict": "pass"
+}

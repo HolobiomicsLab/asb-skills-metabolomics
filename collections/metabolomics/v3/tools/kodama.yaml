@@ -1,0 +1,17 @@
+name: KODAMA
+slug: kodama
+version_used: null
+edam_topics: []
+evidence_spans:
+- Implement the PLS-DA analysis restricted to the lipid molecular species level, based on the R KODAMA package
+derived_from:
+- doi: 10.1002/cpz1.70009
+  title: 'LipidOne 2.0: A Web Tool for Discovering Biological Meanings Hidden in Lipidomic Data'
+source_repos:
+- https://github.com/matteogiulietti/LipidOne
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/matteogiulietti/LipidOne

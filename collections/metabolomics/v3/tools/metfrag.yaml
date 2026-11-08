@@ -1,0 +1,95 @@
+name: MetFrag
+slug: metfrag
+version_used: 2.5.0
+edam_topics: []
+evidence_spans:
+- Scores of MetFrag, MAGMa+, CFM-ID, CSI:FingerID (original) and CSI:FingerID IOKR were downloaded from the CASMI 2016 results web page
+- 'four leading in silico tools that participated in the Critical Assessment of Small Molecule Identification (CASMI) 2016 contest18: MetFrag13, MAGMa+16, CFM-ID14 and CSI:FingerID15'
+- show retrievals rates comparable to or exceeding the ones obtainable by the current state-of-the-art solutions in the field
+- in silico generated compound fragmentation patterns [using MetFrag (Ruttkies et al., 2016; Wolf et al., 2010) and CFM-ID (Allen et al., 2014; Allen et al., 2015) -like approaches]
+- ChemWalker relies on combinatorial in silico fragmentation results, performed by MetFrag, searching biologically relevant databases
+- ChemWalker relies on combinatorial in silico fragmentation results, performed by MetFrag
+- annotation software such as MetFrag [6] and databases like PubChemLite [7] support metabolite annotation
+- utilize combinatorial fragmentation approaches, e.g. MetFrag (Wolf et al. 2010, Ruttkies et al. 2016) and CFM-ID (Wang et al. 2021)
+- Download MetFragCL [Jar file](https://github.com/ipb-halle/MetFragRelaunched/releases/download/v.2.5.0/MetFragCommandLine-2.5.0.jar)
+- MetFragCommandLine-2.5.0.jar = path to the metfrag jar file, used for running metfrag.
+- The in silico fragmenter MetFrag, launched in 2010, was one of the first approaches combining compound database searching and fragmentation prediction
+- the command line version of MetFrag2.2 available at http://c-ruttkies.github.io/MetFrag/
+- The in silico fragmenter MetFrag, launched in 2010, was one of the first approaches to address this niche for accurate tandem mass spectra
+- The aim of MetFrag2.2 was to incorporate many additional features into the original MetFrag in silico fragmenter
+- candidate chemical compounds from PubChem for MetFrag tests were cached in a local database
+- 'MetFrag relaunched: incorporating strategies beyond in silico fragmentation'
+- Shinyscreen integrates MetFrag, a widely used tool for in silico fragmentation and candidate structure ranking [15].
+- or integrated with MetFrag Command Line itself (better for batch processing) [36] for further analysis
+- MetFrag
+- In 2016, Christoph Ruttkies proposed the MetFrag model, combining database search algorithms and fragment prediction algorithms for identifying the structure of small molecules from tandem mass
+- bioinformatic tools, such as MetFrag15, CFM-ID16, MS-FINDER17, and SIRIUS18, have been developed to predict in silico MS/MS or molecular fingerprinting
+- 206, 95, and 196 unknown peaks in positive ionization mode... were corroborated by MetFrag15, CFM-ID16, and MS-FINDER17, respectively
+- MetFrag is based on weighted peak count and bond dissociation energy to compute matching scores
+- Existing Met Frag (Ruttkies et al., 2016) annotation functionality was extended to include predicted TP structures (B) to allow in silico MS/MS annotation (H)
+- 'Software for MS identification will thus be classified by the level of identification provided by Schymanski et al. criteria: Level 4: unequivocal molecular formula, Level 3: tentative candidates and'
+derived_from:
+- doi: 10.1038/s41587-021-01045-9
+  title: High-confidence structural annotation of metabolites absent from spectral libraries
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+- doi: 10.1093/bioinformatics/btad078
+  title: 'Improving annotation propagation on molecular networks through random walks: introducing ChemWalker'
+- doi: 10.1093/bib/bbaf080
+  title: 'GcDUO: an open-source software for GC × GC–MS data analysis'
+- doi: 10.1515/jib-2025-0047
+  title: 'Streamlining feature elaboration and statistics analysis in metabolomics: the GetFeatistics R-package'
+- doi: 10.1021/acs.analchem.3c04654
+  title: Generating Molecular Fragmentation Graphs with Autoregressive Neural Networks
+- doi: 10.1093/bioinformatics/btaf354
+  title: 'JESTR: Joint Embedding Space Technique for Ranking candidate molecules for the annotation of untargeted metabolomics data'
+- doi: 10.1101/2020.04.09.033894
+  title: 'LipidLynxX: a data transfer hub to support integration of large scale lipidomics datasets'
+- doi: 10.1186/s13321-023-00695-y
+  title: 'MAW: the reproducible Metabolome Annotation Workflow for untargeted tandem mass spectrometry'
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+- doi: 10.1007/s11306-020-01726-7
+  title: 'MetFID: artificial neural network-based compound fingerprint prediction for metabolite annotation'
+- doi: 10.1186/s13321-016-0115-9
+  title: 'MetFrag relaunched: incorporating strategies beyond in silico fragmentation'
+- doi: 10.1186/s13321-020-00477-w
+  title: 'patRoon: open source software platform for environmental mass spectrometry based non-target screening'
+- doi: 10.1186/s13321-025-01044-x
+  title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
+- doi: 10.1038/s42004-024-01189-0
+  title: Structural annotation of unknown molecules in a miniaturized mass spectrometer based on a transformer enabled fragment tree method
+- doi: 10.1038/s41467-022-34537-6
+  title: Metabolite annotation from knowns to unknowns through knowledge-guided multi-layer metabolic networking
+- doi: 10.1038/s41467-021-23986-0
+  title: 'MolDiscovery: learning mass spectrometry fragmentation of small molecules'
+- doi: 10.21105/joss.04029
+  title: 'patRoon 2.0: Improved non-target analysis workflows
+
+    including automated transformation product screening'
+- doi: 10.1007/s11306-017-1242-7
+  title: Navigating freely-available software tools for metabolomics analysis
+source_repos:
+- https://github.com/sirius-ms/sirius
+- https://github.com/Mrqeoqqt/chemdistiller
+- https://github.com/ipb-halle/MetFragRelaunched
+- https://github.com/computational-chemical-biology/ChemWalker
+- https://github.com/mariallr/GcDuo
+- https://github.com/FrigerioGianfranco/GetFeatistics
+- https://github.com/samgoldman97/ms-pred
+- https://github.com/HassounLab/JESTR1
+- https://github.com/SysMedOs/LipidLynxX
+- https://github.com/zmahnoor14/MAW
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+- https://github.com/ressomlab/MetFID
+- https://github.com/rickhelmus/patRoon
+- https://github.com/thumingo/TeFT
+- https://github.com/ZhuMetLab/MetDNA2Vis
+- https://github.com/mohimanilab/molDiscovery
+- https://github.com/RASpicer/MetabolomicsTools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sirius-ms/sirius

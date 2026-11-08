@@ -1,0 +1,17 @@
+name: reporter_score
+slug: reporter-score
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `reporter_score(kodf, group, metadata, method, pattern, p.adjust.method1, mode, verbose, feature, type, p.adjust.method2, modulelist, threads, perm, min_exist_KO, max_exist_KO)`'
+derived_from:
+- doi: 10.1093/bib/bbae116
+  title: Generalized reporter score-based enrichment analysis for omics data
+source_repos:
+- https://github.com/Asa12138/ReporterScore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Asa12138/ReporterScore

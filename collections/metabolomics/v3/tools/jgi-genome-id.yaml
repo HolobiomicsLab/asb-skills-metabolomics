@@ -1,0 +1,17 @@
+name: JGI Genome ID
+slug: jgi-genome-id
+version_used: null
+edam_topics: []
+evidence_spans:
+- a public database identifier (e.g., a NCBI GenBank accession number or JGI Genome ID)
+derived_from:
+- doi: 10.1038/s41589-020-00724-z
+  title: A community resource for paired genomic and metabolomic data mining
+source_repos:
+- https://github.com/iomega/paired-data-form
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iomega/paired-data-form

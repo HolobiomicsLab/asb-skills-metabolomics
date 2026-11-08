@@ -1,0 +1,22 @@
+name: pyMolNetEnhancer
+slug: pymolnetenhancer
+version_used: null
+edam_topics: []
+evidence_spans:
+- "Install pyMolNetEnhancer with:\n\n `pip install pyMolNetEnhancer`"
+- 'Install pyMolNetEnhancer with:'
+- 'Install pyMolNetEnhancer with: `pip install pyMolNetEnhancer`'
+derived_from:
+- doi: 10.3390/metabo9070144
+  title: 'MolNetEnhancer: Enhanced Molecular Networks by Integrating Metabolome Mining and Annotation Tools'
+- doi: 10.1038/s41587-020-0700-3
+  title: Auto-deconvolution and molecular networking of gas chromatography–mass spectrometry data
+source_repos:
+- https://github.com/madeleineernst/pyMolNetEnhancer
+- https://github.com/bittremieux/GNPS_GC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/madeleineernst/pyMolNetEnhancer

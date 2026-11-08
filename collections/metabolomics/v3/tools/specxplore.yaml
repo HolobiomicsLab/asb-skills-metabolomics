@@ -1,0 +1,23 @@
+name: specXplore
+slug: specxplore
+version_used: null
+edam_topics: []
+evidence_spans:
+- Spectral data are imported into Python using matchms, and basic specXplore data processing is performed
+- it needs to be processed using the specXplore importing pipeline
+- provides fragmentation overview heatmaps we refer to as fragmap
+- Before data can be opened in the specXplore dashboard
+- available on github under MIT license as
+- Before data can be opened in the specXplore dashboard, it needs to be processed using the specXplore importing pipeline.
+- The tool is available on github under MIT license as a python package that can be downloaded and installed for local use
+derived_from:
+- doi: 10.1021/acs.analchem.3c04444
+  title: Tailored Mass Spectral Data Exploration Using the SpecXplore Interactive Dashboard
+source_repos:
+- https://github.com/kevinmildau/specXplore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kevinmildau/specXplore

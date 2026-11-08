@@ -1,0 +1,20 @@
+name: SMITER
+slug: smiter
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'To install SMITER, run this command in your terminal:'
+- 'To install SMITER, run this command in your terminal: $ pip install smiter'
+- $ pip install smiter
+- Welcome to SMITER's documentation!
+derived_from:
+- doi: 10.3390/genes12030396
+  title: SMITER—A Python Library for the Simulation of LC-MS/MS Experiments
+source_repos:
+- https://github.com/LeidelLab/SMITER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LeidelLab/SMITER

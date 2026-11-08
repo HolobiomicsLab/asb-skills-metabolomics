@@ -1,0 +1,55 @@
+name: TensorFlow
+slug: tensorflow
+version_used: 2.5.0
+edam_topics: []
+evidence_spans:
+- Python 3.8.13 and TensorFlow (version 2.5.0-GPU)
+- implemented in Python (version 3.8.13), Tensorflow GPU package (version 2.5.0)
+- tensorflow
+- '- [tensorflow](https://www.tensorflow.org) 2.4.0'
+derived_from:
+- doi: 10.1093/bioinformatics/btac344
+  title: 'PeakBot: machine-learning-based chromatographic peak picking'
+- doi: 10.1021/jacs.9b13786
+  title: A Convolutional Neural Network-Based Approach for the Rapid Annotation of Molecularly Diverse Natural Products
+- doi: 10.1038/s41467-024-51433-3
+  title: An end-to-end deep learning method for mass spectrometry data analysis to reveal disease-specific metabolic profiles
+- doi: 10.1093/bioinformatics/btac032
+  title: 'massNet: integrated processing and classification of spatially resolved mass spectrometry data using deep learning for rapid tumor delineation'
+- doi: 10.1007/s11306-020-01726-7
+  title: 'MetFID: artificial neural network-based compound fingerprint prediction for metabolite annotation'
+- doi: 10.48550/arxiv.2510.09716
+  title: ''
+- doi: 10.1021/acs.analchem.1c02220
+  title: Deep Learning-Assisted Peak Curation for Large-Scale LC-MS Metabolomics
+- doi: 10.1021/acs.jnatprod.1c00399
+  title: 'NPClassifier: A Deep Neural Network-Based Structural Classification Tool for Natural Products'
+- doi: 10.1021/acs.analchem.3c00764
+  title: 'PeakDetective: A Semisupervised Deep Learning-Based Approach for Peak Curation in Untargeted Metabolomics'
+- doi: 10.1021/acscentsci.9b00085
+  title: Rapid Prediction of Electron–Ionization Mass Spectrometry Using Neural Networks
+- doi: 10.1093/nar/gkz654
+  title: A deep learning genome-mining strategy for biosynthetic gene cluster prediction
+- doi: 10.3390/molecules27123653
+  title: Deep Learning-Based Method for Compound Identification in NMR Spectra of Mixtures
+- doi: 10.1038/s42004-023-00939-w
+  title: Highly accurate and large-scale collision cross sections prediction with graph neural networks
+source_repos:
+- https://github.com/christophuv/PeakBot
+- https://github.com/mwang87/NP-Classifier
+- https://github.com/yjdeng9/DeepMSProfiler
+- https://github.com/wabdelmoula/massNet
+- https://github.com/ressomlab/MetFID
+- https://github.com/jsehhs/MS2toImg-CNN
+- https://github.com/bihealth/NeatMS
+- https://github.com/pattilab/PeakDetective
+- https://github.com/Merck/deepbgc
+- https://github.com/yuxuanliao/pSCNN
+- https://github.com/zmzhang/SigmaCCS
+- https://github.com/YoujiaZhang/SigmaCCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/christophuv/PeakBot

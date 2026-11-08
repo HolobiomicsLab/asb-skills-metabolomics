@@ -1,0 +1,17 @@
+name: pip3
+slug: pip3
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip3 install -r requirements.txt
+derived_from:
+- doi: 10.1371/journal.pcbi.1009105
+  title: 'Pathway analysis in metabolomics: Recommendations for the use of over-representation analysis'
+source_repos:
+- https://github.com/cwieder/metabolomics-ORA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cwieder/metabolomics-ORA

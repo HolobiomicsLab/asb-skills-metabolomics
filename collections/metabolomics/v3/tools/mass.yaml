@@ -1,0 +1,20 @@
+name: MASS
+slug: mass
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'library(MASS) # Robust linear regression'
+derived_from:
+- doi: 10.1016/j.cmpb.2025.108672
+  title: 'MInfer: Bridging MetaboAnalyst and Jacobian analysis for metabolomic networks'
+- doi: 10.1038/s41597-023-01949-y
+  title: Quality control and removal of technical variation of NMR metabolic biomarker data in ~120,000 UK Biobank participants
+source_repos:
+- https://github.com/cellbiomaths/MInfer
+- https://github.com/sritchie73/ukbnmr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cellbiomaths/MInfer

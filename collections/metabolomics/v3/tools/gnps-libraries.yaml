@@ -1,0 +1,17 @@
+name: GNPS libraries
+slug: gnps-libraries
+version_used: null
+edam_topics: []
+evidence_spans:
+- a list of spectra from the [GNPS libraries](https://library.gnps2.org/) found to match your spectrum of interest
+derived_from:
+- doi: 10.1038/s41564-023-01575-9
+  title: 'microbeMASST: a taxonomically informed mass spectrometry search tool for microbial metabolomics data'
+source_repos:
+- https://github.com/robinschmid/microbe_masst
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/robinschmid/microbe_masst

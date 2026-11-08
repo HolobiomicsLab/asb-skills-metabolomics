@@ -1,0 +1,629 @@
+name: Python
+slug: python
+version_used: '2.7'
+edam_topics: []
+evidence_spans:
+- '* Python 3.10+'
+- Python 3.10+
+- application programming interface (API) connectivity or representational state transfer (REST) services were used with Python (version 3.10.6) to extract the data
+- application programming interface (API) connectivity or representational state transfer (REST) services were used with Python (version 3.10.6)
+- REST) services were used with Python (version 3.10.6) to extract the data
+- application programming interface (API) connectivity or representational state transfer (REST) services were used with Python (version 3.10.6) to extract the data whenever possible
+- TidyMS was implemented in Python 3.6.
+- TidyMS was implemented in Python 3.6. [40], and used the Pandas library to work with a data matrix in tabular form.
+- TidyMS was implemented in Python 3.6. [40], and used the Pandas library
+- The ANN-SoLo software is written in Python, making use of various open-source libraries
+- The ANN-SoLo software is written in Python
+- ANN indexing during the candidate selection step is based on the open-source Approximate Nearest Neighbors Oh Yeah (Annoy) library
+- The ANN-SoLo software is written in Python, making use of various open-source libraries such as NumPy [62], SciPy, and pandas [46] for scientific computing
+- ANN-SoLo is implemented in Python and C++.
+- the python-based AnnoMe software is presented
+- different classifiers (LDA, NN, SVM, etc.) are first trained using cross-validation and different random seeds
+- uv run annome_classificationgui
+- the python-based AnnoMe software is presented that allows users to classify their experimental HR-MS/MS spectra according to their aims
+- Requires Python 3.8+.
+- Install Python 3.7 (or newer) [[link]](https://www.python.org/downloads/) and use `pip` as follows to install dependencies.
+- Install Python 3.7 (or newer)
+- It is written in Python for greater accessibility
+- It is written in Python for greater accessibility and is complementary to other data processing layers
+- all analyses were conducted using custom python scripts that are available in Github
+- Statistical analyses included the Mann–Whitney test, chi-squared test and Fisher-exact test using Prism 6 software (GraphPad) and Microsoft Excel.
+- All relevant data are within the manuscript and its supporting files.
+- __ChemDistiller__ supports Python 2 and 3 (64-bit version recommended)
+- The server-side spectra handling (chem-spectra-app) is based on python and was built using a modified version of NMRglue [18] and SciPy [19].
+- The server-side spectra handling (chem-spectra-app) is based on python
+- ChemWalker is a python package
+- Python code is available on GitHub at https://github.com/constantino-garcia/cmmrt
+- python3 src/conciseCLI.py
+- python3 src/conciseCLI.py 16616afa8edd490ea7e50cc316a20222
+- python3 src/conciseCLI.py 16616afa8edd490ea7e50cc316a20222 exampleFiles/canopus_summary.tsv exampleFiles/Node_info.tsv 50 70 70 False
+- DBDIpy is implemented in Python (Version ≥ 3.7) and can be downloaded from PyPI the Python package repository
+- Python 3.7, 3.8, 3.9 or 3.10
+- The DeepMSI model is implemented in Python using the PyTorch library
+- peak filtering/pooling via Python scripts
+- implemented in Python using the PyTorch library
+- import bmxp
+- from bxmp.eclipse import MSAligner
+- For this, we have created an open-source Python package called Eclipse.
+- To update the schema, modify the dictionary objects in the module directly prior to running code.
+- python
+- Spectral matching was performed in Python using the matchms (v0.20.0) package
+- python=3.8
+- First start the backend by running python backend/main.py
+- python backend/main.py
+- Use this command to create python virtual environment.
+- Python 3.13.2 and Pytorch (version 2.7.0+cu118)
+- ipaPy2 requires Python 3.9 or higher
+- Change the parameters in data/evaluate_metapro_galigner.py
+- '```pip install -r requirements.txt```'
+- GLEAMS requires Python 3.8, a Linux operating system, and a CUDA-enabled GPU.
+- GLEAMS requires Python 3.8, a Linux operating system, and a CUDA-enabled GPU
+- github.com__Ansanqi__GutUDB
+- Gut Universe Database (GutUDB) provides a comprehensive, systematic, and practical platform for researchers
+- GutUDB has accumulated approximately 9 million generated profiles from eight types of omics data sets
+- No verbatim tool list in the section text; Python is the platform's implementation language implied by the GitHub repository Ansanqi/GutUDB.
+- HyperSpec was implemented in Python 3.8.
+- binary HDC operation in HyperSpec offers high data parallelism for low-level hardware architecture, which we leveraged by developing fast Python kernels
+- 'which we leveraged by developing
+
+  fast Python kernels tailored for exploiting GPU resources'
+- Instant Clue is a Python based desktop application (GUI) using the PyQt6 (since 0.12.0) library for data visualization and analysis.
+- 'python3 main.py #starts InstantClue'
+- the python source code is also freely available making Instant Clue editable and available on any platform with a working Python version (>=3.4)
+- available on any platform with a working Python version (>=3.4)
+- we have created a software suite called Instant Clue which is available for Mac OS and Windows ... the python source code is also freely available
+- Install Python (from release version 3.0 on)
+- This notebook uses utility functions from python scripts explained below
+- Install Python **3.11 (Windows x64)** and the packages listed in the sub-manual (`flask pandas numpy scipy scikit-learn matplotlib polars fisher_py …`).
+- Here, we present M2R, a Python add-on to cobrapy that allows incorporating information about the gut microbiota metabolism models
+- M2R is freely available under an MIT License at https://github.com/e-weglarz-tomczak/m2r
+- Here, we present M2R, a Python add-on to cobrapy
+- M2R is implemented in Python (the code could be run using Python 2.x or Python 3.x), using cobrapy for loading, writing and processing models
+- given you have installed both Python (>=3.9) and PIP
+- Mass-Suite (MSS) is a Python-based, open-source software package designed to analyze high-resolution mass spectrometry
+- Mass-Suite (MSS) is a Python-based, open-source software package designed to analyze high-resolution mass spectrometry (HRMS)-based non-targeted analysis (NTA) data
+- pip install mass-suite
+- relatively few software packages use Python [36–40]. As one of the most popular and accessible programming languages
+- Python
+- decoder uses the Python standard library and loads the system `libzstd`
+- Its binary decoder uses the Python standard library and loads the system `libzstd`
+- We present MassCube, a Python-based open-source framework for MS data processing
+- uses the Python standard library
+- We chose Python for MassCube to leverage the advancements in array programming and to take advantage of Python's extensive ecosystem of numerical libraries
+- We chose Python for MassCube to leverage the advancements in array programming and to take advantage of Python’s extensive ecosystem of numerical libraries
+- optimized Python array programming, which is much faster than tools built on less efficient programming environments such as R
+- Its binary decoder uses the Python standard library and loads the system `libzstd` runtime through `ctypes`
+- The matchms package provides functionality to import, process, clean, and compare mass spectrometry data.
+- make sure the existing tests still work by running ``python setup.py test``
+- conda create --name memo python=3.8
+- MESSES (Metadata from Experimental SpreadSheets Extraction System) is a Python package that facilitates the conversion of tabular data into other formats.
+- implemented in the Python 3 programming language and supported on Linux, Windows, and Mac operating systems
+- pandas DataFrames in Python and data frames in R.
+- MetaboDirect is written in Python and uses a wide variety of packages
+- MetaboDirect is written in Python and uses a wide variety of packages, including pandas, NumPy, Matplotlib, seaborn, scikit-learn, and NetworkX
+- ':target: https://pypi.python.org/pypi/metabolabpy/'
+- The software is implemented in Python and uses numerous Python toolboxes, such as numpy, scipy, pandas, etc.
+- https://img.shields.io/pypi/pyversions/metabolabpy.svg?style=flat&maxAge=3600
+- All code is run with python version 3.7.12.
+- A python package to visualize networks.
+- python3 apps/index.py -p Input/parameters.txt
+- reimplemented as a Python-based web application
+- poetry run python scripts/train-test.py
+- MSMetaEnhancer is a Python software package for the metadata enrichment of records in mass spectral library files
+- The :mod:`mwtab` package runs under Python 3.6+.
+- interface C++ with the Python programming language and provide both the C++ and the Python code as a Python package
+- interface C++ with the Python programming language
+- └── python
+- "src\n    └── python"
+- Python version ≥3.11
+- All simulations were performed using Python (v 3.8).
+- python pals/run.py PLAGE
+- $ `python pals/run.py PLAGE notebooks/test_data/HAT/int_df.csv
+- we present PALS (Pathway Activity Level Scoring), a Python library, command line tool, and Web application
+- PALS can be imported as a Python library and incorporated into your own Python application
+- PALS can be imported as a Python library
+- PALS can be imported as a Python library and incorporated into your own Python application.
+- In this work we introduce PathIntegrate, a modelling framework and corresponding Python toolkit to facilitate pathway-based multi-omics integration.
+- PathIntegrate Python package for pathway-based multi-omics data integration
+- PathIntegrate Python package
+- 'Programming language: Python
+
+
+  Other Requirements: Python 3.7 or higher.'
+- pip install minedatabase
+- 'Other Requirements: Python 3.7 or higher.'
+- PyMongo
+- This software is open-source and available as part of the MINE Database python package ( https://pypi.org/project/minedatabase/ )
+- 'Programming language: Python. Other Requirements: Python 3.7 or higher.'
+- PyMongo provides methods to interact with the database via python code.
+- Protomix is written in Python 3 and distributed as a PyPI package.
+- or higher to the run deep learing tools
+- '[python 3.6.9](https://www.python.org/downloads/) or higher to the run deep learing tools'
+- python run_pyineta.py <options>
+- Here, we introduce PyINETA, Python-based INADEQUATE network analysis.
+- a full-featured Python-centric pipeline
+- We demonstrate their implementation in Python 3 and JSON in MetDataModel.
+- Calculate the EIC's first-order derivative and acquire the increment for each data point pair
+- The SECIMTools a set of python tools that are available both as standalone and wrapped for use in Galaxy.
+- SECIMTools is open source, the code, is available on GitHub using the MIT license
+- SECIMTools (SouthEast Center for Integrated Metabolomics) is a set of Python applications
+- The SECIMTools a set of python tools that are available both as standalone and
+- 'version:        3.6.10 |Anaconda, Inc.| (default, May  7  2020, 19:46:08) [MSC v.1916 64 bit (AMD64)]'
+- 'version:        3.6.10 |Anaconda, Inc.|'
+- 'version:        3.6.10 |Anaconda, Inc.| (default, May  7 2020, 19:46:08) [MSC v.1916 64 bit (AMD64)]'
+- '- python3 (pinned to 3.7 currently due to non-SIMILE bugs)'
+- $ python setup.py install
+- If you don't have `pip`_ installed, this `Python installation guide`_ can guide
+- Python 3.10 or higher
+- python run_steps.py --config config/config_step1.json
+- Excellent software libraries for such data analysis are available in both R and Python
+- workflows on `Spectra` objects in Python
+- Python (version >= 3.12) to be installed
+- Here we present the spectrum_utils package for MS data processing and visualization in Python.
+- spectrum_utils requires Python version 3.8+
+- spectrum_utils is available for Python 3.6+, includes extensive online documentation and examples
+- The specXplore workflow is divided into a Python data importing pipeline and a visual analysis dashboard using dash.
+- 'available on github under MIT license as
+
+  a python package'
+- an interactive Python dashboard providing interactive and complementary visualizations facilitating mass spectral similarity matrix exploration
+- All other visualizations in specXplore make
+- a python package that can be downloaded and installed for local use
+- into a Python data importing
+- Resulting molecules’ protonated/deprotonated or other adducts peaks were computationally extracted via a peak-picking approach.
+- A total of 20 epochs were used to train the model with a batch size of 35
+- A deep-learning model using Keras for R
+- python macos_setup.py
+- Jupyter notebooks using the Python programming language and a set of Python bindings to the OpenMS algorithms (pyOpenMS)
+- a set of Python bindings to the OpenMS algorithms (pyOpenMS)
+- Jupyter notebooks using the Python programming language
+- require Python 3.0 or higher
+- from vimms.Chemicals import MultipleMixtureCreator
+- 'to tabular format for use in R or Python, with a small filesize when
+
+  saved on disk'
+- Parquet files can be opened as a DataFrame in Python with the pandas library
+- 'Developed and tested with the following systems and versions: Debian GNU/Linux 11 (bullseye), Python 3.10.8'
+- Source code for the HORDB manuscript submitted to Sci Data for all the code to build HORDB.
+- This notebook has been done with Python 3.7.3 (v3.7.3:ef4ec6ed12).
+- by using the Python toolbox COBRApy
+- with external tools (e.g. R, Jupyter, Python, etc)
+- external tools (e.g. R, Jupyter, Python, etc). This allows users to share their analysis workflows
+- liputils makes it easy to strip fatty acids-like residues from individual molecular lipids
+- a Python module to manage individual fatty acid moieties from complex lipids
+- '**liputils: a Python module to manage individual fatty acid moieties from complex lipids**'
+- 'Programming language: Python > 3.0.'
+- MultiNMRFit requires Python 3.8 or higher and run on all platforms (Windows, MacOS and Unix)
+- Python 3.8.13 and TensorFlow (version 2.5.0-GPU)
+- First, create a new environment with python version 3.9.12, for instance with conda
+- RAIChU can be integrated into Python pipelines
+- 'First, create a new environment with python version 3.9.12, for instance with conda:'
+- You must be running >= Python 3.9
+- The optimization process has been implemented by [GUROBI](https://www.gurobi.com/) optimizer and its python interface
+- This repo contains the MassBank software.
+- the similarity score is calculated by a weighted cosine correlation in which weighting exponents on peak intensity and the mass-to-charge ratio are optimized
+- MassQLab is a Python‐based Jupyter notebook implementation of MassQL.
+- MassQLab was developed using Python 3.9
+- MassQLab was developed using Python 3.9 and is made publicly available (https://github.com/JohnsonDylan/MassQLab).
+- MassQLab was developed using Python 3.9 and is made publicly available (https://github.com/JohnsonDylan/MassQLab)
+- MassQLab was developed using Python 3.9 and is made publicly available
+- We developed PFΔ Screen , a Python-based open-source tool with a simple graphical user interface (GUI)
+- If Python 3.9 is already installed, the PFΔScreen dependencies can be installed within the standard Python environment
+derived_from:
+- doi: 10.1038/nprot.2017.122
+  title: 3D molecular cartography using LC–MS facilitated by Optimus and 'ili software
+- doi: 10.1093/bioinformatics/btad354
+  title: '3DMolMS: prediction of tandem mass spectra from 3D molecular conformations'
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+- doi: 10.3390/metabo10100416
+  title: A Python-Based Pipeline for Preprocessing LC–MS Data for Untargeted Metabolomics Workflows
+- doi: 10.1158/0008-5472.can-14-1490
+  title: AKT1 and MYC Induce Distinctive Metabolic Fingerprints in Human Prostate Cancer
+- doi: 10.1038/s41592-021-01198-0
+  title: SpaceM reveals metabolic states of single cells
+- doi: 10.1021/acs.jproteome.8b00359
+  title: Fast Open Modification Spectral Library Searching through Approximate Nearest Neighbor Indexing
+- doi: 10.1093/bioadv/vbag111
+  title: 'AnnoMe: user-defined classification of HR-MS/MS spectra for natural product discovery'
+- doi: 10.1038/s41467-023-39889-1
+  title: Trackable and scalable LC-MS metabolomics data processing using asari
+- doi: 10.1093/bioinformatics/btab429
+  title: 'AutoCCS: automated collision cross-section calculation software for ion mobility spectrometry–mass spectrometry'
+- doi: 10.1101/2023.09.08.556930
+  title: Bayesian optimization of separation gradients to maximize the performance of untargeted LC-MS
+- doi: 10.1186/s13321-023-00734-8
+  title: 'The BinDiscover database: a biology-focused meta-analysis tool for 156,000 GC–TOF MS metabolome samples'
+- doi: 10.1093/nar/gkac408
+  title: The topoisomerase 3 zinc finger domain cooperates with the RMI1 scaffold to promote stable association of the BTR complex to recombination intermediates in the <i>Caenorhabditis elegans</i> germline
+- doi: 10.1101/2022.08.09.503345
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1021/acs.analchem.2c03491
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1021/acs.analchem.1c01465
+  title: 'CFM-ID 4.0: More Accurate ESI-MS/MS Spectral Prediction and Compound Identification'
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+- doi: 10.1101/2025.02.07.637102
+  title: 'ChemEmbed: A deep learning framework for metabolite identification using enhanced MS/MS data and multidimensional molecular embeddings'
+- doi: 10.1186/s13321-020-00481-0
+  title: 'ChemSpectra: a web-based spectra editor for analytical data'
+- doi: 10.1093/bioinformatics/btad078
+  title: 'Improving annotation propagation on molecular networks through random walks: introducing ChemWalker'
+- doi: 10.1093/bioinformatics/btac344
+  title: 'PeakBot: machine-learning-based chromatographic peak picking'
+- doi: 10.1021/acs.jproteome.2c00602
+  title: 'CloMet: A Novel Open-Source and Modular Software Platform That Connects Established Metabolomics Repositories and Data Analysis Resources'
+- doi: 10.1186/s13321-022-00613-8
+  title: Probabilistic metabolite annotation using retention time prediction and meta-learned projections
+- doi: 10.3390/metabo12121275
+  title: 'ConCISE: Consensus Annotation Propagation of Ion Features in Untargeted Tandem Mass Spectrometry Combining Molecular Networking and In Silico Metabolite Structure Prediction'
+- doi: 10.1093/bioinformatics/btad088
+  title: 'DBDIpy: a Python library for processing of untargeted datasets from real-time plasma ionization mass spectrometry'
+- doi: 10.1021/acs.analchem.3c05002
+  title: 'DeepION: A Deep Learning-Based Low-Dimensional Representation Model of Ion Images for Mass Spectrometry Imaging'
+- doi: 10.1101/2024.11.13.623458
+  title: Language model-guided anticipation and discovery of unknown metabolites
+- doi: 10.1038/s41467-024-51433-3
+  title: An end-to-end deep learning method for mass spectrometry data analysis to reveal disease-specific metabolic profiles
+- doi: 10.1021/acs.analchem.1c05017
+  title: 'DEIMoS: An Open-Source Tool for Processing High-Dimensional Mass Spectrometry Data'
+- doi: 10.1093/bioinformatics/btaf290
+  title: "<i>Eclipse</i>\n                    : a Python package for alignment of two or more nontargeted LC-MS metabolomics datasets"
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.1093/bioinformatics/btae490
+  title: An Ensemble Spectral Prediction (ESP) model for metabolite annotation
+- doi: 10.1038/s41592-023-02012-9
+  title: Flash entropy search to query all mass spectral libraries in real time
+- doi: 10.1016/j.microc.2025.115372
+  title: 'FlavorFormer: hybrid deep learning for identifying compounds in flavor mixtures based on NMR spectroscopy'
+- doi: 10.1021/acs.analchem.4c02219
+  title: 'FragHub: A Mass Spectral Library Data Integration Workflow'
+- doi: 10.48550/arxiv.2404.02360
+  title: ''
+- doi: 10.1093/bioinformatics/btad455
+  title: 'ipaPy2: Integrated Probabilistic Annotation (IPA) 2.0—an improved Bayesian-based method for the annotation of LC–MS/MS untargeted metabolomics data'
+- doi: 10.1186/s12859-023-05525-4
+  title: 'G-Aligner: a graph-based feature alignment method for untargeted LC–MS-based metabolomics'
+- doi: 10.1038/s41592-022-01496-1
+  title: A learned embedding for efficient joint analysis of millions of mass spectra
+- doi: 10.1002/imt2.195
+  title: 'GutUDB: A comprehensive multiomics database for intestinal diseases'
+- doi: 10.1101/2024.08.20.608773
+  title: 'haCCA: Multi-module Integrating of spatial transcriptomes and metabolomes'
+- doi: 10.1021/acs.jproteome.2c00612
+  title: 'HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space'
+- doi: 10.1021/acs.analchem.3c04654
+  title: Generating Molecular Fragmentation Graphs with Autoregressive Neural Networks
+- doi: 10.1038/s41598-018-31154-6
+  title: 'Instant Clue: A Software Suite for Interactive Data Visualization and Analysis'
+- doi: 10.1371/journal.pcbi.1009337
+  title: 'INTEGRATE: Model-based multi-omics data integration to characterize multi-level metabolic regulation'
+- doi: 10.1093/bioinformatics/btaf354
+  title: 'JESTR: Joint Embedding Space Technique for Ranking candidate molecules for the annotation of untargeted metabolomics data'
+- doi: 10.1093/bioinformatics/bty590
+  title: Liquid-chromatography retention order prediction for metabolite identification
+- doi: 10.1021/acs.analchem.2c04518
+  title: 'Lipid Spectrum Generator: A Simple Script for the Generation of Accurate In Silico Lipid Fragmentation Spectra'
+- doi: 10.1038/s41467-025-59683-5
+  title: 'LipidIN: a comprehensive repository for flash platform-independent annotation and reverse lipidomics'
+- doi: 10.1101/2020.04.09.033894
+  title: 'LipidLynxX: a data transfer hub to support integration of large scale lipidomics datasets'
+- doi: 10.1021/acs.analchem.0c02560
+  title: 'LiPydomics: A Python Package for Comprehensive Prediction
+
+    of Lipid Collision Cross Sections and Retention Times and Analysis
+
+    of Ion Mobility-Mass Spectrometry-Based Lipidomics Data'
+- doi: 10.1021/acs.analchem.5c01414
+  title: Longitudinal Fragment Profiles Based on Multi-Collision Energy Tandem Mass Spectra Improve the Accuracy of Metabolite Identification in Untargeted Metabolomics
+- doi: 10.1093/bioinformatics/btab060
+  title: 'M2R: a Python add-on to cobrapy for modifying human genome-scale metabolic reconstruction using the gut microbiota models'
+- doi: 10.48550/arxiv.2501.01950
+  title: ''
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+- doi: 10.1186/s13321-023-00741-9
+  title: 'Mass-Suite: a novel open-source python package for high-resolution mass spectrometry data analysis'
+- doi: 10.1038/s41467-025-60640-5
+  title: MassCube improves accuracy for metabolomics data processing from raw files to phenotype classifiers
+- doi: 10.1093/bioinformatics/btac032
+  title: 'massNet: integrated processing and classification of spatially resolved mass spectrometry data using deep learning for rapid tumor delineation'
+- doi: 10.1186/s13321-024-00878-1
+  title: Reproducible MS/MS library cleaning pipeline in matchms
+- doi: 10.1186/s13321-021-00558-4
+  title: 'MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra'
+- doi: 10.1080/01621459.2017.1397521
+  title: 'Maximum Rank Reproducibility: A Nonparametric Approach to Assessing Reproducibility in Replicate Experiments'
+- doi: 10.1101/2024.08.02.606356
+  title: Ordering molecular diversity in untargeted metabolomics via molecular community networking
+- doi: 10.3389/fbinf.2022.842964
+  title: 'MEMO: Mass Spectrometry-Based Sample Vectorization to Explore Chemodiverse Datasets'
+- doi: 10.3390/metabo13070842
+  title: 'MESSES: Software for Transforming Messy Research Datasets into Clean Submissions to Metabolomics Workbench for Public Sharing'
+- doi: 10.1021/acs.analchem.5c00633
+  title: 'Met-ID: An Open-Source Software for Comprehensive Annotation of Multiple On-Tissue Chemical Modifications in MALDI-MSI'
+- doi: 10.1186/s40168-023-01476-3
+  title: 'MetaboDirect: an analytical pipeline for the processing of FT-ICR MS-based metabolomic data'
+- doi: 10.3390/metabo15010048
+  title: MetaboLabPy—An Open-Source Software Package for Metabolomics NMR Data Processing and Metabolic Tracer Data Analysis
+- doi: 10.3389/fnins.2024.1520982
+  title: MetaboLINK is a novel algorithm for unveiling cell-specific metabolic pathways in longitudinal datasets
+- doi: 10.1093/bioinformatics/btaf045
+  title: 'MetAssimulo 2.0: a web app for simulating realistic 1D and 2D metabolomic 1H NMR spectra'
+- doi: 10.1007/s11306-020-01726-7
+  title: 'MetFID: artificial neural network-based compound fingerprint prediction for metabolite annotation'
+- doi: 10.1021/acs.jcim.3c01082
+  title: 'MIST-CF: Chemical Formula Inference from Tandem Mass Spectra'
+- doi: 10.1186/s13321-024-00899-w
+  title: Evaluating the generalizability of graph neural networks for predicting collision cross section
+- doi: 10.48550/arxiv.2510.09716
+  title: ''
+- doi: 10.1038/s41592-021-01331-z
+  title: Spectral entropy outperforms MS/MS dot product similarity for small-molecule compound identification
+- doi: 10.1021/acs.jproteome.4c00881
+  title: 'MS-RT: A Method for Evaluating MS/MS Clustering Performance for Metabolomics Data'
+- doi: 10.1021/acs.jproteome.4c01140
+  title: 'MSIght: A Modular Platform for Improved Confidence in Global, Untargeted Mass Spectrometry Imaging Annotation'
+- doi: 10.21105/joss.04494
+  title: 'MSMetaEnhancer: A Python package for mass spectra
+
+    metadata annotation'
+- doi: 10.3390/metabo11030163
+  title: The mwtab Python Library for RESTful Access and Enhanced Quality Control, Deposition, and Curation of the Metabolomics Workbench Data Repository
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.analchem.3c01653
+  title: '<i>mzapy</i>: An Open-Source Python Library Enabling Efficient Extraction and Processing of Ion Mobility Spectrometry-Mass Spectrometry Data in the MZA File Format'
+- doi: 10.1186/s12859-022-04833-5
+  title: Locality-sensitive hashing enables efficient and scalable signal classification in high-throughput mass spectrometry raw data
+- doi: 10.1021/acs.jnatprod.1c00399
+  title: 'NPClassifier: A Deep Neural Network-Based Structural Classification Tool for Natural Products'
+- doi: 10.1371/journal.pcbi.1008920
+  title: Ranking microbial metabolomic and genomic links in the NPLinker framework using complementary scoring functions
+- doi: 10.1038/nmeth.3959
+  title: 'OpenMS: a flexible open-source software platform for mass spectrometry data analysis'
+- doi: 10.1371/journal.pcbi.1009105
+  title: 'Pathway analysis in metabolomics: Recommendations for the use of over-representation analysis'
+- doi: 10.3390/metabo11020103
+  title: Ranking Metabolite Sets by Their Activity Levels
+- doi: 10.1371/journal.pcbi.1011814
+  title: 'PathIntegrate: Multivariate modelling approaches for pathway-based multi-omics data integration'
+- doi: 10.1021/acs.analchem.3c00764
+  title: 'PeakDetective: A Semisupervised Deep Learning-Based Approach for Peak Curation in Untargeted Metabolomics'
+- doi: 10.1021/acs.analchem.1c02138
+  title: "Pew\n                    <sup>2</sup>\n                    : Open-Source Imaging Software for Laser Ablation–Inductively Coupled Plasma–Mass Spectrometry"
+- doi: 10.1186/s12859-023-05149-8
+  title: 'Pickaxe: a Python library for the prediction of novel metabolic reactions'
+- doi: 10.1093/bioadv/vbae192
+  title: 'Protomix: a Python package for 1H-NMR metabolomics data preprocessing'
+- doi: 10.1021/acs.analchem.3c05019
+  title: 'PS<sup>2</sup>MS: A Deep Learning-Based Prediction System for Identifying New Psychoactive Substances Using Mass Spectrometry'
+- doi: 10.1021/acs.analchem.4c03966
+  title: 'PyINETA: Open-Source Platform for INADEQUATE-JRES Integration in NMR Metabolomics'
+- doi: 10.1371/journal.pcbi.1011912
+  title: Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline
+- doi: 10.1038/s41589-020-00677-3
+  title: Chemically informed analyses of metabolomics mass spectrometry data with Qemistree
+- doi: 10.1186/1471-2105-15-s11-s5
+  title: Quality evaluation of extracted ion chromatograms and chromatographic peaks in liquid chromatography/mass spectrometry-based metabolomics data
+- doi: 10.1021/acs.analchem.4c00786
+  title: 'Rapid QC-MS: Interactive Dashboard for Synchronous Mass Spectrometry Data Acquisition Quality Control'
+- doi: 10.1101/2024.08.17.608400
+  title: 'Recon8D: A metabolic regulome network from oct-omics and machine learning'
+- doi: 10.1186/s12859-018-2134-1
+  title: 'SECIMTools: a suite of metabolomics data analysis tools'
+- doi: 10.3390/metabo13080944
+  title: Denoising Autoencoder Normalization for Large-Scale Untargeted Metabolomics by Gas Chromatography–Mass Spectrometry
+- doi: 10.1038/s41467-022-30118-9
+  title: SIMILE enables alignment of tandem mass spectra with statistical significance
+- doi: 10.3390/genes12030396
+  title: SMITER—A Python Library for the Simulation of LC-MS/MS Experiments
+- doi: 10.1021/acs.analchem.5c06256
+  title: Comprehensive Curation and Harmonization of Small-Molecule MS/MS Libraries in Spectraverse
+- doi: 10.21105/joss.08070
+  title: 'SpectriPy: Enhancing Cross-Language Mass Spectrometry Data Analysis with R and Python'
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+- doi: 10.1021/acs.analchem.3c04444
+  title: Tailored Mass Spectral Data Exploration Using the SpecXplore Interactive Dashboard
+- doi: 10.1038/nbt.3689
+  title: SPLASH, a hashed identifier for mass spectra
+- doi: 10.1038/s41467-019-13680-7
+  title: The METLIN small molecule dataset for machine learning-based retention time prediction
+- doi: 10.1186/s13321-023-00724-w
+  title: 'UmetaFlow: an untargeted metabolomics workflow for high-throughput data processing and analysis'
+- doi: 10.21105/joss.03990
+  title: 'ViMMS 2.0: A framework to develop, test and optimise
+
+    fragmentation strategies in LC-MS metabolomics'
+- doi: 10.1093/bioadv/vbae160
+  title: 'arcMS: transformation of multi-dimensional high-resolution mass spectrometry data to columnar format for compact storage and fast access'
+- doi: 10.1038/s41467-025-57422-4
+  title: 'FIORA: Local neighborhood-based prediction of compound mass spectra from single fragmentation events'
+- doi: 10.1038/s41597-022-01287-5
+  title: HORDB a comprehensive database of peptide hormones
+- doi: 10.3390/ijms20184414
+  title: Independent Component Analysis for Unraveling the Complexity of Cancer Omics Datasets
+- doi: 10.26508/lsa.202000954
+  title: Integrated human/SARS-CoV-2 metabolic models present novel treatment strategies against COVID-19
+- doi: 10.12688/f1000research.14613.2
+  title: 'CyTargetLinker app update: A flexible solution for network extension in Cytoscape'
+- doi: 10.1038/s41598-020-70259-9
+  title: 'liputils: a Python module to manage individual fatty acid moieties from complex lipids'
+- doi: 10.1186/s12864-020-07357-5
+  title: 'Prediction and analysis of metagenomic operons via MetaRon: a pipeline for prediction of Metagenome and whole-genome opeRons'
+- doi: 10.1038/s41467-024-55306-7
+  title: 'msiFlow: automated workflows for reproducible and scalable multimodal mass spectrometry imaging and microscopy data analysis'
+- doi: 10.1093/bioinformatics/btaf463
+  title: 'MultiNMRFit: a software to fit 1D and pseudo-2D NMR spectra'
+- doi: 10.3390/molecules27123653
+  title: Deep Learning-Based Method for Compound Identification in NMR Spectra of Mixtures
+- doi: 10.1186/s13321-024-00898-x
+  title: 'RAIChU: automating the visualisation of natural product biosynthesis'
+- doi: 10.1093/bioinformatics/btad367
+  title: 'Reconstructor: a COBRApy compatible tool for automated genome-scale metabolic network reconstruction with parsimonious flux-based gap-filling'
+- doi: 10.1093/bioadv/vbad098
+  title: Prediction of metabolite–protein interactions based on integration of machine learning and constraint-based modeling
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+- doi: 10.1002/jms.1777
+  title: 'MassBank: a public repository for sharing mass spectral data for life sciences'
+- doi: 10.1002/rcm.10132
+  title: 'Open‐Source System Suitability: Mass Spectrometry Query Language Lab (MassQLab)'
+- doi: 10.1002/ange.202517611
+  title: Advancing Structure Elucidation with a Flexible Multi‐Spectral AI Model
+- doi: 10.1002/anie.202507483
+  title: Quantum Chemistry Calculation‐Assisted Large‐Scale Collision Cross Section Prediction Empowers Derivatization‐Enhanced Multidimensional Metabolomics
+- doi: 10.1007/s00216-023-05070-2
+  title: PFΔScreen — an open-source tool for automated PFAS feature prioritization in non-target HRMS data
+- doi: 10.1002/nbm.70131
+  title: Automatic Identification of Potential Cellular Metabolites for Untargeted NMR Metabolomics
+source_repos:
+- https://github.com/MolecularCartography/Optimus
+- https://github.com/JosieHong/3DMolMS
+- https://github.com/griquelme/tidyms
+- https://github.com/griquelme/tidyms-notebooks
+- https://github.com/alexandrovteam/SpaceM
+- https://github.com/bittremieux/ANN-SoLo
+- https://github.com/bittremieux-lab/ANN-SoLo
+- https://github.com/chrboku/AnnoMe
+- https://github.com/shuzhao-li-lab/asari
+- https://github.com/PNNL-Comp-Mass-Spec/AutoCCS
+- https://github.com/HuanLab/bago
+- https://github.com/huaxuyu/bago
+- https://github.com/ucdavis/BinDiscover
+- https://github.com/facundof2016/CCSP2.0
+- https://github.com/Mrqeoqqt/chemdistiller
+- https://github.com/massspecdl/ChemEmbed
+- https://github.com/ComPlat/chem-spectra-app
+- https://github.com/computational-chemical-biology/ChemWalker
+- https://github.com/christophuv/PeakBot
+- https://github.com/rmallol/clomet
+- https://github.com/constantino-garcia/cmmrt
+- https://github.com/Zquinlan/conCISE
+- https://github.com/zquinlan/concise
+- https://github.com/leopold-weidner/DBDIpy
+- https://github.com/BioNet-XMU/DeepION
+- https://github.com/gankLei-X/DeepION
+- https://github.com/skinniderlab/clm
+- https://github.com/yjdeng9/DeepMSProfiler
+- https://github.com/pnnl/deimos
+- https://github.com/broadinstitute/bmxp
+- https://github.com/enpkg/enpkg_full
+- https://github.com/HassounLab/ESP
+- https://github.com/YuanyueLi/EntropySearch
+- https://github.com/yfWang01/FlavorFormer.git
+- https://github.com/yfWang01/FlavorFormer
+- https://github.com/eMetaboHUB/FragHub
+- https://github.com/FraGNNet/fragnnet
+- https://github.com/francescodc87/ipaPy2
+- https://github.com/CSi-Studio/G-Aligner
+- https://github.com/bittremieux/GLEAMS
+- https://github.com/bittremieux-lab/GLEAMS
+- https://github.com/Ansanqi/GutUDB
+- https://github.com/LittleLittleCloud/haCCA
+- https://github.com/wh-xu/Hyper-Spec
+- https://github.com/coleygroup/ms-pred
+- https://github.com/samgoldman97/ms-pred
+- https://github.com/hnolCol/instantclue
+- https://github.com/qLSLab/integrate
+- https://github.com/HassounLab/JESTR1
+- https://github.com/aalto-ics-kepaco/retention_order_prediction
+- https://github.com/98104781/LSG
+- https://github.com/LinShuhaiLAB/LipidIN
+- https://github.com/SysMedOs/LipidLynxX
+- https://github.com/dylanhross/lipydomics
+- https://github.com/academicCQMD/LongitudinalProf-MSMS-Method
+- https://github.com/e-weglarz-tomczak/m2r
+- https://github.com/HassounLab/MADGEN
+- https://github.com/kopeckylukas/py-mamsi
+- https://github.com/XiminHu/mass-suite
+- https://github.com/huaxuyu/masscube
+- https://github.com/wabdelmoula/massNet
+- https://github.com/matchms/matchms
+- https://github.com/matchms/ms2deepscore
+- https://github.com/Alexander0/molecular_communities
+- https://github.com/mandelbrot-project/memo
+- https://github.com/MoseleyBioinformaticsLab/MESSES
+- https://github.com/pbjarterot/Met-ID
+- https://github.com/Coayala/MetaboDirect
+- https://github.com/ludwigc/MetaboLabPy
+- https://github.com/ludwigc/metabolabpy
+- https://github.com/jlichtarge/pcaGLASSO
+- https://github.com/yanyan5420/MetAssimulo_2.git
+- https://github.com/yanyan5420/MetAssimulo_2
+- https://github.com/ressomlab/MetFID
+- https://github.com/samgoldman97/mist-cf
+- https://github.com/enveda/ccs-prediction
+- https://github.com/jsehhs/MS2toImg-CNN
+- https://github.com/YuanyueLi/SpectralEntropy
+- https://github.com/YuanyueLi/MSEntropy
+- https://github.com/XianghuWang-287/Metabolomics_Clustering_Benchmark
+- https://github.com/lingjunli-research/MSIght
+- https://github.com/laurenfields/MSIght
+- https://github.com/RECETOX/MSMetaEnhancer
+- https://github.com/MoseleyBioinformaticsLab/mwtab
+- https://github.com/PNNL-m-q/mza
+- https://github.com/PNNL-m-q/mzapy
+- https://github.com/hildebrandtlab/mzBucket
+- https://github.com/mwang87/NP-Classifier
+- https://github.com/NPLinker/nplinker
+- https://github.com/OpenMS/OpenMS
+- https://github.com/cwieder/metabolomics-ORA
+- https://github.com/glasgowcompbio/PALS
+- https://github.com/cwieder/PathIntegrate
+- https://github.com/pattilab/PeakDetective
+- https://github.com/djdt/pewpew
+- https://github.com/tyo-nu/pickaxe_paper
+- https://github.com/mzniber/Protomix
+- https://github.com/jhhung/PS2MS
+- https://github.com/edisonomics/PyINETA
+- https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics
+- https://github.com/biocore/q2-qemistree
+- https://github.com/czbiohub-sf/Rapid-QC-MS
+- https://github.com/sriram-lab/Metab8D
+- https://github.com/sriram-lab/Recon8D
+- https://github.com/secimTools/SECIMTools
+- https://github.com/slfan2013/SERDA
+- https://github.com/biorack/simile
+- https://github.com/LeidelLab/SMITER
+- https://github.com/skinniderlab/spectraverse-analysis
+- https://github.com/rformassspectrometry/SpectriPy
+- https://github.com/bittremieuxlab/spectrum_utils
+- https://github.com/kevinmildau/specXplore
+- https://github.com/berlinguyinca/spectra-hash
+- https://github.com/biosustain/pyOpenMS_UmetaFlow
+- https://github.com/biosustain/snakemake_UmetaFlow
+- https://github.com/glasgowcompbio/vimms
+- https://github.com/leesulab/arcMS
+- https://github.com/BAMeScience/fiora
+- https://github.com/CPU-HORDB/HORDB
+- https://github.com/sysbio-curie/ICA-in-Cancer-research-review-materials
+- https://github.com/findCP/findCPcli
+- https://github.com/CyTargetLinker/linkset-automation
+- https://github.com/Stemanz/liputils
+- https://github.com/zaidissa/MetaRon
+- https://github.com/Immunodynamics-Engel-Lab/msiflow
+- https://github.com/NMRTeamTBI/MultiNMRFit
+- https://github.com/yuxuanliao/pSCNN
+- https://github.com/BTheDragonMaster/RAIChU
+- https://github.com/emmamglass/reconstructor
+- https://github.com/fayazsoleymani/SARTRE
+- https://github.com/sangeeta97/ccs_find
+- https://github.com/bittremieuxlab/falcon
+- https://github.com/MassBank/MassBank-web
+- https://github.com/JohnsonDylan/MassQLab
+- https://github.com/mpriessner/MultiModalSpectralTransformer
+- https://github.com/Chen-micslab/QCCAssisted4DSterol
+- https://github.com/JonZwe/PFAScreen
+- https://github.com/Leo-Cheng-Lab/ROIAL-NMR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MolecularCartography/Optimus

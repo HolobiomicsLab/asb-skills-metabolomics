@@ -1,0 +1,17 @@
+name: metabolomicsWorkbenchR
+slug: metabolomicsworkbenchr
+version_used: null
+edam_topics: []
+evidence_spans:
+- using the `do_query()` function from the `{metabolomicsWorkbenchR}` package
+derived_from:
+- doi: 10.1093/bioinformatics/btac706
+  title: 'ADViSELipidomics: a workflow for analyzing lipidomics data'
+source_repos:
+- https://github.com/ShinyFabio/ADViSELipidomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShinyFabio/ADViSELipidomics

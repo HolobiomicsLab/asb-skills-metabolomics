@@ -1,0 +1,25 @@
+name: mono
+slug: mono
+version_used: null
+edam_topics: []
+evidence_spans:
+- the ThermoRawFileParser.exe that can be used on Mac into the default location; however, mono must be installed by the end user
+- 'On Linux and MacOS the mono
+
+  compiler is required to run the wrapper functions.'
+derived_from:
+- doi: 10.1371/journal.pcbi.1011912
+  title: Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline
+- doi: 10.1101/2020.10.30.362533
+  title: rawR - Direct access to raw mass spectrometry data in R
+- doi: 10.1021/acs.jproteome.0c00866
+  title: 'The rawrr R Package: Direct Access to Orbitrap Data and Beyond'
+source_repos:
+- https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics
+- https://github.com/fgcz/rawrr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics

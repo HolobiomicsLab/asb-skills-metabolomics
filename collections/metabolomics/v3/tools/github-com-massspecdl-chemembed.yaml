@@ -1,0 +1,16 @@
+name: github.com/massspecdl/ChemEmbed
+slug: github-com-massspecdl-chemembed
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2025.02.07.637102
+  title: 'ChemEmbed: A deep learning framework for metabolite identification using enhanced MS/MS data and multidimensional molecular embeddings'
+source_repos:
+- https://github.com/massspecdl/ChemEmbed
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/massspecdl/ChemEmbed

@@ -1,0 +1,18 @@
+name: MSIght
+slug: msight
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.4c01140
+  title: 'MSIght: A Modular Platform for Improved Confidence in Global, Untargeted Mass Spectrometry Imaging Annotation'
+source_repos:
+- https://github.com/LingjunLiResearch/MSIght
+- https://github.com/lingjunli-research/MSIght
+- https://github.com/laurenfields/MSIght
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LingjunLiResearch/MSIght

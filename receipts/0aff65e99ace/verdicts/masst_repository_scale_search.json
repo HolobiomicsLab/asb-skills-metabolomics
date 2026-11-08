@@ -1,0 +1,35 @@
+{
+  "workflow": "masst_repository_scale_search",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Joins MASST hit tables to ReDU metadata and stratifies human body-site and disease contexts but does not compute molecule co-occurrence or list co-observed molecules.",
+      "severity": "advisory",
+      "slug": "human-sample-context-stratification-of-msms-matches",
+      "stage": "cooccurrence"
+    },
+    {
+      "check": "V4",
+      "detail": "Filters MASST hits by cosine score, fragment count and precursor tolerance without aggregating metadata or analyzing co-occurrence.",
+      "severity": "advisory",
+      "slug": "masst-match-table-parsing",
+      "stage": "cooccurrence"
+    },
+    {
+      "check": "V4",
+      "detail": "Searches already prepared MGF spectra or USI lists against public repositories rather than preparing the query spectrum or identifier.",
+      "severity": "advisory",
+      "slug": "usi-spectrum-searching",
+      "stage": "spectrum_prep"
+    }
+  ],
+  "verdict": "pass"
+}

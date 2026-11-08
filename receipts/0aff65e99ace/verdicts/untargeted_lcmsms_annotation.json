@@ -1,0 +1,35 @@
+{
+  "workflow": "untargeted_lcmsms_annotation",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "This leaf only filters one GNPS library-match table by quality thresholds and does not fuse the feature table, network, library, and SIRIUS evidence into a master table.",
+      "severity": "advisory",
+      "slug": "mass-spectral-library-matching-cleanup",
+      "stage": "fusion"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf combines the feature table with GNPS, SIRIUS, and ISDB annotations into one per-feature indicator table, but it omits the molecular-network components required by the requested master table.",
+      "severity": "advisory",
+      "slug": "multi-tool-annotation-table-construction",
+      "stage": "fusion"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf detects and aligns LC-MS/MS peaks but outputs an MS2 bag-of-fragments matrix rather than an aligned quantification table plus GNPS and SIRIUS MGF exports.",
+      "severity": "advisory",
+      "slug": "lc-ms-peak-detection-and-feature-alignment",
+      "stage": "preprocess"
+    }
+  ],
+  "verdict": "pass"
+}

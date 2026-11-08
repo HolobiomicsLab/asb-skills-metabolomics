@@ -1,0 +1,56 @@
+name: pyopenms
+slug: pyopenms
+version_used: null
+edam_topics: []
+evidence_spans:
+- The pyopenms [30] package was used to read raw MS data in the mzML format.
+- Raw MS data were read using the pyopenms library
+- the pyopenms package [30] makes it possible to read MS data in the standard and open mzML format.
+- the pyOpenMS [21] library was used
+- All profile spectra underwent smoothing, baseline correction, and peak picking, for which the pyOpenMS [21] library was used
+- In proteomics, Python-based software has been developed like pyOpenMS33 and Dinosaur34.
+- py OpenMS has a wide range of peak processing functions which can be used to further complement a matchms filtering pipeline.
+- py OpenMS [20] to expose the rich functionality of OpenMS [19, 22] from C++ to Python
+- import pyopenms
+- py OpenMS [20] to expose the rich functionality of OpenMS [19, 22] from C++ to Python.
+- a set of Python bindings to the OpenMS algorithms (pyOpenMS)
+- Feature detection from vendor-independent MS raw data (mzML, data-dependent acquisition) is performed via pyOpenMS
+- Feature detection from vendor-independent MS raw data (mzML, data-dependent acquisition) is performed via pyOpenMS (or custom feature lists)
+derived_from:
+- doi: 10.1038/nprot.2017.122
+  title: 3D molecular cartography using LC–MS facilitated by Optimus and 'ili software
+- doi: 10.3390/metabo10100416
+  title: A Python-Based Pipeline for Preprocessing LC–MS Data for Untargeted Metabolomics Workflows
+- doi: 10.1101/2023.09.08.556930
+  title: Bayesian optimization of separation gradients to maximize the performance of untargeted LC-MS
+- doi: 10.1101/2024.10.07.617094
+  title: LipiDetective a deep learning model for the identification of molecular lipid species in tandem mass spectra
+- doi: 10.1038/s41467-025-60640-5
+  title: MassCube improves accuracy for metabolomics data processing from raw files to phenotype classifiers
+- doi: 10.21105/joss.02411
+  title: matchms - processing and similarity evaluation of mass spectrometry data.
+- doi: 10.1021/acs.analchem.0c03421
+  title: SmartPeak Automates Targeted and Quantitative Metabolomics Data Processing
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+- doi: 10.1186/s13321-023-00724-w
+  title: 'UmetaFlow: an untargeted metabolomics workflow for high-throughput data processing and analysis'
+- doi: 10.1007/s00216-023-05070-2
+  title: PFΔScreen — an open-source tool for automated PFAS feature prioritization in non-target HRMS data
+source_repos:
+- https://github.com/MolecularCartography/Optimus
+- https://github.com/huaxuyu/bago
+- https://github.com/LipiTUM/lipidetective
+- https://github.com/huaxuyu/masscube
+- https://github.com/AutoFlowResearch/SmartPeak
+- https://github.com/bittremieuxlab/spectrum_utils
+- https://github.com/biosustain/pyOpenMS_UmetaFlow
+- https://github.com/biosustain/pyOpenMS_UmetaFlow.git
+- https://github.com/biosustain/snakemake_UmetaFlow
+- https://github.com/JonZwe/PFAScreen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MolecularCartography/Optimus

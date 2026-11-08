@@ -1,0 +1,17 @@
+name: Waters AQUITY UPLC BEH amide
+slug: waters-aquity-uplc-beh-amide
+version_used: '2.1'
+edam_topics: []
+evidence_spans:
+- Waters AQUITY UPLC BEH amide column (2.1 mm × 100 mm, 1.7 μm)
+derived_from:
+- doi: 10.1021/acs.analchem.3c04290
+  title: 'MOCCal: A Multiomic CCS Calibrator for Traveling Wave Ion Mobility Mass Spectrometry'
+source_repos:
+- https://github.com/HinesLab/MOCCal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HinesLab/MOCCal

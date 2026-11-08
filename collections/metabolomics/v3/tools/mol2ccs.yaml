@@ -1,0 +1,21 @@
+name: Mol2CCS
+slug: mol2ccs
+version_used: null
+edam_topics: []
+evidence_spans:
+- Each notebook reads the csv/excel and formats it according to the input of Mol2CCS.
+- we introduce Mol2CCS which demonstrates how generalization can be partially improved
+- we demonstrate how an extension of the architecture of GNN (Mol2CCS) including other additional features improves the generalizability of SigmaCCS
+- poetry run python scripts/train-test.py
+- Train the model based on your own training dataset with [wrapper_train] and predict with
+derived_from:
+- doi: 10.1186/s13321-024-00899-w
+  title: Evaluating the generalizability of graph neural networks for predicting collision cross section
+source_repos:
+- https://github.com/enveda/ccs-prediction
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enveda/ccs-prediction

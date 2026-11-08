@@ -1,0 +1,23 @@
+name: MolNetEnhancer
+slug: molnetenhancer
+version_used: null
+edam_topics: []
+evidence_spans:
+- MolNetEnhancer, a workflow that combines the outputs from molecular networking, MS2LDA, in silico annotation tools
+- Currently, MolNetEnhancer has to be run externally, for example on the GNPS platform
+- predicting these structure-based ontologies directly from MS/MS spectra has also become possible through CANOPUS and MolNetEnhancer [18, 19]
+derived_from:
+- doi: 10.3390/metabo9070144
+  title: 'MolNetEnhancer: Enhanced Molecular Networks by Integrating Metabolome Mining and Annotation Tools'
+- doi: 10.1186/s40168-022-01444-3
+  title: Enhanced correlation-based linking of biosynthetic gene clusters to their metabolic products through chemical class matching
+source_repos:
+- https://github.com/madeleineernst/RMolNetEnhancer
+- https://github.com/madeleineernst/pyMolNetEnhancer
+- https://github.com/NPLinker/nplinker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/madeleineernst/RMolNetEnhancer

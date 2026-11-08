@@ -1,0 +1,20 @@
+name: SARTRE
+slug: sartre
+version_used: null
+edam_topics: []
+evidence_spans:
+- a computational framework, termed SARTRE, that employs features corresponding to shadow prices determined in the context of flux variability analysis to predict metabolite-protein interactions using
+- a computational framework, termed SARTRE, that employs features corresponding to shadow prices determined in the context of flux variability analysis to predict metabolite-protein interactions
+- a computational framework, termed SARTRE, that employs features corresponding to shadow prices determined in the context of flux variability analysis
+- SARTRE framework investigates the power of shadow prices which are calculated based on constraint-based modeling
+derived_from:
+- doi: 10.1093/bioadv/vbad098
+  title: Prediction of metabolite–protein interactions based on integration of machine learning and constraint-based modeling
+source_repos:
+- https://github.com/fayazsoleymani/SARTRE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fayazsoleymani/SARTRE

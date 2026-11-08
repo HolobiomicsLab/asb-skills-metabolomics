@@ -1,0 +1,221 @@
+schema_version: 0.3.0
+workflow_id: gnn_spectral_property_prediction
+kind: composite-workflow
+techniques: []
+steps:
+- id: featurize
+  goal: SMILES structures -> attributed molecular graphs (RDKit + PyTorch Geometric)
+  edam_operation: http://edamontology.org/operation_0292
+  skills:
+  - chemical-graph-parsing-and-featurization
+  - molecular-graph-construction-from-smiles
+  tools:
+  - Cython
+  - Python
+  - Pytorch Geometric
+  - RDKit
+  inputs:
+  - type: tsv
+  outputs:
+  - type: pyg-graph-dataset
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s42004-023-00939-w
+    - asb-paper-10-48550-arxiv-2404-02360
+    dois:
+    - 10.1038/s42004-023-00939-w
+    - 10.48550/arxiv.2404.02360
+  after: []
+  candidate_tools:
+  - CCSbase
+  - ISiCLE
+  - SigmaCCS
+  - Spektral
+  - TensorFlow
+- id: architect
+  goal: molecular graph representation -> GNN architecture (message-passing layers
+    + property head)
+  edam_operation: http://edamontology.org/operation_0337
+  skills:
+  - graph-attention-network-implementation
+  - molecular-graph-neural-network-implementation
+  - molecular-graph-gcn-encoder-training
+  tools:
+  - PyTorch
+  - PyTorch Geometric
+  - RDKit
+  - RT-Transformer
+  inputs:
+  - type: pyg-graph-dataset
+  outputs:
+  - type: model-architecture
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bioinformatics-btae084
+    - asb-paper-10-1101-2025-11-12-688047
+    - asb-paper-10-48550-arxiv-2404-02360
+    dois:
+    - 10.1093/bioinformatics/btae084
+    - 10.1101/2025.11.12.688047
+    - 10.48550/arxiv.2404.02360
+  after:
+  - featurize
+  candidate_tools:
+  - Cython
+  - Python
+  - Pytorch Lightning
+  - DGL
+  - Lightning
+  - MVP
+  - massspecgym
+  inputs_from:
+    featurize:
+    - pyg-graph-dataset
+- id: train
+  goal: GNN architecture + labelled property dataset -> trained model checkpoint
+  edam_operation: http://edamontology.org/operation_3927
+  skills:
+  - retention-time-regression-model-training--8849e07a1d6b4a9c
+  - molecular-graph-representation-learning
+  - graph-neural-network-training--5c016ac055bd20cd
+  tools:
+  - GNN-RT repository (Preprocess.py, Train.py, Transferlearning.py)
+  - PyTorch
+  - RDKit
+  inputs:
+  - type: model-architecture
+  - type: pyg-graph-dataset
+  outputs:
+  - type: model-checkpoint
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-0c04071
+    - asb-paper-10-1038-s41467-025-57422-4
+    - asb-paper-10-1093-bioinformatics-btae084
+    dois:
+    - 10.1021/acs.analchem.0c04071
+    - 10.1038/s41467-025-57422-4
+    - 10.1093/bioinformatics/btae084
+  after:
+  - architect
+  - featurize
+  candidate_tools:
+  - Hugging Face Spaces
+  - PyTorch Geometric (torch_geometric)
+  - RDKit (rdkit-pypi)
+  - RT-Transformer
+  - FIORA
+  - ICEBERG
+  inputs_from:
+    architect:
+    - model-architecture
+    featurize:
+    - pyg-graph-dataset
+- id: predict
+  goal: trained GNN + candidate structures -> predicted property values
+  edam_operation: http://edamontology.org/operation_3659
+  skills:
+  - graph-neural-network-training--ea0bd47505660ff7
+  - pretrained-gnn-inference
+  - neural-network-model-inference
+  - nmr-spectrum-inference-decoding
+  tools:
+  - RT-Transformer
+  inputs:
+  - type: model-checkpoint
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-anie-202507483
+    - asb-paper-10-1021-acscentsci-4c01132
+    - asb-paper-10-1021-acscentsci-9b00085
+    - asb-paper-10-1093-bioinformatics-btae084
+    dois:
+    - 10.1002/anie.202507483
+    - 10.1021/acscentsci.4c01132
+    - 10.1021/acscentsci.9b00085
+    - 10.1093/bioinformatics/btae084
+  after:
+  - train
+  candidate_tools:
+  - Jupyter Notebook
+  - Python
+  - RDkit
+  - NEIMS
+  - RDKit Cheminformatics package
+  - Tensorflow
+  - Anaconda
+  - NMR2Struct
+  - convolutional neural network (CNN)
+  - transformer (encoder-decoder)
+  inputs_from:
+    train:
+    - model-checkpoint
+- id: rescore
+  goal: predicted property + experimental evidence -> re-ranked / filtered annotation
+    candidates
+  edam_operation: http://edamontology.org/operation_3800
+  skills:
+  - putative-identity-ranking-by-rt-error
+  - candidate-frequency-ranking-for-denovo-annotation
+  - precursor-mass-candidate-screening
+  - retention-order-score-integration
+  - casmi-challenge-candidate-ranking
+  tools:
+  - HMDB
+  - Keras for R
+  - METLIN SMRT dataset
+  - PredRet database
+  - R
+  inputs:
+  - type: tsv
+  - type: feature-table
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-019-13680-7
+    - asb-paper-10-1038-s42004-023-00939-w
+    - asb-paper-10-1093-bioinformatics-bty590
+    - asb-paper-10-1186-s13321-025-00968-8
+    - asb-paper-10-48550-arxiv-2502-09571
+    dois:
+    - 10.1038/s41467-019-13680-7
+    - 10.1038/s42004-023-00939-w
+    - 10.1093/bioinformatics/bty590
+    - 10.1186/s13321-025-00968-8
+    - 10.48550/arxiv.2502.09571
+  after:
+  - predict
+  candidate_tools:
+  - DiGress
+  - DiffMS
+  - MIST
+  - PyTorch
+  - RDKit
+  - GNN-RT
+  - SigmaCCS
+  - IOKR
+  - Python and
+  - json >=
+  - networkx
+  - networkx >=
+  - numpy
+  - pandas
+  - rcdkTools
+  - ROASMI
+  - chemprop
+  - msms_rt_score_integration
+  inputs_from:
+    predict:
+    - tsv
+verification:
+  final_outputs:
+  - path: gnn_property_rescored_candidates.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

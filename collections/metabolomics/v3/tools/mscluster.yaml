@@ -1,0 +1,15 @@
+name: MSCluster
+slug: mscluster
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/nbt.3597
+  title: Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

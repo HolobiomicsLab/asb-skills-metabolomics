@@ -1,0 +1,17 @@
+name: Thermo QE Orbitrap
+slug: thermo-qe-orbitrap
+version_used: null
+edam_topics: []
+evidence_spans:
+- conjugated bile acids detected in iHMP2 stool samples using a Thermo QE Orbitrap in negative mode.
+derived_from:
+- doi: 10.1038/s41586-023-06906-8
+  title: Reverse metabolomics for the discovery of chemical structures from humans
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation

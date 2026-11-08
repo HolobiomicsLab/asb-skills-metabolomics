@@ -1,0 +1,17 @@
+name: params.yaml
+slug: params-yaml
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'This file is called params.yaml. The parameters set in this file are:'
+derived_from:
+- doi: 10.1093/bioinformatics/btaf354
+  title: 'JESTR: Joint Embedding Space Technique for Ranking candidate molecules for the annotation of untargeted metabolomics data'
+source_repos:
+- https://github.com/HassounLab/JESTR1
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/JESTR1

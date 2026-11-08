@@ -1,0 +1,277 @@
+name: RDKit
+slug: rdkit
+version_used: 2022.03.5
+edam_topics: []
+evidence_spans:
+- '* RDKit'
+- '* RDKit
+
+  * NumPy'
+- '* Python 3.10+
+
+  * PyTorch
+
+  * RDKit'
+- RDKit
+- We used the ETKDG (Riniker and Landrum 2015) algorithm implemented in the AllChem.EmbedMolecule() function of the RDkit library
+- RDKit (version 2022.03.5)
+- 'Python 3.9, PubChemPy (version 1.0.4), BioServices (version 1.11.2), scikit-learn (version 1.1.2), NumPy (version 1.23.2), NetworkX (version
+
+  2.5), RDKit (version 2022.03.5)'
+- NetworkX (version 2.5), RDKit (version 2022.03.5), KCF-Convoy (version 0.0.5)
+- Duplicates were identified and removed based on InChIKey, which was generated using RDKit
+- __ChemDistiller__ benefits from installed and available [RDKit](http://www.rdkit.org/), however it is optional
+- conda env create -f environment.yml
+- train a DNN with the methods of the paper on SMRT using RDKit fingerprints.
+- developed with [RDKit](https://www.rdkit.org/) to clean the data and curate the database
+- These are generated using RDKit
+- We extensively use the [ChEMBL](https://www.ebi.ac.uk/chembl/) [structure curation pipeline](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00456-1) developed with
+- molecular fingerprints, chemical properties and
+- The fetched data were standardized using RDKit (v2022.03.3), and the NP-likeness score of each compound was calculated
+- rdkit
+- In this approach, InChI and SMILES row entries in the MSP blocks are converted into canonical SMILES using [RDKit](https://www.rdkit.org).
+- b. Install [RDKit](https://www.rdkit.org/docs/Install.html).
+- RDKit methods from InChI and SMILES row entries.
+- Install [RDKit](https://www.rdkit.org/docs/Install.html).
+- mol_dict.pkl - a dictionary containing mapping from molecule InchiKey to rdkit mol strcuture for that molecule
+- SMILES, InChI and InChIKey are loaded by RDKit [18] and compared to each other.
+- we used Daylight fingerprints in RDKit
+- circular fingerprints (we used Morgan-2 and Morgan-3, the RDKit [23] pendants of ECFP-4 and ECFP-6) as well as topological fingerprints
+- circular fingerprints (we used Morgan-2 and Morgan-3, the RDKit [23] pendants of ECFP-4 and ECFP-6) as well as topological fingerprints (we used Daylight fingerprints in RDKit)
+- Tanimoto scores computed from Daylight2048bit fingerprints available in RDKit
+- morgan1, morgan2, morgan3, all implemented using rdkit (Landrum, n.d.)
+- The final candidate selection is performed using the cheminformatics tool RDKit
+- these can be calculated with either RDKit or PubChempy automatically or can be done manually
+- Met-ID is also dependent on rdkit, a C++ framework for computational chemistry
+- we first read the SMILES representation of each molecule using RDKit (v2023.09.5)
+- we employed computation of molecular weight from SMILES using RDKit (Landrum et al., 2022)
+- 'we employed computation of molecular weight from SMILES using RDKit (Landrum et al.,
+
+  2022)'
+- '- rdkit'
+- '- pytorch
+
+  - rdkit
+
+  - pytorch-geometric'
+- A molecule's fingerprint is attained using binary Morgan fingerprint (nbit=1024, r=5), computed using RDKit.33
+- After canonicalizing all the SMILES strings using RDKit,31 the substructure vector for each molecule was computed using RDKit's substructure match functionality
+- After canonicalizing all the SMILES strings using RDKit,31 the substructure vector for each molecule was computed
+- After canonicalizing all the SMILES strings using RDKit,31 the substructure vector for each molecule was computed using RDKit’s substructure match functionality
+- the substructure vector for each molecule was computed using RDKit’s substructure match functionality
+- the substructure vector for each molecule was computed using RDKit's substructure match functionality against the set of 957 substructures
+- build the c++ code from the source and install python package from conda
+- '[rdkit](https://www.rdkit.org/docs/Install.html)'
+- rdkit - build the c++ code from the source and install python package from conda
+- the chemical formula enumeration process is simple yet fully exhaustive, combinatorially capturing all possible formula that could arise
+- 'RDKit: Open-Source Cheminformatics Software'
+- Rdkit_norm, which comprises 200 molecular descriptors computed by RDKit and reflects common molecular properties
+- 12 stacked 1D-Transformer blocks processing a 2048D Morgan fingerprint
+- compute the maximum common substructure Jaccard coefficient s = N/((NA+NB)-N) with RDKit (timeout 1800 s, ringMatchesRingOnly False)
+- conda install rdkit -c rdkit
+- Processing of the chemical data is based on the RDKit software.
+- '- ``rdkit==2024.3.5``'
+- RDkit currently does not have a distribution compitable to python 3.13!!!!!
+- Compute the monoisotopic masses of the TeFT-predicted formulas using a mass calculator in RDKit
+- the Recap approach used in this study is a customized version
+- the molfile containing the structures (SDF format)
+- We used the Tanimoto similarity coefficient
+- converting structures to their InChIKey, a 27-character hashed version of the full InChI
+- '* RDKit'
+- "* Python 3.x \n* PyTorch \n* RDKit \n* Matplotlib \n* h5py\n* pyteomics"
+- The SMILES strings of molecules were read by RDKit (v2022.03.3)
+- Then, RDKit22 was used to calculate the ECFPs of these molecules.
+- make sure to have installed [RDKit](https://www.rdkit.org/) in your environment
+- we used metabolite topological fingerprints of size 128 obtained from RDKit (Landrum 2016)
+- rdkit
+- '- [rdkit](https://rdkit.org/) 2020.09.5'
+- The attributes of each atom and bond in the molecule were calculated by RDKit.
+derived_from:
+- doi: 10.1093/bioinformatics/btad354
+  title: '3DMolMS: prediction of tandem mass spectra from 3D molecular conformations'
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.1038/s41589-019-0400-9
+  title: A computational framework to explore large-scale biosynthetic diversity
+- doi: 10.1021/acs.jafc.3c09767
+  title: 'BitterMasS: Predicting Bitterness from Mass Spectra'
+- doi: 10.1101/2022.08.09.503345
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1021/acs.analchem.1c01465
+  title: 'CFM-ID 4.0: More Accurate ESI-MS/MS Spectral Prediction and Compound Identification'
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+- doi: 10.1101/2025.02.07.637102
+  title: 'ChemEmbed: A deep learning framework for metabolite identification using enhanced MS/MS data and multidimensional molecular embeddings'
+- doi: 10.1093/bioinformatics/btad078
+  title: 'Improving annotation propagation on molecular networks through random walks: introducing ChemWalker'
+- doi: 10.1186/s13321-022-00613-8
+  title: Probabilistic metabolite annotation using retention time prediction and meta-learned projections
+- doi: 10.1186/s13321-020-00478-9
+  title: 'COCONUT online: Collection of Open Natural Products database'
+- doi: 10.1021/acs.jcim.1c00144
+  title: 'CyProduct: A Software Tool for Accurately Predicting the Byproducts of Human Cytochrome P450 Metabolism'
+- doi: 10.1101/2024.11.13.623458
+  title: Language model-guided anticipation and discovery of unknown metabolites
+- doi: 10.48550/arxiv.2502.09571
+  title: ''
+- doi: 10.48550/arxiv.2507.06853
+  title: ''
+- doi: 10.1038/s41587-025-02663-3
+  title: Self-supervised learning of molecular representations from millions of tandem mass spectra using DreaMS
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.1093/bioinformatics/btae490
+  title: An Ensemble Spectral Prediction (ESP) model for metabolite annotation
+- doi: 10.1021/acs.analchem.4c02219
+  title: 'FragHub: A Mass Spectral Library Data Integration Workflow'
+- doi: 10.48550/arxiv.2404.02360
+  title: ''
+- doi: 10.1021/acs.analchem.0c04071
+  title: Prediction of Liquid Chromatographic Retention Time with Graph Neural Networks to Assist in Small Molecule Identification
+- doi: 10.1186/s13321-024-00804-5
+  title: 'IDSL_MINT: a deep learning framework to predict molecular fingerprints from mass spectra'
+- doi: 10.1093/bioinformatics/btaf354
+  title: 'JESTR: Joint Embedding Space Technique for Ranking candidate molecules for the annotation of untargeted metabolomics data'
+- doi: 10.48550/arxiv.2501.01950
+  title: ''
+- doi: 10.1186/s13321-024-00878-1
+  title: Reproducible MS/MS library cleaning pipeline in matchms
+- doi: 10.1186/s13321-021-00558-4
+  title: 'MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra'
+- doi: 10.21105/joss.02411
+  title: matchms - processing and similarity evaluation of mass spectrometry data.
+- doi: 10.1186/s13321-023-00695-y
+  title: 'MAW: the reproducible Metabolome Annotation Workflow for untargeted tandem mass spectrometry'
+- doi: 10.1021/acs.analchem.5c00633
+  title: 'Met-ID: An Open-Source Software for Comprehensive Annotation of Multiple On-Tissue Chemical Modifications in MALDI-MSI'
+- doi: 10.1101/2025.11.07.687008
+  title: 'MetaboliteChat: A Unified Multimodal Large Language Model for Interactive Metabolite Analysis and Functional Insights'
+- doi: 10.1007/s11306-020-01726-7
+  title: 'MetFID: artificial neural network-based compound fingerprint prediction for metabolite annotation'
+- doi: 10.1021/jasms.4c00061
+  title: 'ModiFinder: Tandem Mass Spectral Alignment Enables Structural Modification Site Localization'
+- doi: 10.1186/s13321-024-00899-w
+  title: Evaluating the generalizability of graph neural networks for predicting collision cross section
+- doi: 10.48550/arxiv.2510.20615
+  title: ''
+- doi: 10.1038/s41587-020-0700-3
+  title: Auto-deconvolution and molecular networking of gas chromatography–mass spectrometry data
+- doi: 10.21105/joss.04494
+  title: 'MSMetaEnhancer: A Python package for mass spectra
+
+    metadata annotation'
+- doi: 10.1016/j.enceco.2025.07.022
+  title: 'MSThunder: A deep learning-based nontargeted analytical framework for the accurate and rapid identification of unknown organic pollutants in water'
+- doi: 10.1101/2025.11.12.688047
+  title: 'Learning from All Views: A Multiview Contrastive Framework for Metabolite Annotation'
+- doi: 10.1021/acscentsci.4c01132
+  title: Accurate and Efficient Structure Elucidation from Routine One-Dimensional NMR Spectra Using Multitask Machine Learning
+- doi: 10.1021/acs.jnatprod.1c00399
+  title: 'NPClassifier: A Deep Neural Network-Based Structural Classification Tool for Natural Products'
+- doi: 10.1021/jasms.1c00315
+  title: <i>In Silico</i> Collision Cross Section Calculations to Aid Metabolite Annotation
+- doi: 10.1021/acs.analchem.3c05019
+  title: 'PS<sup>2</sup>MS: A Deep Learning-Based Prediction System for Identifying New Psychoactive Substances Using Mass Spectrometry'
+- doi: 10.1021/acs.analchem.2c02093
+  title: Rapid Approximate Subset-Based Spectra Prediction for Electron Ionization–Mass Spectrometry
+- doi: 10.1186/s13321-025-00968-8
+  title: 'ROASMI: accelerating small molecule identification by repurposing retention data'
+- doi: 10.1093/bioinformatics/btae084
+  title: 'RT-Transformer: retention time prediction for metabolite annotation to assist in metabolite identification'
+- doi: 10.1038/s41467-022-30118-9
+  title: SIMILE enables alignment of tandem mass spectra with statistical significance
+- doi: 10.1038/s42004-023-00932-3
+  title: An end-to-end deep learning framework for translating mass spectra to de-novo molecules
+- doi: 10.1038/s41592-025-02646-x
+  title: Denoising Search doubles the number of metabolite and exposome annotations in human plasma using an Orbitrap Astral mass spectrometer
+- doi: 10.1038/s42004-024-01189-0
+  title: Structural annotation of unknown molecules in a miniaturized mass spectrometer based on a transformer enabled fragment tree method
+- doi: 10.1038/s41467-019-13680-7
+  title: The METLIN small molecule dataset for machine learning-based retention time prediction
+- doi: 10.3389/fpls.2019.01329
+  title: Taxonomically Informed Scoring Enhances Confidence in Natural Products Annotation
+- doi: 10.1186/s13321-024-00858-5
+  title: 'TransExION: a transformer based explainable similarity metric for comparing IONS in tandem mass spectrometry'
+- doi: 10.1038/s43588-025-00923-5
+  title: Identifying variants of molecules through database search of mass spectra
+- doi: 10.1038/s41467-023-39279-7
+  title: Ultra-fast and accurate electron ionization mass spectrum matching for compound identification with million-scale in-silico library
+- doi: 10.1016/j.isci.2020.100849
+  title: Inferring Biochemical Reactions and Metabolite Structures to Understand Metabolic Pathway Drift
+- doi: 10.1093/bioadv/vbad098
+  title: Prediction of metabolite–protein interactions based on integration of machine learning and constraint-based modeling
+- doi: 10.1038/s42004-023-00939-w
+  title: Highly accurate and large-scale collision cross sections prediction with graph neural networks
+- doi: 10.1002/ange.202517611
+  title: Advancing Structure Elucidation with a Flexible Multi‐Spectral AI Model
+- doi: 10.1002/anie.202507483
+  title: Quantum Chemistry Calculation‐Assisted Large‐Scale Collision Cross Section Prediction Empowers Derivatization‐Enhanced Multidimensional Metabolomics
+source_repos:
+- https://github.com/JosieHong/3DMolMS
+- https://github.com/HassounLab/BAM
+- https://github.com/medema-group/BiG-SCAPE
+- https://github.com/Niv-Lab/BitterPredict1
+- https://github.com/Mrqeoqqt/chemdistiller
+- https://github.com/rdkit/rdkit
+- https://github.com/massspecdl/ChemEmbed
+- https://github.com/computational-chemical-biology/ChemWalker
+- https://github.com/constantino-garcia/cmmrt
+- https://github.com/Steinbeck-Lab/coconut
+- https://github.com/Le0nT1/CyProduct
+- https://github.com/skinniderlab/CLM
+- https://github.com/skinniderlab/CLM.git
+- https://github.com/skinniderlab/clm
+- https://github.com/coleygroup/DiffMS
+- https://github.com/AzureLeon1/DiffSpectra
+- https://github.com/pluskal-lab/DreaMS
+- https://github.com/enpkg/enpkg_full
+- https://github.com/HassounLab/ESP
+- https://github.com/eMetaboHUB/FragHub
+- https://github.com/FraGNNet/fragnnet
+- https://github.com/Qiong-Yang/GNN-RT
+- https://github.com/idslme/IDSL_MINT
+- https://github.com/HassounLab/JESTR1
+- https://github.com/HassounLab/MADGEN
+- https://github.com/matchms/matchms
+- https://github.com/matchms/ms2deepscore
+- https://github.com/zmahnoor14/MAW
+- https://github.com/pbjarterot/Met-ID
+- https://github.com/13501274828/MetaboliteChat.git
+- https://github.com/daniel-guooo/MetaboliteChat
+- https://github.com/ressomlab/MetFID
+- https://github.com/Wang-Bioinformatics-Lab/ModiFinder_base
+- https://github.com/enveda/ccs-prediction
+- https://github.com/OpenDFM/MS-BART
+- https://github.com/bittremieux/GNPS_GC
+- https://github.com/10.5281/zenodo.6961488
+- https://github.com/RECETOX/MSMetaEnhancer
+- https://github.com/LQZ0123/MSThunder
+- https://github.com/HassounLab/MVP
+- https://github.com/MarklandGroup/NMR2Struct
+- https://github.com/mwang87/NP-Classifier
+- https://github.com/DasSusanta/snakemake_ccs
+- https://github.com/jhhung/PS2MS
+- https://github.com/thejonaslab/rassp-public
+- https://github.com/FangYuan717/ROASMI
+- https://github.com/01dadada/RT-Transformer
+- https://github.com/biorack/simile
+- https://github.com/KavrakiLab/Spec2Mol
+- https://github.com/FanzhouKong/spectral_denoising
+- https://github.com/thumingo/TeFT
+- https://github.com/taxonomicallyinformedannotation/tima
+- https://github.com/banhdzui/TransExION
+- https://github.com/mohimanilab/VInSMoC
+- https://github.com/Qiong-Yang/FastEI
+- https://github.com/pathmodel/pathmodel
+- https://github.com/fayazsoleymani/SARTRE
+- https://github.com/zmzhang/SigmaCCS
+- https://github.com/YoujiaZhang/SigmaCCS
+- https://github.com/mpriessner/MultiModalSpectralTransformer
+- https://github.com/Chen-micslab/QCCAssisted4DSterol
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JosieHong/3DMolMS

@@ -1,0 +1,21 @@
+name: metabolabpy
+slug: metabolabpy
+version_used: 0.9.66
+edam_topics: []
+evidence_spans:
+- https://img.shields.io/pypi/v/metabolabpy.svg?style=flat&maxAge=3600
+- https://pypi.python.org/pypi/metabolabpy/
+- MetaboLabPy (version 0.9.66) is a free and open-source software package used to process 1D- and 2D-NMR spectra
+- ':target: https://pypi.python.org/pypi/metabolabpy/'
+derived_from:
+- doi: 10.3390/metabo15010048
+  title: MetaboLabPy—An Open-Source Software Package for Metabolomics NMR Data Processing and Metabolic Tracer Data Analysis
+source_repos:
+- https://github.com/ludwigc/MetaboLabPy
+- https://github.com/ludwigc/metabolabpy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ludwigc/MetaboLabPy

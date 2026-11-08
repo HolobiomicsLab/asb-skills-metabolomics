@@ -1,0 +1,18 @@
+name: GNN-RT
+slug: gnn-rt
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our paper also uses the [GNN-RT](https://github.com/Qiong-Yang/GNN-RT).
+derived_from:
+- doi: 10.1038/s42004-023-00939-w
+  title: Highly accurate and large-scale collision cross sections prediction with graph neural networks
+source_repos:
+- https://github.com/Qiong-Yang/GNN-RT
+- https://github.com/YoujiaZhang/SigmaCCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Qiong-Yang/GNN-RT

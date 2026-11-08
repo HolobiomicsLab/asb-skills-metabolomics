@@ -1,0 +1,179 @@
+schema_version: 0.3.0
+workflow_id: nmr_metabolomics_profiling
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess_nmr
+  goal: NMR spectral preprocessing (phase, baseline, referencing, binning)
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - fid-to-spectrum-preprocessing-pipeline
+  - nmr-preprocessing-pipeline-interfacing
+  - metabolomics-nmr-data-processing
+  - spectral-preprocessing-for-multivariate-analysis
+  tools:
+  - Protomix
+  - Python
+  - numpy
+  - pandas
+  - pyicoshift
+  inputs:
+  - type: nmr-spectrum
+  outputs:
+  - type: feature-table
+  - type: nmr-spectrum
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bioadv-vbae192
+    - asb-paper-10-3390-metabo15010048
+    dois:
+    - 10.1093/bioadv/vbae192
+    - 10.3390/metabo15010048
+  after: []
+  candidate_tools:
+  - MetaboLabPy 0.9.66
+  - PySide6
+  - scikit-learn
+  - scipy
+  - MetaboLabPy
+- id: identification
+  goal: identify metabolites by chemical shift matching
+  edam_operation: http://edamontology.org/operation_3803
+  skills:
+  - spectral-library-matching--0c95a117d483839e
+  - metabolite-database-interrogation
+  - nmr-reference-spectrum-retrieval-from-hmdb
+  - nmr-metabolite-identification
+  tools:
+  - BMRB (Biological Magnetic Resonance Bank)
+  - Bruker Avance 800 MHz NMR spectrometer with cryoprobe
+  - Chenomx
+  - HMDB (Human Metabolome Database)
+  - Python
+  - TopSpin
+  inputs:
+  - type: feature-table
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-nbm-70131
+    - asb-paper-10-1371-journal-pcbi-1006018
+    - asb-paper-10-3389-fnins-2024-1520982
+    dois:
+    - 10.1002/nbm.70131
+    - 10.1371/journal.pcbi.1006018
+    - 10.3389/fnins.2024.1520982
+  after:
+  - preprocess_nmr
+  candidate_tools:
+  - Human Metabolome Database (HMDB)
+  - PyQt5 5.15.11
+  - Python >=3.9
+  - ROIAL-NMR
+  - pandas
+  - pandas 2.2.3
+  - CluPA
+  - HMDB
+  - R
+  - icoshift
+  - speaq 2.0
+  - speaq R package
+  inputs_from:
+    preprocess_nmr:
+    - feature-table
+- id: quantification
+  goal: quantify metabolites from NMR signals
+  edam_operation: http://edamontology.org/operation_3799
+  skills:
+  - nmr-spectral-deconvolution
+  - metabolite-peak-amplitude-quantification
+  - metabolite-concentration-estimation-nmr
+  - nmr-mixture-quantification
+  tools:
+  - MATLAB
+  - NMRPipe
+  - NMRbox
+  - SAND
+  inputs:
+  - type: nmr-spectrum
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-3c03078
+    - asb-paper-10-1021-acs-analchem-3c03594
+    - asb-paper-10-1101-2023-03-01-530642
+    dois:
+    - 10.1021/acs.analchem.3c03078
+    - 10.1021/acs.analchem.3c03594
+    - 10.1101/2023.03.01.530642
+  after:
+  - preprocess_nmr
+  - identification
+  candidate_tools:
+  - EDTA plasma analysis (NMRQNet tutorial)
+  - NMRQNet
+  - MANIQ
+  - Magnetstein
+  - MasserFront
+  inputs_from:
+    preprocess_nmr:
+    - nmr-spectrum
+    identification:
+    - tsv
+- id: statistics
+  goal: differential analysis of NMR profiles (univariate; multivariate where a leaf
+    exists)
+  edam_operation: http://edamontology.org/operation_3659
+  skills:
+  - metabolomics-univariate-group-comparison
+  - two-sample-t-test-biomarker-testing
+  - multiple-testing-correction
+  - benjamini-hochberg-multiple-testing-correction--167cbe6451059b92
+  tools:
+  - POMA
+  - POMAShiny
+  - R
+  - limma
+  - tidyverse
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-022-32155-w
+    - asb-paper-10-1101-2023-03-01-530642
+    - asb-paper-10-1371-journal-pcbi-1006018
+    - asb-paper-10-1371-journal-pcbi-1009148
+    dois:
+    - 10.1038/s41467-022-32155-w
+    - 10.1101/2023.03.01.530642
+    - 10.1371/journal.pcbi.1006018
+    - 10.1371/journal.pcbi.1009148
+  after:
+  - quantification
+  candidate_tools:
+  - NMRQNet
+  - rDolphin
+  - dplyr
+  - massdataset
+  - massstat
+  - purrr
+  - tidyMass
+  - MetaboAnalyst
+  - speaq 2.0
+  - speaq R package
+  inputs_from:
+    quantification:
+    - tsv
+verification:
+  final_outputs:
+  - path: nmr_profile_report.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

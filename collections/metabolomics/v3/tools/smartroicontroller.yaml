@@ -1,0 +1,19 @@
+name: SmartROIController
+slug: smartroicontroller
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`SmartROIController` – ROI guided fragmentation using adaptive scoring'
+derived_from:
+- doi: 10.21105/joss.03990
+  title: 'ViMMS 2.0: A framework to develop, test and optimise
+
+    fragmentation strategies in LC-MS metabolomics'
+source_repos:
+- https://github.com/glasgowcompbio/vimms
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/glasgowcompbio/vimms

@@ -1,0 +1,17 @@
+name: loadGnnSomState
+slug: loadgnnsomstate
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`loadGnnSomState`'
+derived_from:
+- doi: 10.1371/journal.pbio.3003307
+  title: MEANtools integrates multi-omics data to identify metabolites and predict biosynthetic pathways
+source_repos:
+- https://github.com/IntegrativeBioinformaticsLab/meantools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IntegrativeBioinformaticsLab/meantools

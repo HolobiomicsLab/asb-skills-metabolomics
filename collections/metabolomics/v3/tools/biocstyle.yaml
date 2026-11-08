@@ -1,0 +1,17 @@
+name: BiocStyle
+slug: biocstyle
+version_used: null
+edam_topics: []
+evidence_spans:
+- BiocStyle::html_document
+derived_from:
+- doi: 10.1093/bioinformatics/btx477
+  title: 'MWASTools: an R/bioconductor package for metabolome-wide association studies'
+source_repos:
+- https://github.com/AndreaRMICL/MWASTools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AndreaRMICL/MWASTools

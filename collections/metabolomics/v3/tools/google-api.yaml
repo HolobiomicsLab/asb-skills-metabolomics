@@ -1,0 +1,16 @@
+name: Google API
+slug: google-api
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.4c00786
+  title: 'Rapid QC-MS: Interactive Dashboard for Synchronous Mass Spectrometry Data Acquisition Quality Control'
+source_repos:
+- https://github.com/czbiohub-sf/Rapid-QC-MS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/czbiohub-sf/Rapid-QC-MS

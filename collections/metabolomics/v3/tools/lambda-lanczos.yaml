@@ -1,0 +1,20 @@
+name: lambda-lanczos
+slug: lambda-lanczos
+version_used: null
+edam_topics: []
+evidence_spans:
+- an implementation of the Lanczos method17 [https://github.com/mrcdr/lambda-lanczos] to compute only the first n’ < n principal components
+- of the Lanczos method17 [https://github.com/mrcdr/lambda-lanczos] to compute only the first
+- an implementation of the Lanczos method
+derived_from:
+- doi: 10.1021/acs.analchem.3c02449
+  title: 'LipidSpace: Simple Exploration, Reanalysis, and Quality Control of Large-Scale Lipidomics Studies'
+source_repos:
+- https://github.com/mrcdr/lambda-lanczos
+- https://github.com/lifs-tools/lipidspace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mrcdr/lambda-lanczos

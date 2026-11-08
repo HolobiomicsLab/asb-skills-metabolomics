@@ -1,0 +1,21 @@
+name: Lilikoi v2.0
+slug: lilikoi-v2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- Lilikoi v2.0 supports data preprocessing
+- The new Lilikoi v2.0 R package has implemented a deep learning method for classification, in addition to popular machine learning methods.
+- Lilikoi v2.0 is a modern, comprehensive package to enable metabolomics analysis in R programming environment.
+- VignetteIndexEntry{Lilikoi V2.0}
+- Lilikoi v2.0 supports data preprocessing, exploratory analysis, pathway visualization, and metabolite pathway regression.
+derived_from:
+- doi: 10.1093/gigascience/giaa162
+  title: 'Lilikoi V2.0: a deep learning–enabled, personalized pathway-based R package for diagnosis and prognosis predictions using metabolomics data'
+source_repos:
+- https://github.com/lanagarmire/lilikoi2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lanagarmire/lilikoi2

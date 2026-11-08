@@ -1,0 +1,17 @@
+name: Filigree
+slug: filigree
+version_used: null
+edam_topics: []
+evidence_spans:
+- These were implemented in CorrelationCalculator and Filigree, two software tools for the analysis of metabolomics data we developed previously.
+derived_from:
+- doi: 10.1186/s12859-024-05994-1
+  title: 'DNEA: an R package for fast and versatile data-driven network analysis of metabolomics data'
+source_repos:
+- https://github.com/Karnovsky-Lab/DNEA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Karnovsky-Lab/DNEA

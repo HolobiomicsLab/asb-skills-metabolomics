@@ -1,0 +1,32 @@
+name: NPclassifier
+slug: npclassifier
+version_used: null
+edam_topics: []
+evidence_spans:
+- be classified as a NP by NPclassifier [24]
+- The NPClassifier taxonomy of all 2D structures were retrieved by submitting their anisomeric SMILES to the NPClassifier API.
+- Recently, NPClassifier was developed specifically for NP classifications, taking both chemistry and biosynthetic pathways into account
+- Recently, NPClassifier was developed specifically for NP classifications, taking both chemistry and biosynthetic pathways into account [17]
+derived_from:
+- doi: 10.1186/s13321-020-00478-9
+  title: 'COCONUT online: Collection of Open Natural Products database'
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.1021/acs.analchem.4c02219
+  title: 'FragHub: A Mass Spectral Library Data Integration Workflow'
+- doi: 10.1021/acs.jnatprod.1c00399
+  title: 'NPClassifier: A Deep Neural Network-Based Structural Classification Tool for Natural Products'
+- doi: 10.1186/s40168-022-01444-3
+  title: Enhanced correlation-based linking of biosynthetic gene clusters to their metabolic products through chemical class matching
+source_repos:
+- https://github.com/Steinbeck-Lab/coconut
+- https://github.com/enpkg/enpkg_full
+- https://github.com/eMetaboHUB/FragHub
+- https://github.com/mwang87/NP-Classifier
+- https://github.com/NPLinker/nplinker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Steinbeck-Lab/coconut

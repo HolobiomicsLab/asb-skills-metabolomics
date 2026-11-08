@@ -1,0 +1,18 @@
+name: TeFT
+slug: teft
+version_used: null
+edam_topics: []
+evidence_spans:
+- we propose the Transformer enabled Fragment Tree (TeFT) method, which combines various types of fragmentation tree models and a deep learning Transformer module
+- We propose a novel prediction model, TeFT, designed for de novo structure generation from low-resolution tandem mass spectrometry (MSn) spectra
+derived_from:
+- doi: 10.1038/s42004-024-01189-0
+  title: Structural annotation of unknown molecules in a miniaturized mass spectrometer based on a transformer enabled fragment tree method
+source_repos:
+- https://github.com/thumingo/TeFT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thumingo/TeFT

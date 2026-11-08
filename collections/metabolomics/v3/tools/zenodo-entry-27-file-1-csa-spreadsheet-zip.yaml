@@ -1,0 +1,22 @@
+name: Zenodo entry [27] (file#1 csa_spreadsheet.zip)
+slug: zenodo-entry-27-file-1-csa-spreadsheet-zip
+version_used: null
+edam_topics: []
+evidence_spans:
+- (file#1 csa_spreadsheet.zip).
+- were provided in the.msp text format at Zenodo entry [27] (file#2 lipidmaps_msp.zip/).
+- Source data file is provided at Zenodo entry [27] (file#3 venn.zip)
+- The.yaml file and input.msp files are provided at Zenodo entry [27](file#4 ms2fp_yaml.zip).
+- (Table 2 and file#5 ms2fp_st002044_prediction.zip at [27]).
+- provided at Zenodo entry [27](file#6 ms2fp_lipidmaps.zip and file#7 ms2fp_idsl.csa.zip).
+derived_from:
+- doi: 10.1186/s13321-024-00804-5
+  title: 'IDSL_MINT: a deep learning framework to predict molecular fingerprints from mass spectra'
+source_repos:
+- https://github.com/idslme/IDSL_MINT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/idslme/IDSL_MINT

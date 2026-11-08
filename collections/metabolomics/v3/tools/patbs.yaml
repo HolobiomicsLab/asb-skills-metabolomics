@@ -1,0 +1,19 @@
+name: PATBS
+slug: patbs
+version_used: null
+edam_topics: []
+evidence_spans:
+- Non-targeted techniques, such as precise-and-thorough background-subtraction (PATBS) [15, 16], or metabolomics techniques [17, 18], do not require prediction of the structure of herbal components.
+- Non-targeted techniques, such as precise-and-thorough background-subtraction (PATBS)
+- First, we realized the non-target identification of metabolites by our self-developed PATBS technique.
+derived_from:
+- doi: 10.1186/s13020-024-01031-8
+  title: 'An integrated approach for studying exposure, metabolism, and disposition of traditional Chinese medicine using PATBS and MDRB tools: a case study of semen Armeniacae Amarum'
+source_repos:
+- https://github.com/933ZhangDD/MDRB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/933ZhangDD/MDRB

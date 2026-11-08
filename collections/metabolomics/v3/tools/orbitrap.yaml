@@ -1,0 +1,23 @@
+name: OrbiTrap
+slug: orbitrap
+version_used: null
+edam_topics: []
+evidence_spans:
+- This app accepts both OrbiTrap and matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) MS data
+derived_from:
+- doi: 10.1186/s12859-023-05346-5
+  title: A MATLAB-based app to improve LC–MS/MS data analysis for N-linked glycan peak identification
+- doi: 10.1038/s41467-024-54871-1
+  title: 'iDIA-QC: AI-empowered data-independent acquisition mass spectrometry-based quality control'
+- doi: 10.1038/s41467-025-66060-9
+  title: 'FIDDLE: a deep learning method for chemical formulas prediction from tandem mass spectra'
+source_repos:
+- https://github.com/ZaylaSchaeffer/GlyKAn-AZ-application
+- https://github.com/guomics-lab/iDIA-QC
+- https://github.com/JosieHong/FIDDLE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZaylaSchaeffer/GlyKAn-AZ-application

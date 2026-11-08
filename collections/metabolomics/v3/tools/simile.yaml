@@ -1,0 +1,20 @@
+name: SIMILE
+slug: simile
+version_used: null
+edam_topics: []
+evidence_spans:
+- import simile as sml
+- Significant Interrelation of MS/MS Ions via Laplacian Embedding (SIMILE)
+- C = sml.sym_compare(M, spec_ids)
+- df = sml.matching_ions_report(S, M, C, mzs, pmzs)
+derived_from:
+- doi: 10.1038/s41467-022-30118-9
+  title: SIMILE enables alignment of tandem mass spectra with statistical significance
+source_repos:
+- https://github.com/biorack/simile
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biorack/simile

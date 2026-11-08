@@ -1,0 +1,20 @@
+name: PFΔScreen
+slug: pf-screen
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed PFΔ Screen , a Python-based open-source tool with a simple graphical user interface (GUI)
+- To perform the PFASPrioritization, appropriate input parameters can be set, and then PFAS-specific data evaluation is performed with the “Run PFASPrioritization“ button.
+- Data from the results table can be used to visualize EICs (and extrapolate HS with common repeating units such as CF2)
+- We developed PFΔ Screen , a Python-based open-source tool with a simple graphical user interface (GUI) to perform efficient feature prioritization
+derived_from:
+- doi: 10.1007/s00216-023-05070-2
+  title: PFΔScreen — an open-source tool for automated PFAS feature prioritization in non-target HRMS data
+source_repos:
+- https://github.com/JonZwe/PFAScreen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JonZwe/PFAScreen

@@ -1,0 +1,56 @@
+name: MS2DeepScore
+slug: ms2deepscore
+version_used: null
+edam_topics: []
+evidence_spans:
+- The limiting step is the generation of the MS2DeepScore embeddings, which took 4 hours on a standard laptop
+- The limiting step is the generation of the MS2DeepScore embeddings
+- cosine similarity in the embedding space outperforms the cutting-edge supervised algorithm MS2DeepScore13
+- The model was trained using a dataset of 109,734 MS/MS spectra, which was built through curating and cleaning spectra obtained from GNPS [16]
+- 'Here, we propose MS2DeepScore: a novel Siamese neural network to predict the structural similarity between two chemical structures solely based on their MS/MS fragmentation spectra.'
+- MS2DeepScore is available as an easily installable Python library running on Python 3.7 and 3.8 ... The presented results were obtained using version 0.2.0.
+- MS2DeepScore is available as an easily installable Python library running on Python 3.7 and 3.8 ... The presented results were obtained using version 0.2.0
+- The embedding creation includes the mass spectrum binning as well as the inference step with the ‘base’ neural network (Fig. 1) and is computationally far more expensive than the actual score
+- MS2DeepScore is available through PyPI via pip, is actively maintained and adheres to best practices in software development.
+- The original MS2DeepScore model was able to predict chemical similarities with good overall accuracy
+- We also highlight the possibility of directly visualizing MS2Deepscore embeddings using UMAP22
+- we introduce a new pair sampling algorithm that reduces biases introduced during model training
+- publish the new version to [pypi](https://pypi.org/project/ms2deepscore)
+- mass spectral embedding-based chemical similarity predictors (Spec2Vec and MS2Deepscore)
+- MS2Query first uses MS2Deepscore32 to calculate spectral similarity scores between all library spectra and a query spectrum
+- The workflow for running MS2Query first uses MS2Deepscore to calculate spectral similarity scores between all library spectra and a query spectrum.
+- the unsupervised Spec2Vec30 and the supervised MS2Deepscore32
+- 'automatically computes pairwise spectral similarities using three similarity scores: ms2deepscore, modified cosine scores, and spec2vec scores.'
+- based on a t-SNE embedding of the ms2deepscore pairwise similarity
+- the ms2deepscore pairwise similarity
+- SpecXplore makes use of state of the art ms2deepscore pairwise spectral similarities as a quantitative backbone
+- It also outperforms the deep-learning model MS2DeepScore in both test sets, especially when nearly-identical structure matching is desired
+derived_from:
+- doi: 10.1093/bioadv/vbag111
+  title: 'AnnoMe: user-defined classification of HR-MS/MS spectra for natural product discovery'
+- doi: 10.1038/s41587-025-02663-3
+  title: Self-supervised learning of molecular representations from millions of tandem mass spectra using DreaMS
+- doi: 10.1186/s13321-021-00558-4
+  title: 'MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra'
+- doi: 10.1101/2024.03.25.586580
+  title: 'Bridging polarities in metabolomics: Cross-ionization mode chemical similarity prediction between tandem mass spectra'
+- doi: 10.1038/s41467-023-37446-4
+  title: 'MS2Query: reliable and scalable MS2 mass spectra-based analogue search'
+- doi: 10.1021/acs.analchem.3c04444
+  title: Tailored Mass Spectral Data Exploration Using the SpecXplore Interactive Dashboard
+- doi: 10.1186/s13321-024-00858-5
+  title: 'TransExION: a transformer based explainable similarity metric for comparing IONS in tandem mass spectrometry'
+source_repos:
+- https://github.com/chrboku/AnnoMe
+- https://github.com/matchms/ms2deepscore
+- https://github.com/pluskal-lab/DreaMS
+- https://github.com/matchms/MS2DeepScore
+- https://github.com/iomega/ms2query
+- https://github.com/kevinmildau/specXplore
+- https://github.com/banhdzui/TransExION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chrboku/AnnoMe

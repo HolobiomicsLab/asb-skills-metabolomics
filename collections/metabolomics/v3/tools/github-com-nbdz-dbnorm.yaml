@@ -1,0 +1,18 @@
+name: github.com/NBDZ/dbnorm
+slug: github-com-nbdz-dbnorm
+version_used: null
+edam_topics: []
+evidence_spans:
+- The implementation of the "dbnorm" package is publicly available at https ://githu b.com/NBDZ/dbnor m.
+- This package is publicly available at https ://githu b.com/NBDZ/dbnor m .
+derived_from:
+- doi: 10.1038/s41598-021-84824-3
+  title: DBnorm as an R package for the comparison and selection of appropriate statistical methods for batch effect correction in metabolomic studies
+source_repos:
+- https://github.com/NBDZ/dbnorm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NBDZ/dbnorm

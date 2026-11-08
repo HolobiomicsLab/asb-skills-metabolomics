@@ -1,0 +1,21 @@
+name: liputils
+slug: liputils
+version_used: null
+edam_topics: []
+evidence_spans:
+- '```liputils``` makes it easy to strip fatty acids-like residues from individual molecular lipids. This is done by ```liputils``` by parsing the lipid string identifier.'
+- makes it easy to strip fatty acids-like residues from individual molecular lipids
+- liputils makes it easy to strip fatty acids-like residues from individual molecular lipids
+- liputils makes it easy to strip fatty acids-like residues from individual molecular lipids.
+- 'any compliant lipid name will be properly managed by ```liputils```''s method ```.refmet_residues()```:'
+derived_from:
+- doi: 10.1038/s41598-020-70259-9
+  title: 'liputils: a Python module to manage individual fatty acid moieties from complex lipids'
+source_repos:
+- https://github.com/Stemanz/liputils
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Stemanz/liputils

@@ -1,0 +1,18 @@
+name: MS2DeepScore 2.0
+slug: ms2deepscore-2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- we present MS2DeepScore 2.0, a machine learning-based model to predict chemical similarity between mass fragmentation spectra
+derived_from:
+- doi: 10.1101/2024.03.25.586580
+  title: 'Bridging polarities in metabolomics: Cross-ionization mode chemical similarity prediction between tandem mass spectra'
+source_repos:
+- https://github.com/matchms/MS2DeepScore
+- https://github.com/matchms/ms2deepscore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/matchms/MS2DeepScore

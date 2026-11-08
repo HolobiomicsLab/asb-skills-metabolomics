@@ -1,0 +1,186 @@
+schema_version: 0.3.0
+workflow_id: pathway_functional_analysis
+kind: composite-workflow
+techniques: []
+steps:
+- id: feature_prep
+  goal: prepare a ranked m/z feature list for functional analysis
+  edam_operation: http://edamontology.org/operation_3435
+  skills:
+  - lcms-feature-table-filtering--14a2cde736d2dabd
+  - metabolite-log2fc-ranking
+  - metabolomics-feature-table-generation--f513762b0eaf782d
+  - lc-msms-feature-quantification-table-transposition
+  tools:
+  - Azimuth DB
+  - JMS
+  - mummichog
+  inputs:
+  - type: feature-table
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-jnatprod-7b00737
+    - asb-paper-10-1093-nar-gkae253
+    - asb-paper-10-1101-2025-08-28-672951
+    - asb-paper-10-1371-journal-pcbi-1003123
+    dois:
+    - 10.1021/acs.jnatprod.7b00737
+    - 10.1093/nar/gkae253
+    - 10.1101/2025.08.28.672951
+    - 10.1371/journal.pcbi.1003123
+  after: []
+  candidate_tools:
+  - EnrichMet
+  - KEGG
+  - R
+  - fgsea
+  - MetaboAnalyst 6.0
+  - MetaboAnalystR
+  - MetaboAnalystR 4.0
+  - OptiLCMS
+  - asari
+  - Anaconda
+  - IRkernel
+  - Jupyter Notebook
+  - MZmine2
+  - Optimus
+- id: mummichog
+  goal: functional analysis directly from m/z (mummichog)
+  edam_operation: http://edamontology.org/operation_3928
+  skills:
+  - mummichog-network-activity-prediction
+  - mummichog-pathway-enrichment-analysis
+  - mummichog-pathway-activity-prediction
+  tools:
+  - Azimuth DB
+  - cloud-mummichog
+  - metDataModel
+  - mummichog
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-48009-6
+    - asb-paper-10-1093-nar-gkae253
+    - asb-paper-10-1371-journal-pcbi-1003123
+    dois:
+    - 10.1038/s41467-024-48009-6
+    - 10.1093/nar/gkae253
+    - 10.1371/journal.pcbi.1003123
+  after:
+  - feature_prep
+  candidate_tools:
+  - MetaboAnalystR 4.0
+  - OptiLCMS
+  - R
+  - MetaboAnalyst 6.0
+  - MetaboAnalystR
+  inputs_from:
+    feature_prep:
+    - tsv
+- id: pathway_enrichment
+  goal: pathway + metabolite-set enrichment
+  edam_operation: http://edamontology.org/operation_3928
+  skills:
+  - pathway-enrichment-analysis-fishers-exact-test
+  - pathway-enrichment-analysis
+  - metabolite-pathway-enrichment-analysis--b4a4fd3929413241
+  - pathway-over-representation-analysis--2a80d81751b143d3
+  tools:
+  - cloud-mummichog
+  - mummichog
+  inputs:
+  - type: tsv
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bioinformatics-btad523
+    - asb-paper-10-1371-journal-pcbi-1003123
+    - asb-paper-10-3389-fchem-2021-659656
+    dois:
+    - 10.1093/bioinformatics/btad523
+    - 10.1371/journal.pcbi.1003123
+    - 10.3389/fchem.2021.659656
+  after:
+  - feature_prep
+  - mummichog
+  candidate_tools:
+  - Azimuth DB
+  - metDataModel
+  - Hmisc
+  - IMPaLA
+  - IP4M
+  - MPEA
+  - MetPA
+  - MetaboAnalystR
+  - R
+  - R-scripts-for-iMAP
+  - iMAP
+  - lilikoi
+  - ropls
+  - metGWAS 1.0
+  inputs_from:
+    feature_prep:
+    - tsv
+    mummichog:
+    - tsv
+- id: interpretation
+  goal: interpret + visualize enriched pathways
+  edam_operation: http://edamontology.org/operation_3659
+  skills:
+  - metabolic-pathway-enrichment-visualization
+  - kegg-pathway-enrichment-interpretation
+  - metabolomics-pathway-enrichment-execution
+  - pathway-impact-plot-visualization
+  tools:
+  - ConsensusPathDB
+  - Human Metabolome Database (HMDB)
+  - KEGG pathways database
+  - dbnorm
+  inputs:
+  - type: tsv
+  - type: tsv
+  outputs:
+  - type: tsv
+  - type: html
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41598-021-84824-3
+    - asb-paper-10-1101-2025-08-28-672951
+    dois:
+    - 10.1038/s41598-021-84824-3
+    - 10.1101/2025.08.28.672951
+  after:
+  - mummichog
+  - pathway_enrichment
+  candidate_tools:
+  - EnrichMet
+  - KEGG
+  - KEGGREST
+  - MetENP
+  - R
+  - STITCH
+  - fgsea
+  - FELLA
+  - LION
+  - MetaboAnalystR
+  - Reactome
+  inputs_from:
+    mummichog:
+    - tsv
+    pathway_enrichment:
+    - tsv
+verification:
+  final_outputs:
+  - path: pathway_functional_report.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

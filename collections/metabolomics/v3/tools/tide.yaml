@@ -1,0 +1,18 @@
+name: Tide
+slug: tide
+version_used: null
+edam_topics: []
+evidence_spans:
+- Minor speedup during database searching through optimized candidate selection.
+- an open question is whether, for a given data-dependent acquisition dataset, Casanovo outperforms a standard database search procedure in terms of statistical power to detect peptides.
+derived_from:
+- doi: 10.1038/s41467-024-49731-x
+  title: Sequence-to-sequence translation from mass spectra to peptides with a transformer model
+source_repos:
+- https://github.com/Noble-Lab/casanovo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Noble-Lab/casanovo

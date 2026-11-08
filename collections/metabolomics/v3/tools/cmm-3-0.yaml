@@ -1,0 +1,16 @@
+name: CMM 3.0
+slug: cmm-3-0
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.8b00720
+  title: 'CEU Mass Mediator 3.0: A Metabolite Annotation Tool'
+source_repos:
+- https://github.com/albertogilf/ceuMassMediator
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/albertogilf/ceuMassMediator

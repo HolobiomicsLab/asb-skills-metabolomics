@@ -1,0 +1,21 @@
+name: JPA
+slug: jpa
+version_used: 4.0.0
+edam_topics: []
+evidence_spans:
+- To install `JPA` package R version 4.0.0 or above is required
+- Install "JPA" from Github using "devtools".
+- '`JPA` supports multiple ways to extract metabolic features (labeled as "PP") using peak picking algorithms.'
+derived_from:
+- doi: 10.3390/metabo12030212
+  title: 'JPA: Joint Metabolic Feature Extraction Increases the Depth of Chemical Coverage for LC-MS-Based Metabolomics and Exposomics'
+source_repos:
+- https://github.com/HuanLab/JPA
+- https://github.com/HuanLab/JPA.git
+- https://github.com/HuanLab-backup/JPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuanLab/JPA

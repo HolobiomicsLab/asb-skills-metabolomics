@@ -1,0 +1,25 @@
+name: samtools
+slug: samtools
+version_used: 1.3.0
+edam_topics: []
+evidence_spans:
+- '- `bigmap-map`'
+- Samtools for file format conversion (v. 1.3.0)
+- The resulting 145 sam files were processed using SAMtools [40].
+derived_from:
+- doi: 10.1128/msystems.00937-21
+  title: 'BiG-MAP: an Automated Pipeline To Profile Metabolic Gene Cluster Abundance and Expression in Microbiomes'
+- doi: 10.1038/s41525-020-0132-5
+  title: 'metPropagate: network-guided propagation of metabolomic information for prioritization of metabolic disease genes'
+- doi: 10.1186/s12864-020-07357-5
+  title: 'Prediction and analysis of metagenomic operons via MetaRon: a pipeline for prediction of Metagenome and whole-genome opeRons'
+source_repos:
+- https://github.com/medema-group/BiG-MAP
+- https://github.com/emmagraham/metPropagate
+- https://github.com/zaidissa/MetaRon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/medema-group/BiG-MAP

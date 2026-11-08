@@ -1,0 +1,201 @@
+schema_version: 0.3.0
+workflow_id: stable_isotope_tracing_fluxomics
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess
+  goal: raw labelled LC-MS -> aligned feature table (all isotopologues)
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - isotopologue-peak-quantification
+  - isotope-label-tracing-analysis
+  - stable-isotope-lc-ms-annotation
+  - retention-time-shift-correction-isotope-labelling
+  tools:
+  - MassSpecWavelet
+  - PAFFT
+  - TarMet
+  - airPLS
+  - enviPat
+  - shiny
+  inputs:
+  - type: mzML
+  outputs:
+  - type: feature-table
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s11306-018-1363-7
+    - asb-paper-10-1021-ac202450g
+    - asb-paper-10-1021-acs-analchem-5b03628
+    - asb-paper-10-1038-s41467-022-28391-9
+    dois:
+    - 10.1007/s11306-018-1363-7
+    - 10.1021/ac202450g
+    - 10.1021/acs.analchem.5b03628
+    - 10.1038/s41467-022-28391-9
+  after: []
+  candidate_tools:
+  - MSnbase
+  - Metaboseek
+  - Metaboseek (LabelFinderModule)
+  - xcms
+  - R
+  - X(13)CMS
+  - devtools
+  - geoRge
+  - CAMERA
+- id: isotopologue_extract
+  goal: feature table -> per-metabolite isotopologue intensity distributions
+  edam_operation: http://edamontology.org/operation_3799
+  skills:
+  - isotope-hypothesis-enumeration-from-mass-traces
+  - isotope-adduct-ion-grouping
+  - isotopologue-intensity-forward-calculation
+  tools:
+  - FeatureFinderMetabo
+  - OpenMS
+  inputs:
+  - type: feature-table
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-2c05810
+    - asb-paper-10-1074-mcp-m113-031278
+    - asb-paper-10-1186-s12859-019-3096-7
+    dois:
+    - 10.1021/acs.analchem.2c05810
+    - 10.1074/mcp.m113.031278
+    - 10.1186/s12859-019-3096-7
+  after:
+  - preprocess
+  candidate_tools:
+  - Python 3
+  - asari
+  - khipu
+  - mass2chem
+  - metDataModel
+  - jsonpickle
+  - moiety_modeling
+  - numpy
+  - scipy
+  inputs_from:
+    preprocess:
+    - feature-table
+- id: natural_abundance_correction
+  goal: correct isotopologue distributions for natural isotope abundance
+  edam_operation: http://edamontology.org/operation_3435
+  skills:
+  - stable-isotope-lcms-labeling-data-processing
+  - isotopologue-abundance-normalization
+  - isotopic-enrichment-calculation
+  - stable-isotope-labeling-data-quantification
+  tools:
+  - ElemCor
+  - MATLAB
+  - MDT
+  - ULS
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s11306-018-1363-7
+    - asb-paper-10-1021-acs-analchem-0c02998
+    - asb-paper-10-1186-s12859-019-2669-9
+    dois:
+    - 10.1007/s11306-018-1363-7
+    - 10.1021/acs.analchem.0c02998
+    - 10.1186/s12859-019-2669-9
+  after:
+  - isotopologue_extract
+  candidate_tools:
+  - TarMet
+  - enviPat
+  - shiny
+  - scipy.optimize.nnls
+  - R
+  - isoSCAN
+  inputs_from:
+    isotopologue_extract:
+    - tsv
+- id: labelling_analysis
+  goal: corrected distributions -> mass-isotopomer distribution / fractional enrichment
+  edam_operation: http://edamontology.org/operation_3799
+  skills:
+  - mass-distribution-vector-enrichment-calculation
+  - isotopomer-distribution-comparison
+  tools:
+  - ElemCor
+  - IsoCor
+  - MATLAB
+  - MDT
+  - ULS
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s12859-019-2669-9
+    - asb-paper-10-3390-metabo15010048
+    dois:
+    - 10.1186/s12859-019-2669-9
+    - 10.3390/metabo15010048
+  after:
+  - natural_abundance_correction
+  candidate_tools:
+  - MetaboLabPy
+  - metabolabpytools
+  - numpy
+  - pandas
+  inputs_from:
+    natural_abundance_correction:
+    - tsv
+- id: report
+  goal: consolidate labelling / enrichment results into a tracing report table
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - metabolomics-data-summarization
+  - isotopologue-labelling-visualization-of-metabolic-flux
+  - metabolomics-html-report-generation
+  tools:
+  - TarMet
+  - shiny
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s11306-018-1363-7
+    - asb-paper-10-1093-bioinformatics-btae373
+    dois:
+    - 10.1007/s11306-018-1363-7
+    - 10.1093/bioinformatics/btae373
+  after:
+  - labelling_analysis
+  candidate_tools:
+  - MassSpecWavelet
+  - PAFFT
+  - enviPat
+  - plotly
+  - MetaboReport
+  - R
+  - R Shiny
+  - ggplot2
+  - golem
+  inputs_from:
+    labelling_analysis:
+    - tsv
+verification:
+  final_outputs:
+  - path: labelling_report.tsv
+    type: file
+provenance:
+  derived_from_workflows:
+  - coll_idsl_ipa_cq
+  - coll_corems
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

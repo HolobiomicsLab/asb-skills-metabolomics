@@ -1,0 +1,17 @@
+name: rassp metrics.py
+slug: rassp-metrics-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- The key metric for forward model performance is the weighted dot product (eq 1).
+derived_from:
+- doi: 10.1021/acs.analchem.2c02093
+  title: Rapid Approximate Subset-Based Spectra Prediction for Electron Ionization–Mass Spectrometry
+source_repos:
+- https://github.com/thejonaslab/rassp-public
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thejonaslab/rassp-public

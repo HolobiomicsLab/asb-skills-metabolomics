@@ -1,0 +1,16 @@
+name: FragHub
+slug: fraghub
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.4c02219
+  title: 'FragHub: A Mass Spectral Library Data Integration Workflow'
+source_repos:
+- https://github.com/eMetaboHUB/FragHub
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eMetaboHUB/FragHub

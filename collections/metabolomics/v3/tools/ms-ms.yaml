@@ -1,0 +1,17 @@
+name: MS/MS
+slug: ms-ms
+version_used: null
+edam_topics: []
+evidence_spans:
+- a preliminary spectral library was built by acquiring experimental MS/MS spectra of 15 reference standards
+- Three MS/MS spectra were acquired at 20, 40, and 60 eV
+derived_from:
+- doi: 10.3389/fchem.2022.908572
+  title: A Comprehensive Database for DNA Adductomics
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

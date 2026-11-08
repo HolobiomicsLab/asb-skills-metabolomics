@@ -1,0 +1,17 @@
+name: SIRIUS4
+slug: sirius4
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'compared to other mass spectrometry prediction models, for instance, SIRIUS4, which includes CSI: FingerID, demands a higher level of mass resolution'
+derived_from:
+- doi: 10.1038/s42004-024-01189-0
+  title: Structural annotation of unknown molecules in a miniaturized mass spectrometer based on a transformer enabled fragment tree method
+source_repos:
+- https://github.com/thumingo/TeFT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thumingo/TeFT

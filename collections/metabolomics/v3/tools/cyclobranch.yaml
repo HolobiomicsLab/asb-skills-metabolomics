@@ -1,0 +1,20 @@
+name: CycloBranch
+slug: cyclobranch
+version_used: null
+edam_topics: []
+evidence_spans:
+- which can be used to annotate mass spectra in CycloBranch software
+- Alternatively, the data can be exported into plain text files accepted by CycloBranch software.
+- CycloBranch is an open-source, cross-platform, and stand-alone tool that we recently released for annotating spectra of linear, cyclic, branched, and branch-cyclic nonribosomal peptides and
+- CycloBranch is an open-source, cross-platform, and stand-alone tool that we recently released for annotating spectra
+derived_from:
+- doi: 10.1186/s13321-021-00530-2
+  title: 'MassSpecBlocks: a web-based tool to create building blocks and sequences of nonribosomal peptides and polyketides for tandem mass spectra analysis'
+source_repos:
+- https://github.com/privrja/MassSpecBlocks
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/privrja/MassSpecBlocks

@@ -1,0 +1,25 @@
+name: DEIMoS
+slug: deimos
+version_used: 1.3.2
+edam_topics: []
+evidence_spans:
+- you will need to install pnnl’s DEIMoS, version 1.3.2 (http://github.com/pnnl/deimos).
+- install pnnl’s DEIMoS, version 1.3.2 (http://github.com/pnnl/deimos)
+- The [DEIMoS Python library](https://deimos.readthedocs.io/en/latest/) can be easily used with MS data converted with `arcMS` to Parquet format.
+derived_from:
+- doi: 10.1021/acs.analchem.1c05017
+  title: 'DEIMoS: An Open-Source Tool for Processing High-Dimensional Mass Spectrometry Data'
+- doi: 10.1021/acs.analchem.3c04290
+  title: 'MOCCal: A Multiomic CCS Calibrator for Traveling Wave Ion Mobility Mass Spectrometry'
+- doi: 10.1093/bioadv/vbae160
+  title: 'arcMS: transformation of multi-dimensional high-resolution mass spectrometry data to columnar format for compact storage and fast access'
+source_repos:
+- https://github.com/pnnl/deimos
+- https://github.com/HinesLab/MOCCal
+- https://github.com/leesulab/arcMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pnnl/deimos

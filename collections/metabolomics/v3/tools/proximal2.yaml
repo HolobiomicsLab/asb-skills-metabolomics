@@ -1,0 +1,21 @@
+name: PROXIMAL2
+slug: proximal2
+version_used: null
+edam_topics: []
+evidence_spans:
+- To extract and apply these rules, we employed PROXIMAL2.
+- 'To extract and apply
+
+  these rules, we employed PROXIMAL2.'
+derived_from:
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+source_repos:
+- https://github.com/HassounLab/PROXIMAL2
+- https://github.com/HassounLab/BAM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/PROXIMAL2

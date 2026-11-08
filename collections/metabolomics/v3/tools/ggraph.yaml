@@ -1,0 +1,20 @@
+name: ggraph
+slug: ggraph
+version_used: null
+edam_topics: []
+evidence_spans:
+- '"magrittr","ggplot2","ggraph","tidygraph")'
+derived_from:
+- doi: 10.1101/2025.06.26.661636
+  title: 'MetaNet: a scalable and integrated tool for reproducible omics network analysis'
+- doi: 10.1038/s41467-022-34537-6
+  title: Metabolite annotation from knowns to unknowns through knowledge-guided multi-layer metabolic networking
+source_repos:
+- https://github.com/Asa12138/MetaNet
+- https://github.com/ZhuMetLab/MetDNA2Vis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Asa12138/MetaNet

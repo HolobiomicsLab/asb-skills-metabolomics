@@ -1,0 +1,20 @@
+name: RALPS
+slug: ralps
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Run the following command from the `src` directory to normalize data with RALPS: `python ralps.py -n path/to/config.csv`'
+- python ralps.py -n path/to/config.csv
+- 'Run the following command from the `src` directory to normalize data with RALPS:'
+- Run the following command from the `src` directory to normalize data with RALPS
+derived_from:
+- doi: 10.1093/bioinformatics/btad096
+  title: Regularized adversarial learning for normalization of multi-batch untargeted metabolomics data
+source_repos:
+- https://github.com/zamboni-lab/RALPS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zamboni-lab/RALPS

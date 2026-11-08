@@ -1,0 +1,16 @@
+name: biosaur2
+slug: biosaur2
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+source_repos:
+- https://github.com/sangeeta97/ccs_find
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sangeeta97/ccs_find

@@ -1,0 +1,16 @@
+name: Gene expression distribution simulation approach
+slug: gene-expression-distribution-simulation-approach
+version_used: null
+edam_topics: []
+evidence_spans:
+- we used a simulation approach originally designed to resemble the multivariate distribution of gene expression in the original microarray data [24].
+derived_from:
+- doi: 10.1186/s12859-017-1547-6
+  title: Distribution based nearest neighbor imputation for truncated high dimensional data with applications to pre-clinical and clinical metabolomics studies
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

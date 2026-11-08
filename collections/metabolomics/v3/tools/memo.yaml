@@ -1,0 +1,18 @@
+name: MEMO
+slug: memo
+version_used: '10.3389'
+edam_topics: []
+evidence_spans:
+- using the [**MEMO**](https://doi.org/10.3389/fbinf.2022.842964) metric
+derived_from:
+- doi: 10.3389/fmolb.2022.1028334
+  title: 'Inventa: A computational tool to discover structural novelty in natural extracts libraries'
+source_repos:
+- https://github.com/mandelbrot-project/memo
+- https://github.com/luigiquiros/inventa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mandelbrot-project/memo

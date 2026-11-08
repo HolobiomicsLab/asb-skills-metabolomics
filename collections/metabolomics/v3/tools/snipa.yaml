@@ -1,0 +1,17 @@
+name: SNiPA
+slug: snipa
+version_used: null
+edam_topics: []
+evidence_spans:
+- tools such as the Single Nucleotide Polymorphisms Annotator (SNiPA) and the Functional Mapping and Annotation of GWAS tool (FUMA)
+derived_from:
+- doi: 10.1093/nar/gky837
+  title: 'ProGeM: a framework for the prioritization of candidate causal genes at molecular quantitative trait loci'
+source_repos:
+- https://github.com/ds763/ProGeM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ds763/ProGeM

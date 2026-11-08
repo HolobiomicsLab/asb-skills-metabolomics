@@ -1,0 +1,21 @@
+name: Instant Clue
+slug: instant-clue
+version_used: null
+edam_topics: []
+evidence_spans:
+- Instant Clue is a Python based desktop application (GUI) using the PyQt6 (since 0.12.0) library for data visualization and analysis.
+- Instant Clue is a Python based desktop application (GUI) using the PyQt6 (since 0.12.0) library for data visualization and analysis
+- it offers a comprehensive portfolio of statistical tools for systematic analysis such as dimensional reduction, (un)-supervised learning, clustering, multi-block (omics) integration and curve fitting
+- we developed a software suite called Instant Clue that helps scientists to visually analyze data and to gain insights into biological processes from their high-dimensional dataset
+- we developed a software suite called Instant Clue that helps scientists to visually analyze data
+derived_from:
+- doi: 10.1038/s41598-018-31154-6
+  title: 'Instant Clue: A Software Suite for Interactive Data Visualization and Analysis'
+source_repos:
+- https://github.com/hnolCol/instantclue
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hnolCol/instantclue

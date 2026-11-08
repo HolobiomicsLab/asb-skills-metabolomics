@@ -1,0 +1,21 @@
+name: Redis
+slug: redis
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'The key software that will be installed includes: - Java Development Kit (JDK) 17 - Redis - MongoDB'
+- '********* Start Redis *********'
+derived_from:
+- doi: 10.1101/2023.02.26.530140
+  title: 'InjectionDesign: Plate Design with Optimized Stratified Block Randomization for Modern LC/GC-MS-Based Sample Preparation'
+- doi: 10.1007/s11306-023-02018-6
+  title: 'MetaPro: a web-based metabolomics application for LC-MS data batch inspection and library curation'
+source_repos:
+- https://github.com/CSi-Studio/InjectionDesign
+- https://github.com/CSi-Studio/MetaPro
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSi-Studio/InjectionDesign

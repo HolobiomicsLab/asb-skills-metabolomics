@@ -1,0 +1,17 @@
+name: Docker (wishartlab/cfmid)
+slug: docker-wishartlab-cfmid
+version_used: null
+edam_topics: []
+evidence_spans:
+- running with a docker container provided on Docker Hub (https://hub.docker.com/r/wishartlab/cfmid)
+derived_from:
+- doi: 10.1038/s41467-025-57422-4
+  title: 'FIORA: Local neighborhood-based prediction of compound mass spectra from single fragmentation events'
+source_repos:
+- https://github.com/BAMeScience/fiora
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BAMeScience/fiora

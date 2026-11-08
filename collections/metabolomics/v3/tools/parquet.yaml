@@ -1,0 +1,20 @@
+name: Parquet
+slug: parquet
+version_used: null
+edam_topics: []
+evidence_spans:
+- For initial implementation studies, we will use Parquet (https://parquet.apache.org/), an open source, data file format designed for efficient storage
+- For initial implementation studies, we will use Parquet (https://parquet.apache.org/), an open source, data file format
+- For initial implementation studies, we will use Parquet (https://parquet.apache.org/), an open source, data file format designed for efficient storage and retrieval
+- we will use Parquet (https://parquet.apache.org/), an open source, data file format designed for efficient storage
+derived_from:
+- doi: 10.1021/acs.jproteome.5c00435
+  title: 'mzPeak: Designing a Scalable, Interoperable, and Future-Ready Mass Spectrometry Data Format'
+source_repos:
+- https://github.com/HUPO-PSI/mzPeak
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HUPO-PSI/mzPeak

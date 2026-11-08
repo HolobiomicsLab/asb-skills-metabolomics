@@ -1,0 +1,27 @@
+name: Spectral Denoising
+slug: spectral-denoising
+version_used: null
+edam_topics: []
+evidence_spans:
+- the Spectral Denoising algorithm removes both chemical and electronic noise
+- peak_denoised = sd.spectral_denoising(peak_with_noise, smiles, adduct)
+- The ``spectral_denoising`` function, which is the core function of the project, removes noise ions in MS/MS spectra.
+- '``file_io.read_msp`` will read in all standard MSP files into a pandas.Dataframe, with basic spectra cleaning performed (sorted + zero intensity ions removed).'
+- import spectral_denoising as sd
+- The function essentially is a warpper function for performing ``electronic_denoising`` and ``formula_denoising`` functions in sequence.
+- FanzhouKong/spectral_denoising
+derived_from:
+- doi: 10.1038/s41592-025-02646-x
+  title: Denoising Search doubles the number of metabolite and exposome annotations in human plasma using an Orbitrap Astral mass spectrometer
+- doi: 10.1021/acs.analchem.5c06256
+  title: Comprehensive Curation and Harmonization of Small-Molecule MS/MS Libraries in Spectraverse
+source_repos:
+- https://github.com/FanzhouKong/spectral_denoising
+- https://github.com/FanzhouKong/spectral_denoising.git
+- https://github.com/skinniderlab/spectraverse-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FanzhouKong/spectral_denoising

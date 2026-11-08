@@ -1,0 +1,49 @@
+{
+  "workflow": "fbmn_annotation_propagation",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Runs SIRIUS CANOPUS on spectra to output ClassyFire and NPClassifier classes for features and families, but does not output the molecular formulas also required by the stage.",
+      "severity": "advisory",
+      "slug": "msms-spectra-canopus-class-prediction",
+      "stage": "class_annotate"
+    },
+    {
+      "check": "V4",
+      "detail": "Constructs an MS2 similarity network from differential features, which is the upstream network operation rather than consolidation of annotations into a master table.",
+      "severity": "advisory",
+      "slug": "molecular-network-construction-ms2-spectra",
+      "stage": "consolidate"
+    },
+    {
+      "check": "V4",
+      "detail": "Generates a per-feature consensus class table from GNPS, library, and CANOPUS evidence but does not include every requested family and propagated identity field.",
+      "severity": "advisory",
+      "slug": "ms-feature-annotation-table-generation",
+      "stage": "consolidate"
+    },
+    {
+      "check": "V4",
+      "detail": "Detects and aligns LC-MS/MS features and builds an MS2LDA fragment matrix, but does not produce both GNPS-FBMN and SIRIUS MGF exports.",
+      "severity": "advisory",
+      "slug": "lc-ms-peak-detection-and-feature-alignment",
+      "stage": "preprocess"
+    },
+    {
+      "check": "V4",
+      "detail": "Maps known node structures to ClassyFire and computes family-level class consensus scores, but does not transfer analogue identities to unannotated neighbours.",
+      "severity": "advisory",
+      "slug": "molecular-network-node-annotation-mapping",
+      "stage": "propagate"
+    }
+  ],
+  "verdict": "pass"
+}

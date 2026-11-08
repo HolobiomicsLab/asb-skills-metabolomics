@@ -1,0 +1,17 @@
+name: tandem HRMS/MS
+slug: tandem-hrms-ms
+version_used: null
+edam_topics: []
+evidence_spans:
+- and tentatively identified by tandem HRMS/MS
+- the spectra of 15 DNA adduct reference standards were acquired at three different collision energies and were used for retrieving the most significant fragments
+derived_from:
+- doi: 10.3389/fchem.2022.908572
+  title: A Comprehensive Database for DNA Adductomics
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

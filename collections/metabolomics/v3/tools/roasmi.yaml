@@ -1,0 +1,22 @@
+name: ROASMI
+slug: roasmi
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present the ROASMI model, which enables reliable prediction of retention order within a well-defined application domain by coupling data-driven molecular representation and mechanistic
+- Designed to predict retention scores for candidate compounds during small molecule identification, ROASMI consists of two main modules.
+- "To retrain ROASMI, run:  \n  `python code/ROASMI_train.py`"
+- python code/ROASMI_predict.py
+- ROASMI consists of two main modules
+- 'To annotate small molecules in ready-to-identify datasets, we integrate predicted retention scores with MS/MS scores by running:   `python code/Identify.py`'
+derived_from:
+- doi: 10.1186/s13321-025-00968-8
+  title: 'ROASMI: accelerating small molecule identification by repurposing retention data'
+source_repos:
+- https://github.com/FangYuan717/ROASMI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FangYuan717/ROASMI

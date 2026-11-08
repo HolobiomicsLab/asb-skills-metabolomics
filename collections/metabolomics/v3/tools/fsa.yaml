@@ -1,0 +1,16 @@
+name: FSA
+slug: fsa
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s11306-025-02379-0
+  title: Automated metabolite formula ranking using formula subset analysis for LC-MS/MS-based metabolomics
+source_repos:
+- https://github.com/kslynn128171/FSA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kslynn128171/FSA

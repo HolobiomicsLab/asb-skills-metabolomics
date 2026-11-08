@@ -1,0 +1,234 @@
+schema_version: 0.3.0
+workflow_id: suspect_screening_exposomics
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess
+  goal: raw HRMS -> feature table + MS2 export
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - lcms-feature-detection-and-quantification
+  - lc-msms-feature-detection
+  - lc-ms-feature-detection--e300bd20a9eef616
+  - lc-ms-feature-quantification-processing
+  tools:
+  - Jupyter
+  - OpenMS
+  - OpenMS 3.0
+  - Python
+  - Snakemake
+  - ThermoRawFileParser
+  - UmetaFlow
+  - pyOpenMS
+  inputs:
+  - type: mzML
+  outputs:
+  - type: feature-table
+  - type: mgf
+    flavour: gnps-fbmn
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acscentsci-3c00800
+    - asb-paper-10-1038-nprot-2017-122
+    - asb-paper-10-1038-s41587-021-01045-9
+    - asb-paper-10-1186-s13321-023-00724-w
+    dois:
+    - 10.1021/acscentsci.3c00800
+    - 10.1038/nprot.2017.122
+    - 10.1038/s41587-021-01045-9
+    - 10.1186/s13321-023-00724-w
+  after: []
+  candidate_tools:
+  - COSMIC
+  - CSI:FingerID
+  - SIRIUS 4
+  - MZmine
+  - ProteoWizard
+  - matchms
+  - GNPS
+  - KNIME
+  - MS-FINDER
+  - Optimus
+  - Sirius
+- id: suspect_match
+  goal: features -> suspect-list matches by exact mass / RT / MS2
+  edam_operation: http://edamontology.org/operation_3631
+  skills:
+  - accurate-mass-suspect-screening
+  - retention-time-shift-and-noise-thresholding
+  - msms-fragment-screening
+  - mass-signal-cross-referencing-against-in-silico-predictions
+  tools:
+  - CompTox Dashboard
+  - PFΔScreen
+  - Python
+  inputs:
+  - type: feature-table
+  - type: mgf
+    flavour: gnps-fbmn
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s00216-021-03392-7
+    - asb-paper-10-1007-s00216-023-05070-2
+    - asb-paper-10-1016-j-dmd-2025-100183
+    - asb-paper-10-1186-s13321-025-01044-x
+    dois:
+    - 10.1007/s00216-021-03392-7
+    - 10.1007/s00216-023-05070-2
+    - 10.1016/j.dmd.2025.100183
+    - 10.1186/s13321-025-01044-x
+  after:
+  - preprocess
+  candidate_tools:
+  - MSnbase
+  - MetFrag
+  - R
+  - Shinyscreen
+  - mzR
+  - FluoroMatch 2.0
+  - FluoroMatch Flow 2.0
+  - FluoroMatch Modular
+  - LipidMatch
+  - BioTransformer 3.0
+  - MZmine 2.53
+  - R 4.0.3
+  inputs_from:
+    preprocess:
+    - feature-table
+    - mgf:gnps-fbmn
+- id: in_silico_fragment
+  goal: suspect hits -> in-silico fragmentation structure ranking (MetFrag / SIRIUS)
+  edam_operation: http://edamontology.org/operation_3860
+  skills:
+  - candidate-structure-retrieval-from-pubchem-chemspider
+  - spectra-candidate-ranking-evaluation
+  - in-silico-fragmentation-spectrum-prediction
+  - structure-candidate-ranking-comparison
+  tools:
+  - MetFrag
+  - MetFrag2.2
+  - MetFragCommandLine
+  - MetFragLib
+  - OpenBabel
+  - metfRag (MetFragR)
+  - xcms
+  inputs:
+  - type: tsv
+  - type: mgf
+    flavour: gnps-fbmn
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-8b04698
+    - asb-paper-10-1038-s42004-024-01189-0
+    - asb-paper-10-1093-bioinformatics-bty080
+    - asb-paper-10-1186-s13321-016-0115-9
+    dois:
+    - 10.1021/acs.analchem.8b04698
+    - 10.1038/s42004-024-01189-0
+    - 10.1093/bioinformatics/bty080
+    - 10.1186/s13321-016-0115-9
+  after:
+  - suspect_match
+  - preprocess
+  candidate_tools:
+  - SIRIUS4
+  - TeFT
+  - CFM-ID
+  - CSI:FingerID
+  - ChemDistiller
+  - SIRIUS
+  - HILIC-Q Exactive HF mass spectrometry
+  inputs_from:
+    suspect_match:
+    - tsv
+    preprocess:
+    - mgf:gnps-fbmn
+- id: confidence
+  goal: assign identification confidence levels (Schymanski 1-5) to hits
+  edam_operation: http://edamontology.org/operation_0224
+  skills:
+  - schymanski-identification-level-assignment
+  - ms-annotation-confidence-level-assignment
+  - compound-annotation-confidence-estimation
+  - annotation-confidence-level-mapping
+  tools:
+  - R
+  - patRoon 2.0
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s11306-017-1242-7
+    - asb-paper-10-21105-joss-04029
+    dois:
+    - 10.1007/s11306-017-1242-7
+    - 10.21105/joss.04029
+  after:
+  - in_silico_fragment
+  candidate_tools:
+  - FingerID
+  - Galaxy-M
+  - MetabolomicsTools catalogue
+  - patRoonData
+  - MetabolomicsTools Wiki
+  inputs_from:
+    in_silico_fragment:
+    - tsv
+- id: report
+  goal: consolidate suspect hits + structures + confidence into an annotated table
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - csv-table-consolidation
+  - gcms-hit-table-filtering
+  - consensus-spectrum-candidate-ranking
+  - compound-decontamination-filtering
+  tools:
+  - TurboPutative
+  inputs:
+  - type: tsv
+  - type: feature-table
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1101-2025-11-12-688047
+    - asb-paper-10-1371-journal-pone-0306202
+    - asb-paper-10-3389-fmolb-2022-952149
+    dois:
+    - 10.1101/2025.11.12.688047
+    - 10.1371/journal.pone.0306202
+    - 10.3389/fmolb.2022.952149
+  after:
+  - confidence
+  - preprocess
+  candidate_tools:
+  - Agilent Unknowns Analysis
+  - PubChem
+  - R
+  - uafR
+  - MVP
+  - MZmine3
+  - MassSpecGym
+  - LOTUS
+  - devtools
+  inputs_from:
+    confidence:
+    - tsv
+    preprocess:
+    - feature-table
+verification:
+  final_outputs:
+  - path: suspect_screening_report.tsv
+    type: file
+provenance:
+  derived_from_workflows:
+  - coll_ms2deepscore
+  - coll_metabodirect
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

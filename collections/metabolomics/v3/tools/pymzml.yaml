@@ -1,0 +1,34 @@
+name: pymzML
+slug: pymzml
+version_used: null
+edam_topics: []
+evidence_spans:
+- mzML files are converted to JCAMP-DX using pymzML, an Open Source python mass spectrometry file parser.
+- raw data (.mzML format) is first imported and parsed with pymzml [52]
+- parsed with pymzml [52] as Python-compatible metadata with the mssmain.get_scans function
+- pymzML [1, 10] to eﬀiciently read and process spectra in the mzML format [13] using Python
+- from pymzml.spec import Spectrum
+derived_from:
+- doi: 10.1186/s13321-020-00481-0
+  title: 'ChemSpectra: a web-based spectra editor for analytical data'
+- doi: 10.1021/jasms.1c00013
+  title: 'macroMS: Image-Guided Analysis of Random Objects by Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry'
+- doi: 10.1186/s13321-023-00741-9
+  title: 'Mass-Suite: a novel open-source python package for high-resolution mass spectrometry data analysis'
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+source_repos:
+- https://github.com/ComPlat/chem-spectra-app
+- https://github.com/macroMS/macroMS_web
+- https://github.com/pymzml/pymzML
+- https://github.com/XiminHu/mass-suite
+- https://github.com/PNNL-m-q/mza
+- https://github.com/bittremieuxlab/spectrum_utils
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ComPlat/chem-spectra-app

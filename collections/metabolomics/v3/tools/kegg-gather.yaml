@@ -1,0 +1,17 @@
+name: KEGG_gather
+slug: kegg-gather
+version_used: null
+edam_topics: []
+evidence_spans:
+- Omu uses an S3 method called ```KEGG_gather```, which retrieves data from the KEGG API
+derived_from:
+- doi: 10.1128/mra.00129-19
+  title: omu, a Metabolomics Count Data Analysis Tool for Intuitive Figures and Convenient Metadata Collection
+source_repos:
+- https://github.com/connor-reid-tiffany/Omu
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/connor-reid-tiffany/Omu

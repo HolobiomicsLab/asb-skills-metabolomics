@@ -1,0 +1,17 @@
+name: Azimuth DB
+slug: azimuth-db
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Azimuth DB: the chemical database for biology, including metabolic models'
+derived_from:
+- doi: 10.1371/journal.pcbi.1003123
+  title: Predicting Network Activity from High Throughput Metabolomics
+source_repos:
+- https://github.com/shuzhao-li/mummichog
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shuzhao-li/mummichog

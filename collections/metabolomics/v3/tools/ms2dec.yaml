@@ -1,0 +1,21 @@
+name: MS2Dec
+slug: ms2dec
+version_used: null
+edam_topics: []
+evidence_spans:
+- the original MS-DIAL deconvolution method (MS2Dec)
+derived_from:
+- doi: 10.1021/acs.analchem.0c01980
+  title: 'Correlation-Based Deconvolution (CorrDec) To Generate
+
+    High-Quality MS2 Spectra from Data-Independent Acquisition in Multisample
+
+    Studies'
+source_repos:
+- https://github.com/systemsomicslab/MsdialWorkbench
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/systemsomicslab/MsdialWorkbench

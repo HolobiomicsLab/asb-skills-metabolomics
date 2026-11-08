@@ -1,0 +1,16 @@
+name: MetaboQuest
+slug: metaboquest
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s11306-020-01726-7
+  title: 'MetFID: artificial neural network-based compound fingerprint prediction for metabolite annotation'
+source_repos:
+- https://github.com/ressomlab/MetFID
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ressomlab/MetFID

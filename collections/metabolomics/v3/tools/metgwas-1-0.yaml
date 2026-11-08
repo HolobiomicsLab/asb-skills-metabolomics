@@ -1,0 +1,17 @@
+name: metGWAS 1.0
+slug: metgwas-1-0
+version_used: '1.0'
+edam_topics: []
+evidence_spans:
+- We developed a bioinformatics tool, metGWAS 1.0, that generates and statistically compares metabolic and genomic gene sets using a hypergeometric test.
+derived_from:
+- doi: 10.1093/bioinformatics/btad523
+  title: 'metGWAS 1.0: an R workflow for network-driven over-representation analysis between independent metabolomic and meta-genome-wide association studies'
+source_repos:
+- https://github.com/saifurbd28/metGWAS-1.0
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/saifurbd28/metGWAS-1.0

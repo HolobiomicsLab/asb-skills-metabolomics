@@ -1,0 +1,18 @@
+name: SMolESY-select
+slug: smolesy-select
+version_used: null
+edam_topics: []
+evidence_spans:
+- Specifically, SMolESY-select utilizes a moving average filter spanning 11-points
+- computational/functional features of SMolESY-select are reported in the Supporting Information
+derived_from:
+- doi: 10.1021/acs.analchem.1c00113
+  title: A Computationally Lightweight Algorithm for Deriving Reliable Metabolite Panel Measurements from 1D <sup>1</sup>H NMR
+source_repos:
+- https://github.com/pantakis/SMolESY-select
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pantakis/SMolESY-select

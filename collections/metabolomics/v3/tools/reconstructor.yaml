@@ -1,0 +1,21 @@
+name: Reconstructor
+slug: reconstructor
+version_used: null
+edam_topics: []
+evidence_spans:
+- produces high-quality draft reconstructions
+- Here, we present Reconstructor, a user-friendly, COBRApy-compatible tool that produces high-quality draft reconstructions
+- necessary for reconstructor to work
+- The universal reaction database used in `Reconstructor` is a modified version of
+derived_from:
+- doi: 10.1093/bioinformatics/btad367
+  title: 'Reconstructor: a COBRApy compatible tool for automated genome-scale metabolic network reconstruction with parsimonious flux-based gap-filling'
+source_repos:
+- https://github.com/csbl/reconstructor
+- https://github.com/emmamglass/reconstructor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/csbl/reconstructor

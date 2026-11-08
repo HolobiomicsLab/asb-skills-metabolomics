@@ -1,0 +1,21 @@
+name: ADViSELipidomics
+slug: adviselipidomics
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("ShinyFabio/ADViSELipidomics")
+- ADViSELipidomics is a novel Shiny app for preprocessing, analyzing and visualizing lipidomics data.
+- ADViSELipidomics is a stand-alone application implemented using the R language (R \> 4.0) and the Shiny libraries.
+- run_ADViSELipidomics()
+- ADViSELipidomics is a stand-alone application implemented using the R
+derived_from:
+- doi: 10.1093/bioinformatics/btac706
+  title: 'ADViSELipidomics: a workflow for analyzing lipidomics data'
+source_repos:
+- https://github.com/ShinyFabio/ADViSELipidomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShinyFabio/ADViSELipidomics

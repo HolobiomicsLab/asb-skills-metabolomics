@@ -1,0 +1,16 @@
+name: Chemical Translator Service (CTS)
+slug: chemical-translator-service-cts
+version_used: null
+edam_topics: []
+evidence_spans:
+- Chemical Translator Service (CTS) [27] (molecular weight (MW), molecular formula, CheBI ID, HMDB ID, KEGG ID, LipidMaps ID, DrugBank ID, CAS number)
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

@@ -1,0 +1,17 @@
+name: tandem mass spectrometry
+slug: tandem-mass-spectrometry
+version_used: null
+edam_topics: []
+evidence_spans:
+- Untargeted metabolomics using liquid chromatography coupled with tandem mass spectrometry is an efficient technique to access metabolites from fractions and even environmental crude extracts.
+derived_from:
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+source_repos:
+- https://github.com/tiagolbiotech/NPOmix_python
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tiagolbiotech/NPOmix_python

@@ -1,0 +1,17 @@
+name: boot
+slug: boot
+version_used: null
+edam_topics: []
+evidence_spans:
+- boot (Suggests)
+derived_from:
+- doi: 10.1093/bioinformatics/btab231
+  title: 'mzRAPP: a tool for reliability assessment of data pre-processing in non-targeted metabolomics'
+source_repos:
+- https://github.com/YasinEl/mzRAPP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YasinEl/mzRAPP

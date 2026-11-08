@@ -1,0 +1,28 @@
+name: Casanovo
+slug: casanovo
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- Casanovo v2.0 was trained on a commonly used _nine-species benchmark_
+- Here, we describe Casanovo, a machine learning model that uses a transformer neural network architecture to translate the sequence of peaks in a tandem mass spectrum into the sequence of amino acids
+- here we describe Casanovo, which reframes the de novo peptide sequencing task as a machine translation problem
+- Use beam search decoding rather than greedy decoding to predict the peptides.
+- Casanovo-DB mode (`casanovo db_search`) to use Casanovo as a learned score function for sequence database searching (given a FASTA protein database).
+- After installing the Casanovo package and all of its dependencies, the Casanovo CLI can be used to access Casanovo functionality from the command line.
+- casanovo train --model pretrained.ckpt -p validation_spectra.mgf training_spectra.mgf
+- we trained all DL-based tools on high-resolution MS/MS data from the human proteome using the HCD library from MassIVE
+- compared their relative amount between pNovo 3, SMSNet, PointNovo and Casanovo across all data sets (Table 3)
+- we evaluated six recently developed de novo peptide sequencing algorithms (Novor, pNovo 3, DeepNovo, SMSNet, PointNovo and Casanovo)
+derived_from:
+- doi: 10.1038/s41467-024-49731-x
+  title: Sequence-to-sequence translation from mass spectra to peptides with a transformer model
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+source_repos:
+- https://github.com/Noble-Lab/casanovo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Noble-Lab/casanovo

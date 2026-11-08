@@ -1,0 +1,21 @@
+name: NMRglue
+slug: nmrglue
+version_used: null
+edam_topics: []
+evidence_spans:
+- The server-side spectra handling (chem-spectra-app) is based on python and was built using a modified version of NMRglue [18] and SciPy [19].
+- The server-side spectra handling (chem-spectra-app) is based on python and was built using a modified version of NMRglue [18] and SciPy [19]
+derived_from:
+- doi: 10.1186/s13321-020-00481-0
+  title: 'ChemSpectra: a web-based spectra editor for analytical data'
+- doi: 10.1021/acs.jnatprod.0c01076
+  title: Development of an NMR-Based Platform for the Direct Structural Annotation of Complex Natural Products Mixtures
+source_repos:
+- https://github.com/ComPlat/chem-spectra-app
+- https://github.com/liningtonlab/madbyte
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ComPlat/chem-spectra-app

@@ -1,0 +1,16 @@
+name: PDB
+slug: pdb
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s42004-025-01812-8
+  title: NMR data processing, visualization, analysis and structure calculation with NMRFx
+source_repos:
+- https://github.com/nanalysis/nmrfx
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nanalysis/nmrfx

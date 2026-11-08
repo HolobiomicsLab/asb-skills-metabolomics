@@ -1,0 +1,22 @@
+name: GraPhlAn
+slug: graphlan
+version_used: null
+edam_topics: []
+evidence_spans:
+- GraPhlAn uses the matplotlib library (Hunter, 2007).
+- -t TREE, --tree TREE  Output filename where save the input tree for GraPhlAn
+- '``outimg.png``: is the circular tree produced by GraPhlAn'
+- 'we focused on the following modules: M00082, M00083, M00086, M00087, M00088, M00157, and M00159.'
+- is the circular tree produced by GraPhlAn
+- We developed GraPhlAn (Graphical Phylogenetic Analysis), a computational tool that produces high-quality, compact visualizations of microbial genomes and metagenomes.
+derived_from:
+- doi: 10.7717/peerj.1029
+  title: Compact graphical representation of phylogenetic data and metadata with GraPhlAn
+source_repos:
+- https://github.com/SegataLab/export2graphlan
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SegataLab/export2graphlan

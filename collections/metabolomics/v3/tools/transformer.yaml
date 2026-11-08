@@ -1,0 +1,22 @@
+name: transformer
+slug: transformer
+version_used: null
+edam_topics: []
+evidence_spans:
+- we adapt a full encoder-decoder transformer architecture for the substructure-to-structure task
+- Here, we adapt a full encoder-decoder transformer architecture for the substructure-to-structure task.
+- the Transformer model applied is specifically designed for generating the complete structure of the target substance based on MS2 spectra
+derived_from:
+- doi: 10.1021/acscentsci.4c01132
+  title: Accurate and Efficient Structure Elucidation from Routine One-Dimensional NMR Spectra Using Multitask Machine Learning
+- doi: 10.1038/s42004-024-01189-0
+  title: Structural annotation of unknown molecules in a miniaturized mass spectrometer based on a transformer enabled fragment tree method
+source_repos:
+- https://github.com/MarklandGroup/NMR2Struct
+- https://github.com/thumingo/TeFT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MarklandGroup/NMR2Struct

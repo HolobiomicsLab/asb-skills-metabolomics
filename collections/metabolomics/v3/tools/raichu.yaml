@@ -1,0 +1,21 @@
+name: RAIChU
+slug: raichu
+version_used: null
+edam_topics: []
+evidence_spans:
+- we developed RAIChU (Reaction Analysis through Illustrating Chemical Units), which produces depictions of biosynthetic transformations of PKS, NRPS, and hybrid PKS/NRPS systems
+- 'To enable automated, high-quality visualisation of biosynthetic models, we developed RAIChU: Reaction Analysis through Illustrating Chemical Units.'
+- To automatically visualise biosynthetic pathways, we created the software package RAIChU.
+- RAIChU is a chemoinformatics tool designed to illuminate the intricate processes of scaffold diversification in natural product chemistry
+- we developed RAIChU (Reaction Analysis through Illustrating Chemical Units)
+derived_from:
+- doi: 10.1186/s13321-024-00898-x
+  title: 'RAIChU: automating the visualisation of natural product biosynthesis'
+source_repos:
+- https://github.com/BTheDragonMaster/RAIChU
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BTheDragonMaster/RAIChU

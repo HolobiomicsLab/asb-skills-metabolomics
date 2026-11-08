@@ -1,0 +1,24 @@
+name: patRoonData
+slug: patroondata
+version_used: null
+edam_topics: []
+evidence_spans:
+- Example data is contained in the patRoonData R package [92, 93]
+- https://rickhelmus.github.io/patRoon/articles/tutorial.md
+- we will use example data provided within the [patRoonData](https://github.com/rickhelmus/patRoonData) package
+derived_from:
+- doi: 10.1186/s13321-020-00477-w
+  title: 'patRoon: open source software platform for environmental mass spectrometry based non-target screening'
+- doi: 10.21105/joss.04029
+  title: 'patRoon 2.0: Improved non-target analysis workflows
+
+    including automated transformation product screening'
+source_repos:
+- https://github.com/rickhelmus/patRoonData
+- https://github.com/rickhelmus/patRoon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rickhelmus/patRoonData

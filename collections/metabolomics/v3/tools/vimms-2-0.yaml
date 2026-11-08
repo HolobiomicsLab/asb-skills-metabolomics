@@ -1,0 +1,25 @@
+name: ViMMS 2.0
+slug: vimms-2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- 'ViMMS
+
+  2.0 is a software framework that can be used to develop new fragmentation strategies in
+
+  metabolomics completely in-silico'
+- For experiments involving multiple samples, `MultipleMixtureCreator` can introduce group specific intensity changes and missing values
+- ViMMS 2.0 is a software framework that can be used to develop new fragmentation strategies in metabolomics completely in-silico
+derived_from:
+- doi: 10.21105/joss.03990
+  title: 'ViMMS 2.0: A framework to develop, test and optimise
+
+    fragmentation strategies in LC-MS metabolomics'
+source_repos:
+- https://github.com/glasgowcompbio/vimms
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/glasgowcompbio/vimms

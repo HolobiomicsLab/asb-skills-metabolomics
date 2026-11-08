@@ -1,0 +1,18 @@
+name: Network Annotation Propagation (NAP)
+slug: network-annotation-propagation-nap
+version_used: null
+edam_topics: []
+evidence_spans:
+- the process of propagating annotations from spectral library matches on molecular networks can be automated using Network Annotation Propagation (NAP)
+- can be automated using Network Annotation Propagation (NAP)
+derived_from:
+- doi: 10.1093/bioinformatics/btad078
+  title: 'Improving annotation propagation on molecular networks through random walks: introducing ChemWalker'
+source_repos:
+- https://github.com/computational-chemical-biology/ChemWalker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/computational-chemical-biology/ChemWalker

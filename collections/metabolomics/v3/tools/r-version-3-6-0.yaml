@@ -1,0 +1,17 @@
+name: R version 3.6.0
+slug: r-version-3-6-0
+version_used: 3.6.0
+edam_topics: []
+evidence_spans:
+- We have developed and tested automRm in R version 3.6.0 on a 64-bit Linux machine
+- we have tested automRm in R version 4.0.2 on a 64-bit laptop running macOS 10.14
+derived_from:
+- doi: 10.1021/acs.analchem.1c05224
+  title: 'automRm: An R Package for Fully Automatic LC-QQQ-MS Data Preprocessing Powered by Machine Learning'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

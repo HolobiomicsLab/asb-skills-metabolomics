@@ -1,0 +1,33 @@
+name: BioTransformer
+slug: biotransformer
+version_used: null
+edam_topics: []
+evidence_spans:
+- biotransformation products were predicted using the previously developed BioTransformer machine-learning method
+- in silico approaches for generating new metabolite structures (e.g. MINE21, BioTransformer22)
+- https://rickhelmus.github.io/patRoon/articles/tutorial.md
+derived_from:
+- doi: 10.1021/acs.jcim.1c00144
+  title: 'CyProduct: A Software Tool for Accurately Predicting the Byproducts of Human Cytochrome P450 Metabolism'
+- doi: 10.1289/ehp7722
+  title: Risk-Based Chemical Ranking and Generating a Prioritized Human Exposome Database
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+- doi: 10.1038/s41467-022-34537-6
+  title: Metabolite annotation from knowns to unknowns through knowledge-guided multi-layer metabolic networking
+- doi: 10.21105/joss.04029
+  title: 'patRoon 2.0: Improved non-target analysis workflows
+
+    including automated transformation product screening'
+source_repos:
+- https://github.com/Le0nT1/CyProduct
+- https://github.com/FangLabNTU/HExpMetDB
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+- https://github.com/ZhuMetLab/MetDNA2Vis
+- https://github.com/rickhelmus/patRoon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Le0nT1/CyProduct

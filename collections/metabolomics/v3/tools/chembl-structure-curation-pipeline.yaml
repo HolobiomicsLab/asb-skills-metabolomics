@@ -1,0 +1,17 @@
+name: ChEMBL structure curation pipeline
+slug: chembl-structure-curation-pipeline
+version_used: null
+edam_topics: []
+evidence_spans:
+- We extensively use the [ChEMBL](https://www.ebi.ac.uk/chembl/) [structure curation pipeline](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00456-1)
+derived_from:
+- doi: 10.1186/s13321-020-00478-9
+  title: 'COCONUT online: Collection of Open Natural Products database'
+source_repos:
+- https://github.com/Steinbeck-Lab/coconut
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Steinbeck-Lab/coconut

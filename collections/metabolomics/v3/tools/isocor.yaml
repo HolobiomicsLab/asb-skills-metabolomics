@@ -1,0 +1,17 @@
+name: IsoCor
+slug: isocor
+version_used: null
+edam_topics: []
+evidence_spans:
+- IsoCor performs correction based on combinatorics without considering ressolution effect.
+derived_from:
+- doi: 10.1186/s12859-019-2669-9
+  title: 'ElemCor: accurate data analysis and enrichment calculation for high-resolution LC-MS stable isotope labeling experiments'
+source_repos:
+- https://github.com/4dsoftware/elemcor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/4dsoftware/elemcor

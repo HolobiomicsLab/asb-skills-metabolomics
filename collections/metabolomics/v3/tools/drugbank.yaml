@@ -1,0 +1,20 @@
+name: DrugBank
+slug: drugbank
+version_used: null
+edam_topics: []
+evidence_spans:
+- CheBI ID, HMDB ID, KEGG ID, LipidMaps ID, DrugBank ID, CAS number
+- 'DrugBank (access needed): [Download](https://go.drugbank.com/releases/latest)'
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+- doi: 10.1038/s41592-025-02813-0
+  title: 'MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries'
+source_repos:
+- https://github.com/corinnabrungs/msn_tree_library
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/corinnabrungs/msn_tree_library

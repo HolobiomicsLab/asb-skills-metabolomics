@@ -1,0 +1,17 @@
+name: MetaboLab
+slug: metabolab
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaboLab apk5, TopSpin apk0.noe, and MNova
+derived_from:
+- doi: 10.3390/metabo15010048
+  title: MetaboLabPy—An Open-Source Software Package for Metabolomics NMR Data Processing and Metabolic Tracer Data Analysis
+source_repos:
+- https://github.com/ludwigc/metabolabpy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ludwigc/metabolabpy

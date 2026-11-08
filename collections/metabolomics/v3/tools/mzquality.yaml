@@ -1,0 +1,18 @@
+name: mzQuality
+slug: mzquality
+version_used: null
+edam_topics: []
+evidence_spans:
+- mzQuality is distributed as an R package for which version 4.0 or later is required.
+- an R package for which version 4.0 or later is required
+derived_from:
+- doi: 10.1021/jasms.5c00073
+  title: 'mzQuality: An Open-Source Software Tool for Quality Monitoring and Reporting of Targeted Mass Spectrometry Measurements'
+source_repos:
+- https://github.com/hankemeierlab/mzQuality
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hankemeierlab/mzQuality

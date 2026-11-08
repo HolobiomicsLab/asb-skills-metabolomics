@@ -1,0 +1,16 @@
+name: PLAGE (Pathway Level Analysis of Gene Expression)
+slug: plage-pathway-level-analysis-of-gene-expression
+version_used: null
+edam_topics: []
+evidence_spans:
+- The SVD-based pathways analysis method has been implemented in a web program [11] called PLAGE (pathway level analysis of gene expression).
+derived_from:
+- doi: 10.1186/1471-2105-6-225
+  title: Pathway level analysis of gene expression using singular value decomposition
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

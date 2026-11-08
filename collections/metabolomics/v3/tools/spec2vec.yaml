@@ -1,0 +1,49 @@
+name: Spec2Vec
+slug: spec2vec
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we introduce Spec2Vec, a novel spectral similarity score inspired by a natural language processing algorithm—Word2Vec.
+- we present a novel spectral similarity score based upon learnt embeddings of spectra.
+- matchms (https://github.com/matchms/matchms) and spec2vec (https://github.com/iomega/spec2vec)
+- After processing, spectra are converted to documents. For this, every peak is represented by a word that contains its position
+- Added to the recently introduced unsupervised Spec2Vec metric, we believe that machine learning-supported mass spectral similarity measures have great potential
+- '`spec2vec`_ packages for handling'
+- 'MEMO is mainly built on `matchms`_ and `spec2vec`_ packages for handling
+
+  the MS2 spectra and converting them into documents'
+- MEMO is mainly built on `matchms`_ and `spec2vec`_ packages for handling
+- '`matchms`_ and `spec2vec`_ packages for handling'
+- '`spec2vec`_ packages for handling
+
+  the MS2 spectra and converting them into documents'
+- mass spectral embedding-based chemical similarity predictors (Spec2Vec and MS2Deepscore)
+- the unsupervised Spec2Vec30 and the supervised MS2Deepscore32
+- 'automatically computes pairwise spectral similarities using three similarity scores: ms2deepscore, modified cosine scores, and spec2vec scores.'
+- TransExION outperforms simple, heuristic similarity measures, such as Cosine and Modified Cosine, and the unsupervised Spec2Vec model
+derived_from:
+- doi: 10.1371/journal.pcbi.1008724
+  title: 'Spec2Vec: Improved mass spectral similarity scoring through learning of structural relationships'
+- doi: 10.1186/s13321-021-00558-4
+  title: 'MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra'
+- doi: 10.3389/fbinf.2022.842964
+  title: 'MEMO: Mass Spectrometry-Based Sample Vectorization to Explore Chemodiverse Datasets'
+- doi: 10.1038/s41467-023-37446-4
+  title: 'MS2Query: reliable and scalable MS2 mass spectra-based analogue search'
+- doi: 10.1021/acs.analchem.3c04444
+  title: Tailored Mass Spectral Data Exploration Using the SpecXplore Interactive Dashboard
+- doi: 10.1186/s13321-024-00858-5
+  title: 'TransExION: a transformer based explainable similarity metric for comparing IONS in tandem mass spectrometry'
+source_repos:
+- https://github.com/iomega/spec2vec
+- https://github.com/matchms/ms2deepscore
+- https://github.com/mandelbrot-project/memo
+- https://github.com/iomega/ms2query
+- https://github.com/kevinmildau/specXplore
+- https://github.com/banhdzui/TransExION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iomega/spec2vec

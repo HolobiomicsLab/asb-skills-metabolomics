@@ -1,0 +1,17 @@
+name: maplet
+slug: maplet
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bioinformatics/btab741
+  title: "<tt>maplet</tt>\n                    : an extensible R toolbox for modular and reproducible metabolomics pipelines"
+source_repos:
+- https://github.com/krumsieklab/maplet
+- https://github.com/krumsieklelab/maplet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/krumsieklab/maplet

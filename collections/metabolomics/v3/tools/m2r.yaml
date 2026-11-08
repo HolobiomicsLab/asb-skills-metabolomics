@@ -1,0 +1,18 @@
+name: M2R
+slug: m2r
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present M2R, a Python add-on to cobrapy that allows incorporating information about the gut microbiota metabolism models
+- Here, we present M2R, a Python add-on to cobrapy
+derived_from:
+- doi: 10.1093/bioinformatics/btab060
+  title: 'M2R: a Python add-on to cobrapy for modifying human genome-scale metabolic reconstruction using the gut microbiota models'
+source_repos:
+- https://github.com/e-weglarz-tomczak/m2r
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/e-weglarz-tomczak/m2r

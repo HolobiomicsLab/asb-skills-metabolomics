@@ -1,0 +1,18 @@
+name: OpenBLAS
+slug: openblas
+version_used: null
+edam_topics: []
+evidence_spans:
+- We are utilizing the openBLAS [https://www.openblas.net/] library for fast matrix multiplication
+- We are utilizing the openBLAS
+derived_from:
+- doi: 10.1021/acs.analchem.3c02449
+  title: 'LipidSpace: Simple Exploration, Reanalysis, and Quality Control of Large-Scale Lipidomics Studies'
+source_repos:
+- https://github.com/lifs-tools/lipidspace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lifs-tools/lipidspace

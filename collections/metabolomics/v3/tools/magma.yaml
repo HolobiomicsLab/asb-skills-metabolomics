@@ -1,0 +1,31 @@
+name: MAGMa+
+slug: magma
+version_used: null
+edam_topics: []
+evidence_spans:
+- Scores of MetFrag, MAGMa+, CFM-ID, CSI:FingerID (original) and CSI:FingerID IOKR were downloaded from the CASMI 2016 results web page
+- MAGMa+ further scores for both matched and missed peaks
+derived_from:
+- doi: 10.1038/s41587-021-01045-9
+  title: High-confidence structural annotation of metabolites absent from spectral libraries
+- doi: 10.1021/acs.analchem.3c04654
+  title: Generating Molecular Fragmentation Graphs with Autoregressive Neural Networks
+- doi: 10.5702/massspectrometry.s0033
+  title: Automatic Compound Annotation from Mass Spectrometry Data Using MAGMa
+- doi: 10.1021/jasms.4c00061
+  title: 'ModiFinder: Tandem Mass Spectral Alignment Enables Structural Modification Site Localization'
+- doi: 10.1038/s41467-021-23986-0
+  title: 'MolDiscovery: learning mass spectrometry fragmentation of small molecules'
+source_repos:
+- https://github.com/sirius-ms/sirius
+- https://github.com/ipb-halle/MetFragRelaunched
+- https://github.com/samgoldman97/ms-pred
+- https://github.com/NLeSC/MAGMa
+- https://github.com/Wang-Bioinformatics-Lab/ModiFinder_base
+- https://github.com/mohimanilab/molDiscovery
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sirius-ms/sirius

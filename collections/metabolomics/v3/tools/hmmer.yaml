@@ -1,0 +1,20 @@
+name: HMMER
+slug: hmmer
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[HMMER](http://hmmer.org/download.html) (tested with v3.2.1)'
+derived_from:
+- doi: 10.1371/journal.pcbi.1009906
+  title: 'COMMIT: Consideration of metabolite leakage and community composition improves microbial community reconstructions'
+- doi: 10.1093/nar/gkz654
+  title: A deep learning genome-mining strategy for biosynthetic gene cluster prediction
+source_repos:
+- https://github.com/pwendering/COMMIT
+- https://github.com/Merck/deepbgc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pwendering/COMMIT

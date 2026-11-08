@@ -1,0 +1,17 @@
+name: HiGHS
+slug: highs
+version_used: null
+edam_topics: []
+evidence_spans:
+- The optimization of eq 8 is implemented using HiGHS.22
+derived_from:
+- doi: 10.1021/acs.analchem.4c01652
+  title: Network Flow Methods for NMR-Based Compound Identification
+source_repos:
+- https://github.com/GeoMetabolomics-ICBM/mcfNMR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GeoMetabolomics-ICBM/mcfNMR

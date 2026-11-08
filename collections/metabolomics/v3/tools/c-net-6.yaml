@@ -1,0 +1,16 @@
+name: C# .NET 6
+slug: c-net-6
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.4c00359
+  title: LipiDex 2 Integrates MS<sup>n</sup> Tree-Based Fragmentation Methods and Quality Control Modules to Improve Discovery Lipidomics
+source_repos:
+- https://github.com/coongroup/LipiDex-2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/coongroup/LipiDex-2

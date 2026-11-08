@@ -1,0 +1,138 @@
+name: conda
+slug: conda
+version_used: '2024.09'
+edam_topics: []
+evidence_spans:
+- It's a widespread issue with using `conda`.
+- Please install [conda](https://docs.anaconda.com/anaconda/install/) and create an environment from an environment.yml file.
+- conda env create -f environment.yml
+- 'Install the required packages under conda (optional, can install only key requirements mentioned above):'
+- conda env create -f environment.yml
+- 'Use this command to create python virtual environment.
+
+  ```shell
+
+  cd FlavorFormer
+
+  conda env create -f environment.yml
+
+  conda activate FlavorFormer
+
+  ```'
+- 'conda env create -f environment.yml
+
+  conda activate FlavorFormer'
+- Create and activate a new Conda environment with the necessary dependencies, as described in step 1 above.
+- 'Create a Conda environment and install the necessary compiler tools and GPU runtime:'
+- Create a Conda environment and install the necessary compiler tools and GPU runtime
+- Install Python3 within conda ... conda install -c conda-forge datashader
+- '`conda env create -f environment.yml`'
+- 'for conda users: conda create --name integrate --file integrate_env.txt'
+- conda env create -f environment.yml
+- 'conda env create -f environment.yml
+
+  conda activate py37_metassimulo_2_env'
+- A `conda` build is provided for users which abstracts some of the more complex system dependency problems
+- conda create -n npl-3.11 python=3.11
+- conda env create -f environment.yml
+- You will need to have conda, mamba, and nextflow installed to run things locally.
+- conda env create -f environment.yml
+- Use the package manager [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
+- Create a conda environment
+- 'Create a conda environment:'
+- conda create -n spec2mol python=3.7
+- pip or conda package manager
+- can be easily installed using conda.
+- '- conda ([Bioconda website - Python 3.x](https://conda.io/en/latest/miniconda.html))'
+derived_from:
+- doi: 10.1038/s42255-024-01118-4
+  title: Spatial single-cell isotope tracing reveals heterogeneity of de novo fatty acid synthesis in cancer
+- doi: 10.1093/bioinformatics/btab429
+  title: 'AutoCCS: automated collision cross-section calculation software for ion mobility spectrometry–mass spectrometry'
+- doi: 10.1101/2025.02.07.637102
+  title: 'ChemEmbed: A deep learning framework for metabolite identification using enhanced MS/MS data and multidimensional molecular embeddings'
+- doi: 10.48550/arxiv.2502.09571
+  title: ''
+- doi: 10.1093/bioinformatics/btae490
+  title: An Ensemble Spectral Prediction (ESP) model for metabolite annotation
+- doi: 10.1016/j.microc.2025.115372
+  title: 'FlavorFormer: hybrid deep learning for identifying compounds in flavor mixtures based on NMR spectroscopy'
+- doi: 10.1038/s41592-022-01496-1
+  title: A learned embedding for efficient joint analysis of millions of mass spectra
+- doi: 10.1038/s41592-021-01339-5
+  title: 'GNPS Dashboard: collaborative exploration of mass spectrometry data in the web browser'
+- doi: 10.1186/s13321-024-00804-5
+  title: 'IDSL_MINT: a deep learning framework to predict molecular fingerprints from mass spectra'
+- doi: 10.1371/journal.pcbi.1009337
+  title: 'INTEGRATE: Model-based multi-omics data integration to characterize multi-level metabolic regulation'
+- doi: 10.1021/acs.analchem.5c01414
+  title: Longitudinal Fragment Profiles Based on Multi-Collision Energy Tandem Mass Spectra Improve the Accuracy of Metabolite Identification in Untargeted Metabolomics
+- doi: 10.48550/arxiv.2501.01950
+  title: ''
+- doi: 10.1101/2025.11.07.687008
+  title: 'MetaboliteChat: A Unified Multimodal Large Language Model for Interactive Metabolite Analysis and Functional Insights'
+- doi: 10.1093/bioinformatics/btaf045
+  title: 'MetAssimulo 2.0: a web app for simulating realistic 1D and 2D metabolomic 1H NMR spectra'
+- doi: 10.1021/acscentsci.1c01108
+  title: 'NP Analyst: An Open Online Platform for Compound Activity Mapping'
+- doi: 10.1371/journal.pcbi.1008920
+  title: Ranking microbial metabolomic and genomic links in the NPLinker framework using complementary scoring functions
+- doi: 10.1186/s12859-023-05149-8
+  title: 'Pickaxe: a Python library for the prediction of novel metabolic reactions'
+- doi: 10.1038/s41586-023-06906-8
+  title: Reverse metabolomics for the discovery of chemical structures from humans
+- doi: 10.1186/s13321-025-00968-8
+  title: 'ROASMI: accelerating small molecule identification by repurposing retention data'
+- doi: 10.1038/s41467-022-30118-9
+  title: SIMILE enables alignment of tandem mass spectra with statistical significance
+- doi: 10.1038/s42004-023-00932-3
+  title: An end-to-end deep learning framework for translating mass spectra to de-novo molecules
+- doi: 10.1021/acs.analchem.5c06256
+  title: Comprehensive Curation and Harmonization of Small-Molecule MS/MS Libraries in Spectraverse
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+- doi: 10.48550/arxiv.2502.05114
+  title: ''
+- doi: 10.3390/metabo9090171
+  title: 'WiPP: Workflow for Improved Peak Picking for Gas Chromatography-Mass Spectrometry (GC-MS) Data'
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+- doi: 10.1002/ange.202517611
+  title: Advancing Structure Elucidation with a Flexible Multi‐Spectral AI Model
+source_repos:
+- https://github.com/Buglakova/13C-SpaceM
+- https://github.com/PNNL-Comp-Mass-Spec/AutoCCS
+- https://github.com/massspecdl/ChemEmbed
+- https://github.com/coleygroup/DiffMS
+- https://github.com/HassounLab/ESP
+- https://github.com/yfWang01/FlavorFormer.git
+- https://github.com/yfWang01/FlavorFormer
+- https://github.com/bittremieux-lab/GLEAMS
+- https://github.com/Wang-Bioinformatics-Lab/GNPS_LCMSDashboard
+- https://github.com/idslme/IDSL_MINT
+- https://github.com/qLSLab/integrate
+- https://github.com/yourusername/LongitudinalProf-MSMS-Method.git
+- https://github.com/academicCQMD/LongitudinalProf-MSMS-Method
+- https://github.com/HassounLab/MADGEN
+- https://github.com/daniel-guooo/MetaboliteChat
+- https://github.com/yanyan5420/MetAssimulo_2
+- https://github.com/liningtonlab/npanalyst
+- https://github.com/NPLinker/nplinker
+- https://github.com/tyo-nu/pickaxe_paper
+- https://github.com/Wang-Bioinformatics-Lab/GNPS2_DeploymentTooling
+- https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation
+- https://github.com/FangYuan717/ROASMI
+- https://github.com/biorack/simile
+- https://github.com/KavrakiLab/Spec2Mol
+- https://github.com/skinniderlab/spectraverse-analysis
+- https://github.com/bittremieuxlab/spectrum_utils
+- https://github.com/hejjack/SpecTUS
+- https://github.com/bihealth/WiPP
+- https://github.com/sangeeta97/ccs_find
+- https://github.com/mpriessner/MultiModalSpectralTransformer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Buglakova/13C-SpaceM

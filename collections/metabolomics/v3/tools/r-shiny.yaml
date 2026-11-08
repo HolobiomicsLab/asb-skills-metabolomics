@@ -1,0 +1,32 @@
+name: R Shiny
+slug: r-shiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- MeTEor is an R Shiny app providing a comprehensive set of statistical analysis methods
+- Built on R shiny, MetMiner can be deployed on servers to utilize additional computational resources for processing large-scale datasets
+- run_metMiner(maxRequestSize = 300)
+- a user-friendly, open-source R-Shiny app designed to assess and correct technical variations in mass spectrometry-based metabolomics data
+- The NMRspec GUI has been implemented using the ‘R shiny’ (http://shiny.rstudio.com/) framework based on event-driven programming
+- The NMRspec GUI has been implemented using the ‘R shiny’
+derived_from:
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+- doi: 10.1111/jipb.13774
+  title: 'MetMiner: A user‐friendly pipeline for large‐scale plant metabolomics data analysis'
+- doi: 10.1021/jasms.5c00073
+  title: 'mzQuality: An Open-Source Software Tool for Quality Monitoring and Reporting of Targeted Mass Spectrometry Measurements'
+- doi: 10.1007/s11306-017-1178-y
+  title: 'NMRProcFlow: a graphical and interactive tool dedicated to 1D spectra processing for NMR-based metabolomics'
+source_repos:
+- https://github.com/scibiome/meteor
+- https://github.com/ShawnWx2019/MetMiner
+- https://github.com/hankemeierlab/mzQualityDashboard
+- https://github.com/hankemeierlab/mzQuality
+- https://github.com/INRA/NMRProcFlow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scibiome/meteor

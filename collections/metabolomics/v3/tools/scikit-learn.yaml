@@ -1,0 +1,177 @@
+name: scikit-learn
+slug: scikit-learn
+version_used: 1.1.2
+edam_topics: []
+evidence_spans:
+- Principal component analysis (PCA) models were built using the scikit-learn implementation.
+- Python packages include widely used machine learning frameworks, such as scikit-learn [27] and Tensor Flow [28]
+- scikit-learn (version 1.1.2)
+- BioServices (version 1.11.2), scikit-learn (version 1.1.2), NumPy (version 1.23.2)
+- Those centroids were also subjected to an average-linkage agglomerative clustering analysis (sci-kit implementation, Euclidean distance)
+- BiG-SLiCE uses a clustering method based on the Python scikit-learn [55] implementation of the BIRCH [46] algorithm.
+- scikit-learn
+- the PyTorch GPU package (version 2.7.0), and scikit-learn (version 1.6.1)
+- Instant Clue offers several functions to establish an estimator for prediction, based on the scikit-learn library
+- A comprehensive toolbox for supervised learning has been implemented using the scikit-learn library
+- Install Python **3.11 (Windows x64)** and the packages listed in the sub-manual (`flask pandas numpy scipy scikit-learn matplotlib polars fisher_py
+- '- scipy
+
+  - scikit-learn'
+- '- scikit-learn'
+- optional peak assessment score based on a pre-trained random forest model
+- scikit-learn
+- we ran t-SNE [28] as implemented in scikit-learn [29] on the 200-dimensional embeddings of the test set (3601 spectra)
+- Using the t-SNE [28] implementation from scikit-learn [29]
+- MetaboDirect is written in Python and uses a wide variety of packages, including pandas, NumPy, Matplotlib, seaborn, scikit-learn, and NetworkX
+- 'The required packages for MetaboLabPy to work are as follows: NumPy, SciPy, MatplotLib, Pandas, Numba, scikit-learn'
+- We use the PCA and GLASSO implementations from scikit-learn,1 found in the sklearn.covariance packages, respectively.
+- We use the PCA and GLASSO implementations from scikit-learn
+- 'Python packages: numpy, scikit-learn, sys, arg-parse, scipy.parse'
+- The implementation of scikit-learn37 was used for the random forest model.
+- scikit_learn == 1.3.0
+- For machine learning models, standard implementations with default parameter configurations were used for baseline comparison.
+- For machine learning models, standard implementations with default parameter configurations were used for baseline comparison
+- conda install -c anaconda scikit-learn
+- from sklearn.decomposition import PCA
+- We also assessed other non-deep ML methods such as random forest regression using fingerprints
+- Data processing is done by a combination of Scikit-learn for common statistical algorithms and R packages for specialized algorithms.
+- Principal Component Analysis (PCA) was performed with Scikit-learn (version 0.20.0)
+- includes a few of preprocessing steps and biomarker discovery procedure
+- We performed biclustering using SpectralCoclustering from the scikit-learn v0.19.1.
+- scikit-learn (version 1.0.0)
+- scikit-learn==0.24.2
+- The classifier and metrics are employed from [sklearn](https://scikit-learn.org/stable/) python library
+- The classifier and metrics are employed from [sklearn](https://scikit-learn.org/stable/) python library.
+derived_from:
+- doi: 10.3390/metabo10100416
+  title: A Python-Based Pipeline for Preprocessing LC–MS Data for Untargeted Metabolomics Workflows
+- doi: 10.1158/0008-5472.can-14-1490
+  title: AKT1 and MYC Induce Distinctive Metabolic Fingerprints in Human Prostate Cancer
+- doi: 10.1101/2023.09.08.556930
+  title: Bayesian optimization of separation gradients to maximize the performance of untargeted LC-MS
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.1093/gigascience/giaa154
+  title: 'BiG-SLiCE: A highly scalable tool maps the diversity of 1.2 million biosynthetic gene clusters'
+- doi: 10.1101/2022.08.09.503345
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1101/2025.09.22.677919
+  title: Computational method for mapping mass signatures along developmental gradients reveals a novel role for a monosaccharide tetrose in maize salt-stress response
+- doi: 10.1093/bioinformatics/btae490
+  title: An Ensemble Spectral Prediction (ESP) model for metabolite annotation
+- doi: 10.1016/j.microc.2025.115372
+  title: 'FlavorFormer: hybrid deep learning for identifying compounds in flavor mixtures based on NMR spectroscopy'
+- doi: 10.1038/s41598-018-31154-6
+  title: 'Instant Clue: A Software Suite for Interactive Data Visualization and Analysis'
+- doi: 10.1093/bioinformatics/bty590
+  title: Liquid-chromatography retention order prediction for metabolite identification
+- doi: 10.1038/s41467-025-59683-5
+  title: 'LipidIN: a comprehensive repository for flash platform-independent annotation and reverse lipidomics'
+- doi: 10.1021/acs.analchem.0c02560
+  title: 'LiPydomics: A Python Package for Comprehensive Prediction
+
+    of Lipid Collision Cross Sections and Retention Times and Analysis
+
+    of Ion Mobility-Mass Spectrometry-Based Lipidomics Data'
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+- doi: 10.1186/s13321-023-00741-9
+  title: 'Mass-Suite: a novel open-source python package for high-resolution mass spectrometry data analysis'
+- doi: 10.1186/s13321-021-00558-4
+  title: 'MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra'
+- doi: 10.1186/s40168-023-01476-3
+  title: 'MetaboDirect: an analytical pipeline for the processing of FT-ICR MS-based metabolomic data'
+- doi: 10.3390/metabo15010048
+  title: MetaboLabPy—An Open-Source Software Package for Metabolomics NMR Data Processing and Metabolic Tracer Data Analysis
+- doi: 10.3389/fnins.2024.1520982
+  title: MetaboLINK is a novel algorithm for unveiling cell-specific metabolic pathways in longitudinal datasets
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+- doi: 10.1038/s41525-020-0132-5
+  title: 'metPropagate: network-guided propagation of metabolomic information for prioritization of metabolic disease genes'
+- doi: 10.1038/s41467-023-37446-4
+  title: 'MS2Query: reliable and scalable MS2 mass spectra-based analogue search'
+- doi: 10.48550/arxiv.2510.09716
+  title: ''
+- doi: 10.1021/acs.jproteome.4c01140
+  title: 'MSIght: A Modular Platform for Improved Confidence in Global, Untargeted Mass Spectrometry Imaging Annotation'
+- doi: 10.1371/journal.pone.0321239
+  title: 'MSMCE: A novel representation module for classification of raw mass spectrometry data'
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+- doi: 10.1021/acs.analchem.3c00764
+  title: 'PeakDetective: A Semisupervised Deep Learning-Based Approach for Peak Curation in Untargeted Metabolomics'
+- doi: 10.1093/bioadv/vbae192
+  title: 'Protomix: a Python package for 1H-NMR metabolomics data preprocessing'
+- doi: 10.1101/2024.08.17.608400
+  title: 'Recon8D: A metabolic regulome network from oct-omics and machine learning'
+- doi: 10.1038/s41467-019-13680-7
+  title: The METLIN small molecule dataset for machine learning-based retention time prediction
+- doi: 10.21105/joss.02410
+  title: 'Viime: Visualization and Integration of Metabolomics Experiments'
+- doi: 10.1093/nar/gkz654
+  title: A deep learning genome-mining strategy for biosynthetic gene cluster prediction
+- doi: 10.1038/s41598-020-70259-9
+  title: 'liputils: a Python module to manage individual fatty acid moieties from complex lipids'
+- doi: 10.1038/s41467-025-66163-3
+  title: 'MetaboLM: a metabolomic language model for multi-disease early prediction and risk stratification'
+- doi: 10.3390/metabo9050103
+  title: 'MetPC: Metabolite Pipeline Consisting of Metabolite Identification and Biomarker Discovery Under the Control of Two-Dimensional FDR'
+- doi: 10.1186/s12859-020-3425-x
+  title: 'OffsampleAI: artificial intelligence approach to recognize off-sample mass spectrometry images'
+- doi: 10.3390/molecules27123653
+  title: Deep Learning-Based Method for Compound Identification in NMR Spectra of Mixtures
+- doi: 10.1093/bioinformatics/btad096
+  title: Regularized adversarial learning for normalization of multi-batch untargeted metabolomics data
+- doi: 10.1093/bioadv/vbad098
+  title: Prediction of metabolite–protein interactions based on integration of machine learning and constraint-based modeling
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+- doi: 10.1002/anie.202507483
+  title: Quantum Chemistry Calculation‐Assisted Large‐Scale Collision Cross Section Prediction Empowers Derivatization‐Enhanced Multidimensional Metabolomics
+source_repos:
+- https://github.com/HuanLab/bago
+- https://github.com/huaxuyu/bago
+- https://github.com/HassounLab/BAM
+- https://github.com/medema-group/bigslice
+- https://github.com/dickinsonlab/DIMPLE-code
+- https://github.com/HassounLab/ESP
+- https://github.com/yfWang01/FlavorFormer
+- https://github.com/hnolCol/instantclue
+- https://github.com/aalto-ics-kepaco/retention_order_prediction
+- https://github.com/LinShuhaiLAB/LipidIN
+- https://github.com/dylanhross/lipydomics
+- https://github.com/kopeckylukas/py-mamsi
+- https://github.com/XiminHu/mass-suite
+- https://github.com/matchms/ms2deepscore
+- https://github.com/Coayala/MetaboDirect
+- https://github.com/ludwigc/metabolabpy
+- https://github.com/jlichtarge/pcaGLASSO
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+- https://github.com/emmagraham/metPropagate
+- https://github.com/iomega/ms2query
+- https://github.com/jsehhs/MS2toImg-CNN
+- https://github.com/laurenfields/MSIght
+- https://github.com/WoodFY/MSMCE
+- https://github.com/tiagolbiotech/NPOmix_python
+- https://github.com/pattilab/PeakDetective
+- https://github.com/mzniber/Protomix
+- https://github.com/sriram-lab/Metab8D
+- https://github.com/sriram-lab/Recon8D
+- https://github.com/girder/viime
+- https://github.com/Merck/deepbgc
+- https://github.com/Stemanz/liputils
+- https://github.com/Qiu-Shizheng/MetaboLM
+- https://github.com/jjs3098/CNU-Bioinformatics-Lab
+- https://github.com/metaspace2020/offsample
+- https://github.com/yuxuanliao/pSCNN
+- https://github.com/zamboni-lab/RALPS
+- https://github.com/fayazsoleymani/SARTRE
+- https://github.com/bittremieuxlab/falcon
+- https://github.com/Chen-micslab/QCCAssisted4DSterol
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuanLab/bago

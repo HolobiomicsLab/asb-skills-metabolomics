@@ -1,0 +1,18 @@
+name: Zlib
+slug: zlib
+version_used: null
+edam_topics: []
+evidence_spans:
+- Compared with Zlib only, m/z data size is about 55% lower in Aird average
+- Aird uses the Zlib algorithm(Compression Level = 6, Zlib library is DotNetZip from http://dotnetzip.codeplex.com)
+derived_from:
+- doi: 10.1186/s12859-021-04490-0
+  title: 'Aird: a computation-oriented mass spectrometry data format enables a higher compression ratio and less decoding time'
+source_repos:
+- https://github.com/CSi-Studio/AirdPro
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSi-Studio/AirdPro

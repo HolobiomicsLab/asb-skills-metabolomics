@@ -1,0 +1,26 @@
+name: SigmaCCS
+slug: sigmaccs
+version_used: null
+edam_topics: []
+evidence_spans:
+- we benchmarked two GNNs (i.e., SigmaCCS and GraphCCS) and Mol2CCS, an adaptation of SigmaCCS, on METLIN-CCS and CCSBase
+- We developed a model named SigmaCCS which can be used to predict CCS of compounds
+- SigmaCCS which can be used to predict CCS of compounds
+- we have developed the Structure included graph merging with adduct method for CCS prediction (SigmaCCS) based on graph neural networks using 3D conformers as inputs
+- We developed a model named SigmaCCS
+- we have developed the Structure included graph merging with adduct method for CCS prediction (SigmaCCS)
+derived_from:
+- doi: 10.1186/s13321-024-00899-w
+  title: Evaluating the generalizability of graph neural networks for predicting collision cross section
+- doi: 10.1038/s42004-023-00939-w
+  title: Highly accurate and large-scale collision cross sections prediction with graph neural networks
+source_repos:
+- https://github.com/zmzhang/SigmaCCS
+- https://github.com/enveda/ccs-prediction
+- https://github.com/YoujiaZhang/SigmaCCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zmzhang/SigmaCCS

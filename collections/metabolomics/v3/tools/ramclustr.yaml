@@ -1,0 +1,16 @@
+name: RAMClustR
+slug: ramclustr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/ac501530d
+  title: 'RAMClust: A Novel Feature Clustering Method Enables Spectral-Matching-Based Annotation for Metabolomics Data'
+source_repos:
+- https://github.com/cbroeckl/RAMClustR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cbroeckl/RAMClustR

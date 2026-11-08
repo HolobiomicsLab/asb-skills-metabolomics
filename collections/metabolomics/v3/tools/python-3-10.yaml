@@ -1,0 +1,20 @@
+name: Python 3.10
+slug: python-3-10
+version_used: null
+edam_topics: []
+evidence_spans:
+- Please make user to use **_Python 3.10_**
+derived_from:
+- doi: 10.1038/s41564-023-01575-9
+  title: 'microbeMASST: a taxonomically informed mass spectrometry search tool for microbial metabolomics data'
+- doi: 10.48550/arxiv.2510.09716
+  title: ''
+source_repos:
+- https://github.com/robinschmid/microbe_masst
+- https://github.com/jsehhs/MS2toImg-CNN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/robinschmid/microbe_masst

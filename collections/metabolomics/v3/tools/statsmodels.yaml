@@ -1,0 +1,17 @@
+name: statsmodels
+slug: statsmodels
+version_used: null
+edam_topics: []
+evidence_spans:
+- used in Batch Correction was implemented using the statsmodels [43] package.
+- The LOESS smoother used in Batch Correction was implemented using the statsmodels [43] package.
+derived_from:
+- doi: 10.3390/metabo10100416
+  title: A Python-Based Pipeline for Preprocessing LC–MS Data for Untargeted Metabolomics Workflows
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

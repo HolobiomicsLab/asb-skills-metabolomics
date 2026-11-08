@@ -1,0 +1,25 @@
+name: ChemDistiller
+slug: chemdistiller
+version_used: null
+edam_topics: []
+evidence_spans:
+- chemdistiller package
+- 'chemdistiller package
+
+  ====================='
+- chemdistiller.scorers.fingerprint module
+- chemdistiller.scorers.fragprint module
+- __ChemDistiller__ is the high-throughput annotation engine for tandem MS spectra annotation.
+- Here, we introduce ChemDistiller, a customizable engine that combines automated large-scale annotation of metabolites using tandem MS data
+- chemdistiller.filters.element module
+derived_from:
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+source_repos:
+- https://github.com/Mrqeoqqt/chemdistiller
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mrqeoqqt/chemdistiller

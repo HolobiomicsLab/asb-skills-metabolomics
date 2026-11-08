@@ -1,0 +1,19 @@
+name: MEANtools
+slug: meantools
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we introduce MEANtools, a computational pipeline that combines statistical- and reaction-rules-based integration strategies.
+- MEANtools implements a mutual rank (MR)-based [14] correlation approach to capture mass features that are highly correlated with biosynthetic genes.
+- Here, we present MEANtools, a systematic and unsupervised computational integrative omics workflow
+derived_from:
+- doi: 10.1371/journal.pbio.3003307
+  title: MEANtools integrates multi-omics data to identify metabolites and predict biosynthetic pathways
+source_repos:
+- https://github.com/IntegrativeBioinformaticsLab/meantools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IntegrativeBioinformaticsLab/meantools

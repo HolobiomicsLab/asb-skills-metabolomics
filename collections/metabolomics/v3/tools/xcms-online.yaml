@@ -1,0 +1,25 @@
+name: XCMS Online
+slug: xcms-online
+version_used: null
+edam_topics: []
+evidence_spans:
+- XCMS Online (Tautenhahn, Patti, Rinehart, & Siuzdak, 2012). These are both workflow tools which include MS spectral processing
+- Galaxy-M (Davidson et al., 2016), XCMS-online (Huan et al., 2017), MZmine2 (Pluskal et al., 2010)
+- This method is widely used in the web-based tools XCMS Online [38] and MetaboAnalyst [39]
+derived_from:
+- doi: 10.21105/joss.02410
+  title: 'Viime: Visualization and Integration of Metabolomics Experiments'
+- doi: 10.3389/fchem.2021.659656
+  title: 'iMAP: A Web Server for Metabolomics Data Integrative Analysis'
+- doi: 10.1007/s00216-023-04715-6
+  title: Augmented region of interest for untargeted metabolomics mass spectrometry (AriumMS) of multi-platform-based CE-MS and LC-MS data
+source_repos:
+- https://github.com/girder/viime
+- https://github.com/IP4M/R-scripts-for-iMAP
+- https://github.com/AdrianHaun/AriumMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/girder/viime

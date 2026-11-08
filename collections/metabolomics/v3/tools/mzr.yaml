@@ -1,0 +1,38 @@
+name: mzR
+slug: mzr
+version_used: null
+edam_topics: []
+evidence_spans:
+- automRm depends on several packages such as mzR7 for parsing of mzML files
+- which was imported using the mzR package73
+- powerful, but low-level R packages such as mzR [9]
+- mzR (Depends)
+- '- `mzR (Imports)`'
+- (using `xcms` and [`MSnbase`](https://bioconductor.org/packages/release/bioc/html/MSnbase.html) packages, [`mzR`](https://bioconductor.org/packages/release/bioc/html/mzR.html)-based)
+derived_from:
+- doi: 10.1021/acs.analchem.1c05224
+  title: 'automRm: An R Package for Fully Automatic LC-QQQ-MS Data Preprocessing Powered by Machine Learning'
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+- doi: 10.1021/acs.jproteome.5c00548
+  title: 'MetScribeR: A Semiautomated Tool for Data Processing of In-House LC-MS Metabolite Reference Libraries'
+- doi: 10.1186/s13321-025-01044-x
+  title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
+- doi: 10.1038/s41598-020-70850-0
+  title: Addressing the batch effect issue for LC/MS metabolomics data in data preprocessing
+- doi: 10.1093/bioadv/vbae160
+  title: 'arcMS: transformation of multi-dimensional high-resolution mass spectrometry data to columnar format for compact storage and fast access'
+- doi: 10.1038/s41467-022-28391-9
+  title: Comparative metabolomics with Metaboseek reveals functions of a conserved fat metabolism pathway in C. elegans
+source_repos:
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/ncats/metScribeR
+- https://github.com/tianwei-yu/apLCMS
+- https://github.com/leesulab/arcMS
+- https://github.com/mjhelf/Metaboseek
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/MetaboAnalystR

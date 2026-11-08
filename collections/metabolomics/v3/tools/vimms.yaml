@@ -1,0 +1,23 @@
+name: ViMMS
+slug: vimms
+version_used: null
+edam_topics: []
+evidence_spans:
+- Scan timings were then taken from our TopN method, using the settings taken from the optimization presented in the validation of ViMMS.10
+- using a previously developed virtual metabolomics mass spectrometer (ViMMS)
+- The IAPI bridge was used to let ViMMS controllers communicate with Thermo Orbitrap instruments, making it possible for the same controller codes to run unchanged
+- 'we introduced ViMMS,10 a simulator
+
+  that could be used to evaluate different fragmentation strategies
+
+  in silico'
+derived_from:
+- doi: 10.1021/acs.analchem.0c03895
+  title: Rapid Development of Improved Data-Dependent Acquisition Strategies
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

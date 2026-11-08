@@ -1,0 +1,30 @@
+name: edgeR
+slug: edger
+version_used: null
+edam_topics: []
+evidence_spans:
+- '"RBGL","edgeR","fgsea","devtools"'
+- 'R packages: edger, limma, sva, ggplot2, ComplexHeatmap'
+- 'Differential expression analyss | R packages: DESeq2, edger, RankProd'
+- 'R packages: DESeq2, edger, RankProd, ggplot2 ComplexHeatmap'
+- the user can first filter their data setting specific thresholds and then normalize according to the type of data they have (with edgeR or quantile methods).
+derived_from:
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+- doi: 10.1101/2024.10.31.621429
+  title: 'SpaMTP: Integrative Statistical Analysis and Visualisation of Spatial Metabolomics and Transcriptomics data'
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+source_repos:
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+- https://github.com/GenomicsMachineLearning/SpaMTP
+- https://github.com/IxI-97/BiomiX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/MetaboAnalystR

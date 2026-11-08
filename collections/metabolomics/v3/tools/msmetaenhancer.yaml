@@ -1,0 +1,20 @@
+name: MSMetaEnhancer
+slug: msmetaenhancer
+version_used: null
+edam_topics: []
+evidence_spans:
+- MSMetaEnhancer is a Python software package for the metadata enrichment of records in mass spectral library files
+- '**MSMetaEnhancer** is a tool used for `.msp` files annotation. It adds metadata like SMILES, InChI, and CAS number fetched from the following services'
+derived_from:
+- doi: 10.21105/joss.04494
+  title: 'MSMetaEnhancer: A Python package for mass spectra
+
+    metadata annotation'
+source_repos:
+- https://github.com/RECETOX/MSMetaEnhancer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RECETOX/MSMetaEnhancer

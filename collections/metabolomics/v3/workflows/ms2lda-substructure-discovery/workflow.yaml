@@ -1,0 +1,196 @@
+schema_version: 0.3.0
+workflow_id: ms2lda_substructure_discovery
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess
+  goal: raw MS2 spectra (mgf/mzML/msp) -> cleaned, intensity-normalized bag-of-fragments
+    corpus
+  edam_operation: http://edamontology.org/operation_3632
+  skills:
+  - msms-noise-filtering
+  - mgf-spectra-noise-filtering-and-preprocessing
+  - mass-spectrometry-spectrum-preprocessing--99e25f8cc3a2c48f
+  - mass-spectra-preprocessing-and-binning
+  tools:
+  - MS2LDA.Preprocessing.generate_corpus
+  - MS2LDA.Preprocessing.load_and_clean
+  - RMassBank
+  - XCMS
+  inputs:
+  - type: mgf
+  - type: mzML
+  outputs:
+  - type: corpus-json
+  - type: mgf
+    flavour: gnps-fbmn
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-9b04884
+    - asb-paper-10-1073-pnas-1608041113
+    - asb-paper-10-1186-s13321-021-00558-4
+    - asb-paper-10-1186-s13321-024-00858-5
+    dois:
+    - 10.1021/acs.analchem.9b04884
+    - 10.1073/pnas.1608041113
+    - 10.1186/s13321-021-00558-4
+    - 10.1186/s13321-024-00858-5
+  after: []
+  candidate_tools:
+  - RDKit
+  - TransExION
+  - h5py
+  - pyteomics
+  - pyOpenMS
+  - pymzML
+  - seaborn
+  - spectrum_utils
+  - MS2DeepScore
+  - matchms
+- id: lda_modeling
+  goal: bag-of-fragments corpus -> Mass2Motifs (LDA topic model over spectral documents)
+  edam_operation: http://edamontology.org/operation_3644
+  skills:
+  - latent-dirichlet-allocation-topic-modeling
+  - lda-topic-model-visualization
+  - mass-spectrometry-fragmentation-motif-visualization
+  - msms-fragment-bag-of-words-corpus-construction
+  tools:
+  - MS2LDA
+  - MS2LDAvis
+  inputs:
+  - type: corpus-json
+  outputs:
+  - type: motifset-json
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1073-pnas-1608041113
+    dois:
+    - 10.1073/pnas.1608041113
+  after:
+  - preprocess
+  candidate_tools:
+  - LDAvis
+  - MS2LDAViz
+  - MS2LDA (latent Dirichlet allocation)
+  inputs_from:
+    preprocess:
+    - corpus-json
+- id: motif_annotation
+  goal: Mass2Motifs -> putative substructure annotations (MotifDB + Spec2Vec embedding
+    match)
+  edam_operation: http://edamontology.org/operation_3629
+  skills:
+  - mass2motif-spectral-matching-annotation
+  - motif-annotation-agreement-comparison
+  - combinatorial-fragmentation-substructure-annotation
+  tools:
+  - MS2Analyzer
+  - MS2LDA
+  inputs:
+  - type: motifset-json
+  outputs:
+  - type: annotated-motifset-json
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-jasms-4c00061
+    - asb-paper-10-1073-pnas-1608041113
+    dois:
+    - 10.1021/jasms.4c00061
+    - 10.1073/pnas.1608041113
+  after:
+  - lda_modeling
+  candidate_tools:
+  - MAGMa
+  - ModiFinder
+  inputs_from:
+    lda_modeling:
+    - motifset-json
+- id: network_mapping
+  goal: annotated Mass2Motifs + GNPS molecular network -> motif-enriched network nodes
+  edam_operation: http://edamontology.org/operation_3778
+  skills:
+  - molecular-network-mass2motif-mapping
+  - molecular-network-motif-annotation
+  - molecular-network-annotation-propagation--3c622bace7b9313a
+  - mass-spectral-molecular-network-motif-mapping
+  tools:
+  - Cytoscape
+  - GNPS
+  - MS2LDA
+  - MolNetEnhancer
+  - Network Annotation Propagation
+  - RMolNetEnhancer
+  - molconvert
+  - networkx
+  - pyMolNetEnhancer
+  inputs:
+  - type: annotated-motifset-json
+  - type: mgf
+    flavour: gnps-fbmn
+  outputs:
+  - type: graphml
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41587-020-0700-3
+    - asb-paper-10-3390-metabo9070144
+    dois:
+    - 10.1038/s41587-020-0700-3
+    - 10.3390/metabo9070144
+  after:
+  - motif_annotation
+  - preprocess
+  candidate_tools:
+  - DEREPLICATOR
+  inputs_from:
+    motif_annotation:
+    - annotated-motifset-json
+    preprocess:
+    - mgf:gnps-fbmn
+- id: report
+  goal: consolidate motifs + annotations + motif-enriched network into a substructure
+    discovery report
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - ms2lda-motif-summary-parsing
+  - fragment-pseudo-spectrum-representation-of-motifs
+  - mass2motif-membership-annotation
+  tools:
+  - Cytoscape
+  - GNPS
+  - MS2LDA
+  - MolNetEnhancer
+  - RMolNetEnhancer
+  - pyMolNetEnhancer
+  inputs:
+  - type: annotated-motifset-json
+  - type: graphml
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1073-pnas-1608041113
+    - asb-paper-10-3390-metabo9070144
+    dois:
+    - 10.1073/pnas.1608041113
+    - 10.3390/metabo9070144
+  after:
+  - motif_annotation
+  - network_mapping
+  candidate_tools:
+  - MS2Analyzer
+  - MS2LDAvis
+  - Molecular Networking
+  inputs_from:
+    motif_annotation:
+    - annotated-motifset-json
+    network_mapping:
+    - graphml
+verification:
+  final_outputs:
+  - path: ms2lda_substructure_report.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

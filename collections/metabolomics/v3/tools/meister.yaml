@@ -1,0 +1,20 @@
+name: MEISTER
+slug: meister
+version_used: null
+edam_topics: []
+evidence_spans:
+- using MEISTER, an integrative experimental and computational mass spectrometry (MS) framework
+- MEISTER, an integrative experimental and computational mass spectrometry (MS) framework
+- We demonstrate complementary brain-wide and single-cell biochemical mapping using MEISTER, an integrative experimental and computational mass spectrometry (MS) framework.
+- The documentation for training MEISTER signal models for reconstruction can be found
+derived_from:
+- doi: 10.1038/s41592-024-02171-3
+  title: Multiscale biochemical mapping of the brain through deep-learning-enhanced high-throughput mass spectrometry
+source_repos:
+- https://github.com/richardxie1119/MEISTER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/richardxie1119/MEISTER

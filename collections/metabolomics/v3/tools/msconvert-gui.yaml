@@ -1,0 +1,16 @@
+name: MSConvert GUI
+slug: msconvert-gui
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.3c04501
+  title: 'MINNO: An Open Source Software for Refining Metabolic Networks and Investigating Complex Network Activity Using Empirical Metabolomics Data'
+source_repos:
+- https://github.com/LewisResearchGroup/MINNO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LewisResearchGroup/MINNO

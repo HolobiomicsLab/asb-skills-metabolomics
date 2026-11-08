@@ -1,0 +1,22 @@
+name: SimSiam
+slug: simsiam
+version_used: null
+edam_topics: []
+evidence_spans:
+- The proposed DeepION model is constructed based on the SimSiam model
+- 'The proposed
+
+  DeepION model is constructed based on the SimSiam model'
+- The proposed DeepION model is constructed based on the SimSiam model,18 which aims to extract high-level spatial features
+derived_from:
+- doi: 10.1021/acs.analchem.3c05002
+  title: 'DeepION: A Deep Learning-Based Low-Dimensional Representation Model of Ion Images for Mass Spectrometry Imaging'
+source_repos:
+- https://github.com/BioNet-XMU/DeepION
+- https://github.com/gankLei-X/DeepION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioNet-XMU/DeepION

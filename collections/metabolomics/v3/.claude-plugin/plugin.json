@@ -1,0 +1,16 @@
+{
+  "author": {
+    "name": "Holobiomics Lab",
+    "url": "https://github.com/HolobiomicsLab"
+  },
+  "description": "ASB Metabolomics: 11830 evidence-grounded skills collected from a consolidated literature cut with local retrieval.",
+  "homepage": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+  "keywords": [
+    "metabolomics",
+    "scientific skills"
+  ],
+  "license": "CC-BY-4.0",
+  "name": "metabolomics",
+  "repository": "https://github.com/HolobiomicsLab/asb-skills-metabolomics",
+  "version": "0.1.0"
+}

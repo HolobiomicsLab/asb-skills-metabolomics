@@ -1,0 +1,18 @@
+name: pNovo 3
+slug: pnovo-3
+version_used: 3.1.3
+edam_topics: []
+evidence_spans:
+- We ran pNovo 3 (v.3.1.3) via its executable GUI, which included pre-trained models for specific enzymes.
+- compared their relative amount between pNovo 3, SMSNet, PointNovo and Casanovo across all data sets (Table 3)
+- we evaluated six recently developed de novo peptide sequencing algorithms (Novor, pNovo 3, DeepNovo, SMSNet, PointNovo and Casanovo)
+derived_from:
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

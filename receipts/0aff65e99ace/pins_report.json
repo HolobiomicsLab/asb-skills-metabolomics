@@ -1,0 +1,572 @@
+{
+  "workflows": {
+    "compound_class_annotation": {
+      "workflow_id": "compound_class_annotation",
+      "prefer": [],
+      "avoid": [
+        {
+          "scope": "classify",
+          "pin": "classyfire-superclass-frequency-tabulation",
+          "status": "resolved",
+          "resolved_slug": "classyfire-superclass-frequency-tabulation"
+        }
+      ],
+      "summary": {
+        "prefer_total": 0,
+        "prefer_resolved": 0,
+        "avoid_total": 1,
+        "avoid_resolved": 1
+      }
+    },
+    "fbmn_annotation_propagation": {
+      "workflow_id": "fbmn_annotation_propagation",
+      "prefer": [],
+      "avoid": [
+        {
+          "scope": "consolidate",
+          "pin": "feature-based-molecular-networking--f72759146010fbc6",
+          "status": "resolved",
+          "resolved_slug": "feature-based-molecular-networking--f72759146010fbc6"
+        }
+      ],
+      "summary": {
+        "prefer_total": 0,
+        "prefer_resolved": 0,
+        "avoid_total": 1,
+        "avoid_resolved": 1
+      }
+    },
+    "gcms_deconvolution_and_identification": {
+      "workflow_id": "gcms_deconvolution_and_identification",
+      "prefer": [
+        {
+          "stage": "deconvolution",
+          "pin": "gc-ms-spectral-deconvolution",
+          "status": "resolved",
+          "resolved_slug": "gc-ms-spectral-deconvolution"
+        },
+        {
+          "stage": "ei_library_match",
+          "pin": "gcms-spectral-library-matching",
+          "status": "resolved",
+          "resolved_slug": "gcms-spectral-library-matching"
+        },
+        {
+          "stage": "fusion",
+          "pin": "gcms-quantification-table-generation",
+          "status": "resolved",
+          "resolved_slug": "gcms-quantification-table-generation"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "ei_library_match",
+          "pin": "spectral-library-matching--55241d3be7a468a0",
+          "status": "resolved",
+          "resolved_slug": "spectral-library-matching--55241d3be7a468a0"
+        },
+        {
+          "scope": "fusion",
+          "pin": "gc-ms-deconvolution-feature-table-merging",
+          "status": "resolved",
+          "resolved_slug": "gc-ms-deconvolution-feature-table-merging"
+        },
+        {
+          "scope": "fusion",
+          "pin": "feature-quantification-table-generation--c9170aa8c7ea8cae",
+          "status": "resolved",
+          "resolved_slug": "feature-quantification-table-generation--c9170aa8c7ea8cae"
+        }
+      ],
+      "summary": {
+        "prefer_total": 3,
+        "prefer_resolved": 3,
+        "avoid_total": 3,
+        "avoid_resolved": 3
+      }
+    },
+    "gnn_spectral_property_prediction": {
+      "workflow_id": "gnn_spectral_property_prediction",
+      "prefer": [
+        {
+          "stage": "rescore",
+          "pin": "putative-identity-ranking-by-rt-error",
+          "status": "resolved",
+          "resolved_slug": "putative-identity-ranking-by-rt-error"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "rescore",
+          "pin": "candidate-structure-graph-construction-from-identification-candidates",
+          "status": "resolved",
+          "resolved_slug": "candidate-structure-graph-construction-from-identification-candidates"
+        }
+      ],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 1,
+        "avoid_resolved": 1
+      }
+    },
+    "in_silico_biotransformation_prediction": {
+      "workflow_id": "in_silico_biotransformation_prediction",
+      "prefer": [
+        {
+          "stage": "biotransformation_prediction",
+          "pin": "cyp450-phasei-phaseii-biotransformation-rule-application",
+          "status": "resolved",
+          "resolved_slug": "cyp450-phasei-phaseii-biotransformation-rule-application"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "ion_mobility_4d_annotation": {
+      "workflow_id": "ion_mobility_4d_annotation",
+      "prefer": [
+        {
+          "stage": "ccs_library_match",
+          "pin": "ccs-based-compound-identification",
+          "status": "resolved",
+          "resolved_slug": "ccs-based-compound-identification"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "preprocess_4d",
+          "pin": "ion-mobility-mass-spectrometry-peak-detection",
+          "status": "resolved",
+          "resolved_slug": "ion-mobility-mass-spectrometry-peak-detection"
+        },
+        {
+          "scope": "ccs_library_match",
+          "pin": "ion-mobility-arrival-time-peak-detection",
+          "status": "resolved",
+          "resolved_slug": "ion-mobility-arrival-time-peak-detection"
+        }
+      ],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 2,
+        "avoid_resolved": 2
+      }
+    },
+    "lipidomics_lcms_annotation": {
+      "workflow_id": "lipidomics_lcms_annotation",
+      "prefer": [
+        {
+          "stage": "preprocess",
+          "pin": "snakemake-workflow-rule-execution",
+          "status": "resolved",
+          "resolved_slug": "snakemake-workflow-rule-execution"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "preprocess",
+          "pin": "lipidomics-time-course-data-processing",
+          "status": "resolved",
+          "resolved_slug": "lipidomics-time-course-data-processing"
+        },
+        {
+          "scope": "fusion",
+          "pin": "lipidomics-feature-set-overlap-analysis",
+          "status": "resolved",
+          "resolved_slug": "lipidomics-feature-set-overlap-analysis"
+        }
+      ],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 2,
+        "avoid_resolved": 2
+      }
+    },
+    "masst_repository_scale_search": {
+      "workflow_id": "masst_repository_scale_search",
+      "prefer": [
+        {
+          "stage": "masst_search",
+          "pin": "fast-search-api-query-execution",
+          "status": "resolved",
+          "resolved_slug": "fast-search-api-query-execution"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "spectrum_prep",
+          "pin": "mass-spectrometry-spectrum-retrieval",
+          "status": "resolved",
+          "resolved_slug": "mass-spectrometry-spectrum-retrieval"
+        },
+        {
+          "scope": "masst_search",
+          "pin": "massive-public-dataset-spectrum-search-retrieval",
+          "status": "resolved",
+          "resolved_slug": "massive-public-dataset-spectrum-search-retrieval"
+        },
+        {
+          "scope": "specialized_masst",
+          "pin": "msms-spectral-search",
+          "status": "resolved",
+          "resolved_slug": "msms-spectral-search"
+        },
+        {
+          "scope": "cooccurrence",
+          "pin": "mass-spectrometry-match-table-compilation",
+          "status": "resolved",
+          "resolved_slug": "mass-spectrometry-match-table-compilation"
+        }
+      ],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 4,
+        "avoid_resolved": 4
+      }
+    },
+    "ms2lda_substructure_discovery": {
+      "workflow_id": "ms2lda_substructure_discovery",
+      "prefer": [],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 0,
+        "prefer_resolved": 0,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "ms_imaging_spatial_metabolomics": {
+      "workflow_id": "ms_imaging_spatial_metabolomics",
+      "prefer": [
+        {
+          "stage": "region_statistics",
+          "pin": "spatial-cluster-differential-metabolite-analysis",
+          "status": "resolved",
+          "resolved_slug": "spatial-cluster-differential-metabolite-analysis"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "spatial_annotation",
+          "pin": "metaspace-annotation-cross-referencing",
+          "status": "resolved",
+          "resolved_slug": "metaspace-annotation-cross-referencing"
+        }
+      ],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 1,
+        "avoid_resolved": 1
+      }
+    },
+    "nmr_metabolomics_profiling": {
+      "workflow_id": "nmr_metabolomics_profiling",
+      "prefer": [],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 0,
+        "prefer_resolved": 0,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "paired_omics_bgc_metabolite_linking": {
+      "workflow_id": "paired_omics_bgc_metabolite_linking",
+      "prefer": [
+        {
+          "stage": "bgc_mine",
+          "pin": "biosynthetic-gene-cluster-prediction-antismash",
+          "status": "resolved",
+          "resolved_slug": "biosynthetic-gene-cluster-prediction-antismash"
+        },
+        {
+          "stage": "gcf_cluster",
+          "pin": "biosynthetic-gene-cluster-similarity-network-analysis",
+          "status": "resolved",
+          "resolved_slug": "biosynthetic-gene-cluster-similarity-network-analysis"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "bgc_mine",
+          "pin": "biosynthetic-gene-cluster-detection",
+          "status": "resolved",
+          "resolved_slug": "biosynthetic-gene-cluster-detection"
+        },
+        {
+          "scope": "gcf_cluster",
+          "pin": "bgc-gene-cluster-family-fingerprint-construction",
+          "status": "resolved",
+          "resolved_slug": "bgc-gene-cluster-family-fingerprint-construction"
+        },
+        {
+          "scope": "mf_network",
+          "pin": "modified-cosine-similarity-networking",
+          "status": "resolved",
+          "resolved_slug": "modified-cosine-similarity-networking"
+        },
+        {
+          "scope": "report",
+          "pin": "hypergeometric-score-standardisation",
+          "status": "resolved",
+          "resolved_slug": "hypergeometric-score-standardisation"
+        }
+      ],
+      "summary": {
+        "prefer_total": 2,
+        "prefer_resolved": 2,
+        "avoid_total": 4,
+        "avoid_resolved": 4
+      }
+    },
+    "pathway_functional_analysis": {
+      "workflow_id": "pathway_functional_analysis",
+      "prefer": [
+        {
+          "stage": "feature_prep",
+          "pin": "lcms-feature-table-filtering--14a2cde736d2dabd",
+          "status": "resolved",
+          "resolved_slug": "lcms-feature-table-filtering--14a2cde736d2dabd"
+        },
+        {
+          "stage": "mummichog",
+          "pin": "mummichog-network-activity-prediction",
+          "status": "resolved",
+          "resolved_slug": "mummichog-network-activity-prediction"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "feature_prep",
+          "pin": "rank-based-gsea-enrichment-of-ms-features",
+          "status": "resolved",
+          "resolved_slug": "rank-based-gsea-enrichment-of-ms-features"
+        },
+        {
+          "scope": "pathway_enrichment",
+          "pin": "mummichog-pathway-enrichment-analysis",
+          "status": "resolved",
+          "resolved_slug": "mummichog-pathway-enrichment-analysis"
+        }
+      ],
+      "summary": {
+        "prefer_total": 2,
+        "prefer_resolved": 2,
+        "avoid_total": 2,
+        "avoid_resolved": 2
+      }
+    },
+    "sirius_denovo_structure_elucidation": {
+      "workflow_id": "sirius_denovo_structure_elucidation",
+      "prefer": [],
+      "avoid": [
+        {
+          "scope": "structure",
+          "pin": "fingerprint-conditioned-de-novo-structure-generation",
+          "status": "resolved",
+          "resolved_slug": "fingerprint-conditioned-de-novo-structure-generation"
+        },
+        {
+          "scope": "compound_class",
+          "pin": "msms-spectra-canopus-class-prediction",
+          "status": "resolved",
+          "resolved_slug": "msms-spectra-canopus-class-prediction"
+        }
+      ],
+      "summary": {
+        "prefer_total": 0,
+        "prefer_resolved": 0,
+        "avoid_total": 2,
+        "avoid_resolved": 2
+      }
+    },
+    "spec2vec_ml_embedding_annotation": {
+      "workflow_id": "spec2vec_ml_embedding_annotation",
+      "prefer": [
+        {
+          "stage": "retrieve_annotate",
+          "pin": "spectral-library-matching--599e7745b946f0de",
+          "status": "resolved",
+          "resolved_slug": "spectral-library-matching--599e7745b946f0de"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "retrieve_annotate",
+          "pin": "structural-analogue-library-matching",
+          "status": "resolved",
+          "resolved_slug": "structural-analogue-library-matching"
+        },
+        {
+          "scope": "retrieve_annotate",
+          "pin": "cosine-similarity-candidate-ranking-against-reference-db",
+          "status": "resolved",
+          "resolved_slug": "cosine-similarity-candidate-ranking-against-reference-db"
+        },
+        {
+          "scope": "retrieve_annotate",
+          "pin": "cosine-similarity-candidate-matching",
+          "status": "resolved",
+          "resolved_slug": "cosine-similarity-candidate-matching"
+        }
+      ],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 3,
+        "avoid_resolved": 3
+      }
+    },
+    "stable_isotope_tracing_fluxomics": {
+      "workflow_id": "stable_isotope_tracing_fluxomics",
+      "prefer": [],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 0,
+        "prefer_resolved": 0,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "statistics_and_biomarker_discovery": {
+      "workflow_id": "statistics_and_biomarker_discovery",
+      "prefer": [
+        {
+          "stage": "differential",
+          "pin": "pairwise-group-comparison-statistics",
+          "status": "resolved",
+          "resolved_slug": "pairwise-group-comparison-statistics"
+        },
+        {
+          "stage": "biomarker",
+          "pin": "feature-importance-rank-scoring",
+          "status": "resolved",
+          "resolved_slug": "feature-importance-rank-scoring"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "biomarker",
+          "pin": "random-forest-variable-importance-ranking",
+          "status": "resolved",
+          "resolved_slug": "random-forest-variable-importance-ranking"
+        },
+        {
+          "scope": "biomarker",
+          "pin": "random-forest-feature-importance-extraction",
+          "status": "resolved",
+          "resolved_slug": "random-forest-feature-importance-extraction"
+        }
+      ],
+      "summary": {
+        "prefer_total": 2,
+        "prefer_resolved": 2,
+        "avoid_total": 2,
+        "avoid_resolved": 2
+      }
+    },
+    "suspect_screening_exposomics": {
+      "workflow_id": "suspect_screening_exposomics",
+      "prefer": [
+        {
+          "stage": "report",
+          "pin": "csv-table-consolidation",
+          "status": "resolved",
+          "resolved_slug": "csv-table-consolidation"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "report",
+          "pin": "identification-success-table-reporting",
+          "status": "resolved",
+          "resolved_slug": "identification-success-table-reporting"
+        },
+        {
+          "scope": "report",
+          "pin": "cheminformatics-candidate-ranking",
+          "status": "resolved",
+          "resolved_slug": "cheminformatics-candidate-ranking"
+        }
+      ],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 2,
+        "avoid_resolved": 2
+      }
+    },
+    "targeted_lcms_quantification": {
+      "workflow_id": "targeted_lcms_quantification",
+      "prefer": [
+        {
+          "stage": "report",
+          "pin": "targeted-mrm-data-handling",
+          "status": "resolved",
+          "resolved_slug": "targeted-mrm-data-handling"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "report",
+          "pin": "qc-threshold-based-compound-flagging",
+          "status": "resolved",
+          "resolved_slug": "qc-threshold-based-compound-flagging"
+        }
+      ],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 1,
+        "avoid_resolved": 1
+      }
+    },
+    "untargeted_lcmsms_annotation": {
+      "workflow_id": "untargeted_lcmsms_annotation",
+      "prefer": [
+        {
+          "stage": "qc_filter",
+          "pin": "lcms-feature-quality-filtering",
+          "status": "resolved",
+          "resolved_slug": "lcms-feature-quality-filtering"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "network",
+          "pin": "feature-based-molecular-networking--7b025a18b065ae1c",
+          "status": "resolved",
+          "resolved_slug": "feature-based-molecular-networking--7b025a18b065ae1c"
+        },
+        {
+          "scope": "network",
+          "pin": "modified-cosine-similarity-networking",
+          "status": "resolved",
+          "resolved_slug": "modified-cosine-similarity-networking"
+        },
+        {
+          "scope": "fusion",
+          "pin": "lcms-feature-annotation-table-generation",
+          "status": "resolved",
+          "resolved_slug": "lcms-feature-annotation-table-generation"
+        }
+      ],
+      "summary": {
+        "prefer_total": 1,
+        "prefer_resolved": 1,
+        "avoid_total": 3,
+        "avoid_resolved": 3
+      }
+    }
+  }
+}

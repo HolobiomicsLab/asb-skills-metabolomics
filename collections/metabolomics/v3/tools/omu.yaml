@@ -1,0 +1,19 @@
+name: omu
+slug: omu
+version_used: null
+edam_topics: []
+evidence_spans:
+- Omu is an R package that enables rapid analysis of Metabolomics data sets
+- Omu is an R package that enables rapid analysis of Metabolomics data sets, and the creation of intuitive graphs
+- omu, a Metabolomics Analysis R Package
+derived_from:
+- doi: 10.1128/mra.00129-19
+  title: omu, a Metabolomics Count Data Analysis Tool for Intuitive Figures and Convenient Metadata Collection
+source_repos:
+- https://github.com/connor-reid-tiffany/Omu
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/connor-reid-tiffany/Omu

@@ -1,0 +1,17 @@
+name: sd.read_msp (file_io.read_msp)
+slug: sd-read-msp-file-io-read-msp
+version_used: null
+edam_topics: []
+evidence_spans:
+- '``file_io.read_msp`` will read in all standard MSP files into a pandas.Dataframe'
+derived_from:
+- doi: 10.1038/s41592-025-02646-x
+  title: Denoising Search doubles the number of metabolite and exposome annotations in human plasma using an Orbitrap Astral mass spectrometer
+source_repos:
+- https://github.com/FanzhouKong/spectral_denoising
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FanzhouKong/spectral_denoising

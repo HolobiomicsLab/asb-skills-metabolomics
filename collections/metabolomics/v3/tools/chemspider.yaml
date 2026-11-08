@@ -1,0 +1,21 @@
+name: Chemspider
+slug: chemspider
+version_used: null
+edam_topics: []
+evidence_spans:
+- compared with Pubchem (https://pubchem.ncbi.nlm.nih.gov/) and Chemspider (https://www.chemspider.com/) databases
+- retrieval of reference, data source and patent information via ChemSpider and PubChem web services
+derived_from:
+- doi: 10.1186/s13020-024-01031-8
+  title: 'An integrated approach for studying exposure, metabolism, and disposition of traditional Chinese medicine using PATBS and MDRB tools: a case study of semen Armeniacae Amarum'
+- doi: 10.1186/s13321-016-0115-9
+  title: 'MetFrag relaunched: incorporating strategies beyond in silico fragmentation'
+source_repos:
+- https://github.com/933ZhangDD/MDRB
+- https://github.com/ipb-halle/MetFragRelaunched
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/933ZhangDD/MDRB

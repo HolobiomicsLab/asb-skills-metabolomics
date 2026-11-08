@@ -1,0 +1,19 @@
+name: LipidCreator
+slug: lipidcreator
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we present LipidCreator, a software that fully supports targeted lipidomics assay development.
+- we here present a targeted lipidomics workbench and lipid knowledge-base that is fully integrated with Skyline
+- Try to export a blib file (after activating the collision energy module) from the lipid review dialog after adding some transitions
+derived_from:
+- doi: 10.1038/s41467-020-15960-z
+  title: LipidCreator workbench to probe the lipidomic landscape
+source_repos:
+- https://github.com/lifs-tools/lipidcreator
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lifs-tools/lipidcreator

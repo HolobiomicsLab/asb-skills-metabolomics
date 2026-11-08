@@ -1,0 +1,42 @@
+name: NetworkX
+slug: networkx
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- We heavily employed statistics routines from SciPy and the network analysis framework from NetworkX
+- '- seaborn
+
+  - networkx'
+- MetaboDirect is written in Python and uses a wide variety of packages, including pandas, NumPy, Matplotlib, seaborn, scikit-learn, and NetworkX
+- nx.write_graphml(graphML_classy, "Motif_ChemicalClass_Network_Classical.graphml", infer_numeric_types = True)
+derived_from:
+- doi: 10.1186/s13321-023-00734-8
+  title: 'The BinDiscover database: a biology-focused meta-analysis tool for 156,000 GC–TOF MS metabolome samples'
+- doi: 10.1093/bioinformatics/bty590
+  title: Liquid-chromatography retention order prediction for metabolite identification
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+- doi: 10.1101/2024.08.02.606356
+  title: Ordering molecular diversity in untargeted metabolomics via molecular community networking
+- doi: 10.1186/s40168-023-01476-3
+  title: 'MetaboDirect: an analytical pipeline for the processing of FT-ICR MS-based metabolomic data'
+- doi: 10.1021/jasms.5c00237
+  title: Multiple Spectrum Alignment for Molecular Networking Exploration and Discovery
+- doi: 10.3390/metabo9070144
+  title: 'MolNetEnhancer: Enhanced Molecular Networks by Integrating Metabolome Mining and Annotation Tools'
+- doi: 10.1016/j.isci.2020.100849
+  title: Inferring Biochemical Reactions and Metabolite Structures to Understand Metabolic Pathway Drift
+source_repos:
+- https://github.com/aalto-ics-kepaco/retention_order_prediction
+- https://github.com/kopeckylukas/py-mamsi
+- https://github.com/Alexander0/molecular_communities
+- https://github.com/Coayala/MetaboDirect
+- https://github.com/Wang-Bioinformatics-Lab/NetworkFamily_MultipleAlignment_Website
+- https://github.com/madeleineernst/pyMolNetEnhancer
+- https://github.com/pathmodel/pathmodel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aalto-ics-kepaco/retention_order_prediction

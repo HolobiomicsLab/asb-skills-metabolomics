@@ -1,0 +1,17 @@
+name: ToxPI
+slug: toxpi
+version_used: null
+edam_topics: []
+evidence_spans:
+- we further calculated the ToxPi score in order to more comprehensively estimate the toxicity ranking of chemicals
+derived_from:
+- doi: 10.1289/ehp7722
+  title: Risk-Based Chemical Ranking and Generating a Prioritized Human Exposome Database
+source_repos:
+- https://github.com/FangLabNTU/HExpMetDB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FangLabNTU/HExpMetDB

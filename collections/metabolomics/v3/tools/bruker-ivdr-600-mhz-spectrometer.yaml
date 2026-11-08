@@ -1,0 +1,17 @@
+name: Bruker IVDr 600 MHz spectrometer
+slug: bruker-ivdr-600-mhz-spectrometer
+version_used: null
+edam_topics: []
+evidence_spans:
+- NMR samples were acquired using Bruker IVDr 600 MHz spectrometers
+derived_from:
+- doi: 10.1021/acs.analchem.1c00113
+  title: A Computationally Lightweight Algorithm for Deriving Reliable Metabolite Panel Measurements from 1D <sup>1</sup>H NMR
+source_repos:
+- https://github.com/pantakis/SMolESY-select
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pantakis/SMolESY-select

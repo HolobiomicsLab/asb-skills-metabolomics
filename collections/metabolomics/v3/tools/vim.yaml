@@ -1,0 +1,21 @@
+name: VIM
+slug: vim
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `VIM (Imports)`'
+- library(VIM)
+derived_from:
+- doi: 10.1093/bioinformatics/btae373
+  title: 'MetaboReport: from metabolomics data analysis to comprehensive reporting'
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+source_repos:
+- https://github.com/YonghuiDong/MetReport
+- https://github.com/scibiome/meteor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YonghuiDong/MetReport

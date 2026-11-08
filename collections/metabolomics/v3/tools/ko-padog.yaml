@@ -1,0 +1,17 @@
+name: KO_padog
+slug: ko-padog
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `KO_padog(reporter_res, verbose, perm, p.adjust.method, ...)`'
+derived_from:
+- doi: 10.1093/bib/bbae116
+  title: Generalized reporter score-based enrichment analysis for omics data
+source_repos:
+- https://github.com/Asa12138/ReporterScore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Asa12138/ReporterScore

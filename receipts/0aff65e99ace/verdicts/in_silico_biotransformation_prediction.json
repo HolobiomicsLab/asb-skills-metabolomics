@@ -1,0 +1,42 @@
+{
+  "workflow": "in_silico_biotransformation_prediction",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Benchmarks whether language-model-generated molecules resemble BioTransformer products rather than predicting products for the supplied parent structure.",
+      "severity": "advisory",
+      "slug": "biotransformer-one-step-transformation-recapitulation",
+      "stage": "biotransformation_prediction"
+    },
+    {
+      "check": "V4",
+      "detail": "Filters generated structures by neutral exact mass within a ppm window but does not calculate and match the common adduct m/z values requested by the query.",
+      "severity": "advisory",
+      "slug": "metabolite-mass-filtering-by-exact-mass-tolerance",
+      "stage": "candidate_filtering"
+    },
+    {
+      "check": "V4",
+      "detail": "Detects, aligns, and quantifies LC-MS features from raw data but does not export the requested per-feature MS2 spectra.",
+      "severity": "advisory",
+      "slug": "lcms-feature-detection-and-quantification",
+      "stage": "preprocess"
+    },
+    {
+      "check": "V4",
+      "detail": "Links observed accurate-mass features to parent compounds and reaction rules but does not consolidate the stage's MS/MS-matched ranked hits.",
+      "severity": "advisory",
+      "slug": "biotransformation-reaction-rule-matching",
+      "stage": "report"
+    }
+  ],
+  "verdict": "pass"
+}

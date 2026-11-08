@@ -1,0 +1,20 @@
+name: NMRbox
+slug: nmrbox
+version_used: null
+edam_topics: []
+evidence_spans:
+- PyINETA is available on NMRbox.
+derived_from:
+- doi: 10.1021/acs.analchem.4c03966
+  title: 'PyINETA: Open-Source Platform for INADEQUATE-JRES Integration in NMR Metabolomics'
+- doi: 10.1021/acs.analchem.3c03078
+  title: 'SAND: Automated Time-Domain Modeling of NMR Spectra Applied to Metabolite Quantification'
+source_repos:
+- https://github.com/edisonomics/PyINETA
+- https://github.com/edisonomics/SAND
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/edisonomics/PyINETA

@@ -1,0 +1,19 @@
+name: MOFA2
+slug: mofa2
+version_used: 1.3.4
+edam_topics: []
+evidence_spans:
+- We applied MOFA using the R/Bioconductor library MOFA2 (1.3.4)
+- We applied MOFA using the R/Bioconductor library MOFA2 (1.3.4) [67, 95] to obtain factors for the buccal DNA methylation and urine metabolomics data
+derived_from:
+- doi: 10.1093/gigascience/giad115
+  title: A multi-omics data analysis workflow packaged as a FAIR Digital Object
+source_repos:
+- https://github.com/Xomics/ACTIONdemonstrator_workflow.git
+- https://github.com/Xomics/ACTIONdemonstrator_workflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Xomics/ACTIONdemonstrator_workflow.git

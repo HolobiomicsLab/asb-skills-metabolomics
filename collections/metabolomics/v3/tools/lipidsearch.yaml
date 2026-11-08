@@ -1,0 +1,22 @@
+name: LipidSearch
+slug: lipidsearch
+version_used: null
+edam_topics: []
+evidence_spans:
+- such as MS-DIAL11, LipidSearch12, Spectral Entropy13,14, and LipidMatch8
+- It handles the outputs from LipidSearch and LIQUID for lipid identification and quantification
+- If you want to test the software with a LipidSearch output, here we provide the files used in the Case Study 1
+derived_from:
+- doi: 10.1038/s41467-025-59683-5
+  title: 'LipidIN: a comprehensive repository for flash platform-independent annotation and reverse lipidomics'
+- doi: 10.1093/bioinformatics/btac706
+  title: 'ADViSELipidomics: a workflow for analyzing lipidomics data'
+source_repos:
+- https://github.com/LinShuhaiLAB/LipidIN
+- https://github.com/ShinyFabio/ADViSELipidomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LinShuhaiLAB/LipidIN

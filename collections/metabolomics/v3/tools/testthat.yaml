@@ -1,0 +1,17 @@
+name: testthat
+slug: testthat
+version_used: null
+edam_topics: []
+evidence_spans:
+- testthat (Suggests)
+derived_from:
+- doi: 10.1093/bioinformatics/btac647
+  title: "Homologue series detection and management in LC-MS data with\n                    <i>homologueDiscoverer</i>"
+source_repos:
+- https://github.com/kevinmildau/homologueDiscoverer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kevinmildau/homologueDiscoverer

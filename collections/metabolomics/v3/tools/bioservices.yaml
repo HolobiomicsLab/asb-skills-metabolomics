@@ -1,0 +1,18 @@
+name: BioServices
+slug: bioservices
+version_used: 1.11.2
+edam_topics: []
+evidence_spans:
+- BioServices (version 1.11.2)
+- PubChemPy (version 1.0.4), BioServices (version 1.11.2), scikit-learn (version 1.1.2)
+derived_from:
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+source_repos:
+- https://github.com/HassounLab/BAM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/BAM

@@ -1,0 +1,22 @@
+name: PointNovo
+slug: pointnovo
+version_used: null
+edam_topics: []
+evidence_spans:
+- PointNovo17, the successor to DeepNovo, leverages an order-invariant network architecture to model high-resolution MS/MS spectra
+- we trained all DL-based tools on high-resolution MS/MS data from the human proteome using the HCD library from MassIVE
+- compared their relative amount between pNovo 3, SMSNet, PointNovo and Casanovo across all data sets (Table 3)
+- we evaluated six recently developed de novo peptide sequencing algorithms (Novor, pNovo 3, DeepNovo, SMSNet, PointNovo and Casanovo)
+derived_from:
+- doi: 10.1038/s41467-024-49731-x
+  title: Sequence-to-sequence translation from mass spectra to peptides with a transformer model
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+source_repos:
+- https://github.com/Noble-Lab/casanovo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Noble-Lab/casanovo

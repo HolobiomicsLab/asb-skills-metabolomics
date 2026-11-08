@@ -1,0 +1,18 @@
+name: GNPS_LCMSDashboard
+slug: gnps-lcmsdashboard
+version_used: null
+edam_topics: []
+evidence_spans:
+- github.com__Wang-Bioinformatics-Lab__GNPS_LCMSDashboard
+- GNPS-LCMS is based on USI's and it's a web application built upon plotly's Dash Framework
+derived_from:
+- doi: 10.1038/s41592-021-01339-5
+  title: 'GNPS Dashboard: collaborative exploration of mass spectrometry data in the web browser'
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/GNPS_LCMSDashboard
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/GNPS_LCMSDashboard

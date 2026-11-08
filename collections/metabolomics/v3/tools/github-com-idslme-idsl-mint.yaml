@@ -1,0 +1,22 @@
+name: github.com/idslme/IDSL_MINT
+slug: github-com-idslme-idsl-mint
+version_used: null
+edam_topics: []
+evidence_spans:
+- The IDSL_MINT framework and tutorials are available in the GitHub repository at https://github.com/idslme/IDSL_MINT.
+- 'Install the package: ... `pip install git+https://github.com/idslme/IDSL_MINT`'
+- '`git clone https://github.com/idslme/IDSL_MINT.git`'
+- 'Source: github:github.com__idslme__IDSL_MINT'
+- we have developed IDSL_MINT (https://github.com/idslme/IDSL_MINT)
+- The codebase and the documentation are provided at https://github.com/idslme/IDSL_MINT to install IDSL_MINT in a local Linux server.
+derived_from:
+- doi: 10.1186/s13321-024-00804-5
+  title: 'IDSL_MINT: a deep learning framework to predict molecular fingerprints from mass spectra'
+source_repos:
+- https://github.com/idslme/IDSL_MINT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/idslme/IDSL_MINT

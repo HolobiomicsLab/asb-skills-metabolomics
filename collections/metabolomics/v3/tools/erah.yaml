@@ -1,0 +1,20 @@
+name: erah
+slug: erah
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we introduce e Rah, a free computational tool written in the open language R composed of five core functions
+- The compounds in data are deconvolved using `deconvolveComp()`
+- Alignment is executed with `alignComp()`
+- eRah can be installed from any
+derived_from:
+- doi: 10.1021/acs.analchem.6b02927
+  title: 'eRah: A Computational Tool Integrating Spectral Deconvolution and Alignment with Quantification and Identification of Metabolites in GC/MS-Based Metabolomics'
+source_repos:
+- https://github.com/xdomingoal/erah-devel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xdomingoal/erah-devel

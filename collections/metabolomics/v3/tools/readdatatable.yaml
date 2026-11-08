@@ -1,0 +1,17 @@
+name: .readDataTable
+slug: readdatatable
+version_used: null
+edam_topics: []
+evidence_spans:
+- .readDataTable(fileName, save.copy)
+derived_from:
+- doi: 10.1093/nar/gkae253
+  title: 'MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation'
+source_repos:
+- https://github.com/xia-lab/MetaboAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/MetaboAnalystR

@@ -1,0 +1,348 @@
+schema_version: 0.3.0
+workflow_id: untargeted_lcmsms_annotation
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess
+  goal: raw mzML -> aligned feature table + MS2 exports (GNPS-FBMN mgf + SIRIUS mgf)
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - lc-ms-peak-detection-and-feature-alignment
+  - lcms-peak-detection-preprocessing
+  - untargeted-metabolomics-preprocessing
+  - lc-msms-feature-detection-and-alignment
+  tools:
+  - MS2LDA.Preprocessing.generate_corpus
+  - MS2LDA.Preprocessing.load_and_clean
+  - RMassBank
+  - XCMS
+  inputs:
+  - type: mzML
+  outputs:
+  - type: feature-table
+  - type: mgf
+    flavour: gnps-fbmn
+  - type: mgf
+    flavour: sirius
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-jnatprod-7b00737
+    - asb-paper-10-1038-s41598-020-70850-0
+    - asb-paper-10-1073-pnas-1608041113
+    - asb-paper-10-1186-s13321-023-00724-w
+    dois:
+    - 10.1021/acs.jnatprod.7b00737
+    - 10.1038/s41598-020-70850-0
+    - 10.1073/pnas.1608041113
+    - 10.1186/s13321-023-00724-w
+  after: []
+  candidate_tools:
+  - R
+  - apLCMS
+  - doParallel
+  - foreach
+  - mzR
+  - splines
+  - OpenMS
+  - Python
+  - Snakemake
+  - ThermoRawFileParser
+  - UmetaFlow
+  - pyOpenMS
+  - MZmine2
+  - Optimus
+- id: qc_filter
+  goal: (optional) remove blank / background / low-quality features before annotation
+  edam_operation: http://edamontology.org/operation_3695
+  skills:
+  - lcms-feature-quality-filtering
+  - blank-subtraction-quality-filtering
+  - blank-vs-qc-intensity-ratio-filtering
+  - blank-sample-removal-qc
+  - blank-filtering-of-ms-features
+  tools:
+  - Pandas
+  - TidyMS
+  - pyopenms
+  - scikit-learn
+  inputs:
+  - type: feature-table
+  outputs:
+  - type: feature-table
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s00216-021-03392-7
+    - asb-paper-10-1038-s41467-022-28391-9
+    - asb-paper-10-1186-s13321-023-00724-w
+    - asb-paper-10-1515-jib-2025-0047
+    - asb-paper-10-3390-metabo10100416
+    dois:
+    - 10.1007/s00216-021-03392-7
+    - 10.1038/s41467-022-28391-9
+    - 10.1186/s13321-023-00724-w
+    - 10.1515/jib-2025-0047
+    - 10.3390/metabo10100416
+  after:
+  - preprocess
+  candidate_tools:
+  - MSnbase
+  - Metaboseek
+  - mzR
+  - xcms
+  - GetFeatistics
+  - MS-DIAL
+  - R
+  - patRoon
+  - Jupyter
+  - OpenMS
+  - OpenMS 3.0
+  - Python
+  - Snakemake
+  - UmetaFlow
+  - FluoroMatch Flow 2.0
+  - FluoroMatch Modular
+  - LipidMatch
+  - LipidMatch 4.2
+  inputs_from:
+    preprocess:
+    - feature-table
+  optional: true
+- id: network
+  goal: MS2 spectra -> molecular family graph (modified cosine; GNPS-style components)
+  edam_operation: http://edamontology.org/operation_3214
+  skills:
+  - feature-based-molecular-networking--a1d4da5bf30d5f86
+  - msms-spectral-similarity-molecular-networking
+  - feature-based-molecular-networking--e34d752ede072f7b
+  - gnps-molecular-networking-workflow
+  tools:
+  - ChemWalker
+  - GNPS2
+  - MSConvert
+  - MZmine
+  - MZmine 2.53
+  - SIRIUS 5.8.5
+  inputs:
+  - type: mgf
+    flavour: gnps-fbmn
+  outputs:
+  - type: graphml
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-3c05829
+    - asb-paper-10-1038-s41596-020-0317-5
+    - asb-paper-10-1101-2024-08-07-607073
+    dois:
+    - 10.1021/acs.analchem.3c05829
+    - 10.1038/s41596-020-0317-5
+    - 10.1101/2024.08.07.607073
+  after:
+  - preprocess
+  candidate_tools:
+  - Cytoscape
+  - GNPS
+  - MSConvert (ProteoWizard)
+  - GNPS (Global Natural Products Social Molecular Networking)
+  - Mascot Generic Format (MGF)
+  - NP3 MS Workflow
+  - Tremolo
+  - MZmine2
+  - OpenMS TOPPView
+  inputs_from:
+    preprocess:
+    - mgf:gnps-fbmn
+- id: library_match
+  goal: MS2 spectra -> spectral library annotations (cosine match to reference libraries)
+  edam_operation: http://edamontology.org/operation_3631
+  skills:
+  - spectral-library-matching--c9ea083859d5db3b
+  - mass-spectral-library-matching--d96cdbebfa644977
+  - spectral-library-matching--c3bacc8572caec82
+  - spectral-library-matching--599e7745b946f0de
+  tools:
+  - GNPS
+  - tissueMASST
+  inputs:
+  - type: mgf
+    flavour: gnps-fbmn
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1073-pnas-1608041113
+    - asb-paper-10-1101-2024-08-07-607073
+    - asb-paper-10-1101-2025-04-28-651123
+    - asb-paper-10-1371-journal-pcbi-1008724
+    dois:
+    - 10.1073/pnas.1608041113
+    - 10.1101/2024.08.07.607073
+    - 10.1101/2025.04.28.651123
+    - 10.1371/journal.pcbi.1008724
+  after:
+  - preprocess
+  candidate_tools:
+  - MS2LDA
+  - MS2LDAvis
+  - Mass Bank
+  - MassIVE
+  - ChemWalker
+  - GNPS library
+  - GNPS2
+  - GNPS2 (FBMN workflow)
+  - MZmine
+  - MZmine 2.53
+  - RegFilter
+  - MS2DECIDE
+  - Spec2Vec
+  - gensim (Word2Vec)
+  - matchms
+  - spec2vec_gnps_data_analysis
+  inputs_from:
+    preprocess:
+    - mgf:gnps-fbmn
+- id: sirius
+  goal: MS2 spectra -> formula + structure + class (SIRIUS / CSI:FingerID / CANOPUS)
+  edam_operation: http://edamontology.org/operation_3860
+  skills:
+  - batch-ms2-annotation-automation
+  - msms-spectra-sirius-csi-fingerid-annotation
+  - csi-fingerid-structure-annotation
+  - insilico-formula-annotation-sirius
+  tools:
+  - CANOPUS
+  - ENPKG
+  - ENPKG (04_enpkg_sirius_canopus)
+  - NPClassifier
+  - SIRIUS
+  inputs:
+  - type: mgf
+    flavour: sirius
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-8b04698
+    - asb-paper-10-1021-acscentsci-3c00800
+    - asb-paper-10-1038-s41564-023-01575-9
+    dois:
+    - 10.1021/acs.analchem.8b04698
+    - 10.1021/acscentsci.3c00800
+    - 10.1038/s41564-023-01575-9
+  after:
+  - preprocess
+  candidate_tools:
+  - CSI:FingerID
+  - HILIC-Q Exactive HF mass spectrometry
+  - OpenMS
+  - UmetaFlow
+  - pyOpenMS
+  - Fast Search API
+  - MZmine
+  - Python 3.10
+  - microbeMASST
+  inputs_from:
+    preprocess:
+    - mgf:sirius
+- id: fusion
+  goal: consolidate networking + library + SIRIUS into one master table, with optional
+    taxonomy re-weighting
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - multi-tool-annotation-table-construction
+  - metabolite-annotation-mapping
+  - metabolomics-feature-table-processing
+  - mass-spectral-library-matching-cleanup
+  tools:
+  - GNPS
+  - ISDB-LOTUS
+  - MS2DECIDE
+  - Sirius
+  - matchms
+  inputs:
+  - type: feature-table
+  - type: graphml
+  - type: tsv
+  - type: metadata
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-cmtd-202400088
+    - asb-paper-10-1038-s41589-020-00677-3
+    - asb-paper-10-3389-fmolb-2022-1028334
+    dois:
+    - 10.1002/cmtd.202400088
+    - 10.1038/s41589-020-00677-3
+    - 10.3389/fmolb.2022.1028334
+  after:
+  - preprocess
+  - qc_filter
+  - network
+  - library_match
+  - sirius
+  candidate_tools:
+  - CSI:FingerID
+  - ClassyFire
+  - Empress
+  - QIIME 2
+  - Qemistree
+  - q2-qemistree
+  - MZmine2
+  - Python
+  - Qemistree (q2-qemistree)
+  - R
+  - Inventa
+  - MZmine3
+  - gnps_postprocessing
+  - timaR
+  inputs_from:
+    preprocess:
+    - feature-table
+    qc_filter:
+    - feature-table
+    network:
+    - graphml
+    - tsv
+    library_match:
+    - tsv
+    sirius:
+    - tsv
+verification:
+  final_outputs:
+  - path: master_annotation_table.tsv
+    type: file
+provenance:
+  derived_from_workflows:
+  - coll_ms2deepscore
+  - coll_ramclust_cq
+  - coll_xcms_cq
+  - coll_inventa_cq
+  - coll_nmr2struct
+  - spec2vec_grounded
+  - spec2vec_pkg_oalarge
+  - coll_bioactivity_based_molecular_networking_cq
+  - coll_concise_cq
+  - coll_redu_cq
+  - coll_deepmsprofiler_cq
+  - coll_cardinal_cq
+  - coll_dures_cq
+  - coll_fbmn_stats_cq
+  - coll_idsl_ipa_cq
+  - coll_metabodirect
+  - coll_multiomicsintegrator_cq
+  - coll_peakqc_cq
+  - coll_tardis
+  - coll_vimms
+  - coll_lipidin_cq
+  - coll_molnetenhancer
+  - coll_ms2rescore_immunopeptidome_rescoring_cq
+  - coll_npclassscore_cq
+  - coll_rapidmass_cq
+  - coll_tardis_cq
+  - coll_esp_cq
+  - coll_graphormer_rt_cq
+  - coll_lipidmatch_cq
+  - coll_corems
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

@@ -1,0 +1,19 @@
+name: faiss.IndexFlatL2
+slug: faiss-indexflatl2
+version_used: null
+edam_topics: []
+evidence_spans:
+- They can be calculated by the Euclidean distance between two normalized vectors using faiss.IndexFlatL241
+- calculated by the Euclidean distance between two normalized vectors using faiss.IndexFlatL2
+- using faiss.IndexFlatL2
+derived_from:
+- doi: 10.1038/s41467-023-39279-7
+  title: Ultra-fast and accurate electron ionization mass spectrum matching for compound identification with million-scale in-silico library
+source_repos:
+- https://github.com/Qiong-Yang/FastEI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Qiong-Yang/FastEI

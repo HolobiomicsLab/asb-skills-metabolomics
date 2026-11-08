@@ -1,0 +1,40 @@
+name: pROC
+slug: proc
+version_used: null
+edam_topics: []
+evidence_spans:
+- if (!require("pROC")) install.packages("pROC")
+- survminer, pROC (Robin et al., 2011), FactoMineR (Lê et al., 2008)
+- the application will not compute an ROC curve
+- packageVersion("pROC")
+- R packages including ropls, Metabo AnalystR, Hmisc, pROC, random Forest, and Boruta were utilized for analysis.
+- pROC (Imports)
+derived_from:
+- doi: 10.1093/bioinformatics/btac388
+  title: 'MiMIR: R-shiny application to infer risk factors and endpoints from Nightingale Health’s 1H-NMR metabolomics data'
+- doi: 10.1016/j.aca.2025.344698
+  title: 'DIATAGeR: Triacylglycerol annotation of data-independent acquisition based lipidomics'
+- doi: 10.3389/fgene.2022.957317
+  title: 'GraphBio: A shiny web app to easily perform popular visualization analysis for omics data'
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+- doi: 10.3390/metabo13080944
+  title: Denoising Autoencoder Normalization for Large-Scale Untargeted Metabolomics by Gas Chromatography–Mass Spectrometry
+- doi: 10.3389/fchem.2021.659656
+  title: 'iMAP: A Web Server for Metabolomics Data Integrative Analysis'
+- doi: 10.1093/gigascience/giy136
+  title: 'Lilikoi: an R package for personalized pathway-based classification modeling using metabolomics data'
+source_repos:
+- https://github.com/DanieleBizzarri/MiMIR
+- https://github.com/Velenosi-Lab/DIATAGeR
+- https://github.com/databio2022/GraphBio
+- https://github.com/scibiome/meteor
+- https://github.com/slfan2013/SERDA
+- https://github.com/IP4M/R-scripts-for-iMAP
+- https://github.com/lanagarmire/lilikoi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DanieleBizzarri/MiMIR

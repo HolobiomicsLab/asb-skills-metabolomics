@@ -1,0 +1,32 @@
+name: tidyMass
+slug: tidymass
+version_used: null
+edam_topics: []
+evidence_spans:
+- if (!require('tidymass')) {
+- library(tidymass)
+- 'library(tidyverse)
+
+  library(tidymass)'
+- "if (!require('tidymass')) {\n  source(\"https://www.tidymass.org/tidymass-packages/install_tidymass.txt\");"
+- TidyMass an Object-Oriented Reproducible Analysis Framework for LC Data
+- we present the tidyMass project (https://www.tidymass.org/), a comprehensive R-based computational framework
+- tidymass::check_tidymass_version()
+- we present the tidyMass project (https://www.tidymass.org/), a comprehensive computational framework
+derived_from:
+- doi: 10.1111/jipb.13774
+  title: 'MetMiner: A user‐friendly pipeline for large‐scale plant metabolomics data analysis'
+- doi: 10.1038/s41467-022-32155-w
+  title: TidyMass an object-oriented reproducible analysis framework for LC–MS data
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+source_repos:
+- https://github.com/ShawnWx2019/MetMiner
+- https://github.com/tidymass/tidymass
+- https://github.com/IxI-97/BiomiX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShawnWx2019/MetMiner

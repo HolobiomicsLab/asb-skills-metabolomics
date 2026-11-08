@@ -1,0 +1,21 @@
+name: Optimus
+slug: optimus
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/nprot.2017.122
+  title: 3D molecular cartography using LC–MS facilitated by Optimus and 'ili software
+- doi: 10.1021/acs.jnatprod.7b00737
+  title: 'Bioactivity-Based Molecular Networking for the Discovery
+
+    of Drug Leads in Natural Product Bioassay-Guided Fractionation'
+source_repos:
+- https://github.com/MolecularCartography/Optimus
+- https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MolecularCartography/Optimus

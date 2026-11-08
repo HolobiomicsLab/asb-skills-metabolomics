@@ -1,0 +1,16 @@
+name: SingleFrag
+slug: singlefrag
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2024.11.04.621329
+  title: 'SingleFrag: A deep learning tool for MS/MS fragment and spectral prediction and metabolite annotation'
+source_repos:
+- https://github.com/MaribelPR/SingleFrag
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MaribelPR/SingleFrag

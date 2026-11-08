@@ -1,0 +1,44 @@
+name: Jupyter
+slug: jupyter
+version_used: null
+edam_topics: []
+evidence_spans:
+- if the software is to be used from within a Jupyter-notebook, Jupyter.
+- Use the Jupyter notebook [Create_dataset_tsv](./Create_dataset_tsv.ipynb)
+- the workflow is also implemented in Jupyter notebooks using the Python programming language
+- external tools (e.g. R, Jupyter, Python, etc). This allows users to share their analysis workflows
+- We employed Jupyter and the Python ISA API to create ISA-Tab and ISA-JSON files
+derived_from:
+- doi: 10.1101/2025.02.07.637102
+  title: 'ChemEmbed: A deep learning framework for metabolite identification using enhanced MS/MS data and multidimensional molecular embeddings'
+- doi: 10.1021/acs.analchem.2c05810
+  title: Generalized Tree Structure to Annotate Untargeted Metabolomics and Stable Isotope Tracing Data
+- doi: 10.3390/metabo15010048
+  title: MetaboLabPy—An Open-Source Software Package for Metabolomics NMR Data Processing and Metabolic Tracer Data Analysis
+- doi: 10.1021/acs.jproteome.4c01140
+  title: 'MSIght: A Modular Platform for Improved Confidence in Global, Untargeted Mass Spectrometry Imaging Annotation'
+- doi: 10.1021/acs.analchem.3c01653
+  title: '<i>mzapy</i>: An Open-Source Python Library Enabling Efficient Extraction and Processing of Ion Mobility Spectrometry-Mass Spectrometry Data in the MZA File Format'
+- doi: 10.1186/s13321-023-00724-w
+  title: 'UmetaFlow: an untargeted metabolomics workflow for high-throughput data processing and analysis'
+- doi: 10.12688/f1000research.14613.2
+  title: 'CyTargetLinker app update: A flexible solution for network extension in Cytoscape'
+- doi: 10.1093/gigascience/giad115
+  title: A multi-omics data analysis workflow packaged as a FAIR Digital Object
+source_repos:
+- https://github.com/massspecdl/ChemEmbed
+- https://github.com/shuzhao-li-lab/khipu
+- https://github.com/ludwigc/metabolabpy
+- https://github.com/lingjunli-research/MSIght
+- https://github.com/laurenfields/MSIght
+- https://github.com/PNNL-m-q/mzapy
+- https://github.com/biosustain/pyOpenMS_UmetaFlow.git
+- https://github.com/biosustain/snakemake_UmetaFlow
+- https://github.com/CyTargetLinker/linkset-automation
+- https://github.com/Xomics/ACTIONdemonstrator_workflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/massspecdl/ChemEmbed

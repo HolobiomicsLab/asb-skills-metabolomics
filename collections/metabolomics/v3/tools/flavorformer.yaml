@@ -1,0 +1,21 @@
+name: FlavorFormer
+slug: flavorformer
+version_used: null
+edam_topics: []
+evidence_spans:
+- The model parameters is located in the [model](model/) folder and the required data is in the [data](data/) folder, FlavorFormer can be reload and predict easily.
+- FlavorFormer can be reload and predict easily.
+- The model parameters is located in the [model](model/) folder and the required data is in the [data](data/) folder
+- FlavorFormer can be reload and predict easily
+derived_from:
+- doi: 10.1016/j.microc.2025.115372
+  title: 'FlavorFormer: hybrid deep learning for identifying compounds in flavor mixtures based on NMR spectroscopy'
+source_repos:
+- https://github.com/yfWang01/FlavorFormer.git
+- https://github.com/yfWang01/FlavorFormer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yfWang01/FlavorFormer.git

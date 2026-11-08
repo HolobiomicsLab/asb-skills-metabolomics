@@ -1,0 +1,27 @@
+name: SMART 2.0
+slug: smart-2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- These metrics revealed the significantly improved performance of DeepSAT over SMART 2.0 with a two-fold higher F1-score
+- With SMART 2.0, we enhanced SMART 1.0 by introducing new analytical modules in targeted metabolomics analysis
+- SMART 2.0 offers integrative omics pathway analysis and postanalysis tasks such as peak identification and concentration calibration
+- we enhanced SMART 1.0 by introducing new analytical modules in targeted metabolomics analysis
+- With SMART 2.0, we enhanced SMART 1.0 by introducing new analytical modules
+derived_from:
+- doi: 10.1021/jacs.9b13786
+  title: A Convolutional Neural Network-Based Approach for the Rapid Annotation of Molecularly Diverse Natural Products
+- doi: 10.1186/s13321-023-00738-4
+  title: 'DeepSAT: Learning Molecular Structures from Nuclear Magnetic Resonance Data'
+- doi: 10.1021/acs.analchem.5c03225
+  title: 'SMART 2.0 Statistical Metabolomics Analysis: An R Tool 2.0'
+source_repos:
+- https://github.com/mwang87/NP-Classifier
+- https://github.com/mwang87/DeepSAT
+- https://github.com/YuJenL/SMART
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mwang87/NP-Classifier

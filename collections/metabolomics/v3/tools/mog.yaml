@@ -1,0 +1,19 @@
+name: MOG
+slug: mog
+version_used: null
+edam_topics: []
+evidence_spans:
+- we used MOG to compute pairwise Pearson correlations among samples from the same biological condition
+- The statistical analyses and visualizations shown were generated exclusively using MOG.
+- The main class is _MetaOmGraph_.
+derived_from:
+- doi: 10.1093/nar/gkz1209
+  title: 'MetaOmGraph: a workbench for interactive exploratory data analysis of large expression datasets'
+source_repos:
+- https://github.com/urmi-21/MetaOmGraph
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/urmi-21/MetaOmGraph

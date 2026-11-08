@@ -1,0 +1,19 @@
+name: k-nearest neighbor classifier
+slug: k-nearest-neighbor-classifier
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present a k-nearest neighbor classifier to systematically connect mass spectrometry fragmentation spectra to their corresponding biosynthetic gene clusters
+- This matrix can be fed to the k-nearest neighbor (KNN) algorithm in order to train it with the genomic data.
+- we present a k-nearest neighbor classifier to systematically connect mass spectrometry fragmentation spectra to their corresponding biosynthetic gene clusters
+derived_from:
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+source_repos:
+- https://github.com/tiagolbiotech/NPOmix_python
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tiagolbiotech/NPOmix_python

@@ -1,0 +1,20 @@
+name: AnnoMe
+slug: annome
+version_used: null
+edam_topics: []
+evidence_spans:
+- Start the filtering GUI via the command `uv run annome_filtergui`
+- Obtain a copy of AnnoMe. This can be done via `git` or a versioned release of AnnoMe.
+- Start the classification GUI via the command `uv run annome_classificationgui`
+- the python-based AnnoMe software is presented that allows users to classify their experimental HR-MS/MS spectra according to their aims
+derived_from:
+- doi: 10.1093/bioadv/vbag111
+  title: 'AnnoMe: user-defined classification of HR-MS/MS spectra for natural product discovery'
+source_repos:
+- https://github.com/chrboku/AnnoMe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chrboku/AnnoMe

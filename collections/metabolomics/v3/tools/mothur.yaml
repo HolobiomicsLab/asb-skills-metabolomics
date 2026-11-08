@@ -1,0 +1,17 @@
+name: mothur
+slug: mothur
+version_used: null
+edam_topics: []
+evidence_spans:
+- and mothur (Schloss et al., 2009) for 16S rRNA sequencing studies
+derived_from:
+- doi: 10.7717/peerj.1029
+  title: Compact graphical representation of phylogenetic data and metadata with GraPhlAn
+source_repos:
+- https://github.com/SegataLab/export2graphlan
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SegataLab/export2graphlan

@@ -1,0 +1,18 @@
+name: MassBank/MassBank3
+slug: massbank-massbank3
+version_used: null
+edam_topics: []
+evidence_spans:
+- The new MassBank web app is maintained in repo https://github.com/MassBank/MassBank3.
+derived_from:
+- doi: 10.1002/jms.1777
+  title: 'MassBank: a public repository for sharing mass spectral data for life sciences'
+source_repos:
+- https://github.com/MassBank/MassBank3
+- https://github.com/MassBank/MassBank-web
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MassBank/MassBank3

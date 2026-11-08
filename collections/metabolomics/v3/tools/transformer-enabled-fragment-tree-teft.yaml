@@ -1,0 +1,19 @@
+name: Transformer enabled Fragment Tree (TeFT)
+slug: transformer-enabled-fragment-tree-teft
+version_used: null
+edam_topics: []
+evidence_spans:
+- we propose the Transformer enabled Fragment Tree (TeFT) method
+- Transformer enabled Fragment Tree (TeFT)
+- we propose the Transformer enabled Fragment Tree (TeFT) method, which combines various types of fragmentation tree models and a deep learning Transformer module
+derived_from:
+- doi: 10.1038/s42004-024-01189-0
+  title: Structural annotation of unknown molecules in a miniaturized mass spectrometer based on a transformer enabled fragment tree method
+source_repos:
+- https://github.com/thumingo/TeFT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thumingo/TeFT

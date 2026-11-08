@@ -1,0 +1,222 @@
+schema_version: 0.3.0
+workflow_id: gcms_deconvolution_and_identification
+kind: composite-workflow
+techniques: []
+steps:
+- id: deconvolution
+  goal: GC-MS EI spectral deconvolution + peak detection
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - gc-ms-spectral-deconvolution
+  - gcms-spectral-deconvolution
+  - dda-spectra-deconvolution
+  - eic-peak-shape-correlation-deconvolution
+  tools:
+  - GNPS
+  - MSHub
+  - pyMolNetEnhancer
+  inputs:
+  - type: mzML
+  outputs:
+  - type: feature-table
+  - type: mgf
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-1c03032
+    - asb-paper-10-1021-acs-analchem-6b02927
+    - asb-paper-10-1038-s41467-024-48009-6
+    - asb-paper-10-1038-s41587-020-0700-3
+    dois:
+    - 10.1021/acs.analchem.1c03032
+    - 10.1021/acs.analchem.6b02927
+    - 10.1038/s41467-024-48009-6
+    - 10.1038/s41587-020-0700-3
+  after: []
+  candidate_tools:
+  - ChromaTOF
+  - GC-TOF MS
+  - MetAlign
+  - R
+  - XCMS
+  - erah
+  - gcspikelite
+  - osd
+  - MS-DIAL
+  - MS-FINDER
+  - MZmine
+  - MetaboAnalystR 4.0
+  - OptiLCMS
+  - ProteoWizard
+  - SIRIUS
+  - MetaboAnnotatoR
+  - RAMClustR
+- id: ei_library_match
+  goal: identify compounds by EI spectral library matching
+  edam_operation: http://edamontology.org/operation_3631
+  skills:
+  - gcms-spectral-library-matching
+  - ei-mass-spectrum-similarity-scoring
+  - molecular-fingerprint-prediction-from-spectra
+  - ei-mass-spectrum-library-matching
+  tools:
+  - GNPS
+  - MSHub
+  inputs:
+  - type: mgf
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-3c05019
+    - asb-paper-10-1038-s41467-023-39279-7
+    - asb-paper-10-1038-s41587-020-0700-3
+    dois:
+    - 10.1021/acs.analchem.3c05019
+    - 10.1038/s41467-023-39279-7
+    - 10.1038/s41587-020-0700-3
+  after:
+  - deconvolution
+  candidate_tools:
+  - DeepEI
+  - NEIMS
+  - PS2MS
+  - python
+  - rdkit
+  - FastEI
+  - gensim
+  - hnswlib
+  inputs_from:
+    deconvolution:
+    - mgf
+- id: retention_index
+  goal: retention index calibration + RI-filtered identifications
+  edam_operation: http://edamontology.org/operation_3695
+  skills:
+  - retention-index-based-peak-refinement
+  - retention-index-constrained-compound-identification
+  - nalkylpyridinium-sulfonate-ri-calibration
+  - retention-index-database-matching
+  tools:
+  - GcDUO
+  - R
+  - duoID
+  - getMSP
+  - getRI
+  - id_rev
+  - libID
+  - rt2ri
+  - spectramatrix
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bib-bbaf080
+    - asb-paper-10-3390-metabo12020173
+    dois:
+    - 10.1093/bib/bbaf080
+    - 10.3390/metabo12020173
+  after:
+  - ei_library_match
+  candidate_tools:
+  - MetaboAnnotation
+  - MetaboAnnotationTutorials
+  - MetaboCoreUtils
+  inputs_from:
+    ei_library_match:
+    - tsv
+- id: statistics
+  goal: differential GC-MS feature analysis between groups
+  edam_operation: http://edamontology.org/operation_3659
+  skills:
+  - metabolomics-univariate-group-comparison
+  - univariate-differential-feature-testing
+  - cell-type-differential-abundance-testing
+  - metabolomics-feature-statistical-testing
+  tools:
+  - POMA
+  - POMAShiny
+  - R
+  - limma
+  - tidyverse
+  inputs:
+  - type: feature-table
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-aca-2018-08-002
+    - asb-paper-10-1038-s41598-020-70850-0
+    - asb-paper-10-1371-journal-pcbi-1009148
+    dois:
+    - 10.1016/j.aca.2018.08.002
+    - 10.1038/s41598-020-70850-0
+    - 10.1371/journal.pcbi.1009148
+  after:
+  - deconvolution
+  - retention_index
+  candidate_tools:
+  - ProteoWizard
+  - Skyline
+  - XCMS
+  - statTarget
+  - WaveICA
+  - apLCMS
+  inputs_from:
+    deconvolution:
+    - feature-table
+    retention_index:
+    - tsv
+- id: fusion
+  goal: consolidate GC-MS identifications + stats into a master table
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - gcms-quantification-table-generation
+  - gcms-deconvolution-feature-scoring
+  - gc-ms-quantitative-table-matching
+  - cross-sample-feature-grouping
+  tools:
+  - R
+  - erah
+  inputs:
+  - type: feature-table
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-6b02927
+    - asb-paper-10-1038-s41587-020-0700-3
+    - asb-paper-10-1093-bib-bbaf080
+    dois:
+    - 10.1021/acs.analchem.6b02927
+    - 10.1038/s41587-020-0700-3
+    - 10.1093/bib/bbaf080
+  after:
+  - deconvolution
+  - statistics
+  candidate_tools:
+  - GNPS
+  - MSHub
+  - GC-TOF MS
+  - MetAlign
+  - XCMS
+  - GcDUO
+  - PARAFAC
+  - multiway
+  - rrcov3way
+  inputs_from:
+    deconvolution:
+    - feature-table
+    statistics:
+    - tsv
+verification:
+  final_outputs:
+  - path: master_gcms_table.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

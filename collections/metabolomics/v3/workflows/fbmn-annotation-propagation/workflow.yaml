@@ -1,0 +1,285 @@
+schema_version: 0.3.0
+workflow_id: fbmn_annotation_propagation
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess
+  goal: raw mzML -> aligned feature table + MS2 exports (GNPS-FBMN mgf + SIRIUS mgf)
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - lc-ms-peak-detection-and-feature-alignment
+  - lcms-peak-detection-preprocessing
+  - untargeted-metabolomics-preprocessing
+  - lc-msms-feature-detection-and-alignment
+  tools:
+  - MS2LDA.Preprocessing.generate_corpus
+  - MS2LDA.Preprocessing.load_and_clean
+  - RMassBank
+  - XCMS
+  inputs:
+  - type: mzML
+  outputs:
+  - type: feature-table
+  - type: mgf
+    flavour: gnps-fbmn
+  - type: mgf
+    flavour: sirius
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-jnatprod-7b00737
+    - asb-paper-10-1038-s41598-020-70850-0
+    - asb-paper-10-1073-pnas-1608041113
+    - asb-paper-10-1186-s13321-023-00724-w
+    dois:
+    - 10.1021/acs.jnatprod.7b00737
+    - 10.1038/s41598-020-70850-0
+    - 10.1073/pnas.1608041113
+    - 10.1186/s13321-023-00724-w
+  after: []
+  candidate_tools:
+  - R
+  - apLCMS
+  - doParallel
+  - foreach
+  - mzR
+  - splines
+  - OpenMS
+  - Python
+  - Snakemake
+  - ThermoRawFileParser
+  - UmetaFlow
+  - pyOpenMS
+  - MZmine2
+  - Optimus
+- id: network
+  goal: MS2 spectra -> molecular family graph (modified cosine; GNPS-style components)
+  edam_operation: http://edamontology.org/operation_3214
+  skills:
+  - feature-based-molecular-networking--7b025a18b065ae1c
+  - modified-cosine-similarity-networking
+  - feature-based-molecular-networking--a1d4da5bf30d5f86
+  - msms-spectral-similarity-molecular-networking
+  tools:
+  - GNPS
+  - MS-DIAL
+  - MZmine
+  - XCMS
+  inputs:
+  - type: mgf
+    flavour: gnps-fbmn
+  outputs:
+  - type: graphml
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-021-23953-9
+    - asb-paper-10-1038-s41596-020-0317-5
+    - asb-paper-10-1101-2024-08-07-607073
+    - asb-paper-10-1101-2024-10-14-618269
+    dois:
+    - 10.1038/s41467-021-23953-9
+    - 10.1038/s41596-020-0317-5
+    - 10.1101/2024.08.07.607073
+    - 10.1101/2024.10.14.618269
+  after:
+  - preprocess
+  candidate_tools:
+  - GNPS2
+  - ms1-id
+  - ChemWalker
+  - MSConvert
+  - MZmine 2.53
+  - SIRIUS 5.8.5
+  - Cytoscape
+  - MSConvert (ProteoWizard)
+  inputs_from:
+    preprocess:
+    - mgf:gnps-fbmn
+- id: seed_annotate
+  goal: MS2 spectra -> seed spectral-library annotations to propagate from
+  edam_operation: http://edamontology.org/operation_3631
+  skills:
+  - modified-cosine-spectral-matching
+  - spectral-library-matching--c3bacc8572caec82
+  - spectral-library-matching--599e7745b946f0de
+  - spectral-library-matching--c9ea083859d5db3b
+  tools:
+  - GNPS (Global Natural Product Social Molecular Networking)
+  - Manuscript_GNPS_Drug_Library
+  - microbe_masst (domainMASSTs)
+  inputs:
+  - type: mgf
+    flavour: gnps-fbmn
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-025-65993-5
+    - asb-paper-10-1101-2024-08-07-607073
+    - asb-paper-10-1101-2025-04-28-651123
+    - asb-paper-10-1371-journal-pcbi-1008724
+    dois:
+    - 10.1038/s41467-025-65993-5
+    - 10.1101/2024.08.07.607073
+    - 10.1101/2025.04.28.651123
+    - 10.1371/journal.pcbi.1008724
+  after:
+  - preprocess
+  candidate_tools:
+  - ChemWalker
+  - GNPS
+  - GNPS library
+  - GNPS2
+  - GNPS2 (FBMN workflow)
+  - MZmine
+  - MZmine 2.53
+  - RegFilter
+  - MS2DECIDE
+  - Spec2Vec
+  - gensim (Word2Vec)
+  - matchms
+  - spec2vec_gnps_data_analysis
+  - tissueMASST
+  inputs_from:
+    preprocess:
+    - mgf:gnps-fbmn
+- id: class_annotate
+  goal: MS2 spectra -> molecular formula + chemical class (SIRIUS / CANOPUS / NPClassifier)
+  edam_operation: http://edamontology.org/operation_3860
+  skills:
+  - msms-spectra-canopus-class-prediction
+  - canopus-chemical-class-prediction
+  - consensus-classification-propagation
+  - in-silico-class-prediction-interpretation
+  tools:
+  - CANOPUS
+  - ClassyFire
+  - GNPS
+  - NPClassifier
+  - NPLinker
+  - SIRIUS
+  inputs:
+  - type: mgf
+    flavour: sirius
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acscentsci-3c00800
+    - asb-paper-10-1186-s40168-022-01444-3
+    - asb-paper-10-3390-metabo12121275
+    dois:
+    - 10.1021/acscentsci.3c00800
+    - 10.1186/s40168-022-01444-3
+    - 10.3390/metabo12121275
+  after:
+  - preprocess
+  candidate_tools:
+  - ENPKG
+  - ConCISE
+  - Python
+  inputs_from:
+    preprocess:
+    - mgf:sirius
+- id: propagate
+  goal: spread seed annotations + chemical classes across molecular families
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - molecular-network-node-annotation-mapping
+  - chemical-class-propagation-onto-networks
+  - substructure-annotation-of-molecular-families
+  - molecular-network-annotation-propagation--3c622bace7b9313a
+  tools:
+  - ClassyFire
+  - DEREPLICATOR
+  - GNPS
+  - MolNetEnhancer
+  - Network Annotation Propagation
+  - molconvert
+  - pyMolNetEnhancer
+  inputs:
+  - type: graphml
+  - type: tsv
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41587-020-0700-3
+    - asb-paper-10-3390-metabo9070144
+    dois:
+    - 10.1038/s41587-020-0700-3
+    - 10.3390/metabo9070144
+  after:
+  - network
+  - seed_annotate
+  - class_annotate
+  candidate_tools:
+  - Cytoscape
+  - MS2LDA
+  - RMolNetEnhancer
+  inputs_from:
+    network:
+    - graphml
+    seed_annotate:
+    - tsv
+    class_annotate:
+    - tsv
+- id: consolidate
+  goal: consolidate network family + seed + class + propagated annotations into one
+    table
+  edam_operation: http://edamontology.org/operation_3434
+  skills:
+  - ms-feature-annotation-table-generation
+  - molecular-network-construction-ms2-spectra
+  - mass-spectrometry-feature-annotation-qc
+  - mass-spectrometry-molecular-networking
+  tools:
+  - CANOPUS
+  - ClassyFire
+  - ConCISE
+  - GNPS
+  - NPClassifier
+  - Python
+  inputs:
+  - type: feature-table
+  - type: graphml
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-022-28391-9
+    - asb-paper-10-3390-metabo12121275
+    dois:
+    - 10.1038/s41467-022-28391-9
+    - 10.3390/metabo12121275
+  after:
+  - preprocess
+  - network
+  - propagate
+  candidate_tools:
+  - MassTools
+  - Metaboseek
+  - igraph
+  - xcms
+  - SIRIUS
+  inputs_from:
+    preprocess:
+    - feature-table
+    network:
+    - graphml
+    propagate:
+    - tsv
+verification:
+  final_outputs:
+  - path: propagated_annotation_table.tsv
+    type: file
+provenance:
+  derived_from_workflows:
+  - coll_molnetenhancer
+  - coll_npclassscore_cq
+  - spec2vec_grounded
+  - coll_ms2deepscore
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

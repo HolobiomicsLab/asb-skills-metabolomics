@@ -1,0 +1,20 @@
+name: IDSL.CSA
+slug: idsl-csa
+version_used: null
+edam_topics: []
+evidence_spans:
+- The IDSL.CSA R package [2] was used to extract 3,386 and 1,901 unique MS/MS spectra in ESI+ and ESI− for this study
+derived_from:
+- doi: 10.1021/acs.analchem.3c00376
+  title: 'IDSL.CSA: Composite Spectra Analysis for Chemical Annotation of Untargeted Metabolomics Datasets'
+- doi: 10.1186/s13321-024-00804-5
+  title: 'IDSL_MINT: a deep learning framework to predict molecular fingerprints from mass spectra'
+source_repos:
+- https://github.com/idslme/IDSL.CSA
+- https://github.com/idslme/IDSL_MINT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/idslme/IDSL.CSA

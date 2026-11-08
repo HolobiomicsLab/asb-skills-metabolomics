@@ -1,0 +1,35 @@
+name: MS-FINDER
+slug: ms-finder
+version_used: null
+edam_topics: []
+evidence_spans:
+- All features with MS2 information were exported for MS-FINDER analysis performed in batch mode.
+- For subsequent structural elucidation in MS-FINDER, both the most intense and most connected features were kept.
+- output of available computational metabolite annotation tools (ISDB-DNP, MS-Finder, Sirius)
+- bioinformatic tools, such as MetFrag15, CFM-ID16, MS-FINDER17, and SIRIUS18, have been developed to predict in silico MS/MS or molecular fingerprinting
+derived_from:
+- doi: 10.1038/nprot.2017.122
+  title: 3D molecular cartography using LC–MS facilitated by Optimus and 'ili software
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+- doi: 10.1021/acs.analchem.2c05389
+  title: Combination of Structure Databases, In Silico Fragmentation, and MS/MS Libraries for Untargeted Screening of Non-Volatile Migrants from Recycled High-Density Polyethylene Milk Bottles
+- doi: 10.1021/acs.analchem.9b05765
+  title: 'Retip: Retention Time Prediction for Compound Annotation in Untargeted Metabolomics'
+- doi: 10.3389/fpls.2019.01329
+  title: Taxonomically Informed Scoring Enhances Confidence in Natural Products Annotation
+- doi: 10.1038/s41467-022-34537-6
+  title: Metabolite annotation from knowns to unknowns through knowledge-guided multi-layer metabolic networking
+source_repos:
+- https://github.com/MolecularCartography/Optimus
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/QizhiSu/mspcompiler
+- https://github.com/oloBion/Retip
+- https://github.com/taxonomicallyinformedannotation/tima
+- https://github.com/ZhuMetLab/MetDNA2Vis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MolecularCartography/Optimus

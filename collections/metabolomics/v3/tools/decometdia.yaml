@@ -1,0 +1,16 @@
+name: DecoMetDIA
+slug: decometdia
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.9b02655
+  title: 'DecoMetDIA: Deconvolution of Multiplexed MS/MS Spectra for Metabolite Identification in SWATH-MS-Based Untargeted Metabolomics'
+source_repos:
+- https://github.com/ZhuMSLab/DecoMetDIA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhuMSLab/DecoMetDIA

@@ -1,0 +1,18 @@
+name: automRm
+slug: automrm
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present the R package automRm for fully automatic preprocessing of LC-MS data recorded in MRM mode.
+- we present the R package automRm for fully automatic preprocessing of LC-MS data recorded in MRM mode
+- 'There are two main functions in automRm: process_batch() for preprocessing of batches of raw data and train_model() for training the ML models'
+derived_from:
+- doi: 10.1021/acs.analchem.1c05224
+  title: 'automRm: An R Package for Fully Automatic LC-QQQ-MS Data Preprocessing Powered by Machine Learning'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

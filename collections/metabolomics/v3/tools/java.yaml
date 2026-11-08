@@ -1,0 +1,47 @@
+name: Java
+slug: java
+version_used: '1.8'
+edam_topics: []
+evidence_spans:
+- a user-interactive Java software (Oracle)-based search GUI was generated
+- InjectionDesign is an open-source project based on Java.
+- MetNet can be compiled using the Java compiler from a terminal window.
+- MZmine 2 was developed using Java technology, and is therefore platform independent.
+- The tool is implemented in the Java programming language, it features an intuitive user interface
+- MetMatch requires Java runtime (JRE) version 1.8 or newer.
+- _No usage/docs found._
+- we present MetaOmGraph (MOG), a Java software, to interactively explore and visualize large expression datasets
+- Install Java version 8 from
+- allowing the application to be run using a basic Java virtual machine (version 8)
+derived_from:
+- doi: 10.1289/ehp7722
+  title: Risk-Based Chemical Ranking and Generating a Prioritized Human Exposome Database
+- doi: 10.1101/2023.02.26.530140
+  title: 'InjectionDesign: Plate Design with Optimized Stratified Block Randomization for Modern LC/GC-MS-Based Sample Preparation'
+- doi: 10.1371/journal.pone.0246962
+  title: 'MetNet: A two-level approach to reconstructing and comparing metabolic networks'
+- doi: 10.1186/1471-2105-11-395
+  title: 'MZmine 2: Modular framework for processing, visualizing, and analyzing mass spectrometry-based molecular profile data'
+- doi: 10.1038/nbt.3689
+  title: SPLASH, a hashed identifier for mass spectra
+- doi: 10.3390/metabo6040039
+  title: 'MetMatch: A Semi-Automated Software Tool for the Comparison and Alignment of LC-HRMS Data from Different Metabolomics Experiments'
+- doi: 10.1093/nar/gkz1209
+  title: 'MetaOmGraph: a workbench for interactive exploratory data analysis of large expression datasets'
+- doi: 10.1007/s11306-022-01899-3
+  title: 'PeakForest: a multi-platform digital infrastructure for interoperable metabolite spectral data and metadata management'
+source_repos:
+- https://github.com/FangLabNTU/HExpMetDB
+- https://github.com/CSi-Studio/InjectionDesign
+- https://github.com/simeoni-biolab/MetNet
+- https://github.com/mzmine/mzmine2
+- https://github.com/berlinguyinca/spectra-hash
+- https://github.com/S-T-K/MetMatch
+- https://github.com/urmi-21/MetaOmGraph
+- https://github.com/peakforest/peakforest-webapp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FangLabNTU/HExpMetDB

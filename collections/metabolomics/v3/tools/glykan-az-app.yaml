@@ -1,0 +1,18 @@
+name: GlyKAn AZ app
+slug: glykan-az-app
+version_used: null
+edam_topics: []
+evidence_spans:
+- The GlyKAn AZ app was developed to address these challenges, keeping in mind the needs of an industrial analytical setting.
+- Here, we present a MATLAB-based app, GlyKAn AZ
+derived_from:
+- doi: 10.1186/s12859-023-05346-5
+  title: A MATLAB-based app to improve LC–MS/MS data analysis for N-linked glycan peak identification
+source_repos:
+- https://github.com/ZaylaSchaeffer/GlyKAn-AZ-application
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZaylaSchaeffer/GlyKAn-AZ-application

@@ -1,0 +1,29 @@
+name: MZmine3
+slug: mzmine3
+version_used: null
+edam_topics: []
+evidence_spans:
+- Inventa takes input directly from MZmine2 or [MZmine 3](http://mzmine.github.io/)
+- data_process_origin = 'MZMine3'
+- MassCube outperforms MS-DIAL, MZmine3 or XCMS for speed, isomer detection, and accuracy.
+- MZmine3’s ADAP algorithm32 detects peaks from data-dependent EICs, and xcms applies data-dependent EICs to a wavelet transform
+- Feature extraction and representative spectra selection are performed using MZmine3
+- Feature extraction and representative spectra selection are performed using MZmine3,38 followed by formula and adduct assignment with SIRIUS v6.1.0
+- Feature extraction and representative spectra selection are performed using MZmine3,38 followed by formula and adduct assignment with SIRIUS v6.1.0.35
+derived_from:
+- doi: 10.3389/fmolb.2022.1028334
+  title: 'Inventa: A computational tool to discover structural novelty in natural extracts libraries'
+- doi: 10.1038/s41467-025-60640-5
+  title: MassCube improves accuracy for metabolomics data processing from raw files to phenotype classifiers
+- doi: 10.1101/2025.11.12.688047
+  title: 'Learning from All Views: A Multiview Contrastive Framework for Metabolite Annotation'
+source_repos:
+- https://github.com/luigiquiros/inventa
+- https://github.com/huaxuyu/masscube
+- https://github.com/HassounLab/MVP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/luigiquiros/inventa

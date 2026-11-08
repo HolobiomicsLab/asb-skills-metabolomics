@@ -1,0 +1,56 @@
+{
+  "workflow": "sirius_denovo_structure_elucidation",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "This leaf benchmarks FIDDLE formula-prediction accuracy across pre-existing ClassyFire strata and does not perform CANOPUS or NPClassifier class prediction.",
+      "severity": "advisory",
+      "slug": "classyfire-superclass-annotation-analysis",
+      "stage": "compound_class"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf compares frequencies in existing CANOPUS and MolNetEnhancer annotations and does not predict compound classes from the stage input.",
+      "severity": "advisory",
+      "slug": "classyfire-superclass-frequency-tabulation",
+      "stage": "compound_class"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf parses SIRIUS and ZODIAC outputs to benchmark formula accuracy and error rates rather than filtering annotations by confidence.",
+      "severity": "advisory",
+      "slug": "mass-spectrometry-annotation-file-parsing",
+      "stage": "confidence_filter"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf selects ZODIAC posterior thresholds for formula annotations but omits COSMIC structure-confidence filtering from the requested stage.",
+      "severity": "advisory",
+      "slug": "zodiac-posterior-score-threshold-analysis",
+      "stage": "confidence_filter"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf reranks existing SIRIUS formula candidates with ZODIAC but does not perform the initial isotope-pattern and fragmentation-tree formula determination.",
+      "severity": "advisory",
+      "slug": "molecular-formula-reranking-zodiac",
+      "stage": "formula"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf reranks candidate structures against a CSI:FingerID-predicted fingerprint but omits COSMIC confidence scoring from the requested structure-prediction stage.",
+      "severity": "advisory",
+      "slug": "fingerprint-based-candidate-re-ranking",
+      "stage": "structure"
+    }
+  ],
+  "verdict": "pass"
+}

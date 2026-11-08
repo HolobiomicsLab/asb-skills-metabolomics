@@ -1,0 +1,19 @@
+name: GC-MS
+slug: gc-ms
+version_used: null
+edam_topics: []
+evidence_spans:
+- preparing tentative GC-MS library-hit tables for downstream analysis
+- preparing tentative GC-MS library-hit tables for downstream analysis;
+- Gas chromatography coupled with mass spectrometry (GC -MS), used to identify the chemical composition of samples, is a commonly used technology
+derived_from:
+- doi: 10.1371/journal.pone.0306202
+  title: 'uafR: An R package that automates mass spectrometry data processing'
+source_repos:
+- https://github.com/castratton/uafR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/castratton/uafR

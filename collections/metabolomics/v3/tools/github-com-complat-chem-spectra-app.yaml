@@ -1,0 +1,18 @@
+name: github.com/ComPlat/chem-spectra-app
+slug: github-com-complat-chem-spectra-app
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# github.com__ComPlat__chem-spectra-app'
+- the source code of the project for chem-spectra-app [23], chem-spectra-client [24], and react-spectra-editor [25] can be retrieved from github
+derived_from:
+- doi: 10.1186/s13321-020-00481-0
+  title: 'ChemSpectra: a web-based spectra editor for analytical data'
+source_repos:
+- https://github.com/ComPlat/chem-spectra-app
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ComPlat/chem-spectra-app

@@ -1,0 +1,24 @@
+name: mzML
+slug: mzml
+version_used: null
+edam_topics: []
+evidence_spans:
+- mzML, , is the widely adopted community-driven standard defined by the Proteomics Standards Initiative of the Human Proteome Organization (HUPO-PSI).
+- The program can read mzML, MGF, and Bruker TDF files
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.jproteome.5c00435
+  title: 'mzPeak: Designing a Scalable, Interoperable, and Future-Ready Mass Spectrometry Data Format'
+- doi: 10.1021/acs.analchem.4c03513
+  title: A Software Tool for Rapid and Automated Preprocessing of Large-Scale Serum Metabolomic Data by Multisegment Injection-Capillary Electrophoresis-Mass Spectrometry
+source_repos:
+- https://github.com/PNNL-m-q/mza
+- https://github.com/HUPO-PSI/mzPeak
+- https://github.com/PBM-Group/PeakMeister
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PNNL-m-q/mza

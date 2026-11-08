@@ -1,0 +1,249 @@
+schema_version: 0.3.0
+workflow_id: paired_omics_bgc_metabolite_linking
+kind: composite-workflow
+techniques: []
+steps:
+- id: bgc_mine
+  goal: assembled genomes -> detected BGCs (antiSMASH genome mining)
+  edam_operation: http://edamontology.org/operation_0362
+  skills:
+  - biosynthetic-gene-cluster-prediction-antismash
+  - biosynthetic-gene-cluster-annotation-parsing
+  - genome-mining-bgc-detection
+  tools:
+  - BiG-SCAPE
+  - MIBiG
+  - antiSMASH v4
+  inputs:
+  - type: fasta
+  outputs:
+  - type: genbank
+    flavour: antismash-bgc
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41589-019-0400-9
+    - asb-paper-10-1371-journal-pcbi-1010462
+    dois:
+    - 10.1038/s41589-019-0400-9
+    - 10.1371/journal.pcbi.1010462
+  after: []
+  candidate_tools:
+  - HMMER 3.1b2
+  - antiSMASH
+  - hmmalign
+  - build_subpfam
+  - iPRESTO
+- id: bgc_tokenize
+  goal: GenBank BGC records -> Pfam-domain tokens and sub-cluster motifs (iPRESTO)
+  edam_operation: http://edamontology.org/operation_0306
+  skills:
+  - biosynthetic-domain-curation-via-ec-annotation
+  - pfam-domain-tokenisation
+  - biosynthetic-gene-domain-tokenisation
+  - presto-top-motif-matching
+  tools:
+  - ECDomainMiner
+  - antiSMASH
+  - build_subpfam
+  - hmmscan
+  - iPRESTO
+  inputs:
+  - type: genbank
+    flavour: antismash-bgc
+  outputs:
+  - type: tsv
+    flavour: bgc-domain-tokens
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1371-journal-pcbi-1010462
+    dois:
+    - 10.1371/journal.pcbi.1010462
+  after:
+  - bgc_mine
+  candidate_tools:
+  - Pfam
+  - SubClusterBlast
+  inputs_from:
+    bgc_mine:
+    - genbank:antismash-bgc
+- id: gcf_cluster
+  goal: BGCs -> gene cluster families (BiG-SCAPE similarity clustering)
+  edam_operation: http://edamontology.org/operation_3432
+  skills:
+  - biosynthetic-gene-cluster-similarity-network-analysis
+  - gcf-prevalence-distribution-analysis-across-genomes
+  - gene-cluster-family-grouping
+  - gcf-genome-based-class-annotation
+  tools:
+  - BiG-SCAPE
+  - HMMER 3.1b2
+  - MIBiG
+  - antiSMASH
+  - hmmalign
+  inputs:
+  - type: genbank
+    flavour: antismash-bgc
+  - type: tsv
+    flavour: bgc-domain-tokens
+  outputs:
+  - type: tsv
+    flavour: gcf-table
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41589-019-0400-9
+    - asb-paper-10-1128-msystems-00937-21
+    - asb-paper-10-1186-s40168-022-01444-3
+    dois:
+    - 10.1038/s41589-019-0400-9
+    - 10.1128/msystems.00937-21
+    - 10.1186/s40168-022-01444-3
+  after:
+  - bgc_mine
+  - bgc_tokenize
+  candidate_tools:
+  - antiSMASH v4
+  - BiG-MAP
+  - MASH
+  - bigmap-analyse
+  - bigmap-family
+  - bigmap-map
+  - gutSMASH
+  - MolNetEnhancer
+  - NPLinker
+  inputs_from:
+    bgc_mine:
+    - genbank:antismash-bgc
+    bgc_tokenize:
+    - tsv:bgc-domain-tokens
+- id: mf_network
+  goal: paired LC-MS/MS spectra -> molecular families (GNPS feature-based molecular
+    networking)
+  edam_operation: http://edamontology.org/operation_3767
+  skills:
+  - gnps-molecular-networking-workflow
+  - feature-based-molecular-networking--7b025a18b065ae1c
+  - gcms-molecular-networking
+  - feature-based-molecular-networking--a1d4da5bf30d5f86
+  tools:
+  - GNPS
+  - MSConvert (ProteoWizard)
+  - MZmine2
+  - OpenMS TOPPView
+  inputs:
+  - type: mgf
+    flavour: gnps-fbmn
+  outputs:
+  - type: tsv
+    flavour: mf-table
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-021-23953-9
+    - asb-paper-10-1038-s41587-020-0700-3
+    - asb-paper-10-1038-s41596-020-0317-5
+    - asb-paper-10-1101-2024-08-07-607073
+    dois:
+    - 10.1038/s41467-021-23953-9
+    - 10.1038/s41587-020-0700-3
+    - 10.1038/s41596-020-0317-5
+    - 10.1101/2024.08.07.607073
+  after: []
+  candidate_tools:
+  - MS-DIAL
+  - MZmine
+  - XCMS
+  - GNPS_Workflows
+  - MSHub
+  - pyMolNetEnhancer
+  - ChemWalker
+  - GNPS2
+  - MSConvert
+  - MZmine 2.53
+  - SIRIUS 5.8.5
+- id: link_score
+  goal: GCFs + MFs + strain co-occurrence -> ranked GCF-MF links (NPLinker Metcalf/hypergeometric
+    scoring)
+  edam_operation: http://edamontology.org/operation_3357
+  skills:
+  - gcf-molecular-family-link-scoring
+  - metcalf-co-occurrence-scoring
+  - metcalf-strain-correlation-scoring
+  - hypergeometric-score-standardisation
+  tools:
+  - BigScape
+  - GNPS
+  - NPLinker
+  - Python
+  inputs:
+  - type: tsv
+    flavour: gcf-table
+  - type: tsv
+    flavour: mf-table
+  outputs:
+  - type: tsv
+    flavour: gcf-mf-scores
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s40168-022-01444-3
+    - asb-paper-10-1371-journal-pcbi-1008920
+    dois:
+    - 10.1186/s40168-022-01444-3
+    - 10.1371/journal.pcbi.1008920
+  after:
+  - gcf_cluster
+  - mf_network
+  candidate_tools:
+  - BiG-SCAPE
+  - AntiSMASH
+  inputs_from:
+    gcf_cluster:
+    - tsv:gcf-table
+    mf_network:
+    - tsv:mf-table
+- id: report
+  goal: consolidate scored links + provenance into a ranked BGC-metabolite link table
+  edam_operation: http://edamontology.org/operation_3695
+  skills:
+  - validated-link-rank-evaluation
+  - bgc-msms-candidate-link-scoring
+  - bgc-spectrum-link-ranking
+  tools:
+  - AntiSMASH
+  - BigScape
+  - GNPS
+  - MIBiG
+  - Python
+  - nplinker
+  inputs:
+  - type: tsv
+    flavour: gcf-mf-scores
+  - type: tsv
+    flavour: gcf-table
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s40168-022-01444-3
+    - asb-paper-10-1371-journal-pcbi-1008920
+    dois:
+    - 10.1186/s40168-022-01444-3
+    - 10.1371/journal.pcbi.1008920
+  after:
+  - link_score
+  - gcf_cluster
+  candidate_tools:
+  - BiG-SCAPE
+  - CANOPUS
+  - NPClassScore
+  inputs_from:
+    link_score:
+    - tsv:gcf-mf-scores
+    gcf_cluster:
+    - tsv:gcf-table
+verification:
+  final_outputs:
+  - path: bgc_metabolite_link_report.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

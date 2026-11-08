@@ -1,0 +1,25 @@
+name: cowplot
+slug: cowplot
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(cowplot)
+- "cowplot::plot_grid(\n  plot(ds$getSample(\"Sample1\")),\n  plot(ds$getSample(\"Sample2\")),\n  ncol = 2\n)"
+- cowplot (Imports)
+- Complementing ggplot2, the cowplot package [28] is utilized to arrange multiple plots in cohesive layouts within the application
+derived_from:
+- doi: 10.1016/j.chemolab.2023.104938
+  title: 'GCIMS: An R package for untargeted gas chromatography – Ion mobility spectrometry data processing'
+- doi: 10.1101/2025.09.30.679445
+  title: Robust metabolomics data normalization across scales and experimental designs
+- doi: 10.1186/s13321-025-01044-x
+  title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
+source_repos:
+- https://github.com/sipss/GCIMS
+- https://github.com/UGent-LIMET/Metanorm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sipss/GCIMS

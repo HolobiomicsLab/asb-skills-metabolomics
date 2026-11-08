@@ -1,0 +1,25 @@
+name: MSFragger
+slug: msfragger
+version_used: '4.1'
+edam_topics: []
+evidence_spans:
+- We also compared the performance of ANN-SoLo against the recent state-of-the-art OMS sequence database search engine MSFragger
+- MSFragger6, 7 and DIA-NN8, perform RT alignment using the match between runs (MBR) function
+- we further compared DeepRTAlign with MaxQuant’s MBR and MSFragger’s MBR on the Benchmark-FC dataset
+derived_from:
+- doi: 10.1021/acs.jproteome.8b00359
+  title: Fast Open Modification Spectral Library Searching through Approximate Nearest Neighbor Indexing
+- doi: 10.1021/acs.jproteome.4c01140
+  title: 'MSIght: A Modular Platform for Improved Confidence in Global, Untargeted Mass Spectrometry Imaging Annotation'
+- doi: 10.1038/s41467-023-43909-5
+  title: 'DeepRTAlign: toward accurate retention time alignment for large cohort mass spectrometry data analysis'
+source_repos:
+- https://github.com/bittremieux-lab/ANN-SoLo
+- https://github.com/laurenfields/MSIght
+- https://github.com/PHOENIXcenter/deeprtalign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bittremieux-lab/ANN-SoLo

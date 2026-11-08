@@ -1,0 +1,16 @@
+name: Mass2Motifs
+slug: mass2motifs
+version_used: null
+edam_topics: []
+evidence_spans:
+- Ernst et al. [34] used the MS2LDA tool to discover substructure mass patterns, called Mass2Motifs, from metabolomics data of 145 Salinispora and Streptomyces species
+derived_from:
+- doi: 10.1371/journal.pcbi.1010462
+  title: 'iPRESTO: Automated discovery of biosynthetic sub-clusters linked to specific natural product substructures'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

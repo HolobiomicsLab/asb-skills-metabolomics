@@ -1,0 +1,15 @@
+name: TIGER
+slug: tiger
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.5c06841
+  title: Robust Metabolomics Data Normalization across Scales and Experimental Designs
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

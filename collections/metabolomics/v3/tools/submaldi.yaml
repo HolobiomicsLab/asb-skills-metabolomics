@@ -1,0 +1,20 @@
+name: subMALDI
+slug: submaldi
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'we propose the R package
+
+  subMALDI'
+- we propose the R package subMALDI
+derived_from:
+- doi: 10.21105/joss.02694
+  title: 'subMALDI: an open framework R package for processing irregularly-spaced mass spectrometry data'
+source_repos:
+- https://github.com/wesleyburr/subMaldi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wesleyburr/subMaldi

@@ -1,0 +1,19 @@
+name: QRILC
+slug: qrilc
+version_used: null
+edam_topics: []
+evidence_spans:
+- Quantile regression approach for left-censored missing (QRILC) imputes missing data using random draws from a truncated distribution
+- result <- data %>%  impute.QRILC(., ...) %>% extract2(1)
+- data_raw_log_qrilc <- impute.QRILC(data_raw_log) %>% extract2(1)
+derived_from:
+- doi: 10.1371/journal.pcbi.1005973
+  title: 'GSimp: A Gibbs sampler based left-censored missing value imputation approach for metabolomics studies'
+source_repos:
+- https://github.com/WandeRum/GSimp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WandeRum/GSimp

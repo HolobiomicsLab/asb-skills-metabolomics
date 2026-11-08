@@ -1,0 +1,16 @@
+name: IOKR
+slug: iokr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bioinformatics/bty590
+  title: Liquid-chromatography retention order prediction for metabolite identification
+source_repos:
+- https://github.com/aalto-ics-kepaco/retention_order_prediction
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aalto-ics-kepaco/retention_order_prediction

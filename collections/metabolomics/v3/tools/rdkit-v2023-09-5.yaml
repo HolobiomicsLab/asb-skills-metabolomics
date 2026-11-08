@@ -1,0 +1,18 @@
+name: RDKit (v2023.09.5)
+slug: rdkit-v2023-09-5
+version_used: 2023.09.5
+edam_topics: []
+evidence_spans:
+- we first read the SMILES representation of each molecule using RDKit (v2023.09.5)
+derived_from:
+- doi: 10.1186/s13321-024-00899-w
+  title: Evaluating the generalizability of graph neural networks for predicting collision cross section
+source_repos:
+- https://github.com/enveda/ccs-prediction
+- https://github.com/zmzhang/SigmaCCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enveda/ccs-prediction

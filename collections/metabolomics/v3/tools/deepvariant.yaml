@@ -1,0 +1,17 @@
+name: DeepVariant
+slug: deepvariant
+version_used: 0.8.0
+edam_topics: []
+evidence_spans:
+- DeepVariant (v. 0.8.0) for variant calling
+derived_from:
+- doi: 10.1038/s41525-020-0132-5
+  title: 'metPropagate: network-guided propagation of metabolomic information for prioritization of metabolic disease genes'
+source_repos:
+- https://github.com/emmagraham/metPropagate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/emmagraham/metPropagate

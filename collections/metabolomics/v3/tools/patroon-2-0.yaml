@@ -1,0 +1,23 @@
+name: patRoon 2.0
+slug: patroon-2-0
+version_used: null
+edam_topics: []
+evidence_spans:
+- https://rickhelmus.github.io/patRoon/articles/tutorial.md
+- patRoon tutorial
+- 'pat Roon 2.0: Improved non-target analysis workflows including automated transformation product screening'
+- pat Roon 2.0 implements complementary TP screening approaches with select algorithms from Table 1 and includes other novel functionality to provide comprehensive TP screening workflows.
+- "- [patRoon\n  tutorial](https://rickhelmus.github.io/patRoon/articles/tutorial.md):"
+derived_from:
+- doi: 10.21105/joss.04029
+  title: 'patRoon 2.0: Improved non-target analysis workflows
+
+    including automated transformation product screening'
+source_repos:
+- https://github.com/rickhelmus/patRoon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rickhelmus/patRoon

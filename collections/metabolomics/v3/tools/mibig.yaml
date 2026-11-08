@@ -1,0 +1,23 @@
+name: MIBiG
+slug: mibig
+version_used: null
+edam_topics: []
+evidence_spans:
+- despite community efforts like MIBiG, the typical number of validated paired data points
+- To bridge the different class ontologies resulting from genome and metabolome mining, we used the MIBiG repository that contains experimentally validated BGCs and their products
+- a MIBiG identifier for the same or similar BGC can be linked with a MS/MS URL
+derived_from:
+- doi: 10.1186/s40168-022-01444-3
+  title: Enhanced correlation-based linking of biosynthetic gene clusters to their metabolic products through chemical class matching
+- doi: 10.1038/s41589-020-00724-z
+  title: A community resource for paired genomic and metabolomic data mining
+source_repos:
+- https://github.com/louwenjjr/mibig_classifications
+- https://github.com/NPLinker/nplinker
+- https://github.com/iomega/paired-data-form
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/louwenjjr/mibig_classifications

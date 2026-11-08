@@ -1,0 +1,25 @@
+name: IDSL.IPA
+slug: idsl-ipa
+version_used: null
+edam_topics: []
+evidence_spans:
+- First, we processed the raw data for this study to extract MS/MS spectra in the NIST.msp format
+derived_from:
+- doi: 10.1021/acs.analchem.3c00376
+  title: 'IDSL.CSA: Composite Spectra Analysis for Chemical Annotation of Untargeted Metabolomics Datasets'
+- doi: 10.1021/acs.jproteome.2c00120
+  title: IDSL.IPA Characterizes the Organic Chemical Space in Untargeted LC/HRMS Data Sets
+- doi: 10.1186/s13321-024-00804-5
+  title: 'IDSL_MINT: a deep learning framework to predict molecular fingerprints from mass spectra'
+- doi: 10.1021/acs.analchem.2c00563
+  title: IDSL.UFA Assigns High-Confidence Molecular Formula Annotations for Untargeted LC/HRMS Data Sets in Metabolomics and Exposomics
+source_repos:
+- https://github.com/idslme/IDSL.IPA
+- https://github.com/idslme/IDSL.CSA
+- https://github.com/idslme/IDSL_MINT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/idslme/IDSL.IPA

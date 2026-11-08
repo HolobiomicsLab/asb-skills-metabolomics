@@ -1,0 +1,31 @@
+name: XGBoost
+slug: xgboost
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'XGBoost [34]: it is probably the most-commonly used GBM, and it was employed for Retention Time (RT) prediction in [24].'
+- logistic regression (LR), random forest (RF), and XGBoost (XGB)
+- traditional machine learning algorithms, such as Support Vector Machines (SVM), logistic regression, Random Forest, and XGBoost, have been widely applied and often serve as performance benchmarks
+derived_from:
+- doi: 10.1021/acs.est.5c08558
+  title: Reaction-Guided Metabolomics Accelerates High-Throughput Annotation of Xenobiotic Metabolites for Human Exposome
+- doi: 10.1186/s13321-022-00613-8
+  title: Probabilistic metabolite annotation using retention time prediction and meta-learned projections
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+- doi: 10.1371/journal.pone.0321239
+  title: 'MSMCE: A novel representation module for classification of raw mass spectrometry data'
+- doi: 10.1021/acs.analchem.9b05765
+  title: 'Retip: Retention Time Prediction for Compound Annotation in Untargeted Metabolomics'
+source_repos:
+- https://github.com/LeaveMeNotTonight/CMDN
+- https://github.com/constantino-garcia/cmmrt
+- https://github.com/scibiome/meteor
+- https://github.com/WoodFY/MSMCE
+- https://github.com/oloBion/Retip
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LeaveMeNotTonight/CMDN

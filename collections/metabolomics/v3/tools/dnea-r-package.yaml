@@ -1,0 +1,22 @@
+name: DNEA R package
+slug: dnea-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- The DNEA R package is available to download on GitHub (http://www.github.com/Karnovsky-Lab/DNEA/).
+- The DNEA, Filigree and Metabox2 networks were filtered to include edges with an absolute value of correlation coefficient greater than or equal to 0.2.
+- These data are also included in the DNEA R package.
+- TEDDYdat <- stabilitySelection(object = TEDDYdat, subSample = TRUE,
+- TEDDYdat <- clusterNet(TEDDYdat, tau = 0.5,
+- The `aggregateFeatures()` function makes available the **correlation-based**, **knowledge-based**, and **hybrid** collapsing methods from Filigree.
+derived_from:
+- doi: 10.1186/s12859-024-05994-1
+  title: 'DNEA: an R package for fast and versatile data-driven network analysis of metabolomics data'
+source_repos:
+- https://github.com/Karnovsky-Lab/DNEA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Karnovsky-Lab/DNEA

@@ -1,0 +1,56 @@
+{
+  "workflow": "targeted_lcms_quantification",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "The leaf fits and optimizes per-analyte calibration regressions with an internal-standard correction option, but does not explicitly assess the requested lower limit of quantification.",
+      "severity": "advisory",
+      "slug": "calibration-curve-regression-fitting--d8bf18a2234ca88f",
+      "stage": "calibrate"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf computes targeted-MS QC RSDs, flags outliers and assesses pooled-QC between-batch correction, but does not describe the requested intra-batch drift assessment.",
+      "severity": "advisory",
+      "slug": "batch-correction-effect-assessment",
+      "stage": "qc"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf converts targeted LC-MS peak areas to calibrated concentrations with optional internal-standard correction, but provides method-comparison statistics rather than per-measurement uncertainty.",
+      "severity": "advisory",
+      "slug": "external-calibration-conversion",
+      "stage": "quantify"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf processes multiplexed capillary-electrophoresis MS data using migration-index rules and deposited assay calibrations, rather than applying the supplied targeted LC-MS calibration curves.",
+      "severity": "advisory",
+      "slug": "metabolite-calibration-curve-quantification",
+      "stage": "quantify"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf tabulates internal-standard retention-time, intensity and mass-error metrics for an acquisition dashboard, rather than producing a calibrated analyte quantification report.",
+      "severity": "advisory",
+      "slug": "qc-dashboard-metric-tabulation",
+      "stage": "report"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf derives instrument peak-quality metrics and outlier reports from raw MS files, rather than consolidating analyte concentrations and calibration/QC results.",
+      "severity": "advisory",
+      "slug": "qc-metrics-report-generation",
+      "stage": "report"
+    }
+  ],
+  "verdict": "pass"
+}

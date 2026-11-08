@@ -1,0 +1,17 @@
+name: Exploris 240 Orbitrap
+slug: exploris-240-orbitrap
+version_used: null
+edam_topics: []
+evidence_spans:
+- Denoising Search detected 2.3-fold more annotated compounds compared to the Exploris 240 Orbitrap instrument
+derived_from:
+- doi: 10.1038/s41592-025-02646-x
+  title: Denoising Search doubles the number of metabolite and exposome annotations in human plasma using an Orbitrap Astral mass spectrometer
+source_repos:
+- https://github.com/FanzhouKong/spectral_denoising
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FanzhouKong/spectral_denoising

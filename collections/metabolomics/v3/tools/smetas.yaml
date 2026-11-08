@@ -1,0 +1,17 @@
+name: SMetaS
+slug: smetas
+version_used: null
+edam_topics: []
+evidence_spans:
+- SMetaS (Sample Metadata Standardizer) combines a classic database with an API and frontend and is provided in a containerized environment.
+derived_from:
+- doi: 10.3390/metabo13080941
+  title: 'SMetaS: A Sample Metadata Standardizer for Metabolomics'
+source_repos:
+- https://github.com/metabolomics-us/metadatastandardizer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/metabolomics-us/metadatastandardizer

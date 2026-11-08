@@ -1,0 +1,20 @@
+name: tGAM
+slug: tgam
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce rLOESS, rGAM and tGAM, three robust normalization methods
+- model = "tGAM"
+- 'model = "tGAM",      # default tGAM method'
+- We introduce rLOESS, rGAM and tGAM, three robust normalization methods that improve resistance to outliers by downweighting or accommodating them.
+derived_from:
+- doi: 10.1101/2025.09.30.679445
+  title: Robust metabolomics data normalization across scales and experimental designs
+source_repos:
+- https://github.com/UGent-LIMET/Metanorm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/UGent-LIMET/Metanorm

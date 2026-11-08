@@ -1,0 +1,70 @@
+{
+  "workflow": "stable_isotope_tracing_fluxomics",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "This leaf groups detected mass traces into isotope features and charge estimates but does not extract per-metabolite isotopologue distributions from the stage's feature table.",
+      "severity": "advisory",
+      "slug": "isotope-hypothesis-enumeration-from-mass-traces",
+      "stage": "isotopologue_extract"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf consumes already measured isotopologue profiles to calculate model-predicted intensities and does not extract distributions from an LC-MS feature table.",
+      "severity": "advisory",
+      "slug": "isotopologue-intensity-forward-calculation",
+      "stage": "isotopologue_extract"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf compares two NMR-derived isotopomer distributions for agreement rather than computing LC-MS mass-isotopomer distributions and fractional enrichment.",
+      "severity": "advisory",
+      "slug": "isotopomer-distribution-comparison",
+      "stage": "labelling_analysis"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf only normalises raw isotopologue areas within each metabolite and explicitly does not correct natural isotope abundance.",
+      "severity": "advisory",
+      "slug": "isotopologue-abundance-normalization",
+      "stage": "natural_abundance_correction"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf integrates isotopologues from raw GC-CI-MS data but does not correct an LC-MS isotopologue distribution for natural abundance and tracer purity.",
+      "severity": "advisory",
+      "slug": "stable-isotope-labeling-data-quantification",
+      "stage": "natural_abundance_correction"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf aligns and integrates targeted isotopologue EICs that were already extracted, so it does not produce the requested all-isotopologue feature table from raw LC-MS.",
+      "severity": "advisory",
+      "slug": "isotopologue-peak-quantification",
+      "stage": "preprocess"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf renders a stacked-bar labelling figure from a pre-existing table and does not produce the requested consolidated tracing report table.",
+      "severity": "advisory",
+      "slug": "isotopologue-labelling-visualization-of-metabolic-flux",
+      "stage": "report"
+    },
+    {
+      "check": "V4",
+      "detail": "This leaf creates a general human-facing HTML metabolomics report rather than a machine-readable stable-isotope labelling and enrichment table.",
+      "severity": "advisory",
+      "slug": "metabolomics-html-report-generation",
+      "stage": "report"
+    }
+  ],
+  "verdict": "pass"
+}

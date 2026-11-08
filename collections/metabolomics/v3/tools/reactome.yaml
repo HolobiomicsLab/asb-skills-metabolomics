@@ -1,0 +1,21 @@
+name: Reactome
+slug: reactome
+version_used: null
+edam_topics: []
+evidence_spans:
+- PALS can connect to a Reactome database instance to retrieve the most updated pathways
+- This information is often spread across several databases, such as KEGG [10], Reactome [11], and PantherDB [12]
+derived_from:
+- doi: 10.3390/metabo11020103
+  title: Ranking Metabolite Sets by Their Activity Levels
+- doi: 10.1371/journal.pcbi.1008979
+  title: 'netgsa: Fast computation and interactive visualization for topology-based pathway enrichment analysis'
+source_repos:
+- https://github.com/glasgowcompbio/PALS
+- https://github.com/mikehellstern/netgsa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/glasgowcompbio/PALS

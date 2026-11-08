@@ -1,0 +1,26 @@
+name: MassIVE
+slug: massive
+version_used: null
+edam_topics: []
+evidence_spans:
+- been uploaded to MassIVE for data-sharing
+- uploaded to MassIVE for data-sharing
+derived_from:
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.1038/s41596-020-0317-5
+  title: Reproducible molecular networking of untargeted mass spectrometry data using GNPS
+- doi: 10.1038/s41592-020-0916-7
+  title: 'ReDU: a framework to find and reanalyze public mass spectrometry data'
+- doi: 10.1038/nbt.3597
+  title: Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking
+source_repos:
+- https://github.com/enpkg/enpkg_full
+- https://github.com/CCMS-UCSD/GNPS_Workflows
+- https://github.com/mwang87/ReDU-MS2-Documentation
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enpkg/enpkg_full

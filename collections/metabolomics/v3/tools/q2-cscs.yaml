@@ -1,0 +1,18 @@
+name: q2-cscs
+slug: q2-cscs
+version_used: null
+edam_topics: []
+evidence_spans:
+- madeleineernst/q2-cscs
+derived_from:
+- doi: 10.3389/fbinf.2022.842964
+  title: 'MEMO: Mass Spectrometry-Based Sample Vectorization to Explore Chemodiverse Datasets'
+source_repos:
+- https://github.com/madeleineernst/q2-cscs
+- https://github.com/mandelbrot-project/memo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/madeleineernst/q2-cscs

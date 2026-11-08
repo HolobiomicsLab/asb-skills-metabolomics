@@ -1,0 +1,17 @@
+name: GSL
+slug: gsl
+version_used: null
+edam_topics: []
+evidence_spans:
+- This package requires the GSL library. If you are using Windows, you can obtain more information on how to install it below.
+derived_from:
+- doi: 10.3390/metabo9080162
+  title: 'rMSIKeyIon: An Ion Filtering R Package for Untargeted Analysis of Metabolomic LDI-MS Images'
+source_repos:
+- https://github.com/LlucSF/rMSIKeyIon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LlucSF/rMSIKeyIon

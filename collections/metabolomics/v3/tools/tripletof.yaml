@@ -1,0 +1,16 @@
+name: TripleTOF
+slug: tripletof
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41467-024-54871-1
+  title: 'iDIA-QC: AI-empowered data-independent acquisition mass spectrometry-based quality control'
+source_repos:
+- https://github.com/guomics-lab/iDIA-QC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/guomics-lab/iDIA-QC

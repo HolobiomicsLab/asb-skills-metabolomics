@@ -1,0 +1,16 @@
+name: DeNovoGUI
+slug: denovogui
+version_used: 1.16.6
+edam_topics: []
+evidence_spans:
+- We executed Novor (v.1.05) via the DeNovoGUI command-line interface (v.1.16.6) [42].
+derived_from:
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

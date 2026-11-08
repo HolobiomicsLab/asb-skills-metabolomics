@@ -1,0 +1,22 @@
+name: mpactr
+slug: mpactr
+version_used: null
+edam_topics: []
+evidence_spans:
+- To import these data into R, use the mpactr function `import_data()`
+- To check for mispicked ions, use mpactr function `filter_mispicked_ions()`
+- mpactR automates pre-processing of liquid chromatography-tandem mass spectrometry (LC-MS/MS) data from microbiological samples
+- The goal of mpactr is to correct for errors that occur during the pre-processing of raw tandem MS/MS data
+- Non-reproducible ions are identified by coefficient of variation (CV) between technical replicates with `filter_cv()`
+- use mpactr function `filter_mispicked_ions()`
+derived_from:
+- doi: 10.1128/mra.00997-24
+  title: 'mpactR: an R adaptation of the metabolomics peak analysis computational tool (MPACT) for use in reproducible data analysis pipelines'
+source_repos:
+- https://github.com/mums2/mpactr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mums2/mpactr

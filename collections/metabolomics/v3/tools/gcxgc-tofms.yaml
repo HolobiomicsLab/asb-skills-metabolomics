@@ -1,0 +1,18 @@
+name: GCxGC-TOFMS
+slug: gcxgc-tofms
+version_used: null
+edam_topics: []
+evidence_spans:
+- models based on 195 metabolites generated from GCxGC-TOFMS analysis of plasma samples from patients in Nepal undergoing cholecystectomy
+- using two-dimensional gas chromatography coupled with time-of-flight mass spectrometry (GCxGC-TOFMS)
+- using two-dimensional gas chromatography coupled with time-of-flight mass spectrometry (GCxGC-TOFMS) and supervised pattern recognition modeling
+derived_from:
+- doi: 10.1371/journal.pntd.0006215
+  title: Diagnostic metabolite biomarkers of chronic typhoid carriage
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

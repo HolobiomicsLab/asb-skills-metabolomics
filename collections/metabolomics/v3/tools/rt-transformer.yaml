@@ -1,0 +1,19 @@
+name: RT-Transformer
+slug: rt-transformer
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present RT-Transformer, a novel deep neural network model coupled with graph attention network and 1D-Transformer, which can predict retention times
+- we present RT-Transformer, a novel deep neural network model coupled with graph attention network and 1D-Transformer, which can predict retention times under any chromatographic methods
+- we present RT-Transformer, a novel deep neural network model coupled with graph attention network and 1D-Transformer
+derived_from:
+- doi: 10.1093/bioinformatics/btae084
+  title: 'RT-Transformer: retention time prediction for metabolite annotation to assist in metabolite identification'
+source_repos:
+- https://github.com/01dadada/RT-Transformer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/01dadada/RT-Transformer

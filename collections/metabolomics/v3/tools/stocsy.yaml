@@ -1,0 +1,17 @@
+name: STOCSY
+slug: stocsy
+version_used: null
+edam_topics: []
+evidence_spans:
+- overlap of each spin system’s SMolESY pattern with other SM signals using STOCSY
+derived_from:
+- doi: 10.1021/acs.analchem.1c00113
+  title: A Computationally Lightweight Algorithm for Deriving Reliable Metabolite Panel Measurements from 1D <sup>1</sup>H NMR
+source_repos:
+- https://github.com/pantakis/SMolESY-select
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pantakis/SMolESY-select

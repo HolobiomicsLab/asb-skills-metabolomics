@@ -1,0 +1,81 @@
+name: KEGG
+slug: kegg
+version_used: null
+edam_topics: []
+evidence_spans:
+- CheBI ID, HMDB ID, KEGG ID, LipidMaps ID, DrugBank ID, CAS number
+- These rules can be sourced from databases like RetroRules, KEGG, or Metacyc.
+- Metabolite and pathway association data were obtained from the Kyoto Encyclopedia of Genes and Genomes (KEGG) database
+- combining curated pathway information from the Kyoto Encyclopedia of Genes and Genomics (KEGG)
+- The IDs are needed to map the metabolites to known KEGG pathways.
+- filtered MS1 tables from KEGG (3,044 metabolites)
+- Our metabolism reconstruction method is based on the KEGG database.
+- 'PiMP_KEGG: KEGG compound database exported from PiMP.'
+- about 400 pathways and complexes characterized on the Biocarta and KEGG (Kyoto Encyclopedia of Genes and Genomes) websites
+- combines diverse biological data with established pathway databases, including KEGG, Reactome, and WikiPathways
+- combines diverse biological data with established pathway databases, including KEGG
+- subsetArgs = c("LOTUS", "KEGG")
+- iMet combined reactant pairs from KEGG and MS/MS spectral similarity
+- This information is often spread across several databases, such as KEGG [10], Reactome [11], and PantherDB [12]
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+- doi: 10.1158/0008-5472.can-14-1490
+  title: AKT1 and MYC Induce Distinctive Metabolic Fingerprints in Human Prostate Cancer
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.1021/acs.analchem.8b05405
+  title: Deep MS/MS-Aided Structural-Similarity Scoring for Unknown Metabolite Identification
+- doi: 10.1101/2025.08.28.672951
+  title: 'EnrichMet: R Package for Integrated Pathway and Network Analysis for Metabolomics'
+- doi: 10.1101/2021.02.28.433248
+  title: 'MetaFetcheR: An R package for complete mapping of small compound data'
+- doi: 10.1101/2025.06.26.661636
+  title: 'MetaNet: a scalable and integrated tool for reproducible omics network analysis'
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+- doi: 10.1101/2020.11.20.391912
+  title: 'MetENP/MetENPWeb: An R package and web application for metabolomics enrichment and pathway analysis in Metabolomics Workbench'
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+- doi: 10.1111/jipb.13774
+  title: 'MetMiner: A user‐friendly pipeline for large‐scale plant metabolomics data analysis'
+- doi: 10.1371/journal.pone.0246962
+  title: 'MetNet: A two-level approach to reconstructing and comparing metabolic networks'
+- doi: 10.1021/acs.analchem.3c04501
+  title: 'MINNO: An Open Source Software for Refining Metabolic Networks and Investigating Complex Network Activity Using Empirical Metabolomics Data'
+- doi: 10.3390/metabo11020103
+  title: Ranking Metabolite Sets by Their Activity Levels
+- doi: 10.1186/1471-2105-6-225
+  title: Pathway level analysis of gene expression using singular value decomposition
+- doi: 10.1021/acs.analchem.5c03225
+  title: 'SMART 2.0 Statistical Metabolomics Analysis: An R Tool 2.0'
+- doi: 10.1371/journal.pone.0306202
+  title: 'uafR: An R package that automates mass spectrometry data processing'
+- doi: 10.1038/s41467-022-34537-6
+  title: Metabolite annotation from knowns to unknowns through knowledge-guided multi-layer metabolic networking
+- doi: 10.1371/journal.pcbi.1008979
+  title: 'netgsa: Fast computation and interactive visualization for topology-based pathway enrichment analysis'
+source_repos:
+- https://github.com/HassounLab/BAM
+- https://github.com/hcji/DeepMASS
+- https://github.com/biodatalab/enrichmet
+- https://github.com/komorowskilab/MetaFetcheR
+- https://github.com/Asa12138/MetaNet
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+- https://github.com/metabolomicsworkbench/MetENP
+- https://github.com/scibiome/meteor
+- https://github.com/ShawnWx2019/MetMiner
+- https://github.com/simeoni-biolab/MetNet
+- https://github.com/LewisResearchGroup/MINNO
+- https://github.com/glasgowcompbio/PALS
+- https://github.com/YuJenL/SMART
+- https://github.com/castratton/uafR
+- https://github.com/ZhuMetLab/MetDNA2Vis
+- https://github.com/mikehellstern/netgsa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/BAM

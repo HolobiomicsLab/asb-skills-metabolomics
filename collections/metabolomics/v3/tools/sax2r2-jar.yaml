@@ -1,0 +1,17 @@
+name: sax2r2.jar
+slug: sax2r2-jar
+version_used: null
+edam_topics: []
+evidence_spans:
+- javac -cp ./lib/gs-algo-1.3.jar:./lib/gs-core-1.3.jar:./lib/gs-ui-1.3.jar:./lib/guava-19.0.jar:./lib/poi-3.9.jar:./lib/sax2r2.jar
+derived_from:
+- doi: 10.1371/journal.pone.0246962
+  title: 'MetNet: A two-level approach to reconstructing and comparing metabolic networks'
+source_repos:
+- https://github.com/simeoni-biolab/MetNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/simeoni-biolab/MetNet

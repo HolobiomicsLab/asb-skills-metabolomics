@@ -1,0 +1,17 @@
+name: HMDBsearchR
+slug: hmdbsearchr
+version_used: null
+edam_topics: []
+evidence_spans:
+- the ppm values of the actual peaks of interest that can then be used to query a database, like HMDB [24]
+derived_from:
+- doi: 10.1371/journal.pcbi.1006018
+  title: 'speaq 2.0: A complete workflow for high-throughput 1D NMR spectra processing and quantification'
+source_repos:
+- https://github.com/beirnaert/speaq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/beirnaert/speaq

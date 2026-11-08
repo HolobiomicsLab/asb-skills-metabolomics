@@ -1,0 +1,16 @@
+name: SMILE WebAssembly plugin
+slug: smile-webassembly-plugin
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s10858-025-00465-y
+  title: ''
+source_repos:
+- https://github.com/lidawei1975/colmarvista
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lidawei1975/colmarvista

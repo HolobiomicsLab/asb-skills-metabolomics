@@ -1,0 +1,704 @@
+name: R
+slug: r
+version_used: 3.6.0
+edam_topics: []
+evidence_spans:
+- The survival analyses in the individual cohorts were performed using R and STATA/SE 11.2
+- Here, we present Aerith, an R package designed to visualize data of simulated and observed isotopic envelopes
+- rmarkdown::render("Aerith.Rmd", output_dir = "../doc/")
+- Here, we present Aerith, an R package designed to visualize data of simulated and observed isotopic envelopes of peptides and metabolites
+- Aerith.Rmd
+- 'output:'
+- Flexible approaches for evaluating these data were implemented in an RShiny-based web-application
+- We have developed and tested automRm in R version 3.6.0 on a 64-bit Linux machine
+- Here, we present the R package automRm for fully automatic preprocessing of LC-MS data recorded in MRM mode.
+- We have developed and tested automRm in R version 3.6.0
+- AutoTuner is freely available as an R package through BioConductor.
+- AutoTuner is freely available as an R package through BioConductor
+- AutoTuner is freely distributed through BioConductor as an R package.
+- knitr::rmarkdown
+- '%\VignetteEngine{knitr::rmarkdown}'
+- Cardinal is an R package for statistical analysis of mass spectrometry-based imaging (MSI) experiments of biological samples such as tissues.
+- '```{r setup, echo=FALSE, message=FALSE}'
+- BiocManager::install("Cardinal")
+- vignetteEngine{knitr::rmarkdown}
+- 'R version: 3.6+'
+- a package in the R environment
+- We developed "dbnorm", a package in the R environment
+- Linear regression model was used and significant criteria for metabolite selection were set at Log2FC > 1.5 and benjamini and bochberg (BH) adjusted p-value < 0.05.
+- The figure is reproducible with our included example script in Additional file 3.
+- R Project for Statistical Computing software (R Core Team, 2020) version 4.1.1
+- The package can be installed using the BiocManager R package.
+- The DNEA R package is currently available for download from Bioconductor.
+- We developed the DNEA R package for the data-driven network analysis of metabolomics data.
+- The DNEA R package is available to download on GitHub
+- '%\VignetteEngine{knitr::rmarkdown}'
+- EnrichMet, an R package for fast, flexible, and reproducible pathway enrichment analysis
+- we introduce EnrichMet, an R package for fast, flexible, and reproducible pathway enrichment analysis
+- a free computational tool written in the open language R
+- an R package with an integrated design
+- eRah can be installed from any
+- GetFeatistics is an R-package developed to streamline the elaboration and statistical analysis of metabolomics data.
+- 'The R code for GSimp, evaluation pipeline, vignette, real-world and simulated targeted metabolomics datasets are available at:'
+- Package Dependencies and Version
+- 'output: rmarkdown::html_vignette'
+- Here, we present homologueDiscoverer, an R package that allows for the targeted and untargeted detection of homologue series
+- All randomization was performed using the sample function in R.
+- knitr::opts_chunk$set(echo = TRUE)
+- To install `JPA` package R version 4.0.0 or above is required
+- IonFlow is a Galaxy tool written in R for ionomics data analysis
+- we developed IonFlow, an R-based Galaxy tool designed for the analysis of ionome data sets from ICP-MS experiments
+- Lilikoi v2.0 is a modern, comprehensive package to enable metabolomics analysis in R programming environment.
+- VignetteEngine{knitr::rmarkdown}
+- LipidMatch was written in R [9].
+- LipidMatch was written in R
+- coding its back-end interac- tions with the R scripts
+- R Core Team (2024)
+- (absent — flagged as missing)
+- The R package margheRita addresses the complete workflow for metabolomic profiling in untargeted studies based on liquid chromatography (LC) coupled with tandem mass spectrometry (MS/MS).
+- 'package: margheRita'
+- The methods described in this paper are implemented in the open-source R package marr
+- the open-source R package marr, which is freely available from Bioconductor
+- To install MSPrep from GitHub, write the following R (>=4.0) commands
+- Note that installation requires R version 4.0 or later.
+- library(mass2adduct)
+- which was sequentially analyzed by a R-based mass dataset relevance bridging (MDRB) data post-processing technique
+- R base with version > 3.6.1 is recommended.
+- The R stats package was employed to perform Pearson correlation analysis of serial dilutions.
+- MetaboAnalystR 4.0 represents a significant step toward a unified, end-to-end workflow for LC-MS based global metabolomics in the open-source R environment.
+- These downloaded files were curated with in-house R scripts into SQLite format based on the same schema
+- Unlike DecoMetDIA, the entire data deconvolution workflow is implemented in Rcpp/C++.
+- The workflow is freely available as an open-source R package
+- 'The workflow is freely available as an open-source
+
+  R package'
+- 'The workflow is freely available as an open-source
+
+  R package, MetaboAnnotatoR'
+- The R packages as well as the example files used in this document can be
+- 'The R packages as well as the example files used in this document can be
+
+  installed with the R code below'
+- library(metaboprep)
+- metaboprep is an open-source R package available at https://github.com/MRCIEU/metaboprep
+- Install as an R package
+- '#### (b) Inatall as an R package'
+- MetaboShiny is an R based application
+- MetaboShiny is an R based application, wrapped in a ‘Shiny’ user interface
+- MetaboShiny is an R based application, wrapped in a 'Shiny' user interface
+- In addition, MetaMOPE provides source codes of functions for multiple metrics written in R.
+- Make sure `R` (**version >= 4.4.0**) is installed on your computer
+- MeTEor is available as an R package and as a Docker image
+- MeTEor is an R Shiny app providing a comprehensive set of statistical analysis methods
+- 'The developed metGWAS 1.0 framework is implemented in an R pipeline and available at: https://github.com/saifurbd28/metGWAS-1.0.'
+- The supplementary material-1 consists of several R-scripts
+- The supplementary material-1 consists of several R-scripts (i.e., metGWAS 1.0_19 April, qvalue and bioconductor install, and RSelenium Driver SetUp)
+- We developed a bioinformatics tool, metGWAS 1.0, that generates and statistically compares metabolic and genomic gene sets using a hypergeometric test.
+- The mineMS2 software is publicly available as an R package
+- further data filtering, evaluation, and visualization was done in the R studio programming environment (R version 4.3.2 and RStudio 2023.09.1)
+- it is necessary to install [R](https://cran.r-project.org/) and [R studio](https://www.rstudio.com/products/rstudio/download/)
+- This automated open-source R Markdown tool enables internal monitoring and straightforward compensation for CCSN2 biases
+- 'To run MobiLipid it is necessary to install
+
+  [R](https://cran.r-project.org/) and [R
+
+  studio](https://www.rstudio.com/products/rstudio/download/).'
+- paste the following code into the console of R studio and press enter
+- https://github.com/mums2/mpactr/actions/workflows/r.yml
+- The package is available through CRAN and GitHub.
+- we developed a R package, mspcompiler
+- '%\VignetteEngine{knitr::rmarkdown}'
+- The MWASTools R package is implemented in R (version > =3.4)
+- VignetteEngine{knitr::rmarkdown}
+- mzQuality is distributed as an R package for which version 4.0 or later is required.
+- an R package for which version 4.0 or later is required
+- mzRAPP is implemented in R and can be downloaded from GitHub under GNU GPL v.3.0 licence
+- callmzRAPP()
+- mzRAPP is implemented in R and can be downloaded from GitHub
+- In R, missing values are represented by a special value ```NA```
+- The package API is still quite experimental, and breaking changes are possible
+- POMAShiny is a web-based tool wholly written in the open-source R programming language
+- it is based on the POMA R/Bioconductor package
+- it is based on the POMA R/Bioconductor package, which increases the reproducibility and flexibility of analyses outside the web environment
+- POMAShiny is a web-based tool wholly written in the open-source R programming language [10]
+- it is based on the POMA R/Bioconductor package, which increases the reproducibility and flexibility of the analysis outside the web environment
+- Omu is an R package that enables rapid analysis of Metabolomics data sets
+- Various open tools are easily interfaced with the R statistical environment [53]
+- an open-source R Shiny tool
+- an open-source Shiny web application and R package
+- 'QC4Metabolomics leverages
+
+  the rich ecosystem of R packages'
+- QC4Metabolomics leverages the rich ecosystem of R packages
+- From Rstudio run the app as
+- we have developed a RaMP R package (https://github.com/Mathelab/RaMP-DB), including a user-friendly RShiny web application
+- we have developed a RaMP R package (https://github.com/Mathelab/RaMP-DB)
+- objects following Rs S3 OOP system named
+- the R statistical environment is a highly valuable tool for genomics data analysis
+- we choose to stick to base R
+- Our implementation is build on two layers, the R and the C# layer which exchange information using file i/o.
+- The developed algorithm is packaged and released as rMSIcleanup, an open-source R package freely available
+- The developed algorithm is packaged and released as rMSIcleanup, an open-source R package freely available for the scientific community
+- The widely used linear algorithm Principal Component Analysis (PCA) [31] was performed on all 14 datasets before and after removal of the
+- an open-source R package that extends our previously published rtms framework
+- R version 3.6.3 (2020-02-29)
+- oad `SERDA runner.R`. Open it and edit `data_file = "filelocation.xlsx"` and run all the script lines.
+- Open it and edit `data_file = "filelocation.xlsx"` and run all the script lines.
+- oad `SERDA runner.R`. Open it and edit `data_file = "filelocation.xlsx"`
+- '`SERDA runner.R`. Open it and edit `data_file = "filelocation.xlsx"` and run all the script lines.'
+- ADViSELipidomics is a stand-alone application implemented using the R language (R \> 4.0) and the Shiny libraries.
+- Shinyscreen is distributed as an R package. Its source code is primarily written in the R language
+- Shinyscreen is an R package and Shiny-based web application
+- '- R (≥ v4.1.0)'
+- an innovative open-source spatial metabolomics analysis software implemented in R (4.4.1)
+- implemented in R (4.4.1)
+- SManalyst is an innovative open-source platform for comprehensive analysis of spatial metabolomics data
+- SMART 1.0 was developed as an integrated tool for untargeted metabolomics data analysis, streamlining the entire analysis workflow
+- 'SMART 2.0: Statistical Metabolomics Analysis – An R Tool 2.0.'
+- Excellent software libraries for such data analysis are available in both R and Python
+- executing them in R using the *reticulate* R package
+- Here, we present an R/Bioconductor package, named struct (Statistics in R using Class-based Templates)
+- '``struct`` is an R package that helps you build consistent, reusable data-analysis
+
+  workflows using object-oriented templates.'
+- 'the R package
+
+  subMALDI'
+- the R package subMALDI
+- using the function poly from the R package stats
+- a comprehensive R-based computational framework
+- Rscript tools/build_offline_plant_chemistry_example.R
+- allow anyone with basic experience in R to pull out component areas
+- Rscript
+- library(uafR)
+- Data processing is done by a combination of Scikit-learn for common statistical algorithms and R packages for specialized algorithms.
+- Data processing is done by a combination of Scikit-learn for common statistical algorithms and R packages for specialized algorithms
+- call library(<dep>) explicitly before using their functions
+- call library(<dep>) explicitly
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- arcMS is an open-source R package and is available on GitHub at https://github.com/leesulab/arcMS
+- Files created by `arcMS` in the Parquet format can be opened in R with the Arrow library.
+- Check out "Codes-Explained" folder to find all the example R and MATLAB codes
+- _No usage/docs found._
+- The iMAP V1.0 was developed by Scala 2.13.1 and R 3.6.1
+- The iMAP V1.0 was developed by Scala 2.13.1
+- a new and comprehensive R package for personalized pathway-based classification modeling using metabolomics data
+- the R scripts for each use case are provided in the automation repository
+- the R scripts for each use case
+- with external tools (e.g. R, Jupyter, Python, etc)
+- '"LipidSigR" is an R package developed based on LipidSig web-based tool'
+- You need to have R 4.3.0 or a later version installed for running LipidSigR.
+- All analyses were performed using R (https://www.r-project.org/).
+- '`.mskFT` files are technically `.RDS` files containing an `MseekFT` object and can be loaded into any R session with the `readRDS()` function.'
+- The programming and statistics environment R has emerged as one of the most popular environments to process and analyse Metabolomics datasets.
+- _No usage/docs found._
+- we developed a new bioinformatics tool that includes a few of preprocessing steps and biomarker discovery procedure.
+- _No usage/docs found._
+- Researchers can send data subsets to R for additional analyses.
+- https://rickhelmus.github.io/patRoon/articles/tutorial.md
+- The open-source, R-based (R Core Team, 2021) platform pat Roon (Helmus, ter Laak, et al., 2021) offers automated, straightforward, flexible and comprehensive NTA workflows.
+- The open-source, R-based (R Core Team, 2021) platform pat Roon
+- we introduced an analysis framework and highly configurable R script for the prioritization of candidate causal genes at molecular QTLs
+- we introduced an analysis framework and highly configurable R script
+- highly configurable R script
+- if (!require("devtools")) install.packages("devtools")
+- the packages and libraries.This package requires the GSL library
+- install.packages("Rcpp")
+- export a METASPACE dataset as an [AnnData](https://anndata.readthedocs.io/en/stable/) object and then import it into R
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- Available as an R package, SIMPEL extends metabolomics analyses to include isotopologue signatures necessary to quantify metabolic flux.
+- R environment with Shiny package installed
+- Built using the Shiny package [22] in R
+- Built using the Shiny package [22] in R, SMQVP offers an intuitive platform
+- speaq 2.0 is distributed through the existing speaq R package
+- speaq R package
+- We make this procedure available a resource to the community via an R package, ukbnmr.
+- library(ukbnmr)
+- 'An example workflow for extracting these data and saving them for later use:'
+- 'An example workflow for extracting these data and saving them for later use:
+
+
+  {r eval=FALSE}
+
+  library(ukbnmr)'
+- R packages klic and coca are available on the Comprehensive R Archive Network
+- We have developed massPix—an R package for analysing and interpreting data from MSI of lipids in tissue.
+- massPix is run from the R scripting interface, however a detailed knowledge of R is not required to install and use the software
+- massPix is run from the R scripting interface, however a detailed knowledge of R is not required to install and use the software.
+- implemented using mainly the open source software language R (R Core Team 2014
+- NMRspec, the NMR spectra processing application has been implemented using mainly the open source software language R
+- the open source software language R (R Core Team 2014
+derived_from:
+- doi: 10.1038/s41467-019-11311-9
+  title: A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals
+- doi: 10.1021/acs.jproteome.1c00425
+  title: A Preprocessing Tool for Enhanced Ion Mobility–Mass Spectrometry-Based Omics Workflows
+- doi: 10.1021/acs.analchem.5c03207
+  title: 'Aerith: Visualization and Annotation of Isotopic Enrichment Patterns of Peptides and Metabolites with Stable Isotope Labeling from Proteomics and Metabolomics'
+- doi: 10.1016/j.cca.2024.117858
+  title: ALISTER – Application for lipid stability evaluation and research
+- doi: 10.1021/acs.analchem.1c05224
+  title: 'automRm: An R Package for Fully Automatic LC-QQQ-MS Data Preprocessing Powered by Machine Learning'
+- doi: 10.1101/812370
+  title: 'AutoTuner: High fidelity, robust, and rapid parameter selection for metabolomics data processing'
+- doi: 10.1021/acs.jnatprod.7b00737
+  title: 'Bioactivity-Based Molecular Networking for the Discovery
+
+    of Drug Leads in Natural Product Bioassay-Guided Fractionation'
+- doi: 10.1021/ac202450g
+  title: 'CAMERA: An Integrated Strategy for Compound Spectra Extraction and Annotation of Liquid Chromatography/Mass Spectrometry Data Sets'
+- doi: 10.1093/bioinformatics/btv146
+  title: "<i>Cardinal</i>\n                    : an R package for statistical analysis of mass spectrometry-based imaging experiments"
+- doi: 10.1021/acs.analchem.0c05022
+  title: 'DaDIA: Hybridizing Data-Dependent and Data-Independent Acquisition Modes for Generating High-Quality Metabolomic Data'
+- doi: 10.1093/bioinformatics/btac388
+  title: 'MiMIR: R-shiny application to infer risk factors and endpoints from Nightingale Health’s 1H-NMR metabolomics data'
+- doi: 10.1038/s41598-021-84824-3
+  title: DBnorm as an R package for the comparison and selection of appropriate statistical methods for batch effect correction in metabolomic studies
+- doi: 10.1021/acs.analchem.9b02655
+  title: 'DecoMetDIA: Deconvolution of Multiplexed MS/MS Spectra for Metabolite Identification in SWATH-MS-Based Untargeted Metabolomics'
+- doi: 10.1016/j.aca.2025.344698
+  title: 'DIATAGeR: Triacylglycerol annotation of data-independent acquisition based lipidomics'
+- doi: 10.1101/2025.09.22.677919
+  title: Computational method for mapping mass signatures along developmental gradients reveals a novel role for a monosaccharide tetrose in maize salt-stress response
+- doi: 10.1186/s12859-017-1547-6
+  title: Distribution based nearest neighbor imputation for truncated high dimensional data with applications to pre-clinical and clinical metabolomics studies
+- doi: 10.3389/fchem.2022.908572
+  title: A Comprehensive Database for DNA Adductomics
+- doi: 10.1186/s12859-024-05994-1
+  title: 'DNEA: an R package for fast and versatile data-driven network analysis of metabolomics data'
+- doi: 10.1021/acs.analchem.9b02983
+  title: Deep Neural Networks for Classification of LC-MS Spectral Peaks
+- doi: 10.1016/j.chroma.2018.09.050
+  title: eicCluster software, an open-source in silico tool, and on-surface syntheses, an in situ concept, both exploited for signal highlighting in high-resolution mass spectrometry to ease structure elucidation in planar chromatography
+- doi: 10.1101/2025.08.28.672951
+  title: 'EnrichMet: R Package for Integrated Pathway and Network Analysis for Metabolomics'
+- doi: 10.1021/acs.analchem.6b02927
+  title: 'eRah: A Computational Tool Integrating Spectral Deconvolution and Alignment with Quantification and Identification of Metabolites in GC/MS-Based Metabolomics'
+- doi: 10.1093/bib/bbaf080
+  title: 'GcDUO: an open-source software for GC × GC–MS data analysis'
+- doi: 10.1016/j.chemolab.2023.104938
+  title: 'GCIMS: An R package for untargeted gas chromatography – Ion mobility spectrometry data processing'
+- doi: 10.1021/acs.analchem.5b03628
+  title: 'geoRge: A Computational Tool To Detect the Presence of Stable Isotope Labeling in LC/MS-Based Untargeted Metabolomics'
+- doi: 10.1515/jib-2025-0047
+  title: 'Streamlining feature elaboration and statistics analysis in metabolomics: the GetFeatistics R-package'
+- doi: 10.1371/journal.pcbi.1005973
+  title: 'GSimp: A Gibbs sampler based left-censored missing value imputation approach for metabolomics studies'
+- doi: 10.1093/bioinformatics/btac647
+  title: "Homologue series detection and management in LC-MS data with\n                    <i>homologueDiscoverer</i>"
+- doi: 10.1101/2020.12.21.423723
+  title: 'hRUV: Hierarchical approach to removal of unwanted variation for large-scale metabolomics data'
+- doi: 10.3390/metabo12030212
+  title: 'JPA: Joint Metabolic Feature Extraction Increases the Depth of Chemical Coverage for LC-MS-Based Metabolomics and Exposomics'
+- doi: 10.1021/acs.analchem.3c00376
+  title: 'IDSL.CSA: Composite Spectra Analysis for Chemical Annotation of Untargeted Metabolomics Datasets'
+- doi: 10.1021/acs.jproteome.2c00120
+  title: IDSL.IPA Characterizes the Organic Chemical Space in Untargeted LC/HRMS Data Sets
+- doi: 10.1021/acs.analchem.2c00563
+  title: IDSL.UFA Assigns High-Confidence Molecular Formula Annotations for Untargeted LC/HRMS Data Sets in Metabolomics and Exposomics
+- doi: 10.1007/s11306-021-01841-z
+  title: 'IonFlow: a galaxy tool for the analysis of ionomics data sets'
+- doi: 10.1021/acs.analchem.1c01644
+  title: 'ISFrag: De Novo Recognition of In-Source Fragments for Liquid Chromatography–Mass Spectrometry Data'
+- doi: 10.1021/acs.analchem.0c02998
+  title: Exploring the Use of Gas Chromatography Coupled to Chemical Ionization Mass Spectrometry (GC-CI-MS) for Stable Isotope Labeling in Metabolomics
+- doi: 10.1093/bioinformatics/bty590
+  title: Liquid-chromatography retention order prediction for metabolite identification
+- doi: 10.1093/gigascience/giaa162
+  title: 'Lilikoi V2.0: a deep learning–enabled, personalized pathway-based R package for diagnosis and prognosis predictions using metabolomics data'
+- doi: 10.1186/s12859-017-1744-3
+  title: 'LipidMatch: an automated workflow for rule-based lipid identification using untargeted high-resolution tandem mass spectrometry data'
+- doi: 10.1002/cpz1.70009
+  title: 'LipidOne 2.0: A Web Tool for Discovering Biological Meanings Hidden in Lipidomic Data'
+- doi: 10.1021/acs.jproteome.0c00082
+  title: 'lipidr: A Software Tool for Data Mining and Analysis
+
+    of Lipidomics Datasets'
+- doi: 10.7554/elife.70780
+  title: The LOTUS initiative for open knowledge management in natural products research
+- doi: 10.1093/bioinformatics/btac355
+  title: 'MAFFIN: metabolomics sample normalization using maximal density fold change with high-quality metabolic features and corrected signal intensities'
+- doi: 10.1093/bioinformatics/btab741
+  title: "<tt>maplet</tt>\n                    : an extensible R toolbox for modular and reproducible metabolomics pipelines"
+- doi: 10.1101/2024.06.20.599545
+  title: 'MargheRita: streamlining MS-DIAL output analysis and metabolite identification in R'
+- doi: 10.1093/bioinformatics/btab591
+  title: 'Amanida: an R package for meta-analysis of metabolomics non-integral data'
+- doi: 10.1186/s12859-021-04336-9
+  title: Reproducibility of mass spectrometry based metabolomics data
+- doi: 10.1021/acs.analchem.0c04720
+  title: Determination of Abundant Metabolite Matrix Adducts Illuminates the Dark Metabolome of MALDI-Mass Spectrometry Imaging Datasets
+- doi: 10.1186/s13020-024-01031-8
+  title: 'An integrated approach for studying exposure, metabolism, and disposition of traditional Chinese medicine using PATBS and MDRB tools: a case study of semen Armeniacae Amarum'
+- doi: 10.1021/acs.analchem.0c03693
+  title: '<i>metabCombiner</i>: Paired Untargeted LC-HRMS Metabolomics Feature Matching and Concatenation of Disparately Acquired Data Sets'
+- doi: 10.1093/nar/gkae253
+  title: 'MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation'
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+- doi: 10.1021/acs.analchem.1c03032
+  title: Automated Annotation of Untargeted All-Ion Fragmentation LC–MS Metabolomics Data with MetaboAnnotatoR
+- doi: 10.3390/metabo12020173
+  title: A Modular and Expandable Ecosystem for Metabolomics Data Annotation in R
+- doi: 10.1093/bioinformatics/bty344
+  title: 'MetaboDiff: an R package for differential metabolomic analysis'
+- doi: 10.1093/bioinformatics/btac059
+  title: 'metaboprep: an R package for preanalysis data description and processing'
+- doi: 10.1093/bioinformatics/btae373
+  title: 'MetaboReport: from metabolomics data analysis to comprehensive reporting'
+- doi: 10.1007/s11306-020-01717-8
+  title: 'MetaboShiny: interactive analysis and metabolite annotation of mass spectrometry-based metabolomics data'
+- doi: 10.1101/2021.02.28.433248
+  title: 'MetaFetcheR: An R package for complete mapping of small compound data'
+- doi: 10.1093/bioinformatics/btv194
+  title: 'MetaMapR: pathway independent metabolomic network analysis incorporating unknowns'
+- doi: 10.1093/bioadv/vbad061
+  title: 'MetaMOPE: a web service for mobile phase determination and fast chromatography peaks evaluation for metabolomics'
+- doi: 10.1101/2025.06.26.661636
+  title: 'MetaNet: a scalable and integrated tool for reproducible omics network analysis'
+- doi: 10.1101/2025.09.30.679445
+  title: Robust metabolomics data normalization across scales and experimental designs
+- doi: 10.1021/acs.analchem.4c02038
+  title: 'MetaPhenotype: A Transferable Meta-Learning Model for Single-Cell Mass Spectrometry-Based Cell Phenotype Prediction Using Limited Number of Cells'
+- doi: 10.1101/2020.11.20.391912
+  title: 'MetENP/MetENPWeb: An R package and web application for metabolomics enrichment and pathway analysis in Metabolomics Workbench'
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+- doi: 10.1093/bioinformatics/btad523
+  title: 'metGWAS 1.0: an R workflow for network-driven over-representation analysis between independent metabolomic and meta-genome-wide association studies'
+- doi: 10.1021/acs.analchem.0c02281
+  title: 'MetIDfyR: An Open-Source R Package to Decipher Small-Molecule
+
+    Drug Metabolism through High-Resolution Mass Spectrometry'
+- doi: 10.1021/acs.jproteome.5c00548
+  title: 'MetScribeR: A Semiautomated Tool for Data Processing of In-House LC-MS Metabolite Reference Libraries'
+- doi: 10.1016/j.envres.2020.110114
+  title: 'MFAssignR: Molecular formula assignment software for ultrahigh resolution mass spectrometry analysis of environmental complex mixtures'
+- doi: 10.1186/s13321-025-01051-y
+  title: 'mineMS2: annotation of spectral libraries with exact fragmentation patterns'
+- doi: 10.1016/j.cmpb.2025.108672
+  title: 'MInfer: Bridging MetaboAnalyst and Jacobian analysis for metabolomic networks'
+- doi: 10.1093/bioinformatics/btr597
+  title: MissForest—non-parametric missing value imputation for mixed-type data
+- doi: 10.1021/acs.analchem.4c01253
+  title: 'MobiLipid: A Tool for Enhancing CCS Quality Control of Ion Mobility–Mass Spectrometry Lipidomics by Internal Standardization'
+- doi: 10.1128/mra.00997-24
+  title: 'mpactR: an R adaptation of the metabolomics peak analysis computational tool (MPACT) for use in reproducible data analysis pipelines'
+- doi: 10.1021/acs.analchem.0c03060
+  title: 'MRMkit: Automated Data Processing for Large-Scale Targeted Metabolomics Analysis'
+- doi: 10.1021/acs.analchem.2c05389
+  title: Combination of Structure Databases, In Silico Fragmentation, and MS/MS Libraries for Untargeted Screening of Non-Volatile Migrants from Recycled High-Density Polyethylene Milk Bottles
+- doi: 10.1016/j.isci.2023.106881
+  title: Integrative processing of untargeted metabolomic and lipidomic data using MultiABLER
+- doi: 10.1093/bioinformatics/btx477
+  title: 'MWASTools: an R/bioconductor package for metabolome-wide association studies'
+- doi: 10.1021/acs.analchem.1c00238
+  title: 'mWISE: An Algorithm for Context-Based Annotation of Liquid Chromatography–Mass Spectrometry Features through Diffusion in Graphs'
+- doi: 10.1021/jasms.5c00073
+  title: 'mzQuality: An Open-Source Software Tool for Quality Monitoring and Reporting of Targeted Mass Spectrometry Measurements'
+- doi: 10.1093/bioinformatics/btab231
+  title: 'mzRAPP: a tool for reliability assessment of data pre-processing in non-targeted metabolomics'
+- doi: 10.1093/bioinformatics/btaa037
+  title: Targeted realignment of LC-MS profiles by neighbor-wise compound-specific graphical time warping with misalignment detection
+- doi: 10.1038/s41596-021-00636-9
+  title: Optimization of metabolomic data processing using NOREVA
+- doi: 10.1007/s11306-018-1347-7
+  title: 'NormalizeMets: assessing, selecting and implementing statistical methods for normalizing metabolomics data'
+- doi: 10.3390/metabo10040135
+  title: '“Notame”: Workflow for Non-Targeted LC–MS Metabolic Profiling'
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+- doi: 10.1021/acs.jproteome.1c00392
+  title: '<i>Omics Untargeted Key Script</i>: R-Based Software Toolbox for Untargeted Metabolomics with Bladder Cancer Biomarkers Discovery Case Study'
+- doi: 10.1128/mra.00129-19
+  title: omu, a Metabolomics Count Data Analysis Tool for Intuitive Figures and Convenient Metadata Collection
+- doi: 10.1101/2021.04.23.440821
+  title: 'PaIRKAT: A pathway integrated regression-based kernel association test with applications to metabolomics and COPD phenotypes'
+- doi: 10.1021/acs.analchem.1c04758
+  title: 'Paramounter: Direct Measurement of Universal Parameters To Process Metabolomics Data in a “White Box”'
+- doi: 10.1186/s13321-020-00477-w
+  title: 'patRoon: open source software platform for environmental mass spectrometry based non-target screening'
+- doi: 10.1021/acs.analchem.4c03513
+  title: A Software Tool for Rapid and Automated Preprocessing of Large-Scale Serum Metabolomic Data by Multisegment Injection-Capillary Electrophoresis-Mass Spectrometry
+- doi: 10.1021/acs.analchem.4c04938
+  title: Validating Centralized Biobanking Workflows for NMR Metabolomics Using the PRIMA Panel
+- doi: 10.1021/acs.analchem.4c07078
+  title: 'QC4Metabolomics: Real-Time and Retrospective Quality Control of Metabolomics Data'
+- doi: 10.1021/acs.analchem.3c03660
+  title: "QC\n                    <i>omics</i>\n                    : Recommendations and Guidelines for Robust, Easily Implementable and Reportable Quality Control of Metabolomics Data"
+- doi: 10.1038/s41589-020-00677-3
+  title: Chemically informed analyses of metabolomics mass spectrometry data with Qemistree
+- doi: 10.1021/ac501530d
+  title: 'RAMClust: A Novel Feature Clustering Method Enables Spectral-Matching-Based Annotation for Metabolomics Data'
+- doi: 10.3390/metabo8010016
+  title: 'RaMP: A Comprehensive Relational Database of Metabolomics Pathways for Pathway Enrichment Analysis of Genes and Metabolites'
+- doi: 10.1101/2020.10.30.362533
+  title: rawR - Direct access to raw mass spectrometry data in R
+- doi: 10.1021/acs.jproteome.0c00866
+  title: 'The rawrr R Package: Direct Access to Orbitrap Data and Beyond'
+- doi: 10.1021/acs.analchem.9b05765
+  title: 'Retip: Retention Time Prediction for Compound Annotation in Untargeted Metabolomics'
+- doi: 10.1016/j.microc.2020.104830
+  title: 'RGCxGC toolbox: An R-package for data processing in comprehensive two-dimensional gas chromatography-mass spectrometry'
+- doi: 10.1186/s13321-020-00449-0
+  title: 'rMSIcleanup: an open-source tool for matrix-related peak annotation in mass spectrometry imaging and its application to silver-assisted laser desorption/ionization'
+- doi: 10.1021/acs.analchem.5c06841
+  title: Robust Metabolomics Data Normalization across Scales and Experimental Designs
+- doi: 10.1021/acs.analchem.5c03730
+  title: 'rtmsEcho: An
+
+    Open-Source R Package for Automated Analysis
+
+    of Acoustic Ejection Mass Spectrometry Data'
+- doi: 10.3390/metabo13080944
+  title: Denoising Autoencoder Normalization for Large-Scale Untargeted Metabolomics by Gas Chromatography–Mass Spectrometry
+- doi: 10.1093/bioinformatics/btac706
+  title: 'ADViSELipidomics: a workflow for analyzing lipidomics data'
+- doi: 10.1186/s13321-025-01044-x
+  title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
+- doi: 10.3390/biom15111562
+  title: 'SMAnalyst: A Web Server for Spatial Metabolomic Data Analysis and Annotation'
+- doi: 10.1021/acs.analchem.5c03225
+  title: 'SMART 2.0 Statistical Metabolomics Analysis: An R Tool 2.0'
+- doi: 10.1101/2024.10.31.621429
+  title: 'SpaMTP: Integrative Statistical Analysis and Visualisation of Spatial Metabolomics and Transcriptomics data'
+- doi: 10.21105/joss.08070
+  title: 'SpectriPy: Enhancing Cross-Language Mass Spectrometry Data Analysis with R and Python'
+- doi: 10.1093/bioinformatics/btaa1031
+  title: 'struct: an R/Bioconductor-based framework for standardized metabolomics data analysis and beyond'
+- doi: 10.21105/joss.02694
+  title: 'subMALDI: an open framework R package for processing irregularly-spaced mass spectrometry data'
+- doi: 10.1021/acs.analchem.5c00567
+  title: Automated Integration and Quality Assessment of Chromatographic Peaks in LC–MS-Based Metabolomics and Lipidomics Using TARDIS
+- doi: 10.1038/s41467-019-13680-7
+  title: The METLIN small molecule dataset for machine learning-based retention time prediction
+- doi: 10.1038/s41467-022-32155-w
+  title: TidyMass an object-oriented reproducible analysis framework for LC–MS data
+- doi: 10.1371/journal.pone.0306202
+  title: 'uafR: An R package that automates mass spectrometry data processing'
+- doi: 10.21105/joss.02410
+  title: 'Viime: Visualization and Integration of Metabolomics Experiments'
+- doi: 10.1038/s41598-020-70850-0
+  title: Addressing the batch effect issue for LC/MS metabolomics data in data preprocessing
+- doi: 10.1093/bioadv/vbae160
+  title: 'arcMS: transformation of multi-dimensional high-resolution mass spectrometry data to columnar format for compact storage and fast access'
+- doi: 10.3390/metabo15010028
+  title: 'DisCo P-ad: Distance-Correlation-Based p-Value Adjustment Enhances Multiple Testing Corrections for Metabolomics'
+- doi: 10.3389/fchem.2021.659656
+  title: 'iMAP: A Web Server for Metabolomics Data Integrative Analysis'
+- doi: 10.1093/gigascience/giy136
+  title: 'Lilikoi: an R package for personalized pathway-based classification modeling using metabolomics data'
+- doi: 10.12688/f1000research.14613.2
+  title: 'CyTargetLinker app update: A flexible solution for network extension in Cytoscape'
+- doi: 10.1093/bioadv/vbaf047
+  title: 'LipidSigR: a R-based solution for integrated lipidomics data analysis and visualization'
+- doi: 10.1016/j.csbj.2019.04.009
+  title: Accounting for biological variation with linear mixed-effects modelling improves the quality of clinical metabolomics data
+- doi: 10.1002/psp4.12689
+  title: Easy and reliable maximum <i>a posteriori</i> Bayesian estimation of pharmacokinetic parameters with the open‐source R package mapbayr
+- doi: 10.1038/s41467-022-28391-9
+  title: Comparative metabolomics with Metaboseek reveals functions of a conserved fat metabolism pathway in C. elegans
+- doi: 10.3390/metabo9100200
+  title: The metaRbolomics Toolbox in Bioconductor and beyond
+- doi: 10.3390/metabo9050103
+  title: 'MetPC: Metabolite Pipeline Consisting of Metabolite Identification and Biomarker Discovery Under the Control of Two-Dimensional FDR'
+- doi: 10.1093/nar/gkz1209
+  title: 'MetaOmGraph: a workbench for interactive exploratory data analysis of large expression datasets'
+- doi: 10.21105/joss.04029
+  title: 'patRoon 2.0: Improved non-target analysis workflows
+
+    including automated transformation product screening'
+- doi: 10.1093/nar/gky837
+  title: 'ProGeM: a framework for the prioritization of candidate causal genes at molecular quantitative trait loci'
+- doi: 10.1093/bib/bbae116
+  title: Generalized reporter score-based enrichment analysis for omics data
+- doi: 10.3390/metabo9080162
+  title: 'rMSIKeyIon: An Ion Filtering R Package for Untargeted Analysis of Metabolomic LDI-MS Images'
+- doi: 10.1093/bioadv/vbaf100
+  title: Enrichment analysis for spatial and single-cell metabolomics accounting for molecular ambiguity
+- doi: 10.1038/s42003-024-05844-z
+  title: 'SIMPEL: using stable isotopes to elucidate dynamics of context specific metabolism'
+- doi: 10.3390/metabo15060354
+  title: 'SMQVP: A Web Application for Spatial Metabolomics Quality Visualization and Processing'
+- doi: 10.1371/journal.pcbi.1006018
+  title: 'speaq 2.0: A complete workflow for high-throughput 1D NMR spectra processing and quantification'
+- doi: 10.1038/s41597-023-01949-y
+  title: Quality control and removal of technical variation of NMR metabolic biomarker data in ~120,000 UK Biobank participants
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+- doi: 10.1093/bioinformatics/btaa593
+  title: Multiple kernel learning for integrative consensus clustering of omic datasets
+- doi: 10.1002/jrsm.1713
+  title: 'Easy‐Amanida: An R Shiny application for the meta‐analysis of aggregate results in clinical metabolomics using Amanida and Webchem'
+- doi: 10.1007/s11306-017-1252-5
+  title: 'massPix: an R package for annotation and interpretation of mass spectrometry imaging data for lipidomics'
+- doi: 10.1002/mrm.29370
+  title: '<scp>MRSCloud</scp>: A cloud‐based<scp>MRS</scp>tool for basis set simulation'
+- doi: 10.1007/s11306-017-1178-y
+  title: 'NMRProcFlow: a graphical and interactive tool dedicated to 1D spectra processing for NMR-based metabolomics'
+- doi: 10.1002/pmic.201900264
+  title: 'pseudoQC: A Regression‐Based Simulation Software for Correction and Normalization of Complex Metabolomics and Proteomics Datasets'
+- doi: 10.1007/s11306-021-01839-7
+  title: 'WaveICA 2.0: a novel batch effect removal method for untargeted metabolomics data without using batch information'
+source_repos:
+- https://github.com/thepanlab/Aerith
+- https://github.com/Fraunhofer-ITMP/alister
+- https://github.com/crmclean/Autotuner
+- https://github.com/KujawinskiLaboratory/Autotuner
+- https://github.com/IRkernel/IRkernel
+- https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks
+- https://github.com/sneumann/CAMERA
+- https://github.com/kuwisdelu/Cardinal
+- https://github.com/Huan Lab/DaDIA.git
+- https://github.com/HuanLab-backup/DaDIA
+- https://github.com/DanieleBizzarri/MiMIR
+- https://github.com/NBDZ/dbnorm
+- https://github.com/ZhuMSLab/DecoMetDIA
+- https://github.com/Velenosi-Lab/DIATAGeR
+- https://github.com/dickinsonlab/DIMPLE-code
+- https://github.com/Karnovsky-Lab/DNEA
+- https://github.com/JainLab/Manuscript-DNNs-for-Classification-of-LCMS-Peaks
+- https://github.com/OfficeChromatography/eicCluster
+- https://github.com/biodatalab/enrichmet.git
+- https://github.com/biodatalab/enrichmet
+- https://github.com/xdomingoal/erah-devel
+- https://github.com/mariallr/GcDuo
+- https://github.com/sipss/GCIMS
+- https://github.com/jcapelladesto/geoRge
+- https://github.com/FrigerioGianfranco/GetFeatistics
+- https://github.com/WandeRum/GSimp
+- https://github.com/WandeRum/MVI-evaluation
+- https://github.com/kevinmildau/homologueDiscoverer
+- https://github.com/SydneyBioX/hRUV
+- https://github.com/HuanLab/JPA.git
+- https://github.com/HuanLab-backup/JPA
+- https://github.com/idslme/IDSL.CSA
+- https://github.com/idslme/IDSL.IPA
+- https://github.com/AlinaPeluso/MetaboFlow
+- https://github.com/wanchanglin/ionflow
+- https://github.com/HuanLab/ISFrag
+- https://github.com/HuanLab/ISFrag.git
+- https://github.com/HuanLab-backup/ISFrag
+- https://github.com/jcapelladesto/isoSCAN
+- https://github.com/aalto-ics-kepaco/retention_order_prediction
+- https://github.com/lanagarmire/lilikoi2
+- https://github.com/GarrettLab-UF/LipidMatch
+- https://github.com/matteogiulietti/LipidOne
+- https://github.com/ahmohamed/lipidr
+- https://github.com/lotusnprod/lotus-processor
+- https://github.com/HuanLab/MAFFIN
+- https://github.com/krumsieklab/maplet
+- https://github.com/emosca-cnr/margheRita
+- https://github.com/mariallr/amanida
+- https://github.com/Ghoshlab/marr
+- https://github.com/Ghoshlab/marr_paper_evaluations
+- https://github.com/kbseah/mass2adduct
+- https://github.com/933ZhangDD/MDRB
+- https://github.com/hhabra/metabCombiner
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/gggraca/MetaboAnnotatoR
+- https://github.com/jorainer/MetaboAnnotationTutorials
+- https://github.com/andreasmock/MetaboDiff
+- https://github.com/MRCIEU/metaboprep
+- https://github.com/YonghuiDong/MetaboReport
+- https://github.com/YonghuiDong/MetReport
+- https://github.com/joannawolthuis/MetaboShiny
+- https://github.com/komorowskilab/MetaFetcheR
+- https://github.com/dgrapov/MetaMapR
+- https://github.com/CMDM-Lab/MetaMOPE
+- https://github.com/Asa12138/MetaNet
+- https://github.com/UGent-LIMET/Metanorm
+- https://github.com/songyuan93/MetaPhenotype
+- https://github.com/metabolomicsworkbench/MetENP
+- https://github.com/scibiome/meteor
+- https://github.com/saifurbd28/metGWAS-1.0
+- https://github.com/agnesbrnb/MetIDfyR
+- https://github.com/ncats/metScribeR
+- https://github.com/skschum/MFAssignR
+- https://github.com/odisce/mineMS2
+- https://github.com/cellbiomaths/MInfer
+- https://github.com/FelinaHildebrand/MobiLipid
+- https://github.com/mums2/mpactr
+- https://github.com/SLINGhub/MRMhub
+- https://github.com/QizhiSu/mspcompiler
+- https://github.com/holab-hku/MultiABLER
+- https://github.com/AndreaRMICL/MWASTools
+- https://github.com/b2slab/mWISE
+- https://github.com/hankemeierlab/mzQuality
+- https://github.com/YasinEl/mzRAPP
+- https://github.com/ChiungTingWu/ncGTW
+- https://github.com/idrblab/NOREVA
+- https://github.com/metabolomicstats/NormalizeMets
+- https://github.com/antonvsdata/notame
+- https://github.com/nutrimetabolomics/POMAShiny
+- https://github.com/plyush1993/OUKS
+- https://github.com/connor-reid-tiffany/Omu
+- https://github.com/CharlieCarpenter/PaIRKAT
+- https://github.com/HuanLab/Paramounter
+- https://github.com/HuanLab-backup/Paramounter
+- https://github.com/rickhelmus/patRoon
+- https://github.com/PBM-Group/PeakMeister
+- https://github.com/funkam/PRIMA
+- https://github.com/stanstrup/QC4Metabolomics
+- https://github.com/ricoderks/QComics
+- https://github.com/biocore/q2-qemistree
+- https://github.com/cbroeckl/RAMClustR
+- https://github.com/Mathelab/RaMP-DB
+- https://github.com/fgcz/rawrr
+- https://github.com/olobion/Retip
+- https://github.com/oloBion/Retip
+- https://github.com/DanielQuiroz97/RGCxGC
+- https://github.com/gbaquer/rMSIcleanup
+- https://github.com/nathanieltwarog/rtmsEcho
+- https://github.com/slfan2013/SERDA
+- https://github.com/ShinyFabio/ADViSELipidomics
+- https://github.com/mzlab-research/SManalyst
+- https://github.com/YuJenL/SMART
+- https://github.com/GenomicsMachineLearning/SpaMTP
+- https://github.com/rformassspectrometry/SpectriPy
+- https://github.com/computational-metabolomics/struct
+- https://github.com/wesleyburr/subMaldi
+- https://github.com/UGent-LIMET/TARDIS
+- https://github.com/UGent-LIMET/tardis_publication_code
+- https://github.com/tidymass/tidymass
+- https://github.com/castratton/uafR
+- https://github.com/girder/viime
+- https://github.com/tianwei-yu/apLCMS
+- https://github.com/leesulab/arcMS
+- https://github.com/KechrisLab/DisCoPad
+- https://github.com/IP4M/R-scripts-for-iMAP
+- https://github.com/lanagarmire/lilikoi
+- https://github.com/CyTargetLinker/cytargetlinker-automation
+- https://github.com/CyTargetLinker/linkset-automation
+- https://github.com/BioinfOMICS/LipidSigR
+- https://github.com/kwanjeeraw/lmm2met
+- https://github.com/FelicienLL/mapbayr
+- https://github.com/mjhelf/Metaboseek
+- https://github.com/sneumann/metaRbolomics
+- https://github.com/jjs3098/CNU-Bioinformatics-Lab
+- https://github.com/urmi-21/MetaOmGraph
+- https://github.com/ds763/ProGeM
+- https://github.com/Asa12138/ReporterScore
+- https://github.com/LlucSF/rMSIKeyIon
+- https://github.com/alexandrovteam/S2IsoMEr
+- https://github.com/SIMPELmetabolism/SIMPEL
+- https://github.com/mzlab-research/SMQVP
+- https://github.com/beirnaert/speaq
+- https://github.com/sritchie73/ukbnmr
+- https://github.com/IxI-97/BiomiX
+- https://github.com/acabassi/klic-pancancer-analysis
+- https://github.com/mariallr/easy-amanida
+- https://github.com/hallz/massPix
+- https://github.com/shui5/MRSCloud
+- https://github.com/INRA/NMRProcFlow
+- https://github.com/qade544/pseudoQC
+- https://github.com/YanglabWCH/pseudoQC
+- https://github.com/dengkuistat/WaveICA_2.0
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thepanlab/Aerith

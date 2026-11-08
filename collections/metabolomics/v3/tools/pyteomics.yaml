@@ -1,0 +1,55 @@
+name: Pyteomics
+slug: pyteomics
+version_used: 4.4.2
+edam_topics: []
+evidence_spans:
+- Pyteomics [30] is used to support some mass spectrometry-specific functionality, such as reading input files and for FDR calculation.
+- Pyteomics is used to support some mass spectrometry-specific functionality, such as reading input files and for FDR calculation.
+- we labeled each peak as a peptide peak or a noise peak using the Pyteomics framework [48]
+- we labeled each peak as a peptide peak or a noise peak using the Pyteomics framework
+- mzML, mzXML, MGF file importers are built on top of pyteomics
+- mzML, mzXML, MGF file importers are built on top of pyteomics (Goloborodko, Levitsky, Ivanov, & Gorshkov, 2013
+- conda install -c bioconda pyteomics
+- MS2 fragmentation scans including noise are generated using the fragmentation function of pyteomics [21] for peptides
+- import pyteomics.mgf
+- Pyteomics [7, 12] for a variety of proteomics data processing tasks in Python
+- we recommend manually installing pyteomics.cythonize as a plug-in replacement for faster fragment ion mass calculations.
+- '* pyteomics'
+- "* Python 3.x \n* PyTorch \n* RDKit \n* Matplotlib \n* h5py\n* pyteomics"
+- Besides pyOpenMS, the mass spectrometric Python library Pyteomics is used for selected calculations
+derived_from:
+- doi: 10.1021/acs.jproteome.8b00359
+  title: Fast Open Modification Spectral Library Searching through Approximate Nearest Neighbor Indexing
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+- doi: 10.21105/joss.02411
+  title: matchms - processing and similarity evaluation of mass spectrometry data.
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+- doi: 10.1021/acs.analchem.3c00764
+  title: 'PeakDetective: A Semisupervised Deep Learning-Based Approach for Peak Curation in Untargeted Metabolomics'
+- doi: 10.3390/genes12030396
+  title: SMITER—A Python Library for the Simulation of LC-MS/MS Experiments
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+- doi: 10.1186/s13321-024-00858-5
+  title: 'TransExION: a transformer based explainable similarity metric for comparing IONS in tandem mass spectrometry'
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+- doi: 10.1007/s00216-023-05070-2
+  title: PFΔScreen — an open-source tool for automated PFAS feature prioritization in non-target HRMS data
+source_repos:
+- https://github.com/bittremieux-lab/ANN-SoLo
+- https://github.com/tiagolbiotech/NPOmix_python
+- https://github.com/pattilab/PeakDetective
+- https://github.com/LeidelLab/SMITER
+- https://github.com/bittremieuxlab/spectrum_utils
+- https://github.com/banhdzui/TransExION
+- https://github.com/bittremieuxlab/falcon
+- https://github.com/JonZwe/PFAScreen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bittremieux-lab/ANN-SoLo

@@ -1,0 +1,63 @@
+{
+  "workflow": "lipidomics_lcms_annotation",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "The leaf builds a new feature table from raw files rather than merging existing annotations and statistics.",
+      "severity": "advisory",
+      "slug": "feature-table-assembly",
+      "stage": "fusion"
+    },
+    {
+      "check": "V4",
+      "detail": "The primary leaf appends ranked lipid annotations to a feature table but does not merge the statistical results.",
+      "severity": "advisory",
+      "slug": "lipidomics-annotation-appending",
+      "stage": "fusion"
+    },
+    {
+      "check": "V4",
+      "detail": "The primary leaf applies empirical-Bayes batch correction but does not perform a preceding normalization step.",
+      "severity": "advisory",
+      "slug": "combat-batch-effect-correction",
+      "stage": "normalize"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf corrects batch effects in an existing abundance matrix rather than preprocessing raw mzML data.",
+      "severity": "advisory",
+      "slug": "lipidomics-batch-effect-correction",
+      "stage": "preprocess"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf filters an existing post-identification peak table rather than detecting and aligning raw mzML features.",
+      "severity": "advisory",
+      "slug": "lipidomics-peak-table-filtering",
+      "stage": "preprocess"
+    },
+    {
+      "check": "V4",
+      "detail": "The leaf processes targeted transition-list peak areas rather than raw untargeted lipidomics profiles.",
+      "severity": "advisory",
+      "slug": "targeted-lipidomics-transition-list-processing",
+      "stage": "preprocess"
+    },
+    {
+      "check": "V4",
+      "detail": "The primary leaf computes fold changes and FDR-controlled univariate tests but does not perform PLS-DA.",
+      "severity": "advisory",
+      "slug": "between-group-fold-change-analysis",
+      "stage": "statistics"
+    }
+  ],
+  "verdict": "pass"
+}

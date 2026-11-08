@@ -1,0 +1,17 @@
+name: VEP
+slug: vep
+version_used: null
+edam_topics: []
+evidence_spans:
+- Annotation tools like ANNOVAR14, SnpEff15, and VEP16 utilize RNA transcripts to annotate variants by using overlapping genomic characteristics.
+derived_from:
+- doi: 10.1101/2024.10.11.617756
+  title: 'Toward Automatic Variant Interpretation: Discordant Genetic Interpretation Across Variant Annotations for ClinVar Pathogenic Variants'
+source_repos:
+- https://github.com/NPLinker/nplinker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NPLinker/nplinker

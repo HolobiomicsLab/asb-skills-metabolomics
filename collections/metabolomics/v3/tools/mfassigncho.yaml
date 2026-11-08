@@ -1,0 +1,16 @@
+name: MFAssignCHO
+slug: mfassigncho
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.envres.2020.110114
+  title: 'MFAssignR: Molecular formula assignment software for ultrahigh resolution mass spectrometry analysis of environmental complex mixtures'
+source_repos:
+- https://github.com/skschum/MFAssignR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/skschum/MFAssignR

@@ -1,0 +1,30 @@
+name: LipidMatch
+slug: lipidmatch
+version_used: '4.2'
+edam_topics: []
+evidence_spans:
+- such as MS-DIAL11, LipidSearch12, Spectral Entropy13,14, and LipidMatch8
+- LipidMatch libraries contain only exact m/z values of precursors and fragment ions
+- In positive ion mode, LipidMatch was used to annotate 5159 unique lipid ions across 1401 features and 26 lipid types.
+- LipidMatch, Greazy, and MS-DIAL were applied to five replicate injections of Red Cross blood plasma.
+- LipidMatch performs exact mass matching at the MS1 level between in silico precursor ions and each features m/z using a user defined m/z tolerance (Da) (Step 1; Fig. 3)
+- Then, LipidMatch performs exact mass matching at the MS1 level between in silico precursor ions and each features m/z
+- LipidMatch performs exact mass matching at the MS1 level between in silico precursor ions and each features m/z
+- the lipids are ranked by the summed intensity of all their fragments with in silico fragment exact mass matches, including those not used for confirmation (Step 7, Fig. 3).
+derived_from:
+- doi: 10.1007/s00216-021-03392-7
+  title: FluoroMatch 2.0—making automated and comprehensive non-targeted PFAS annotation a reality
+- doi: 10.1038/s41467-025-59683-5
+  title: 'LipidIN: a comprehensive repository for flash platform-independent annotation and reverse lipidomics'
+- doi: 10.1186/s12859-017-1744-3
+  title: 'LipidMatch: an automated workflow for rule-based lipid identification using untargeted high-resolution tandem mass spectrometry data'
+source_repos:
+- https://github.com/InnovativeOmics/Core-Match
+- https://github.com/GarrettLab-UF/LipidMatch
+- https://github.com/LinShuhaiLAB/LipidIN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/InnovativeOmics/Core-Match

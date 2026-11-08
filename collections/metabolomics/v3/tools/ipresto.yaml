@@ -1,0 +1,21 @@
+name: iPRESTO
+slug: ipresto
+version_used: null
+edam_topics: []
+evidence_spans:
+- iPRESTO prepares each BGC for sub-cluster prediction by tokenising each gene in a BGC as a combination of Pfam domains
+- To predict sub-clusters, iPRESTO uses a statistical approach (PRESTO-STAT) as well as a topic modelling algorithm (PRESTO-TOP).
+- we propose an improved scalable method for unsupervised sub-cluster prediction which we called the integrated Prediction and Rigorous Exploration of biosynthetic Sub-clusters Tool (iPRESTO)
+- we constructed a scalable method for unsupervised sub-cluster detection, called iPRESTO
+- we ran antiSMASH 6 on the genome of this strain and used iPRESTO to infer sub-clusters in the predicted BGCs
+- we used iPRESTO to query all Streptomyces/Salinispora BGCs on the sub-cluster motifs and sub-cluster clans (SCCs) of the antiSMASH-DB dataset
+derived_from:
+- doi: 10.1371/journal.pcbi.1010462
+  title: 'iPRESTO: Automated discovery of biosynthetic sub-clusters linked to specific natural product substructures'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

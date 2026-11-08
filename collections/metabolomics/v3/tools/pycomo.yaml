@@ -1,0 +1,17 @@
+name: PyCoMo
+slug: pycomo
+version_used: null
+edam_topics: []
+evidence_spans:
+- PyCoMo is a python 3 package for the creation and analysis of community metabolic models.
+derived_from:
+- doi: 10.1093/bioinformatics/btae153
+  title: 'PyCoMo: a python package for community metabolic model creation and analysis'
+source_repos:
+- https://github.com/univieCUBE/PyCoMo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/univieCUBE/PyCoMo

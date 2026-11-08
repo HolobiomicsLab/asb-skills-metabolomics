@@ -1,0 +1,16 @@
+name: NMR-STAR
+slug: nmr-star
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/978-1-0716-0270-6_14
+  title: BioMagResBank (BMRB) as a Resource for Structural Biology
+source_repos:
+- https://github.com/bmrb-io/RBMRB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bmrb-io/RBMRB

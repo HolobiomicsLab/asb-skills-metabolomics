@@ -1,0 +1,21 @@
+name: MI-Pack
+slug: mi-pack
+version_used: null
+edam_topics: []
+evidence_spans:
+- MI-Pack (Metabolite Identification Package, Master branch on Github
+- 'MI-Pack (Metabolite Identification Package, Master branch on Github: commit 06ce0ace643ee1cf1d27550769a5272b7ea50825)'
+- Install MI-Pack python package
+- Download the MI-Pack python package from https://github.com/Viant-Metabolomics/MI-Pack
+derived_from:
+- doi: 10.1186/s13742-016-0115-8
+  title: 'Galaxy-M: a Galaxy workflow for processing and analyzing direct infusion and liquid chromatography mass spectrometry-based metabolomics data'
+source_repos:
+- https://github.com/Viant-Metabolomics/MI-Pack
+- https://github.com/Viant-Metabolomics/Galaxy-M
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Viant-Metabolomics/MI-Pack

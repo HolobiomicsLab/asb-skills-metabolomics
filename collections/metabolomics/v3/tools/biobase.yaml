@@ -1,0 +1,20 @@
+name: Biobase
+slug: biobase
+version_used: null
+edam_topics: []
+evidence_spans:
+- pk2 <- c('Biobase', 'POMA', 'MSnbase')
+derived_from:
+- doi: 10.1021/ac202450g
+  title: 'CAMERA: An Integrated Strategy for Compound Spectra Extraction and Annotation of Liquid Chromatography/Mass Spectrometry Data Sets'
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+source_repos:
+- https://github.com/sneumann/CAMERA
+- https://github.com/nutrimetabolomics/POMAShiny
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sneumann/CAMERA

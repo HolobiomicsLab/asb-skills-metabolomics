@@ -1,0 +1,28 @@
+name: MS2Query
+slug: ms2query
+version_used: null
+edam_topics: []
+evidence_spans:
+- MS2Query first uses MS2Deepscore32 to calculate spectral similarity scores between all library spectra and a query spectrum
+- Here, we introduce MS2Query, a tool that can search a large mass spectral library both for exact matches and analogues.
+- using version 0.3.2 of MS2Query
+- Here we present MS2Query, a tool for rapid large-scale MS2 library matching that enables searching both for analogues and exact matches in one run
+- To optimally rank these 2000 spectra, MS2Query calculates 5 features which are combined by a random forest model.
+- For the machine learning scores, pretrained models provided with MS2Query are used.
+- 'For the machine
+
+  learning scores, pretrained models provided with MS2Query are used.'
+derived_from:
+- doi: 10.1038/s41467-023-37446-4
+  title: 'MS2Query: reliable and scalable MS2 mass spectra-based analogue search'
+- doi: 10.1021/acs.analchem.3c04444
+  title: Tailored Mass Spectral Data Exploration Using the SpecXplore Interactive Dashboard
+source_repos:
+- https://github.com/iomega/ms2query
+- https://github.com/kevinmildau/specXplore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iomega/ms2query

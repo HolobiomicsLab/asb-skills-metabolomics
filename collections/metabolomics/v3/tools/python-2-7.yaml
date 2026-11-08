@@ -1,0 +1,17 @@
+name: Python 2.7
+slug: python-2-7
+version_used: '2.7'
+edam_topics: []
+evidence_spans:
+- We used Python 2.7 and CUDA 7.5 in combination with PyCuda 2017.1.
+derived_from:
+- doi: 10.1186/s13321-017-0238-7
+  title: 'G.A.M.E.: GPU-accelerated mixture elucidator'
+source_repos:
+- https://github.com/CMDM-Lab/GAME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CMDM-Lab/GAME

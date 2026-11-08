@@ -1,0 +1,16 @@
+name: NetAurHPD
+slug: netaurhpd
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.48550/arxiv.2410.22030
+  title: ''
+source_repos:
+- https://github.com/TamirBar-Tov/NetAurHPD-Network-Auralization-Hyperlink-Prediction-Method
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TamirBar-Tov/NetAurHPD-Network-Auralization-Hyperlink-Prediction-Method

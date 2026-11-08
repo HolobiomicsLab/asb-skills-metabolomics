@@ -1,0 +1,17 @@
+name: INCA
+slug: inca
+version_used: null
+edam_topics: []
+evidence_spans:
+- Data tables exported from SIMPEL were used for INST-MFA with INCA.
+derived_from:
+- doi: 10.1038/s42003-024-05844-z
+  title: 'SIMPEL: using stable isotopes to elucidate dynamics of context specific metabolism'
+source_repos:
+- https://github.com/SIMPELmetabolism/SIMPEL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SIMPELmetabolism/SIMPEL

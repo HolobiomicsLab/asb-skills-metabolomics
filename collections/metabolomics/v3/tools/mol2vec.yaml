@@ -1,0 +1,19 @@
+name: Mol2vec
+slug: mol2vec
+version_used: '705.6'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2025.02.07.637102
+  title: 'ChemEmbed: A deep learning framework for metabolite identification using enhanced MS/MS data and multidimensional molecular embeddings'
+- doi: 10.1101/2024.11.04.621329
+  title: 'SingleFrag: A deep learning tool for MS/MS fragment and spectral prediction and metabolite annotation'
+source_repos:
+- https://github.com/massspecdl/ChemEmbed
+- https://github.com/MaribelPR/SingleFrag
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/massspecdl/ChemEmbed

@@ -1,0 +1,17 @@
+name: Maven 4+
+slug: maven-4
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- maven 4+'
+derived_from:
+- doi: 10.1007/s11306-022-01899-3
+  title: 'PeakForest: a multi-platform digital infrastructure for interoperable metabolite spectral data and metadata management'
+source_repos:
+- https://github.com/peakforest/peakforest-webapp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/peakforest/peakforest-webapp

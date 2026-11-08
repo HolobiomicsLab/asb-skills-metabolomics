@@ -1,0 +1,20 @@
+name: github.com/ShawnWx2019/MetMiner
+slug: github-com-shawnwx2019-metminer
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present MetMiner (https://github.com/ShawnWx2019/MetMiner), a user-friendly, full-functionality pipeline
+- The core component of this pipeline is the metMiner-shinyapp (https://github.com/ShawnWx2019/MetMiner).
+- a separate user-friendly WGCNA-shinyapp (https://github.com/ShawnWx2019/WGCNA-shinyApp) is developed.
+- Comprehensive documentation to assist users with this pipeline can be found at https://shawnwx2019.github.io/metminer-cookbook/.
+derived_from:
+- doi: 10.1111/jipb.13774
+  title: 'MetMiner: A user‐friendly pipeline for large‐scale plant metabolomics data analysis'
+source_repos:
+- https://github.com/ShawnWx2019/MetMiner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShawnWx2019/MetMiner

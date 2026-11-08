@@ -1,0 +1,18 @@
+name: SNFpy
+slug: snfpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- we constructed integrated similarity networks with SNF [72]. The optimal numbers of clusters were determined using a built-in function of the Python library SNFpy
+derived_from:
+- doi: 10.1093/gigascience/giad115
+  title: A multi-omics data analysis workflow packaged as a FAIR Digital Object
+source_repos:
+- https://github.com/Xomics/Docker_containers.git
+- https://github.com/Xomics/ACTIONdemonstrator_workflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Xomics/Docker_containers.git

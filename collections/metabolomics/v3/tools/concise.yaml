@@ -1,0 +1,20 @@
+name: ConCISE
+slug: concise
+version_used: null
+edam_topics: []
+evidence_spans:
+- ConCISE works by finding consensus annotations of putative annotations using the ClassyFire ontologies which are supplied by GNPS
+- python3 src/conciseCLI.py 16616afa8edd490ea7e50cc316a20222
+- ConCISE works by finding consensus annotations of putative annotations using the ClassyFire ontologies
+derived_from:
+- doi: 10.3390/metabo12121275
+  title: 'ConCISE: Consensus Annotation Propagation of Ion Features in Untargeted Tandem Mass Spectrometry Combining Molecular Networking and In Silico Metabolite Structure Prediction'
+source_repos:
+- https://github.com/Zquinlan/conCISE
+- https://github.com/zquinlan/concise
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Zquinlan/conCISE

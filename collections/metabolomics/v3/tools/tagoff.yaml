@@ -1,0 +1,17 @@
+name: TagOff
+slug: tagoff
+version_used: null
+edam_topics: []
+evidence_spans:
+- TagOff was rapidly prototyped using the [METASPACE codebase]
+derived_from:
+- doi: 10.1186/s12859-020-3425-x
+  title: 'OffsampleAI: artificial intelligence approach to recognize off-sample mass spectrometry images'
+source_repos:
+- https://github.com/metaspace2020/offsample
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/metaspace2020/offsample

@@ -1,0 +1,19 @@
+name: OPAL
+slug: opal
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have integrated TAMPA into the taxonomic profiling benchmarking platform OPAL [5]
+derived_from:
+- doi: 10.1093/gigascience/giad008
+  title: 'TAMPA: interpretable analysis and visualization of metagenomics-based taxon abundance profiles'
+source_repos:
+- https://github.com/CAMI-challenge/OPAL
+- https://github.com/CAMI-challenge/firstchallenge_evaluation
+- https://github.com/dkoslicki/TAMPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CAMI-challenge/OPAL

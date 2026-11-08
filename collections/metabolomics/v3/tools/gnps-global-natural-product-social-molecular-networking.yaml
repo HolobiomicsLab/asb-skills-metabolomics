@@ -1,0 +1,17 @@
+name: GNPS (Global Natural Product Social Molecular Networking)
+slug: gnps-global-natural-product-social-molecular-networking
+version_used: null
+edam_topics: []
+evidence_spans:
+- the Global Natural Product Social Molecular Networking (GNPS) Drug Library, a tandem mass spectrometry (MS/MS) based resource designed for drug screening with untargeted metabolomics
+derived_from:
+- doi: 10.1038/s41467-025-65993-5
+  title: A resource to empirically establish drug exposure records directly from untargeted metabolomics data
+source_repos:
+- https://github.com/ninahaoqizhao/Manuscript_GNPS_Drug_Library
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ninahaoqizhao/Manuscript_GNPS_Drug_Library

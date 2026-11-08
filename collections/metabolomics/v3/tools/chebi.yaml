@@ -1,0 +1,19 @@
+name: ChEBI
+slug: chebi
+version_used: null
+edam_topics: []
+evidence_spans:
+- CheBI ID, HMDB ID, KEGG ID, LipidMaps ID, DrugBank ID, CAS number
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+- doi: 10.1101/2021.02.28.433248
+  title: 'MetaFetcheR: An R package for complete mapping of small compound data'
+source_repos:
+- https://github.com/komorowskilab/MetaFetcheR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/komorowskilab/MetaFetcheR

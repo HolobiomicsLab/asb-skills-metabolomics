@@ -1,0 +1,16 @@
+name: STATA/SE 11.2
+slug: stata-se-11-2
+version_used: '11.2'
+edam_topics: []
+evidence_spans:
+- The survival analyses in the individual cohorts were performed using R and STATA/SE 11.2
+derived_from:
+- doi: 10.1038/s41467-019-11311-9
+  title: A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

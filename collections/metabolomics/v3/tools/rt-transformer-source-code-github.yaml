@@ -1,0 +1,17 @@
+name: RT-Transformer source code (GitHub)
+slug: rt-transformer-source-code-github
+version_used: null
+edam_topics: []
+evidence_spans:
+- The source code for the model is available at https://github.com/01dadada/RT-Transformer.
+derived_from:
+- doi: 10.1093/bioinformatics/btae084
+  title: 'RT-Transformer: retention time prediction for metabolite annotation to assist in metabolite identification'
+source_repos:
+- https://github.com/01dadada/RT-Transformer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/01dadada/RT-Transformer

@@ -1,0 +1,20 @@
+name: FastEI
+slug: fastei
+version_used: null
+edam_topics: []
+evidence_spans:
+- FastEI was packaged as a standalone and user-friendly software for users without programming backgrounds
+- python FastEI.py
+- FastEI is packaged as a standalone and user-friendly software for common users with limited computational backgrounds.
+- 'Run FastEI.py:'
+derived_from:
+- doi: 10.1038/s41467-023-39279-7
+  title: Ultra-fast and accurate electron ionization mass spectrum matching for compound identification with million-scale in-silico library
+source_repos:
+- https://github.com/Qiong-Yang/FastEI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Qiong-Yang/FastEI

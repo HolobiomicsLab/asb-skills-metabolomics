@@ -1,0 +1,20 @@
+name: github.com/joannawolthuis/MetaboShiny
+slug: github-com-joannawolthuis-metaboshiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# github.com__joannawolthuis__MetaboShiny'
+- The source code is available on GitHub in the joannawolthuis/MetaboShiny repository
+- The MetaDBparse package containing all the search and compound-db specific functionality without the Shiny user interface is available from the joannawolthuis/MetaDBparse repository
+- 'The Github repository is: https://github.com/joannawolthuis/MetaboShiny'
+derived_from:
+- doi: 10.1007/s11306-020-01717-8
+  title: 'MetaboShiny: interactive analysis and metabolite annotation of mass spectrometry-based metabolomics data'
+source_repos:
+- https://github.com/joannawolthuis/MetaboShiny
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/joannawolthuis/MetaboShiny

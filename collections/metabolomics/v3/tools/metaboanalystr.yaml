@@ -1,0 +1,33 @@
+name: MetaboAnalystR
+slug: metaboanalystr
+version_used: '4.0'
+edam_topics: []
+evidence_spans:
+- compared with approximately 28 seconds for MetaboAnalystR and approximately 14 minutes for FELLA
+- MetaboAnalystR 4.0 contains the R functions and libraries underlying the popular MetaboAnalyst web server
+- MetaboAnalystR 4.0 contains the R functions and libraries underlying the popular MetaboAnalyst web server, including metabolomic data analysis, visualization, and functional interpretation.
+- The spectrum consensus can be achieved with the function, PerformSpectrumConsenus.
+- R packages including ropls, Metabo AnalystR, Hmisc, pROC, random Forest, and Boruta were utilized for analysis.
+derived_from:
+- doi: 10.1101/2025.08.28.672951
+  title: 'EnrichMet: R Package for Integrated Pathway and Network Analysis for Metabolomics'
+- doi: 10.1093/nar/gkae253
+  title: 'MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation'
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+- doi: 10.3389/fchem.2021.659656
+  title: 'iMAP: A Web Server for Metabolomics Data Integrative Analysis'
+- doi: 10.1007/s11306-021-01839-7
+  title: 'WaveICA 2.0: a novel batch effect removal method for untargeted metabolomics data without using batch information'
+source_repos:
+- https://github.com/biodatalab/enrichmet
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/xia-lab/MetaboAnalystR.git
+- https://github.com/IP4M/R-scripts-for-iMAP
+- https://github.com/dengkuistat/WaveICA_2.0
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biodatalab/enrichmet

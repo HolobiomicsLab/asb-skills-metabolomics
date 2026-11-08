@@ -1,0 +1,21 @@
+name: DIABLO
+slug: diablo
+version_used: null
+edam_topics: []
+evidence_spans:
+- PathIntegrate was benchmarked against DIABLO [11], a popular multi-omics integration tool with a similar predictive framework, but which does not use pathway transformation.
+- PathIntegrate was benchmarked against DIABLO [11], a popular multi-omics integration tool
+derived_from:
+- doi: 10.1371/journal.pcbi.1011814
+  title: 'PathIntegrate: Multivariate modelling approaches for pathway-based multi-omics data integration'
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+source_repos:
+- https://github.com/cwieder/PathIntegrate
+- https://github.com/IxI-97/BiomiX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cwieder/PathIntegrate

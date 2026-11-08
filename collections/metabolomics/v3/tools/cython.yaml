@@ -1,0 +1,20 @@
+name: Cython
+slug: cython
+version_used: null
+edam_topics: []
+evidence_spans:
+- The MGF loading and parsing functions were written in C++ and compiled to Cython interfaces25
+derived_from:
+- doi: 10.48550/arxiv.2404.02360
+  title: ''
+- doi: 10.1021/acs.jproteome.2c00612
+  title: 'HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space'
+source_repos:
+- https://github.com/FraGNNet/fragnnet
+- https://github.com/wh-xu/Hyper-Spec
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FraGNNet/fragnnet

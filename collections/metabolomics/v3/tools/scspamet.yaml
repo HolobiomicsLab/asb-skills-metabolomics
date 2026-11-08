@@ -1,0 +1,24 @@
+name: scSpaMet
+slug: scspamet
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we propose Single Cell Spatially resolved Metabolic (scSpaMet) framework
+- '"src" folder contains customs scripts used:
+
+  - affine transformation'
+- 04 Single-cell level intensity extraction and single-cell proteomics clustering
+- '"scSpaMet" folder contains keras code used for VAE analysis'
+- Here we propose Single Cell Spatially resolved Metabolic (scSpaMet) framework for joint protein-metabolite profiling of single immune and cancer cells
+derived_from:
+- doi: 10.1038/s41467-023-43917-5
+  title: Single-cell spatial metabolomics with cell-type specific protein profiling for tissue systems biology
+source_repos:
+- https://github.com/coskunlab/scSpaMet
+- https://github.com/coskunlab/ScSpaMet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/coskunlab/scSpaMet

@@ -1,0 +1,64 @@
+name: ClassyFire
+slug: classyfire
+version_used: '10.1'
+edam_topics: []
+evidence_spans:
+- with InChI as input, ClassyFire [29] (ontology)
+- the ClassyFire ontology for compounds
+- The chemical taxonomy and its hierarchical structure provided using the Open Biological and Biomedical Ontologies (OBO) format [33]
+- ClassyFire has been successfully used to classify and annotate >6000 molecules in DrugBank [30]
+- The entire ClassyFire program has been converted to a web-based resource. It is a RESTful web application located at http://classyfire.wishartlab.com.
+- These features are described by rules embedded in a ClassyFire module that specifically handles inorganic compounds.
+- Each node or category name in ClassyFire’s chemical ontology or ChemOnt, was created by extracting common or existing chemical classification category terms
+- using the ClassyFire ontologies which are supplied by GNPS for library spectral matches
+- using the ClassyFire ontologies which are supplied by GNPS
+- the ClassyFire ontologies which are supplied by GNPS for library spectral matches and in silico putative annotations
+- using the ClassyFire ontologies which are supplied by GNPS for library spectral matches and in silico putative annotations
+- across all levels of the ChemOnt hierarchical ontology used by the ClassyFire annotation software (superclass, class, subclass)
+- colored according to the 14 chemical superclasses provided by ClassyFire [30]
+- ata are classified using [CANOPUS](https://bio.informatik.uni-jena.de/software/canopus/) and [ClassyFire](http://classyfire.wishartlab.com/)
+- the automated chemical classification through ClassyFire
+- automated chemical classification through ClassyFire
+- 'One of these is ClassyFire: a hierarchical ontology consisting of superclass, class, and subclass categories and seven more detailed levels'
+- 'One of these is ClassyFire: a hierarchical ontology consisting of superclass, class, and subclass categories and seven more detailed levels [16]'
+- A closer examination of the seven main ClassyFire compound superclasses
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+- doi: 10.1186/s13321-023-00734-8
+  title: 'The BinDiscover database: a biology-focused meta-analysis tool for 156,000 GC–TOF MS metabolome samples'
+- doi: 10.1021/acs.analchem.8b04698
+  title: Structure Annotation of All Mass Spectra in Untargeted Metabolomics
+- doi: 10.1021/acs.analchem.1c01465
+  title: 'CFM-ID 4.0: More Accurate ESI-MS/MS Spectral Prediction and Compound Identification'
+- doi: 10.1186/s13321-016-0174-y
+  title: 'ClassyFire: automated chemical classification with a comprehensive, computable taxonomy'
+- doi: 10.3390/metabo12121275
+  title: 'ConCISE: Consensus Annotation Propagation of Ion Features in Untargeted Tandem Mass Spectrometry Combining Molecular Networking and In Silico Metabolite Structure Prediction'
+- doi: 10.1186/s13321-021-00558-4
+  title: 'MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra'
+- doi: 10.1186/s13321-023-00695-y
+  title: 'MAW: the reproducible Metabolome Annotation Workflow for untargeted tandem mass spectrometry'
+- doi: 10.3390/metabo9070144
+  title: 'MolNetEnhancer: Enhanced Molecular Networks by Integrating Metabolome Mining and Annotation Tools'
+- doi: 10.1186/s40168-022-01444-3
+  title: Enhanced correlation-based linking of biosynthetic gene clusters to their metabolic products through chemical class matching
+- doi: 10.1038/s41589-020-00677-3
+  title: Chemically informed analyses of metabolomics mass spectrometry data with Qemistree
+- doi: 10.1038/s41592-025-02646-x
+  title: Denoising Search doubles the number of metabolite and exposome annotations in human plasma using an Orbitrap Astral mass spectrometer
+source_repos:
+- https://github.com/sirius-ms/sirius
+- https://github.com/zquinlan/concise
+- https://github.com/matchms/ms2deepscore
+- https://github.com/zmahnoor14/MAW
+- https://github.com/madeleineernst/pyMolNetEnhancer
+- https://github.com/NPLinker/nplinker
+- https://github.com/biocore/q2-qemistree
+- https://github.com/FanzhouKong/spectral_denoising
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sirius-ms/sirius

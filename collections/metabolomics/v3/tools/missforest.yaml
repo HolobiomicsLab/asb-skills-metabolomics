@@ -1,0 +1,27 @@
+name: missForest
+slug: missforest
+version_used: null
+edam_topics: []
+evidence_spans:
+- Missing values were imputed using Random Forest
+- read more in the [original paper](https://doi.org/10.1093/bioinformatics/btr597)
+- Random Forest and K-Nearest Neighbor were implemented with the R packages missForest and impute, respectively.
+derived_from:
+- doi: 10.1007/s11306-020-01717-8
+  title: 'MetaboShiny: interactive analysis and metabolite annotation of mass spectrometry-based metabolomics data'
+- doi: 10.1093/bioinformatics/btr597
+  title: MissForest—non-parametric missing value imputation for mixed-type data
+- doi: 10.3390/metabo10040135
+  title: '“Notame”: Workflow for Non-Targeted LC–MS Metabolic Profiling'
+- doi: 10.21105/joss.02410
+  title: 'Viime: Visualization and Integration of Metabolomics Experiments'
+source_repos:
+- https://github.com/joannawolthuis/MetaboShiny
+- https://github.com/antonvsdata/notame
+- https://github.com/girder/viime
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/joannawolthuis/MetaboShiny

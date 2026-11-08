@@ -1,0 +1,24 @@
+name: .NET Framework
+slug: net-framework
+version_used: 4.7.2
+edam_topics: []
+evidence_spans:
+- we primarily utilize the frameworks of .NET Framework 4.7.2, .NET Core 3.1, and .NET 6
+derived_from:
+- doi: 10.1021/acs.analchem.0c01980
+  title: 'Correlation-Based Deconvolution (CorrDec) To Generate
+
+    High-Quality MS2 Spectra from Data-Independent Acquisition in Multisample
+
+    Studies'
+- doi: 10.1021/acs.jproteome.0c00618
+  title: 'lcmsWorld: High-Performance 3D Visualization Software for Mass Spectrometry'
+source_repos:
+- https://github.com/systemsomicslab/MsdialWorkbench
+- https://github.com/PGB-LIV/lcmsWorld
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/systemsomicslab/MsdialWorkbench

@@ -1,0 +1,21 @@
+name: spatstat
+slug: spatstat
+version_used: '3.1'
+edam_topics: []
+evidence_spans:
+- The quadrat test from the spatstat package (3.1-1) [21] is used to assess whether each ion's spatial distribution conforms
+- the SMQVP software utilizes the quadrat test from the spatstat package [20], a statistical test for Complete Spatial Randomness (CSR)
+derived_from:
+- doi: 10.3390/biom15111562
+  title: 'SMAnalyst: A Web Server for Spatial Metabolomic Data Analysis and Annotation'
+- doi: 10.3390/metabo15060354
+  title: 'SMQVP: A Web Application for Spatial Metabolomics Quality Visualization and Processing'
+source_repos:
+- https://github.com/mzlab-research/SManalyst
+- https://github.com/mzlab-research/SMQVP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mzlab-research/SManalyst

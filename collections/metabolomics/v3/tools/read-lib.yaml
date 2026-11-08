@@ -1,0 +1,18 @@
+name: read_lib
+slug: read-lib
+version_used: null
+edam_topics: []
+evidence_spans:
+- read_lib("D:/MS_libraries/MoNA-export-LC-MS-MS_Positive_Mode.msp")
+- ?read_lib
+derived_from:
+- doi: 10.1021/acs.analchem.2c05389
+  title: Combination of Structure Databases, In Silico Fragmentation, and MS/MS Libraries for Untargeted Screening of Non-Volatile Migrants from Recycled High-Density Polyethylene Milk Bottles
+source_repos:
+- https://github.com/QizhiSu/mspcompiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QizhiSu/mspcompiler

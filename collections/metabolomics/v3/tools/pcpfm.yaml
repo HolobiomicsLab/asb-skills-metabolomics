@@ -1,0 +1,19 @@
+name: pcpfm
+slug: pcpfm
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our pipeline, named the Python-centric pipeline for metabolomics (pcpfm), enables start-to-finish metabolomics data processing
+- pcpfm blank_masking --table_moniker preferred --new_moniker preferred_blank_masked
+- pcpfm impute --table_moniker preferred_drop_missing --new_moniker preferred_interpolated --interpolation_ratio 0.5 -i ./my_experiment
+derived_from:
+- doi: 10.1371/journal.pcbi.1011912
+  title: Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline
+source_repos:
+- https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics

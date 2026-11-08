@@ -1,0 +1,18 @@
+name: MetNet
+slug: metnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed a tool, MetNet, that implements the proposed methodology.
+- executable version of MetNet is available at www.dsi.unive.it/~biolab
+derived_from:
+- doi: 10.1371/journal.pone.0246962
+  title: 'MetNet: A two-level approach to reconstructing and comparing metabolic networks'
+source_repos:
+- https://github.com/simeoni-biolab/MetNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/simeoni-biolab/MetNet

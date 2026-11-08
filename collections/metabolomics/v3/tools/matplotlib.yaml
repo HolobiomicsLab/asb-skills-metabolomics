@@ -1,0 +1,105 @@
+name: matplotlib
+slug: matplotlib
+version_used: 3.5.3
+edam_topics: []
+evidence_spans:
+- '* matplotlib'
+- '* Pandas
+
+  * matplotlib'
+- matplotlib
+- Matplotlib (version 3.5.3)
+- 'reproduce Fig. 3: the distribution across plants, bacteria, fungi, animals and marine categories'
+- Install Python **3.11 (Windows x64)** and the packages listed in the sub-manual (`flask pandas numpy scipy scikit-learn matplotlib polars fisher_py
+- '- numpy
+
+  - matplotlib'
+- '- matplotlib'
+- MetaboDirect is written in Python and uses a wide variety of packages, including pandas, NumPy, Matplotlib, seaborn, scikit-learn, and NetworkX
+- All plotting is done using matplotlib
+- All plotting is done using matplotlib,2
+- import matplotlib.pyplot as plt
+- '* Matplotlib'
+- "* Python 3.x \n* PyTorch \n* RDKit \n* Matplotlib \n* h5py\n* pyteomics"
+- GraPhlAn uses the matplotlib library (Hunter, 2007).
+- the [hclust2](https://github.com/SegataLab/hclust2) repository
+- /datasets/ Contains all datasets from HORDB
+- Source code for the HORDB manuscript submitted to Sci Data for all the code to build HORDB.
+- numpy_ and matplotlib_ for visualization of optimized results.
+- matplotlib==3.4.1
+- The software environment utilizes JupyterLab for interactive computing, MassQL for querying mass spectrometry data, and matplotlib for visualizations.
+- MassQL for querying mass spectrometry data, and matplotlib for visualizations
+derived_from:
+- doi: 10.1093/bioinformatics/btad354
+  title: '3DMolMS: prediction of tandem mass spectra from 3D molecular conformations'
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.1186/s13321-020-00478-9
+  title: 'COCONUT online: Collection of Open Natural Products database'
+- doi: 10.1038/s41467-025-59683-5
+  title: 'LipidIN: a comprehensive repository for flash platform-independent annotation and reverse lipidomics'
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+- doi: 10.1080/01621459.2017.1397521
+  title: 'Maximum Rank Reproducibility: A Nonparametric Approach to Assessing Reproducibility in Replicate Experiments'
+- doi: 10.1186/s40168-023-01476-3
+  title: 'MetaboDirect: an analytical pipeline for the processing of FT-ICR MS-based metabolomic data'
+- doi: 10.3389/fnins.2024.1520982
+  title: MetaboLINK is a novel algorithm for unveiling cell-specific metabolic pathways in longitudinal datasets
+- doi: 10.48550/arxiv.2510.09716
+  title: ''
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.analchem.3c01653
+  title: '<i>mzapy</i>: An Open-Source Python Library Enabling Efficient Extraction and Processing of Ion Mobility Spectrometry-Mass Spectrometry Data in the MZA File Format'
+- doi: 10.1021/acs.analchem.3c00764
+  title: 'PeakDetective: A Semisupervised Deep Learning-Based Approach for Peak Curation in Untargeted Metabolomics'
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+- doi: 10.1186/s13321-024-00858-5
+  title: 'TransExION: a transformer based explainable similarity metric for comparing IONS in tandem mass spectrometry'
+- doi: 10.7717/peerj.1029
+  title: Compact graphical representation of phylogenetic data and metadata with GraPhlAn
+- doi: 10.1038/s41597-022-01287-5
+  title: HORDB a comprehensive database of peptide hormones
+- doi: 10.1038/s41467-025-66163-3
+  title: 'MetaboLM: a metabolomic language model for multi-disease early prediction and risk stratification'
+- doi: 10.1186/s12859-019-3096-7
+  title: Moiety modeling framework for deriving moiety abundances from mass spectrometry measured isotopologues
+- doi: 10.1016/j.isci.2020.100849
+  title: Inferring Biochemical Reactions and Metabolite Structures to Understand Metabolic Pathway Drift
+- doi: 10.1093/bioinformatics/btad096
+  title: Regularized adversarial learning for normalization of multi-batch untargeted metabolomics data
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+- doi: 10.1002/rcm.10132
+  title: 'Open‐Source System Suitability: Mass Spectrometry Query Language Lab (MassQLab)'
+source_repos:
+- https://github.com/JosieHong/3DMolMS
+- https://github.com/HassounLab/BAM
+- https://github.com/matplotlib/matplotlib
+- https://github.com/Steinbeck-Lab/coconut
+- https://github.com/LinShuhaiLAB/LipidIN
+- https://github.com/kopeckylukas/py-mamsi
+- https://github.com/Coayala/MetaboDirect
+- https://github.com/jlichtarge/pcaGLASSO
+- https://github.com/jsehhs/MS2toImg-CNN
+- https://github.com/PNNL-m-q/mza
+- https://github.com/PNNL-m-q/mzapy
+- https://github.com/pattilab/PeakDetective
+- https://github.com/bittremieuxlab/spectrum_utils
+- https://github.com/banhdzui/TransExION
+- https://github.com/SegataLab/export2graphlan
+- https://github.com/CPU-HORDB/HORDB
+- https://github.com/Qiu-Shizheng/MetaboLM
+- https://github.com/MoseleyBioinformaticsLab/moiety_modeling
+- https://github.com/pathmodel/pathmodel
+- https://github.com/zamboni-lab/RALPS
+- https://github.com/sangeeta97/ccs_find
+- https://github.com/JohnsonDylan/MassQLab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JosieHong/3DMolMS

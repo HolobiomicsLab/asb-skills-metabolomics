@@ -1,0 +1,32 @@
+name: MaxQuant
+slug: maxquant
+version_used: 2.6.2.0
+edam_topics: []
+evidence_spans:
+- While several open-source platforms (ASTS, MAVEN, MaxQuant, MRMAnalyzer, MRMPROBS, Skyline, SmartPeak, XCMS-MRM and METLIN-MRM, etc.)
+- if you use MaxQuant as the feature extraction tool
+- such as MaxQuant4, PANDA5, MSFragger6, 7 and DIA-NN8, perform RT alignment using the match between runs (MBR) function
+derived_from:
+- doi: 10.1101/2025.11.12.687968
+  title: 'MetaXtract: Extracting Metadata from Raw Files for FAIR Data Practices and Workflow Optimisation'
+- doi: 10.1021/acs.jproteome.4c00854
+  title: 'MSConnect: Open-Source, End-to-End Platform for Automated Mass Spectrometry Data Management, Analysis, and Visualization'
+- doi: 10.1021/acs.analchem.5c03730
+  title: 'rtmsEcho: An
+
+    Open-Source R Package for Automated Analysis
+
+    of Acoustic Ejection Mass Spectrometry Data'
+- doi: 10.1038/s41467-023-43909-5
+  title: 'DeepRTAlign: toward accurate retention time alignment for large cohort mass spectrometry data analysis'
+source_repos:
+- https://github.com/Rappsilber-Laboratory/MetaXtract
+- https://github.com/RTKlab-BYU/MSConnect
+- https://github.com/nathanieltwarog/rtmsEcho
+- https://github.com/PHOENIXcenter/deeprtalign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Rappsilber-Laboratory/MetaXtract

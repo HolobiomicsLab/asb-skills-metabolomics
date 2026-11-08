@@ -1,0 +1,16 @@
+name: VAE
+slug: vae
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2025.01.26.634927
+  title: mzLearn, a data-driven LC/MS signal detection algorithm, enables pre-trained generative models for enhanced patient stratification
+source_repos:
+- https://github.com/ReviveMed/mzEmbed
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ReviveMed/mzEmbed

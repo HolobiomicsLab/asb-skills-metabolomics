@@ -1,0 +1,27 @@
+name: reticulate
+slug: reticulate
+version_used: '1.19'
+edam_topics: []
+evidence_spans:
+- '> packageVersion("reticulate")
+
+  [1] ‘1.19’'
+- packageVersion("reticulate")
+- executing them in R using the *reticulate* R package, and vice versa
+- executing them in R using the *reticulate* R package
+- using the *reticulate* R package
+- executing them in R using the *reticulate* R package, and vice versa.
+derived_from:
+- doi: 10.3390/metabo13080944
+  title: Denoising Autoencoder Normalization for Large-Scale Untargeted Metabolomics by Gas Chromatography–Mass Spectrometry
+- doi: 10.21105/joss.08070
+  title: 'SpectriPy: Enhancing Cross-Language Mass Spectrometry Data Analysis with R and Python'
+source_repos:
+- https://github.com/slfan2013/SERDA
+- https://github.com/rformassspectrometry/SpectriPy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/slfan2013/SERDA

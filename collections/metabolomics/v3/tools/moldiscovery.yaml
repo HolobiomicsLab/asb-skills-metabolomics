@@ -1,0 +1,20 @@
+name: molDiscovery
+slug: moldiscovery
+version_used: null
+edam_topics: []
+evidence_spans:
+- molDiscovery, a mass spectral database search method that improves both efficiency and accuracy of small molecule identification
+- Here, we present molDiscovery, a mass spectral database search method that improves both efficiency and accuracy of small molecule identification
+- 'Source: github:github.com__mohimanilab__molDiscovery'
+- we improve the efficiency and accuracy of small molecule identification by (i) designing an efficient algorithm to generate mass spectrometry fragmentations
+derived_from:
+- doi: 10.1038/s41467-021-23986-0
+  title: 'MolDiscovery: learning mass spectrometry fragmentation of small molecules'
+source_repos:
+- https://github.com/mohimanilab/molDiscovery
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mohimanilab/molDiscovery

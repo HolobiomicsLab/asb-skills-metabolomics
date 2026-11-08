@@ -1,0 +1,20 @@
+name: maw-r
+slug: maw-r
+version_used: 1.0.8
+edam_topics: []
+evidence_spans:
+- docker pull zmahnoor/maw-r:1.0.8 --platform=linux/amd64
+- Rscript --no-save --no-restore --verbose Workflow_R_Script_all_MetFrag.r your_file_name.mzML gnps.rda hmdb.rda mbankNIST.rda 15 TRUE
+- as part of the R segment of the workflow (MAW-R)
+- This image contains /opt/workdir as the working directory. This docker image will be used to run not only MAW-R but also MetFrag.
+derived_from:
+- doi: 10.1186/s13321-023-00695-y
+  title: 'MAW: the reproducible Metabolome Annotation Workflow for untargeted tandem mass spectrometry'
+source_repos:
+- https://github.com/zmahnoor14/MAW
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zmahnoor14/MAW

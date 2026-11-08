@@ -1,0 +1,144 @@
+---
+name: molecular-fingerprint-prediction
+description: Use when untargeted LC-MS/MS feature detection (e.
+when_to_use_negative:
+- When a sample type is already well investigated and spectral library matches (e.g.
+  GNPS Feature-Based Molecular Networking clusterinfo_summary) are sufficient to summarize
+  the chemistry — spectral matches are more accurate, though their coverage is typically
+  only 1–20% of all features.
+- When only MS1 data are available with no MS/MS fragmentation spectra — only chemical
+  features with MS/MS data are included; features with only MS1 are not considered.
+- When features must be annotated in negative ionization mode with high confidence
+  — fewer molecular fingerprints can be confidently predicted in negative mode due
+  to fewer publicly available reference spectra, resulting in less-extensive trees.
+edam_operation: http://edamontology.org/operation_3646
+edam_topics:
+- http://edamontology.org/topic_3314
+- http://edamontology.org/topic_0605
+tools:
+- name: Qemistree
+  role: QIIME 2 plugin (q2-qemistree) exposing compute-fragmentation-trees, rerank-molecular-formulas,
+    predict-fingerprints and make-hierarchy methods that orchestrate the SIRIUS/CSI:FingerID
+    fingerprint prediction pipeline.
+  repo: https://github.com/biocore/q2-qemistree
+- name: SIRIUS
+  role: Software framework for de-novo identification of metabolites; determines the
+    molecular formula of each feature from isotope and fragmentation patterns and
+    estimates the best fragmentation tree explaining the MS/MS spectrum, which is
+    the input to fingerprint prediction.
+- name: CSI:FingerID
+  role: Operates on SIRIUS fragmentation trees using kernel support vector machines
+    to predict 2936 molecular properties (molecular substructures) per chemical feature.
+- name: QIIME 2
+  role: Plugin host environment into which q2-qemistree plugs, allowing the fingerprint-based
+    tree outputs to feed into other QIIME 2 workflows originally developed for microbiome
+    sequence analysis.
+- name: MZmine2
+  role: Used upstream for feature detection to generate the MGF file with MS1/MS2
+    entries and the feature table of MS1 peak areas that serve as inputs to fingerprint
+    prediction.
+provenance:
+  source_task_ids:
+  - task_004
+  source_papers:
+  - doi: 10.1038/s41589-020-00677-3
+    title: Chemically informed analyses of metabolomics mass spectrometry data with
+      Qemistree
+  source_content_hash: sha256:8007f674741a9cddc6d4c6d4375c266b2802c19627523fb9b44930c4bb3eef3f
+schema_version: 0.2.0
+metadata:
+  license_tier: noncommercial
+  tool_license:
+    tier: noncommercial
+    requires_ack: true
+    ref: CC-BY-NC-ND-4.0
+    url: https://github.com/biocore/q2-qemistree
+  repo_url: https://github.com/biocore/q2-qemistree
+  tools:
+  - CSI:FingerID
+  - ClassyFire
+  - GNPS
+  - MZmine2
+  - QIIME 2
+  - Qemistree
+  - SIRIUS
+  edam_operation: http://edamontology.org/operation_3646
+  edam_topics:
+  - http://edamontology.org/topic_3314
+  - http://edamontology.org/topic_0605
+  provenance_tier: literature
+license: CC-BY-4.0
+evidence_trimmed: true
+triage_status: promoted
+yes_rate: 1.0
+n_claims: 21
+---
+
+# molecular-fingerprint-prediction
+
+> **License: noncommercial** — confirm your use is a permitted (noncommercial) purpose before applying; commercial use requires a separate license (see `metadata.tool_license`). <!-- asb-license-banner -->
+## Summary
+
+Predicts 2936 molecular substructure properties (fingerprints) for each MS1 chemical feature from its MS/MS fragmentation spectrum using SIRIUS fragmentation-tree computation followed by CSI:FingerID kernel support vector machines, providing the fingerprint vectors on which Qemistree builds chemical hierarchies.
+
+## When to use
+
+Use when untargeted LC-MS/MS feature detection (e.g. MZmine2 MGF with MS1 peak areas plus MS2 spectra) has produced chemical features for which structural information must be inferred at scale — typically when spectral library match coverage is too low (1–20% of features) to summarize sample chemistry, and a molecular fingerprint or chemical tree is needed for downstream chemically informed analyses.
+
+## When NOT to use
+
+- When a sample type is already well investigated and spectral library matches (e.g. GNPS Feature-Based Molecular Networking clusterinfo_summary) are sufficient to summarize the chemistry — spectral matches are more accurate, though their coverage is typically only 1–20% of all features.
+- When only MS1 data are available with no MS/MS fragmentation spectra — only chemical features with MS/MS data are included; features with only MS1 are not considered.
+- When features must be annotated in negative ionization mode with high confidence — fewer molecular fingerprints can be confidently predicted in negative mode due to fewer publicly available reference spectra, resulting in less-extensive trees.
+
+## Inputs
+
+- MGF file containing MS1 and MS2 entries generated by feature detection (e.g. MZmine2) from mzXML/mzML/mzDATA LC-MS/MS data
+- Feature table (e.g. feature-table.biom) of MS1 peak areas per sample
+- SIRIUS >= 4.4.29 headless installation (e.g. sirius-4.9.3-osx64-headless)
+- QIIME 2 environment with q2-qemistree plugin installed
+
+## Outputs
+
+- SiriusFolder artifact containing fragmentation trees for every MS1 feature (from compute-fragmentation-trees)
+- Reranked molecular formula selection per feature (from rerank-molecular-formulas)
+- CSI:FingerID substructure probability vectors (2936 molecular properties) per feature (from predict-fingerprints)
+- Merged tree, hashed feature table, and combined FeatureData[Molecules] with structure_source column, after filtering MS1 features without fingerprints (from make-hierarchy)
+
+## How to apply
+
+Preprocess LC-MS/MS data (mzXML, mzML or mzDATA) with feature detection (e.g. MZmine2) to produce an MGF file containing MS1 and MS2 entries plus a feature table of MS1 peak areas. Pass these to qiime qemistree compute-fragmentation-trees, in which SIRIUS determines the molecular formula of each feature using isotope and fragmentation patterns and estimates the best fragmentation tree explaining the MS/MS spectrum — configured with parameters such as --p-ppm-max 15, --p-profile orbitrap and --p-ions-considered '[M+H]+' for the Global FoodOmics food dataset. Run qiime qemistree rerank-molecular-formulas with --p-zodiac-threshold 0.95 to select the top-scoring molecular formula per feature (ZODIAC reranking). Then run qiime qemistree predict-fingerprints (e.g. --p-ppm-max 20) so CSI:FingerID operates on the fragmentation trees, using kernel support vector machines to predict 2936 molecular properties for each feature. The output fingerprint vectors can be hierarchically clustered with qiime qemistree make-hierarchy to build a tree of chemical structural relationships, and features without fingerprints are filtered out of the merged feature table. Rationale: fingerprints allow all pairwise chemical relationships between molecules to be calculated and are largely independent of technical variation such as chromatography shifts, enabling cross-dataset comparison without repeating feature detection and alignment.
+
+## Related tools
+
+- **Qemistree** (QIIME 2 plugin (q2-qemistree) exposing compute-fragmentation-trees, rerank-molecular-formulas, predict-fingerprints and make-hierarchy methods that orchestrate the SIRIUS/CSI:FingerID fingerprint prediction pipeline.) — https://github.com/biocore/q2-qemistree
+- **SIRIUS** (Software framework for de-novo identification of metabolites; determines the molecular formula of each feature from isotope and fragmentation patterns and estimates the best fragmentation tree explaining the MS/MS spectrum, which is the input to fingerprint prediction.)
+- **CSI:FingerID** (Operates on SIRIUS fragmentation trees using kernel support vector machines to predict 2936 molecular properties (molecular substructures) per chemical feature.)
+- **QIIME 2** (Plugin host environment into which q2-qemistree plugs, allowing the fingerprint-based tree outputs to feed into other QIIME 2 workflows originally developed for microbiome sequence analysis.)
+- **MZmine2** (Used upstream for feature detection to generate the MGF file with MS1/MS2 entries and the feature table of MS1 peak areas that serve as inputs to fingerprint prediction.)
+
+## Examples
+
+```
+qiime qemistree predict-fingerprints --i-sirius-annotations sirius_folder.qza --p-ppm-max 20 --o-features fingerprints.qza
+```
+
+## Evaluation signals
+
+- Each SIRIUS/CSI:FingerID invocation completes and produces a SiriusFolder artifact valid as QIIME 2 input (Phylogeny[Rooted] tree and FeatureData[Molecules] with a populated structure_source column after make-hierarchy).
+- Fraction of fingerprint-annotated features falls within a few percentage points of the reported benchmark — in the Global FoodOmics food dataset, GNPS matches plus CSI:FingerID predictions annotated ~91% of the 663 quality-filtered chemical fingerprints, versus only ~20% annotated by FBMN spectral library matching alone.
+- The predicted fingerprint vectors contain exactly 2936 molecular properties (Supplementary Dataset 1), matching the CSI:FingerID property set.
+- MS1 features without fingerprints are filtered out of the merged feature table, and the resulting tree plus hashed feature table can be consumed by downstream tools (e.g. Weighted UniFrac / Faith's Phylogenetic Diversity, Empress visualization).
+- rerank-molecular-formulas applies --p-zodiac-threshold 0.95, so every feature retained downstream has a top-scoring molecular formula selected by ZODIAC reranking.
+
+## Limitations
+
+- Qemistree depends on representing chemical features as molecular fingerprints and shares limitations with the underlying fingerprint prediction tool CSI:FingerID; fingerprint prediction depends on the quality and coverage of MS/MS spectral databases available for training the predictive models.
+- Typically only 1–20% of features have spectral library matches, so predicted fingerprints carry annotation uncertainty relative to spectral matches — spectral match annotations have coverage too low to adequately summarize the chemical content of complex samples.
+- In negative ionization mode, fewer molecular fingerprints can be confidently predicted due to fewer publicly available reference spectra, resulting in less-extensive trees.
+- SIRIUS uses PubChem version downloaded 13 August 2017; Qemistree was initially developed under Sirius 4.0.1, which reached end of life, and was recently adapted to work with Sirius versions > 4.4.29.
+- Different tree-building approaches will produce different tree topologies capturing complementary chemical information; a broader benchmarking effort is needed to understand when each approach should be used.
+
+## Evidence
+
+- [methods] predict-fingerprints --p-ppm-max 20: [evidence span withheld — anchor status: not_found]

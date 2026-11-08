@@ -1,0 +1,18 @@
+name: Ruby
+slug: ruby
+version_used: null
+edam_topics: []
+evidence_spans:
+- an open source Ruby API (https://bitbucket.org/wishartlab/classyfire_api) allows users to programmatically access the web server
+- a Ruby API version is available at https://bitbucket.org/wishartlab/classyfire_api
+- a Ruby API version is available at https://bitbucket.org/wishartlab/classyfire_api, which provides programmatic access to the ClassyFire server and database
+derived_from:
+- doi: 10.1186/s13321-016-0174-y
+  title: 'ClassyFire: automated chemical classification with a comprehensive, computable taxonomy'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

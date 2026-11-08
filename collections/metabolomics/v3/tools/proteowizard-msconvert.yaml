@@ -1,0 +1,30 @@
+name: ProteoWizard msconvert
+slug: proteowizard-msconvert
+version_used: null
+edam_topics: []
+evidence_spans:
+- uses msconvert utility from the ProteoWizard package to convert spectra in other formats to MGF
+- It is essentially the same configuration than for using Proteowizard msconvert software for conversion.
+derived_from:
+- doi: 10.1038/s41467-018-06082-8
+  title: Dereplication of microbial metabolites through database search of mass spectra
+- doi: 10.1021/acs.analchem.3c00376
+  title: 'IDSL.CSA: Composite Spectra Analysis for Chemical Annotation of Untargeted Metabolomics Datasets'
+- doi: 10.1021/acs.analchem.0c02998
+  title: Exploring the Use of Gas Chromatography Coupled to Chemical Ionization Mass Spectrometry (GC-CI-MS) for Stable Isotope Labeling in Metabolomics
+- doi: 10.1021/jasms.4c00364
+  title: 'Nextflow4MS-DIAL: A Reproducible Nextflow-Based Workflow for Liquid Chromatography–Mass Spectrometry Metabolomics Data Processing'
+- doi: 10.1093/bioadv/vbae160
+  title: 'arcMS: transformation of multi-dimensional high-resolution mass spectrometry data to columnar format for compact storage and fast access'
+source_repos:
+- https://github.com/ablab/npdtools
+- https://github.com/idslme/IDSL.CSA
+- https://github.com/jcapelladesto/isoSCAN
+- https://github.com/Nextflow4Metabolomics/nextflow4ms-dial
+- https://github.com/leesulab/arcMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/npdtools

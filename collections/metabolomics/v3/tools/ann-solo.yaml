@@ -1,0 +1,27 @@
+name: ANN-SoLo
+slug: ann-solo
+version_used: null
+edam_topics: []
+evidence_spans:
+- The spectrum preprocessing settings are as described in section 2.1.1.
+- To perform an open search ANN-SoLo employs a cascade search strategy consisting of two levels
+- For all HEK293 searches a fragment mass tolerance of 0.02 Da was used.
+- The ANN-SoLo software is written in Python
+- ANN indexing during the candidate selection step is based on the open-source Approximate Nearest Neighbors Oh Yeah (Annoy) library
+- Here we present the Approximate Nearest Neighbor Spectral Library (ANN-SoLo) search tool, which has been optimized for fast and accurate open modification spectral library searching.
+- Top 500 precursor mass differences from the ANN-SoLo open modification search of GLEAMS cluster centroids.
+derived_from:
+- doi: 10.1021/acs.jproteome.8b00359
+  title: Fast Open Modification Spectral Library Searching through Approximate Nearest Neighbor Indexing
+- doi: 10.1038/s41592-022-01496-1
+  title: A learned embedding for efficient joint analysis of millions of mass spectra
+source_repos:
+- https://github.com/bittremieux/ANN-SoLo
+- https://github.com/bittremieux-lab/ANN-SoLo
+- https://github.com/bittremieux-lab/GLEAMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bittremieux/ANN-SoLo

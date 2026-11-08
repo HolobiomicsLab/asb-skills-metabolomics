@@ -1,0 +1,19 @@
+name: ANNOVAR
+slug: annovar
+version_used: '55.9'
+edam_topics: []
+evidence_spans:
+- This study evaluated the annotation concordance between three tools-- ANNOVAR, SnpEff, and Variant Effect Predictor (VEP)
+- Incorrect PVS1 interpretations affected the final pathogenicity and downgraded PLP variants (ANNOVAR 55.9%, SnpEff 66.5%, VEP 67.3%)
+- Annotation tools like ANNOVAR14, SnpEff15, and VEP16 utilize RNA transcripts to annotate variants
+derived_from:
+- doi: 10.1101/2024.10.11.617756
+  title: 'Toward Automatic Variant Interpretation: Discordant Genetic Interpretation Across Variant Annotations for ClinVar Pathogenic Variants'
+source_repos:
+- https://github.com/NPLinker/nplinker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NPLinker/nplinker

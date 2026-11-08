@@ -1,0 +1,17 @@
+name: npanalyst CLI
+slug: npanalyst-cli
+version_used: null
+edam_topics: []
+evidence_spans:
+- Right now things are implemented via a CLI (`npanalyst`) which will process a folder of csv files or basket a folder of replicated CSVs
+derived_from:
+- doi: 10.1021/acscentsci.1c01108
+  title: 'NP Analyst: An Open Online Platform for Compound Activity Mapping'
+source_repos:
+- https://github.com/liningtonlab/npanalyst
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liningtonlab/npanalyst

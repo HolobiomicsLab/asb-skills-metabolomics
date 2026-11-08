@@ -1,0 +1,20 @@
+name: ZODIAC
+slug: zodiac
+version_used: '0.95'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41589-020-00677-3
+  title: Chemically informed analyses of metabolomics mass spectrometry data with Qemistree
+- doi: 10.1038/s42256-020-00234-6
+  title: Database-independent molecular formula annotation using Gibbs sampling through ZODIAC
+source_repos:
+- https://github.com/biocore/q2-qemistree
+- https://github.com/sirius-ms/sirius
+- https://github.com/boecker-lab/sirius
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biocore/q2-qemistree

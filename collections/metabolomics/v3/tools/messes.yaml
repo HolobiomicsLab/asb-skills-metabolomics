@@ -1,0 +1,21 @@
+name: MESSES
+slug: messes
+version_used: null
+edam_topics: []
+evidence_spans:
+- The package provides three commands, extract, validate, and convert, that implement a natural data transformation workflow.
+- The extract command of MESSES supports turning tabular data into JSON.
+- The validate command of MESSES supports validating JSON data.
+- '.. automodule:: messes'
+derived_from:
+- doi: 10.3390/metabo13070842
+  title: 'MESSES: Software for Transforming Messy Research Datasets into Clean Submissions to Metabolomics Workbench for Public Sharing'
+source_repos:
+- https://github.com/MoseleyBioinformaticsLab/messes
+- https://github.com/MoseleyBioinformaticsLab/MESSES
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MoseleyBioinformaticsLab/messes

@@ -1,0 +1,159 @@
+schema_version: 0.3.0
+workflow_id: masst_repository_scale_search
+kind: composite-workflow
+techniques: []
+steps:
+- id: spectrum_prep
+  goal: prepare a query MS/MS spectrum / USI for search
+  edam_operation: http://edamontology.org/operation_3215
+  skills:
+  - spectrum-usi-retrieval-from-online-repositories
+  - universal-spectrum-identifier-construction
+  - massive-dataset-spectrum-retrieval
+  - usi-spectrum-searching
+  tools:
+  - GNPS
+  - Python
+  - spectrum_utils
+  inputs:
+  - type: mgf
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1021-acs-analchem-9b04884
+    - asb-paper-10-1038-s41564-023-01575-9
+    - asb-paper-10-1038-s41592-021-01339-5
+    - asb-paper-10-1101-2020-05-09-086066
+    dois:
+    - 10.1021/acs.analchem.9b04884
+    - 10.1038/s41564-023-01575-9
+    - 10.1038/s41592-021-01339-5
+    - 10.1101/2020.05.09.086066
+  after: []
+  candidate_tools:
+  - Metabolomics Spectrum Resolver
+  - USI
+  - GNPS_LCMSDashboard
+  - Universal Spectrum Identifier (USI)
+  - mzML format (open MS data format)
+  - Fast Search API
+  - MZmine
+  - microbeMASST
+- id: masst_search
+  goal: repository-scale spectral search (fastMASST)
+  edam_operation: http://edamontology.org/operation_3631
+  skills:
+  - fast-search-api-query-execution
+  - msms-spectral-batch-search-against-public-repositories
+  - mass-spectral-analog-search
+  - mass-spectrometry-batch-search
+  - msms-spectral-search
+  tools:
+  - Fast Search API
+  - MZmine
+  - Python 3.10
+  - microbeMASST
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-025-65993-5
+    - asb-paper-10-1038-s41564-023-01575-9
+    - asb-paper-10-1101-2025-04-28-651123
+    dois:
+    - 10.1038/s41467-025-65993-5
+    - 10.1038/s41564-023-01575-9
+    - 10.1101/2025.04.28.651123
+  after:
+  - spectrum_prep
+  candidate_tools:
+  - GNPS_MASST
+  - Metabolights
+  - NORMAN
+  - jobs.py (Fast Search API)
+  - metadataMASST
+  - Fast Search API (fasst)
+  - microbe_masst (jobs.py)
+  - GNPS
+  - tissueMASST
+  inputs_from:
+    spectrum_prep:
+    - tsv
+- id: specialized_masst
+  goal: (optional) ecological context via microbe/plant/food MASST
+  edam_operation: http://edamontology.org/operation_3631
+  skills:
+  - mass-spectrometry-library-matching--f8a5aa74ab04f373
+  - compound-to-taxon-mapping
+  tools:
+  - Fast Search API
+  - GNPS_MASST
+  - MZmine
+  - jobs.py (microbe_masst)
+  - microbeMASST
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41564-023-01575-9
+    dois:
+    - 10.1038/s41564-023-01575-9
+  after:
+  - masst_search
+  candidate_tools:
+  - GNPS libraries
+  inputs_from:
+    masst_search:
+    - tsv
+  optional: true
+- id: cooccurrence
+  goal: co-occurrence / reverse-metabolomics interpretation
+  edam_operation: http://edamontology.org/operation_3659
+  skills:
+  - human-sample-context-stratification-of-msms-matches
+  - masst-job-result-parsing
+  - masst-match-table-parsing
+  - massive-public-dataset-spectrum-search-retrieval
+  tools:
+  - Fast Search API
+  - MZmine
+  - Metabolights
+  - NORMAN
+  - Python 3.10
+  - metadataMASST
+  inputs:
+  - type: tsv
+  outputs:
+  - type: tsv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41564-023-01575-9
+    - asb-paper-10-1038-s41586-023-06906-8
+    dois:
+    - 10.1038/s41564-023-01575-9
+    - 10.1038/s41586-023-06906-8
+  after:
+  - masst_search
+  - specialized_masst
+  candidate_tools:
+  - MASST
+  - pandas
+  - Nextflow
+  inputs_from:
+    masst_search:
+    - tsv
+    specialized_masst:
+    - tsv
+verification:
+  final_outputs:
+  - path: masst_cooccurrence_report.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

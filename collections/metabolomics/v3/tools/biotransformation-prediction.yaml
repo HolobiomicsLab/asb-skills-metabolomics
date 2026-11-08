@@ -1,0 +1,16 @@
+name: biotransformation prediction
+slug: biotransformation-prediction
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.est.5c08558
+  title: Reaction-Guided Metabolomics Accelerates High-Throughput Annotation of Xenobiotic Metabolites for Human Exposome
+source_repos:
+- https://github.com/LeaveMeNotTonight/CMDN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LeaveMeNotTonight/CMDN

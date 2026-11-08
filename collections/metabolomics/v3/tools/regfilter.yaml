@@ -1,0 +1,16 @@
+name: RegFilter
+slug: regfilter
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2024.08.07.607073
+  title: Optimizing the detection of biological signals through a semi-automated feature selection tool
+source_repos:
+- https://github.com/computational-chemical-biology/regression_filter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/computational-chemical-biology/regression_filter
