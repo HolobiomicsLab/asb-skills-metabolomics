@@ -1,0 +1,18 @@
+name: transformer (encoder-decoder)
+slug: transformer-encoder-decoder
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we adapt a full encoder-decoder transformer architecture for the substructure-to-structure task.
+- we have introduced a multitask machine learning approach for direct structure and substructure elucidation from 1H and 13C NMR spectra that leverages pretraining an encoder-decoder transformer
+derived_from:
+- doi: 10.1021/acscentsci.4c01132
+  title: Accurate and Efficient Structure Elucidation from Routine One-Dimensional NMR Spectra Using Multitask Machine Learning
+source_repos:
+- https://github.com/MarklandGroup/NMR2Struct
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MarklandGroup/NMR2Struct

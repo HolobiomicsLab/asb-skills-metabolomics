@@ -1,0 +1,17 @@
+name: RSQLite
+slug: rsqlite
+version_used: null
+edam_topics: []
+evidence_spans:
+- SQLITE occasionally performs self-maintenance(indexing, for example)
+derived_from:
+- doi: 10.1007/s11306-020-01717-8
+  title: 'MetaboShiny: interactive analysis and metabolite annotation of mass spectrometry-based metabolomics data'
+source_repos:
+- https://github.com/joannawolthuis/MetaboShiny
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/joannawolthuis/MetaboShiny

@@ -1,0 +1,17 @@
+name: GenForm
+slug: genform
+version_used: null
+edam_topics: []
+evidence_spans:
+- GenForm [35], MetFrag [36], FOR-IDENT [37]
+derived_from:
+- doi: 10.1186/s13321-020-00477-w
+  title: 'patRoon: open source software platform for environmental mass spectrometry based non-target screening'
+source_repos:
+- https://github.com/rickhelmus/patRoon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rickhelmus/patRoon

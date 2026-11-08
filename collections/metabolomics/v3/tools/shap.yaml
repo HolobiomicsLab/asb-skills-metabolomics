@@ -1,0 +1,20 @@
+name: SHAP
+slug: shap
+version_used: null
+edam_topics: []
+evidence_spans:
+- Documentation lives in the [GitHub Wiki](https://github.com/metaspace2020/metaspace/wiki)
+derived_from:
+- doi: 10.1101/2025.01.26.634927
+  title: mzLearn, a data-driven LC/MS signal detection algorithm, enables pre-trained generative models for enhanced patient stratification
+- doi: 10.1038/s41467-024-52213-9
+  title: 'METASPACE-ML: Context-specific metabolite annotation for imaging mass spectrometry using machine learning'
+source_repos:
+- https://github.com/ReviveMed/mzEmbed
+- https://github.com/metaspace2020/metaspace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ReviveMed/mzEmbed

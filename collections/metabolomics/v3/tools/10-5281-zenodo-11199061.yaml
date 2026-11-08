@@ -1,0 +1,17 @@
+name: 10.5281/zenodo.11199061
+slug: 10-5281-zenodo-11199061
+version_used: '10.5281'
+edam_topics: []
+evidence_spans:
+- https://zenodo.org/badge/DOI/10.5281/zenodo.11199061.svg
+derived_from:
+- doi: 10.1186/s13321-024-00899-w
+  title: Evaluating the generalizability of graph neural networks for predicting collision cross section
+source_repos:
+- https://github.com/enveda/ccs-prediction
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enveda/ccs-prediction

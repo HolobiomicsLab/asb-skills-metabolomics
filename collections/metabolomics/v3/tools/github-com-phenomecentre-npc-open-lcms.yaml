@@ -1,0 +1,17 @@
+name: github.com/phenomecentre/npc-open-lcms
+slug: github-com-phenomecentre-npc-open-lcms
+version_used: null
+edam_topics: []
+evidence_spans:
+- utilises region of interest [(ROI) files](https://github.com/phenomecentre/npc-open-lcms) from peakPantheR
+derived_from:
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+source_repos:
+- https://github.com/kopeckylukas/py-mamsi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kopeckylukas/py-mamsi

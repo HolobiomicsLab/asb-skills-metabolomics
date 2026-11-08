@@ -1,0 +1,19 @@
+name: Aird
+slug: aird
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we introduce “Aird”, an opensource and computation-oriented format with controllable precision, flexible indexing strategies, and high compression rate
+- we also provide a JSON Aird Schema (https://github.com/CSi-Studio/Aird-SDK/blob/1.1/AirdMetaData.json)
+derived_from:
+- doi: 10.1186/s12859-021-04490-0
+  title: 'Aird: a computation-oriented mass spectrometry data format enables a higher compression ratio and less decoding time'
+source_repos:
+- https://github.com/CSi-Studio/Aird-SDK
+- https://github.com/CSi-Studio/AirdPro
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSi-Studio/Aird-SDK

@@ -1,0 +1,19 @@
+name: github.com/hejjack/SpecTUS
+slug: github-com-hejjack-spectus
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/hejjack/SpecTUS.git
+- 'Source: github:github.com__hejjack__SpecTUS'
+- You can run a demo inference of the final model hosted on our server via Jupyter Notebook in [this](https://github.com/ljocha/spectus-demo) repository.
+derived_from:
+- doi: 10.1021/acs.analchem.6c02423
+  title: ''
+source_repos:
+- https://github.com/hejjack/SpecTUS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hejjack/SpecTUS

@@ -1,0 +1,20 @@
+name: MetaboAnnotatoR
+slug: metaboannotator
+version_used: null
+edam_topics: []
+evidence_spans:
+- The workflow is freely available as an open-source R package, MetaboAnnotatoR
+- 'The workflow is freely available as an open-source
+
+  R package, MetaboAnnotatoR'
+derived_from:
+- doi: 10.1021/acs.analchem.1c03032
+  title: Automated Annotation of Untargeted All-Ion Fragmentation LC–MS Metabolomics Data with MetaboAnnotatoR
+source_repos:
+- https://github.com/gggraca/MetaboAnnotatoR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gggraca/MetaboAnnotatoR

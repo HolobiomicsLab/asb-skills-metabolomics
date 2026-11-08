@@ -1,0 +1,16 @@
+name: msiPL
+slug: msipl
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bioinformatics/btac032
+  title: 'massNet: integrated processing and classification of spatially resolved mass spectrometry data using deep learning for rapid tumor delineation'
+source_repos:
+- https://github.com/wabdelmoula/massNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wabdelmoula/massNet

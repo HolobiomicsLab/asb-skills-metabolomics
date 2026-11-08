@@ -1,0 +1,20 @@
+name: TurboPutative
+slug: turboputative
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present TurboPutative (https://proteomics.cnic.es/TurboPutative/), a flexible and user-friendly web-based platform
+- a flexible and user-friendly web-based platform composed of four modules (Tagger, REname, RowMerger, and TPMetrics)
+- (absent — flagged as missing)
+- Here, we present TurboPutative (https://proteomics.cnic.es/TurboPutative/), a flexible and user-friendly web-based platform composed of four modules (Tagger, REname, RowMerger, and TPMetrics)
+derived_from:
+- doi: 10.3389/fmolb.2022.952149
+  title: 'TurboPutative: A web server for data handling and metabolite classification in untargeted metabolomics'
+source_repos:
+- https://github.com/CNIC-Proteomics/TurboPutative-web
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CNIC-Proteomics/TurboPutative-web

@@ -1,0 +1,17 @@
+name: lmerTest
+slug: lmertest
+version_used: null
+edam_topics: []
+evidence_spans:
+- mixed-effects models for longitudinal data, and Tobit regression for censoring values exceeding the limits of detection
+derived_from:
+- doi: 10.1515/jib-2025-0047
+  title: 'Streamlining feature elaboration and statistics analysis in metabolomics: the GetFeatistics R-package'
+source_repos:
+- https://github.com/FrigerioGianfranco/GetFeatistics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FrigerioGianfranco/GetFeatistics

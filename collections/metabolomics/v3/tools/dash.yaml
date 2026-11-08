@@ -1,0 +1,22 @@
+name: Dash
+slug: dash
+version_used: null
+edam_topics: []
+evidence_spans:
+- it's a web application built upon plotly's Dash Framework
+- rendered using dash and dash-cytoscape
+derived_from:
+- doi: 10.1038/s41592-021-01339-5
+  title: 'GNPS Dashboard: collaborative exploration of mass spectrometry data in the web browser'
+- doi: 10.1021/acs.analchem.3c04444
+  title: Tailored Mass Spectral Data Exploration Using the SpecXplore Interactive Dashboard
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/GNPS_LCMSDashboard
+- https://github.com/plotly/dash
+- https://github.com/kevinmildau/specXplore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/GNPS_LCMSDashboard

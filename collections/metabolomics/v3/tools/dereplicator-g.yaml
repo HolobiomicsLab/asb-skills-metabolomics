@@ -1,0 +1,18 @@
+name: DEREPLICATOR-G
+slug: dereplicator-g
+version_used: null
+edam_topics: []
+evidence_spans:
+- Recently, we introduced DEREPLICATOR32 for searching spectral datasets against the database of peptidic natural products (PNPs)
+- Here we describe DEREPLICATOR+ algorithm for dereplicating spectra against diverse metabolites
+derived_from:
+- doi: 10.1038/s41467-018-06082-8
+  title: Dereplication of microbial metabolites through database search of mass spectra
+source_repos:
+- https://github.com/ablab/npdtools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/npdtools

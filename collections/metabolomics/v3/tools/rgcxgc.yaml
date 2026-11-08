@@ -1,0 +1,16 @@
+name: RGCxGC
+slug: rgcxgc
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.microc.2020.104830
+  title: 'RGCxGC toolbox: An R-package for data processing in comprehensive two-dimensional gas chromatography-mass spectrometry'
+source_repos:
+- https://github.com/DanielQuiroz97/RGCxGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DanielQuiroz97/RGCxGC

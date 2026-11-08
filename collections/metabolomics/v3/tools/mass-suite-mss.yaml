@@ -1,0 +1,19 @@
+name: Mass-Suite (MSS)
+slug: mass-suite-mss
+version_used: null
+edam_topics: []
+evidence_spans:
+- analyzed and processed through the MSS feature extraction workflow
+- Mass-Suite (MSS) is a Python-based, open-source software package designed to analyze high-resolution mass spectrometry (HRMS)-based non-targeted analysis (NTA) data
+- 'Mass-suite: Comprehensive Mass Spectrometry(MS) data analysis tool'
+derived_from:
+- doi: 10.1186/s13321-023-00741-9
+  title: 'Mass-Suite: a novel open-source python package for high-resolution mass spectrometry data analysis'
+source_repos:
+- https://github.com/XiminHu/mass-suite
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XiminHu/mass-suite

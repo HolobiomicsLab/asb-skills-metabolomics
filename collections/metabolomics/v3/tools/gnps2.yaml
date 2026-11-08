@@ -1,0 +1,25 @@
+name: GNPS2
+slug: gnps2
+version_used: null
+edam_topics: []
+evidence_spans:
+- '## GNPS2 Workflow Input information'
+derived_from:
+- doi: 10.1021/jasms.5c00237
+  title: Multiple Spectrum Alignment for Molecular Networking Exploration and Discovery
+- doi: 10.1101/2024.08.07.607073
+  title: Optimizing the detection of biological signals through a semi-automated feature selection tool
+- doi: 10.1038/s41586-023-06906-8
+  title: Reverse metabolomics for the discovery of chemical structures from humans
+- doi: 10.1101/2024.10.14.618269
+  title: 'Structural annotation of full-scan MS data: A unified solution for LC-MS and MS imaging analyses'
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/NetworkFamily_MultipleAlignment_Website
+- https://github.com/computational-chemical-biology/regression_filter
+- https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/NetworkFamily_MultipleAlignment_Website

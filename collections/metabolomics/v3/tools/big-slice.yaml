@@ -1,0 +1,21 @@
+name: BiG-SLiCE
+slug: big-slice
+version_used: null
+edam_topics: []
+evidence_spans:
+- Running **BiG-SLiCE** clustering analysis
+- Here, we introduce BiG-SLiCE, a tool designed to cluster massive numbers of BGCs.
+- user@local:~$ bigslice -i <input_folder> <output_folder>
+- '**BiG-SLiCE**''s output folder contains both the processed input data'
+- Using the `--query` mode, you can perform a blazing-fast query of a putative BGC against the pre-processed set of Gene Cluster Family (GCF) models
+derived_from:
+- doi: 10.1093/gigascience/giaa154
+  title: 'BiG-SLiCE: A highly scalable tool maps the diversity of 1.2 million biosynthetic gene clusters'
+source_repos:
+- https://github.com/medema-group/bigslice
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/medema-group/bigslice

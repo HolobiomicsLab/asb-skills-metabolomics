@@ -1,0 +1,398 @@
+{
+  "counts": {
+    "addresses_redacted": 61,
+    "leaves_changed": 43
+  },
+  "enabled": true,
+  "leaves": [
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "adduct-aware-ion-annotation"
+    },
+    {
+      "address_sha256_prefix": [
+        "57adee1ecc6e"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "autoencoder-based-batch-normalization-training"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "ceumass-restful-querying"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "compound-identification-reliability-scoring"
+    },
+    {
+      "address_sha256_prefix": [
+        "595db9a64d90"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "confusion-matrix-and-auc-visualization"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "cosine-similarity-peak-vector-comparison"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "cross-database-set-overlap-analysis"
+    },
+    {
+      "address_sha256_prefix": [
+        "595db9a64d90"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "densenet-ensemble-training-tuning"
+    },
+    {
+      "address_sha256_prefix": [
+        "0762f98364b9"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "dims-lcms-case-study-reproduction"
+    },
+    {
+      "address_sha256_prefix": [
+        "595db9a64d90"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "ensemble-deep-learning-interpretability"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "expert-system-rule-based-filtering"
+    },
+    {
+      "address_sha256_prefix": [
+        "0762f98364b9"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "galaxy-workflow-execution"
+    },
+    {
+      "address_sha256_prefix": [
+        "855c94f34989"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "genomic-source-metadata-tabulation"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "hmdb-compound-mass-retrieval"
+    },
+    {
+      "address_sha256_prefix": [
+        "0c024f130782"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "in-silico-annotation-benchmarking"
+    },
+    {
+      "address_sha256_prefix": [
+        "f0abd45e6dd5"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "jaccard-similarity-spectrum-scoring"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "json-annotation-record-parsing"
+    },
+    {
+      "address_sha256_prefix": [
+        "595db9a64d90"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "lc-ms-serum-metabolomics-classification"
+    },
+    {
+      "address_sha256_prefix": [
+        "a85837b0350e"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "lipidomics-multivariate-statistical-analysis"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "mass-formula-consistency-checking"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "massbank-reference-spectrum-retrieval"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body",
+        "frontmatter:when_to_use_negative[2]"
+      ],
+      "output_id": "metabolite-annotation-api-querying"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "metabolite-candidate-score-normalization"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "metabolite-database-coverage-querying"
+    },
+    {
+      "address_sha256_prefix": [
+        "595db9a64d90"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "metabolomics-dataset-acquisition-metabolights"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "metabolomics-spectra-qc-reporting"
+    },
+    {
+      "address_sha256_prefix": [
+        "0762f98364b9"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "missing-value-imputation-config-comparison"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "ms1-candidate-mass-matching"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "ms2-spectral-similarity-scoring--70e5ed9472f67d8f"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "ms2-spectrum-quality-assessment"
+    },
+    {
+      "address_sha256_prefix": [
+        "595db9a64d90"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "mzml-to-npy-conversion"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "oxidized-lipid-library-search"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "oxidized-pc-species-identifier-mapping"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "peak-list-mz-tolerance-matching"
+    },
+    {
+      "address_sha256_prefix": [
+        "595db9a64d90"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "ppm-tolerance-mz-filtering"
+    },
+    {
+      "address_sha256_prefix": [
+        "a7ce43b1fb8c"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "programmatic-nmr-data-export"
+    },
+    {
+      "address_sha256_prefix": [
+        "855c94f34989"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "project-json-genome-label-extraction"
+    },
+    {
+      "address_sha256_prefix": [
+        "b4c9a289323b"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "pubchem-mass-based-candidate-querying"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "published-statistics-reproduction-verification"
+    },
+    {
+      "address_sha256_prefix": [
+        "90eee58bddf4"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "r-web-tool-interactive-execution"
+    },
+    {
+      "address_sha256_prefix": [
+        "a7ce43b1fb8c"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "restful-api-bmrb-entry-retrieval"
+    },
+    {
+      "address_sha256_prefix": [
+        "9eea8120750b"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "smiles-substrate-batch-prediction"
+    },
+    {
+      "address_sha256_prefix": [
+        "473a41462ebe"
+      ],
+      "fields": [
+        "body"
+      ],
+      "output_id": "spectral-peak-list-parsing"
+    }
+  ],
+  "placeholder": "<maintainer e-mail, see the repository README>"
+}

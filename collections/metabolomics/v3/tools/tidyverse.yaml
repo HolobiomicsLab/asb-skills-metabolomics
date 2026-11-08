@@ -1,0 +1,54 @@
+name: tidyverse
+slug: tidyverse
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(homologueDiscoverer)
+- filter(., mz > 500, rt > 500)
+- "peak_table <- mtbls1358 %>%\n  filter(., mz > 500, rt > 500)"
+- library(tidyverse)
+- 'R packages: tidyverse, CAMERA, stringr, reshape2'
+- 'library(mpactr)
+
+  library(tidyverse)
+
+  library(data.table)'
+- POMAShiny's back-end structure uses the POMA [13], MSnbase [14] and tidyverse family [15] R packages
+- '''shinyWidgets'', ''tidyverse'', ''knitr'''
+- '"shinydashboard", "ggplot2", "shiny", "shinythemes", "tidyverse",'
+- tidyverse (Imports)
+derived_from:
+- doi: 10.1016/j.aca.2025.344698
+  title: 'DIATAGeR: Triacylglycerol annotation of data-independent acquisition based lipidomics'
+- doi: 10.1093/bioinformatics/btac647
+  title: "Homologue series detection and management in LC-MS data with\n                    <i>homologueDiscoverer</i>"
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+- doi: 10.1038/s41525-020-0132-5
+  title: 'metPropagate: network-guided propagation of metabolomic information for prioritization of metabolic disease genes'
+- doi: 10.1128/mra.00997-24
+  title: 'mpactR: an R adaptation of the metabolomics peak analysis computational tool (MPACT) for use in reproducible data analysis pipelines'
+- doi: 10.1016/j.isci.2023.106881
+  title: Integrative processing of untargeted metabolomic and lipidomic data using MultiABLER
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+- doi: 10.3390/biom15111562
+  title: 'SMAnalyst: A Web Server for Spatial Metabolomic Data Analysis and Annotation'
+- doi: 10.1038/s42003-024-05844-z
+  title: 'SIMPEL: using stable isotopes to elucidate dynamics of context specific metabolism'
+source_repos:
+- https://github.com/Velenosi-Lab/DIATAGeR
+- https://github.com/kevinmildau/homologueDiscoverer
+- https://github.com/scibiome/meteor
+- https://github.com/emmagraham/metPropagate
+- https://github.com/mums2/mpactr
+- https://github.com/holab-hku/MultiABLER
+- https://github.com/nutrimetabolomics/POMAShiny
+- https://github.com/mzlab-research/SManalyst
+- https://github.com/SIMPELmetabolism/SIMPEL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Velenosi-Lab/DIATAGeR

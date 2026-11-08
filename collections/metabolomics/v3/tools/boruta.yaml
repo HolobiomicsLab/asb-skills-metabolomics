@@ -1,0 +1,17 @@
+name: Boruta
+slug: boruta
+version_used: null
+edam_topics: []
+evidence_spans:
+- R packages including ropls, Metabo AnalystR, Hmisc, pROC, random Forest, and Boruta were utilized for analysis.
+derived_from:
+- doi: 10.3389/fchem.2021.659656
+  title: 'iMAP: A Web Server for Metabolomics Data Integrative Analysis'
+source_repos:
+- https://github.com/IP4M/R-scripts-for-iMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IP4M/R-scripts-for-iMAP

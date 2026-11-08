@@ -1,0 +1,20 @@
+name: MultiOmicsIntegrator (MOI)
+slug: multiomicsintegrator-moi
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present our pipeline, called MultiOmicsIntegrator (MOI), an inclusive pipeline for comprehensive omics analyses.
+- '# ASAGlab/moi: Documentation'
+derived_from:
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+source_repos:
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+- https://github.com/ASAGlab/moi
+- https://github.com/nf-core/modules
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses

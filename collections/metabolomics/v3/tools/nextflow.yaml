@@ -1,0 +1,42 @@
+name: Nextflow
+slug: nextflow
+version_used: 23.04.2.5870
+edam_topics: []
+evidence_spans:
+- The pipeline is built using [Nextflow](https://www.nextflow.io) version 23.04.2.5870 (IMPORTANT), a workflow tool to run tasks across multiple compute infrastructures
+- The pipeline is built using [Nextflow](https://www.nextflow.io) version 23.04.2.5870
+- MOI is a nextflow pipeline (Tommaso et al. 2017) with its dependencies stored with Docker (Merkel 2014)
+- 'To learn NextFlow checkout this documentation:'
+- You will need to have conda, mamba, and nextflow installed to run things locally.
+- The analysis workflow was implemented as a modular pipeline in the workflow manager Nextflow, including containers with software dependencies.
+- nextflow run action.nf
+- conda install -c bioconda nextflow:22.04.0
+- nextflow run action.nf --help
+- We chose Nextflow as our workflow management system, since it allows flexible development, can be run on different platforms, supports containers
+derived_from:
+- doi: 10.1101/2025.11.12.687968
+  title: 'MetaXtract: Extracting Metadata from Raw Files for FAIR Data Practices and Workflow Optimisation'
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+- doi: 10.1021/jasms.4c00364
+  title: 'Nextflow4MS-DIAL: A Reproducible Nextflow-Based Workflow for Liquid Chromatography–Mass Spectrometry Metabolomics Data Processing'
+- doi: 10.1038/s41586-023-06906-8
+  title: Reverse metabolomics for the discovery of chemical structures from humans
+- doi: 10.1093/gigascience/giad115
+  title: A multi-omics data analysis workflow packaged as a FAIR Digital Object
+source_repos:
+- https://github.com/Rappsilber-Laboratory/MetaXtract
+- https://github.com/nf-core/configs
+- https://github.com/nf-core/modules
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+- https://github.com/Nextflow4Metabolomics/nextflow4ms-dial
+- https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation
+- https://github.com/Xomics/ACTIONdemonstrator_preprocessing
+- https://github.com/Xomics/ACTIONdemonstrator_workflow
+- https://github.com/Xomics/ACTIONdemonstrator_workflow.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Rappsilber-Laboratory/MetaXtract

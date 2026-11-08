@@ -1,0 +1,24 @@
+name: Singularity
+slug: singularity
+version_used: null
+edam_topics: []
+evidence_spans:
+- Build singularity image on job node.
+- It uses Docker/Singularity containers making installation trivial and results highly reproducible.
+derived_from:
+- doi: 10.1038/s41592-022-01486-3
+  title: 'MSNovelist: de novo structure generation from mass spectra'
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+- doi: 10.1021/jasms.4c00364
+  title: 'Nextflow4MS-DIAL: A Reproducible Nextflow-Based Workflow for Liquid Chromatography–Mass Spectrometry Metabolomics Data Processing'
+source_repos:
+- https://github.com/meowcat/MSNovelist
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+- https://github.com/Nextflow4Metabolomics/nextflow4ms-dial
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/meowcat/MSNovelist

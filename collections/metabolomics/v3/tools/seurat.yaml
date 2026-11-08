@@ -1,0 +1,30 @@
+name: Seurat
+slug: seurat
+version_used: 5.1.0
+edam_topics: []
+evidence_spans:
+- four clustering methods based on the Seurat package (5.1.0)
+- implemented in Seurat’s [39,40] FindMarkers function.
+- integrating four clustering methods based on the Seurat package (5.1.0) [39,40]
+- the function `seurat_WilcoxDETest` (a wrapper for WilcoxDETest from Seurat) will be used to calculate p-values
+derived_from:
+- doi: 10.3390/biom15111562
+  title: 'SMAnalyst: A Web Server for Spatial Metabolomic Data Analysis and Annotation'
+- doi: 10.1101/2024.10.31.621429
+  title: 'SpaMTP: Integrative Statistical Analysis and Visualisation of Spatial Metabolomics and Transcriptomics data'
+- doi: 10.1093/bioadv/vbaf100
+  title: Enrichment analysis for spatial and single-cell metabolomics accounting for molecular ambiguity
+- doi: 10.1038/s41467-025-63915-z
+  title: Integrating cross-sample and cross-modal data for spatial transcriptomics and metabolomics with SpatialMETA
+source_repos:
+- https://github.com/mzlab-research/SManalyst
+- https://github.com/GenomicsMachineLearning/SpaMTP
+- https://github.com/satijalab/seurat
+- https://github.com/alexandrovteam/S2IsoMEr
+- https://github.com/WanluLiuLab/SpatialMETA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mzlab-research/SManalyst

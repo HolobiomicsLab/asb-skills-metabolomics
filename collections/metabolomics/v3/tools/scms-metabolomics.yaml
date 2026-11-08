@@ -1,0 +1,16 @@
+name: SCMS metabolomics
+slug: scms-metabolomics
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.4c02038
+  title: 'MetaPhenotype: A Transferable Meta-Learning Model for Single-Cell Mass Spectrometry-Based Cell Phenotype Prediction Using Limited Number of Cells'
+source_repos:
+- https://github.com/songyuan93/MetaPhenotype
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/songyuan93/MetaPhenotype

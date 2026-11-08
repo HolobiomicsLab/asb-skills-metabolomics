@@ -1,0 +1,16 @@
+name: Newton-Raphson optimization for truncated normal MLE
+slug: newton-raphson-optimization-for-truncated-normal-mle
+version_used: null
+edam_topics: []
+evidence_spans:
+- We use the Newton–Raphson (NR) optimization procedure to find the MLEs for μ and σ [20, 21]
+derived_from:
+- doi: 10.1186/s12859-017-1547-6
+  title: Distribution based nearest neighbor imputation for truncated high dimensional data with applications to pre-clinical and clinical metabolomics studies
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

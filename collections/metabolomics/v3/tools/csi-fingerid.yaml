@@ -1,0 +1,54 @@
+name: CSI:FingerID
+slug: csi-fingerid
+version_used: null
+edam_topics: []
+evidence_spans:
+- SIRIUS integrates a collection of our tools, including CSI:FingerID (with [COSMIC]
+- CSI:FingerID with default parameters was used to rank structure candidates.
+- SIRIUS integrates a collection of our tools, including CSI:FingerID
+- Fragmentation trees and spectra can be directly uploaded from SIRIUS to the CSI:FingerID, CANOPUS and MSNovelist web services.
+- show retrievals rates comparable to or exceeding the ones obtainable by the current state-of-the-art solutions in the field
+- Exported features’ MS2 spectra were submitted to SIRIUS/CSI:FingerID and CANOPUS annotation.
+- We first use CSI:FingerID8,9 to tackle the MS2-to-fingerprint problem.
+- the candidate structures are re-ranked by calculating the match to the query fingerprint xF using the modified Platt score
+- the candidate structures are re-ranked by calculating the match to the query fingerprint xF using the modified Platt score8.
+- SIRIUS integrates a collection of our tools, including CSI:FingerID
+- SIRIUS 4 integrates CSI:FingerID for searching in molecular structure databases.
+- structural and formula predictions via SIRIUS [18] and CSI:FingerID [19]
+- (SIRIUS, CSI:FingerID and CANOPUS)
+- '**Structural, formula and compound class predictions** (SIRIUS, CSI:FingerID and CANOPUS)'
+derived_from:
+- doi: 10.1038/s41587-021-01045-9
+  title: High-confidence structural annotation of metabolites absent from spectral libraries
+- doi: 10.1021/acs.analchem.8b04698
+  title: Structure Annotation of All Mass Spectra in Untargeted Metabolomics
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.1038/s41592-022-01486-3
+  title: 'MSNovelist: de novo structure generation from mass spectra'
+- doi: 10.1021/acs.jcim.3c01082
+  title: 'MIST-CF: Chemical Formula Inference from Tandem Mass Spectra'
+- doi: 10.1038/s41589-020-00677-3
+  title: Chemically informed analyses of metabolomics mass spectrometry data with Qemistree
+- doi: 10.1038/s41592-019-0344-8
+  title: 'SIRIUS 4: a rapid tool for turning tandem mass spectra into metabolite structure information'
+- doi: 10.1186/s13321-023-00724-w
+  title: 'UmetaFlow: an untargeted metabolomics workflow for high-throughput data processing and analysis'
+source_repos:
+- https://github.com/sirius-ms/sirius
+- https://github.com/Mrqeoqqt/chemdistiller
+- https://github.com/enpkg/enpkg_workflow
+- https://github.com/enpkg/enpkg_full
+- https://github.com/meowcat/MSNovelist
+- https://github.com/boecker-lab/sirius
+- https://github.com/samgoldman97/mist-cf
+- https://github.com/biocore/q2-qemistree
+- https://github.com/biosustain/snakemake_UmetaFlow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sirius-ms/sirius

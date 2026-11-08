@@ -1,0 +1,16 @@
+name: antiSMASH v4
+slug: antismash-v4
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41589-019-0400-9
+  title: A computational framework to explore large-scale biosynthetic diversity
+source_repos:
+- https://github.com/medema-group/BiG-SCAPE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/medema-group/BiG-SCAPE

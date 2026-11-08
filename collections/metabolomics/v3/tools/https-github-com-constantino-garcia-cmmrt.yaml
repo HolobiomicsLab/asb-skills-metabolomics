@@ -1,0 +1,17 @@
+name: https://github.com/constantino-garcia/cmmrt
+slug: https-github-com-constantino-garcia-cmmrt
+version_used: null
+edam_topics: []
+evidence_spans:
+- Python code is available on GitHub at https://github.com/constantino-garcia/cmmrt
+derived_from:
+- doi: 10.1186/s13321-022-00613-8
+  title: Probabilistic metabolite annotation using retention time prediction and meta-learned projections
+source_repos:
+- https://github.com/constantino-garcia/cmmrt
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/constantino-garcia/cmmrt

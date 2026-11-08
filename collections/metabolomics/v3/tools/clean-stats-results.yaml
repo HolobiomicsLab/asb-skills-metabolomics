@@ -1,0 +1,17 @@
+name: clean_stats_results
+slug: clean-stats-results
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`clean_stats_results(df, remove, rename, summary, p_limit, fdr)`'
+derived_from:
+- doi: 10.3390/metabo10040135
+  title: '“Notame”: Workflow for Non-Targeted LC–MS Metabolic Profiling'
+source_repos:
+- https://github.com/antonvsdata/notame
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/antonvsdata/notame

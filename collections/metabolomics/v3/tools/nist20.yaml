@@ -1,0 +1,21 @@
+name: NIST20
+slug: nist20
+version_used: null
+edam_topics: []
+evidence_spans:
+- the standard training spectral libraries MoNA36 and NIST20 (ref. 37) cover only a limited subset of known natural molecules
+- the standard training spectral libraries MoNA36 and NIST20 (ref. 37)
+derived_from:
+- doi: 10.1021/acs.jcim.4c00760
+  title: Predicting Collision-Induced-Dissociation Tandem Mass Spectra (CID-MS/MS) Using Ab Initio Molecular Dynamics
+- doi: 10.1038/s41587-025-02663-3
+  title: Self-supervised learning of molecular representations from millions of tandem mass spectra using DreaMS
+source_repos:
+- https://github.com/jesilee/CIDMD_setup
+- https://github.com/pluskal-lab/DreaMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jesilee/CIDMD_setup

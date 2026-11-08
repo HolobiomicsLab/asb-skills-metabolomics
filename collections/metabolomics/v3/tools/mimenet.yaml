@@ -1,0 +1,20 @@
+name: MiMeNet
+slug: mimenet
+version_used: null
+edam_topics: []
+evidence_spans:
+- python MiMeNet_train.py -micro data/IBD/microbiome_PRISM.csv -metab data/IBD/metabolome_PRISM.csv
+- MiMeNet generates a background of SCC values using a similar approach as in _Cross-Validated Evaluation_.
+- Then models are evaluated in a cross-validated fashion resulting in Spearman correlation coefficients (SCC) for each metabolite
+- Here, we present MiMeNet, a neural network framework for modeling microbe-metabolite relationships.
+derived_from:
+- doi: 10.1371/journal.pcbi.1009021
+  title: 'MiMeNet: Exploring microbiome-metabolome relationships using neural networks'
+source_repos:
+- https://github.com/YDaiLab/MiMeNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YDaiLab/MiMeNet

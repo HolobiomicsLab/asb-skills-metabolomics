@@ -1,0 +1,37 @@
+name: PyTorch Geometric
+slug: pytorch-geometric
+version_used: 2.1.0
+edam_topics: []
+evidence_spans:
+- PyTorch Geometric (version 2.1.0)
+- GNN-SOM was applied using Python 3.10, RDKit (version 2022.03.5), PyTorch (version 1.12.1), and PyTorch Geometric (version 2.1.0).
+- PyTorch (version 1.12.1), and PyTorch Geometric (version 2.1.0).
+- pytorch-geometric=1.7.2
+- '- pytorch-geometric'
+- '- rdkit
+
+  - pytorch-geometric'
+- 9 stacked ResGAT blocks (three-head GAT with residual connections and layer normalization)
+derived_from:
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.1093/bioinformatics/btae490
+  title: An Ensemble Spectral Prediction (ESP) model for metabolite annotation
+- doi: 10.48550/arxiv.2404.02360
+  title: ''
+- doi: 10.1101/2025.11.12.688047
+  title: 'Learning from All Views: A Multiview Contrastive Framework for Metabolite Annotation'
+- doi: 10.1093/bioinformatics/btae084
+  title: 'RT-Transformer: retention time prediction for metabolite annotation to assist in metabolite identification'
+source_repos:
+- https://github.com/HassounLab/BAM
+- https://github.com/HassounLab/ESP
+- https://github.com/FraGNNet/fragnnet
+- https://github.com/HassounLab/MVP
+- https://github.com/01dadada/RT-Transformer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/BAM

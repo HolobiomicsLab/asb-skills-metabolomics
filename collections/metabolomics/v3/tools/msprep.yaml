@@ -1,0 +1,18 @@
+name: MSPrep
+slug: msprep
+version_used: null
+edam_topics: []
+evidence_spans:
+- install_github("KechrisLab/MSPrep",ref="feature-generalize")
+derived_from:
+- doi: 10.1186/s12859-021-04336-9
+  title: Reproducibility of mass spectrometry based metabolomics data
+source_repos:
+- https://github.com/KechrisLab/MSPrep
+- https://github.com/Ghoshlab/marr_paper_evaluations
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KechrisLab/MSPrep

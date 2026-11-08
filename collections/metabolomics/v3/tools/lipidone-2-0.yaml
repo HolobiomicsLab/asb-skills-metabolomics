@@ -1,0 +1,18 @@
+name: LipidOne 2.0
+slug: lipidone-2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- LipidOne 2.0 (https://lipidone.eu) is a new web bioinformatic tool for the analysis of lipidomic data.
+- we are now introducing Lipid One 2.0, a comprehensive, customized web-based platform for lipid-oriented data analysis
+derived_from:
+- doi: 10.1002/cpz1.70009
+  title: 'LipidOne 2.0: A Web Tool for Discovering Biological Meanings Hidden in Lipidomic Data'
+source_repos:
+- https://github.com/matteogiulietti/LipidOne
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/matteogiulietti/LipidOne

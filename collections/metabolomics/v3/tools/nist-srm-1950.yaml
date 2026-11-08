@@ -1,0 +1,20 @@
+name: NIST SRM 1950
+slug: nist-srm-1950
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used single-phase extracts of a plasma reference material, NIST SRM 1950
+derived_from:
+- doi: 10.1021/acs.analchem.3c04290
+  title: 'MOCCal: A Multiomic CCS Calibrator for Traveling Wave Ion Mobility Mass Spectrometry'
+- doi: 10.1021/acs.analchem.4c03513
+  title: A Software Tool for Rapid and Automated Preprocessing of Large-Scale Serum Metabolomic Data by Multisegment Injection-Capillary Electrophoresis-Mass Spectrometry
+source_repos:
+- https://github.com/HinesLab/MOCCal
+- https://github.com/PBM-Group/PeakMeister
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HinesLab/MOCCal

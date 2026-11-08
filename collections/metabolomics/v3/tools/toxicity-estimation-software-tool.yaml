@@ -1,0 +1,17 @@
+name: Toxicity Estimation Software Tool
+slug: toxicity-estimation-software-tool
+version_used: null
+edam_topics: []
+evidence_spans:
+- toxicity data predicted by the Toxicity Estimation Software Tool
+derived_from:
+- doi: 10.1289/ehp7722
+  title: Risk-Based Chemical Ranking and Generating a Prioritized Human Exposome Database
+source_repos:
+- https://github.com/FangLabNTU/HExpMetDB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FangLabNTU/HExpMetDB

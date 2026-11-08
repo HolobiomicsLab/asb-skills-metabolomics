@@ -1,0 +1,45 @@
+name: MoNA
+slug: mona
+version_used: null
+edam_topics: []
+evidence_spans:
+- the standard training spectral libraries MoNA36 and NIST20 (ref. 37) cover only a limited subset of known natural molecules
+- the standard training spectral libraries MoNA36 and NIST20 (ref. 37)
+- matching experimental spectra to reference libraries such as NIST,1 GNPS,2 or MoNA.3
+- and MS2 spectral databases such as MoNA [49] or authentic standards libraries.
+- compiling open-source spectrometry databases GNPS, HMDB (5.0), and MoNA
+- this metabolite is not included in common metabolite databases such as KEGG, HMDB (v4.0), MoNA, and GNPS
+derived_from:
+- doi: 10.1038/s41587-025-02663-3
+  title: Self-supervised learning of molecular representations from millions of tandem mass spectra using DreaMS
+- doi: 10.1007/s11306-020-01726-7
+  title: 'MetFID: artificial neural network-based compound fingerprint prediction for metabolite annotation'
+- doi: 10.1101/2025.11.12.688047
+  title: 'Learning from All Views: A Multiview Contrastive Framework for Metabolite Annotation'
+- doi: 10.1371/journal.pcbi.1011912
+  title: Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline
+- doi: 10.1038/nbt.3689
+  title: SPLASH, a hashed identifier for mass spectra
+- doi: 10.1101/2024.10.14.618269
+  title: 'Structural annotation of full-scan MS data: A unified solution for LC-MS and MS imaging analyses'
+- doi: 10.1038/s42004-024-01189-0
+  title: Structural annotation of unknown molecules in a miniaturized mass spectrometer based on a transformer enabled fragment tree method
+- doi: 10.1038/s41467-022-34537-6
+  title: Metabolite annotation from knowns to unknowns through knowledge-guided multi-layer metabolic networking
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+source_repos:
+- https://github.com/pluskal-lab/DreaMS
+- https://github.com/ressomlab/MetFID
+- https://github.com/HassounLab/MVP
+- https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics
+- https://github.com/berlinguyinca/spectra-hash
+- https://github.com/thumingo/TeFT
+- https://github.com/ZhuMetLab/MetDNA2Vis
+- https://github.com/IxI-97/BiomiX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pluskal-lab/DreaMS

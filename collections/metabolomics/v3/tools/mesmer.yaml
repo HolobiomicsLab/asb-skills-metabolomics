@@ -1,0 +1,18 @@
+name: Mesmer
+slug: mesmer
+version_used: null
+edam_topics: []
+evidence_spans:
+- Segmentation of single-cell with Mesmer pipeline
+derived_from:
+- doi: 10.1038/s41467-023-43917-5
+  title: Single-cell spatial metabolomics with cell-type specific protein profiling for tissue systems biology
+source_repos:
+- https://github.com/coskunlab/scSpaMet
+- https://github.com/coskunlab/ScSpaMet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/coskunlab/scSpaMet

@@ -1,0 +1,22 @@
+name: FIORA
+slug: fiora
+version_used: null
+edam_topics: []
+evidence_spans:
+- fiora-predict [-h] -i INPUT -o OUTPUT [--model MODEL] [--rt | --no-rt] [--ccs | --no-ccs] [--annotation | --no-annotation]
+- we present FIORA, an open-source graph neural network designed to simulate tandem mass spectra
+- Installation guide for the FIORA Python package (under 10 minutes)
+- fiora-predict [-h] -i INPUT -o OUTPUT [--model MODEL]
+- FIORA utilizes graph neural networks to learn local molecular neighborhoods around bonds, combined with edge prediction to simulate bond dissociation.
+- Installation guide for the FIORA Python package
+derived_from:
+- doi: 10.1038/s41467-025-57422-4
+  title: 'FIORA: Local neighborhood-based prediction of compound mass spectra from single fragmentation events'
+source_repos:
+- https://github.com/BAMeScience/fiora
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BAMeScience/fiora

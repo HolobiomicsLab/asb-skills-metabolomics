@@ -1,0 +1,16 @@
+name: BinBase
+slug: binbase
+version_used: null
+edam_topics: []
+evidence_spans:
+- At UC Davis, we operate a unified, automated workflow to process metabolomics data since 2005, called BinBase.
+derived_from:
+- doi: 10.1186/s13321-023-00734-8
+  title: 'The BinDiscover database: a biology-focused meta-analysis tool for 156,000 GC–TOF MS metabolome samples'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

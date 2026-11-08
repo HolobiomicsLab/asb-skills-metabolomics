@@ -1,0 +1,17 @@
+name: pre-commit
+slug: pre-commit
+version_used: null
+edam_topics: []
+evidence_spans:
+- poetry run pre-commit install
+derived_from:
+- doi: 10.1186/s13321-024-00899-w
+  title: Evaluating the generalizability of graph neural networks for predicting collision cross section
+source_repos:
+- https://github.com/enveda/ccs-prediction
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enveda/ccs-prediction

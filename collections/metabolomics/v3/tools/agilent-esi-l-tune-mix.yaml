@@ -1,0 +1,17 @@
+name: Agilent ESI-L Tune Mix
+slug: agilent-esi-l-tune-mix
+version_used: null
+edam_topics: []
+evidence_spans:
+- or the Agilent ESI-L Tune Mix
+derived_from:
+- doi: 10.1021/acs.analchem.3c04290
+  title: 'MOCCal: A Multiomic CCS Calibrator for Traveling Wave Ion Mobility Mass Spectrometry'
+source_repos:
+- https://github.com/HinesLab/MOCCal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HinesLab/MOCCal

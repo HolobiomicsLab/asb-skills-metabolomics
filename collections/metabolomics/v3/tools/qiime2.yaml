@@ -1,0 +1,16 @@
+name: Qiime2
+slug: qiime2
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41596-020-0317-5
+  title: Reproducible molecular networking of untargeted mass spectrometry data using GNPS
+source_repos:
+- https://github.com/CCMS-UCSD/GNPS_Workflows
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CCMS-UCSD/GNPS_Workflows

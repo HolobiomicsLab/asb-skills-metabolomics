@@ -1,0 +1,18 @@
+name: S2IsoMEr
+slug: s2isomer
+version_used: null
+edam_topics: []
+evidence_spans:
+- 1.  `Run_bootstrap_ORA()`
+- require(S2IsoMEr)
+derived_from:
+- doi: 10.1093/bioadv/vbaf100
+  title: Enrichment analysis for spatial and single-cell metabolomics accounting for molecular ambiguity
+source_repos:
+- https://github.com/alexandrovteam/S2IsoMEr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/alexandrovteam/S2IsoMEr

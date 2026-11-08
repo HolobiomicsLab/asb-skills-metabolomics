@@ -1,0 +1,21 @@
+name: Salmon
+slug: salmon
+version_used: null
+edam_topics: []
+evidence_spans:
+- It then employs [salmon](../modules/nf-core/salmon) in order to obtain quantification files
+- '| Genes, miRNA, isoforms | Align and Assembly | Salmon, samtools, STAR, Hisat2, StringTie2 |'
+- it will align/assemble the reads into transcripts with tools such as salmon (Patro et al. 2017).
+derived_from:
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+source_repos:
+- https://github.com/COMBINE-lab/salmon
+- https://github.com/nf-core/modules
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/COMBINE-lab/salmon

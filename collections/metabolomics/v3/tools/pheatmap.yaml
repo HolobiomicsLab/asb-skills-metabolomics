@@ -1,0 +1,24 @@
+name: pheatmap
+slug: pheatmap
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'R packages: pheatmap, wesanderson, scales, plotrix, igraph, ape'
+- ggplot2 (Wickham, 2016), pheatmap for drawing heatmap, GOplot for drawing chord plot
+derived_from:
+- doi: 10.1371/journal.pcbi.1009906
+  title: 'COMMIT: Consideration of metabolite leakage and community composition improves microbial community reconstructions'
+- doi: 10.3389/fgene.2022.957317
+  title: 'GraphBio: A shiny web app to easily perform popular visualization analysis for omics data'
+- doi: 10.1016/j.cmpb.2025.108672
+  title: 'MInfer: Bridging MetaboAnalyst and Jacobian analysis for metabolomic networks'
+source_repos:
+- https://github.com/pwendering/COMMIT
+- https://github.com/databio2022/GraphBio
+- https://github.com/cellbiomaths/MInfer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pwendering/COMMIT

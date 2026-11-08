@@ -1,0 +1,17 @@
+name: JupyterLab
+slug: jupyterlab
+version_used: null
+edam_topics: []
+evidence_spans:
+- The software environment utilizes JupyterLab for interactive computing, MassQL for querying mass spectrometry data, and matplotlib for visualizations.
+derived_from:
+- doi: 10.1002/rcm.10132
+  title: 'Open‐Source System Suitability: Mass Spectrometry Query Language Lab (MassQLab)'
+source_repos:
+- https://github.com/JohnsonDylan/MassQLab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JohnsonDylan/MassQLab

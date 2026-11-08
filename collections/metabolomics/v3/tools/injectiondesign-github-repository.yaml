@@ -1,0 +1,17 @@
+name: InjectionDesign GitHub repository
+slug: injectiondesign-github-repository
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Researchers can get the source code of the project from Github: https://github.com/CSi-Studio/InjectionDesign.'
+derived_from:
+- doi: 10.1101/2023.02.26.530140
+  title: 'InjectionDesign: Plate Design with Optimized Stratified Block Randomization for Modern LC/GC-MS-Based Sample Preparation'
+source_repos:
+- https://github.com/CSi-Studio/InjectionDesign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSi-Studio/InjectionDesign

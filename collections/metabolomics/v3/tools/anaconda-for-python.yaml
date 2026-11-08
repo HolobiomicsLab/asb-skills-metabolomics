@@ -1,0 +1,16 @@
+name: Anaconda for python
+slug: anaconda-for-python
+version_used: '3.6'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.0c04071
+  title: Prediction of Liquid Chromatographic Retention Time with Graph Neural Networks to Assist in Small Molecule Identification
+source_repos:
+- https://github.com/Qiong-Yang/GNN-RT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Qiong-Yang/GNN-RT

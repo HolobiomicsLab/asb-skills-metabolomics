@@ -1,0 +1,18 @@
+name: COBRAToolbox
+slug: cobratoolbox
+version_used: null
+edam_topics: []
+evidence_spans:
+- Curation of these mentioned GEMs have been performed by the  COBRAToolbox in MATLAB
+derived_from:
+- doi: 10.1093/bioadv/vbad098
+  title: Prediction of metabolite–protein interactions based on integration of machine learning and constraint-based modeling
+source_repos:
+- https://github.com/fayazsoleymani/SARTRE
+- https://github.com/opencobra/cobratoolbox
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fayazsoleymani/SARTRE

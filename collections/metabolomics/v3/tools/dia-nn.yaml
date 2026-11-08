@@ -1,0 +1,23 @@
+name: DIA-NN
+slug: dia-nn
+version_used: 1.7.15
+edam_topics: []
+evidence_spans:
+- DeepRTAlign also performed better than MBR in DIA-NN on single-cell proteomics DIA data
+derived_from:
+- doi: 10.1038/s41467-024-54871-1
+  title: 'iDIA-QC: AI-empowered data-independent acquisition mass spectrometry-based quality control'
+- doi: 10.1021/acs.jproteome.4c00854
+  title: 'MSConnect: Open-Source, End-to-End Platform for Automated Mass Spectrometry Data Management, Analysis, and Visualization'
+- doi: 10.1038/s41467-023-43909-5
+  title: 'DeepRTAlign: toward accurate retention time alignment for large cohort mass spectrometry data analysis'
+source_repos:
+- https://github.com/guomics-lab/iDIA-QC
+- https://github.com/RTKlab-BYU/MSConnect
+- https://github.com/PHOENIXcenter/deeprtalign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/guomics-lab/iDIA-QC

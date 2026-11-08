@@ -1,0 +1,23 @@
+name: EMPeror
+slug: emperor
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we present EMPeror, an open source and web browser enabled tool with a versatile command line interface
+- EMPeror is a thoroughly tested and open-source software package with an interactive user interface and hardware-accelerated graphics, implemented with HTML5, WebGL, Javascript and Python
+- Here we present EMPeror, an open source and web browser enabled tool with a versatile command line interface that allows researchers to perform rapid exploratory investigations of 3D visualizations
+- EMPeror is a thoroughly tested and open-source software package with an interactive user interface and hardware-accelerated graphics
+derived_from:
+- doi: 10.1186/2047-217x-2-16
+  title: 'EMPeror: a tool for visualizing high-throughput microbial community data'
+- doi: 10.1038/s41592-020-0916-7
+  title: 'ReDU: a framework to find and reanalyze public mass spectrometry data'
+source_repos:
+- https://github.com/biocore/emperor
+- https://github.com/mwang87/ReDU-MS2-Documentation
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biocore/emperor

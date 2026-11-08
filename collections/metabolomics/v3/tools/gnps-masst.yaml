@@ -1,0 +1,18 @@
+name: GNPS_MASST
+slug: gnps-masst
+version_used: null
+edam_topics: []
+evidence_spans:
+- The code for the different standalone web applications, which allow users to search one spectrum at a time, can be found in GNPS_MASST
+derived_from:
+- doi: 10.1038/s41564-023-01575-9
+  title: 'microbeMASST: a taxonomically informed mass spectrometry search tool for microbial metabolomics data'
+source_repos:
+- https://github.com/mwang87/GNPS_MASST
+- https://github.com/robinschmid/microbe_masst
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mwang87/GNPS_MASST

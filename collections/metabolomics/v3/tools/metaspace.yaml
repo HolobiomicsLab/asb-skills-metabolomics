@@ -1,0 +1,51 @@
+name: METASPACE
+slug: metaspace
+version_used: null
+edam_topics: []
+evidence_spans:
+- automatically annotated using METASPACE
+- used to identify isotope ions in MATASPACE30 and the rMSI package31
+- are included into mass spectral annotation platforms like Mascot, METASPACE, and METLIN
+- Documentation lives in the [GitHub Wiki](https://github.com/metaspace2020/metaspace/wiki)
+- We previously developed METASPACE, an engine for metabolite annotation
+- We used public datasets from METASPACE, a community-populated knowledge base of metabolite images
+- '`condition_metadata` contains the [METASPACE](https://metaspace2020.eu/) dataset names for each replicate'
+- we will use the annotation results and corresponding FDR thresholds to select metabolites as input query and corresponding universe for enrichment.
+- the annotation results for each dataset in the [SpaceM](https://metaspace2020.eu/project/Rappez_2021_SpaceM?tab=datasets) project on METASPACE
+derived_from:
+- doi: 10.1038/s42255-024-01118-4
+  title: Spatial single-cell isotope tracing reveals heterogeneity of de novo fatty acid synthesis in cancer
+- doi: 10.1038/s41592-021-01198-0
+  title: SpaceM reveals metabolic states of single cells
+- doi: 10.1021/acs.analchem.3c05002
+  title: 'DeepION: A Deep Learning-Based Low-Dimensional Representation Model of Ion Images for Mass Spectrometry Imaging'
+- doi: 10.1101/2025.09.22.677919
+  title: Computational method for mapping mass signatures along developmental gradients reveals a novel role for a monosaccharide tetrose in maize salt-stress response
+- doi: 10.1021/acs.analchem.0c04720
+  title: Determination of Abundant Metabolite Matrix Adducts Illuminates the Dark Metabolome of MALDI-Mass Spectrometry Imaging Datasets
+- doi: 10.1101/2024.10.31.621429
+  title: 'SpaMTP: Integrative Statistical Analysis and Visualisation of Spatial Metabolomics and Transcriptomics data'
+- doi: 10.1101/2024.10.14.618269
+  title: 'Structural annotation of full-scan MS data: A unified solution for LC-MS and MS imaging analyses'
+- doi: 10.1038/s41467-024-52213-9
+  title: 'METASPACE-ML: Context-specific metabolite annotation for imaging mass spectrometry using machine learning'
+- doi: 10.1186/s12859-020-3425-x
+  title: 'OffsampleAI: artificial intelligence approach to recognize off-sample mass spectrometry images'
+- doi: 10.1093/bioadv/vbaf100
+  title: Enrichment analysis for spatial and single-cell metabolomics accounting for molecular ambiguity
+source_repos:
+- https://github.com/Buglakova/13C-SpaceM
+- https://github.com/alexandrovteam/SpaceM
+- https://github.com/BioNet-XMU/DeepION
+- https://github.com/dickinsonlab/DIMPLE-code
+- https://github.com/kbseah/mass2adduct
+- https://github.com/GenomicsMachineLearning/SpaMTP
+- https://github.com/metaspace2020/metaspace
+- https://github.com/metaspace2020/offsample
+- https://github.com/alexandrovteam/S2IsoMEr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Buglakova/13C-SpaceM

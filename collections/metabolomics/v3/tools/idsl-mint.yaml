@@ -1,0 +1,22 @@
+name: IDSL_MINT
+slug: idsl-mint
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**IDSL_MINT** can extract information from `comment: ` and `comments: ` entries in ***.msp*** files'
+- '**IDSL_MINT** includes a method to translate MS/MS spectra into molecular fingerprint descriptors.'
+- '**IDSL_MINT** has been meticulously engineered to predict molecular fingerprint descriptors and structures from MS/MS spectra'
+- After configuring the model in the designated `yaml` file, run the below bash command to perform calculations.
+- we have developed IDSL_MINT (https://github.com/idslme/IDSL_MINT), a deep learning mass spectrometry framework
+- Our deep learning framework, Integrated Data Science Laboratory for Metabolomics and Exposomics—Mass INTerpreter (IDSL_MINT) can translate MS/MS spectra into molecular fingerprint descriptors.
+derived_from:
+- doi: 10.1186/s13321-024-00804-5
+  title: 'IDSL_MINT: a deep learning framework to predict molecular fingerprints from mass spectra'
+source_repos:
+- https://github.com/idslme/IDSL_MINT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/idslme/IDSL_MINT

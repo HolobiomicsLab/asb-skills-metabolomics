@@ -1,0 +1,22 @@
+name: Adam optimizer
+slug: adam-optimizer
+version_used: '0.0001'
+edam_topics: []
+evidence_spans:
+- Models were trained using the Adam optimizer with an initial learning rate of 1×10−3 and a weight decay (L2 regularization) coefficient of 1×10−5
+derived_from:
+- doi: 10.1371/journal.pone.0321239
+  title: 'MSMCE: A novel representation module for classification of raw mass spectrometry data'
+- doi: 10.48550/arxiv.2410.22030
+  title: ''
+- doi: 10.1021/acscentsci.9b00085
+  title: Rapid Prediction of Electron–Ionization Mass Spectrometry Using Neural Networks
+source_repos:
+- https://github.com/WoodFY/MSMCE
+- https://github.com/TamirBar-Tov/NetAurHPD-Network-Auralization-Hyperlink-Prediction-Method
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WoodFY/MSMCE

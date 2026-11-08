@@ -1,0 +1,17 @@
+name: JFreeChart
+slug: jfreechart
+version_used: null
+edam_topics: []
+evidence_spans:
+- JFreeChart (http://www.jfree.org/jfreechart/) for the TIC, spectra, 2D and other visualizers
+derived_from:
+- doi: 10.1186/1471-2105-11-395
+  title: 'MZmine 2: Modular framework for processing, visualizing, and analyzing mass spectrometry-based molecular profile data'
+source_repos:
+- https://github.com/mzmine/mzmine2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mzmine/mzmine2

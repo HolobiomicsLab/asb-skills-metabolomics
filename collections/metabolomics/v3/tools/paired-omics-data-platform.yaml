@@ -1,0 +1,18 @@
+name: Paired Omics Data Platform
+slug: paired-omics-data-platform
+version_used: null
+edam_topics: []
+evidence_spans:
+- The Paired Omics Data Platform is a community initiative to systematically document links between metabolome and (meta)genome data
+- users can search for projects under the “List” tab, using keywords to find studies of interest
+derived_from:
+- doi: 10.1038/s41589-020-00724-z
+  title: A community resource for paired genomic and metabolomic data mining
+source_repos:
+- https://github.com/iomega/paired-data-form
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iomega/paired-data-form

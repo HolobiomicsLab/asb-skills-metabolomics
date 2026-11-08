@@ -1,0 +1,106 @@
+name: MSConvert
+slug: msconvert
+version_used: 3.0.20196
+edam_topics: []
+evidence_spans:
+- Then we convert the raw data into mzML, mgf, and mz5 file formats by MSConvert
+- The vendor file reader API is from MSConvert [9].
+- The MSConvert version is 3.0.20196-20896b6b1.
+- converted to MGF files using msconvert [13]
+- Raw files were downloaded from PRIDE (project PXD001468) and converted to MGF files using msconvert.
+- Msconvert in ProteoWizard (https://proteowizard.sourceforge.io/tools.shtml) can handle the conversion of most vendor data formats.
+- Tools like ThermoRawFileParser19 and msConvert20 are commonly used both for data format conversion and for centroiding.
+- using the MSConvert software (v3.0.10385), part of the ProteoWizard
+- Data was exported as .mzML using MSConvert [20]
+- The preprocessing stage involves the use of MSconvert28 to convert raw data to .mzML files
+- Peak picking of MS/MS data and conversion to .ms2 file format should be done using MSConvert
+- converted from. RAW (Thermo) standard data format to. mzXML format using the MSConvert software
+- MassConverter depends on the docker version of msconvert31, making it possible to use it on all computational platforms.
+- _No usage/docs found._
+- Raw data files (.raw) were converted to mzML format using MSConvert (https://proteowizard.sourceforge.io/) with default settings.
+- Raw data files (.raw) were converted to mzML format using MSConvert
+- The proteowizard (Chambers et al. 2012) project tool msconvert converts from most proprietary formats to mzML
+- converted vendor-independently from data-dependent acquisition (ddMS2) files into the mzML data format (.mzML) by using the MSConvert software from ProteoWizard
+derived_from:
+- doi: 10.1038/nprot.2017.122
+  title: 3D molecular cartography using LC–MS facilitated by Optimus and 'ili software
+- doi: 10.1186/s12859-021-04490-0
+  title: 'Aird: a computation-oriented mass spectrometry data format enables a higher compression ratio and less decoding time'
+- doi: 10.1021/acs.jproteome.8b00359
+  title: Fast Open Modification Spectral Library Searching through Approximate Nearest Neighbor Indexing
+- doi: 10.1038/s41467-023-39889-1
+  title: Trackable and scalable LC-MS metabolomics data processing using asari
+- doi: 10.1021/acs.analchem.8b04698
+  title: Structure Annotation of All Mass Spectra in Untargeted Metabolomics
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.1038/s41467-024-54871-1
+  title: 'iDIA-QC: AI-empowered data-independent acquisition mass spectrometry-based quality control'
+- doi: 10.1101/2024.10.07.617094
+  title: LipiDetective a deep learning model for the identification of molecular lipid species in tandem mass spectra
+- doi: 10.1038/s41467-025-59683-5
+  title: 'LipidIN: a comprehensive repository for flash platform-independent annotation and reverse lipidomics'
+- doi: 10.1186/s12859-017-1744-3
+  title: 'LipidMatch: an automated workflow for rule-based lipid identification using untargeted high-resolution tandem mass spectrometry data'
+- doi: 10.3389/fbinf.2022.842964
+  title: 'MEMO: Mass Spectrometry-Based Sample Vectorization to Explore Chemodiverse Datasets'
+- doi: 10.1021/acs.analchem.4c02462
+  title: 'MRMQuant: Automated MRM Data Quantitation for Large-Scale Targeted Metabolomics Analysis'
+- doi: 10.1021/acs.jproteome.4c00881
+  title: 'MS-RT: A Method for Evaluating MS/MS Clustering Performance for Metabolomics Data'
+- doi: 10.1021/acs.jproteome.4c00854
+  title: 'MSConnect: Open-Source, End-to-End Platform for Automated Mass Spectrometry Data Management, Analysis, and Visualization'
+- doi: 10.1016/j.enceco.2025.07.022
+  title: 'MSThunder: A deep learning-based nontargeted analytical framework for the accurate and rapid identification of unknown organic pollutants in water'
+- doi: 10.1016/j.isci.2023.106881
+  title: Integrative processing of untargeted metabolomic and lipidomic data using MultiABLER
+- doi: 10.1021/acs.analchem.4c00786
+  title: 'Rapid QC-MS: Interactive Dashboard for Synchronous Mass Spectrometry Data Acquisition Quality Control'
+- doi: 10.1101/2024.08.07.607073
+  title: Optimizing the detection of biological signals through a semi-automated feature selection tool
+- doi: 10.1021/acs.analchem.0c03421
+  title: SmartPeak Automates Targeted and Quantitative Metabolomics Data Processing
+- doi: 10.1038/s41467-022-32155-w
+  title: TidyMass an object-oriented reproducible analysis framework for LC–MS data
+- doi: 10.1186/s12859-024-05685-x
+  title: 'MRMPro: a web-based tool to improve the speed of manual calibration for multiple reaction monitoring data analysis by mass spectrometry'
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+- doi: 10.1002/rcm.10132
+  title: 'Open‐Source System Suitability: Mass Spectrometry Query Language Lab (MassQLab)'
+- doi: 10.1007/s11306-017-1242-7
+  title: Navigating freely-available software tools for metabolomics analysis
+- doi: 10.1007/s00216-023-05070-2
+  title: PFΔScreen — an open-source tool for automated PFAS feature prioritization in non-target HRMS data
+source_repos:
+- https://github.com/MolecularCartography/Optimus
+- https://github.com/CSi-Studio/AirdPro
+- https://github.com/bittremieux-lab/ANN-SoLo
+- https://github.com/shuzhao-li-lab/asari
+- https://github.com/sirius-ms/sirius
+- https://github.com/enpkg/enpkg_full
+- https://github.com/guomics-lab/iDIA-QC
+- https://github.com/LipiTUM/lipidetective
+- https://github.com/LinShuhaiLAB/LipidIN
+- https://github.com/GarrettLab-UF/LipidMatch
+- https://github.com/mandelbrot-project/memo
+- https://github.com/kslynn128171/MRMQuant
+- https://github.com/XianghuWang-287/Metabolomics_Clustering_Benchmark
+- https://github.com/RTKlab-BYU/MSConnect
+- https://github.com/LQZ0123/MSThunder
+- https://github.com/holab-hku/MultiABLER
+- https://github.com/czbiohub-sf/Rapid-QC-MS
+- https://github.com/computational-chemical-biology/regression_filter
+- https://github.com/AutoFlowResearch/SmartPeak
+- https://github.com/tidymass/tidymass
+- https://github.com/CSi-Studio/MRMPro-Doc
+- https://github.com/sangeeta97/ccs_find
+- https://github.com/JohnsonDylan/MassQLab
+- https://github.com/RASpicer/MetabolomicsTools
+- https://github.com/JonZwe/PFAScreen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MolecularCartography/Optimus

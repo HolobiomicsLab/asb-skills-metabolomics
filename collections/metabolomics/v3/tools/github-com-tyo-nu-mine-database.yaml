@@ -1,0 +1,21 @@
+name: github.com/tyo-nu/MINE-Database
+slug: github-com-tyo-nu-mine-database
+version_used: null
+edam_topics: []
+evidence_spans:
+- or on GitHub ( https://github.com/tyo-nu/MINE-Database )
+- the source code is available at https://github.com/tyo-nu/MINE-Database
+- git clone https://github.com/tyo-nu/MINE-Database
+- '# github.com__tyo-nu__pickaxe_paper'
+- This software is open-source and can be found at https://github.com/tyo-nu/MINE-Database
+derived_from:
+- doi: 10.1186/s12859-023-05149-8
+  title: 'Pickaxe: a Python library for the prediction of novel metabolic reactions'
+source_repos:
+- https://github.com/tyo-nu/pickaxe_paper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tyo-nu/pickaxe_paper

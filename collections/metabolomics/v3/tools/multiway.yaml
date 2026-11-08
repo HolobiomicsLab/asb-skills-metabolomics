@@ -1,0 +1,16 @@
+name: multiway
+slug: multiway
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bib/bbaf080
+  title: 'GcDUO: an open-source software for GC × GC–MS data analysis'
+source_repos:
+- https://github.com/mariallr/GcDuo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mariallr/GcDuo

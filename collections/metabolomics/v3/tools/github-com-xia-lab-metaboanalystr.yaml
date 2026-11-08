@@ -1,0 +1,21 @@
+name: github.com/xia-lab/MetaboAnalystR
+slug: github-com-xia-lab-metaboanalystr
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Source: github:github.com__xia-lab__MetaboAnalystR'
+- devtools::install_github("xia-lab/MetaboAnalystR", build = TRUE, build_vignettes = TRUE, build_manual =T)
+- devtools::install_github("xia-lab/OptiLCMS", build = TRUE, build_vignettes = FALSE)
+- can be found [here](https://github.com/jsychong/MetaboAnalystR/tree/master/MetaboAnalystR_2_Supplementary_Data)
+- available [here](https://github.com/jsychong/MetaboAnalystR/tree/master/Supplementary_Material)
+derived_from:
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+source_repos:
+- https://github.com/xia-lab/MetaboAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/MetaboAnalystR

@@ -1,0 +1,16 @@
+name: VInSMoC
+slug: vinsmoc
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s43588-025-00923-5
+  title: Identifying variants of molecules through database search of mass spectra
+source_repos:
+- https://github.com/mohimanilab/VInSMoC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mohimanilab/VInSMoC

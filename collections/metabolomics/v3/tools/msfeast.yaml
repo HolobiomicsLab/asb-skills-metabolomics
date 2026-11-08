@@ -1,0 +1,17 @@
+name: msFeaST
+slug: msfeast
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present msFeaST (mass spectral Feature Set Testing), a feature-set testing and visualization workflow for LC-MS/MS untargeted metabolomics data.
+derived_from:
+- doi: 10.1093/bioinformatics/btae584
+  title: Combined LC-MS/MS feature grouping, statistical prioritization, and interactive networking in msFeaST
+source_repos:
+- https://github.com/kevinmildau/msFeaST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kevinmildau/msFeaST

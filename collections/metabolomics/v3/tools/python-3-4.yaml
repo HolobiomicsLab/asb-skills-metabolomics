@@ -1,0 +1,17 @@
+name: Python >=3.4
+slug: python-3-4
+version_used: null
+edam_topics: []
+evidence_spans:
+- the python source code is also freely available making Instant Clue editable and available on any platform with a working Python version (>=3.4)
+derived_from:
+- doi: 10.1038/s41598-018-31154-6
+  title: 'Instant Clue: A Software Suite for Interactive Data Visualization and Analysis'
+source_repos:
+- https://github.com/hnolCol/instantclue
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hnolCol/instantclue

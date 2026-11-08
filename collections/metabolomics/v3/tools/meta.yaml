@@ -1,0 +1,16 @@
+name: meta
+slug: meta
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bioinformatics/btab591
+  title: 'Amanida: an R package for meta-analysis of metabolomics non-integral data'
+source_repos:
+- https://github.com/mariallr/amanida
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mariallr/amanida

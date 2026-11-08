@@ -1,0 +1,19 @@
+name: Apptainer/Singularity
+slug: apptainer-singularity
+version_used: null
+edam_topics: []
+evidence_spans:
+- sudo yum -y install singularity.x86_64
+- Nextflow and Singularity are required to be installed
+derived_from:
+- doi: 10.1093/gigascience/giad115
+  title: A multi-omics data analysis workflow packaged as a FAIR Digital Object
+source_repos:
+- https://github.com/Xomics/Docker_containers.git
+- https://github.com/Xomics/ACTIONdemonstrator_workflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Xomics/Docker_containers.git

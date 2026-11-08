@@ -1,0 +1,20 @@
+name: DeepRTAlign
+slug: deeprtalign
+version_used: null
+edam_topics: []
+evidence_spans:
+- DeepRTAlign is a deep learning-based retention time alignment tool for large cohort LC-MS data analysis.
+- Use `pip install deeprtalign` to install deeprtalign
+- Here, we develop a deep learning-based RT alignment tool, DeepRTAlign, for large cohort LC-MS data analysis.
+derived_from:
+- doi: 10.1038/s41467-023-43909-5
+  title: 'DeepRTAlign: toward accurate retention time alignment for large cohort mass spectrometry data analysis'
+source_repos:
+- https://github.com/PHOENIXcenter/DeepRTAlign
+- https://github.com/PHOENIXcenter/deeprtalign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PHOENIXcenter/DeepRTAlign

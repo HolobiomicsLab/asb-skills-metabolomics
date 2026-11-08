@@ -1,0 +1,23 @@
+name: MetaRon
+slug: metaron
+version_used: null
+edam_topics: []
+evidence_spans:
+- Metagenomic operon prediction could be performed by providing filtered raw reads under the process "ago" i.e. assembly, gene prediction and operon identification
+- we present MetaRon, a Metagenomic and whole-genome operon prediction pipeline for shotgun sequencing data
+- pip install metaron
+- metaron --sample ERR022075 --process ago --read_type merge OR paired --read_length r OR l --paired_1
+- This will save metagenomic operon predictions ``Operon_File.tab``.
+- metaron --sample ERR022075 --process op --igp ERR022075 --isc ERR022075_scaf.fa --tool 1 OR 2 --output ~/path/to/output/directory/
+- metaron --sample ERR022075 --process op --igp ERR022075 --isc ERR022075_scaf.fa --tool 1 OR 2
+derived_from:
+- doi: 10.1186/s12864-020-07357-5
+  title: 'Prediction and analysis of metagenomic operons via MetaRon: a pipeline for prediction of Metagenome and whole-genome opeRons'
+source_repos:
+- https://github.com/zaidissa/MetaRon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zaidissa/MetaRon

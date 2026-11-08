@@ -1,0 +1,17 @@
+name: Python implementation
+slug: python-implementation
+version_used: null
+edam_topics: []
+evidence_spans:
+- There is a separate Python implementation in python/ which is a complete re-implementation for reading mzPeak files using pyarrow
+derived_from:
+- doi: 10.1021/acs.jproteome.5c00435
+  title: 'mzPeak: Designing a Scalable, Interoperable, and Future-Ready Mass Spectrometry Data Format'
+source_repos:
+- https://github.com/HUPO-PSI/mzPeak
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HUPO-PSI/mzPeak

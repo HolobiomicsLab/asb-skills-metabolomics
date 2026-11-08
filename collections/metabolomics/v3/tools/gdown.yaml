@@ -1,0 +1,20 @@
+name: gdown
+slug: gdown
+version_used: null
+edam_topics: []
+evidence_spans:
+- gdown https://drive.google.com/uc?id=12k-nbIcoME5GSkD8u1iYUcNzg6l-7msW
+- 'pip install gdown
+
+  gdown https://drive.google.com/uc?id=12k-nbIcoME5GSkD8u1iYUcNzg6l-7msW'
+derived_from:
+- doi: 10.1093/bioinformatics/btaf045
+  title: 'MetAssimulo 2.0: a web app for simulating realistic 1D and 2D metabolomic 1H NMR spectra'
+source_repos:
+- https://github.com/yanyan5420/MetAssimulo_2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yanyan5420/MetAssimulo_2

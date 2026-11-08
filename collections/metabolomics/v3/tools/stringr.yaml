@@ -1,0 +1,16 @@
+name: stringr
+slug: stringr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bioinformatics/btac355
+  title: 'MAFFIN: metabolomics sample normalization using maximal density fold change with high-quality metabolic features and corrected signal intensities'
+source_repos:
+- https://github.com/HuanLab/MAFFIN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuanLab/MAFFIN

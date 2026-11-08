@@ -1,0 +1,23 @@
+name: GNN-SOM
+slug: gnn-som
+version_used: null
+edam_topics: []
+evidence_spans:
+- For this, we use GNN-SOM, a tool that employs a graph neural network to predict the likelihood of each atom in a molecule being the target of a biotransformation operation.
+- 'For this, we use GNN-SOM,12 a tool that employs a graph neural network to
+
+  predict the likelihood of each atom in a molecule being the target
+
+  of a biotransformation operation.'
+derived_from:
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+source_repos:
+- https://github.com/HassounLab/GNN-SOM
+- https://github.com/HassounLab/BAM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/GNN-SOM

@@ -1,0 +1,17 @@
+name: pluskal-lab/DreaMS
+slug: pluskal-lab-dreams
+version_used: null
+edam_topics: []
+evidence_spans:
+- github.com__pluskal-lab__DreaMS
+derived_from:
+- doi: 10.1038/s41587-025-02663-3
+  title: Self-supervised learning of molecular representations from millions of tandem mass spectra using DreaMS
+source_repos:
+- https://github.com/pluskal-lab/DreaMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pluskal-lab/DreaMS

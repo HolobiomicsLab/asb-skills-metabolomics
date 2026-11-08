@@ -1,0 +1,22 @@
+name: rtms
+slug: rtms
+version_used: null
+edam_topics: []
+evidence_spans:
+- we developed rtmsEcho, an open-source R package that extends our previously published rtms framework
+- extends our previously published rtms framework
+derived_from:
+- doi: 10.1021/acs.analchem.5c03730
+  title: 'rtmsEcho: An
+
+    Open-Source R Package for Automated Analysis
+
+    of Acoustic Ejection Mass Spectrometry Data'
+source_repos:
+- https://github.com/nathanieltwarog/rtmsEcho
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nathanieltwarog/rtmsEcho

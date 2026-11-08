@@ -1,0 +1,50 @@
+name: MSnbase
+slug: msnbase
+version_used: null
+edam_topics: []
+evidence_spans:
+- The XCMS.featureTable() function outputs a dataframe formatted featuretable as well as an MSnbase object.
+- The custom.featureTable() function outputs a dataframe formatted featuretable as well as an MSnbase object.
+- Msnbase—an R/Bioconductor package for isobaric tagged mass spectrometry data visualization, processing and quantitation
+- POMAShiny's back-end structure uses the POMA [13], MSnbase [14] and tidyverse family [15] R packages
+- The data is extracted from mzML files using the MSnbase package which enables precise retrieval of extracted ion chromatograms (EICs) and MS2 spectra from mzML files.
+- The data is extracted from mzML files using the MSnbase package which enables precise retrieval of extracted ion chromatograms (EICs) and MS2 spectra from mzML files
+- 'Metaboseek uses the `MSnbase` and `xcms` packages to load MS data files of the following formats.:'
+- You can then load xcms results into the app as a "Feature Table" (using `xcms` and [`MSnbase`](https://bioconductor.org/packages/release/bioc/html/MSnbase.html) packages
+- You can then load xcms results into the app as a "Feature Table"
+- using `xcms` and [`MSnbase`](https://bioconductor.org/packages/release/bioc/html/MSnbase.html) packages
+- Metaboseek uses the `MSnbase` and `xcms` packages to load MS data files of the following formats
+- load xcms results into the app as a "Feature Table" (using `xcms` and [`MSnbase`](https://bioconductor.org/packages/release/bioc/html/MSnbase.html) packages
+derived_from:
+- doi: 10.1021/acs.analchem.5b03628
+  title: 'geoRge: A Computational Tool To Detect the Presence of Stable Isotope Labeling in LC/MS-Based Untargeted Metabolomics'
+- doi: 10.3390/metabo12030212
+  title: 'JPA: Joint Metabolic Feature Extraction Increases the Depth of Chemical Coverage for LC-MS-Based Metabolomics and Exposomics'
+- doi: 10.1021/acs.analchem.1c01644
+  title: 'ISFrag: De Novo Recognition of In-Source Fragments for Liquid Chromatography–Mass Spectrometry Data'
+- doi: 10.1021/acs.analchem.0c02281
+  title: 'MetIDfyR: An Open-Source R Package to Decipher Small-Molecule
+
+    Drug Metabolism through High-Resolution Mass Spectrometry'
+- doi: 10.1093/bioinformatics/btab231
+  title: 'mzRAPP: a tool for reliability assessment of data pre-processing in non-targeted metabolomics'
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+- doi: 10.1186/s13321-025-01044-x
+  title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
+- doi: 10.1038/s41467-022-28391-9
+  title: Comparative metabolomics with Metaboseek reveals functions of a conserved fat metabolism pathway in C. elegans
+source_repos:
+- https://github.com/jcapelladesto/geoRge
+- https://github.com/HuanLab-backup/JPA
+- https://github.com/HuanLab-backup/ISFrag
+- https://github.com/agnesbrnb/MetIDfyR
+- https://github.com/YasinEl/mzRAPP
+- https://github.com/nutrimetabolomics/POMAShiny
+- https://github.com/mjhelf/Metaboseek
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jcapelladesto/geoRge

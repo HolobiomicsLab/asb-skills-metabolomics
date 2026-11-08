@@ -1,0 +1,17 @@
+name: MMSA
+slug: mmsa
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/jasms.5c00237
+  title: Multiple Spectrum Alignment for Molecular Networking Exploration and Discovery
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/NetworkFamily_MultipleAlignment_Website
+- https://github.com/github.com/github.com__Wang-Bioinformatics-Lab__NetworkFamily_MultipleAlignment_Website
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/NetworkFamily_MultipleAlignment_Website

@@ -1,0 +1,21 @@
+name: Novor
+slug: novor
+version_used: '1.05'
+edam_topics: []
+evidence_spans:
+- the Novor algorithm15 improved the state of the art by using a decision tree as the score function for its dynamic programming algorithm.
+- We executed Novor (v.1.05) via the DeNovoGUI command-line interface (v.1.16.6) [42].
+- we evaluated six recently developed de novo peptide sequencing algorithms (Novor, pNovo 3, DeepNovo, SMSNet, PointNovo and Casanovo)
+derived_from:
+- doi: 10.1038/s41467-024-49731-x
+  title: Sequence-to-sequence translation from mass spectra to peptides with a transformer model
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+source_repos:
+- https://github.com/Noble-Lab/casanovo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Noble-Lab/casanovo

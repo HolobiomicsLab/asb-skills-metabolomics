@@ -1,0 +1,22 @@
+name: MZA
+slug: mza
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.analchem.3c01653
+  title: '<i>mzapy</i>: An Open-Source Python Library Enabling Efficient Extraction and Processing of Ion Mobility Spectrometry-Mass Spectrometry Data in the MZA File Format'
+- doi: 10.1021/jasms.4c00146
+  title: 'PeakQC: A Software Tool for Omics-Agnostic Automated Quality Control of Mass Spectrometry Data'
+source_repos:
+- https://github.com/PNNL-m-q/mza
+- https://github.com/PNNL-m-q/mzapy
+- https://github.com/pnnl/IonToolPack
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PNNL-m-q/mza

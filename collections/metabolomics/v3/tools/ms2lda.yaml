@@ -1,0 +1,25 @@
+name: MS2LDA
+slug: ms2lda
+version_used: null
+edam_topics: []
+evidence_spans:
+- Create an LDA experiment on [http://ms2lda.org/](http://ms2lda.org/) using the MGF clustered spectra downloaded from GNPS
+- Create an LDA experiment on [http://ms2lda.org/](http://ms2lda.org/)
+- as well as *Mass2Motifs* from [MS2LDA](http://ms2lda.org/).
+derived_from:
+- doi: 10.3390/metabo9070144
+  title: 'MolNetEnhancer: Enhanced Molecular Networks by Integrating Metabolome Mining and Annotation Tools'
+- doi: 10.1073/pnas.1608041113
+  title: Topic modeling for untargeted substructure exploration in metabolomics
+- doi: 10.3390/metabo11020103
+  title: Ranking Metabolite Sets by Their Activity Levels
+source_repos:
+- https://github.com/madeleineernst/pyMolNetEnhancer
+- https://github.com/vdhooftcompmet/MS2LDA
+- https://github.com/glasgowcompbio/PALS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/madeleineernst/pyMolNetEnhancer

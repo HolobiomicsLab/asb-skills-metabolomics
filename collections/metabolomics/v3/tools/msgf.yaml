@@ -1,0 +1,17 @@
+name: MSGF+
+slug: msgf
+version_used: null
+edam_topics: []
+evidence_spans:
+- All 185 million PSMs at 1% FDR obtained using MSGF+
+derived_from:
+- doi: 10.1038/s41592-022-01496-1
+  title: A learned embedding for efficient joint analysis of millions of mass spectra
+source_repos:
+- https://github.com/bittremieux-lab/GLEAMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bittremieux-lab/GLEAMS

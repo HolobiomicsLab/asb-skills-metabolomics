@@ -1,0 +1,24 @@
+name: GNPS/MassIVE
+slug: gnps-massive
+version_used: null
+edam_topics: []
+evidence_spans:
+- Untargeted metabolomics and metagenomics data, along with associated metadata, are publicly available via GNPS/MassIVE and Qiita.
+- Global Natural Product Social Molecular Networking-Mass Spectrometry Interactive Virtual Environment (GNPS-MassIVE)
+- batch search of multiple MS/MS spectra against the current indexed data in GNPS/MassIVE
+derived_from:
+- doi: 10.1101/2025.04.28.651123
+  title: A Multi-Organ Murine Metabolomics Atlas Reveals Molecular Dysregulations in Alzheimer’s Disease
+- doi: 10.1128/msystems.00937-21
+  title: 'BiG-MAP: an Automated Pipeline To Profile Metabolic Gene Cluster Abundance and Expression in Microbiomes'
+- doi: 10.1038/s41564-023-01575-9
+  title: 'microbeMASST: a taxonomically informed mass spectrometry search tool for microbial metabolomics data'
+source_repos:
+- https://github.com/medema-group/BiG-MAP
+- https://github.com/robinschmid/microbe_masst
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/medema-group/BiG-MAP

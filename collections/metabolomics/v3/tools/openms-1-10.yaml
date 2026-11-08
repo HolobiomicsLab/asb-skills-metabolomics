@@ -1,0 +1,18 @@
+name: OpenMS 1.10
+slug: openms-1-10
+version_used: null
+edam_topics: []
+evidence_spans:
+- inclusion into OpenMS
+- implemented and integrated in the open-source framework OpenMS (version 1.10) as the software tool FeatureFinderMetabo
+derived_from:
+- doi: 10.1074/mcp.m113.031278
+  title: Automated Label-free Quantification of Metabolites from Liquid Chromatography–Mass Spectrometry Data
+source_repos:
+- https://github.com/OpenMS/OpenMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OpenMS/OpenMS

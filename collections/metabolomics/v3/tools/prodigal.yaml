@@ -1,0 +1,23 @@
+name: Prodigal
+slug: prodigal
+version_used: null
+edam_topics: []
+evidence_spans:
+- The remaining scaftigs resulted in 4227 genes, predicted using prodigal [32].
+- Select the gene prediction .tab file generated via MetageneMark or Prodigal
+- Enter 1 for MetaGeneMark, 2 for Prodigal
+derived_from:
+- doi: 10.1093/nar/gkz654
+  title: A deep learning genome-mining strategy for biosynthetic gene cluster prediction
+- doi: 10.1186/s12864-020-07357-5
+  title: 'Prediction and analysis of metagenomic operons via MetaRon: a pipeline for prediction of Metagenome and whole-genome opeRons'
+source_repos:
+- https://github.com/hyattpd/Prodigal
+- https://github.com/Merck/deepbgc
+- https://github.com/zaidissa/MetaRon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hyattpd/Prodigal

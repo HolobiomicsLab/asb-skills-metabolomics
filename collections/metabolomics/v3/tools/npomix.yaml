@@ -1,0 +1,24 @@
+name: NPOmix
+slug: npomix
+version_used: null
+edam_topics: []
+evidence_spans:
+- We illustrated a computational example of how to use our Natural Products Mixed Omics (NPOmix) tool for siderophore mining that can be reproduced by the users.
+- We illustrated a computational example of how to use our Natural Products Mixed Omics (NPOmix) tool for siderophore mining
+- To use the NPOmix approach (Fig. 1, schematic example for the approach used in only four samples)
+- our Natural Products Mixed Omics (NPOmix) tool for siderophore mining
+- 'Clone the GitHub repository:
+
+  git clone https://github.com/tiagolbiotech/NPOmix_python.git'
+- We illustrated a computational example of how to use our Natural Products Mixed Omics (NPOmix) tool
+derived_from:
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+source_repos:
+- https://github.com/tiagolbiotech/NPOmix_python
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tiagolbiotech/NPOmix_python

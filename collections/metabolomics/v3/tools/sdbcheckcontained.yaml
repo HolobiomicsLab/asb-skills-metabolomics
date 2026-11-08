@@ -1,0 +1,17 @@
+name: sdbCheckContained
+slug: sdbcheckcontained
+version_used: '0.5'
+edam_topics: []
+evidence_spans:
+- overlapping_ids <- sdbCheckContained(sdb, annotated_peak_table_02, ppm_tolerance = 0.5, rt_tolerance = 0.5)
+derived_from:
+- doi: 10.1093/bioinformatics/btac647
+  title: "Homologue series detection and management in LC-MS data with\n                    <i>homologueDiscoverer</i>"
+source_repos:
+- https://github.com/kevinmildau/homologueDiscoverer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kevinmildau/homologueDiscoverer

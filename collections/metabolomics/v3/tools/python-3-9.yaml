@@ -1,0 +1,24 @@
+name: Python 3.9
+slug: python-3-9
+version_used: '3.9'
+edam_topics: []
+evidence_spans:
+- First, PROXIMAL2 was applied and its results were analyzed using Python 3.9
+- 'First, PROXIMAL2 was applied and its
+
+  results were analyzed using Python 3.9, PubChemPy (version 1.0.4)'
+- First, PROXIMAL2 was applied and its results were analyzed using Python 3.9, PubChemPy (version 1.0.4)
+derived_from:
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.48550/arxiv.2502.09571
+  title: ''
+source_repos:
+- https://github.com/HassounLab/BAM
+- https://github.com/coleygroup/DiffMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/BAM

@@ -1,0 +1,23 @@
+name: mamsi
+slug: mamsi
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'You can install MAMSI from PyPI using pip: pip install mamsi'
+- "You can install MAMSI from PyPI using pip: \npip install mamsi"
+- pip install mamsi
+- Clusters features based on their correlations. The method uses hierarchical clustering to create clusters.
+- MAMSI is a Python framework designed for the integration of multi-assay mass spectrometry datasets.
+- 'You can install MAMSI from PyPI using pip:'
+- "You can install MAMSI from PyPI using pip: \n```bash\npip install mamsi"
+derived_from:
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+source_repos:
+- https://github.com/kopeckylukas/py-mamsi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kopeckylukas/py-mamsi

@@ -1,0 +1,63 @@
+name: Skyline
+slug: skyline
+version_used: '19.1'
+edam_topics: []
+evidence_spans:
+- MassHunter 8 with Agile2, MRMkit,18 MRMprobs,19 and Skyline20
+- we here present a targeted lipidomics workbench and lipid knowledge-base that is fully integrated with Skyline
+- Skyline Tool Store
+- DIA method preparation and data analysis were performed with Skyline (See Supplementary Methods).
+- software developments such as Skyline15,16, which was further advanced by tools such as Panorama, and MSStats17,18
+- It is also a native Skyline plugin (Skyline 64 bit, version 19.1 and above), which greatly facilitates vendor-independent assay development
+- All LC-IM-MS data were further processed using Skyline 23.1.0.268
+- LC-IMS-MS via Skyline library matching with m/z, RT, drift-time and idotp criteria
+- While several open-source platforms (ASTS, MAVEN, MaxQuant, MRMAnalyzer, MRMPROBS, Skyline, SmartPeak, XCMS-MRM and METLIN-MRM, etc.)
+- Peak areas of precursors and transitions were exported from Skyline
+- the open-source and free software Skyline is the most popular software for quantitative omics.
+derived_from:
+- doi: 10.1021/acs.analchem.1c05224
+  title: 'automRm: An R Package for Fully Automatic LC-QQQ-MS Data Preprocessing Powered by Machine Learning'
+- doi: 10.1038/s41467-024-54871-1
+  title: 'iDIA-QC: AI-empowered data-independent acquisition mass spectrometry-based quality control'
+- doi: 10.1038/s41467-020-15960-z
+  title: LipidCreator workbench to probe the lipidomic landscape
+- doi: 10.1021/acs.jproteome.0c00082
+  title: 'lipidr: A Software Tool for Data Mining and Analysis
+
+    of Lipidomics Datasets'
+- doi: 10.1021/acs.analchem.4c01253
+  title: 'MobiLipid: A Tool for Enhancing CCS Quality Control of Ion Mobility–Mass Spectrometry Lipidomics by Internal Standardization'
+- doi: 10.1038/s41586-023-06906-8
+  title: Reverse metabolomics for the discovery of chemical structures from humans
+- doi: 10.1021/acs.analchem.5c03730
+  title: 'rtmsEcho: An
+
+    Open-Source R Package for Automated Analysis
+
+    of Acoustic Ejection Mass Spectrometry Data'
+- doi: 10.1021/acs.jproteome.9b00640
+  title: 'Skyline for Small Molecules: A Unifying Software Package for Quantitative Metabolomics'
+- doi: 10.1016/j.aca.2018.08.002
+  title: 'statTarget: A streamlined tool for signal drift correction and interpretations of quantitative mass spectrometry-based omics data'
+- doi: 10.1038/s41467-023-43909-5
+  title: 'DeepRTAlign: toward accurate retention time alignment for large cohort mass spectrometry data analysis'
+- doi: 10.1186/s12859-024-05685-x
+  title: 'MRMPro: a web-based tool to improve the speed of manual calibration for multiple reaction monitoring data analysis by mass spectrometry'
+source_repos:
+- https://github.com/guomics-lab/iDIA-QC
+- https://github.com/lifs-tools/lipidcreator
+- https://github.com/ahmohamed/lipidr
+- https://github.com/FelinaHildebrand/MobiLipid
+- https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation
+- https://github.com/nathanieltwarog/rtmsEcho
+- https://github.com/ProteoWizard/pwiz
+- https://github.com/ProteoWizard/pwiz-cpp
+- https://github.com/13479776/statTarget
+- https://github.com/PHOENIXcenter/deeprtalign
+- https://github.com/CSi-Studio/MRMPro-Doc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/guomics-lab/iDIA-QC

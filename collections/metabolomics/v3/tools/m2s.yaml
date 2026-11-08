@@ -1,0 +1,17 @@
+name: M2S
+slug: m2s
+version_used: null
+edam_topics: []
+evidence_spans:
+- The method can be applied using M2S (Match 2 Sets), a free, open-source MATLAB toolbox
+derived_from:
+- doi: 10.1021/acs.analchem.1c03592
+  title: Finding Correspondence between Metabolomic Features in Untargeted Liquid Chromatography–Mass Spectrometry Metabolomics Datasets
+source_repos:
+- https://github.com/rjdossan/M2S
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rjdossan/M2S

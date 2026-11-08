@@ -1,0 +1,17 @@
+name: Pathway-Express
+slug: pathway-express
+version_used: null
+edam_topics: []
+evidence_spans:
+- Methods such as topologyGSA [8] and Pathway-Express [9] have specific input requirements
+derived_from:
+- doi: 10.1371/journal.pcbi.1008979
+  title: 'netgsa: Fast computation and interactive visualization for topology-based pathway enrichment analysis'
+source_repos:
+- https://github.com/mikehellstern/netgsa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mikehellstern/netgsa

@@ -1,0 +1,18 @@
+name: SmilesDrawer
+slug: smilesdrawer
+version_used: null
+edam_topics: []
+evidence_spans:
+- SmilesDrawer represents a molecular graph as an array of vertices (atoms) and an array of edges (bonds).
+derived_from:
+- doi: 10.1186/s13321-021-00530-2
+  title: 'MassSpecBlocks: a web-based tool to create building blocks and sequences of nonribosomal peptides and polyketides for tandem mass spectra analysis'
+source_repos:
+- https://github.com/privrja/smilesDrawer
+- https://github.com/privrja/MassSpecBlocks
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/privrja/smilesDrawer

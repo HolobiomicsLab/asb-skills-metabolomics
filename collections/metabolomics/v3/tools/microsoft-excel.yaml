@@ -1,0 +1,20 @@
+name: Microsoft Excel
+slug: microsoft-excel
+version_used: null
+edam_topics: []
+evidence_spans:
+- using Prism 6 software (GraphPad) and Microsoft Excel
+- Statistical analyses included the Mann–Whitney test, chi-squared test and Fisher-exact test using Prism 6 software (GraphPad) and Microsoft Excel.
+derived_from:
+- doi: 10.1093/nar/gkac408
+  title: The topoisomerase 3 zinc finger domain cooperates with the RMI1 scaffold to promote stable association of the BTR complex to recombination intermediates in the <i>Caenorhabditis elegans</i> germline
+- doi: 10.1021/acs.analchem.4c02462
+  title: 'MRMQuant: Automated MRM Data Quantitation for Large-Scale Targeted Metabolomics Analysis'
+source_repos:
+- https://github.com/kslynn128171/MRMQuant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kslynn128171/MRMQuant

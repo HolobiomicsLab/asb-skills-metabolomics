@@ -1,0 +1,19 @@
+name: molecular networking
+slug: molecular-networking
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/jacs.9b13786
+  title: A Convolutional Neural Network-Based Approach for the Rapid Annotation of Molecularly Diverse Natural Products
+- doi: 10.1021/jasms.4c00061
+  title: 'ModiFinder: Tandem Mass Spectral Alignment Enables Structural Modification Site Localization'
+source_repos:
+- https://github.com/mwang87/NP-Classifier
+- https://github.com/Wang-Bioinformatics-Lab/ModiFinder_base
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mwang87/NP-Classifier

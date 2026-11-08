@@ -1,0 +1,41 @@
+name: plotly
+slug: plotly
+version_used: null
+edam_topics: []
+evidence_spans:
+- if (!require("plotly")) install.packages("plotly")
+- we provide this via example USIs to use with various sources in the plotly dash framework
+- it's a web application built upon plotly's Dash Framework
+- '''reshape2'', ''plotly'''
+- import plotly.graph_objects as go
+- All other visualizations in specXplore make use of plotly
+- All other visualizations in specXplore make
+derived_from:
+- doi: 10.1093/bioinformatics/btac388
+  title: 'MiMIR: R-shiny application to infer risk factors and endpoints from Nightingale Health’s 1H-NMR metabolomics data'
+- doi: 10.1038/s41592-021-01339-5
+  title: 'GNPS Dashboard: collaborative exploration of mass spectrometry data in the web browser'
+- doi: 10.1101/2025.11.12.687968
+  title: 'MetaXtract: Extracting Metadata from Raw Files for FAIR Data Practices and Workflow Optimisation'
+- doi: 10.1021/jasms.5c00237
+  title: Multiple Spectrum Alignment for Molecular Networking Exploration and Discovery
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+- doi: 10.1093/bioadv/vbae192
+  title: 'Protomix: a Python package for 1H-NMR metabolomics data preprocessing'
+- doi: 10.1021/acs.analchem.3c04444
+  title: Tailored Mass Spectral Data Exploration Using the SpecXplore Interactive Dashboard
+source_repos:
+- https://github.com/DanieleBizzarri/MiMIR
+- https://github.com/Wang-Bioinformatics-Lab/GNPS_LCMSDashboard
+- https://github.com/Rappsilber-Laboratory/MetaXtract
+- https://github.com/Wang-Bioinformatics-Lab/NetworkFamily_MultipleAlignment_Website
+- https://github.com/nutrimetabolomics/POMAShiny
+- https://github.com/mzniber/Protomix
+- https://github.com/kevinmildau/specXplore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DanieleBizzarri/MiMIR

@@ -1,0 +1,19 @@
+name: MASST
+slug: masst
+version_used: null
+edam_topics: []
+evidence_spans:
+- the 1.2 billion spectra that are currently part of MASST searches
+- Last, the 1.2 billion spectra that are currently part of MASST searches do not encompass all molecules.
+- Other strategies to obtain candidate MS/MS spectra exist, such as computational prediction or directly from a LC–MS/MS untargeted metabolomics experiment, and could be used for MASST searches in
+derived_from:
+- doi: 10.1038/s41586-023-06906-8
+  title: Reverse metabolomics for the discovery of chemical structures from humans
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation

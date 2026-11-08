@@ -1,0 +1,33 @@
+name: Galaxy
+slug: galaxy
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Galaxy (Master branch on Github: commit c429777c93680dcee449fe410f5360afbe673758)'
+- '[Galaxy (Master branch on Github: commit c429777c93680dcee449fe410f5360afbe673758)](http://www.getgalaxy.org)'
+- we present our end-to-end mass spectrometry metabolomics workflow in the widely used platform, Galaxy
+- To interact with Galaxy, open up a web-browser and point it at your server.
+- The software is freely available on Galaxy (https://usegalaxy.org/, Jalili et al., 2020)
+- IonFlow is a Galaxy tool written in R for ionomics data analysis
+- SECIMTools leverages the Galaxy platform and enables integrated workflows for metabolomics data analysis
+- Galaxy expects files in a tab separated format (tsv).
+- The files available in both public repositories can be imported into Galaxy and used in SECIMTools.
+- The Galaxy platform provides a framework for the easy construction and implementation of workflows.
+derived_from:
+- doi: 10.1186/s13742-016-0115-8
+  title: 'Galaxy-M: a Galaxy workflow for processing and analyzing direct infusion and liquid chromatography mass spectrometry-based metabolomics data'
+- doi: 10.1007/s11306-021-01841-z
+  title: 'IonFlow: a galaxy tool for the analysis of ionomics data sets'
+- doi: 10.1186/s12859-018-2134-1
+  title: 'SECIMTools: a suite of metabolomics data analysis tools'
+source_repos:
+- https://github.com/galaxyproject/galaxy
+- https://github.com/Viant-Metabolomics/Galaxy-M
+- https://github.com/wanchanglin/ionflow
+- https://github.com/secimTools/SECIMTools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/galaxyproject/galaxy

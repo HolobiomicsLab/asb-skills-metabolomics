@@ -1,0 +1,25 @@
+name: Galaxy-M
+slug: galaxy-m
+version_used: null
+edam_topics: []
+evidence_spans:
+- The GalaxyM installation has a user already registered and two workflows have been stored/published
+- Obtain the latest version of GalaxyM from [github]
+- $> git clone https://github.com/Viant-Metabolomics/Galaxy-M.git
+- Named Galaxy-M, our workflow has been developed for both direct infusion mass spectrometry (DIMS) and liquid chromatography mass spectrometry (LC-MS) metabolomics
+- Obtain the latest version of GalaxyM from [github](https://github.com/Viant-Metabolomics/Galaxy-M)
+- Galaxy-M was introduced for peak-picking/feature identification and data pre-processing
+derived_from:
+- doi: 10.1186/s13742-016-0115-8
+  title: 'Galaxy-M: a Galaxy workflow for processing and analyzing direct infusion and liquid chromatography mass spectrometry-based metabolomics data'
+- doi: 10.1186/s12859-018-2134-1
+  title: 'SECIMTools: a suite of metabolomics data analysis tools'
+source_repos:
+- https://github.com/Viant-Metabolomics/Galaxy-M
+- https://github.com/secimTools/SECIMTools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Viant-Metabolomics/Galaxy-M

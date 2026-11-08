@@ -1,0 +1,23 @@
+name: Protomix
+slug: protomix
+version_used: null
+edam_topics: []
+evidence_spans:
+- Protomix is a comprehensive Python package designed for preprocessing Nuclear Magnetic Resonance (NMR) data
+- import protomix as px
+- grpd_df = px.group_delay_removal(fid_df=fids_df, acqus_df=acqus_df)
+- fids, solvents = px.solvent_residuals_removal(fid_df=grpd_df, returnSolvent=True)
+- ph_df = px.phase_correction(spectra_df=spectra_df)
+- bin_df = px.binning(spectra_df=ws_df, bin_size=0.1, method='rectangular')
+derived_from:
+- doi: 10.1093/bioadv/vbae192
+  title: 'Protomix: a Python package for 1H-NMR metabolomics data preprocessing'
+source_repos:
+- https://github.com/mzniber/protomix
+- https://github.com/mzniber/Protomix
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mzniber/protomix

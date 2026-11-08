@@ -1,0 +1,16 @@
+name: AutoGraph
+slug: autograph
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/jasms.1c00315
+  title: <i>In Silico</i> Collision Cross Section Calculations to Aid Metabolite Annotation
+source_repos:
+- https://github.com/DasSusanta/snakemake_ccs
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DasSusanta/snakemake_ccs

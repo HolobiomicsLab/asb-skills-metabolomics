@@ -1,0 +1,16 @@
+name: GitLab
+slug: gitlab
+version_used: null
+edam_topics: []
+evidence_spans:
+- Shinyscreen is available in GitLab ( https://gitlab.com/uniluxembourg/lcsb/eci/shinyscreen ) under the Apache License 2.0.
+derived_from:
+- doi: 10.1186/s13321-025-01044-x
+  title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

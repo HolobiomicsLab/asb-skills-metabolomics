@@ -1,0 +1,42 @@
+name: CANOPUS
+slug: canopus
+version_used: null
+edam_topics: []
+evidence_spans:
+- and CANOPUS** combined with networking tools from [GNPS]
+- -jena.de/software/)* and CANOPUS**
+- CANOPUS** combined with networking tools from [GNPS]
+- -jena.de/software/)* and CANOPUS** combined with networking tools from [GNPS]
+- For both ionization modes, CANOPUS was run (no parameter needed).
+- indicates if an unreported [**CANOPUS**](https://www.nature.com/articles/s41587-020-0740-8) chemical class is detected
+- ata are classified using [CANOPUS](https://bio.informatik.uni-jena.de/software/canopus/) and [ClassyFire](http://classyfire.wishartlab.com/)
+- Run CANOPUS on the SIRIUS results to assign compound classes from fragment spectra.
+- predicting these structure-based ontologies directly from MS/MS spectra has also become possible through CANOPUS and MolNetEnhancer [18, 19]
+- predicting these structure-based ontologies directly from MS/MS spectra has also become possible through CANOPUS and MolNetEnhancer
+derived_from:
+- doi: 10.3390/metabo12121275
+  title: 'ConCISE: Consensus Annotation Propagation of Ion Features in Untargeted Tandem Mass Spectrometry Combining Molecular Networking and In Silico Metabolite Structure Prediction'
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.3389/fmolb.2022.1028334
+  title: 'Inventa: A computational tool to discover structural novelty in natural extracts libraries'
+- doi: 10.1186/s13321-023-00695-y
+  title: 'MAW: the reproducible Metabolome Annotation Workflow for untargeted tandem mass spectrometry'
+- doi: 10.1038/s41564-023-01575-9
+  title: 'microbeMASST: a taxonomically informed mass spectrometry search tool for microbial metabolomics data'
+- doi: 10.1186/s40168-022-01444-3
+  title: Enhanced correlation-based linking of biosynthetic gene clusters to their metabolic products through chemical class matching
+source_repos:
+- https://github.com/zquinlan/concise
+- https://github.com/enpkg/enpkg_full
+- https://github.com/kaibioinfo/canopus_treemap
+- https://github.com/luigiquiros/inventa
+- https://github.com/zmahnoor14/MAW
+- https://github.com/robinschmid/microbe_masst
+- https://github.com/NPLinker/nplinker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zquinlan/concise

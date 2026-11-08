@@ -1,0 +1,17 @@
+name: Zenodo record 13892026
+slug: zenodo-record-13892026
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Data available on Zenodo at: https://zenodo.org/records/13892026'
+derived_from:
+- doi: 10.1021/acscentsci.4c01132
+  title: Accurate and Efficient Structure Elucidation from Routine One-Dimensional NMR Spectra Using Multitask Machine Learning
+source_repos:
+- https://github.com/MarklandGroup/NMR2Struct
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MarklandGroup/NMR2Struct

@@ -1,0 +1,16 @@
+name: GC-(q)TOF
+slug: gc-q-tof
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.0c02998
+  title: Exploring the Use of Gas Chromatography Coupled to Chemical Ionization Mass Spectrometry (GC-CI-MS) for Stable Isotope Labeling in Metabolomics
+source_repos:
+- https://github.com/jcapelladesto/isoSCAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jcapelladesto/isoSCAN

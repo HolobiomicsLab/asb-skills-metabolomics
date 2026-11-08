@@ -1,0 +1,18 @@
+name: Java JRE 1.8
+slug: java-jre-1-8
+version_used: null
+edam_topics: []
+evidence_spans:
+- _No usage/docs found._
+- MetMatch requires Java runtime (JRE) version 1.8 or newer.
+derived_from:
+- doi: 10.3390/metabo6040039
+  title: 'MetMatch: A Semi-Automated Software Tool for the Comparison and Alignment of LC-HRMS Data from Different Metabolomics Experiments'
+source_repos:
+- https://github.com/S-T-K/MetMatch
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/S-T-K/MetMatch

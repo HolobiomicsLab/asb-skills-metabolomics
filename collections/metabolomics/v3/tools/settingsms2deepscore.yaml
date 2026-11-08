@@ -1,0 +1,17 @@
+name: SettingsMS2Deepscore
+slug: settingsms2deepscore
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `SettingsMS2Deepscore`'
+derived_from:
+- doi: 10.1101/2024.03.25.586580
+  title: 'Bridging polarities in metabolomics: Cross-ionization mode chemical similarity prediction between tandem mass spectra'
+source_repos:
+- https://github.com/matchms/MS2DeepScore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/matchms/MS2DeepScore

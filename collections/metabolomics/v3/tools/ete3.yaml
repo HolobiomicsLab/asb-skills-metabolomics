@@ -1,0 +1,20 @@
+name: ete3
+slug: ete3
+version_used: null
+edam_topics: []
+evidence_spans:
+- the tree-building pipeline, which uses the ete3 toolkit to make the desired plot
+- which uses the ete3 toolkit to make the desired plot
+- These relative abundances are then used as input to the tree-building pipeline, which uses the ete3 toolkit to make the desired plot.
+derived_from:
+- doi: 10.1093/gigascience/giad008
+  title: 'TAMPA: interpretable analysis and visualization of metagenomics-based taxon abundance profiles'
+source_repos:
+- https://github.com/dkoslicki/TAMPA.git
+- https://github.com/dkoslicki/TAMPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dkoslicki/TAMPA.git

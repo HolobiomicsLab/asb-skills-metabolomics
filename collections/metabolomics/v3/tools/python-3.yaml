@@ -1,0 +1,36 @@
+name: Python 3
+slug: python-3
+version_used: null
+edam_topics: []
+evidence_spans:
+- implemented in the Python 3 programming language and supported on Linux, Windows, and Mac operating systems
+- implemented in the Python 3 programming language
+- We demonstrate their implementation in Python 3 and JSON in MetDataModel.
+- The pcpfm package is written in Python 3
+- '- conda ([Bioconda website - Python 3.x](https://conda.io/en/latest/miniconda.html))'
+- '**WiPP** is an open source large scale GC-MS data preprocessing workflow built in Python 3'
+- PyCoMo is a python 3 package for the creation and analysis of community metabolic models.
+derived_from:
+- doi: 10.1021/acs.analchem.2c05810
+  title: Generalized Tree Structure to Annotate Untargeted Metabolomics and Stable Isotope Tracing Data
+- doi: 10.3390/metabo13070842
+  title: 'MESSES: Software for Transforming Messy Research Datasets into Clean Submissions to Metabolomics Workbench for Public Sharing'
+- doi: 10.1371/journal.pcbi.1011912
+  title: Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline
+- doi: 10.3390/metabo9090171
+  title: 'WiPP: Workflow for Improved Peak Picking for Gas Chromatography-Mass Spectrometry (GC-MS) Data'
+- doi: 10.1093/bioinformatics/btae153
+  title: 'PyCoMo: a python package for community metabolic model creation and analysis'
+source_repos:
+- https://github.com/shuzhao-li-lab/khipu
+- https://github.com/MoseleyBioinformaticsLab/messes
+- https://github.com/MoseleyBioinformaticsLab/MESSES
+- https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics
+- https://github.com/bihealth/WiPP
+- https://github.com/univieCUBE/PyCoMo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shuzhao-li-lab/khipu

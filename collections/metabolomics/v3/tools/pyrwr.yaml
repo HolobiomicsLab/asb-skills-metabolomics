@@ -1,0 +1,18 @@
+name: pyrwr
+slug: pyrwr
+version_used: null
+edam_topics: []
+evidence_spans:
+- using [random walk](https://github.com/jinhongjung/pyrwr)
+derived_from:
+- doi: 10.1093/bioinformatics/btad078
+  title: 'Improving annotation propagation on molecular networks through random walks: introducing ChemWalker'
+source_repos:
+- https://github.com/jinhongjung/pyrwr
+- https://github.com/computational-chemical-biology/ChemWalker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jinhongjung/pyrwr

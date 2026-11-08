@@ -1,0 +1,21 @@
+name: MassSpecBlocks
+slug: massspecblocks
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we introduce MassSpecBlocks - an open-source and web-based tool that converts the input chemical structures in SMILES format into sequences of building blocks
+- Here, we introduce MassSpecBlocks - an open-source and web-based tool that converts the input chemical structures in SMILES format into sequences of building blocks.
+- The sequences and building blocks created in MassSpecBlocks can be easily exported into a plain text format used by CycloBranch
+- we introduce MassSpecBlocks - an open-source and web-based tool that converts the input chemical structures in SMILES format into sequences of building blocks
+derived_from:
+- doi: 10.1186/s13321-021-00530-2
+  title: 'MassSpecBlocks: a web-based tool to create building blocks and sequences of nonribosomal peptides and polyketides for tandem mass spectra analysis'
+source_repos:
+- https://github.com/privrja/MassSpecBlocks
+- https://github.com/privrja/thesis-frontend-react
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/privrja/MassSpecBlocks

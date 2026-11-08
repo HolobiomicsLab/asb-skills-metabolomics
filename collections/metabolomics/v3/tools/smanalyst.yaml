@@ -1,0 +1,20 @@
+name: SMAnalyst
+slug: smanalyst
+version_used: null
+edam_topics: []
+evidence_spans:
+- we developed SMAnalyst, an open-source, integrated web-based platform
+- 'SMAnalyst''s metabolite annotation workflow (Figure 2) comprises two core steps: (1) ion peak relationship identification and (2) database matching and scoring'
+- Both differential analysis strategies utilize univariate statistical testing (Wilcoxon rank-sum test)
+- the overlap of differential metabolites between SMAnalyst and Cardinal reached 89%
+derived_from:
+- doi: 10.3390/biom15111562
+  title: 'SMAnalyst: A Web Server for Spatial Metabolomic Data Analysis and Annotation'
+source_repos:
+- https://github.com/mzlab-research/SManalyst
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mzlab-research/SManalyst

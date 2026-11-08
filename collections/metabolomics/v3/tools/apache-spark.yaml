@@ -1,0 +1,17 @@
+name: Apache Spark
+slug: apache-spark
+version_used: null
+edam_topics: []
+evidence_spans:
+- We propose an implementation using a Big Data framework, such as Apache Spark [31], to facilitate testing on many large data sets
+derived_from:
+- doi: 10.1186/s12859-022-04833-5
+  title: Locality-sensitive hashing enables efficient and scalable signal classification in high-throughput mass spectrometry raw data
+source_repos:
+- https://github.com/hildebrandtlab/mzBucket
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hildebrandtlab/mzBucket

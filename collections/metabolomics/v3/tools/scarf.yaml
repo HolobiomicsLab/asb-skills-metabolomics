@@ -1,0 +1,17 @@
+name: SCARF
+slug: scarf
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.3c04654
+  title: Generating Molecular Fragmentation Graphs with Autoregressive Neural Networks
+source_repos:
+- https://github.com/coleygroup/ms-pred
+- https://github.com/samgoldman97/ms-pred
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/coleygroup/ms-pred

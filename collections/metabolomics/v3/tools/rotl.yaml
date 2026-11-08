@@ -1,0 +1,16 @@
+name: rotl
+slug: rotl
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.7554/elife.70780
+  title: The LOTUS initiative for open knowledge management in natural products research
+source_repos:
+- https://github.com/lotusnprod/lotus-processor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lotusnprod/lotus-processor

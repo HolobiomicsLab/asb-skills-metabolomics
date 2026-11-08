@@ -1,0 +1,31 @@
+name: BiG-MAP
+slug: big-map
+version_used: null
+edam_topics: []
+evidence_spans:
+- This report presents a new software tool called BiG-MAP, which allows assessing gene cluster abundance and expression in microbiome samples using metagenomic and metatranscriptomic data.
+- '- `bigmap-family`'
+- '- `bigmap-map`'
+- This report presents a new software tool called BiG-MAP
+- '### Entry points
+
+  - `bigmap-download`
+
+  - `bigmap-family`
+
+  - `bigmap-map`
+
+  - `bigmap-analyse`'
+- '`bigmap-download`'
+- This report presents a new software tool called BiG-MAP, which allows assessing gene cluster abundance and expression in microbiome samples
+derived_from:
+- doi: 10.1128/msystems.00937-21
+  title: 'BiG-MAP: an Automated Pipeline To Profile Metabolic Gene Cluster Abundance and Expression in Microbiomes'
+source_repos:
+- https://github.com/medema-group/BiG-MAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/medema-group/BiG-MAP

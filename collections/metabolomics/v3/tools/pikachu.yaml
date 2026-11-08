@@ -1,0 +1,21 @@
+name: PIKAChU
+slug: pikachu
+version_used: null
+edam_topics: []
+evidence_spans:
+- Correctness of SMILES syntax was validated with PIKAChU (20)
+- we implemented the most commonly occurring elongation and tailoring reactions using PIKAChU, a tool which enforces chemical correctness of reaction intermediates
+derived_from:
+- doi: 10.1093/nar/gkac1049
+  title: 'MIBiG 3.0: a community-driven effort to annotate experimentally validated biosynthetic gene clusters'
+- doi: 10.1186/s13321-024-00898-x
+  title: 'RAIChU: automating the visualisation of natural product biosynthesis'
+source_repos:
+- https://github.com/mibig-secmet/mibig-json
+- https://github.com/BTheDragonMaster/RAIChU
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mibig-secmet/mibig-json

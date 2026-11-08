@@ -1,0 +1,17 @@
+name: Python 3.7.9
+slug: python-3-7-9
+version_used: 3.7.9
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41592-021-01331-z
+  title: Spectral entropy outperforms MS/MS dot product similarity for small-molecule compound identification
+source_repos:
+- https://github.com/YuanyueLi/SpectralEntropy
+- https://github.com/YuanyueLi/MSEntropy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YuanyueLi/SpectralEntropy

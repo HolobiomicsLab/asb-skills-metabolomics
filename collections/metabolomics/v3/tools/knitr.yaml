@@ -1,0 +1,29 @@
+name: knitr
+slug: knitr
+version_used: null
+edam_topics: []
+evidence_spans:
+- knitr::opts_chunk$set
+- knitr::rmarkdown
+- knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+- '%\VignetteEngine{knitr::rmarkdown}'
+derived_from:
+- doi: 10.1093/bioinformatics/btac059
+  title: 'metaboprep: an R package for preanalysis data description and processing'
+- doi: 10.1093/bioinformatics/btx477
+  title: 'MWASTools: an R/bioconductor package for metabolome-wide association studies'
+- doi: 10.1093/bioadv/vbaf047
+  title: 'LipidSigR: a R-based solution for integrated lipidomics data analysis and visualization'
+- doi: 10.1371/journal.pcbi.1008979
+  title: 'netgsa: Fast computation and interactive visualization for topology-based pathway enrichment analysis'
+source_repos:
+- https://github.com/MRCIEU/metaboprep
+- https://github.com/AndreaRMICL/MWASTools
+- https://github.com/BioinfOMICS/LipidSigR
+- https://github.com/mikehellstern/netgsa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MRCIEU/metaboprep

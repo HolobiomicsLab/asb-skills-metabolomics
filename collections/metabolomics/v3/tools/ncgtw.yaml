@@ -1,0 +1,16 @@
+name: ncGTW
+slug: ncgtw
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bioinformatics/btaa037
+  title: Targeted realignment of LC-MS profiles by neighbor-wise compound-specific graphical time warping with misalignment detection
+source_repos:
+- https://github.com/ChiungTingWu/ncGTW
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChiungTingWu/ncGTW

@@ -1,0 +1,17 @@
+name: Cy Target Linker
+slug: cy-target-linker
+version_used: null
+edam_topics: []
+evidence_spans:
+- Cy Target Linker adds the pathway information
+derived_from:
+- doi: 10.12688/f1000research.14613.2
+  title: 'CyTargetLinker app update: A flexible solution for network extension in Cytoscape'
+source_repos:
+- https://github.com/CyTargetLinker/linkset-automation
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CyTargetLinker/linkset-automation

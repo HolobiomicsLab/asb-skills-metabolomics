@@ -1,0 +1,20 @@
+name: mzRAPP
+slug: mzrapp
+version_used: null
+edam_topics: []
+evidence_spans:
+- If you have not installed mzRAPP yet, please follow the instructions in the mzRAPP Readme (e.g., on [GitHub](https://github.com/YasinEl/mzRAPP)) to do so.
+- Here, we present a tool named mzRAPP, which generates and validates a benchmark from user-supplied information
+- library(mzRAPP)
+- derive_performance_metrics(comparison_data)
+derived_from:
+- doi: 10.1093/bioinformatics/btab231
+  title: 'mzRAPP: a tool for reliability assessment of data pre-processing in non-targeted metabolomics'
+source_repos:
+- https://github.com/YasinEl/mzRAPP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YasinEl/mzRAPP

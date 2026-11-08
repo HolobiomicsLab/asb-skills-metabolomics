@@ -1,0 +1,16 @@
+name: MS/MS library search
+slug: ms-ms-library-search
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/jasms.4c00061
+  title: 'ModiFinder: Tandem Mass Spectral Alignment Enables Structural Modification Site Localization'
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/ModiFinder_base
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/ModiFinder_base

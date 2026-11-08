@@ -1,0 +1,17 @@
+name: SpaGene
+slug: spagene
+version_used: null
+edam_topics: []
+evidence_spans:
+- utilizing the SpaGene [38] algorithm for spatial expression pattern clustering analysis of metabolic ions
+derived_from:
+- doi: 10.3390/biom15111562
+  title: 'SMAnalyst: A Web Server for Spatial Metabolomic Data Analysis and Annotation'
+source_repos:
+- https://github.com/mzlab-research/SManalyst
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mzlab-research/SManalyst

@@ -1,0 +1,16 @@
+name: OpenMS 2.4.0
+slug: openms-2-4-0
+version_used: 2.4.0
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s42256-020-00234-6
+  title: Database-independent molecular formula annotation using Gibbs sampling through ZODIAC
+source_repos:
+- https://github.com/boecker-lab/sirius
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/boecker-lab/sirius

@@ -1,0 +1,78 @@
+name: PubChem
+slug: pubchem
+version_used: null
+edam_topics: []
+evidence_spans:
+- Name (as “title”), PubChem ID or CID, InChI, InChIKey, SMILES
+- PubChem (https://pubchem.ncbi.nlm.nih.gov) [1–3] is a chemical data repository and open chemistry database
+- molecular structure databases such as Pubchem [36] contain millions of compounds
+- an extensive automated lookup search was run against PubChem [35] (via pubchempy [36])
+- the metadata is searched in PubChem
+- The structures can be searched in public databases PubChem, ChemSpider, ChEBI, NP Atlas, COCONUT, and Norine
+- This filter derives the canonical SMILES, InChI and InChIKey from PubChem.
+- compared with Pubchem (https://pubchem.ncbi.nlm.nih.gov/) and Chemspider (https://www.chemspider.com/) databases
+- candidate structures were retrieved from the compound databases PubChem and ChemSpider in June, 2015
+- retrieval of reference, data source and patent information via ChemSpider and PubChem web services
+- If no structure information is provided, it is queried from PubChem by Name search.
+- adds PubChem and KEGG profiles
+- communicates with public chemistry utilities (including PubChem and the National Cancer Institute)
+- categorate(detail = "research")` adds PubChem and KEGG profiles, source
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+- doi: 10.1186/s13321-019-0375-2
+  title: 'PUG-View: programmatic access to chemical annotations integrated in PubChem'
+- doi: 10.1101/2022.08.09.503345
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1021/acs.analchem.2c03491
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1186/s13321-023-00738-4
+  title: 'DeepSAT: Learning Molecular Structures from Nuclear Magnetic Resonance Data'
+- doi: 10.1021/acs.analchem.4c02219
+  title: 'FragHub: A Mass Spectral Library Data Integration Workflow'
+- doi: 10.1007/s11306-025-02379-0
+  title: Automated metabolite formula ranking using formula subset analysis for LC-MS/MS-based metabolomics
+- doi: 10.1371/journal.pcbi.1008724
+  title: 'Spec2Vec: Improved mass spectral similarity scoring through learning of structural relationships'
+- doi: 10.5702/massspectrometry.s0033
+  title: Automatic Compound Annotation from Mass Spectrometry Data Using MAGMa
+- doi: 10.1186/s13321-021-00530-2
+  title: 'MassSpecBlocks: a web-based tool to create building blocks and sequences of nonribosomal peptides and polyketides for tandem mass spectra analysis'
+- doi: 10.1186/s13321-024-00878-1
+  title: Reproducible MS/MS library cleaning pipeline in matchms
+- doi: 10.1186/s13020-024-01031-8
+  title: 'An integrated approach for studying exposure, metabolism, and disposition of traditional Chinese medicine using PATBS and MDRB tools: a case study of semen Armeniacae Amarum'
+- doi: 10.1101/2021.02.28.433248
+  title: 'MetaFetcheR: An R package for complete mapping of small compound data'
+- doi: 10.1186/s13321-016-0115-9
+  title: 'MetFrag relaunched: incorporating strategies beyond in silico fragmentation'
+- doi: 10.1038/s41592-025-02813-0
+  title: 'MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries'
+- doi: 10.1016/j.enceco.2025.07.022
+  title: 'MSThunder: A deep learning-based nontargeted analytical framework for the accurate and rapid identification of unknown organic pollutants in water'
+- doi: 10.1371/journal.pone.0306202
+  title: 'uafR: An R package that automates mass spectrometry data processing'
+- doi: 10.1038/s42256-020-00234-6
+  title: Database-independent molecular formula annotation using Gibbs sampling through ZODIAC
+source_repos:
+- https://github.com/facundof2016/CCSP2.0
+- https://github.com/mwang87/DeepSAT
+- https://github.com/eMetaboHUB/FragHub
+- https://github.com/kslynn128171/FSA
+- https://github.com/iomega/spec2vec
+- https://github.com/NLeSC/MAGMa
+- https://github.com/privrja/MassSpecBlocks
+- https://github.com/matchms/matchms
+- https://github.com/933ZhangDD/MDRB
+- https://github.com/komorowskilab/MetaFetcheR
+- https://github.com/ipb-halle/MetFragRelaunched
+- https://github.com/corinnabrungs/msn_tree_library
+- https://github.com/LQZ0123/MSThunder
+- https://github.com/castratton/uafR
+- https://github.com/boecker-lab/sirius
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/facundof2016/CCSP2.0

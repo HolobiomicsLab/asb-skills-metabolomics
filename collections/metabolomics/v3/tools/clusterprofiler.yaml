@@ -1,0 +1,32 @@
+name: clusterProfiler
+slug: clusterprofiler
+version_used: null
+edam_topics: []
+evidence_spans:
+- margheRita implements both Over Representation Analysis (ORA) and Metabolite Set Enrichment Analysis (MSEA), based on clusterProfiler [@Wu2021] over BioCyc, KEGG and Reactome pathway databases.
+- '"clusterProfiler": "Imports"'
+- if (!require('clusterProfiler')) remotes::install_github('YuLab-SMU/clusterProfiler');
+- remotes::install_github('YuLab-SMU/clusterProfiler');
+- '| Genes, miRNA, isoforms, proteins, lipids | Pathway enrichment analysis | Clusterprofiler, Biotranslator |'
+- '`clusterprofiler` : Directory of pathway enrichment analysis'
+- '- `clusterProfiler (Suggests)`'
+derived_from:
+- doi: 10.1101/2024.06.20.599545
+  title: 'MargheRita: streamlining MS-DIAL output analysis and metabolite identification in R'
+- doi: 10.1111/jipb.13774
+  title: 'MetMiner: A user‐friendly pipeline for large‐scale plant metabolomics data analysis'
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+- doi: 10.1093/bib/bbae116
+  title: Generalized reporter score-based enrichment analysis for omics data
+source_repos:
+- https://github.com/emosca-cnr/margheRita
+- https://github.com/ShawnWx2019/MetMiner
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+- https://github.com/Asa12138/ReporterScore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/emosca-cnr/margheRita

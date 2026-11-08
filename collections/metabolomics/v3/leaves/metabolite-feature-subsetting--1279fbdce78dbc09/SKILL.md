@@ -1,0 +1,121 @@
+---
+name: metabolite-feature-subsetting
+description: Use when a trained MiMeNet ensemble has yielded averaged attribution
+  scores and you must subset the microbe-metabolite matrix to significant microbes
+  and well-predicted metabolites before biclustering or downstream interpretation.
+when_to_use_negative:
+- The metabolite subset is intended for prediction-only workflows (e.g. feeding a
+  pre-trained MelonnPan model) rather than interaction discovery — subsetting discards
+  poorly-predicted metabolites that may still be biologically relevant.
+- Metabolites have not yet been evaluated in cross-validation; subsetting before SCC
+  values exist is premature since the 95th-percentile cutoff depends on cross-validated
+  SCC values.
+- No background distribution from shuffled-data CV iterations is available — without
+  the empirical null you cannot compute the 97.5th-percentile significance threshold
+  and the subsetting is invalid.
+edam_operation: http://edamontology.org/operation_3803
+edam_topics:
+- http://edamontology.org/topic_3173
+- http://edamontology.org/topic_3172
+- http://edamontology.org/topic_0154
+tools:
+- name: MiMeNet
+  role: Trains the cross-validated MLPNN models, computes attribution scores, generates
+    the shuffled-data background distribution, and provides the -threshold option
+    used to define the significant correlation threshold for subsetting.
+  repo: github.com/YDaiLab/MiMeNet
+- name: MelonnPan
+  role: Alternative linear-model predictor whose outputs are contrasted with MiMeNet's;
+    not used directly for subsetting, but MiMeNet identifies more well-predicted metabolites
+    (198 to 366, 104 to 143, and 4 to 29 across three datasets) than MelonnPan.
+  repo: biobakery/melonnpan
+provenance:
+  source_task_ids:
+  - task_006
+  source_papers:
+  - doi: 10.1371/journal.pcbi.1009021
+    title: 'MiMeNet: Exploring microbiome-metabolome relationships using neural networks'
+  source_content_hash: sha256:162701f82db98302d5e59d21f3acc9998ea17a44e6460c001128283e7bd9dab3
+schema_version: 0.2.0
+metadata:
+  license_tier: open
+  tools:
+  - MelonnPan
+  - MiMeNet
+  edam_operation: http://edamontology.org/operation_3803
+  edam_topics:
+  - http://edamontology.org/topic_3173
+  - http://edamontology.org/topic_3172
+  - http://edamontology.org/topic_0154
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: promoted
+yes_rate: 0.8888888888888888
+n_claims: 9
+---
+
+# metabolite-feature-subsetting
+
+## Summary
+
+Filters a cross-validated microbe-metabolite attribution-score matrix from MiMeNet down to statistically significant microbes and well-predicted metabolites, producing a focused interaction matrix (e.g. 163 significant microbes x 6857 well-predicted metabolites on the IBD PRISM dataset).
+
+## When to use
+
+Use when a trained MiMeNet ensemble has yielded averaged attribution scores and you must subset the microbe-metabolite matrix to significant microbes and well-predicted metabolites before biclustering or downstream interpretation.
+
+## When NOT to use
+
+- The metabolite subset is intended for prediction-only workflows (e.g. feeding a pre-trained MelonnPan model) rather than interaction discovery — subsetting discards poorly-predicted metabolites that may still be biologically relevant.
+- Metabolites have not yet been evaluated in cross-validation; subsetting before SCC values exist is premature since the 95th-percentile cutoff depends on cross-validated SCC values.
+- No background distribution from shuffled-data CV iterations is available — without the empirical null you cannot compute the 97.5th-percentile significance threshold and the subsetting is invalid.
+
+## Inputs
+
+- Mean microbe-by-metabolite attribution score matrix averaged over 100 cross-validated MLPNN models (element-wise average of per-model weight-matrix products)
+- Empirical background distribution of interaction scores from shuffled-data cross-validated iterations (for the 97.5th-percentile significance threshold)
+- Per-metabolite cross-validated Spearman correlation coefficient (SCC) values (for the 95th-percentile well-predicted-metabolite cutoff)
+- Comma-delimited (CSV) microbe and metabolite feature tables underlying the trained models
+
+## Outputs
+
+- interaction_scores.csv — filtered interaction-score matrix in the output directory containing exactly the significant microbe rows and well-predicted metabolite columns (163 x 6857 on the IBD PRISM dataset)
+- List of significant microbes passing the 97.5th-percentile background threshold
+- List of well-predicted metabolites with SCC above the 95th percentile of the background distribution
+
+## How to apply
+
+Start from the mean attribution matrix obtained by multiplying consecutive hidden-layer weight matrices from each of the 100 cross-validated MLPNN models (10 iterations of 10-fold CV) and element-wise averaging. Compute the 97.5th-percentile significance cutoff for microbe-metabolite interactions from the empirical background distribution generated by the shuffled-data cross-validation iterations, and retain only microbe rows with at least one attribution score exceeding this threshold. Separately, identify well-predicted metabolites as those with a cross-validated Spearman correlation coefficient (SCC) above the 95th percentile of the background distribution — MiMeNet explicitly 'will then take any metabolite with a SCC evaluation value above the 95th percentile to be well-predicted'. Subset the matrix columns to these well-predicted metabolites (6857 on the IBD PRISM data) and rows to the surviving significant microbes (163), then write the filtered interaction-score matrix to interaction_scores.csv in the output directory. The rationale is to remove noisy interactions before biclustering into microbe and metabolite modules, since the interaction score matrix is what MiMeNet biclusters into modules grouping microbes and metabolites with similar interaction patterns.
+
+## Related tools
+
+- **MiMeNet** (Trains the cross-validated MLPNN models, computes attribution scores, generates the shuffled-data background distribution, and provides the -threshold option used to define the significant correlation threshold for subsetting.) — github.com/YDaiLab/MiMeNet
+- **MelonnPan** (Alternative linear-model predictor whose outputs are contrasted with MiMeNet's; not used directly for subsetting, but MiMeNet identifies more well-predicted metabolites (198 to 366, 104 to 143, and 4 to 29 across three datasets) than MelonnPan.) — biobakery/melonnpan
+
+## Examples
+
+```
+python MiMeNet_train.py -micro ibd_micro.csv -metab ibd_metab.csv -output out/ -num_run_cv 10 -num_cv 10 -micro_norm RA -metab_norm RA -threshold 0.975
+```
+
+## Evaluation signals
+
+- The output interaction_scores.csv must contain exactly 163 significant microbe rows and 6857 well-predicted metabolite columns for the IBD (PRISM) dataset.
+- Every retained microbe must have at least one attribution score exceeding the 97.5th-percentile cutoff of the shuffled-data background distribution.
+- Every retained metabolite must have a cross-validated SCC above the 95th percentile of the background SCC distribution.
+- Interaction scores in the filtered matrix must equal the element-wise average of the per-model weight-matrix products from all 100 cross-validated models (10 iterations x 10-fold CV).
+- The well-predicted metabolite count should exceed what linear baselines such as MelonnPan achieve (MiMeNet increases counts from 198 to 366, 104 to 143, and 4 to 29 across the three paired datasets).
+
+## Limitations
+
+- The 95th-percentile SCC threshold for well-predicted metabolites means some metabolites are discarded even though they may be biologically meaningful; MiMeNet's authors note 'since not all metabolites may be associated with microbes, some metabolites will have lower prediction correlations, which resulted in an overall lower mean correlation across all metabolites.'
+- Subsetting depends on a correctly generated background distribution; if the shuffled-data CV iterations are insufficient or mis-specified, the 97.5th-percentile significance cutoff will be biased and significance calls will be unreliable.
+- The filtered matrix is dataset- and normalization-specific (RA or CLR preprocessing was applied to both microbe and metabolite tables), so scores from one dataset cannot be reused to subset another without retraining.
+
+## Evidence
+
+- [methods] MiMeNet will then take any metabolite with a SCC evaluation value above the 95th percentile to be well-predicted.: "MiMeNet will then take any metabolite with a SCC evaluation value above the 95th percentile to be well-predicted."
+- [other] -threshold THRESHOLD Define significant correlation threshold: "-threshold THRESHOLD              Define significant correlation threshold"
+- [methods] The interaction score matrix is biclustered into microbe and metabolite modules, grouping sets of microbes and metabolites with similar interaction patterns.: "This interaction score matrix is biclustered into microbe and metabolite modules, grouping sets of microbes and metabolites with similar interaction patterns."
+- [abstract] MiMeNet more accurately predicts metabolite abundances (mean Spearman correlation coefficients increase from 0.108 to 0.309, 0.276 to 0.457, and -0.272 to 0.264): "MiMeNet more accurately predicts metabolite abundances (mean Spearman correlation coefficients increase from 0.108 to 0.309, 0.276 to 0.457, and -0.272 to 0.264)"
+- [supplementary] Using 10-iterations of 10-fold cross-validation, evaluations using shared hyper-parameters tuned from the first partition: "Using 10-iterations of 10-fold cross-validation, evaluations using shared hyper-parameters tuned from the first partition"

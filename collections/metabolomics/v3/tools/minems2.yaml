@@ -1,0 +1,19 @@
+name: mineMS2
+slug: minems2
+version_used: null
+edam_topics: []
+evidence_spans:
+- wrapped with Rcpp into the mineMS2 R package
+- The mineMS2 software is publicly available as an R package
+- The described algorithm was written in C++ using Boost, and wrapped with Rcpp into the mineMS2 R package
+derived_from:
+- doi: 10.1186/s13321-025-01051-y
+  title: 'mineMS2: annotation of spectral libraries with exact fragmentation patterns'
+source_repos:
+- https://github.com/odisce/mineMS2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/odisce/mineMS2

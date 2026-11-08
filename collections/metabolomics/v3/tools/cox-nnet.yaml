@@ -1,0 +1,17 @@
+name: Cox-nnet
+slug: cox-nnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- VignetteIndexEntry{Lilikoi V2.0}
+derived_from:
+- doi: 10.1093/gigascience/giaa162
+  title: 'Lilikoi V2.0: a deep learning–enabled, personalized pathway-based R package for diagnosis and prognosis predictions using metabolomics data'
+source_repos:
+- https://github.com/lanagarmire/lilikoi2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lanagarmire/lilikoi2

@@ -1,0 +1,32 @@
+name: ropls
+slug: ropls
+version_used: 1.8.0
+edam_topics: []
+evidence_spans:
+- '| ropls        | 1.8.0      |'
+- ropls (Imports)
+- R packages including ropls, Metabo AnalystR, Hmisc, pROC, random Forest, and Boruta were utilized for analysis.
+- OPLS-DA was performed with the ropls package
+derived_from:
+- doi: 10.1371/journal.pcbi.1005973
+  title: 'GSimp: A Gibbs sampler based left-censored missing value imputation approach for metabolomics studies'
+- doi: 10.1093/bioinformatics/btae373
+  title: 'MetaboReport: from metabolomics data analysis to comprehensive reporting'
+- doi: 10.48550/arxiv.2510.09716
+  title: ''
+- doi: 10.3389/fchem.2021.659656
+  title: 'iMAP: A Web Server for Metabolomics Data Integrative Analysis'
+- doi: 10.1016/j.csbj.2019.04.009
+  title: Accounting for biological variation with linear mixed-effects modelling improves the quality of clinical metabolomics data
+source_repos:
+- https://github.com/WandeRum/GSimp
+- https://github.com/YonghuiDong/MetReport
+- https://github.com/jsehhs/MS2toImg-CNN
+- https://github.com/IP4M/R-scripts-for-iMAP
+- https://github.com/kwanjeeraw/lmm2met
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WandeRum/GSimp

@@ -1,0 +1,20 @@
+name: LION
+slug: lion
+version_used: null
+edam_topics: []
+evidence_spans:
+- Lipid–ontology associations of this analysis were sourced from the LION database [30]
+derived_from:
+- doi: 10.1101/2025.08.28.672951
+  title: 'EnrichMet: R Package for Integrated Pathway and Network Analysis for Metabolomics'
+- doi: 10.1101/2020.04.09.033894
+  title: 'LipidLynxX: a data transfer hub to support integration of large scale lipidomics datasets'
+source_repos:
+- https://github.com/biodatalab/enrichmet
+- https://github.com/SysMedOs/LipidLynxX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biodatalab/enrichmet

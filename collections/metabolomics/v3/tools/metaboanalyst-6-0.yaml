@@ -1,0 +1,23 @@
+name: MetaboAnalyst 6.0
+slug: metaboanalyst-6-0
+version_used: '6.0'
+edam_topics: []
+evidence_spans:
+- a significantly enhanced Spectra Processing module with support for MS2 data and the asari algorithm
+- a Causal Analysis module for estimating metabolite - phenotype causal relations based on two-sample Mendelian randomization
+- Key features of MetaboAnalyst 6.0 include
+- a MS2 Peak Annotation module based on comprehensive MS2 reference databases with fragment-level annotation
+derived_from:
+- doi: 10.1093/nar/gkae253
+  title: 'MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation'
+- doi: 10.1021/acs.analchem.4c02038
+  title: 'MetaPhenotype: A Transferable Meta-Learning Model for Single-Cell Mass Spectrometry-Based Cell Phenotype Prediction Using Limited Number of Cells'
+source_repos:
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/songyuan93/MetaPhenotype
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/MetaboAnalystR

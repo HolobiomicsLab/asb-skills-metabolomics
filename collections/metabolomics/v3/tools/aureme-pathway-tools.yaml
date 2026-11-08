@@ -1,0 +1,17 @@
+name: AuReMe/Pathway Tools
+slug: aureme-pathway-tools
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[AuReMe](http://aureme.genouest.org/) (Aite et al. 2018) / [Pathway Tools](http://pathwaytools.com/) (Karp et al. 2016)'
+derived_from:
+- doi: 10.1371/journal.pcbi.1009906
+  title: 'COMMIT: Consideration of metabolite leakage and community composition improves microbial community reconstructions'
+source_repos:
+- https://github.com/pwendering/COMMIT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pwendering/COMMIT

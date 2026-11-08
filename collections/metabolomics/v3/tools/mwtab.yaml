@@ -1,0 +1,27 @@
+name: mwtab
+slug: mwtab
+version_used: null
+edam_topics: []
+evidence_spans:
+- '.. automodule:: messes.convert.mwtab_functions'
+- ".. automodule:: messes.convert.mwtab_functions\n    :members:"
+- 'The ``mwtab`` package is a Python library that facilitates reading and writing
+
+  files in ``mwTab`` format'
+- The ``mwtab`` package is a Python library that facilitates reading and writing
+- The ``mwtab`` package is a Python library that facilitates reading and writing files in ``mwTab`` format
+- The :mod:`mwtab` package is a Python library that facilitates reading and writing files in ``mwTab`` format
+derived_from:
+- doi: 10.3390/metabo13070842
+  title: 'MESSES: Software for Transforming Messy Research Datasets into Clean Submissions to Metabolomics Workbench for Public Sharing'
+- doi: 10.3390/metabo11030163
+  title: The mwtab Python Library for RESTful Access and Enhanced Quality Control, Deposition, and Curation of the Metabolomics Workbench Data Repository
+source_repos:
+- https://github.com/MoseleyBioinformaticsLab/MESSES
+- https://github.com/MoseleyBioinformaticsLab/mwtab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MoseleyBioinformaticsLab/MESSES

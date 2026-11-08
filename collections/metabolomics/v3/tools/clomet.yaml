@@ -1,0 +1,16 @@
+name: CloMet
+slug: clomet
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00602
+  title: 'CloMet: A Novel Open-Source and Modular Software Platform That Connects Established Metabolomics Repositories and Data Analysis Resources'
+source_repos:
+- https://github.com/rmallol/clomet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rmallol/clomet

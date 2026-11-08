@@ -1,0 +1,17 @@
+name: SBML
+slug: sbml
+version_used: null
+edam_topics: []
+evidence_spans:
+- It is also possible to save and load the community models in SBML format, allowing to share and reuse the models built with PyCoMo.
+derived_from:
+- doi: 10.1093/bioinformatics/btae153
+  title: 'PyCoMo: a python package for community metabolic model creation and analysis'
+source_repos:
+- https://github.com/univieCUBE/PyCoMo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/univieCUBE/PyCoMo

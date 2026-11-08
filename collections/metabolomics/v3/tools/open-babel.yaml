@@ -1,0 +1,16 @@
+name: Open Babel
+slug: open-babel
+version_used: 3.1.1
+edam_topics: []
+evidence_spans:
+- The.mol files were subsequently converted to .SDF, SMILES, InChI, InChIKey using Open Babel 3.1.1
+derived_from:
+- doi: 10.3389/fchem.2022.908572
+  title: A Comprehensive Database for DNA Adductomics
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

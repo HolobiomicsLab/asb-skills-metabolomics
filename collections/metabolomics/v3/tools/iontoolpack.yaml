@@ -1,0 +1,16 @@
+name: IonToolPack
+slug: iontoolpack
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/jasms.4c00146
+  title: 'PeakQC: A Software Tool for Omics-Agnostic Automated Quality Control of Mass Spectrometry Data'
+source_repos:
+- https://github.com/pnnl/IonToolPack
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pnnl/IonToolPack

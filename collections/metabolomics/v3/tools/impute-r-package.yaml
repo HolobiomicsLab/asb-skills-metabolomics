@@ -1,0 +1,16 @@
+name: impute (R package)
+slug: impute-r-package
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2021.04.23.440821
+  title: 'PaIRKAT: A pathway integrated regression-based kernel association test with applications to metabolomics and COPD phenotypes'
+source_repos:
+- https://github.com/CharlieCarpenter/PaIRKAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CharlieCarpenter/PaIRKAT

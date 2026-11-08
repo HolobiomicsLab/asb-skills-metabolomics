@@ -1,0 +1,17 @@
+name: MSDIAL
+slug: msdial
+version_used: null
+edam_topics: []
+evidence_spans:
+- compared with two other open-source platforms (MSDIAL [17] and XCMS [19]) to evaluate feature extraction performance
+derived_from:
+- doi: 10.1186/s13321-023-00741-9
+  title: 'Mass-Suite: a novel open-source python package for high-resolution mass spectrometry data analysis'
+source_repos:
+- https://github.com/XiminHu/mass-suite
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XiminHu/mass-suite

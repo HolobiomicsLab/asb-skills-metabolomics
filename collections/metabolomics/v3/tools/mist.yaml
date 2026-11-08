@@ -1,0 +1,26 @@
+name: MIST
+slug: mist
+version_used: null
+edam_topics: []
+evidence_spans:
+- Recently developed competitive methods, MIST32 and MIST-CF33, replace crucial components of SIRIUS with neural networks trained on spectral libraries
+derived_from:
+- doi: 10.48550/arxiv.2502.09571
+  title: ''
+- doi: 10.1038/s41587-025-02663-3
+  title: Self-supervised learning of molecular representations from millions of tandem mass spectra using DreaMS
+- doi: 10.48550/arxiv.2510.20615
+  title: ''
+source_repos:
+- https://github.com/coleygroup/MIST
+- https://github.com/coleygroup/DiffMS
+- https://github.com/samgoldman97/mist
+- https://github.com/pluskal-lab/DreaMS
+- https://github.com/coleygroup/FRIGID
+- https://github.com/OpenDFM/MS-BART
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/coleygroup/MIST

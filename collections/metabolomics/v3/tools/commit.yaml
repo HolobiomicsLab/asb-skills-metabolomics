@@ -1,0 +1,20 @@
+name: COMMIT
+slug: commit
+version_used: null
+edam_topics: []
+evidence_spans:
+- dbModel_MNXref_balanced = addNamesPermeabilityToGfDb(dbModel_MNXref_balanced, mnxref_dir);
+- performs the conditional gap filling procedure of COMMIT
+- the script `COMMIT/code/matlab/commit.m` contains the workflow for the publication
+- the script `COMMIT/code/matlab/gap_filling/run_iterative_gap_filling.m` performs the conditional gap filling procedure of COMMIT
+derived_from:
+- doi: 10.1371/journal.pcbi.1009906
+  title: 'COMMIT: Consideration of metabolite leakage and community composition improves microbial community reconstructions'
+source_repos:
+- https://github.com/pwendering/COMMIT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pwendering/COMMIT

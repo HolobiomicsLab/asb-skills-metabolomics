@@ -1,0 +1,20 @@
+name: MS-CleanR
+slug: ms-cleanr
+version_used: '0.8'
+edam_topics: []
+evidence_spans:
+- using the MS-CleanR package
+derived_from:
+- doi: 10.1021/acs.analchem.4c02219
+  title: 'FragHub: A Mass Spectral Library Data Integration Workflow'
+- doi: 10.1021/acs.analchem.2c05389
+  title: Combination of Structure Databases, In Silico Fragmentation, and MS/MS Libraries for Untargeted Screening of Non-Volatile Migrants from Recycled High-Density Polyethylene Milk Bottles
+source_repos:
+- https://github.com/eMetaboHUB/FragHub
+- https://github.com/QizhiSu/mspcompiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eMetaboHUB/FragHub

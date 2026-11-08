@@ -1,0 +1,17 @@
+name: Boost
+slug: boost
+version_used: null
+edam_topics: []
+evidence_spans:
+- written in C++ using Boost
+derived_from:
+- doi: 10.1186/s13321-025-01051-y
+  title: 'mineMS2: annotation of spectral libraries with exact fragmentation patterns'
+source_repos:
+- https://github.com/odisce/mineMS2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/odisce/mineMS2

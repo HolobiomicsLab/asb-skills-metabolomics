@@ -1,0 +1,17 @@
+name: paired-data-form
+slug: paired-data-form
+version_used: null
+edam_topics: []
+evidence_spans:
+- https://github.com/iomega/paired-data-form
+derived_from:
+- doi: 10.1038/s41589-020-00724-z
+  title: A community resource for paired genomic and metabolomic data mining
+source_repos:
+- https://github.com/iomega/paired-data-form
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iomega/paired-data-form

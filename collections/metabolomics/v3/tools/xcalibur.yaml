@@ -1,0 +1,20 @@
+name: Xcalibur
+slug: xcalibur
+version_used: null
+edam_topics: []
+evidence_spans:
+- The sequence creation is setup for the Orbitrap ID-X (Xcalibur).
+derived_from:
+- doi: 10.1038/s41592-025-02813-0
+  title: 'MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries'
+- doi: 10.1021/acs.analchem.5c00567
+  title: Automated Integration and Quality Assessment of Chromatographic Peaks in LC–MS-Based Metabolomics and Lipidomics Using TARDIS
+source_repos:
+- https://github.com/corinnabrungs/msn_tree_library
+- https://github.com/UGent-LIMET/TARDIS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/corinnabrungs/msn_tree_library

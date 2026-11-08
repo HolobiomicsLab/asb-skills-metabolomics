@@ -1,0 +1,20 @@
+name: github.com/enveda/ccs-prediction
+slug: github-com-enveda-ccs-prediction
+version_used: null
+edam_topics: []
+evidence_spans:
+- github.com__enveda__ccs-prediction
+- located at https://github.com/enveda/ccs-prediction/tree/main/notebooks/data_processing
+- 'SigmaCCS: https://github.com/zmzhang/SigmaCCS'
+- 'GraphCCS: https://github.com/tingxiecsu/GraphCCS'
+derived_from:
+- doi: 10.1186/s13321-024-00899-w
+  title: Evaluating the generalizability of graph neural networks for predicting collision cross section
+source_repos:
+- https://github.com/enveda/ccs-prediction
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enveda/ccs-prediction

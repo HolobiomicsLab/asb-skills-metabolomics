@@ -1,0 +1,16 @@
+name: emetabolomics web interface
+slug: emetabolomics-web-interface
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.5702/massspectrometry.s0033
+  title: Automatic Compound Annotation from Mass Spectrometry Data Using MAGMa
+source_repos:
+- https://github.com/NLeSC/MAGMa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NLeSC/MAGMa

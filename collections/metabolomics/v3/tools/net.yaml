@@ -1,0 +1,21 @@
+name: .NET
+slug: net
+version_used: '8.0'
+edam_topics: []
+evidence_spans:
+- 'please install
+
+  the .NET 8.0'
+derived_from:
+- doi: 10.1101/2020.10.30.362533
+  title: rawR - Direct access to raw mass spectrometry data in R
+- doi: 10.1021/acs.jproteome.0c00866
+  title: 'The rawrr R Package: Direct Access to Orbitrap Data and Beyond'
+source_repos:
+- https://github.com/fgcz/rawrr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fgcz/rawrr

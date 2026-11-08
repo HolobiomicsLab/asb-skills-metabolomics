@@ -1,0 +1,41 @@
+name: MassBank
+slug: massbank
+version_used: null
+edam_topics: []
+evidence_spans:
+- Experimental EI-MS and ESI-MS/MS positive ion mode mass spectra for these compounds were extracted from the MassBank database
+- 'Notable examples include the databases
+
+  METLIN,11 MassBank,12 and GNPS13'
+- The first postanalysis module, peak identification, utilizes m/z data from HMDB and MassBank for matching purposes
+- MassBank/MassBank-data
+derived_from:
+- doi: 10.1021/acs.jafc.3c09767
+  title: 'BitterMasS: Predicting Bitterness from Mass Spectra'
+- doi: 10.1093/bib/bbaf080
+  title: 'GcDUO: an open-source software for GC × GC–MS data analysis'
+- doi: 10.1021/acs.analchem.1c03032
+  title: Automated Annotation of Untargeted All-Ion Fragmentation LC–MS Metabolomics Data with MetaboAnnotatoR
+- doi: 10.1021/acs.jproteome.9b00640
+  title: 'Skyline for Small Molecules: A Unifying Software Package for Quantitative Metabolomics'
+- doi: 10.1021/acs.analchem.5c03225
+  title: 'SMART 2.0 Statistical Metabolomics Analysis: An R Tool 2.0'
+- doi: 10.1038/nbt.3689
+  title: SPLASH, a hashed identifier for mass spectra
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+source_repos:
+- https://github.com/Niv-Lab/BitterPredict1
+- https://github.com/mariallr/GcDuo
+- https://github.com/gggraca/MetaboAnnotatoR
+- https://github.com/ProteoWizard/pwiz
+- https://github.com/MassBank/MassBank-data
+- https://github.com/YuJenL/SMART
+- https://github.com/berlinguyinca/spectra-hash
+- https://github.com/IxI-97/BiomiX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Niv-Lab/BitterPredict1

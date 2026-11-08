@@ -1,0 +1,19 @@
+name: github.com/emosca-cnr/margheRita
+slug: github-com-emosca-cnr-margherita
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Source code: https://github.com/emosca-cnr/margheRita'
+- '"repo": "github.com__emosca-cnr__margheRita"'
+- packages [notame](https://github.com/antonvsdata/notame) and [POMA](https://www.bioconductor.org/packages/release/bioc/html/POMA.html)
+derived_from:
+- doi: 10.1101/2024.06.20.599545
+  title: 'MargheRita: streamlining MS-DIAL output analysis and metabolite identification in R'
+source_repos:
+- https://github.com/emosca-cnr/margheRita
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/emosca-cnr/margheRita

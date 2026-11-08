@@ -1,0 +1,21 @@
+name: GLEAMS
+slug: gleams
+version_used: null
+edam_topics: []
+evidence_spans:
+- they can be clustered to group spectra with similar embeddings using the `gleams cluster` command
+- Full configuration of GLEAMS, including various configurations to train the neural network, can be modified in the `gleams/config.py` file.
+- command to convert MS/MS spectra in peak files to 32-dimensional embeddings
+- GLEAMS is a Learned Embedding for Annotating Mass Spectra.
+derived_from:
+- doi: 10.1038/s41592-022-01496-1
+  title: A learned embedding for efficient joint analysis of millions of mass spectra
+source_repos:
+- https://github.com/bittremieux/GLEAMS
+- https://github.com/bittremieux-lab/GLEAMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bittremieux/GLEAMS

@@ -1,0 +1,19 @@
+name: cand_rank_canopus.py
+slug: cand-rank-canopus-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'To rank candidates for the complete NPLIB1 dataset, use the command: python cand_rank_canopus.py.'
+- cand_rank_canopus.py - run ranking for the NPLIB1 dataset
+- cand_rank_canopus.py - run ranking for the NPLIB1 dataset.
+derived_from:
+- doi: 10.1093/bioinformatics/btaf354
+  title: 'JESTR: Joint Embedding Space Technique for Ranking candidate molecules for the annotation of untargeted metabolomics data'
+source_repos:
+- https://github.com/HassounLab/JESTR1
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/JESTR1

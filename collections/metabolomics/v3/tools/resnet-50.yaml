@@ -1,0 +1,17 @@
+name: ResNet-50
+slug: resnet-50
+version_used: null
+edam_topics: []
+evidence_spans:
+- The best performance we achieved using Resnet50 CNN pretrained on Imagenet.
+derived_from:
+- doi: 10.1186/s12859-020-3425-x
+  title: 'OffsampleAI: artificial intelligence approach to recognize off-sample mass spectrometry images'
+source_repos:
+- https://github.com/metaspace2020/offsample
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/metaspace2020/offsample

@@ -1,0 +1,17 @@
+name: machine learning (random forest regression)
+slug: machine-learning-random-forest-regression
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2024.08.17.608400
+  title: 'Recon8D: A metabolic regulome network from oct-omics and machine learning'
+source_repos:
+- https://github.com/sriram-lab/Metab8D
+- https://github.com/sriram-lab/Recon8D
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sriram-lab/Metab8D

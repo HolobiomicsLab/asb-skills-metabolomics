@@ -1,0 +1,131 @@
+---
+name: creatinine-clinical-lcms-correlation-analysis
+description: Use when a log2-scaled LC-MS metabolomics table contains both a metabolite
+  feature (e.g. creatinine) and an independent clinical reference measurement of the
+  same analyte plus covariates, and you must assess whether batch correction improved
+  biological signal recovery.
+when_to_use_negative:
+- No paired independent reference measurement of the analyte exists (e.g. no clinical
+  creatinine), so the corrected-vs-raw agreement cannot be anchored to external truth
+- The data are intensity units not yet normalized/scaled on log2, violating the dbnorm
+  input requirement that high-abundance features not dominate the drift assessment
+- The goal is quantifying residual batch association itself (adj-R2 scoring, PCA/violin
+  plots) rather than validating biological recovery — use dbnormSCORE/dbnorm visualization
+  functions instead
+edam_operation: http://edamontology.org/operation_3659
+edam_topics:
+- http://edamontology.org/topic_3173
+- http://edamontology.org/topic_0092
+tools:
+- name: dbnorm
+  role: Supplies the batch-correction models (lowess/two-stage, ber, bagging ber,
+    parametric and nonparametric ComBat) whose corrected outputs are compared by correlation
+    and regression
+  repo: https://github.com/NBDZ/dbnorm
+- name: R
+  role: Environment for reading the .csv tables, computing Pearson correlations and
+    Fisher's z CIs, and fitting lm regressions (stats, limma, data.table/dplyr)
+- name: ber
+  role: Empirical-Bayes L/S batch-correction model whose corrected SKIPOGH creatinine
+    values reach the highest agreement (r ≈ 0.61) with clinical creatinine
+- name: ComBat
+  role: sva-package empirical Bayes correction model (parametric and nonparametric
+    versions) implemented via dbnorm to produce corrected creatinine intensities for
+    the regression
+- name: limma
+  role: Used with stats::lm for the multiple regression of CKD-EPI on creatinine with
+    Bonferroni-corrected significance testing
+provenance:
+  source_task_ids:
+  - task_004
+  source_papers:
+  - doi: 10.1038/s41598-021-84824-3
+    title: DBnorm as an R package for the comparison and selection of appropriate
+      statistical methods for batch effect correction in metabolomic studies
+  source_content_hash: sha256:1bfcafd62324bcbb18937c2c0b17b17cba5235bc56cc0d1bc9c6054e9d4ba9ba
+schema_version: 0.2.0
+metadata:
+  license_tier: open
+  repo_url: https://github.com/NBDZ/dbnorm
+  tools:
+  - ComBat
+  - R
+  - ber
+  - dbnorm
+  - limma
+  edam_operation: http://edamontology.org/operation_3659
+  edam_topics:
+  - http://edamontology.org/topic_3173
+  - http://edamontology.org/topic_0092
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: promoted
+yes_rate: 1.0
+n_claims: 16
+---
+
+# creatinine-clinical-lcms-correlation-analysis
+
+## Summary
+
+Quantifies whether batch effect correction in dbnorm improves agreement between LC-MS/MS-measured creatinine and clinically measured creatinine in the SKIPOGH cohort, by computing Pearson r with Fisher's z 95% CIs and a multiple linear regression of CKD-EPI on creatinine adjusted for age and sex.
+
+## When to use
+
+Use when a log2-scaled LC-MS metabolomics table contains both a metabolite feature (e.g. creatinine) and an independent clinical reference measurement of the same analyte plus covariates, and you must assess whether batch correction improved biological signal recovery.
+
+## When NOT to use
+
+- No paired independent reference measurement of the analyte exists (e.g. no clinical creatinine), so the corrected-vs-raw agreement cannot be anchored to external truth
+- The data are intensity units not yet normalized/scaled on log2, violating the dbnorm input requirement that high-abundance features not dominate the drift assessment
+- The goal is quantifying residual batch association itself (adj-R2 scoring, PCA/violin plots) rather than validating biological recovery — use dbnormSCORE/dbnorm visualization functions instead
+
+## Inputs
+
+- Log2-transformed SKIPOGH plasma metabolomics intensity table in .csv format (samples in rows, features in columns, batch levels in the first column)
+- Clinical routine creatinine measurements, CKD-EPI values, age and sex covariates for the 934 SKIPOGH participants with available CKD-EPI
+- Raw and batch-corrected creatinine intensity vectors from dbnorm models (lowess, ber, bagging ber, parametric ComBat, nonparametric ComBat)
+
+## Outputs
+
+- creatinine_correlation_regression_stats.csv — comparison table of Pearson r, Fisher's z with 95% CI, and regression coefficients with Bonferroni-corrected p-values per data version (raw, lowess, ber, parametric ComBat, nonparametric ComBat)
+
+## How to apply
+
+Load the log2-transformed SKIPOGH plasma metabolomics dataset (creatinine feature plus clinical creatinine, CKD-EPI, age and sex for the 934 participants with available CKD-EPI) using data.table/dplyr in R. Obtain creatinine intensities from the raw data and from corrected datasets generated by the dbnorm statistical models (lowess, ber, bagging ber, parametric ComBat, nonparametric ComBat). Compute Pearson's r between LC-MS and clinical creatinine per data version, transforming r to Fisher's z to derive 95% confidence intervals at alpha < 0.05 (expected: raw r ≈ 0.18, 95% CI 0.12–0.24; lowess r ≈ 0.5, CI 0.48–0.60; statistical-model-corrected r ≈ 0.61). Fit a multiple linear regression of CKD-EPI on creatinine adjusted for age and sex for each data version with the lm function of the R stats package and the limma package, applying Bonferroni correction as the metabolite-selection significance criterion. Assemble Pearson r, Fisher's z with 95% CI, and regression coefficients/Bonferroni-corrected p-values per correction model into creatinine_correlation_regression_stats.csv. The rationale, grounded in the article, is that data cleaning removes unwanted technical variation so that analyte-level agreement with clinical chemistry and clinical outcomes (renal function) only emerges after appropriate correction.
+
+## Related tools
+
+- **dbnorm** (Supplies the batch-correction models (lowess/two-stage, ber, bagging ber, parametric and nonparametric ComBat) whose corrected outputs are compared by correlation and regression) — https://github.com/NBDZ/dbnorm
+- **R** (Environment for reading the .csv tables, computing Pearson correlations and Fisher's z CIs, and fitting lm regressions (stats, limma, data.table/dplyr))
+- **ber** (Empirical-Bayes L/S batch-correction model whose corrected SKIPOGH creatinine values reach the highest agreement (r ≈ 0.61) with clinical creatinine)
+- **ComBat** (sva-package empirical Bayes correction model (parametric and nonparametric versions) implemented via dbnorm to produce corrected creatinine intensities for the regression)
+- **limma** (Used with stats::lm for the multiple regression of CKD-EPI on creatinine with Bonferroni-corrected significance testing)
+
+## Examples
+
+```
+fit <- lm(CKD_EPI ~ creatinine_lcms + age + sex, data = skipogh); r_raw <- cor(skipogh$creatinine_lcms, skipogh$creatinine_clinical, method = "pearson")
+```
+
+## Evaluation signals
+
+- Raw-data Pearson r between LC-MS/MS and clinical creatinine ≈ 0.18 (95% CI 0.12–0.24); lowess ≈ 0.5 (95% CI 0.48–0.60); ber/parametric-ComBat-corrected ≈ 0.61
+- CKD-EPI–creatinine regression is non-significant on raw data but significant after appropriate correction (Bonferroni-corrected p < 0.05), adjusted for age and sex
+- Regression is fit on the 934 SKIPOGH participants with available CKD-EPI, not the full cohort
+- Fisher's z transformation is applied to derive the reported 95% confidence intervals rather than reporting bare correlation coefficients
+- Output table creatinine_correlation_regression_stats.csv contains one row per data version with columns for Pearson r, Fisher's z CI, and regression statistics
+
+## Limitations
+
+- Lowess and nonparametric ComBat leave residual batch association (maximum residual variability 0.78 and 0.60 respectively in SKIPOGH), so corrected-data conclusions depend on model choice; parametric ComBat, ber and bagging ber showed no residual association
+- The 0.61 ceiling in agreement indicates substantial residual mismatch between LC-MS/MS and clinical chemistry even after correction
+- >50% of metabolite variability was explained by batch in raw SKIPOGH data, so raw-data regressions on uncorrected features are unreliable
+
+## Evidence
+
+- [results] The correlation coefficient (r) changed from 0.18 ... observed in the raw data, to 0.5 (Fisher’s z = 0.54 with a 95% CI, 0.48 to 0.60): "The correlation coefficient (r) changed from 0.18 (Fisher’s z = 0.18 with a 95% interval level (CI), 0.12 to 0.24) observed in the raw data, to 0.5 (Fisher’s z = 0.54 with a 95% CI, 0.48 to 0.60) in"
+- [results] a multiple regression model was applied ... for 934 participants: "a multiple regression model was applied to the raw, lowess- and ber-corrected data for 934 participants"
+- [results] We first evaluated the correlation between creatinine levels, as determined by the targeted LC–MS/MS metabolomics experiment and those measured in the clinical laboratory: "We first evaluated the correlation between creatinine levels, as determined by the targeted LC–MS/MS metabolomics experiment and those measured in the clinical laboratory"
+- [readme] Data to be uploaded must be normalized and scaled on the log2 ... The input data must be in .csv format: "Data to be uploaded must be normalized and scaled on the log2 to account for the high abundance features (variables) by which technical heterogeneity might be overlooked."
+- [discussion] supports the necessity of data cleaning to remove unwanted technical variation: "supports the necessity of data cleaning to remove unwanted technical variation"

@@ -1,0 +1,19 @@
+name: structToolbox
+slug: structtoolbox
+version_used: null
+edam_topics: []
+evidence_spans:
+- We also present a toolbox, named structToolbox, which includes an extensive set of commonly used data analysis methods that have been implemented using struct
+derived_from:
+- doi: 10.1093/bioinformatics/btaa1031
+  title: 'struct: an R/Bioconductor-based framework for standardized metabolomics data analysis and beyond'
+source_repos:
+- https://github.com/computational-metabolomics/struct
+- https://github.com/computational-metabolomics/structToolbox
+- https://github.com/github.com/computational-metabolomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/computational-metabolomics/struct

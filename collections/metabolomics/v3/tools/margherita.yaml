@@ -1,0 +1,20 @@
+name: margheRita
+slug: margherita
+version_used: null
+edam_topics: []
+evidence_spans:
+- The R package margheRita addresses the complete workflow for metabolomic profiling in untargeted studies based on liquid chromatography (LC) coupled with tandem mass spectrometry (MS/MS).
+- 'package: margheRita'
+- 'Source code: https://github.com/emosca-cnr/margheRita'
+- filtering by coefficient of variation (samples vs QCs)
+derived_from:
+- doi: 10.1101/2024.06.20.599545
+  title: 'MargheRita: streamlining MS-DIAL output analysis and metabolite identification in R'
+source_repos:
+- https://github.com/emosca-cnr/margheRita
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/emosca-cnr/margheRita

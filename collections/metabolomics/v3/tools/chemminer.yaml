@@ -1,0 +1,20 @@
+name: ChemmineR
+slug: chemminer
+version_used: null
+edam_topics: []
+evidence_spans:
+- generate substructure data via ChemmineR's read.SDFset() (rings, subgroups, atom counts, charges)
+derived_from:
+- doi: 10.1093/bioinformatics/btv194
+  title: 'MetaMapR: pathway independent metabolomic network analysis incorporating unknowns'
+- doi: 10.1371/journal.pone.0306202
+  title: 'uafR: An R package that automates mass spectrometry data processing'
+source_repos:
+- https://github.com/dgrapov/MetaMapR
+- https://github.com/castratton/uafR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dgrapov/MetaMapR

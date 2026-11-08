@@ -1,0 +1,17 @@
+name: chromatographR
+slug: chromatographr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.5c00548
+  title: 'MetScribeR: A Semiautomated Tool for Data Processing of In-House LC-MS Metabolite Reference Libraries'
+source_repos:
+- https://github.com/ethanbass/chromatographR
+- https://github.com/ncats/metScribeR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ethanbass/chromatographR

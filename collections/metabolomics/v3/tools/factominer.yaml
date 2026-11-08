@@ -1,0 +1,17 @@
+name: FactoMineR
+slug: factominer
+version_used: '2.4'
+edam_topics: []
+evidence_spans:
+- applied MCA [65] using the R library FactoMineR (2.4) [64] to obtain factors for the behavioral data
+derived_from:
+- doi: 10.1093/gigascience/giad115
+  title: A multi-omics data analysis workflow packaged as a FAIR Digital Object
+source_repos:
+- https://github.com/Xomics/ACTIONdemonstrator_workflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Xomics/ACTIONdemonstrator_workflow

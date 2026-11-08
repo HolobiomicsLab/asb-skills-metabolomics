@@ -1,0 +1,17 @@
+name: MetFragCommandLine
+slug: metfragcommandline
+version_used: null
+edam_topics: []
+evidence_spans:
+- ipb-halle/MetFragRelaunched
+derived_from:
+- doi: 10.1186/s13321-016-0115-9
+  title: 'MetFrag relaunched: incorporating strategies beyond in silico fragmentation'
+source_repos:
+- https://github.com/ipb-halle/MetFragRelaunched
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ipb-halle/MetFragRelaunched

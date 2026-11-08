@@ -1,0 +1,18 @@
+name: github.com/ZaylaSchaeffer/GlyKAn-AZ-application
+slug: github-com-zaylaschaeffer-glykan-az-application
+version_used: null
+edam_topics: []
+evidence_spans:
+- github.com__ZaylaSchaeffer__GlyKAn-AZ-application
+- 'Source: github:github.com__ZaylaSchaeffer__GlyKAn-AZ-application'
+derived_from:
+- doi: 10.1186/s12859-023-05346-5
+  title: A MATLAB-based app to improve LC–MS/MS data analysis for N-linked glycan peak identification
+source_repos:
+- https://github.com/ZaylaSchaeffer/GlyKAn-AZ-application
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZaylaSchaeffer/GlyKAn-AZ-application

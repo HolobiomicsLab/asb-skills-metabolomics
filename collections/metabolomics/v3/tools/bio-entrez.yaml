@@ -1,0 +1,17 @@
+name: Bio.Entrez
+slug: bio-entrez
+version_used: '1.76'
+edam_topics: []
+evidence_spans:
+- '`generate_fp.py` prompts you to enter your email for using the [Bio.Entrez](https://biopython.org/docs/1.76/api/Bio.Entrez.html) package'
+derived_from:
+- doi: 10.1093/bioadv/vbad098
+  title: Prediction of metabolite–protein interactions based on integration of machine learning and constraint-based modeling
+source_repos:
+- https://github.com/fayazsoleymani/SARTRE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fayazsoleymani/SARTRE

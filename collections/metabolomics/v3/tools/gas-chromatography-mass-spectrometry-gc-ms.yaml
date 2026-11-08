@@ -1,0 +1,17 @@
+name: gas chromatography-mass spectrometry (GC-MS)
+slug: gas-chromatography-mass-spectrometry-gc-ms
+version_used: null
+edam_topics: []
+evidence_spans:
+- derivatization-based gas chromatography-mass spectrometry (GC-MS)
+derived_from:
+- doi: 10.3390/metabo13080944
+  title: Denoising Autoencoder Normalization for Large-Scale Untargeted Metabolomics by Gas Chromatography–Mass Spectrometry
+source_repos:
+- https://github.com/slfan2013/SERDA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/slfan2013/SERDA

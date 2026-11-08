@@ -1,0 +1,42 @@
+name: caret
+slug: caret
+version_used: '6.0'
+edam_topics: []
+evidence_spans:
+- caret13 for machine learning (ML)
+- we have tested the speed and performance of four popular ML algorithms available in the caret package
+- either stratified 5-fold cross-validation or leave-one-out cross-validation (LOOCV)
+- packageVersion("caret")
+- caret (Imports)
+- The evaluation processes were carried out using the caret package
+derived_from:
+- doi: 10.1021/acs.analchem.1c05224
+  title: 'automRm: An R Package for Fully Automatic LC-QQQ-MS Data Preprocessing Powered by Machine Learning'
+- doi: 10.1016/j.aca.2025.344698
+  title: 'DIATAGeR: Triacylglycerol annotation of data-independent acquisition based lipidomics'
+- doi: 10.1007/s11306-020-01738-3
+  title: 'MetaClean: a machine learning-based classifier for reduced false positive peak detection in untargeted LC–MS metabolomics data'
+- doi: 10.1093/bioadv/vbae178
+  title: 'MeTEor: an R Shiny app for exploring longitudinal metabolomics data'
+- doi: 10.1021/acs.analchem.9b05765
+  title: 'Retip: Retention Time Prediction for Compound Annotation in Untargeted Metabolomics'
+- doi: 10.3390/metabo13080944
+  title: Denoising Autoencoder Normalization for Large-Scale Untargeted Metabolomics by Gas Chromatography–Mass Spectrometry
+- doi: 10.1093/gigascience/giy136
+  title: 'Lilikoi: an R package for personalized pathway-based classification modeling using metabolomics data'
+- doi: 10.1016/j.csbj.2019.04.009
+  title: Accounting for biological variation with linear mixed-effects modelling improves the quality of clinical metabolomics data
+source_repos:
+- https://github.com/Velenosi-Lab/DIATAGeR
+- https://github.com/KelseyChetnik/MetaClean
+- https://github.com/scibiome/meteor
+- https://github.com/oloBion/Retip
+- https://github.com/slfan2013/SERDA
+- https://github.com/lanagarmire/lilikoi
+- https://github.com/kwanjeeraw/lmm2met
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Velenosi-Lab/DIATAGeR

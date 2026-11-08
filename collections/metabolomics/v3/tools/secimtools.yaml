@@ -1,0 +1,23 @@
+name: SECIMTools
+slug: secimtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- SECIMTools (SouthEast Center for Integrated Metabolomics) is a set of Python applications that are available both as standalone tools and wrapped for use in Galaxy.
+- The Blank Feature Filtering (BFF) tool calculates a limit of detection based upon values for a feature [15].
+- The Imputation tool includes the use of the group mean or group median in place of any missing values as well as K-nearest neighbor (KNN)
+- SECIMTools is open source, the code, is available on GitHub using the MIT license
+- 'SECIMTools consists of four main types of tools: data pre-processing, quality control (QC), data analysis, and utilities (Fig. 1).'
+- SECIMTools implements a fully fixed ANOVA framework that allows covariates in the model
+- The LASSO/Elastic Net tool performs a selection of features that are different for each pairwise comparison between the groups in the grouping variable specified by the user.
+derived_from:
+- doi: 10.1186/s12859-018-2134-1
+  title: 'SECIMTools: a suite of metabolomics data analysis tools'
+source_repos:
+- https://github.com/secimTools/SECIMTools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/secimTools/SECIMTools

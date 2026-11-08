@@ -1,0 +1,18 @@
+name: CPAT
+slug: cpat
+version_used: null
+edam_topics: []
+evidence_spans:
+- their coding potential [CPAT](../modules/local/cpat)
+- Functional annotation | CPAT, signalP, pfam
+derived_from:
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+source_repos:
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses

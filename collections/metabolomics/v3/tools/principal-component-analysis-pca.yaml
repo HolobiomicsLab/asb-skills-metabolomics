@@ -1,0 +1,17 @@
+name: principal component analysis (PCA)
+slug: principal-component-analysis-pca
+version_used: null
+edam_topics: []
+evidence_spans:
+- principal component analysis (PCA) of the 22 plasma metabolites’ relative concentration values
+derived_from:
+- doi: 10.1021/acs.analchem.1c00113
+  title: A Computationally Lightweight Algorithm for Deriving Reliable Metabolite Panel Measurements from 1D <sup>1</sup>H NMR
+source_repos:
+- https://github.com/pantakis/SMolESY-select
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pantakis/SMolESY-select

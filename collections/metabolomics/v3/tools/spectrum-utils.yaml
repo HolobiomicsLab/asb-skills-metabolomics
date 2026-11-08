@@ -1,0 +1,32 @@
+name: spectrum_utils
+slug: spectrum-utils
+version_used: 0.3.5
+edam_topics: []
+evidence_spans:
+- Here we present the spectrum_utils package for MS data processing and visualization in Python.
+- Spectrum processing in spectrum_utils has been optimized for computational efficiency
+- spectrum_utils is a Python package for mass spectrometry data processing and visualization
+- 'import spectrum_utils.plot as sup
+
+  import spectrum_utils.spectrum as sus'
+- 'Again, only a single line of code is required to do the actual plotting: `spectrum_utils.plot.mirror(...)`'
+- import spectrum_utils.spectrum as sus
+derived_from:
+- doi: 10.1101/2020.05.09.086066
+  title: Universal MS/MS Visualization and Retrieval with the Metabolomics Spectrum Resolver Web Service
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+source_repos:
+- https://github.com/mwang87/MetabolomicsSpectrumResolver
+- https://github.com/bittremieux/spectrum_utils
+- https://github.com/bittremieuxlab/spectrum_utils
+- https://github.com/bittremieux/falcon
+- https://github.com/bittremieuxlab/falcon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mwang87/MetabolomicsSpectrumResolver

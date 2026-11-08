@@ -1,0 +1,20 @@
+name: mzMLb
+slug: mzmlb
+version_used: null
+edam_topics: []
+evidence_spans:
+- The development of mzMLb represented an attempt to address some of the limitations of mzML, particularly around data compression and access speed.
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.jproteome.5c00435
+  title: 'mzPeak: Designing a Scalable, Interoperable, and Future-Ready Mass Spectrometry Data Format'
+source_repos:
+- https://github.com/PNNL-m-q/mza
+- https://github.com/HUPO-PSI/mzPeak
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PNNL-m-q/mza

@@ -1,0 +1,20 @@
+name: Proteome Discoverer
+slug: proteome-discoverer
+version_used: '3.0'
+edam_topics: []
+evidence_spans:
+- all the 15 features were reliably identified in Proteome Discoverer (PD) results and verified in Skyline results
+derived_from:
+- doi: 10.1021/acs.jproteome.4c00854
+  title: 'MSConnect: Open-Source, End-to-End Platform for Automated Mass Spectrometry Data Management, Analysis, and Visualization'
+- doi: 10.1038/s41467-023-43909-5
+  title: 'DeepRTAlign: toward accurate retention time alignment for large cohort mass spectrometry data analysis'
+source_repos:
+- https://github.com/RTKlab-BYU/MSConnect
+- https://github.com/PHOENIXcenter/deeprtalign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RTKlab-BYU/MSConnect

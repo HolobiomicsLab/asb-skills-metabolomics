@@ -1,0 +1,19 @@
+name: msms_rt_score_integration
+slug: msms-rt-score-integration
+version_used: null
+edam_topics: []
+evidence_spans:
+- This module is an extension of probabilistic framework described in the paper [Probabilistic framework for integration of mass spectrum and retention time information in small molecule identification]
+- which is available in the [GitHub repository](https://github.com/aalto-ics-kepaco/msms_rt_score_integration)
+derived_from:
+- doi: 10.1186/s13321-025-00968-8
+  title: 'ROASMI: accelerating small molecule identification by repurposing retention data'
+source_repos:
+- https://github.com/aalto-ics-kepaco/msms_rt_score_integration
+- https://github.com/FangYuan717/ROASMI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aalto-ics-kepaco/msms_rt_score_integration

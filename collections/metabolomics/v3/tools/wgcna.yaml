@@ -1,0 +1,27 @@
+name: WGCNA
+slug: wgcna
+version_used: null
+edam_topics: []
+evidence_spans:
+- Weighted correlation network analysis (WGCNA) of the first cohort with clinical indicators
+- we compared the microbial modules in the IBD (PRISM) dataset identified by MiMeNet to those identified by the Weighted Correlation Network Analysis (WGCNA)
+derived_from:
+- doi: 10.1038/s41467-025-59683-5
+  title: 'LipidIN: a comprehensive repository for flash platform-independent annotation and reverse lipidomics'
+- doi: 10.1093/bioinformatics/bty344
+  title: 'MetaboDiff: an R package for differential metabolomic analysis'
+- doi: 10.1101/2025.06.26.661636
+  title: 'MetaNet: a scalable and integrated tool for reproducible omics network analysis'
+- doi: 10.1371/journal.pcbi.1009021
+  title: 'MiMeNet: Exploring microbiome-metabolome relationships using neural networks'
+source_repos:
+- https://github.com/LinShuhaiLAB/LipidIN
+- https://github.com/andreasmock/MetaboDiff
+- https://github.com/Asa12138/MetaNet
+- https://github.com/YDaiLab/MiMeNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LinShuhaiLAB/LipidIN

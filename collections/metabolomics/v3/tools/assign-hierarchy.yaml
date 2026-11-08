@@ -1,0 +1,17 @@
+name: assign_hierarchy
+slug: assign-hierarchy
+version_used: null
+edam_topics: []
+evidence_spans:
+- To assign hierarchical class data, use the ```assign_hierarchy``` function
+derived_from:
+- doi: 10.1128/mra.00129-19
+  title: omu, a Metabolomics Count Data Analysis Tool for Intuitive Figures and Convenient Metadata Collection
+source_repos:
+- https://github.com/connor-reid-tiffany/Omu
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/connor-reid-tiffany/Omu

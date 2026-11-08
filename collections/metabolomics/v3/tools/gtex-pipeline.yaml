@@ -1,0 +1,18 @@
+name: GTEx Pipeline
+slug: gtex-pipeline
+version_used: null
+edam_topics: []
+evidence_spans:
+- we modified the GTEx pipeline to use a pseudolog (log2(x + 1)) transformation
+derived_from:
+- doi: 10.1038/s41467-024-45966-w
+  title: The impact of exercise on gene regulation in association with complex trait genetics
+source_repos:
+- https://github.com/broadinstitute/gtex-pipeline
+- https://github.com/NikVetr/MoTrPAC_Complex_Traits
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/broadinstitute/gtex-pipeline

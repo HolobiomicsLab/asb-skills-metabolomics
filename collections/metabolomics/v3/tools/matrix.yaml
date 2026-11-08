@@ -1,0 +1,18 @@
+name: Matrix
+slug: matrix
+version_used: null
+edam_topics: []
+evidence_spans:
+- transformed the pairwise-estimated correlation matrices with Higham’s algorithm61 implemented in the R-package Matrix62 function nearPD()
+- implemented in the R-package Matrix62 function nearPD()
+derived_from:
+- doi: 10.1038/s41467-024-45966-w
+  title: The impact of exercise on gene regulation in association with complex trait genetics
+source_repos:
+- https://github.com/NikVetr/MoTrPAC_Complex_Traits
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NikVetr/MoTrPAC_Complex_Traits

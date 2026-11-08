@@ -1,0 +1,18 @@
+name: MS-DIAL 5
+slug: ms-dial-5
+version_used: null
+edam_topics: []
+evidence_spans:
+- MSDIALCUI.exe lcms -i <demo>\analysis_files.csv -o <out> -m <demo>\method.txt
+- Here, we provide MS-DIAL 5 for in-depth lipidome structural elucidation through electron-activated dissociation (EAD)-based tandem MS
+derived_from:
+- doi: 10.1038/s41467-024-54137-w
+  title: MS-DIAL 5 multimodal mass spectrometry data mining unveils lipidome complexities
+source_repos:
+- https://github.com/systemsomicslab/MsdialWorkbench
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/systemsomicslab/MsdialWorkbench

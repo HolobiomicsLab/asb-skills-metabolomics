@@ -1,0 +1,16 @@
+name: OpenMS 2.0
+slug: openms-2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/nmeth.3959
+  title: 'OpenMS: a flexible open-source software platform for mass spectrometry data analysis'
+source_repos:
+- https://github.com/OpenMS/OpenMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OpenMS/OpenMS

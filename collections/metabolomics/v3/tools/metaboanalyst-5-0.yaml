@@ -1,0 +1,17 @@
+name: MetaboAnalyst 5.0
+slug: metaboanalyst-5-0
+version_used: '5.0'
+edam_topics: []
+evidence_spans:
+- Enrichment analysis was performed with MetaboAnalyst 5.0 [30], with pathways based on the Small Molecule Pathway Database (SMPDB) [31]
+- Enrichment analysis was performed with MetaboAnalyst 5.0 [30], with pathways based on the Small Molecule Pathway Database (SMPDB)
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

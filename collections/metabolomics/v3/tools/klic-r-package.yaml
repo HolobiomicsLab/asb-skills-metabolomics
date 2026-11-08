@@ -1,0 +1,20 @@
+name: klic (R package)
+slug: klic-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- R packages klic and coca are available on the Comprehensive R Archive Network.
+- The iCluster model is fitted using the tune.iCluster2 function of the R package iCluster (Shen, 2012)
+- For Clusternomics we use the contextCluster function of the R package clusternomics Gabasová (2017a)
+- using the R package sparcl (Witten and Tibshirani, 2018).
+derived_from:
+- doi: 10.1093/bioinformatics/btaa593
+  title: Multiple kernel learning for integrative consensus clustering of omic datasets
+source_repos:
+- https://github.com/acabassi/klic-pancancer-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/acabassi/klic-pancancer-analysis

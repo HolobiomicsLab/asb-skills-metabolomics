@@ -1,0 +1,17 @@
+name: MESA
+slug: mesa
+version_used: null
+edam_topics: []
+evidence_spans:
+- The MESA cohort was used as a reference (in total, 2656 samples
+derived_from:
+- doi: 10.1021/acs.analchem.1c03592
+  title: Finding Correspondence between Metabolomic Features in Untargeted Liquid Chromatography–Mass Spectrometry Metabolomics Datasets
+source_repos:
+- https://github.com/rjdossan/M2S
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rjdossan/M2S

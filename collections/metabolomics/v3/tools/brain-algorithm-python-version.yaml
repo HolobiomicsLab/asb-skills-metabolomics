@@ -1,0 +1,17 @@
+name: BRAIN algorithm (Python version)
+slug: brain-algorithm-python-version
+version_used: null
+edam_topics: []
+evidence_spans:
+- theoretical isotopic distributions were calculated using the Python version of the BRAIN algorithm62
+derived_from:
+- doi: 10.1038/s41592-024-02171-3
+  title: Multiscale biochemical mapping of the brain through deep-learning-enhanced high-throughput mass spectrometry
+source_repos:
+- https://github.com/richardxie1119/MEISTER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/richardxie1119/MEISTER

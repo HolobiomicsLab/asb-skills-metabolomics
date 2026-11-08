@@ -1,0 +1,17 @@
+name: MIBiG database
+slug: mibig-database
+version_used: null
+edam_topics: []
+evidence_spans:
+- 17 for which the biosynthesis gene clusters can be found at the MIBiG database
+derived_from:
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+source_repos:
+- https://github.com/tiagolbiotech/NPOmix_python
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tiagolbiotech/NPOmix_python

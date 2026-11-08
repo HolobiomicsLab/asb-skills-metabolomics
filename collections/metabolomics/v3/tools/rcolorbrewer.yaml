@@ -1,0 +1,20 @@
+name: RColorBrewer
+slug: rcolorbrewer
+version_used: null
+edam_topics: []
+evidence_spans:
+- getPalette = colorRampPalette(RColorBrewer::brewer.pal(9, "Set1"))
+derived_from:
+- doi: 10.1016/j.chroma.2018.09.050
+  title: eicCluster software, an open-source in silico tool, and on-surface syntheses, an in situ concept, both exploited for signal highlighting in high-resolution mass spectrometry to ease structure elucidation in planar chromatography
+- doi: 10.1093/bioinformatics/btac647
+  title: "Homologue series detection and management in LC-MS data with\n                    <i>homologueDiscoverer</i>"
+source_repos:
+- https://github.com/OfficeChromatography/eicCluster
+- https://github.com/kevinmildau/homologueDiscoverer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OfficeChromatography/eicCluster

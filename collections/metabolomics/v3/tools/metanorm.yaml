@@ -1,0 +1,21 @@
+name: metanorm
+slug: metanorm
+version_used: null
+edam_topics: []
+evidence_spans:
+- pak::pak("UGent-LIMET/Metanorm")
+- Normalizing the data is achieved by calling the *metanorm* function.
+- 'normdat <- metanorm(rawdata[1:5,],       # numerical data matrix to normalize'
+derived_from:
+- doi: 10.1101/2025.09.30.679445
+  title: Robust metabolomics data normalization across scales and experimental designs
+- doi: 10.1021/acs.analchem.5c06841
+  title: Robust Metabolomics Data Normalization across Scales and Experimental Designs
+source_repos:
+- https://github.com/UGent-LIMET/Metanorm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/UGent-LIMET/Metanorm

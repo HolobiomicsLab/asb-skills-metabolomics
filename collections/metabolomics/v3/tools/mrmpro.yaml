@@ -1,0 +1,18 @@
+name: MRMPro
+slug: mrmpro
+version_used: null
+edam_topics: []
+evidence_spans:
+- No usage/docs found.
+- Here we introduce MRMPro, a web-based MRM data analysis platform for efficient manual inspection.
+derived_from:
+- doi: 10.1186/s12859-024-05685-x
+  title: 'MRMPro: a web-based tool to improve the speed of manual calibration for multiple reaction monitoring data analysis by mass spectrometry'
+source_repos:
+- https://github.com/CSi-Studio/MRMPro-Doc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSi-Studio/MRMPro-Doc

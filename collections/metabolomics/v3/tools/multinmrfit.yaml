@@ -1,0 +1,20 @@
+name: MultiNMRFit
+slug: multinmrfit
+version_used: null
+edam_topics: []
+evidence_spans:
+- MultiNMRFit is a scientific tool designed to extract quantitative information (chemical shifts, signal intensity, coupling constants, etc) by fitting a serie of 1D spectra
+- MultiNMRFit is a scientific tool designed to extract quantitative information (chemical shifts, signal intensity, coupling constants, etc)
+derived_from:
+- doi: 10.1093/bioinformatics/btaf463
+  title: 'MultiNMRFit: a software to fit 1D and pseudo-2D NMR spectra'
+source_repos:
+- https://github.com/NMRTeamTBI/MultiNMRFit
+- https://github.com/NMRTeamTBI/MultiNMRfit
+- https://github.com/NMRTeamTBI/MultiNRMRit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NMRTeamTBI/MultiNMRFit

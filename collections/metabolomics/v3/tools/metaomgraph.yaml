@@ -1,0 +1,20 @@
+name: MetaOmGraph
+slug: metaomgraph
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present MetaOmGraph (MOG), a free, open-source, standalone software for exploratory analysis of massive datasets.
+- The statistical analyses and visualizations shown were generated exclusively using MOG.
+- Run the _MetaOmGraph.java_ project to start MetaOmGraph.
+- we used MOG to compute pairwise Pearson correlations among samples from the same biological condition
+derived_from:
+- doi: 10.1093/nar/gkz1209
+  title: 'MetaOmGraph: a workbench for interactive exploratory data analysis of large expression datasets'
+source_repos:
+- https://github.com/urmi-21/MetaOmGraph
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/urmi-21/MetaOmGraph

@@ -1,0 +1,21 @@
+name: CompoundDb
+slug: compounddb
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(CompoundDb)
+- 'The database
+
+  was build from HMDB 5.0 (2021-11-02) using the `r Biocpkg("CompoundDb")` package'
+- We next load the database using the `CompoundDb` package.
+derived_from:
+- doi: 10.3390/metabo12020173
+  title: A Modular and Expandable Ecosystem for Metabolomics Data Annotation in R
+source_repos:
+- https://github.com/jorainer/MetaboAnnotationTutorials
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jorainer/MetaboAnnotationTutorials

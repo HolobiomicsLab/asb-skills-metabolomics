@@ -1,0 +1,20 @@
+name: CDK
+slug: cdk
+version_used: null
+edam_topics: []
+evidence_spans:
+- The CDK [13] library is used to process chemical information and formats.
+- a range of molecular properties, descriptors and fingerprints (full list in Table 2) are computed using the in-build CDK [13] libraries
+derived_from:
+- doi: 10.1186/s13321-020-00478-9
+  title: 'COCONUT online: Collection of Open Natural Products database'
+source_repos:
+- https://github.com/mSorok/COCONUT
+- https://github.com/mSorok/NaturalProductsOnline
+- https://github.com/Steinbeck-Lab/coconut
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mSorok/COCONUT

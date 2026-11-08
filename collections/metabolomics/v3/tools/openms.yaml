@@ -1,0 +1,115 @@
+name: OpenMS
+slug: openms
+version_used: '1.10'
+edam_topics: []
+evidence_spans:
+- provide your code as a pull request for inclusion into OpenMS
+- implemented and integrated in the open-source framework OpenMS (version 1.10) as the software tool FeatureFinderMetabo
+- The algorithm is available as part of the open-source software package OpenMS and runs on all major operating systems.
+- In comparison with the feature alignment methods in OpenMS, MZmine2 and XCMS on three public metabolomics benchmark datasets
+- For example, XCMS6, MS-DIAL7, MZmine8, El-MAVEN9, OpenMS10, and TidyMass11 do not directly annotate ISFs and often report many false positive features
+- a wrapper for OpenMS (Röst et al., 2016) with a strong focus on processing and filtering of raw mass spectral data
+- strategic partnerships will be established not only with major MS vendors but also with developers of existing "keystone" software, e.g., OpenMS, ProteoWizard, METASPACE
+- Several open-source data processing tools, such as OpenMS and MZmine, offer features like baseline noise filtering, retention time alignment
+- such as CFM-ID [30, 31], enviMass [32], enviPick [33], nontarget [34], GenForm [35], MetFrag [36]
+- such as CFM-ID [30, 31], enviMass [32], enviPick [33], nontarget [34], GenForm [35], MetFrag [36], FOR-IDENT [37], MS-DIAL [38], MS-FINDER [39], MZmine [40], OpenMS [41]
+- 'OpenMS: a flexible open-source software platform for mass spectrometry data analysis'
+- open-source tools developed by the research community (e.g., XCMS, MZmine, OpenMS, and MetaboAnalyst)
+- py OpenMS [20] to expose the rich functionality of OpenMS [19, 22] from C++ to Python.
+- Install OpenMS manually
+- using OpenMS [17] 3.0 tools for feature detection, map alignment, adduct annotation, re-quantification and feature linking
+- a set of Python bindings to the OpenMS algorithms (pyOpenMS)
+- Runs grid searches over controller parameters and evaluates each run with OpenMS. Results summarise coverage and intensity.
+- DeepRTAlign supports Dinosaur, OpenMS, MaxQuant, XICFinder
+- --method {Dinosaur,XICFinder,OpenMS,MaxQuant,TXT,CSV}, -m {Dinosaur,XICFinder,OpenMS,MaxQuant,TXT,CSV}
+- DeepRTAlign owns higher precision and recall values than OpenMS on the proteomic datasets
+- https://rickhelmus.github.io/patRoon/articles/tutorial.md
+- Support for the algorithms of cliqueMS (Senan et al., 2019) and OpenMS (Metabolite Adduct Decharger) (Röst et al., 2016).
+- OpenMS (Bertsch et al. 2010) is a library for LC–MS data analysis. It was originally designed for proteomics
+- the metabolites (5% RMS) isotope model from OpenMS was used to exclude features with unusual peak shapes of isotopic traces
+- pyOpenMS, a Python interface to the C++ OpenMS library
+derived_from:
+- doi: 10.1038/nprot.2017.122
+  title: 3D molecular cartography using LC–MS facilitated by Optimus and 'ili software
+- doi: 10.1021/acs.jnatprod.7b00737
+  title: 'Bioactivity-Based Molecular Networking for the Discovery
+
+    of Drug Leads in Natural Product Bioassay-Guided Fractionation'
+- doi: 10.1021/ac202450g
+  title: 'CAMERA: An Integrated Strategy for Compound Spectra Extraction and Annotation of Liquid Chromatography/Mass Spectrometry Data Sets'
+- doi: 10.1074/mcp.m113.031278
+  title: Automated Label-free Quantification of Metabolites from Liquid Chromatography–Mass Spectrometry Data
+- doi: 10.1186/s12859-023-05525-4
+  title: 'G-Aligner: a graph-based feature alignment method for untargeted LC–MS-based metabolomics'
+- doi: 10.1038/s41596-020-0317-5
+  title: Reproducible molecular networking of untargeted mass spectrometry data using GNPS
+- doi: 10.1038/s41467-025-60640-5
+  title: MassCube improves accuracy for metabolomics data processing from raw files to phenotype classifiers
+- doi: 10.21105/joss.02411
+  title: matchms - processing and similarity evaluation of mass spectrometry data.
+- doi: 10.1016/j.isci.2023.106881
+  title: Integrative processing of untargeted metabolomic and lipidomic data using MultiABLER
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.jproteome.5c00435
+  title: 'mzPeak: Designing a Scalable, Interoperable, and Future-Ready Mass Spectrometry Data Format'
+- doi: 10.1021/jasms.5c00073
+  title: 'mzQuality: An Open-Source Software Tool for Quality Monitoring and Reporting of Targeted Mass Spectrometry Measurements'
+- doi: 10.1038/nmeth.3959
+  title: 'OpenMS: a flexible open-source software platform for mass spectrometry data analysis'
+- doi: 10.1186/s13321-020-00477-w
+  title: 'patRoon: open source software platform for environmental mass spectrometry based non-target screening'
+- doi: 10.1021/acs.analchem.5c03225
+  title: 'SMART 2.0 Statistical Metabolomics Analysis: An R Tool 2.0'
+- doi: 10.1021/acs.analchem.0c03421
+  title: SmartPeak Automates Targeted and Quantitative Metabolomics Data Processing
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+- doi: 10.1186/s13321-023-00724-w
+  title: 'UmetaFlow: an untargeted metabolomics workflow for high-throughput data processing and analysis'
+- doi: 10.21105/joss.03990
+  title: 'ViMMS 2.0: A framework to develop, test and optimise
+
+    fragmentation strategies in LC-MS metabolomics'
+- doi: 10.1038/s42256-020-00234-6
+  title: Database-independent molecular formula annotation using Gibbs sampling through ZODIAC
+- doi: 10.1038/s41467-023-43909-5
+  title: 'DeepRTAlign: toward accurate retention time alignment for large cohort mass spectrometry data analysis'
+- doi: 10.21105/joss.04029
+  title: 'patRoon 2.0: Improved non-target analysis workflows
+
+    including automated transformation product screening'
+- doi: 10.1007/s11306-017-1242-7
+  title: Navigating freely-available software tools for metabolomics analysis
+- doi: 10.1007/s00216-023-05070-2
+  title: PFΔScreen — an open-source tool for automated PFAS feature prioritization in non-target HRMS data
+source_repos:
+- https://github.com/MolecularCartography/Optimus
+- https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks
+- https://github.com/sneumann/CAMERA
+- https://github.com/OpenMS/OpenMS
+- https://github.com/CSi-Studio/G-Aligner
+- https://github.com/CCMS-UCSD/GNPS_Workflows
+- https://github.com/huaxuyu/masscube
+- https://github.com/holab-hku/MultiABLER
+- https://github.com/PNNL-m-q/mza
+- https://github.com/HUPO-PSI/mzPeak
+- https://github.com/hankemeierlab/mzQuality
+- https://github.com/rickhelmus/patRoon
+- https://github.com/YuJenL/SMART
+- https://github.com/AutoFlowResearch/SmartPeak
+- https://github.com/bittremieuxlab/spectrum_utils
+- https://github.com/biosustain/snakemake_UmetaFlow
+- https://github.com/biosustain/snakemake_UmetaFlow.git
+- https://github.com/glasgowcompbio/vimms
+- https://github.com/marcus-ludwig/OpenMS
+- https://github.com/boecker-lab/sirius
+- https://github.com/PHOENIXcenter/deeprtalign
+- https://github.com/RASpicer/MetabolomicsTools
+- https://github.com/JonZwe/PFAScreen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MolecularCartography/Optimus

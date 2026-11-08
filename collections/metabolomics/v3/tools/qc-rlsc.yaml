@@ -1,0 +1,22 @@
+name: QC-RLSC
+slug: qc-rlsc
+version_used: null
+edam_topics: []
+evidence_spans:
+- model = "QC-RLSC"
+- 'QConly = TRUE,       # QC-RLSC as prescribed uses QC samples only'
+- 'model = "QC-RLSC",   # use QC-RLSC'
+derived_from:
+- doi: 10.1101/2025.09.30.679445
+  title: Robust metabolomics data normalization across scales and experimental designs
+- doi: 10.1016/j.aca.2018.08.002
+  title: 'statTarget: A streamlined tool for signal drift correction and interpretations of quantitative mass spectrometry-based omics data'
+source_repos:
+- https://github.com/UGent-LIMET/Metanorm
+- https://github.com/13479776/statTarget
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/UGent-LIMET/Metanorm

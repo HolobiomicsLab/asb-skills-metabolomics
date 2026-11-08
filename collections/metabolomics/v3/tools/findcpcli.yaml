@@ -1,0 +1,20 @@
+name: findCPcli
+slug: findcpcli
+version_used: null
+edam_topics: []
+evidence_spans:
+- by using the novel software tool findCPcli
+- identify the host-dependency factors for the SARS-CoV-2 virus by using the novel software tool findCPcli
+- the software tool findCPcli was developed to compute bottleneck reactions on genome-scale models
+- find essential reactions, and update the flux bounds of the reactions according to
+derived_from:
+- doi: 10.26508/lsa.202000954
+  title: Integrated human/SARS-CoV-2 metabolic models present novel treatment strategies against COVID-19
+source_repos:
+- https://github.com/findCP/findCPcli
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/findCP/findCPcli

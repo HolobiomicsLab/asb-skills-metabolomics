@@ -1,0 +1,17 @@
+name: BitterPredict
+slug: bitterpredict
+version_used: null
+edam_topics: []
+evidence_spans:
+- BitterPredict14 is a tool that predicts the bitterness of a compound based on its chemical structure.
+derived_from:
+- doi: 10.1021/acs.jafc.3c09767
+  title: 'BitterMasS: Predicting Bitterness from Mass Spectra'
+source_repos:
+- https://github.com/Niv-Lab/BitterPredict1
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Niv-Lab/BitterPredict1

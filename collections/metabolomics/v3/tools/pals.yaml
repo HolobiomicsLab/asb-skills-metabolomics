@@ -1,0 +1,19 @@
+name: PALS
+slug: pals
+version_used: null
+edam_topics: []
+evidence_spans:
+- Otherwise PALS can also be installed via `pip install PALS-pathway`.
+- PALS can also be installed via `pip install PALS-pathway`
+- PALS can also be installed via `pip install PALS-pathway`.
+derived_from:
+- doi: 10.3390/metabo11020103
+  title: Ranking Metabolite Sets by Their Activity Levels
+source_repos:
+- https://github.com/glasgowcompbio/PALS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/glasgowcompbio/PALS

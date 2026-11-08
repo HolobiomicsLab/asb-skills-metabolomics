@@ -1,0 +1,20 @@
+name: github.com/tiagolbiotech/NPOmix_python
+slug: github-com-tiagolbiotech-npomix-python
+version_used: null
+edam_topics: []
+evidence_spans:
+- github.com__tiagolbiotech__NPOmix_python
+- https://github.com/tiagolbiotech/NPOmix_python for the python version or https://github.com/tiagolbiotech/NPOmix for the Jupyter notebook version
+- https://github.com/tiagolbiotech/NPOmix for the Jupyter notebook version
+- git clone https://github.com/tiagolbiotech/NPOmix_python.git
+derived_from:
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+source_repos:
+- https://github.com/tiagolbiotech/NPOmix_python
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tiagolbiotech/NPOmix_python

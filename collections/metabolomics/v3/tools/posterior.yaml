@@ -1,0 +1,17 @@
+name: posterior
+slug: posterior
+version_used: null
+edam_topics: []
+evidence_spans:
+- we used the posterior package66 for MCMC diagnostics
+derived_from:
+- doi: 10.1038/s41467-024-45966-w
+  title: The impact of exercise on gene regulation in association with complex trait genetics
+source_repos:
+- https://github.com/NikVetr/MoTrPAC_Complex_Traits
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NikVetr/MoTrPAC_Complex_Traits

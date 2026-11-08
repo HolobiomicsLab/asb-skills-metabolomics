@@ -1,0 +1,16 @@
+name: DESI-MSI
+slug: desi-msi
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2025.09.22.677919
+  title: Computational method for mapping mass signatures along developmental gradients reveals a novel role for a monosaccharide tetrose in maize salt-stress response
+source_repos:
+- https://github.com/dickinsonlab/DIMPLE-code
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dickinsonlab/DIMPLE-code

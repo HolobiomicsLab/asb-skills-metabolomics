@@ -1,0 +1,18 @@
+name: mbpls
+slug: mbpls
+version_used: 1.0.4
+edam_topics: []
+evidence_spans:
+- '- mbpls==1.0.4'
+- mbpls==1.0.4
+derived_from:
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+source_repos:
+- https://github.com/kopeckylukas/py-mamsi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kopeckylukas/py-mamsi

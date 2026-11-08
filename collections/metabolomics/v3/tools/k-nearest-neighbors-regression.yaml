@@ -1,0 +1,16 @@
+name: k-nearest neighbors regression
+slug: k-nearest-neighbors-regression
+version_used: null
+edam_topics: []
+evidence_spans:
+- We implemented this naïve median RT approach using a k-nearest neighbors (k-NN) regression
+derived_from:
+- doi: 10.1038/s41467-019-13680-7
+  title: The METLIN small molecule dataset for machine learning-based retention time prediction
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

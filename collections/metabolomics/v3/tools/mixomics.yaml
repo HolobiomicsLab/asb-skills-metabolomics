@@ -1,0 +1,27 @@
+name: mixOmics
+slug: mixomics
+version_used: null
+edam_topics: []
+evidence_spans:
+- We compared PathIntegrate to the state-of-the-art multi-omics integration method DIABLO from MixOmics [11,43]
+- The mixOmics package [34] was applied for PLS-DA and multilevel-based PLS-DA.
+derived_from:
+- doi: 10.1016/j.isci.2023.106881
+  title: Integrative processing of untargeted metabolomic and lipidomic data using MultiABLER
+- doi: 10.1371/journal.pcbi.1011814
+  title: 'PathIntegrate: Multivariate modelling approaches for pathway-based multi-omics data integration'
+- doi: 10.1016/j.csbj.2019.04.009
+  title: Accounting for biological variation with linear mixed-effects modelling improves the quality of clinical metabolomics data
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+source_repos:
+- https://github.com/holab-hku/MultiABLER
+- https://github.com/cwieder/PathIntegrate
+- https://github.com/kwanjeeraw/lmm2met
+- https://github.com/IxI-97/BiomiX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/holab-hku/MultiABLER

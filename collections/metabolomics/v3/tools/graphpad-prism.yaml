@@ -1,0 +1,18 @@
+name: GraphPad Prism
+slug: graphpad-prism
+version_used: '5.0'
+edam_topics: []
+evidence_spans:
+- Statistical analyses included the Mann–Whitney test, chi-squared test and Fisher-exact test using Prism 6 software (GraphPad)
+derived_from:
+- doi: 10.1158/0008-5472.can-14-1490
+  title: AKT1 and MYC Induce Distinctive Metabolic Fingerprints in Human Prostate Cancer
+- doi: 10.1093/nar/gkac408
+  title: The topoisomerase 3 zinc finger domain cooperates with the RMI1 scaffold to promote stable association of the BTR complex to recombination intermediates in the <i>Caenorhabditis elegans</i> germline
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

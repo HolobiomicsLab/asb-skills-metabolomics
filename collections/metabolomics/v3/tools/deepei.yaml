@@ -1,0 +1,18 @@
+name: DeepEI
+slug: deepei
+version_used: null
+edam_topics: []
+evidence_spans:
+- PS2MS employs the DeepEI30 deep learning model to convert the analyte’s mass spectrum into its corresponding fingerprint
+- PS2MS employs the DeepEI
+derived_from:
+- doi: 10.1021/acs.analchem.3c05019
+  title: 'PS<sup>2</sup>MS: A Deep Learning-Based Prediction System for Identifying New Psychoactive Substances Using Mass Spectrometry'
+source_repos:
+- https://github.com/jhhung/PS2MS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jhhung/PS2MS

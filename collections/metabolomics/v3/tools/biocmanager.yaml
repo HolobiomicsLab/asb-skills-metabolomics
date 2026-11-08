@@ -1,0 +1,29 @@
+name: BiocManager
+slug: biocmanager
+version_used: null
+edam_topics: []
+evidence_spans:
+- Install "BiocManager" package from CRAN if you do not already have it installed.
+- BiocManager::install("marr")
+- install.packages("BiocManager")
+- The latest version of `struct` compatible with your current R version can be installed using `BiocManager`.
+derived_from:
+- doi: 10.3390/metabo12030212
+  title: 'JPA: Joint Metabolic Feature Extraction Increases the Depth of Chemical Coverage for LC-MS-Based Metabolomics and Exposomics'
+- doi: 10.1186/s12859-021-04336-9
+  title: Reproducibility of mass spectrometry based metabolomics data
+- doi: 10.3390/metabo12020173
+  title: A Modular and Expandable Ecosystem for Metabolomics Data Annotation in R
+- doi: 10.1093/bioinformatics/btaa1031
+  title: 'struct: an R/Bioconductor-based framework for standardized metabolomics data analysis and beyond'
+source_repos:
+- https://github.com/HuanLab-backup/JPA
+- https://github.com/Ghoshlab/marr_paper_evaluations
+- https://github.com/jorainer/MetaboAnnotationTutorials
+- https://github.com/computational-metabolomics/struct
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuanLab-backup/JPA

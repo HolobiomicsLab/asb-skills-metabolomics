@@ -1,0 +1,18 @@
+name: https://gitlab.gwdg.de/joerg.buescher/automrm
+slug: https-gitlab-gwdg-de-joerg-buescher-automrm
+version_used: null
+edam_topics: []
+evidence_spans:
+- The R package is freely available from gitlab (https://gitlab.gwdg.de/joerg.buescher/automrm).
+- available online (https://gitlab.gwdg.de/joerg.buescher/automrm)
+- available online (https://gitlab.gwdg.de/joerg.buescher/demodata)
+derived_from:
+- doi: 10.1021/acs.analchem.1c05224
+  title: 'automRm: An R Package for Fully Automatic LC-QQQ-MS Data Preprocessing Powered by Machine Learning'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

@@ -1,0 +1,20 @@
+name: MetaboAnalystR 4.0
+slug: metaboanalystr-4-0
+version_used: '4.0'
+edam_topics: []
+evidence_spans:
+- devtools::install_github("xia-lab/MetaboAnalystR", build = TRUE, build_vignettes = TRUE, build_manual =T)
+- Here we introduce MetaboAnalystR 4.0 as a streamlined pipeline covering raw spectra processing, compound identification, statistical analysis, and functional interpretation.
+- The deconvolution of DDA data can be achieved with the function, PerformDDADeconvolution.
+- The deconvolution of SWATH-DIA data can be achieved with the function, PerformDIADeconvolution.
+derived_from:
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+source_repos:
+- https://github.com/xia-lab/MetaboAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/MetaboAnalystR

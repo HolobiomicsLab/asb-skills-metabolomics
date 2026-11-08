@@ -1,0 +1,17 @@
+name: torchrun
+slug: torchrun
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2025.11.07.687008
+  title: 'MetaboliteChat: A Unified Multimodal Large Language Model for Interactive Metabolite Analysis and Functional Insights'
+source_repos:
+- https://github.com/13501274828/MetaboliteChat.git
+- https://github.com/daniel-guooo/MetaboliteChat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/13501274828/MetaboliteChat.git

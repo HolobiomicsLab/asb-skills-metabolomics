@@ -1,0 +1,19 @@
+name: massPix
+slug: masspix
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have developed massPix—an R package for analysing and interpreting data from MSI of lipids in tissue.
+- library(massPix)
+- The massPix R package, all R scripts, library files and the imzML Converter are available on GitHub (https://github.com/hallz/massPix).
+derived_from:
+- doi: 10.1007/s11306-017-1252-5
+  title: 'massPix: an R package for annotation and interpretation of mass spectrometry imaging data for lipidomics'
+source_repos:
+- https://github.com/hallz/massPix
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hallz/massPix

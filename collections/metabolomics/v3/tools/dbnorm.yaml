@@ -1,0 +1,21 @@
+name: dbnorm
+slug: dbnorm
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed "dbnorm", a package in the R environment, which allows for an easy comparison of the model performance of advanced statistical tools commonly used in metabolomics
+- We developed "dbnorm", a package in the R environment, which allows for an easy comparison of the model performance of advanced statistical tools
+- Batch correction models implemented in the “dbnorm” are adapted from microarray analysis, namely, ber statistical model, including its bagging variant
+- We developed "dbnorm", a package in the R environment, which allows for an easy comparison of the model performance of advanced statistical tools commonly used in metabolomics to remove batch effects
+- Untargeted metabolomics data subjected to batch effect was also treated for normalization of a cross- batch signal drift using statistical methods implemented in the “dbnorm” package
+derived_from:
+- doi: 10.1038/s41598-021-84824-3
+  title: DBnorm as an R package for the comparison and selection of appropriate statistical methods for batch effect correction in metabolomic studies
+source_repos:
+- https://github.com/NBDZ/dbnorm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NBDZ/dbnorm

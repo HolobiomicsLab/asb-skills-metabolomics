@@ -1,0 +1,17 @@
+name: tissueMASST
+slug: tissuemasst
+version_used: null
+edam_topics: []
+evidence_spans:
+- Molecular feature tracking via tissueMASST, a mass spectrometry search tool we developed to bridge animal model findings with human data
+- tissueMASST was able to match PAC to several human AD datasets where metadata is available through the AD Knowledge Portal
+derived_from:
+- doi: 10.1101/2025.04.28.651123
+  title: A Multi-Organ Murine Metabolomics Atlas Reveals Molecular Dysregulations in Alzheimer’s Disease
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

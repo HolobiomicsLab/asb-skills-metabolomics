@@ -1,0 +1,37 @@
+name: Spectra
+slug: spectra
+version_used: null
+edam_topics: []
+evidence_spans:
+- The databases are integrated via the R package Spectra
+- 15 = ppm for spectral database dereplication precursor matches
+- 'the `matchSpectra` from the `MetaboAnnotation`
+
+  package that takes `Spectra` objects (with $MS^2$ spectra) as query and target
+
+  parameters'
+- 'Such `Spectra` objects can be either imported from a variety of
+
+  input formats, including MGF, MSP, mzML, mzXML or netCDF files'
+- R packages from the RforMassSpectrometry initiative such as Spectra, MsCoreUtils, MetaboAnnotation, and CompoundDb
+- workflows on `Spectra` objects in Python
+- R's `Spectra::Spectra` objects
+derived_from:
+- doi: 10.1186/s13321-023-00695-y
+  title: 'MAW: the reproducible Metabolome Annotation Workflow for untargeted tandem mass spectrometry'
+- doi: 10.3390/metabo12020173
+  title: A Modular and Expandable Ecosystem for Metabolomics Data Annotation in R
+- doi: 10.21105/joss.08070
+  title: 'SpectriPy: Enhancing Cross-Language Mass Spectrometry Data Analysis with R and Python'
+source_repos:
+- https://github.com/zmahnoor14/MAW
+- https://github.com/jorainer/MetaboAnnotationTutorials
+- https://github.com/RforMassSpectrometry/Spectra
+- https://github.com/Rformassspectrometry/Spectra
+- https://github.com/rformassspectrometry/SpectriPy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zmahnoor14/MAW

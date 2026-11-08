@@ -1,0 +1,167 @@
+name: PyTorch
+slug: pytorch
+version_used: 1.12.1
+edam_topics: []
+evidence_spans:
+- PyTorch must be installed separately.
+- PyTorch must be installed separately. Check the `official PyTorch website <https://pytorch.org/get-started/locally/>`_ for the right version for your system
+- PyTorch must be installed separately. Check the `official PyTorch website <https://pytorch.org/get-started/locally/>`_
+- We implemented 3DMolMS in the PyTorch framework (Paszke et al. 2019).
+- PyTorch (version 1.12.1)
+- The DeepMSI model is implemented in Python using the PyTorch library
+- implemented in Python using the PyTorch library
+- The DeepMSI model is implemented in Python using the PyTorch library, and the model is trained on a workstation equipped with a GPU Nvidia GTX 2080Ti
+- we introduced a large self-supervised neural network (with 116 million parameters) trained directly on the repository-scale collection of raw experimental mass spectra
+- pytorch=1.7.1
+- pytorch-geometric=1.7.2
+- Python 3.13.2 and Pytorch (version 2.7.0+cu118)
+- the PyTorch GPU package (version 2.7.0), and scikit-learn (version 1.6.1)
+- Install [PyTorch](https://pytorch.org/get-started/locally) according to your system configurations.
+- is implemented within the python PyTorch framework
+- The framework utilizes a transformer architecture [17] in PyTorch to translate m/z values into a fingerprint bit vector.
+- All code runs under the [PyTorch framework](https://pytorch.org).
+- LipiDetective was implemented by modifying the transformer module provided by PyTorch [26]
+- LipiDetective was implemented by modifying the transformer module provided by PyTorch [26].
+- PyTorch Lightning [27] was used for multi-GPU training on a computing cluster
+- PyTorch
+- the entire model was implemented using Pytorch25
+- pytorch == 2.3.1
+- For all deep learning experiments, the MSMCE module was configured with 256 embedding channels and an embedding dimension of 1024
+- '- pytorch'
+- '- dgl
+
+  - pytorch
+
+  - rdkit'
+- '`checkpoints`: PyTorch model checkpoints'
+- you may need to manually install a GPU-enabled version of PyTorch
+- The model implementation is based on PyTorch [36] and comprises approximately 4 million parameters
+- 12 stacked 1D-Transformer blocks processing a 2048D Morgan fingerprint
+- conda install pytorch=1.6.0
+- The implementation of the Spec2Mol architecture is based on the Pytorch library.
+- conda install pytorch=1.6.0 torchvision -c pytorch
+- '* PyTorch'
+- "* Python 3.x \n* PyTorch \n* RDKit \n* Matplotlib \n* h5py\n* pyteomics"
+- Install Pytorch CPU version, please refer to https://pytorch.org/.
+- BCELoss function in Pytorch is used as the loss function.
+- We used the fastai library (v1.0.34) with the PyTorch framework (v1.0)
+- We trained Convolutional Neural Networks using Fastai and PyTorch libraries
+- We trained Convolutional Neural Networks using Fastai and PyTorch libraries.
+- torch==1.8.1
+derived_from:
+- doi: 10.1093/bioinformatics/btad354
+  title: '3DMolMS: prediction of tandem mass spectra from 3D molecular conformations'
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.1101/2025.02.07.637102
+  title: 'ChemEmbed: A deep learning framework for metabolite identification using enhanced MS/MS data and multidimensional molecular embeddings'
+- doi: 10.1021/acs.analchem.3c05002
+  title: 'DeepION: A Deep Learning-Based Low-Dimensional Representation Model of Ion Images for Mass Spectrometry Imaging'
+- doi: 10.1101/2024.11.13.623458
+  title: Language model-guided anticipation and discovery of unknown metabolites
+- doi: 10.48550/arxiv.2502.09571
+  title: ''
+- doi: 10.48550/arxiv.2507.06853
+  title: ''
+- doi: 10.1038/s41587-025-02663-3
+  title: Self-supervised learning of molecular representations from millions of tandem mass spectra using DreaMS
+- doi: 10.1093/bioinformatics/btae490
+  title: An Ensemble Spectral Prediction (ESP) model for metabolite annotation
+- doi: 10.1016/j.microc.2025.115372
+  title: 'FlavorFormer: hybrid deep learning for identifying compounds in flavor mixtures based on NMR spectroscopy'
+- doi: 10.48550/arxiv.2404.02360
+  title: ''
+- doi: 10.1021/acs.analchem.0c04071
+  title: Prediction of Liquid Chromatographic Retention Time with Graph Neural Networks to Assist in Small Molecule Identification
+- doi: 10.1021/acs.analchem.3c04654
+  title: Generating Molecular Fragmentation Graphs with Autoregressive Neural Networks
+- doi: 10.1186/s13321-024-00804-5
+  title: 'IDSL_MINT: a deep learning framework to predict molecular fingerprints from mass spectra'
+- doi: 10.1093/bioinformatics/btaf354
+  title: 'JESTR: Joint Embedding Space Technique for Ranking candidate molecules for the annotation of untargeted metabolomics data'
+- doi: 10.1101/2024.10.07.617094
+  title: LipiDetective a deep learning model for the identification of molecular lipid species in tandem mass spectra
+- doi: 10.48550/arxiv.2501.01950
+  title: ''
+- doi: 10.1186/s13321-023-00741-9
+  title: 'Mass-Suite: a novel open-source python package for high-resolution mass spectrometry data analysis'
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+- doi: 10.1101/2024.03.25.586580
+  title: 'Bridging polarities in metabolomics: Cross-ionization mode chemical similarity prediction between tandem mass spectra'
+- doi: 10.1371/journal.pone.0321239
+  title: 'MSMCE: A novel representation module for classification of raw mass spectrometry data'
+- doi: 10.1101/2025.11.12.688047
+  title: 'Learning from All Views: A Multiview Contrastive Framework for Metabolite Annotation'
+- doi: 10.48550/arxiv.2410.22030
+  title: ''
+- doi: 10.1021/acs.analchem.2c02093
+  title: Rapid Approximate Subset-Based Spectra Prediction for Electron Ionization–Mass Spectrometry
+- doi: 10.1186/s13321-025-00968-8
+  title: 'ROASMI: accelerating small molecule identification by repurposing retention data'
+- doi: 10.1093/bioinformatics/btae084
+  title: 'RT-Transformer: retention time prediction for metabolite annotation to assist in metabolite identification'
+- doi: 10.1038/s42004-023-00932-3
+  title: An end-to-end deep learning framework for translating mass spectra to de-novo molecules
+- doi: 10.1186/s13321-024-00858-5
+  title: 'TransExION: a transformer based explainable similarity metric for comparing IONS in tandem mass spectrometry'
+- doi: 10.1038/s41467-023-43909-5
+  title: 'DeepRTAlign: toward accurate retention time alignment for large cohort mass spectrometry data analysis'
+- doi: 10.1038/s41467-025-66163-3
+  title: 'MetaboLM: a metabolomic language model for multi-disease early prediction and risk stratification'
+- doi: 10.1186/s12859-020-3425-x
+  title: 'OffsampleAI: artificial intelligence approach to recognize off-sample mass spectrometry images'
+- doi: 10.1093/bioinformatics/btad096
+  title: Regularized adversarial learning for normalization of multi-batch untargeted metabolomics data
+- doi: 10.1093/nar/gkad444
+  title: 'FLUXestimator: a webserver for predicting metabolic flux and variations using transcriptomics data'
+- doi: 10.1002/ange.202517611
+  title: Advancing Structure Elucidation with a Flexible Multi‐Spectral AI Model
+source_repos:
+- https://github.com/JosieHong/3DMolMS
+- https://github.com/HassounLab/BAM
+- https://github.com/faizanurv/ChemEmbed
+- https://github.com/massspecdl/ChemEmbed
+- https://github.com/BioNet-XMU/DeepION
+- https://github.com/gankLei-X/DeepION
+- https://github.com/skinniderlab/CLM
+- https://github.com/skinniderlab/CLM.git
+- https://github.com/skinniderlab/clm
+- https://github.com/coleygroup/DiffMS
+- https://github.com/AzureLeon1/DiffSpectra
+- https://github.com/pluskal-lab/DreaMS
+- https://github.com/HassounLab/ESP
+- https://github.com/yfWang01/FlavorFormer.git
+- https://github.com/yfWang01/FlavorFormer
+- https://github.com/FraGNNet/fragnnet
+- https://github.com/Lightning-AI/pytorch-lightning
+- https://github.com/Qiong-Yang/GNN-RT
+- https://github.com/samgoldman97/ms-pred
+- https://github.com/idslme/IDSL_MINT
+- https://github.com/HassounLab/JESTR1
+- https://github.com/LipiTUM/lipidetective
+- https://github.com/HassounLab/MADGEN
+- https://github.com/XiminHu/mass-suite
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+- https://github.com/matchms/MS2DeepScore
+- https://github.com/WoodFY/MSMCE
+- https://github.com/pytorch/pytorch
+- https://github.com/HassounLab/MVP
+- https://github.com/TamirBar-Tov/NetAurHPD-Network-Auralization-Hyperlink-Prediction-Method
+- https://github.com/thejonaslab/rassp-public
+- https://github.com/FangYuan717/ROASMI
+- https://github.com/01dadada/RT-Transformer
+- https://github.com/KavrakiLab/Spec2Mol
+- https://github.com/banhdzui/TransExION
+- https://github.com/PHOENIXcenter/deeprtalign
+- https://github.com/Qiu-Shizheng/MetaboLM
+- https://github.com/metaspace2020/offsample
+- https://github.com/zamboni-lab/RALPS
+- https://github.com/changwn/scFEA
+- https://github.com/mpriessner/MultiModalSpectralTransformer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JosieHong/3DMolMS

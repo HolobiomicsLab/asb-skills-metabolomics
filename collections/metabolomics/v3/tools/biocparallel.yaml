@@ -1,0 +1,31 @@
+name: BiocParallel
+slug: biocparallel
+version_used: null
+edam_topics: []
+evidence_spans:
+- Parallel processing support via the *BiocParallel* package for all pre-processing methods
+- BP_plan <- MulticoreParam(workers = 2, RNGseed = 417, progressbar = FALSE)
+- Both `BICtune()` and `stabilitySelection()` have support for parallel computation.
+- MulticoreParam(workers = 2, RNGseed = 417, progressbar = FALSE)
+- 'library(BiocParallel)
+
+  library(ggplot2)
+
+  library(GCIMS)'
+derived_from:
+- doi: 10.1093/bioinformatics/btv146
+  title: "<i>Cardinal</i>\n                    : an R package for statistical analysis of mass spectrometry-based imaging experiments"
+- doi: 10.1186/s12859-024-05994-1
+  title: 'DNEA: an R package for fast and versatile data-driven network analysis of metabolomics data'
+- doi: 10.1016/j.chemolab.2023.104938
+  title: 'GCIMS: An R package for untargeted gas chromatography – Ion mobility spectrometry data processing'
+source_repos:
+- https://github.com/kuwisdelu/Cardinal
+- https://github.com/Karnovsky-Lab/DNEA
+- https://github.com/sipss/GCIMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kuwisdelu/Cardinal

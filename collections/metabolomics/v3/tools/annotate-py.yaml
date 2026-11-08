@@ -1,0 +1,17 @@
+name: annotate.py
+slug: annotate-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- python annotate.py --help
+derived_from:
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+source_repos:
+- https://github.com/Mrqeoqqt/chemdistiller
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mrqeoqqt/chemdistiller

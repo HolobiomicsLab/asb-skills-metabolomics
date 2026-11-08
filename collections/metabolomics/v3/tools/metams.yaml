@@ -1,0 +1,17 @@
+name: metaMS
+slug: metams
+version_used: 1.25.1
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.0c05022
+  title: 'DaDIA: Hybridizing Data-Dependent and Data-Independent Acquisition Modes for Generating High-Quality Metabolomic Data'
+source_repos:
+- https://github.com/Huan Lab/DaDIA.git
+- https://github.com/HuanLab-backup/DaDIA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Huan Lab/DaDIA.git

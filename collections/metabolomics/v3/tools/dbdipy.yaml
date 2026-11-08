@@ -1,0 +1,21 @@
+name: DBDIpy
+slug: dbdipy
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'DBDIpy can be installed from PyPI with: ... pip install DBDIpy'
+- we compute pointwise correlation of XIC traces to identify in-source adducts or in-source fragments generated during the plasma ionization process
+- pip install DBDIpy
+- we compute pointwise correlation of XIC traces to identify in-source adducts or in-source fragments generated during the plasma ionization process.
+- 'DBDIpy can be installed from PyPI with:'
+derived_from:
+- doi: 10.1093/bioinformatics/btad088
+  title: 'DBDIpy: a Python library for processing of untargeted datasets from real-time plasma ionization mass spectrometry'
+source_repos:
+- https://github.com/leopold-weidner/DBDIpy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/leopold-weidner/DBDIpy

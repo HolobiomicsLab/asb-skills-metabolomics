@@ -1,0 +1,19 @@
+name: SpectraST
+slug: spectrast
+version_used: '5.0'
+edam_topics: []
+evidence_spans:
+- duplicates were removed using SpectraST [42] by retaining only the best replicate spectrum for each individual peptide ion
+- both spectral libraries were concatenated using SpectraST [42] while removing duplicates
+- We used SpectraST version 5.0 as part of the Trans-Proteomic Pipeline version 5.1.0
+derived_from:
+- doi: 10.1021/acs.jproteome.8b00359
+  title: Fast Open Modification Spectral Library Searching through Approximate Nearest Neighbor Indexing
+source_repos:
+- https://github.com/bittremieux-lab/ANN-SoLo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bittremieux-lab/ANN-SoLo

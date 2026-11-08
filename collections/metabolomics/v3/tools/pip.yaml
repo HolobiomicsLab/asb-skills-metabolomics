@@ -1,0 +1,83 @@
+name: pip
+slug: pip
+version_used: '3.9'
+edam_topics: []
+evidence_spans:
+- Install Python 3.7 (or newer) [[link]](https://www.python.org/downloads/) and use `pip` as follows to install dependencies.
+- pip install -r requirements.txt
+- 'From the root of the GLEAMS repository (e.g. `cd GLEAMS`), use pip to install GLEAMS:'
+- pip install git+https://github.com/bittremieux/GLEAMS.git
+- pip install gdown
+- '## Requirements for running:
+
+
+  ```bash
+
+  pip install requirements
+
+  ```'
+- pip install -e .
+- pip or conda package manager
+- Use `pip install deeprtalign` to install deeprtalign
+- 'All dependencies can be installed using:
+
+  ```pip install Jupyter_notebook_package_requirements.txt```'
+- Use `pip` to **install PhysioFit from GitHub**
+- $ pip install multinmrfit
+- pip install reconstructor
+derived_from:
+- doi: 10.1093/bioinformatics/btab429
+  title: 'AutoCCS: automated collision cross-section calculation software for ion mobility spectrometry–mass spectrometry'
+- doi: 10.1101/2024.11.13.623458
+  title: Language model-guided anticipation and discovery of unknown metabolites
+- doi: 10.1038/s41592-022-01496-1
+  title: A learned embedding for efficient joint analysis of millions of mass spectra
+- doi: 10.1021/acs.analchem.5c01414
+  title: Longitudinal Fragment Profiles Based on Multi-Collision Energy Tandem Mass Spectra Improve the Accuracy of Metabolite Identification in Untargeted Metabolomics
+- doi: 10.48550/arxiv.2501.01950
+  title: ''
+- doi: 10.1101/2025.11.07.687008
+  title: 'MetaboliteChat: A Unified Multimodal Large Language Model for Interactive Metabolite Analysis and Functional Insights'
+- doi: 10.1093/bioinformatics/btaf045
+  title: 'MetAssimulo 2.0: a web app for simulating realistic 1D and 2D metabolomic 1H NMR spectra'
+- doi: 10.1038/s41592-025-02813-0
+  title: 'MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries'
+- doi: 10.1186/s13321-025-00968-8
+  title: 'ROASMI: accelerating small molecule identification by repurposing retention data'
+- doi: 10.1021/acs.analchem.5c06256
+  title: Comprehensive Curation and Harmonization of Small-Molecule MS/MS Libraries in Spectraverse
+- doi: 10.1038/s41467-023-43909-5
+  title: 'DeepRTAlign: toward accurate retention time alignment for large cohort mass spectrometry data analysis'
+- doi: 10.3390/ijms20184414
+  title: Independent Component Analysis for Unraveling the Complexity of Cancer Omics Datasets
+- doi: 10.1093/bioinformatics/btaf463
+  title: 'MultiNMRFit: a software to fit 1D and pseudo-2D NMR spectra'
+- doi: 10.1093/bioinformatics/btad367
+  title: 'Reconstructor: a COBRApy compatible tool for automated genome-scale metabolic network reconstruction with parsimonious flux-based gap-filling'
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+source_repos:
+- https://github.com/PNNL-Comp-Mass-Spec/AutoCCS
+- https://github.com/astral-sh/uv
+- https://github.com/skinniderlab/clm
+- https://github.com/bittremieux/GLEAMS
+- https://github.com/bittremieux/GLEAMS.git
+- https://github.com/bittremieux-lab/GLEAMS
+- https://github.com/academicCQMD/LongitudinalProf-MSMS-Method
+- https://github.com/HassounLab/MADGEN
+- https://github.com/daniel-guooo/MetaboliteChat
+- https://github.com/yanyan5420/MetAssimulo_2
+- https://github.com/corinnabrungs/msn_tree_library
+- https://github.com/FangYuan717/ROASMI
+- https://github.com/skinniderlab/spectraverse-analysis
+- https://github.com/PHOENIXcenter/deeprtalign
+- https://github.com/sysbio-curie/ICA-in-Cancer-research-review-materials
+- https://github.com/NMRTeamTBI/MultiNMRFit
+- https://github.com/emmamglass/reconstructor
+- https://github.com/sangeeta97/ccs_find
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PNNL-Comp-Mass-Spec/AutoCCS

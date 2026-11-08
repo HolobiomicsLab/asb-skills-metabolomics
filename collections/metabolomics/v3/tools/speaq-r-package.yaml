@@ -1,0 +1,19 @@
+name: speaq R package
+slug: speaq-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- speaq 2.0 is distributed through the existing speaq R package
+- This introduction was written for the *speaq* package up until version 1.2.3.
+- speaq 2.0 is distributed through the existing speaq R package to provide a complete solution for NMR data processing.
+derived_from:
+- doi: 10.1371/journal.pcbi.1006018
+  title: 'speaq 2.0: A complete workflow for high-throughput 1D NMR spectra processing and quantification'
+source_repos:
+- https://github.com/beirnaert/speaq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/beirnaert/speaq

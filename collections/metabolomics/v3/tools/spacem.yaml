@@ -1,0 +1,20 @@
+name: SpaceM
+slug: spacem
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`SpaceM` software was used for correlating the modalities and producing single-cell data'
+derived_from:
+- doi: 10.1038/s42255-024-01118-4
+  title: Spatial single-cell isotope tracing reveals heterogeneity of de novo fatty acid synthesis in cancer
+- doi: 10.1038/s41592-021-01198-0
+  title: SpaceM reveals metabolic states of single cells
+source_repos:
+- https://github.com/Buglakova/13C-SpaceM
+- https://github.com/alexandrovteam/SpaceM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Buglakova/13C-SpaceM

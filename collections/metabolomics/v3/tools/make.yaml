@@ -1,0 +1,17 @@
+name: make
+slug: make
+version_used: null
+edam_topics: []
+evidence_spans:
+- make -j4
+derived_from:
+- doi: 10.3390/metabo12080684
+  title: 'MAVEN2: An Updated Open-Source Mass Spectrometry Exploration Platform'
+source_repos:
+- https://github.com/eugenemel/maven
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eugenemel/maven

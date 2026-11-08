@@ -1,0 +1,17 @@
+name: RShiny
+slug: rshiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- Flexible approaches for evaluating these data were implemented in an RShiny-based web-application
+derived_from:
+- doi: 10.1016/j.cca.2024.117858
+  title: ALISTER – Application for lipid stability evaluation and research
+source_repos:
+- https://github.com/Fraunhofer-ITMP/alister
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Fraunhofer-ITMP/alister

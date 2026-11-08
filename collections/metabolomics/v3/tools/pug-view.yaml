@@ -1,0 +1,20 @@
+name: PUG-View
+slug: pug-view
+version_used: null
+edam_topics: []
+evidence_spans:
+- One of these is PUG-View, which is a Representational State Transfer (REST)-style web service interface specialized for accessing annotation data contained in PubChem.
+- The annotations presented under a given (sub)heading of the Summary/Record or View page can be retrieved by specifying the (sub)heading of interest as an optional parameter
+- PUG-View also handles a variety of special reports for more specialized data, each with its own unique data model
+- One can retrieve these LCSS data by using an optional parameter to PUG-View (Table 1)
+- PUG-View provides annotation data in several formats, including XML
+derived_from:
+- doi: 10.1186/s13321-019-0375-2
+  title: 'PUG-View: programmatic access to chemical annotations integrated in PubChem'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

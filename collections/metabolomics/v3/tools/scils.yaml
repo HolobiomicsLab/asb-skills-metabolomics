@@ -1,0 +1,17 @@
+name: SCiLS
+slug: scils
+version_used: null
+edam_topics: []
+evidence_spans:
+- This should be exported as plain-text CSV files from standard MSI software such as SCiLS or MSiReader.
+derived_from:
+- doi: 10.1021/acs.analchem.0c04720
+  title: Determination of Abundant Metabolite Matrix Adducts Illuminates the Dark Metabolome of MALDI-Mass Spectrometry Imaging Datasets
+source_repos:
+- https://github.com/kbseah/mass2adduct
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kbseah/mass2adduct

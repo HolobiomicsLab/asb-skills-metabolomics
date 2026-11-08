@@ -1,0 +1,16 @@
+name: normalize_by_istd
+slug: normalize-by-istd
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.0c03060
+  title: 'MRMkit: Automated Data Processing for Large-Scale Targeted Metabolomics Analysis'
+source_repos:
+- https://github.com/SLINGhub/MRMhub
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SLINGhub/MRMhub

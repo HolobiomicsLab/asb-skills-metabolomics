@@ -1,0 +1,24 @@
+name: export2graphlan
+slug: export2graphlan
+version_used: 0.2.1
+edam_topics: []
+evidence_spans:
+- 'export2graphlan.py (ver. 0.2.1 of 27 October 2018). Convert MetaPhlAn, LEfSe,
+
+  and/or HUMAnN output to GraPhlAn input format.'
+- export2graphlan.py (ver. 0.2.1 of 27 October 2018). Convert MetaPhlAn, LEfSe, and/or HUMAnN output to GraPhlAn input format.
+- 'Convert MetaPhlAn, LEfSe,
+
+  and/or HUMAnN output to GraPhlAn input format'
+- Convert MetaPhlAn, LEfSe, and/or HUMAnN output to GraPhlAn input format.
+derived_from:
+- doi: 10.7717/peerj.1029
+  title: Compact graphical representation of phylogenetic data and metadata with GraPhlAn
+source_repos:
+- https://github.com/SegataLab/export2graphlan
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SegataLab/export2graphlan

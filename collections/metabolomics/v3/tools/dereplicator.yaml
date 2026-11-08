@@ -1,0 +1,33 @@
+name: DEREPLICATOR+
+slug: dereplicator
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we describe DEREPLICATOR+ algorithm for dereplicating spectra against diverse metabolites
+- matches tandem mass spectra against the constructed post-translationally modified RiPPs structure database using Dereplicator
+- Recently, we introduced DEREPLICATOR32 for searching spectral datasets against the database of peptidic natural products (PNPs)
+- Here we report DEREPLICATOR+, an algorithm that improves on the previous approaches for identifying peptidic natural products
+- DEREPLICATOR+ constructs the molecular network of all spectra and selects connected components with at least one identified spectrum.
+- using Dereplicator (Mohimani *et al.*, 2017)
+- in silico annotation tools (such as Network Annotation Propagation or DEREPLICATOR)
+- Perform <i>in silico</i> structure annotation using [Network Annotation Propagation](https://ccms-ucsd.github.io/GNPSDocumentation/nap/) (NAP), [DEREPLICATOR]
+- Perform <i>in silico</i> structure annotation using [Network Annotation Propagation]... [DEREPLICATOR]
+- '[DEREPLICATOR](https://ccms-ucsd.github.io/GNPSDocumentation/dereplicator/)'
+- combine in-silico tools like Mzmine, Dereplicator+, and NPOmix to create new links that can expand MS/MS mass spectral reference database
+derived_from:
+- doi: 10.1038/s41467-018-06082-8
+  title: Dereplication of microbial metabolites through database search of mass spectra
+- doi: 10.3390/metabo9070144
+  title: 'MolNetEnhancer: Enhanced Molecular Networks by Integrating Metabolome Mining and Annotation Tools'
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+source_repos:
+- https://github.com/ablab/npdtools
+- https://github.com/madeleineernst/pyMolNetEnhancer
+- https://github.com/tiagolbiotech/NPOmix_python
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/npdtools

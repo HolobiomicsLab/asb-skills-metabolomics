@@ -1,0 +1,72 @@
+name: Matlab
+slug: matlab
+version_used: null
+edam_topics: []
+evidence_spans:
+- Matlab (tested with versions R2017b and R2020b)
+- ROC curve analysis was performed in Matlab (R2014b, Mathworks, Natick, MA, USA)
+- ElemCor is built using MATLAB Compiler.
+- ElemCor was developed in MATLAB
+- since popular flux analysis software suites such as FiatFlux [11] and INCA [12] are also MATLAB-based
+- ElemCor was developed in MATLAB, and packaged with graphic interface under MATLAB for distribution.
+- Matlab (version 2014a)
+- Here, we present a MATLAB-based app, GlyKAn AZ
+- Each model needs to be converted to a mat file in order to exploit the MATLAB function to convert model from the reversible into the irreversible format
+- a free, open-source MATLAB toolbox
+- a free, open-source MATLAB toolbox, available at https://github.com/rjdossan/M2S
+- we developed our own data processing program in Matlab, which consists of four sequential modules
+- Check out "Codes-Explained" folder to find all the example R and MATLAB codes
+- _No usage/docs found._
+- Curation of these mentioned GEMs have been performed by the  COBRAToolbox in MATLAB
+- COBRAToolbox in MATLAB
+derived_from:
+- doi: 10.1371/journal.pcbi.1009906
+  title: 'COMMIT: Consideration of metabolite leakage and community composition improves microbial community reconstructions'
+- doi: 10.1371/journal.pntd.0006215
+  title: Diagnostic metabolite biomarkers of chronic typhoid carriage
+- doi: 10.1186/s12859-019-2669-9
+  title: 'ElemCor: accurate data analysis and enrichment calculation for high-resolution LC-MS stable isotope labeling experiments'
+- doi: 10.1186/s13742-016-0115-8
+  title: 'Galaxy-M: a Galaxy workflow for processing and analyzing direct infusion and liquid chromatography mass spectrometry-based metabolomics data'
+- doi: 10.1186/s12859-023-05346-5
+  title: A MATLAB-based app to improve LC–MS/MS data analysis for N-linked glycan peak identification
+- doi: 10.1371/journal.pcbi.1009337
+  title: 'INTEGRATE: Model-based multi-omics data integration to characterize multi-level metabolic regulation'
+- doi: 10.1021/acs.analchem.1c03592
+  title: Finding Correspondence between Metabolomic Features in Untargeted Liquid Chromatography–Mass Spectrometry Metabolomics Datasets
+- doi: 10.1039/d2mo00168c
+  title: Towards inferring absolute concentrations from relative abundance in time-course GC-MS metabolomics data
+- doi: 10.1021/acs.analchem.4c02462
+  title: 'MRMQuant: Automated MRM Data Quantitation for Large-Scale Targeted Metabolomics Analysis'
+- doi: 10.1021/acs.analchem.2c00557
+  title: An Organ-Specific Metabolite Annotation Approach for Ambient Mass Spectrometry Imaging Reveals Spatial Metabolic Alterations of a Whole Mouse Body
+- doi: 10.1186/1471-2105-15-s11-s5
+  title: Quality evaluation of extracted ion chromatograms and chromatographic peaks in liquid chromatography/mass spectrometry-based metabolomics data
+- doi: 10.1021/acs.analchem.3c03078
+  title: 'SAND: Automated Time-Domain Modeling of NMR Spectra Applied to Metabolite Quantification'
+- doi: 10.3390/metabo15010028
+  title: 'DisCo P-ad: Distance-Correlation-Based p-Value Adjustment Enhances Multiple Testing Corrections for Metabolomics'
+- doi: 10.1093/bioadv/vbad098
+  title: Prediction of metabolite–protein interactions based on integration of machine learning and constraint-based modeling
+- doi: 10.1002/mrm.29370
+  title: '<scp>MRSCloud</scp>: A cloud‐based<scp>MRS</scp>tool for basis set simulation'
+source_repos:
+- https://github.com/pwendering/COMMIT
+- https://github.com/4dsoftware/elemcor
+- https://github.com/Viant-Metabolomics/Galaxy-M
+- https://github.com/ZaylaSchaeffer/GlyKAn-AZ-application
+- https://github.com/qLSLab/integrate
+- https://github.com/rjdossan/M2S
+- https://github.com/gtStyLab/MetaboPAC
+- https://github.com/kslynn128171/MRMQuant
+- https://github.com/Yingzhu96/MSIannotator
+- https://github.com/edisonomics/SAND
+- https://github.com/KechrisLab/DisCoPad
+- https://github.com/fayazsoleymani/SARTRE
+- https://github.com/shui5/MRSCloud
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pwendering/COMMIT

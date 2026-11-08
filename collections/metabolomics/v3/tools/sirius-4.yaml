@@ -1,0 +1,30 @@
+name: SIRIUS 4
+slug: sirius-4
+version_used: null
+edam_topics: []
+evidence_spans:
+- SIRIUS 4 was used to process LC–MS/MS runs and MassIVE datasets provided in mzML or mzXML format.
+- SIRIUS analyses the fragmentation pattern resulting in a hypothetical fragmentation tree
+- SIRIUS integrates a collection of our tools, including CSI:FingerID (with
+- c, Data processing through SIRIUS.
+- machine-learning assisted comparison with structural databases (e.g., SIRIUS4 and CFM-ID)
+- 'SIRIUS analyses the fragmentation pattern resulting in
+
+  a hypothetical fragmentation tree'
+- We report SIRIUS 4 ( https://bio.informatik.uni-jena.de/sirius/ ), which provides a fast computational approach for molecular structure identification.
+- 'SIRIUS 4: Turning tandem mass spectra into metabolite structure information.'
+derived_from:
+- doi: 10.1038/s41587-021-01045-9
+  title: High-confidence structural annotation of metabolites absent from spectral libraries
+- doi: 10.1021/acs.analchem.0c03895
+  title: Rapid Development of Improved Data-Dependent Acquisition Strategies
+- doi: 10.1038/s41592-019-0344-8
+  title: 'SIRIUS 4: a rapid tool for turning tandem mass spectra into metabolite structure information'
+source_repos:
+- https://github.com/sirius-ms/sirius
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sirius-ms/sirius

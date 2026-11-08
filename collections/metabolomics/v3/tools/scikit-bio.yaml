@@ -1,0 +1,21 @@
+name: scikit-bio
+slug: scikit-bio
+version_used: null
+edam_topics: []
+evidence_spans:
+- try installing `scikit-bio` from `conda-forge` before create the environment
+- conda install -c conda-forge scikit-bio
+derived_from:
+- doi: 10.3389/fmolb.2022.1028334
+  title: 'Inventa: A computational tool to discover structural novelty in natural extracts libraries'
+- doi: 10.3389/fbinf.2022.842964
+  title: 'MEMO: Mass Spectrometry-Based Sample Vectorization to Explore Chemodiverse Datasets'
+source_repos:
+- https://github.com/luigiquiros/inventa
+- https://github.com/mandelbrot-project/memo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/luigiquiros/inventa

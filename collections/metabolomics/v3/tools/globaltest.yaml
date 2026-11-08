@@ -1,0 +1,18 @@
+name: globaltest
+slug: globaltest
+version_used: null
+edam_topics: []
+evidence_spans:
+- Spectral clustering done in this way allows for feature group-wise statistical testing using the globaltest package
+- using the globaltest package, which provides high power to detect small concordant effects via joint modeling and reduced multiplicity adjustment penalties.
+derived_from:
+- doi: 10.1093/bioinformatics/btae584
+  title: Combined LC-MS/MS feature grouping, statistical prioritization, and interactive networking in msFeaST
+source_repos:
+- https://github.com/kevinmildau/msFeaST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kevinmildau/msFeaST

@@ -1,0 +1,39 @@
+name: MZmine2
+slug: mzmine2
+version_used: '2.31'
+edam_topics: []
+evidence_spans:
+- The representative one is MZmine2 [9]. After aligning retention time with RANSAC [10], MZmine2 selects a reference run and performs pairwise nearest matching
+- In comparison with the feature alignment methods in OpenMS, MZmine2 and XCMS on three public metabolomics benchmark datasets
+- 'data_process_origin = ''MZMine3''   #''MZMine2'' or ''MZmine3'' #specify the sofware use to process the data'
+- Inventa takes input directly from MZmine2 or [MZmine 3](http://mzmine.github.io/)
+- go to `src/process_data.py` and change it inside the function quant_table()
+- To pick peaks we use mzMine2,11 with parameters provided in Supporting Information Table SI-1
+- positive-mode LC-MS/MS via MZmine2 + GNPS feature-based molecular networking
+derived_from:
+- doi: 10.1021/acs.jnatprod.7b00737
+  title: 'Bioactivity-Based Molecular Networking for the Discovery
+
+    of Drug Leads in Natural Product Bioassay-Guided Fractionation'
+- doi: 10.1186/s12859-023-05525-4
+  title: 'G-Aligner: a graph-based feature alignment method for untargeted LC–MS-based metabolomics'
+- doi: 10.3389/fmolb.2022.1028334
+  title: 'Inventa: A computational tool to discover structural novelty in natural extracts libraries'
+- doi: 10.1038/s41589-020-00677-3
+  title: Chemically informed analyses of metabolomics mass spectrometry data with Qemistree
+- doi: 10.1021/acs.analchem.0c03895
+  title: Rapid Development of Improved Data-Dependent Acquisition Strategies
+- doi: 10.1038/s41586-023-06906-8
+  title: Reverse metabolomics for the discovery of chemical structures from humans
+source_repos:
+- https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks
+- https://github.com/CSi-Studio/G-Aligner
+- https://github.com/luigiquiros/inventa
+- https://github.com/biocore/q2-qemistree
+- https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks

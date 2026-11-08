@@ -1,0 +1,18 @@
+name: AutoCCS
+slug: autoccs
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'AutoCCS: Automated collision cross section calculation software for ion mobility spectrometry-mass spectrometry'
+- we demonstrated the CCS determination using AutoCCS for the Agilent tune-mix samples
+derived_from:
+- doi: 10.1093/bioinformatics/btab429
+  title: 'AutoCCS: automated collision cross-section calculation software for ion mobility spectrometry–mass spectrometry'
+source_repos:
+- https://github.com/PNNL-Comp-Mass-Spec/AutoCCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PNNL-Comp-Mass-Spec/AutoCCS

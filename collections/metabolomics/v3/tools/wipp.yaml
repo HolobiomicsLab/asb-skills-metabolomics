@@ -1,0 +1,18 @@
+name: WiPP
+slug: wipp
+version_used: '1.0'
+edam_topics: []
+evidence_spans:
+- '**WiPP** v 1.0 is release under the [MIT License](LICENSE.md).'
+- Now you are ready to run **WiPP**!
+derived_from:
+- doi: 10.3390/metabo9090171
+  title: 'WiPP: Workflow for Improved Peak Picking for Gas Chromatography-Mass Spectrometry (GC-MS) Data'
+source_repos:
+- https://github.com/bihealth/WiPP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bihealth/WiPP

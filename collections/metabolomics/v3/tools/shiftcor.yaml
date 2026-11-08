@@ -1,0 +1,16 @@
+name: shiftCor
+slug: shiftcor
+version_used: '0.8'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.aca.2018.08.002
+  title: 'statTarget: A streamlined tool for signal drift correction and interpretations of quantitative mass spectrometry-based omics data'
+source_repos:
+- https://github.com/13479776/statTarget
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/13479776/statTarget

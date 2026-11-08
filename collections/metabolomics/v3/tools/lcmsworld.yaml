@@ -1,0 +1,16 @@
+name: lcmsWorld
+slug: lcmsworld
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.0c00618
+  title: 'lcmsWorld: High-Performance 3D Visualization Software for Mass Spectrometry'
+source_repos:
+- https://github.com/PGB-LIV/lcmsWorld
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PGB-LIV/lcmsWorld

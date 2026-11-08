@@ -1,0 +1,43 @@
+name: limma
+slug: limma
+version_used: null
+edam_topics: []
+evidence_spans:
+- obtained by linear logistic regression model using lm (R Stats Package) and limma package (https ://bioco nduct or.org), respectively.
+- Run limma DE analysis on hRUV-normalised data
+- '"sva", "limma", "KEGGgraph", "siggenes"'
+- 'R packages: edger, limma, sva, ggplot2, ComplexHeatmap'
+derived_from:
+- doi: 10.1038/s41598-021-84824-3
+  title: DBnorm as an R package for the comparison and selection of appropriate statistical methods for batch effect correction in metabolomic studies
+- doi: 10.1101/2020.12.21.423723
+  title: 'hRUV: Hierarchical approach to removal of unwanted variation for large-scale metabolomics data'
+- doi: 10.1021/acs.jproteome.0c00082
+  title: 'lipidr: A Software Tool for Data Mining and Analysis
+
+    of Lipidomics Datasets'
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+- doi: 10.1016/j.isci.2023.106881
+  title: Integrative processing of untargeted metabolomic and lipidomic data using MultiABLER
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+- doi: 10.1007/s11306-018-1347-7
+  title: 'NormalizeMets: assessing, selecting and implementing statistical methods for normalizing metabolomics data'
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+source_repos:
+- https://github.com/NBDZ/dbnorm
+- https://github.com/SydneyBioX/hRUV
+- https://github.com/ahmohamed/lipidr
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/holab-hku/MultiABLER
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+- https://github.com/metabolomicstats/NormalizeMets
+- https://github.com/IxI-97/BiomiX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NBDZ/dbnorm

@@ -1,0 +1,21 @@
+name: 13C-SpaceM
+slug: 13c-spacem
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we present 13C-SpaceM, a method for spatial single-cell isotope tracing
+- '13C-SpaceM: Spatial single-cell isotope tracing reveals heterogeneity of de novo fatty acid synthesis in cancer'
+- git clone https://github.com/Buglakova/13C-SpaceM
+- This repository contains the code necessary to reproduce the figures from the manuscript
+- Here we present 13C-SpaceM, a method for spatial single-cell isotope tracing that extends the previously published SpaceM method with detection of 13C6-glucose-derived carbons in esterified fatty
+derived_from:
+- doi: 10.1038/s42255-024-01118-4
+  title: Spatial single-cell isotope tracing reveals heterogeneity of de novo fatty acid synthesis in cancer
+source_repos:
+- https://github.com/Buglakova/13C-SpaceM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Buglakova/13C-SpaceM

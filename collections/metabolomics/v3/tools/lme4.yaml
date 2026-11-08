@@ -1,0 +1,18 @@
+name: lme4
+slug: lme4
+version_used: null
+edam_topics: []
+evidence_spans:
+- The package was implemented on a linear model-fitting procedure of the lme4 package
+- The package was implemented on a linear model-fitting procedure of the lme4 package [29].
+derived_from:
+- doi: 10.1016/j.csbj.2019.04.009
+  title: Accounting for biological variation with linear mixed-effects modelling improves the quality of clinical metabolomics data
+source_repos:
+- https://github.com/kwanjeeraw/lmm2met
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kwanjeeraw/lmm2met

@@ -1,0 +1,20 @@
+name: XlsxWriter
+slug: xlsxwriter
+version_used: 3.2.2
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+- doi: 10.1002/nbm.70131
+  title: Automatic Identification of Potential Cellular Metabolites for Untargeted NMR Metabolomics
+source_repos:
+- https://github.com/sangeeta97/ccs_find
+- https://github.com/Leo-Cheng-Lab/ROIAL-NMR.git
+- https://github.com/Leo-Cheng-Lab/ROIAL-NMR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sangeeta97/ccs_find

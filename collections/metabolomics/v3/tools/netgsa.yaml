@@ -1,0 +1,25 @@
+name: netgsa
+slug: netgsa
+version_used: null
+edam_topics: []
+evidence_spans:
+- DNEA contains a wrapper function for the netgsa algorithm, `runNetGSA()`.
+- we have completely overhauled the netgsa R package, an implementation of the NetGSA methodology
+- we have overhauled NetGSA, an existing topology-based method, to provide a computationally-efficient user-friendly tool
+- 'title: ''netgsa: Network-based Gene Set Analysis'''
+- this paper provides important updates to an existing statistically powerful method, NetGSA
+- 'netgsa: Network-based Gene Set Analysis'
+derived_from:
+- doi: 10.1186/s12859-024-05994-1
+  title: 'DNEA: an R package for fast and versatile data-driven network analysis of metabolomics data'
+- doi: 10.1371/journal.pcbi.1008979
+  title: 'netgsa: Fast computation and interactive visualization for topology-based pathway enrichment analysis'
+source_repos:
+- https://github.com/Karnovsky-Lab/DNEA
+- https://github.com/mikehellstern/netgsa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Karnovsky-Lab/DNEA

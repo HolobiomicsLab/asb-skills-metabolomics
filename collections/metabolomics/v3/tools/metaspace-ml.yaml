@@ -1,0 +1,19 @@
+name: METASPACE-ML
+slug: metaspace-ml
+version_used: null
+edam_topics: []
+evidence_spans:
+- Documentation lives in the [GitHub Wiki](https://github.com/metaspace2020/metaspace/wiki)
+- incorporates new scores and computationally-efficient False Discovery Rate estimation
+- we introduce METASPACE-ML, a machine-learning model for FDR-controlled metabolite annotation within specific contexts in imaging MS
+derived_from:
+- doi: 10.1038/s41467-024-52213-9
+  title: 'METASPACE-ML: Context-specific metabolite annotation for imaging mass spectrometry using machine learning'
+source_repos:
+- https://github.com/metaspace2020/metaspace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/metaspace2020/metaspace

@@ -1,0 +1,20 @@
+name: CIR
+slug: cir
+version_used: null
+edam_topics: []
+evidence_spans:
+- currently supporting the chemical identifier resolver (CIR)
+derived_from:
+- doi: 10.21105/joss.04494
+  title: 'MSMetaEnhancer: A Python package for mass spectra
+
+    metadata annotation'
+source_repos:
+- https://github.com/mcs07/CIRpy
+- https://github.com/RECETOX/MSMetaEnhancer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcs07/CIRpy

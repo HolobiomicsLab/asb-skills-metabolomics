@@ -1,0 +1,19 @@
+name: ElemCor
+slug: elemcor
+version_used: null
+edam_topics: []
+evidence_spans:
+- ElemCor is built using MATLAB Compiler.
+- In addition to 13C, 2H, and 15N, ElemCor allows 18O and 34S as the tracer element for correction.
+- Here we present a software tool, ElemCor, to perform correction of such data in a resolution-dependent manner.
+derived_from:
+- doi: 10.1186/s12859-019-2669-9
+  title: 'ElemCor: accurate data analysis and enrichment calculation for high-resolution LC-MS stable isotope labeling experiments'
+source_repos:
+- https://github.com/4dsoftware/elemcor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/4dsoftware/elemcor

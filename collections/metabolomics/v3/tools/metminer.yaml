@@ -1,0 +1,22 @@
+name: MetMiner
+slug: metminer
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present MetMiner (https://github.com/ShawnWx2019/MetMiner), a user-friendly, full-functionality pipeline
+- we present MetMiner (https://github.com/ShawnWx2019/MetMiner), a user-friendly, full-functionality pipeline specifically designed for plant metabolomics data analysis
+- library(MetMiner)
+- '##> start metMiner shinyapp'
+- 'MetMiner: A user-friendly pipeline for large-scale plant metabolomics data analysis.'
+- if (!require('MetMiner')) remotes::install_github('ShawnWx2019/MetMiner');
+derived_from:
+- doi: 10.1111/jipb.13774
+  title: 'MetMiner: A user‐friendly pipeline for large‐scale plant metabolomics data analysis'
+source_repos:
+- https://github.com/ShawnWx2019/MetMiner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShawnWx2019/MetMiner

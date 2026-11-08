@@ -1,0 +1,17 @@
+name: metaSPAdes
+slug: metaspades
+version_used: null
+edam_topics: []
+evidence_spans:
+- Illumina paired end reads (82,722,940) of length 250 bp obtained from the same sample were assembled by metaSPAdes40
+derived_from:
+- doi: 10.1038/s41467-018-06082-8
+  title: Dereplication of microbial metabolites through database search of mass spectra
+source_repos:
+- https://github.com/ablab/npdtools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/npdtools

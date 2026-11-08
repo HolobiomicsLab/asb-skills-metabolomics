@@ -1,0 +1,42 @@
+name: BioConductor
+slug: bioconductor
+version_used: null
+edam_topics: []
+evidence_spans:
+- AutoTuner is available through BioConductor, and additional contributions are possible and encouraged.
+- AutoTuner is freely distributed through BioConductor as an R package.
+- it is based on the POMA R/Bioconductor package (http://www.bioconductor.org)
+- BiocManager::install('ExperimentHub')
+- Additional raw data for demonstration and extended testing is available through the BioC data package tartare.
+- Implementing and combining methods from a diverse range of R/Bioconductor packages into 'omics' data analysis workflows
+- struct and structToolbox are implemented in R, and are freely available from Bioconductor (http://bioconductor.org/packages/struct
+- In total, this review summarises more than two hundred metabolomics specific packages primarily available on CRAN, Bioconductor and GitHub.
+derived_from:
+- doi: 10.1101/812370
+  title: 'AutoTuner: High fidelity, robust, and rapid parameter selection for metabolomics data processing'
+- doi: 10.1021/ac202450g
+  title: 'CAMERA: An Integrated Strategy for Compound Spectra Extraction and Annotation of Liquid Chromatography/Mass Spectrometry Data Sets'
+- doi: 10.1093/bioinformatics/btaa037
+  title: Targeted realignment of LC-MS profiles by neighbor-wise compound-specific graphical time warping with misalignment detection
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+- doi: 10.1021/acs.jproteome.0c00866
+  title: 'The rawrr R Package: Direct Access to Orbitrap Data and Beyond'
+- doi: 10.1093/bioinformatics/btaa1031
+  title: 'struct: an R/Bioconductor-based framework for standardized metabolomics data analysis and beyond'
+- doi: 10.3390/metabo9100200
+  title: The metaRbolomics Toolbox in Bioconductor and beyond
+source_repos:
+- https://github.com/KujawinskiLaboratory/Autotuner
+- https://github.com/sneumann/CAMERA
+- https://github.com/ChiungTingWu/ncGTW
+- https://github.com/nutrimetabolomics/POMAShiny
+- https://github.com/fgcz/rawrr
+- https://github.com/computational-metabolomics/struct
+- https://github.com/sneumann/metaRbolomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KujawinskiLaboratory/Autotuner

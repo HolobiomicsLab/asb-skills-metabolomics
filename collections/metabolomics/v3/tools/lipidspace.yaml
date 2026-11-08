@@ -1,0 +1,21 @@
+name: LipidSpace
+slug: lipidspace
+version_used: null
+edam_topics: []
+evidence_spans:
+- we decided to utilize the maximum common subgraph (MCS) approach
+- a built-in QC function tests during data import if the loaded data conforms to Benford
+- LipidSpace can operate with sample-related study variables, lipids, and their abundances.
+- LipidSpace is designed as a workstation application suitable for running on a regular office computer
+- is designed as a workstation application suitable for
+derived_from:
+- doi: 10.1021/acs.analchem.3c02449
+  title: 'LipidSpace: Simple Exploration, Reanalysis, and Quality Control of Large-Scale Lipidomics Studies'
+source_repos:
+- https://github.com/lifs-tools/lipidspace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lifs-tools/lipidspace

@@ -1,0 +1,16 @@
+name: Mascot Generic Format (MGF)
+slug: mascot-generic-format-mgf
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.3c05829
+  title: 'NP<sup>3</sup> MS Workflow: An Open-Source Software System to Empower Natural Product-Based Drug Discovery Using Untargeted Metabolomics'
+source_repos:
+- https://github.com/danielatrivella/NP3_MS_Workflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/danielatrivella/NP3_MS_Workflow

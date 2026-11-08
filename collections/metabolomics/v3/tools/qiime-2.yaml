@@ -1,0 +1,20 @@
+name: Qiime 2
+slug: qiime-2
+version_used: '2019.7'
+edam_topics: []
+evidence_spans:
+- The CSCS analysis was run using the Qiime 2 (https://github.com/madeleineernst/q2-cscs) implementation
+derived_from:
+- doi: 10.3389/fbinf.2022.842964
+  title: 'MEMO: Mass Spectrometry-Based Sample Vectorization to Explore Chemodiverse Datasets'
+- doi: 10.1038/s41589-020-00677-3
+  title: Chemically informed analyses of metabolomics mass spectrometry data with Qemistree
+source_repos:
+- https://github.com/mandelbrot-project/memo
+- https://github.com/biocore/q2-qemistree
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mandelbrot-project/memo

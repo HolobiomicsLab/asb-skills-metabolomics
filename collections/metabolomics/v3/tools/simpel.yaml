@@ -1,0 +1,19 @@
+name: SIMPEL
+slug: simpel
+version_used: null
+edam_topics: []
+evidence_spans:
+- get_table_objects_NA_corrected(XCMS_data, compounds_data, ppm, rt_tolerance, output, label_scheme)
+- Available as an R package, SIMPEL extends metabolomics analyses to include isotopologue signatures necessary to quantify metabolic flux.
+- We describe a tool, Stable Isotope-assisted Metabolomics for Pathway Elucidation (SIMPEL), to simplify analysis and interpretation of isotope-enriched HRMS datasets.
+derived_from:
+- doi: 10.1038/s42003-024-05844-z
+  title: 'SIMPEL: using stable isotopes to elucidate dynamics of context specific metabolism'
+source_repos:
+- https://github.com/SIMPELmetabolism/SIMPEL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SIMPELmetabolism/SIMPEL

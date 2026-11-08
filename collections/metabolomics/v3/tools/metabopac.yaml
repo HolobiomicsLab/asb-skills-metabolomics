@@ -1,0 +1,16 @@
+name: MetaboPAC
+slug: metabopac
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1039/d2mo00168c
+  title: Towards inferring absolute concentrations from relative abundance in time-course GC-MS metabolomics data
+source_repos:
+- https://github.com/gtStyLab/MetaboPAC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gtStyLab/MetaboPAC

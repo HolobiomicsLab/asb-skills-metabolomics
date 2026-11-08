@@ -1,0 +1,22 @@
+name: PathIntegrate
+slug: pathintegrate
+version_used: null
+edam_topics: []
+evidence_spans:
+- In this work we introduce PathIntegrate, a modelling framework and corresponding Python toolkit to facilitate pathway-based multi-omics integration.
+- The PathIntegrate Python package is available at https://github.com/cwieder/PathIntegrate
+- Pathway-based multi-omics data integration using PathIntegrate Multi-View and Single-View models
+- pip install PathIntegrate
+- PathIntegrate Multi-View and Single-View models
+- 'Single-View model: Integrates multi-omics data into one set of multi-omics pathway scores and applies an SKlearn-compatible predictive model'
+derived_from:
+- doi: 10.1371/journal.pcbi.1011814
+  title: 'PathIntegrate: Multivariate modelling approaches for pathway-based multi-omics data integration'
+source_repos:
+- https://github.com/cwieder/PathIntegrate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cwieder/PathIntegrate

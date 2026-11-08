@@ -1,0 +1,35 @@
+name: LOTUS
+slug: lotus
+version_used: null
+edam_topics: []
+evidence_spans:
+- given that the [Lotus Dabase](https://lotus.naturalproducts.net/) uses the NPClassifyre ontology
+- It assigns molecular structures to each mass feature of the metabolome by mapping them with a list of adducts and then querying LOTUS database
+- makes use of general reaction rules and metabolite structures, stored in public databases like RetroRules [36] and LOTUS [37]
+- The LOTUS database was converted to an SQLite format to be compatible with MEANtools
+- 'LOTUS: run `prepare_wikidata_lotus_prefect.py` for updating the data (otherwise use the provided file)'
+- subsetArgs = c("LOTUS", "KEGG")
+- "subsetBy = \"Database\",\n  subsetArgs = c(\"LOTUS\", \"KEGG\")"
+derived_from:
+- doi: 10.1101/2025.09.22.677919
+  title: Computational method for mapping mass signatures along developmental gradients reveals a novel role for a monosaccharide tetrose in maize salt-stress response
+- doi: 10.3389/fmolb.2022.1028334
+  title: 'Inventa: A computational tool to discover structural novelty in natural extracts libraries'
+- doi: 10.1371/journal.pbio.3003307
+  title: MEANtools integrates multi-omics data to identify metabolites and predict biosynthetic pathways
+- doi: 10.1038/s41592-025-02813-0
+  title: 'MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries'
+- doi: 10.1371/journal.pone.0306202
+  title: 'uafR: An R package that automates mass spectrometry data processing'
+source_repos:
+- https://github.com/dickinsonlab/DIMPLE-code
+- https://github.com/luigiquiros/inventa
+- https://github.com/IntegrativeBioinformaticsLab/meantools
+- https://github.com/corinnabrungs/msn_tree_library
+- https://github.com/castratton/uafR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dickinsonlab/DIMPLE-code

@@ -1,0 +1,17 @@
+name: DGCNN
+slug: dgcnn
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Evaluate predictions against ground truth:'
+derived_from:
+- doi: 10.1093/bioinformatics/btad354
+  title: '3DMolMS: prediction of tandem mass spectra from 3D molecular conformations'
+source_repos:
+- https://github.com/JosieHong/3DMolMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JosieHong/3DMolMS

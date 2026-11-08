@@ -1,0 +1,16 @@
+name: hmmscan
+slug: hmmscan
+version_used: null
+edam_topics: []
+evidence_spans:
+- the HMMER3 tool hmmscan was used with a custom profile hidden Markov model (pHMM) database
+derived_from:
+- doi: 10.1371/journal.pcbi.1010462
+  title: 'iPRESTO: Automated discovery of biosynthetic sub-clusters linked to specific natural product substructures'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

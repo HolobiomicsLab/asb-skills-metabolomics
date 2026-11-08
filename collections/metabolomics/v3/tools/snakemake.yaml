@@ -1,0 +1,35 @@
+name: Snakemake
+slug: snakemake
+version_used: null
+edam_topics: []
+evidence_spans:
+- snakemake --use-conda --cores all
+- UmetaFlow is implemented as a Snakemake workflow, making it easy to use, scalable, and reproducible.
+- snakemake --use-conda --dry-run
+derived_from:
+- doi: 10.1101/2024.11.13.623458
+  title: Language model-guided anticipation and discovery of unknown metabolites
+- doi: 10.1101/2025.11.12.687968
+  title: 'MetaXtract: Extracting Metadata from Raw Files for FAIR Data Practices and Workflow Optimisation'
+- doi: 10.1021/jasms.1c00315
+  title: <i>In Silico</i> Collision Cross Section Calculations to Aid Metabolite Annotation
+- doi: 10.1186/s13321-023-00724-w
+  title: 'UmetaFlow: an untargeted metabolomics workflow for high-throughput data processing and analysis'
+- doi: 10.1038/s41467-024-55306-7
+  title: 'msiFlow: automated workflows for reproducible and scalable multimodal mass spectrometry imaging and microscopy data analysis'
+source_repos:
+- https://github.com/skinniderlab/CLM
+- https://github.com/skinniderlab/CLM.git
+- https://github.com/skinniderlab/clm
+- https://github.com/Rappsilber-Laboratory/MetaXtract
+- https://github.com/DasSusanta/snakemake_ccs
+- https://github.com/example-lab/meta-viral-workflow
+- https://github.com/biosustain/snakemake_UmetaFlow
+- https://github.com/biosustain/snakemake_UmetaFlow.git
+- https://github.com/Immunodynamics-Engel-Lab/msiflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/skinniderlab/CLM

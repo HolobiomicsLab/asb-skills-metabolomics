@@ -1,0 +1,21 @@
+name: ENPKG
+slug: enpkg
+version_used: null
+edam_topics: []
+evidence_spans:
+- The scripts used are part of the ENPKG workflow and are publicly available on GitHub.
+- The scripts used are part of the ENPKG
+- the developed framework, the Experimental Natural Products Knowledge Graph (ENPKG)
+- the developed framework, the Experimental Natural Products Knowledge Graph (ENPKG), to leverage the results obtained from screening 1,600 plant extracts against trypanosomatids
+derived_from:
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+source_repos:
+- https://github.com/enpkg/enpkg_full
+- https://github.com/enpkg/enpkg_workflow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enpkg/enpkg_full

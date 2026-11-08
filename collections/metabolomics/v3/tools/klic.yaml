@@ -1,0 +1,17 @@
+name: klic
+slug: klic
+version_used: null
+edam_topics: []
+evidence_spans:
+- R packages klic and coca are available on the Comprehensive R Archive Network
+derived_from:
+- doi: 10.1093/bioinformatics/btaa593
+  title: Multiple kernel learning for integrative consensus clustering of omic datasets
+source_repos:
+- https://github.com/acabassi/klic-pancancer-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/acabassi/klic-pancancer-analysis

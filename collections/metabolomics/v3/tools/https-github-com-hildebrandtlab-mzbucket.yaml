@@ -1,0 +1,19 @@
+name: https://github.com/hildebrandtlab/mzBucket
+slug: https-github-com-hildebrandtlab-mzbucket
+version_used: null
+edam_topics: []
+evidence_spans:
+- Generated data and code are available at https://github.com/hildebrandtlab/mzBucket
+- pyproteolizard-data (https://github.com/theGreatHerrLebert/proteolizard-data) for data-access
+- pyproteolizard-algorithm (https://github.com/theGreatHerrLebert/proteolizard-algorithm) for the LSH
+derived_from:
+- doi: 10.1186/s12859-022-04833-5
+  title: Locality-sensitive hashing enables efficient and scalable signal classification in high-throughput mass spectrometry raw data
+source_repos:
+- https://github.com/hildebrandtlab/mzBucket
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hildebrandtlab/mzBucket

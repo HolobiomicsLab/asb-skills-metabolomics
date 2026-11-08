@@ -1,0 +1,20 @@
+name: notame
+slug: notame
+version_used: null
+edam_topics: []
+evidence_spans:
+- we introduce notame, an analytical workflow for non-targeted metabolic profiling approaches
+- '```flag_quality``` is used to flag features based on the other quality metrics'
+- library(notame)
+derived_from:
+- doi: 10.3390/metabo10040135
+  title: '“Notame”: Workflow for Non-Targeted LC–MS Metabolic Profiling'
+source_repos:
+- https://github.com/antonvsdata/notame
+- https://github.com/hanhineva-lab/notame
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/antonvsdata/notame

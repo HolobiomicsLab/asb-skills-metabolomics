@@ -1,0 +1,16 @@
+name: Chemical Translation System
+slug: chemical-translation-system
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bioinformatics/btv194
+  title: 'MetaMapR: pathway independent metabolomic network analysis incorporating unknowns'
+source_repos:
+- https://github.com/dgrapov/MetaMapR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dgrapov/MetaMapR

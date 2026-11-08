@@ -1,0 +1,17 @@
+name: rDolphin
+slug: rdolphin
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2023.03.01.530642
+  title: 'NMRQNet: a deep learning approach for automatic identification and quantification of metabolites using Nuclear Magnetic Resonance (NMR) in human plasma samples'
+source_repos:
+- https://github.com/danielcanueto/rDolphin
+- https://github.com/LiuzLab/NMRQNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/danielcanueto/rDolphin

@@ -1,0 +1,21 @@
+name: https://github.com/UoMMIB/PeakMLViewerPy
+slug: https-github-com-uommib-peakmlviewerpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- the newly developed PeakMLViewerPy tool available at https://github.com/UoMMIB/PeakMLViewerPy
+- The source code, extensive documentation, and tutorials are freely available on GitHub at https://github.com/francescodc87/ipaPy2
+- git clone https://github.com/francescodc87/ipaPy2
+- 'Source: github:github.com__francescodc87__ipaPy2'
+- such as [mzMatch](https://github.com/UoMMIB/mzmatch.R)
+derived_from:
+- doi: 10.1093/bioinformatics/btad455
+  title: 'ipaPy2: Integrated Probabilistic Annotation (IPA) 2.0—an improved Bayesian-based method for the annotation of LC–MS/MS untargeted metabolomics data'
+source_repos:
+- https://github.com/francescodc87/ipaPy2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/francescodc87/ipaPy2

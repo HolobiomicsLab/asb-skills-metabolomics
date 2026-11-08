@@ -1,0 +1,35 @@
+name: BiG-SCAPE
+slug: big-scape
+version_used: null
+edam_topics: []
+evidence_spans:
+- groups BGCs into gene cluster families (GCFs) with BiG-SCAPE (19)
+- our previous tool, [BiG-SCAPE](https://git.wageningenur.nl/medema-group/BiG-SCAPE), which was able to sensitively capture the slightest difference
+- with the output of BiG-SCAPE, which groups BGCs into gene cluster families (GCFs) [11, 12]
+- since 2018, BiG-SCAPE (7) can reliably calculate the similarity between pairs of BGCs, grouping them into gene cluster families (GCFs)
+- By applying [BiG-SCAPE](https://bigscape-corason.secondarymetabolites.org), each biosynthetic gene cluster (BGC) in the genomes will go through a pairwise similarity comparison
+- BiG-SCAPE (7) can reliably calculate the similarity between pairs of BGCs, grouping them into gene cluster families (GCFs)
+- bigscape.py --pfam_dir /path/to/pfam_files/ -i /path/to/antismash/ \ -o /path/to/bigscape_outputs_220603_1791samples/ -c 8 --include_singletons --mibig
+derived_from:
+- doi: 10.1128/msystems.00937-21
+  title: 'BiG-MAP: an Automated Pipeline To Profile Metabolic Gene Cluster Abundance and Expression in Microbiomes'
+- doi: 10.1038/s41589-019-0400-9
+  title: A computational framework to explore large-scale biosynthetic diversity
+- doi: 10.1093/gigascience/giaa154
+  title: 'BiG-SLiCE: A highly scalable tool maps the diversity of 1.2 million biosynthetic gene clusters'
+- doi: 10.1186/s40168-022-01444-3
+  title: Enhanced correlation-based linking of biosynthetic gene clusters to their metabolic products through chemical class matching
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+source_repos:
+- https://github.com/medema-group/BiG-MAP
+- https://github.com/medema-group/BiG-SCAPE
+- https://github.com/medema-group/bigslice
+- https://github.com/NPLinker/nplinker
+- https://github.com/tiagolbiotech/NPOmix_python
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/medema-group/BiG-MAP

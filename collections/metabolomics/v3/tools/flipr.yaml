@@ -1,0 +1,17 @@
+name: flipR
+slug: flipr
+version_used: null
+edam_topics: []
+evidence_spans:
+- flipR uses nonlinear regression with an extended log-normal kernel to fit fragment-specific dissociation profiles
+derived_from:
+- doi: 10.1038/s41467-020-15960-z
+  title: LipidCreator workbench to probe the lipidomic landscape
+source_repos:
+- https://github.com/lifs-tools/lipidcreator
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lifs-tools/lipidcreator

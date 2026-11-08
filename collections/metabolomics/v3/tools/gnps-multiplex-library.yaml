@@ -1,0 +1,17 @@
+name: GNPS Multiplex library
+slug: gnps-multiplex-library
+version_used: null
+edam_topics: []
+evidence_spans:
+- Candidate structures are retrieved within a 0.01 Da tolerance from FoodDB, 39 HMDB,40 MassSpecGym,32 NIST23,1 and the GNPS Multiplex library.
+derived_from:
+- doi: 10.1101/2025.11.12.688047
+  title: 'Learning from All Views: A Multiview Contrastive Framework for Metabolite Annotation'
+source_repos:
+- https://github.com/HassounLab/MVP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/MVP

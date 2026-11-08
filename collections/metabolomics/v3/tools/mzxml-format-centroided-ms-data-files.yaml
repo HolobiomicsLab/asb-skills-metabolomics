@@ -1,0 +1,17 @@
+name: mzXML format (centroided MS data files)
+slug: mzxml-format-centroided-ms-data-files
+version_used: null
+edam_topics: []
+evidence_spans:
+- 0518_s_BuOH.mzXML:scan:171
+derived_from:
+- doi: 10.1038/s41592-021-01339-5
+  title: 'GNPS Dashboard: collaborative exploration of mass spectrometry data in the web browser'
+source_repos:
+- https://github.com/Wang-Bioinformatics-Lab/GNPS_LCMSDashboard
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wang-Bioinformatics-Lab/GNPS_LCMSDashboard

@@ -1,0 +1,110 @@
+name: Docker
+slug: docker
+version_used: 2.2.7
+edam_topics: []
+evidence_spans:
+- The API and frontend were containerized with docker and deployed on AWS Elastic Beanstalk
+- '- **Docker**, for the msconvert sidecar that converts RAW mass-spectrometry files.'
+- MsConvert in a docker container is called by the chem-spectra-app to achieve this job.
+- COCONUT web interface, back-end and database are entirely Dockerised, allowing a quick and easy deployment
+- 'The requirements on your local system are: 1. Docker 2. Docker Compose'
+- our preferred and recommended way is using docker/docker-compose as it provides a more consistent experience
+- Deploying to your own web server with docker. `docker pull databio2022/graphbio:v2.2.7-manual`
+- docker pull zmahnoor/maw-r:1.0.8 --platform=linux/amd64
+- Installation is facilitated by Docker (Anderson 2015), which pre-installs all required libraries and packages with a single button click.
+- MetaboShiny is available on Docker Hub under the jcwolthuis/MetaboShiny repository
+- 'MetaMOPE is freely available at https://metamope.cmdm.tw. Source code and installation instructions are available on GitHub: https://github.com/CMDM-Lab/MetaMOPE.'
+- MetaMOPE is freely available at https://metamope.cmdm.tw. Source code and installation instructions are available on GitHub
+- We also constructed a Docker Image for users to create their web service and deploy the application into any environment without installing the webserver.
+- It uses Docker/Singularity containers making installation trivial and results highly reproducible.
+- MOI was developed using nextflow and Docker, allowing it to be easily deployed and scaled to accommodate large datasets
+- You can use [Docker](https://www.docker.com/get-started) to run the `npanalyst` CLI
+- You can use [Docker](https://www.docker.com/get-started) to run the `npanalyst` CLI by binding a local volume.
+- POMAShiny has been containerized using Docker. The Docker image is freely available at DockerHub
+- Docker images and a docker-compose setup file are also provided for easy deployment, along with demo data.
+- a Docker image was created using a Linux OS base image to encapsulate Shinyscreen along with its dependencies.
+- portable software containers such as Apptainer/Singularity [33] or Docker [34] that capture the runtime environment of a workflow or a workflow module
+- Nextflow automatically pulls all necessary Docker containers from Dockerhub
+- Nextflow automatically pulls all necessary Docker containers from Dockerhub, when using the default `nextflow.config` file.
+- Each module of the workflow is provided with their own Docker container to ensure portability and eliminate the need for local software installations
+- each of them embedded in Docker images, sharing a data volume and communicating together through AJAX web services
+- each of them embedded in Docker images, sharing a data volume
+- each of them embedded in Docker images
+derived_from:
+- doi: 10.1186/s13321-023-00734-8
+  title: 'The BinDiscover database: a biology-focused meta-analysis tool for 156,000 GC–TOF MS metabolome samples'
+- doi: 10.1021/acs.analchem.1c01465
+  title: 'CFM-ID 4.0: More Accurate ESI-MS/MS Spectral Prediction and Compound Identification'
+- doi: 10.1186/s13321-020-00481-0
+  title: 'ChemSpectra: a web-based spectra editor for analytical data'
+- doi: 10.1021/acs.jproteome.2c00602
+  title: 'CloMet: A Novel Open-Source and Modular Software Platform That Connects Established Metabolomics Repositories and Data Analysis Resources'
+- doi: 10.1186/s13321-020-00478-9
+  title: 'COCONUT online: Collection of Open Natural Products database'
+- doi: 10.1021/jacs.9b13786
+  title: A Convolutional Neural Network-Based Approach for the Rapid Annotation of Molecularly Diverse Natural Products
+- doi: 10.1038/s41592-021-01339-5
+  title: 'GNPS Dashboard: collaborative exploration of mass spectrometry data in the web browser'
+- doi: 10.3389/fgene.2022.957317
+  title: 'GraphBio: A shiny web app to easily perform popular visualization analysis for omics data'
+- doi: 10.1186/s13321-023-00695-y
+  title: 'MAW: the reproducible Metabolome Annotation Workflow for untargeted tandem mass spectrometry'
+- doi: 10.1007/s11306-020-01717-8
+  title: 'MetaboShiny: interactive analysis and metabolite annotation of mass spectrometry-based metabolomics data'
+- doi: 10.1093/bioadv/vbad061
+  title: 'MetaMOPE: a web service for mobile phase determination and fast chromatography peaks evaluation for metabolomics'
+- doi: 10.1021/acs.jproteome.4c00854
+  title: 'MSConnect: Open-Source, End-to-End Platform for Automated Mass Spectrometry Data Management, Analysis, and Visualization'
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/jasms.4c00364
+  title: 'Nextflow4MS-DIAL: A Reproducible Nextflow-Based Workflow for Liquid Chromatography–Mass Spectrometry Metabolomics Data Processing'
+- doi: 10.1021/acscentsci.1c01108
+  title: 'NP Analyst: An Open Online Platform for Compound Activity Mapping'
+- doi: 10.1021/acs.jnatprod.1c00399
+  title: 'NPClassifier: A Deep Neural Network-Based Structural Classification Tool for Natural Products'
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+- doi: 10.1021/acs.analchem.4c07078
+  title: 'QC4Metabolomics: Real-Time and Retrospective Quality Control of Metabolomics Data'
+- doi: 10.1186/s13321-025-01044-x
+  title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
+- doi: 10.1021/acs.analchem.0c03421
+  title: SmartPeak Automates Targeted and Quantitative Metabolomics Data Processing
+- doi: 10.1038/s41467-024-55306-7
+  title: 'msiFlow: automated workflows for reproducible and scalable multimodal mass spectrometry imaging and microscopy data analysis'
+- doi: 10.1093/gigascience/giad115
+  title: A multi-omics data analysis workflow packaged as a FAIR Digital Object
+- doi: 10.1007/s11306-017-1178-y
+  title: 'NMRProcFlow: a graphical and interactive tool dedicated to 1D spectra processing for NMR-based metabolomics'
+source_repos:
+- https://github.com/ComPlat/chem-spectra-app
+- https://github.com/rmallol/clomet
+- https://github.com/Steinbeck-Lab/coconut
+- https://github.com/mwang87/NP-Classifier
+- https://github.com/Wang-Bioinformatics-Lab/GNPS_LCMSDashboard
+- https://github.com/databio2022/GraphBio
+- https://github.com/zmahnoor14/MAW
+- https://github.com/joannawolthuis/MetaboShiny
+- https://github.com/CMDM-Lab/MetaMOPE
+- https://github.com/RTKlab-BYU/MSConnect
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+- https://github.com/PNNL-m-q/mza
+- https://github.com/Nextflow4Metabolomics/nextflow4ms-dial
+- https://github.com/liningtonlab/npanalyst
+- https://github.com/nutrimetabolomics/POMAShiny
+- https://github.com/stanstrup/QC4Metabolomics
+- https://github.com/AutoFlowResearch/SmartPeak
+- https://github.com/Immunodynamics-Engel-Lab/msiflow
+- https://github.com/Xomics/Docker_containers
+- https://github.com/Xomics/Docker_containers.git
+- https://github.com/Xomics/ACTIONdemonstrator_workflow
+- https://github.com/INRA/NMRProcFlow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ComPlat/chem-spectra-app

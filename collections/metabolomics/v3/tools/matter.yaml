@@ -1,0 +1,19 @@
+name: matter
+slug: matter
+version_used: '2.4'
+edam_topics: []
+evidence_spans:
+- the entire *matter* package that provides the backend for *Cardinal*'s computing on larger-than-memory MS imaging datasets has been rewritten
+- the entire *matter* package that provides the backend for *Cardinal*'s computing on larger-than-memory MS imaging datasets
+- It bring support many of the new low-level signal processing functions implemented for *matter 2.4* and *matter 2.6*.
+derived_from:
+- doi: 10.1093/bioinformatics/btv146
+  title: "<i>Cardinal</i>\n                    : an R package for statistical analysis of mass spectrometry-based imaging experiments"
+source_repos:
+- https://github.com/kuwisdelu/Cardinal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kuwisdelu/Cardinal

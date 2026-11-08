@@ -1,0 +1,39 @@
+name: Seaborn
+slug: seaborn
+version_used: 0.12.2
+edam_topics: []
+evidence_spans:
+- Seaborn (version 0.12.2)
+- and Seaborn (version 0.12.2).
+- mwaskom/seaborn
+- import seaborn
+- MetaboDirect is written in Python and uses a wide variety of packages, including pandas, NumPy, Matplotlib, seaborn, scikit-learn, and NetworkX
+- import seaborn as sns
+- seaborn==0.11.1
+derived_from:
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.1128/msystems.00937-21
+  title: 'BiG-MAP: an Automated Pipeline To Profile Metabolic Gene Cluster Abundance and Expression in Microbiomes'
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+- doi: 10.1186/s40168-023-01476-3
+  title: 'MetaboDirect: an analytical pipeline for the processing of FT-ICR MS-based metabolomic data'
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+- doi: 10.1093/bioinformatics/btad096
+  title: Regularized adversarial learning for normalization of multi-batch untargeted metabolomics data
+source_repos:
+- https://github.com/HassounLab/BAM
+- https://github.com/mwaskom/seaborn
+- https://github.com/medema-group/BiG-MAP
+- https://github.com/kopeckylukas/py-mamsi
+- https://github.com/Coayala/MetaboDirect
+- https://github.com/bittremieuxlab/spectrum_utils
+- https://github.com/zamboni-lab/RALPS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/BAM

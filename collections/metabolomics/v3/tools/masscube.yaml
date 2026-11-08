@@ -1,0 +1,22 @@
+name: MassCube
+slug: masscube
+version_used: 1.0.11
+edam_topics: []
+evidence_spans:
+- pip install masscube
+- We present MassCube, a Python-based open-source framework for MS data processing
+- MassCube outperforms MS-DIAL, MZmine3 or XCMS for speed, isomer detection, and accuracy.
+- build_classifier
+derived_from:
+- doi: 10.1038/s41467-025-60640-5
+  title: MassCube improves accuracy for metabolomics data processing from raw files to phenotype classifiers
+- doi: 10.1101/2024.10.14.618269
+  title: 'Structural annotation of full-scan MS data: A unified solution for LC-MS and MS imaging analyses'
+source_repos:
+- https://github.com/huaxuyu/masscube
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/huaxuyu/masscube

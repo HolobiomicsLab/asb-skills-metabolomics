@@ -1,0 +1,26 @@
+name: SQLite3
+slug: sqlite3
+version_used: null
+edam_topics: []
+evidence_spans:
+- SQLite3
+- please install the appropriate sqlite (>3) package for your distribution
+- sqlite3 -header -csv ./metaspace/webapp/imageclassification.sqlite "select * from imageclassifications" > ./metaspace/webapp/dist/results.csv
+derived_from:
+- doi: 10.1093/gigascience/giaa154
+  title: 'BiG-SLiCE: A highly scalable tool maps the diversity of 1.2 million biosynthetic gene clusters'
+- doi: 10.1038/s41467-020-15960-z
+  title: LipidCreator workbench to probe the lipidomic landscape
+- doi: 10.1186/s12859-020-3425-x
+  title: 'OffsampleAI: artificial intelligence approach to recognize off-sample mass spectrometry images'
+source_repos:
+- https://github.com/medema-group/bigslice
+- https://github.com/lifs-tools/lipidcreator
+- https://github.com/metaspace2020/metaspace
+- https://github.com/metaspace2020/offsample
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/medema-group/bigslice

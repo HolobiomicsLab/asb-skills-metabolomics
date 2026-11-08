@@ -1,0 +1,23 @@
+name: Thermo Fisher RawFileReader
+slug: thermo-fisher-rawfilereader
+version_used: null
+edam_topics: []
+evidence_spans:
+- rawR.exe utilizes the New Raw File Reader .Net assembly provided by Thermo Fisher Scientific
+derived_from:
+- doi: 10.1101/2025.11.12.687968
+  title: 'MetaXtract: Extracting Metadata from Raw Files for FAIR Data Practices and Workflow Optimisation'
+- doi: 10.1101/2020.10.30.362533
+  title: rawR - Direct access to raw mass spectrometry data in R
+- doi: 10.1021/acs.jproteome.0c00866
+  title: 'The rawrr R Package: Direct Access to Orbitrap Data and Beyond'
+source_repos:
+- https://github.com/Rappsilber-Laboratory/MetaXtract
+- https://github.com/thermofisherlsms/RawFileReader
+- https://github.com/fgcz/rawrr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Rappsilber-Laboratory/MetaXtract

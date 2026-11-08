@@ -1,0 +1,243 @@
+name: NumPy
+slug: numpy
+version_used: 1.23.2
+edam_topics: []
+evidence_spans:
+- '* NumPy'
+- '* NumPy
+
+  * Pandas'
+- '* RDKit
+
+  * NumPy
+
+  * Pandas'
+- NumPy
+- 'RDKit
+
+  * NumPy
+
+  * Pandas'
+- were implemented using the Numpy [41], Scipy [42], and scikit-learn [27] libraries.
+- routines for analyzing data were implemented using the Numpy [41], Scipy [42], and scikit-learn [27] libraries.
+- making use of various open-source libraries such as NumPy [62], SciPy, and pandas [46] for scientific computing
+- The ANN-SoLo software is written in Python, making use of various open-source libraries such as NumPy [62], SciPy, and pandas [46] for scientific computing
+- The spectrum preprocessing settings... making use of various open-source libraries such as NumPy, SciPy, and pandas for scientific computing
+- NumPy (version 1.23.2)
+- BioServices (version 1.11.2), scikit-learn (version 1.1.2), NumPy (version 1.23.2)
+- requires _SciPy_, _NumPy_, _h5py_ libraries.
+- chemdistiller.chemdb.database module
+- numpy
+- FlavorFormer can be reload and predict easily.
+- import numpy as np
+- Feature extraction rsults in csv format, containing m/z, RT and area columns.
+- it has very specific versioning requirements of pandas and numpy
+- numpy14 for calculations as well as statsmodels15, scikit-learn16, and Cython17 for statistical tests
+- '- pandas
+
+  - numpy'
+- '- numpy'
+- NumPy
+- concatenated peak arrays are written as NumPy
+- only scan-varying values and concatenated peak arrays are written as NumPy columns
+- score implementations based on NumPy (Walt, Colbert, & Varoquaux, 2011)
+- due to score implementations based on Num Py (Walt, Colbert, & Varoquaux, 2011), Sci Py (Virtanen et al., 2020), and Numba
+- pip install numpy
+- "pip install numpy\n   pip install memo-ms"
+- including pandas, NumPy, Matplotlib, seaborn, scikit-learn, and NetworkX
+- MetaboDirect is written in Python and uses a wide variety of packages, including pandas, NumPy, Matplotlib, seaborn, scikit-learn, and NetworkX
+- ':target: https://pypi.python.org/pypi/metabolabpy/'
+- https://pypi.python.org/pypi/metabolabpy/
+- uses numerous Python toolboxes, such as numpy, scipy, pandas, etc
+- such as numpy, scipy, pandas, etc
+- uses numerous Python toolboxes, such as numpy, scipy, pandas, etc.
+- 'Python packages: numpy, scikit-learn, sys, arg-parse, scipy.parse'
+- numpy == 1.24.3
+- import numpy as np
+- Protomix provides an FT function, utilizing the NumPy library to facilitate this transformation.
+- Blank masking, missing value imputation, and feature removal is implemented using custom routines in Pandas and numpy
+- normalization is implemented using numpy and can be performed in a one-pass or two-pass approach
+- we transform spectra from a set of discrete peaks to a histogram by binning at integer-Dalton resolution
+- Numba needs NumPy 1.21 or less
+- '- numpy'
+- numpy
+- common scientific Python libraries like numpy and scipy [28].
+- peak = np.array([[69.071, 7.917962], [86.066, 1.021589], [86.0969, 100.0]], dtype=np.float32)
+- peak = np.array([[69.071, 7.917962]
+- import numpy as np
+- Operations on the peaks of MS/MS spectra are implemented using Num Py [23], a popular Python library for efficient numerical computation.
+- the mean and median absolute errors of 57 s and 35 s.
+- 'depends on common packages such as
+
+  numpy, scipy and pandas'
+- depends on common packages such as numpy, scipy and pandas
+- Data was processed with SciPy (version 1.3.1), Numpy (version 1.15.4), and Pandas (version 0.23.4)
+- includes a few of preprocessing steps and biomarker discovery procedure
+- numpy_ and matplotlib_ for visualization of optimized results.
+- numpy==1.20.0
+- the similarity score is calculated by a weighted cosine correlation
+derived_from:
+- doi: 10.1093/bioinformatics/btad354
+  title: '3DMolMS: prediction of tandem mass spectra from 3D molecular conformations'
+- doi: 10.3390/metabo10100416
+  title: A Python-Based Pipeline for Preprocessing LC–MS Data for Untargeted Metabolomics Workflows
+- doi: 10.1021/acs.jproteome.8b00359
+  title: Fast Open Modification Spectral Library Searching through Approximate Nearest Neighbor Indexing
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.1101/2022.08.09.503345
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+- doi: 10.1101/2025.02.07.637102
+  title: 'ChemEmbed: A deep learning framework for metabolite identification using enhanced MS/MS data and multidimensional molecular embeddings'
+- doi: 10.1021/acs.jcim.4c00760
+  title: Predicting Collision-Induced-Dissociation Tandem Mass Spectra (CID-MS/MS) Using Ab Initio Molecular Dynamics
+- doi: 10.1093/bioinformatics/btae490
+  title: An Ensemble Spectral Prediction (ESP) model for metabolite annotation
+- doi: 10.1016/j.microc.2025.115372
+  title: 'FlavorFormer: hybrid deep learning for identifying compounds in flavor mixtures based on NMR spectroscopy'
+- doi: 10.48550/arxiv.2404.02360
+  title: ''
+- doi: 10.1093/bioinformatics/btad455
+  title: 'ipaPy2: Integrated Probabilistic Annotation (IPA) 2.0—an improved Bayesian-based method for the annotation of LC–MS/MS untargeted metabolomics data'
+- doi: 10.1186/s12859-023-05525-4
+  title: 'G-Aligner: a graph-based feature alignment method for untargeted LC–MS-based metabolomics'
+- doi: 10.1038/s41598-018-31154-6
+  title: 'Instant Clue: A Software Suite for Interactive Data Visualization and Analysis'
+- doi: 10.1093/bioinformatics/bty590
+  title: Liquid-chromatography retention order prediction for metabolite identification
+- doi: 10.1101/2025.10.15.682422
+  title: LipidQMap - An Open-Source Tool for Quantitative Mass Spectrometry Imaging of Lipids
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+- doi: 10.1186/s13321-023-00741-9
+  title: 'Mass-Suite: a novel open-source python package for high-resolution mass spectrometry data analysis'
+- doi: 10.1038/s41467-025-60640-5
+  title: MassCube improves accuracy for metabolomics data processing from raw files to phenotype classifiers
+- doi: 10.21105/joss.02411
+  title: matchms - processing and similarity evaluation of mass spectrometry data.
+- doi: 10.1080/01621459.2017.1397521
+  title: 'Maximum Rank Reproducibility: A Nonparametric Approach to Assessing Reproducibility in Replicate Experiments'
+- doi: 10.3389/fbinf.2022.842964
+  title: 'MEMO: Mass Spectrometry-Based Sample Vectorization to Explore Chemodiverse Datasets'
+- doi: 10.1186/s40168-023-01476-3
+  title: 'MetaboDirect: an analytical pipeline for the processing of FT-ICR MS-based metabolomic data'
+- doi: 10.3390/metabo15010048
+  title: MetaboLabPy—An Open-Source Software Package for Metabolomics NMR Data Processing and Metabolic Tracer Data Analysis
+- doi: 10.1101/2025.11.07.687008
+  title: 'MetaboliteChat: A Unified Multimodal Large Language Model for Interactive Metabolite Analysis and Functional Insights'
+- doi: 10.1101/2025.11.12.687968
+  title: 'MetaXtract: Extracting Metadata from Raw Files for FAIR Data Practices and Workflow Optimisation'
+- doi: 10.1038/s41525-020-0132-5
+  title: 'metPropagate: network-guided propagation of metabolomic information for prioritization of metabolic disease genes'
+- doi: 10.48550/arxiv.2510.09716
+  title: ''
+- doi: 10.1038/s41592-021-01331-z
+  title: Spectral entropy outperforms MS/MS dot product similarity for small-molecule compound identification
+- doi: 10.1371/journal.pone.0321239
+  title: 'MSMCE: A novel representation module for classification of raw mass spectrometry data'
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.analchem.3c01653
+  title: '<i>mzapy</i>: An Open-Source Python Library Enabling Efficient Extraction and Processing of Ion Mobility Spectrometry-Mass Spectrometry Data in the MZA File Format'
+- doi: 10.1021/acs.analchem.3c00764
+  title: 'PeakDetective: A Semisupervised Deep Learning-Based Approach for Peak Curation in Untargeted Metabolomics'
+- doi: 10.1021/acs.analchem.1c02138
+  title: "Pew\n                    <sup>2</sup>\n                    : Open-Source Imaging Software for Laser Ablation–Inductively Coupled Plasma–Mass Spectrometry"
+- doi: 10.1093/bioadv/vbae192
+  title: 'Protomix: a Python package for 1H-NMR metabolomics data preprocessing'
+- doi: 10.1371/journal.pcbi.1011912
+  title: Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline
+- doi: 10.1021/acs.analchem.2c02093
+  title: Rapid Approximate Subset-Based Spectra Prediction for Electron Ionization–Mass Spectrometry
+- doi: 10.1038/s41467-022-30118-9
+  title: SIMILE enables alignment of tandem mass spectra with statistical significance
+- doi: 10.3390/genes12030396
+  title: SMITER—A Python Library for the Simulation of LC-MS/MS Experiments
+- doi: 10.1038/s41592-025-02646-x
+  title: Denoising Search doubles the number of metabolite and exposome annotations in human plasma using an Orbitrap Astral mass spectrometer
+- doi: 10.1021/acs.analchem.9b04884
+  title: "<tt>spectrum_utils</tt>\n                    : A Python Package for Mass Spectrometry Data Processing and Visualization"
+- doi: 10.1038/s41467-019-13680-7
+  title: The METLIN small molecule dataset for machine learning-based retention time prediction
+- doi: 10.21105/joss.03990
+  title: 'ViMMS 2.0: A framework to develop, test and optimise
+
+    fragmentation strategies in LC-MS metabolomics'
+- doi: 10.1038/s41598-020-70259-9
+  title: 'liputils: a Python module to manage individual fatty acid moieties from complex lipids'
+- doi: 10.1038/s41467-025-66163-3
+  title: 'MetaboLM: a metabolomic language model for multi-disease early prediction and risk stratification'
+- doi: 10.3390/metabo9050103
+  title: 'MetPC: Metabolite Pipeline Consisting of Metabolite Identification and Biomarker Discovery Under the Control of Two-Dimensional FDR'
+- doi: 10.1186/s12859-019-3096-7
+  title: Moiety modeling framework for deriving moiety abundances from mass spectrometry measured isotopologues
+- doi: 10.1093/bioinformatics/btad096
+  title: Regularized adversarial learning for normalization of multi-batch untargeted metabolomics data
+- doi: 10.1093/nar/gkad444
+  title: 'FLUXestimator: a webserver for predicting metabolic flux and variations using transcriptomics data'
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+- doi: 10.1002/jms.1777
+  title: 'MassBank: a public repository for sharing mass spectral data for life sciences'
+source_repos:
+- https://github.com/JosieHong/3DMolMS
+- https://github.com/bittremieux-lab/ANN-SoLo
+- https://github.com/HassounLab/BAM
+- https://github.com/Mrqeoqqt/chemdistiller
+- https://github.com/massspecdl/ChemEmbed
+- https://github.com/jesilee/CIDMD_setup
+- https://github.com/HassounLab/ESP
+- https://github.com/yfWang01/FlavorFormer
+- https://github.com/FraGNNet/fragnnet
+- https://github.com/francescodc87/ipaPy2
+- https://github.com/CSi-Studio/G-Aligner
+- https://github.com/hnolCol/instantclue
+- https://github.com/aalto-ics-kepaco/retention_order_prediction
+- https://github.com/swinnenteam/LipidQMap
+- https://github.com/kopeckylukas/py-mamsi
+- https://github.com/XiminHu/mass-suite
+- https://github.com/huaxuyu/masscube
+- https://github.com/mandelbrot-project/memo
+- https://github.com/Coayala/MetaboDirect
+- https://github.com/ludwigc/MetaboLabPy
+- https://github.com/ludwigc/metabolabpy
+- https://github.com/daniel-guooo/MetaboliteChat
+- https://github.com/Rappsilber-Laboratory/MetaXtract
+- https://github.com/emmagraham/metPropagate
+- https://github.com/jsehhs/MS2toImg-CNN
+- https://github.com/YuanyueLi/MSEntropy
+- https://github.com/WoodFY/MSMCE
+- https://github.com/PNNL-m-q/mza
+- https://github.com/PNNL-m-q/mzapy
+- https://github.com/pattilab/PeakDetective
+- https://github.com/djdt/pewlib
+- https://github.com/djdt/pewpew
+- https://github.com/mzniber/Protomix
+- https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics
+- https://github.com/thejonaslab/rassp-public
+- https://github.com/biorack/simile
+- https://github.com/LeidelLab/SMITER
+- https://github.com/FanzhouKong/spectral_denoising
+- https://github.com/bittremieuxlab/spectrum_utils
+- https://github.com/glasgowcompbio/vimms
+- https://github.com/Stemanz/liputils
+- https://github.com/Qiu-Shizheng/MetaboLM
+- https://github.com/jjs3098/CNU-Bioinformatics-Lab
+- https://github.com/numpy/numpy
+- https://github.com/MoseleyBioinformaticsLab/moiety_modeling
+- https://github.com/zamboni-lab/RALPS
+- https://github.com/changwn/scFEA
+- https://github.com/sangeeta97/ccs_find.git
+- https://github.com/sangeeta97/ccs_find
+- https://github.com/bittremieuxlab/falcon
+- https://github.com/MassBank/MassBank-web
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JosieHong/3DMolMS

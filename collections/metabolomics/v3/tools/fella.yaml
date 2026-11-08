@@ -1,0 +1,24 @@
+name: FELLA
+slug: fella
+version_used: null
+edam_topics: []
+evidence_spans:
+- FELLA requires KEGG IDs, limiting the analysis to the metabolites that are annotated in KEGG.
+- Several tools have been developed for pathway enrichment in metabolomics, including MetaboAnalyst [6], Mummichog [7], PIUMet [8], PUMA [9], and FELLA [10]
+derived_from:
+- doi: 10.1186/s12859-024-05994-1
+  title: 'DNEA: an R package for fast and versatile data-driven network analysis of metabolomics data'
+- doi: 10.1101/2025.08.28.672951
+  title: 'EnrichMet: R Package for Integrated Pathway and Network Analysis for Metabolomics'
+- doi: 10.1021/acs.analchem.1c00238
+  title: 'mWISE: An Algorithm for Context-Based Annotation of Liquid Chromatography–Mass Spectrometry Features through Diffusion in Graphs'
+source_repos:
+- https://github.com/Karnovsky-Lab/DNEA
+- https://github.com/biodatalab/enrichmet
+- https://github.com/b2slab/mWISE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Karnovsky-Lab/DNEA

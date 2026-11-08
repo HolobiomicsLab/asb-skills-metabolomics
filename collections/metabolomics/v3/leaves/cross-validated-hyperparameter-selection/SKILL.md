@@ -1,0 +1,140 @@
+---
+name: cross-validated-hyperparameter-selection
+description: Reference for tuning hyperparameters of the semi-supervised rescoring
+  classifier (e.g. ristretto/percolator SVM c) when rescoring peptide-spectrum matches
+  with MS²Rescore and the train_fdr and model (svm vs lda) must be set alongside a
+  tuned regularization parameter.
+when_to_use_negative:
+- When a fast single-pass rescoring is preferred (e.g. the lda model of Sage-style
+  Fisher discriminant analysis has no iterative tuning and hyperparameter selection
+  is not needed).
+- When input is a small dataset where three-fold nested grid search would leave too
+  few positives per training fold for a stable SVM fit.
+- When the user has already fixed a regularization value (e.g. from a prior calibration
+  run) and does not require data-driven tuning.
+edam_operation: http://edamontology.org/operation_3649
+edam_topics:
+- http://edamontology.org/topic_0121
+- http://edamontology.org/topic_3520
+tools:
+- name: ristretto
+  role: Lean reimplementation of the Percolator semi-supervised rescoring algorithm;
+    performs the three-fold cross-validated hyperparameter tuning of the SVM regularization
+    parameter before fitting the final classifier.
+  repo: https://github.com/CompOmics/ristretto
+- name: MS2Rescore
+  role: Platform that orchestrates feature generation (basic, ms2pip, ms2, deeplc)
+    and invokes ristretto for rescoring; its config exposes train_fdr and model options
+    that bound the hyperparameter search.
+  repo: https://github.com/compomics/ms2rescore
+- name: Percolator
+  role: Reference semi-supervised rescoring algorithm whose SVM regularization hyperparameter
+    is the target of the cross-validated selection procedure.
+- name: MS2PIP
+  role: Feature generator producing predicted fragment ion intensities used as input
+    features for the rescoring model whose hyperparameters are tuned.
+- name: DeepLC
+  role: Retention-time predictor supplying features that improve rescoring accuracy,
+    with the SVM regularization parameter tuned via cross-validation.
+provenance:
+  source_task_ids:
+  - task_003
+  source_papers:
+  - doi: 10.1002/pmic.202300336
+    title: Machine learning‐based peptide‐spectrum match rescoring opens up the immunopeptidome
+  source_content_hash: sha256:d16ea9c897d71d6801c7eb46efdb3823ecd2e4804923fdf06630e542f654f8df
+schema_version: 0.2.0
+metadata:
+  license_tier: noncommercial
+  tool_license:
+    tier: noncommercial
+    requires_ack: true
+    ref: CC-BY-NC-ND-4.0
+    url: https://github.com/compomics/ms2rescore
+  repo_url: https://github.com/CompOmics/ristretto
+  tools:
+  - DeepLC
+  - MS2PIP
+  - MS2Rescore
+  - Percolator
+  - Ristretto
+  - ristretto
+  edam_operation: http://edamontology.org/operation_3649
+  edam_topics:
+  - http://edamontology.org/topic_0121
+  - http://edamontology.org/topic_3520
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: promoted
+yes_rate: 0.625
+n_claims: 8
+---
+
+# cross-validated-hyperparameter-selection
+
+> **License: noncommercial** — confirm your use is a permitted (noncommercial) purpose before applying; commercial use requires a separate license (see `metadata.tool_license`). <!-- asb-license-banner -->
+## Summary
+
+Tunes the rescoring classifier's regularization hyperparameter (e.g. the linear SVM c parameter in Percolator-style PSM rescoring) via k-fold cross-validation with a nested grid search, selecting the value that maximizes downstream PSM discriminative power before the final model is fit on all positives.
+
+## When to use
+
+Reference for tuning hyperparameters of the semi-supervised rescoring classifier (e.g. ristretto/percolator SVM c) when rescoring peptide-spectrum matches with MS²Rescore and the train_fdr and model (svm vs lda) must be set alongside a tuned regularization parameter.
+
+## When NOT to use
+
+- When a fast single-pass rescoring is preferred (e.g. the lda model of Sage-style Fisher discriminant analysis has no iterative tuning and hyperparameter selection is not needed).
+- When input is a small dataset where three-fold nested grid search would leave too few positives per training fold for a stable SVM fit.
+- When the user has already fixed a regularization value (e.g. from a prior calibration run) and does not require data-driven tuning.
+
+## Inputs
+
+- PSM feature table (pandas DataFrame) with rescoring features from MS²Rescore's basic, ms2pip, ms2, and deeplc generators
+- Target/decoy labels per PSM, identified via id_decoy_pattern regex
+- Configurable train_fdr (default 0.01) and model choice (svm or lda)
+
+## Outputs
+
+- Selected SVM regularization hyperparameter (c) from the nested cross-validated grid search
+- Trained ristretto/Percolator-style classifier applied to all input PSMs, yielding rescored scores, q-values, and posterior error probabilities at PSM, peptide, and protein level
+
+## How to apply
+
+Begin from a feature table of PSMs (generated by MS²Rescore's basic, ms2pip, ms2, and deeplc feature generators) split into positives and decoy-derived negatives by the target/decoy label (id_decoy_pattern). Split the data into three folds and, within each fold, perform a nested grid search over the SVM regularization hyperparameter (c) using only that fold's training data, scoring candidates on held-out PSMs. Ristretto intentionally tunes the hyperparameter once rather than re-tuning on every iteration of the Käll et al. semi-supervised loop, keeping the procedure lean while still yielding a data-driven c value. Once the best c is selected, fit the final model on all positives and negatives and apply it to every PSM to obtain rescored scores and q-values. The ristretto implementation exposes train_fdr (default 0.01) and model (svm, default, or the faster lda alternative) so the hyperparameter sweep is run on top of these fixed choices.
+
+## Related tools
+
+- **ristretto** (Lean reimplementation of the Percolator semi-supervised rescoring algorithm; performs the three-fold cross-validated hyperparameter tuning of the SVM regularization parameter before fitting the final classifier.) — https://github.com/CompOmics/ristretto
+- **MS2Rescore** (Platform that orchestrates feature generation (basic, ms2pip, ms2, deeplc) and invokes ristretto for rescoring; its config exposes train_fdr and model options that bound the hyperparameter search.) — https://github.com/compomics/ms2rescore
+- **Percolator** (Reference semi-supervised rescoring algorithm whose SVM regularization hyperparameter is the target of the cross-validated selection procedure.)
+- **MS2PIP** (Feature generator producing predicted fragment ion intensities used as input features for the rescoring model whose hyperparameters are tuned.)
+- **DeepLC** (Retention-time predictor supplying features that improve rescoring accuracy, with the SVM regularization parameter tuned via cross-validation.)
+
+## Examples
+
+```
+ms2rescore --psm-list psm_file.mzid --spectrum-file spectra.mzML --config-file config.toml  # config: [ristretto] train_fdr = 0.01, model = 'svm'
+```
+
+## Evaluation signals
+
+- The chosen hyperparameter is reported per fold and the best value is selected without using held-out fold data in training.
+- After applying the tuned model, all input PSMs receive finite rescored scores and q-values remain within [0, 1].
+- At the reported train_fdr (default 0.01), decoy-derived FDR control is respected, i.e. decoy counts at the threshold approximate the nominal error rate.
+- Number of PSM identifications at a fixed FDR threshold increases relative to pre-rescoring scores, or a more stringent FDR threshold retains a similar number of IDs.
+- The selected c value is stable across repeated cross-validation runs on the same feature table.
+
+## Limitations
+
+- Ristretto intentionally tunes hyperparameters once rather than re-tuning on every iteration of the semi-supervised loop, trading off some optimality for speed.
+- The svm model's grid search is constrained to the regularization parameter; feature-set or kernel-level hyperparameters are not exposed.
+- The semi-supervised loop assumes enough high-scoring target PSMs at train_fdr (default 0.01) to define a reliable positive set; sparse or noisy datasets can make the tuning unstable.
+- Hyperparameter tuning is only as good as the underlying feature table; features from ms2pip (fragment ion intensities), deeplc (retention time), and collisional cross section are prerequisite for meaningful separation.
+
+## Evidence
+
+- [readme] Hyperparameters are tuned once rather than every iteration, and hot paths are vectorized.: [evidence span withheld — anchor status: not_found]
+- [readme]  svm (default): a linear SVM trained with the semi-supervised iterative procedure of Käll et al. 2007, matching the Percolator/mokapot default.: [evidence span withheld — anchor status: external_doc]
+- [intro] Use semi-supervised rescoring (ristretto) with configurable training FDR and model choice (svm or lda)  [section=intro; evidence='which exposes ``train_fdr`` and ``model`` (``svm``, the default, or the faster but less powerful ``lda``)']: "which exposes ``train_fdr`` and ``model`` (``svm``, the default, or the faster but less powerful ``lda``)"
+- [other] Tune the SVM regularization hyperparameter via three-fold cross-validation with nested grid search, training only on the training fold.: [evidence span withheld — anchor status: not_found]
+- [other] Validation: confirm every input PSM receives a finite rescored score, all q-values lie within [0, 1], and decoy-derived FDR control at the reported 0.01 train_fdr threshold is respected.: [evidence span withheld — anchor status: not_found]

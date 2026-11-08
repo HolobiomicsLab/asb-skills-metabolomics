@@ -1,0 +1,23 @@
+name: SpectraTools
+slug: spectratools
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("ZhuMetLab/SpectraTools")
+- library(SpectraTools)
+derived_from:
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+- doi: 10.1038/s41467-022-34537-6
+  title: Metabolite annotation from knowns to unknowns through knowledge-guided multi-layer metabolic networking
+source_repos:
+- https://github.com/ZhuMetLab/MetDNA2
+- https://github.com/ZhuMetLab/SpectraTools
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+- https://github.com/ZhuMetLab/MetDNA2Vis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhuMetLab/MetDNA2

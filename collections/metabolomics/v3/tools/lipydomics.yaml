@@ -1,0 +1,20 @@
+name: LiPydomics
+slug: lipydomics
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.0c02560
+  title: 'LiPydomics: A Python Package for Comprehensive Prediction
+
+    of Lipid Collision Cross Sections and Retention Times and Analysis
+
+    of Ion Mobility-Mass Spectrometry-Based Lipidomics Data'
+source_repos:
+- https://github.com/dylanhross/lipydomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dylanhross/lipydomics

@@ -1,0 +1,21 @@
+name: readxl
+slug: readxl
+version_used: null
+edam_topics: []
+evidence_spans:
+- read_metabolon(system.file("extdata", "metabolon_v1.1_example.xlsx"
+- readxl (Imports)
+derived_from:
+- doi: 10.1093/bioinformatics/btac059
+  title: 'metaboprep: an R package for preanalysis data description and processing'
+- doi: 10.1093/bioinformatics/btae373
+  title: 'MetaboReport: from metabolomics data analysis to comprehensive reporting'
+source_repos:
+- https://github.com/MRCIEU/metaboprep
+- https://github.com/YonghuiDong/MetReport
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MRCIEU/metaboprep

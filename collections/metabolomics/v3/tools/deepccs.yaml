@@ -1,0 +1,22 @@
+name: DeepCCS
+slug: deepccs
+version_used: null
+edam_topics: []
+evidence_spans:
+- DeepCCS can predict the CCS values of molecules with a convolutional neural network (CNN) from the one-hot encoding of their SMILES strings
+derived_from:
+- doi: 10.1101/2022.08.09.503345
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1021/acs.analchem.2c03491
+  title: 'CCS Predictor 2.0: An Open-Source Jupyter Notebook Tool for Filtering Out False Positives in Metabolomics'
+- doi: 10.1038/s42004-023-00939-w
+  title: Highly accurate and large-scale collision cross sections prediction with graph neural networks
+source_repos:
+- https://github.com/facundof2016/CCSP2.0
+- https://github.com/YoujiaZhang/SigmaCCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/facundof2016/CCSP2.0

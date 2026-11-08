@@ -1,0 +1,22 @@
+name: Met-ID
+slug: met-id
+version_used: null
+edam_topics: []
+evidence_spans:
+- '``identify`` accepts one or more m/z values and optional corresponding CCS values.'
+- Here, we introduce Met-ID, a graphical interface software designed to efficiently identify metabolites from MALDI-MSI datasets.
+- 'The Met-ID clients let you use metabolite identification, CCS prediction, and
+
+  Met-ID database resources from Python and R.'
+- '``search_by_name(name, ccs=False)`` searches by name.'
+derived_from:
+- doi: 10.1021/acs.analchem.5c00633
+  title: 'Met-ID: An Open-Source Software for Comprehensive Annotation of Multiple On-Tissue Chemical Modifications in MALDI-MSI'
+source_repos:
+- https://github.com/pbjarterot/Met-ID
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pbjarterot/Met-ID

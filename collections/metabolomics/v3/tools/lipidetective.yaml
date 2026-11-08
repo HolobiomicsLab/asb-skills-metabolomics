@@ -1,0 +1,21 @@
+name: LipiDetective
+slug: lipidetective
+version_used: null
+edam_topics: []
+evidence_spans:
+- a transformer model called LipiDetective was developed and trained on a dataset composed of reference spectra measured from lipid standards
+- LipiDetective is an adaptation of the transformer model [25] and approaches the problem of lipid identification as a sequence-to-sequence task
+- A greedy and a beam search method were implemented as prediction options.
+- the integrated gradients [30] method was employed as provided by the Captum [31] library
+- LipiDetective is an adaptation of the transformer model [25] and approaches the problem of lipid identification as a sequence-to-sequence task.
+derived_from:
+- doi: 10.1101/2024.10.07.617094
+  title: LipiDetective a deep learning model for the identification of molecular lipid species in tandem mass spectra
+source_repos:
+- https://github.com/LipiTUM/lipidetective
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LipiTUM/lipidetective

@@ -1,0 +1,21 @@
+name: X!Tandem
+slug: x-tandem
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used the combined results of the database algorithms MS-GF+ [23] and X!Tandem [45], which were both executed via SearchGUI (v.4.1.7) [46] and post-processed via PeptideShaker (v.2.2.2)
+- We used the combined results of the database algorithms MS-GF+ [23] and X!Tandem [45], which were both executed via SearchGUI (v.4.1.7)
+- The simulated data were searched using X!Tandem [32] with a precursor mass tolerance of 5 ppm and a fragment mass tolerance of 0.02 Da.
+derived_from:
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+- doi: 10.3390/genes12030396
+  title: SMITER—A Python Library for the Simulation of LC-MS/MS Experiments
+source_repos:
+- https://github.com/LeidelLab/SMITER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LeidelLab/SMITER

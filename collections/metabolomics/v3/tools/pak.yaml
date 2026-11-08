@@ -1,0 +1,20 @@
+name: pak
+slug: pak
+version_used: null
+edam_topics: []
+evidence_spans:
+- "if (!require(\"pak\", quietly = TRUE))\n    install.packages(\"pak\")"
+- if (!require("pak", quietly = TRUE))
+- install.packages("pak")
+- pak::pak("UGent-LIMET/Metanorm")
+derived_from:
+- doi: 10.1101/2025.09.30.679445
+  title: Robust metabolomics data normalization across scales and experimental designs
+source_repos:
+- https://github.com/UGent-LIMET/Metanorm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/UGent-LIMET/Metanorm

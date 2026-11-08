@@ -1,0 +1,119 @@
+---
+name: quality-control-signal-drift-correction
+description: Use when a metabolomic peak table (rows = samples, columns = metabolites)
+  contains quality control samples and signal drift from instrumental variation must
+  be corrected (stage S2) prior to S3 transformation and S4 normalization.
+when_to_use_negative:
+- The peak table contains no quality control samples — use the NOREVA variants designed
+  for data without QCS (or with internal standards only) instead of QCS-based drift
+  correction
+- Input is still raw instrument data (proprietary format); it must first be converted
+  (e.g., via Proteowizard/nmrML) and processed into a peak table before S2 can be
+  applied
+- The goal is to change the processing order — QCS correction is fixed as stage S2
+  in the S1→S2→S3→S4 sequence and cannot be reordered within the NOREVA workflow
+edam_topics:
+- http://edamontology.org/topic_3172
+- http://edamontology.org/topic_0091
+tools:
+- name: NOREVA
+  role: R package whose S2 stage performs QCS-based signal drift correction and integrates
+    it into the combinatorial scanning of processing workflows
+  repo: https://github.com/idrblab/NOREVA
+- name: R
+  role: Runtime environment; NOREVA's R-based protocol runs locally and requires preliminary
+    R programming experience; R >3.5 with dependencies (pcaMethods, statTarget, limma,
+    etc.) installed via BiocManager/devtools
+provenance:
+  source_task_ids:
+  - task_002
+  source_papers:
+  - doi: 10.1038/s41596-021-00636-9
+    title: Optimization of metabolomic data processing using NOREVA
+  source_content_hash: sha256:22178cbea24b04239db9b689c24424b29c703aa28387cd24992a16fa64a179ee
+schema_version: 0.2.0
+metadata:
+  license_tier: unknown
+  repo_url: https://github.com/idrblab/NOREVA
+  tools:
+  - MetaboLights
+  - NOREVA
+  - R
+  edam_operation: null
+  edam_topics:
+  - http://edamontology.org/topic_3172
+  - http://edamontology.org/topic_0091
+  provenance_tier: literature
+license: CC-BY-4.0
+evidence_trimmed: true
+triage_status: promoted
+yes_rate: 1.0
+n_claims: 10
+---
+
+# quality-control-signal-drift-correction
+
+## Summary
+
+Applies NOREVA's stage S2 quality control sample (QCS) correction to remove systematic signal drift from metabolomic peak tables before transformation and normalization, as one stage of the S1–S5 processing workflow.
+
+## When to use
+
+Use when a metabolomic peak table (rows = samples, columns = metabolites) contains quality control samples and signal drift from instrumental variation must be corrected (stage S2) prior to S3 transformation and S4 normalization.
+
+## When NOT to use
+
+- The peak table contains no quality control samples — use the NOREVA variants designed for data without QCS (or with internal standards only) instead of QCS-based drift correction
+- Input is still raw instrument data (proprietary format); it must first be converted (e.g., via Proteowizard/nmrML) and processed into a peak table before S2 can be applied
+- The goal is to change the processing order — QCS correction is fixed as stage S2 in the S1→S2→S3→S4 sequence and cannot be reordered within the NOREVA workflow
+
+## Inputs
+
+- MetaboLights peak table (e.g., MTBLS6, MTBLS583, MTBLS403, MTBLS370, MTBLS59, MTBLS656, MTBLS319, MTBLS1569, MTBLS665) or NOREVA_exampledata.zip archive
+- Standardized NOREVA-format peak table (rows = samples, columns = metabolites)
+- Label file for time-course/multi-class sample annotation
+- Study assumption flags (SAalpha, SAbeta, SAgamma: 'Y'/'N')
+- Internal standard column indices (when QCS is absent but ISs are present)
+
+## Outputs
+
+- QCS-corrected (signal-drift-corrected) peak table passed to S3 transformation
+- Per-workflow numeric scores against criteria Ca–Cd (and Ce when reference metabolites are available)
+- Good/Fair/Poor classification per workflow–dataset pair for comparison with NOREVA Table 3
+
+## How to apply
+
+First standardize the peak table to NOREVA's unified format (rows = samples by name, columns = metabolites) via PrepareInuputFiles, supplying a label file for multi-class/time-course designs. Because drift correction depends on study context, specify the study assumptions (alpha: all metabolites equally important; beta: metabolite abundance constant across samples; gamma: majority of metabolite intensities unchanged) when calling the assessment/correction function. Choose the function variant matching data availability: datasets with QCS but no internal standard use the qcall variants, while datasets with IS but no QCS use the isall variants. QCS correction is ordered second in the fixed S1→S2→S3→S4 sequence, so it must run after data filtering/imputation and before data transformation. The corrected outputs are then fed to S5, where performance is scored against NOREVA's multiple criteria (Ca–Cd, and Ce/LogFC only when reference metabolites exist) and converted to the Good/Fair/Poor scheme. Beware that partial assessment runs can overwrite output files generated by earlier commands because file names are identical.
+
+## Related tools
+
+- **NOREVA** (R package whose S2 stage performs QCS-based signal drift correction and integrates it into the combinatorial scanning of processing workflows) — https://github.com/idrblab/NOREVA
+- **R** (Runtime environment; NOREVA's R-based protocol runs locally and requires preliminary R programming experience; R >3.5 with dependencies (pcaMethods, statTarget, limma, etc.) installed via BiocManager/devtools)
+
+## Examples
+
+```
+normulticlassqcall(fileName, SAalpha="Y", SAbeta="Y", SAgamma="Y")
+```
+
+## Evaluation signals
+
+- Corrected workflow outputs, when assessed with the built-in criteria functions, yield Good/Fair/Poor classifications that agree with NOREVA's Table 3 for each workflow–dataset pair (record agreements and discrepancies in a results table)
+- The function variant used matches data composition: qcall variants only for datasets with QCS and without IS; isall variants only for datasets with IS and without QCS
+- Study assumption flags (SAalpha, SAbeta, SAgamma) are explicitly set before execution; running with defaults silently imposes all three assumptions
+- Output file names do not collide with files generated by previous NOREVA commands (e.g., Step 10 outputs), since partial assessment functions can overwrite them and produce misleading results
+- Downstream S3/S4 stages receive a table still preserving rows as samples and columns as metabolites in the unified NOREVA format
+
+## Limitations
+
+- Successful QCS correction depends on upfront experimental design including adoption of both QCSs and ISs, which the tool does not enforce
+- Assessment of thousands of workflows is very time-consuming — hundreds to thousands of minutes, and >200 min for large datasets (e.g., PMID28528106) even with parallel computing and memory management
+- Downstream criterion Cc is unsuitable for datasets with fewer than 6 samples per class/timepoint, and criterion Ce (LogFC) requires reference metabolites (e.g., spike-ins) that many datasets lack
+- Partial assessment functions can overwrite existing output files generated by previous commands, producing misleading outputs
+
+## Evidence
+
+- [discussion] NOREVA's QCS-based drift correction is integrated into metabolomic workflows: [evidence span withheld — anchor status: not_found]
+- [readme] README documents the QCS-based multi-class assessment function requiring study assumptions: [evidence span withheld — anchor status: external_doc]
+- [discussion] Unified peak-table format requirement precedes NOREVA stages: [evidence span withheld — anchor status: not_found]
+- [discussion] Output overwrite hazard when re-running partial assessment functions: [evidence span withheld — anchor status: not_found]

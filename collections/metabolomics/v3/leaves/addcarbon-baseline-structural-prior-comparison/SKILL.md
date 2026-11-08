@@ -1,0 +1,132 @@
+---
+name: addcarbon-baseline-structural-prior-comparison
+description: 'Use when evaluating whether a chemical language model''s sampling frequency
+  is a calibrated structural prior: given exact masses of held-out metabolites and
+  generated candidate structures, you must rank candidates by mass window and quantify
+  top-k recovery against a baseline generator.'
+when_to_use_negative:
+- The metabolite's exact mass is not yet known or the structure database has not been
+  generated/sampled (this skill ranks existing candidates, it does not generate them)
+- The analysis goal requires incorporating MS/MS spectra or retention-time data —
+  this prior operates on exact mass alone, which the paper describes as accurate 'even
+  in the absence of any other analytical data'
+- Evaluating models trained on non-human metabolomes, since the model was trained
+  and evaluated only on human metabolite structures
+edam_operation: http://edamontology.org/operation_0337
+edam_topics:
+- http://edamontology.org/topic_3172
+- http://edamontology.org/topic_0091
+tools:
+- name: DeepMet
+  role: Chemical language model whose generated structures and sampling frequencies
+    form the structural prior under evaluation
+  repo: https://github.com/skinniderlab/CLM
+- name: RDKit
+  role: Computes exact monoisotopic masses of held-out metabolites for ±10 ppm candidate
+    filtering
+- name: Snakemake
+  role: Runs the end-end clm workflow that produces the collect_tabulated_molecules
+    / process_tabulated_molecules outputs used as input
+  repo: https://github.com/skinniderlab/CLM
+- name: PyTorch
+  role: Backend for the trained RNN models whose sampled molecules are tabulated and
+    benchmarked
+provenance:
+  source_task_ids:
+  - task_006
+  source_papers:
+  - doi: 10.1101/2024.11.13.623458
+    title: Language model-guided anticipation and discovery of unknown metabolites
+  source_content_hash: sha256:1eeab659d0a938449b0d51af6128cae70f595bd16ece83cf59cf97f54aad486e
+schema_version: 0.2.0
+metadata:
+  license_tier: unknown
+  repo_url: https://github.com/skinniderlab/CLM
+  tools:
+  - DeepMet
+  - PyTorch
+  - Python
+  - RDKit
+  - Snakemake
+  edam_operation: http://edamontology.org/operation_0337
+  edam_topics:
+  - http://edamontology.org/topic_3172
+  - http://edamontology.org/topic_0091
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: promoted
+yes_rate: 0.8823529411764706
+n_claims: 17
+---
+
+# AddCarbon baseline structural prior comparison
+
+## Summary
+
+Benchmarks DeepMet's mass-based structural prioritization against the AddCarbon baseline by filtering generated-structure databases on exact mass (±10 ppm) and ranking candidates by sampling frequency, then computing top-1/top-3/top-10 accuracies on held-out metabolites.
+
+## When to use
+
+Use when evaluating whether a chemical language model's sampling frequency is a calibrated structural prior: given exact masses of held-out metabolites and generated candidate structures, you must rank candidates by mass window and quantify top-k recovery against a baseline generator.
+
+## When NOT to use
+
+- The metabolite's exact mass is not yet known or the structure database has not been generated/sampled (this skill ranks existing candidates, it does not generate them)
+- The analysis goal requires incorporating MS/MS spectra or retention-time data — this prior operates on exact mass alone, which the paper describes as accurate 'even in the absence of any other analytical data'
+- Evaluating models trained on non-human metabolomes, since the model was trained and evaluated only on human metabolite structures
+
+## Inputs
+
+- Held-out metabolite lists from cross-validation test folds and prospective HMDB v5.0 set
+- Sampled-molecule tabulations (molecular mass, formula, sampling frequency, SMILES) from collect_tabulated_molecules / process_tabulated_molecules outputs of the clm Snakemake pipeline
+- AddCarbon-generated baseline structure database
+- Held-out metabolite SMILES/InChIKeys for structure matching
+
+## Outputs
+
+- Per-metabolite rank of the correct structure among mass-filtered candidates
+- Top-1/top-3/top-10 accuracy tables (cross-validation and prospective sets)
+- AddCarbon vs DeepMet comparison statistics
+- Calibration-bin statistics for frequency-derived confidence scores
+- evaluation_results.csv
+
+## How to apply
+
+Load held-out metabolite lists (cross-validation test folds and the prospective HMDB v5.0 set) together with sampled-molecule files produced by the clm Snakemake pipeline's collect_tabulated_molecules / process_tabulated_molecules steps, which tabulate mass, formula, and sampling frequency per structure. Compute each target's exact monoisotopic mass with RDKit and retain only generated structures whose exact mass falls within ±10 ppm of the target. Sort retained candidates in decreasing sampling frequency and record the rank of the correct structure (matched by SMILES/InChIKey), repeating the identical procedure on the AddCarbon database — generated by inserting a random carbon atom into known metabolites — as the baseline. Aggregate ranks into top-1/top-3/top-10 accuracies and bin the frequency-derived confidence scores for correct vs incorrect annotations to check calibration of the prior.
+
+## Related tools
+
+- **DeepMet** (Chemical language model whose generated structures and sampling frequencies form the structural prior under evaluation) — https://github.com/skinniderlab/CLM
+- **RDKit** (Computes exact monoisotopic masses of held-out metabolites for ±10 ppm candidate filtering)
+- **Snakemake** (Runs the end-end clm workflow that produces the collect_tabulated_molecules / process_tabulated_molecules outputs used as input) — https://github.com/skinniderlab/CLM
+- **PyTorch** (Backend for the trained RNN models whose sampled molecules are tabulated and benchmarked)
+
+## Examples
+
+```
+from rdkit import Chem; m = Chem.MolFromSmiles(target_smiles); target_mass = Chem.Descriptors.ExactMolWt(m); cands = [c for c in sampled if abs(c.mass - target_mass)/target_mass*1e6 <= 10]
+```
+
+## Evaluation signals
+
+- Cross-validation top-1/top-3/top-10 accuracies reproduce approximately 29%/51%/72%
+- Prospective HMDB v5.0 top-1/top-10 accuracies approximate 22.9%/61.7%
+- All candidate structures retained for ranking have exact masses within ±10 ppm of the target metabolite's RDKit-computed monoisotopic mass
+- Correct structures matched by SMILES/InChIKey rather than name or formula
+- Calibration bins show confidence scores are higher for correct than incorrect annotations, consistent with the paper's claim of a well-calibrated prior
+
+## Limitations
+
+- Prioritization uses only mass-to-charge ratio; the paper's baseline comparison does not integrate MS/MS spectra or retention times, and the meta-learning layer that improves accuracy beyond raw frequency is a separate step
+- The language model was trained and evaluated on human metabolites; evolutionarily distant applications (e.g., plant or bacterial metabolism) will likely require bespoke models
+- The model has inherent limitations anticipating metabolites that originate from divergent, as-of-yet undiscovered biosynthetic routes
+
+## Evidence
+
+- [discussion] we prioritize the structures most likely to account for this mass spectrometric signal: "By leveraging DeepMet to generate a large database of metabolite-like chemical structures, and then filtering this database on the basis of a mass-to-charge ratio"
+- [discussion] These prioritizations are well-calibrated and remarkably accurate: "These prioritizations are well-calibrated and remarkably accurate, even in the absence of any other analytical data."
+- [methods] AddCarbon model generated by inserting a random carbon atom: "This step generates data for the [AddCarbon](https://www.sciencedirect.com/science/article/pii/S1740674920300159) model by inserting a
+random carbon atom"
+- [methods] Snakefile end-end workflow for clm repository: "The included `Snakefile` provides a way to run the end-end workflow for the
+`clm` repository."
+- [discussion] trained and evaluated on human metabolites only: "Our language model was trained and evaluated on the structures of human metabolites, and evolutionarily distant applications"

@@ -1,0 +1,17 @@
+name: semantic web technology
+slug: semantic-web-technology
+version_used: null
+edam_topics: []
+evidence_spans:
+- The use of semantic web technology enables comparison of processed and standardized data, information, and knowledge at the repository scale.
+derived_from:
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+source_repos:
+- https://github.com/enpkg/enpkg_full
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enpkg/enpkg_full

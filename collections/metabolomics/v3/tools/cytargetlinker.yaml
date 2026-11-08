@@ -1,0 +1,21 @@
+name: CyTargetLinker
+slug: cytargetlinker
+version_used: null
+edam_topics: []
+evidence_spans:
+- The newest version of Cy Target Linker (4.0.0+)
+- the open-source Cy Target Linker app for Cytoscape
+- convert tab delimited text files into XGMML linksets that can be used with Cy Target Linker
+derived_from:
+- doi: 10.12688/f1000research.14613.2
+  title: 'CyTargetLinker app update: A flexible solution for network extension in Cytoscape'
+source_repos:
+- https://github.com/CyTargetLinker/cytargetlinker
+- https://github.com/CyTargetLinker/cytargetlinker-automation
+- https://github.com/CyTargetLinker/linkset-automation
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CyTargetLinker/cytargetlinker

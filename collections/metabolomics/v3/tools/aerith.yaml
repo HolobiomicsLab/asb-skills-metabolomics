@@ -1,0 +1,21 @@
+name: Aerith
+slug: aerith
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present Aerith, an R package designed to visualize data of simulated and observed isotopic envelopes of peptides and metabolites
+- 'title: "Aerith"'
+- Here, we present Aerith, an R package designed to visualize data of simulated and observed isotopic envelopes
+- Aerith.Rmd
+- rmarkdown::render("Aerith.Rmd", output_dir = "../doc/")
+derived_from:
+- doi: 10.1021/acs.analchem.5c03207
+  title: 'Aerith: Visualization and Annotation of Isotopic Enrichment Patterns of Peptides and Metabolites with Stable Isotope Labeling from Proteomics and Metabolomics'
+source_repos:
+- https://github.com/thepanlab/Aerith
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thepanlab/Aerith

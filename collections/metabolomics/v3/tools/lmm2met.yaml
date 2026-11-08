@@ -1,0 +1,17 @@
+name: lmm2met
+slug: lmm2met
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed the R package lmm2met to process a metabolomics matrix with the LMM approach.
+derived_from:
+- doi: 10.1016/j.csbj.2019.04.009
+  title: Accounting for biological variation with linear mixed-effects modelling improves the quality of clinical metabolomics data
+source_repos:
+- https://github.com/kwanjeeraw/lmm2met
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kwanjeeraw/lmm2met

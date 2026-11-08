@@ -1,0 +1,25 @@
+name: PostgreSQL
+slug: postgresql
+version_used: null
+edam_topics: []
+evidence_spans:
+- The snapshot of the PostgreSQL database form the COCONUT release 2024 was taken as the primary source
+- handles access to the underlying PostgreSQL (https://www.postgresql.org/) database
+- the underlying PostgreSQL (https://www.postgresql.org/) database
+derived_from:
+- doi: 10.1186/s13321-020-00478-9
+  title: 'COCONUT online: Collection of Open Natural Products database'
+- doi: 10.1101/2021.02.28.433248
+  title: 'MetaFetcheR: An R package for complete mapping of small compound data'
+- doi: 10.1093/nar/gkz882
+  title: 'MIBiG 2.0: a repository for biosynthetic gene clusters of known function'
+source_repos:
+- https://github.com/Steinbeck-Lab/coconut
+- https://github.com/komorowskilab/MetaFetcheR
+- https://github.com/mibig-secmet/mibig-api
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Steinbeck-Lab/coconut

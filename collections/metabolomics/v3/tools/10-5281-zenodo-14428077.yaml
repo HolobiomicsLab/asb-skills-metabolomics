@@ -1,0 +1,17 @@
+name: 10.5281/zenodo.14428077
+slug: 10-5281-zenodo-14428077
+version_used: '10.5281'
+edam_topics: []
+evidence_spans:
+- https://doi.org/10.5281/zenodo.14428077
+derived_from:
+- doi: 10.1093/bioinformatics/btab429
+  title: 'AutoCCS: automated collision cross-section calculation software for ion mobility spectrometry–mass spectrometry'
+source_repos:
+- https://github.com/PNNL-Comp-Mass-Spec/AutoCCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PNNL-Comp-Mass-Spec/AutoCCS

@@ -1,0 +1,22 @@
+name: jsonschema
+slug: jsonschema
+version_used: null
+edam_topics: []
+evidence_spans:
+- (`jsonschema <https://pypi.org/project/jsonschema/>`_)
+- '`jsonschema <https://pypi.org/project/jsonschema/>`_'
+- jsonschema_ for validating functionality of ``mwTab`` files based on ``JSON`` schema.
+derived_from:
+- doi: 10.3390/metabo13070842
+  title: 'MESSES: Software for Transforming Messy Research Datasets into Clean Submissions to Metabolomics Workbench for Public Sharing'
+- doi: 10.3390/metabo11030163
+  title: The mwtab Python Library for RESTful Access and Enhanced Quality Control, Deposition, and Curation of the Metabolomics Workbench Data Repository
+source_repos:
+- https://github.com/MoseleyBioinformaticsLab/MESSES
+- https://github.com/MoseleyBioinformaticsLab/mwtab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MoseleyBioinformaticsLab/MESSES

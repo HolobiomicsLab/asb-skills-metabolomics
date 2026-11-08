@@ -1,0 +1,17 @@
+name: https://zenodo.org/record/4699300
+slug: https-zenodo-org-record-4699300
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'The full cleaned dataset (210,407 spectra, 184,698 annotated with InChIKey and SMILES and/or InChI) can be found on zenodo: https://zenodo.org/record/4699300.'
+derived_from:
+- doi: 10.1186/s13321-021-00558-4
+  title: 'MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra'
+source_repos:
+- https://github.com/matchms/ms2deepscore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/matchms/ms2deepscore

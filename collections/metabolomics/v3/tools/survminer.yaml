@@ -1,0 +1,21 @@
+name: survminer
+slug: survminer
+version_used: null
+edam_topics: []
+evidence_spans:
+- if (!require("survminer")) install.packages("survminer")
+- including ggplot2 (Wickham, 2016), pheatmap, survminer, pROC (Robin et al., 2011)
+derived_from:
+- doi: 10.1093/bioinformatics/btac388
+  title: 'MiMIR: R-shiny application to infer risk factors and endpoints from Nightingale Health’s 1H-NMR metabolomics data'
+- doi: 10.3389/fgene.2022.957317
+  title: 'GraphBio: A shiny web app to easily perform popular visualization analysis for omics data'
+source_repos:
+- https://github.com/DanieleBizzarri/MiMIR
+- https://github.com/databio2022/GraphBio
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DanieleBizzarri/MiMIR

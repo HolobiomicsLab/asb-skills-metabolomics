@@ -1,0 +1,17 @@
+name: PUG-REST
+slug: pug-rest
+version_used: null
+edam_topics: []
+evidence_spans:
+- To get all neighbors for a given compound (regardless of whether they have annotations or not), PUG-REST (not PUG-View) should be used
+- PUG-REST [4, 6, 7] is the most heavily used, with millions of daily requests from tens of thousands of unique IP addresses.
+derived_from:
+- doi: 10.1186/s13321-019-0375-2
+  title: 'PUG-View: programmatic access to chemical annotations integrated in PubChem'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

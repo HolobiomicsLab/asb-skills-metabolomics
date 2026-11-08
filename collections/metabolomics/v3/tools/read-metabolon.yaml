@@ -1,0 +1,17 @@
+name: read_metabolon
+slug: read-metabolon
+version_used: null
+edam_topics: []
+evidence_spans:
+- dat <- read_metabolon(filepath, sheet = 'OrigScale', return_Metaboprep = FALSE)
+derived_from:
+- doi: 10.1093/bioinformatics/btac059
+  title: 'metaboprep: an R package for preanalysis data description and processing'
+source_repos:
+- https://github.com/MRCIEU/metaboprep
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MRCIEU/metaboprep

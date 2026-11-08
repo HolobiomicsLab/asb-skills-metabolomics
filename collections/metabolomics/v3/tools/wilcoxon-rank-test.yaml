@@ -1,0 +1,16 @@
+name: Wilcoxon rank test
+slug: wilcoxon-rank-test
+version_used: '0.0001'
+edam_topics: []
+evidence_spans:
+- paired Wilcoxon rank test, P < 0.0001, n
+derived_from:
+- doi: 10.1038/s41467-019-13680-7
+  title: The METLIN small molecule dataset for machine learning-based retention time prediction
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

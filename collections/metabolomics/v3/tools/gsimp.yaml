@@ -1,0 +1,21 @@
+name: GSimp
+slug: gsimp
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have developed an iterative Gibbs sampler based left-censored missing value imputation approach (GSimp).
+- '**data_sim.csv** is the simulated dataset (details could be found in **simulation_generation.Rmd**).'
+- sim_MNAR_Ttest_Cor_list <- Ttest_cor_cal_plot(sim_MNAR_list, group=group, plot=T, x='Miss_Num',
+- result <- data %>% GS_impute(., iters_each=50, iters_all=10, initial='qrilc',
+- The function *GS\_impute* is the core function for the imputation of
+derived_from:
+- doi: 10.1371/journal.pcbi.1005973
+  title: 'GSimp: A Gibbs sampler based left-censored missing value imputation approach for metabolomics studies'
+source_repos:
+- https://github.com/WandeRum/GSimp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WandeRum/GSimp

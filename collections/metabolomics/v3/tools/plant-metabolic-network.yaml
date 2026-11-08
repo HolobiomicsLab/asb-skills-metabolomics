@@ -1,0 +1,18 @@
+name: Plant Metabolic Network
+slug: plant-metabolic-network
+version_used: null
+edam_topics: []
+evidence_spans:
+- we constructed and integrated a plant-specific mass spectrometry database into the MetMiner pipeline to optimize metabolite annotation
+- we also integrated a plant-specific metabolite database in MetMiner, to enhance the accuracy and speed for metabolite annotation in plant metabolomics.
+derived_from:
+- doi: 10.1111/jipb.13774
+  title: 'MetMiner: A user‐friendly pipeline for large‐scale plant metabolomics data analysis'
+source_repos:
+- https://github.com/ShawnWx2019/MetMiner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShawnWx2019/MetMiner

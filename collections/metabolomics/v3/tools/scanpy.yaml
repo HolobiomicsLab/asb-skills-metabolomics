@@ -1,0 +1,23 @@
+name: Scanpy
+slug: scanpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- This project uses Scanpy's pickled `anndata` objects to store the single-cell data.
+derived_from:
+- doi: 10.1038/s42255-024-01118-4
+  title: Spatial single-cell isotope tracing reveals heterogeneity of de novo fatty acid synthesis in cancer
+- doi: 10.1038/s41592-021-01198-0
+  title: SpaceM reveals metabolic states of single cells
+- doi: 10.1101/2024.08.20.608773
+  title: 'haCCA: Multi-module Integrating of spatial transcriptomes and metabolomes'
+source_repos:
+- https://github.com/Buglakova/13C-SpaceM
+- https://github.com/alexandrovteam/SpaceM
+- https://github.com/LittleLittleCloud/haCCA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Buglakova/13C-SpaceM

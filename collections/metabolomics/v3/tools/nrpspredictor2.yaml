@@ -1,0 +1,17 @@
+name: NRPSPredictor2
+slug: nrpspredictor2
+version_used: null
+edam_topics: []
+evidence_spans:
+- the training sets used for the A-domain selectivity predictors SANDPUMA (23) and NRPSPredictor2 (24)
+derived_from:
+- doi: 10.1093/nar/gkac1049
+  title: 'MIBiG 3.0: a community-driven effort to annotate experimentally validated biosynthetic gene clusters'
+source_repos:
+- https://github.com/mibig-secmet/mibig-json
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mibig-secmet/mibig-json

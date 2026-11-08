@@ -1,0 +1,20 @@
+name: AriumMS
+slug: ariumms
+version_used: null
+edam_topics: []
+evidence_spans:
+- we introduce AriumMS (augmented region of interest for untargeted metabolomics mass spectrometry) as a reliable toolbox for multi-platform metabolomics
+- Here, we present the novel open-source AriumMS (augmented region of interest for untargeted metabolomics mass spectrometry) software
+- AriumMS contains ROI search, preprocessing, feature detection and integration, false-positive filter, scaling, and transformation followed by the augmentation and various chemometric data evaluation
+- The AriumMS software toolbox presented here is a powerful tool for fast untargeted processing of these augmented datasets.
+derived_from:
+- doi: 10.1007/s00216-023-04715-6
+  title: Augmented region of interest for untargeted metabolomics mass spectrometry (AriumMS) of multi-platform-based CE-MS and LC-MS data
+source_repos:
+- https://github.com/AdrianHaun/AriumMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AdrianHaun/AriumMS

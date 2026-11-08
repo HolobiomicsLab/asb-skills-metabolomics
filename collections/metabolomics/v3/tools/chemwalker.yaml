@@ -1,0 +1,21 @@
+name: ChemWalker
+slug: chemwalker
+version_used: null
+edam_topics: []
+evidence_spans:
+- introducing the ChemWalker python library
+- ChemWalker is a python package to propagate spectral library match identities through candidate structures provided by _in silico_ fragmentation
+derived_from:
+- doi: 10.1093/bioinformatics/btad078
+  title: 'Improving annotation propagation on molecular networks through random walks: introducing ChemWalker'
+- doi: 10.1101/2024.08.07.607073
+  title: Optimizing the detection of biological signals through a semi-automated feature selection tool
+source_repos:
+- https://github.com/computational-chemical-biology/ChemWalker
+- https://github.com/computational-chemical-biology/regression_filter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/computational-chemical-biology/ChemWalker

@@ -1,0 +1,17 @@
+name: Workflow4Metabolomics
+slug: workflow4metabolomics
+version_used: null
+edam_topics: []
+evidence_spans:
+- Workflow4Metabolomics is a framework that focuses on feature annotation
+derived_from:
+- doi: 10.1186/s12859-018-2134-1
+  title: 'SECIMTools: a suite of metabolomics data analysis tools'
+source_repos:
+- https://github.com/secimTools/SECIMTools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/secimTools/SECIMTools

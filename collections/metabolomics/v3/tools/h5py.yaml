@@ -1,0 +1,33 @@
+name: h5py
+slug: h5py
+version_used: null
+edam_topics: []
+evidence_spans:
+- requires _SciPy_, _NumPy_, _h5py_ libraries.
+- using h5py [24]
+- all spectra were saved in a Hierarchical Data Format 5 (HDF5) file [23] using h5py [24]
+- '* h5py'
+- "* Python 3.x \n* PyTorch \n* RDKit \n* Matplotlib \n* h5py\n* pyteomics"
+derived_from:
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+- doi: 10.1101/2024.10.07.617094
+  title: LipiDetective a deep learning model for the identification of molecular lipid species in tandem mass spectra
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.analchem.3c01653
+  title: '<i>mzapy</i>: An Open-Source Python Library Enabling Efficient Extraction and Processing of Ion Mobility Spectrometry-Mass Spectrometry Data in the MZA File Format'
+- doi: 10.1186/s13321-024-00858-5
+  title: 'TransExION: a transformer based explainable similarity metric for comparing IONS in tandem mass spectrometry'
+source_repos:
+- https://github.com/Mrqeoqqt/chemdistiller
+- https://github.com/LipiTUM/lipidetective
+- https://github.com/PNNL-m-q/mza
+- https://github.com/PNNL-m-q/mzapy
+- https://github.com/banhdzui/TransExION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mrqeoqqt/chemdistiller

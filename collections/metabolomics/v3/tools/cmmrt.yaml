@@ -1,0 +1,17 @@
+name: cmmrt
+slug: cmmrt
+version_used: null
+edam_topics: []
+evidence_spans:
+- to install the `cmmrt` package (and its dependencies) use
+derived_from:
+- doi: 10.1186/s13321-022-00613-8
+  title: Probabilistic metabolite annotation using retention time prediction and meta-learned projections
+source_repos:
+- https://github.com/constantino-garcia/cmmrt
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/constantino-garcia/cmmrt

@@ -1,0 +1,21 @@
+name: Gurobi
+slug: gurobi
+version_used: 9.1.1
+edam_topics: []
+evidence_spans:
+- '[Gurobi v9.1.1](https://www.gurobi.com/downloads/gurobi-software/)'
+- The optimization process has been implemented by [GUROBI](https://www.gurobi.com/) optimizer and its python interface
+derived_from:
+- doi: 10.1371/journal.pcbi.1009906
+  title: 'COMMIT: Consideration of metabolite leakage and community composition improves microbial community reconstructions'
+- doi: 10.1093/bioadv/vbad098
+  title: Prediction of metabolite–protein interactions based on integration of machine learning and constraint-based modeling
+source_repos:
+- https://github.com/pwendering/COMMIT
+- https://github.com/fayazsoleymani/SARTRE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pwendering/COMMIT

@@ -1,0 +1,16 @@
+name: X(13)CMS
+slug: x-13-cms
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.5b03628
+  title: 'geoRge: A Computational Tool To Detect the Presence of Stable Isotope Labeling in LC/MS-Based Untargeted Metabolomics'
+source_repos:
+- https://github.com/jcapelladesto/geoRge
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jcapelladesto/geoRge

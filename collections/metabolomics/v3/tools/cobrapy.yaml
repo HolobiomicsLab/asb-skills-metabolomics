@@ -1,0 +1,43 @@
+name: COBRApy
+slug: cobrapy
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Usage: `python pipeline/randomSampling.py nSamples nBatches`'
+- Here, we present M2R, a Python add-on to cobrapy that allows incorporating information about the gut microbiota metabolism models
+- Here, we present M2R, a Python add-on to cobrapy
+- by using the Python toolbox COBRApy
+- FBA and FVA were computed on the metabolic network of the host, both with and without the reaction modelling the production of the virus, by using the Python toolbox COBRApy
+- FBA and FVA were computed on the metabolic network of the host, both with and without the reaction modelling the production of the virus, by using the Python toolbox COBRApy.
+- We manipulated and simulated the model, including the addition of the gene expression data, with COBRApy (Ebrahim et al, 2013) and GLPK
+- iHsaEC21, can be instantiated without error on the COBRA software (version 0.16.0) (Ebrahim et al, 2013)
+- with COBRApy (Ebrahim et al, 2013) and GLPK
+- The community models are COBRApy models and can therefor be directly used by other COBRA methods.
+- a user-friendly, COBRApy-compatible tool that produces high-quality draft reconstructions
+- The loaded `universal` variable is a COBRApy `Model` object
+- '`Reconstructor` is a COBRApy compatible, automated GENRE building tool'
+- The loaded `universal` variable is a COBRApy `Model` object which can now be
+derived_from:
+- doi: 10.1371/journal.pcbi.1009337
+  title: 'INTEGRATE: Model-based multi-omics data integration to characterize multi-level metabolic regulation'
+- doi: 10.1093/bioinformatics/btab060
+  title: 'M2R: a Python add-on to cobrapy for modifying human genome-scale metabolic reconstruction using the gut microbiota models'
+- doi: 10.26508/lsa.202000954
+  title: Integrated human/SARS-CoV-2 metabolic models present novel treatment strategies against COVID-19
+- doi: 10.1093/bioinformatics/btae153
+  title: 'PyCoMo: a python package for community metabolic model creation and analysis'
+- doi: 10.1093/bioinformatics/btad367
+  title: 'Reconstructor: a COBRApy compatible tool for automated genome-scale metabolic network reconstruction with parsimonious flux-based gap-filling'
+source_repos:
+- https://github.com/qLSLab/integrate
+- https://github.com/e-weglarz-tomczak/m2r
+- https://github.com/opencobra/cobrapy
+- https://github.com/findCP/findCPcli
+- https://github.com/univieCUBE/PyCoMo
+- https://github.com/emmamglass/reconstructor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qLSLab/integrate

@@ -1,0 +1,22 @@
+name: patRoon
+slug: patroon
+version_used: null
+edam_topics: []
+evidence_spans:
+- dedicated functions to import feature tables from tools like patRoon and MS-DIAL
+- In this paper we present patRoon, a new R based open-source software platform
+- patRoon providing comprehensive NTA data processing from HRMS data pre-treatment, detection and grouping of features
+derived_from:
+- doi: 10.1515/jib-2025-0047
+  title: 'Streamlining feature elaboration and statistics analysis in metabolomics: the GetFeatistics R-package'
+- doi: 10.1186/s13321-020-00477-w
+  title: 'patRoon: open source software platform for environmental mass spectrometry based non-target screening'
+source_repos:
+- https://github.com/rickhelmus/patRoon
+- https://github.com/FrigerioGianfranco/GetFeatistics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rickhelmus/patRoon

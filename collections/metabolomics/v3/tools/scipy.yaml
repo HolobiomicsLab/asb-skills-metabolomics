@@ -1,0 +1,123 @@
+name: SciPy
+slug: scipy
+version_used: 0.19.1
+edam_topics: []
+evidence_spans:
+- 'Evaluate predictions against ground truth:'
+- were implemented using the Numpy [41], Scipy [42], and scikit-learn [27] libraries.
+- routines for analyzing data were implemented using the Numpy [41], Scipy [42], and scikit-learn [27] libraries.
+- We heavily employed statistics routines from SciPy and the network analysis framework from NetworkX
+- requires _SciPy_, _NumPy_, _h5py_ libraries.
+- The server-side spectra handling (chem-spectra-app) is based on python and was built using a modified version of NMRglue [18] and SciPy [19].
+- was built using a modified version of NMRglue [18] and SciPy [19]
+- scipy
+- '- matplotlib
+
+  - scipy'
+- '- scipy'
+- SciPy (Virtanen et al., 2020)
+- for our implementation, we used the SciPy25 interface to HiGHS22
+- 'SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python'
+- ':target: https://pypi.python.org/pypi/metabolabpy/'
+- uses numerous Python toolboxes, such as numpy, scipy, pandas, etc
+- standardised using the preprocessing module in Scipy
+- standardised using the preprocessing module in Scipy such that the intensity matrix has a zero mean and unit variance
+- '- scipy'
+- scipy
+- we repeated a Wilcoxon rank test 1000 times, each time selecting a different random subset
+- 'depends on common packages such as
+
+  numpy, scipy and pandas'
+- depends on common packages such as numpy, scipy and pandas
+- scipy_ for application of optimization methods.
+- scipy_ for application of optimization methods
+- scipy==1.6.3
+- the similarity score is calculated by a weighted cosine correlation
+derived_from:
+- doi: 10.1093/bioinformatics/btad354
+  title: '3DMolMS: prediction of tandem mass spectra from 3D molecular conformations'
+- doi: 10.3390/metabo10100416
+  title: A Python-Based Pipeline for Preprocessing LC–MS Data for Untargeted Metabolomics Workflows
+- doi: 10.1158/0008-5472.can-14-1490
+  title: AKT1 and MYC Induce Distinctive Metabolic Fingerprints in Human Prostate Cancer
+- doi: 10.1186/s13321-023-00734-8
+  title: 'The BinDiscover database: a biology-focused meta-analysis tool for 156,000 GC–TOF MS metabolome samples'
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+- doi: 10.1186/s13321-020-00481-0
+  title: 'ChemSpectra: a web-based spectra editor for analytical data'
+- doi: 10.1093/bioinformatics/btae490
+  title: An Ensemble Spectral Prediction (ESP) model for metabolite annotation
+- doi: 10.1093/bioinformatics/bty590
+  title: Liquid-chromatography retention order prediction for metabolite identification
+- doi: 10.1021/acs.analchem.0c02560
+  title: 'LiPydomics: A Python Package for Comprehensive Prediction
+
+    of Lipid Collision Cross Sections and Retention Times and Analysis
+
+    of Ion Mobility-Mass Spectrometry-Based Lipidomics Data'
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+- doi: 10.21105/joss.02411
+  title: matchms - processing and similarity evaluation of mass spectrometry data.
+- doi: 10.1080/01621459.2017.1397521
+  title: 'Maximum Rank Reproducibility: A Nonparametric Approach to Assessing Reproducibility in Replicate Experiments'
+- doi: 10.1021/acs.analchem.4c01652
+  title: Network Flow Methods for NMR-Based Compound Identification
+- doi: 10.3390/metabo15010048
+  title: MetaboLabPy—An Open-Source Software Package for Metabolomics NMR Data Processing and Metabolic Tracer Data Analysis
+- doi: 10.1038/s41592-021-01331-z
+  title: Spectral entropy outperforms MS/MS dot product similarity for small-molecule compound identification
+- doi: 10.1021/acs.analchem.3c01653
+  title: '<i>mzapy</i>: An Open-Source Python Library Enabling Efficient Extraction and Processing of Ion Mobility Spectrometry-Mass Spectrometry Data in the MZA File Format'
+- doi: 10.3390/metabo11020103
+  title: Ranking Metabolite Sets by Their Activity Levels
+- doi: 10.1021/acs.analchem.3c00764
+  title: 'PeakDetective: A Semisupervised Deep Learning-Based Approach for Peak Curation in Untargeted Metabolomics'
+- doi: 10.1038/s41467-022-30118-9
+  title: SIMILE enables alignment of tandem mass spectra with statistical significance
+- doi: 10.1038/s41467-019-13680-7
+  title: The METLIN small molecule dataset for machine learning-based retention time prediction
+- doi: 10.21105/joss.03990
+  title: 'ViMMS 2.0: A framework to develop, test and optimise
+
+    fragmentation strategies in LC-MS metabolomics'
+- doi: 10.1186/s12859-019-3096-7
+  title: Moiety modeling framework for deriving moiety abundances from mass spectrometry measured isotopologues
+- doi: 10.1093/bioinformatics/btad096
+  title: Regularized adversarial learning for normalization of multi-batch untargeted metabolomics data
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+- doi: 10.1002/jms.1777
+  title: 'MassBank: a public repository for sharing mass spectral data for life sciences'
+source_repos:
+- https://github.com/JosieHong/3DMolMS
+- https://github.com/Mrqeoqqt/chemdistiller
+- https://github.com/ComPlat/chem-spectra-app
+- https://github.com/HassounLab/ESP
+- https://github.com/aalto-ics-kepaco/retention_order_prediction
+- https://github.com/dylanhross/lipydomics
+- https://github.com/kopeckylukas/py-mamsi
+- https://github.com/GeoMetabolomics-ICBM/mcfNMR
+- https://github.com/ludwigc/MetaboLabPy
+- https://github.com/ludwigc/metabolabpy
+- https://github.com/YuanyueLi/MSEntropy
+- https://github.com/PNNL-m-q/mzapy
+- https://github.com/glasgowcompbio/PALS
+- https://github.com/pattilab/PeakDetective
+- https://github.com/biorack/simile
+- https://github.com/glasgowcompbio/vimms
+- https://github.com/scipy/scipy
+- https://github.com/MoseleyBioinformaticsLab/moiety_modeling
+- https://github.com/zamboni-lab/RALPS
+- https://github.com/sangeeta97/ccs_find
+- https://github.com/bittremieuxlab/falcon
+- https://github.com/MassBank/MassBank-web
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JosieHong/3DMolMS

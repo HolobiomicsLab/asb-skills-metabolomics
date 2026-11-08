@@ -1,0 +1,100 @@
+name: matchms
+slug: matchms
+version_used: 0.20.0
+edam_topics: []
+evidence_spans:
+- '``align_spectra()`` is the interface to load data from open file formats such as .mgf, .mzML or .mzXML files via ``matchms.importing``.'
+- load data from open file formats such as .mgf, .mzML or .mzXML files via ``matchms.importing``
+- It has interfaces to the matchms-ecosystem; a popular Python package for processing of MS data (Huber et al., 2020).
+- Spectral matching was performed in Python using the matchms (v0.20.0) package
+- Molecular networking was performed in Python using the matchms (v0.20.0) package32
+- using the matchms (v0.20.0) package
+- The provided metadata was cleaned and corrected using matchms [31] resulting in 94,121 spectra with InChIKey annotations.
+- matchms (https://github.com/matchms/matchms) and spec2vec (https://github.com/iomega/spec2vec)
+- Matchms version 0.26.4 was used to run these pipelines.
+- The matchms pipeline was also run on the Massbank library [15], the MoNA library (MoNA. Massbank of North America) [19]
+- github.com/matchms/matchms
+- The library cleaning pipeline is implemented in matchms.
+- The library cleaning pipeline is implemented in the increasingly widely used open-source Python package matchms.
+- MS2DeepScore is integrated in matchms, a recently developed Python library for mass spectra import, handling and comparisons
+- Metadata was cleaned and checked using matchms [18] version 0.8.2
+- github.com__matchms__ms2deepscore
+- matchms is an open-source Python package to import, process, clean, and compare mass spectrometry data (MS/MS)
+- MEMO is mainly built on `matchms`_
+- MEMO is mainly built on `matchms`_ and `spec2vec`_ packages for handling
+- 'MEMO is mainly built on `matchms`_ and `spec2vec`_ packages for handling
+
+  the MS2 spectra'
+- '`matchms`_ and `spec2vec`_ packages for handling'
+- MS2 spectra are filtered and binned using matchms and spec2vec packages
+- For doing the modified cosine score calculations the implementation of matchms33 was used, which is optimized for performance.
+- The dataset was first cleaned using matchms33. The metadata was cleaned to get a uniform format and to remove or correct misplaced metadata.
+- The package uses matchms (Huber et al., 2020) for data IO and supports the open, text-based .mspformat
+- The package uses matchms (Huber et al., 2020) for data IO and supports the open, text-based .mspformat.
+- The MS2 annotation utilizes MatchMS but with an optimization using an interval tree algorithm
+- '# Code used to perform matchms preprocessing'
+- the Python [*matchms*](https://github.com/matchms) library
+- from the Python [*matchms*](https://github.com/matchms) library and contains
+- the Python [*matchms*](https://github.com/matchms) library and contains
+- Spectral data are imported into Python using matchms
+- 'Spectral data are imported into
+
+  Python using matchms'
+- Python using matchms, and basic specXplore data processing is performed
+- _No usage/docs found._
+derived_from:
+- doi: 10.1093/bioinformatics/btad088
+  title: 'DBDIpy: a Python library for processing of untargeted datasets from real-time plasma ionization mass spectrometry'
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.1021/acs.analchem.4c02219
+  title: 'FragHub: A Mass Spectral Library Data Integration Workflow'
+- doi: 10.1371/journal.pcbi.1008724
+  title: 'Spec2Vec: Improved mass spectral similarity scoring through learning of structural relationships'
+- doi: 10.1186/s13321-024-00878-1
+  title: Reproducible MS/MS library cleaning pipeline in matchms
+- doi: 10.1186/s13321-021-00558-4
+  title: 'MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra'
+- doi: 10.21105/joss.02411
+  title: matchms - processing and similarity evaluation of mass spectrometry data.
+- doi: 10.3389/fbinf.2022.842964
+  title: 'MEMO: Mass Spectrometry-Based Sample Vectorization to Explore Chemodiverse Datasets'
+- doi: 10.1038/s41467-023-37446-4
+  title: 'MS2Query: reliable and scalable MS2 mass spectra-based analogue search'
+- doi: 10.21105/joss.04494
+  title: 'MSMetaEnhancer: A Python package for mass spectra
+
+    metadata annotation'
+- doi: 10.1371/journal.pcbi.1011912
+  title: Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline
+- doi: 10.1021/acs.analchem.5c06256
+  title: Comprehensive Curation and Harmonization of Small-Molecule MS/MS Libraries in Spectraverse
+- doi: 10.21105/joss.08070
+  title: 'SpectriPy: Enhancing Cross-Language Mass Spectrometry Data Analysis with R and Python'
+- doi: 10.1021/acs.analchem.3c04444
+  title: Tailored Mass Spectral Data Exploration Using the SpecXplore Interactive Dashboard
+- doi: 10.1002/cmtd.202400088
+  title: 'MS2DECIDE: Aggregating Multiannotated Tandem Mass Spectrometry Data with Decision Theory Enhances Natural Products Prioritization'
+source_repos:
+- https://github.com/matchms/matchms
+- https://github.com/leopold-weidner/DBDIpy
+- https://github.com/enpkg/enpkg_workflow
+- https://github.com/enpkg/enpkg_full
+- https://github.com/eMetaboHUB/FragHub
+- https://github.com/iomega/spec2vec
+- https://github.com/matchms/ms2deepscore
+- https://github.com/mandelbrot-project/memo
+- https://github.com/iomega/ms2query
+- https://github.com/RECETOX/MSMetaEnhancer
+- https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics
+- https://github.com/skinniderlab/spectraverse-analysis
+- https://github.com/github.com/matchms
+- https://github.com/rformassspectrometry/SpectriPy
+- https://github.com/kevinmildau/specXplore
+- https://github.com/MejriY/MS2DECIDE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/matchms/matchms

@@ -1,0 +1,19 @@
+name: qvalue
+slug: qvalue
+version_used: null
+edam_topics: []
+evidence_spans:
+- (i.e., qvalue and bioconductor install.R, and RSelenium Driver SetUp.R)
+- Genomic gene sets are identified from a network representation of the GWAS Catalog comprising 100s of studies.
+- We developed a bioinformatics tool, metGWAS 1.0, that generates and statistically compares metabolic and genomic gene sets using a hypergeometric test.
+derived_from:
+- doi: 10.1093/bioinformatics/btad523
+  title: 'metGWAS 1.0: an R workflow for network-driven over-representation analysis between independent metabolomic and meta-genome-wide association studies'
+source_repos:
+- https://github.com/saifurbd28/metGWAS-1.0
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/saifurbd28/metGWAS-1.0

@@ -1,0 +1,21 @@
+name: SciKitLearn
+slug: scikitlearn
+version_used: null
+edam_topics: []
+evidence_spans:
+- designed to be compatible with many SciKitLearn [39] functions, enabling fast and efficient model optimisation and evaluation.
+- 'Single-View model: Integrates multi-omics data into one set of multi-omics pathway scores and applies an SKlearn-compatible predictive model'
+- SKlearn-like API for easy integration into existing pipelines
+- SKlearn-compatible predictive model
+derived_from:
+- doi: 10.1371/journal.pcbi.1011814
+  title: 'PathIntegrate: Multivariate modelling approaches for pathway-based multi-omics data integration'
+source_repos:
+- https://github.com/cwieder/PathIntegrate
+- https://github.com/cwieder/py-ssPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cwieder/PathIntegrate

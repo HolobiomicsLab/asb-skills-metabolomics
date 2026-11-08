@@ -1,0 +1,31 @@
+name: MongoDB
+slug: mongodb
+version_used: null
+edam_topics: []
+evidence_spans:
+- All original data, unified NPs and the derived and calculated information are stored in MongoDB.
+- 'The key software that will be installed includes: - Java Development Kit (JDK) 17 - Redis - MongoDB'
+- These examples rely on using a mongo database, either remote or local.
+- '********* Start MongoDB *********'
+derived_from:
+- doi: 10.1186/s13321-020-00478-9
+  title: 'COCONUT online: Collection of Open Natural Products database'
+- doi: 10.1101/2023.02.26.530140
+  title: 'InjectionDesign: Plate Design with Optimized Stratified Block Randomization for Modern LC/GC-MS-Based Sample Preparation'
+- doi: 10.1186/s12859-023-05149-8
+  title: 'Pickaxe: a Python library for the prediction of novel metabolic reactions'
+- doi: 10.1007/s11306-023-02018-6
+  title: 'MetaPro: a web-based metabolomics application for LC-MS data batch inspection and library curation'
+source_repos:
+- https://github.com/mSorok/COCONUT
+- https://github.com/mSorok/NaturalProductsOnline
+- https://github.com/Steinbeck-Lab/coconut
+- https://github.com/CSi-Studio/InjectionDesign
+- https://github.com/tyo-nu/pickaxe_paper
+- https://github.com/CSi-Studio/MetaPro
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mSorok/COCONUT

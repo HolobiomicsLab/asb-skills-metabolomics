@@ -1,0 +1,16 @@
+name: getPeaklist
+slug: getpeaklist
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/ac202450g
+  title: 'CAMERA: An Integrated Strategy for Compound Spectra Extraction and Annotation of Liquid Chromatography/Mass Spectrometry Data Sets'
+source_repos:
+- https://github.com/sneumann/CAMERA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sneumann/CAMERA

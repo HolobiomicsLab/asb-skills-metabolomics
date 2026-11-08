@@ -1,0 +1,17 @@
+name: GetFeatistics
+slug: getfeatistics
+version_used: null
+edam_topics: []
+evidence_spans:
+- GetFeatistics is an R-package developed to streamline the elaboration and statistical analysis of metabolomics data.
+derived_from:
+- doi: 10.1515/jib-2025-0047
+  title: 'Streamlining feature elaboration and statistics analysis in metabolomics: the GetFeatistics R-package'
+source_repos:
+- https://github.com/FrigerioGianfranco/GetFeatistics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FrigerioGianfranco/GetFeatistics

@@ -1,0 +1,33 @@
+name: CAMERA
+slug: camera
+version_used: null
+edam_topics: []
+evidence_spans:
+- we repeated the benchmarking studies with the state-of-the-art software packages XCMS and CAMERA
+- biocLite("CAMERA")
+- cameraWrapper(xset, polarity, sigma, perfwhm, cor_eic_th, pval, maxcharge, maxiso, ppm, mzabs, minfrac, filter, workers)
+- Metaboseek includes an integrated XCMS module for feature detection and feature grouping (with CAMERA annotation)
+derived_from:
+- doi: 10.1021/ac202450g
+  title: 'CAMERA: An Integrated Strategy for Compound Spectra Extraction and Annotation of Liquid Chromatography/Mass Spectrometry Data Sets'
+- doi: 10.1074/mcp.m113.031278
+  title: Automated Label-free Quantification of Metabolites from Liquid Chromatography–Mass Spectrometry Data
+- doi: 10.1186/s13742-016-0115-8
+  title: 'Galaxy-M: a Galaxy workflow for processing and analyzing direct infusion and liquid chromatography mass spectrometry-based metabolomics data'
+- doi: 10.1016/j.isci.2023.106881
+  title: Integrative processing of untargeted metabolomic and lipidomic data using MultiABLER
+- doi: 10.1038/s41467-022-28391-9
+  title: Comparative metabolomics with Metaboseek reveals functions of a conserved fat metabolism pathway in C. elegans
+source_repos:
+- https://github.com/sneumann/CAMERA
+- https://github.com/OpenMS/OpenMS
+- https://github.com/Viant-Metabolomics/Galaxy-M
+- https://github.com/holab-hku/MultiABLER
+- https://github.com/mjhelf/Metaboseek
+- https://github.com/sneumann/xcms
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sneumann/CAMERA

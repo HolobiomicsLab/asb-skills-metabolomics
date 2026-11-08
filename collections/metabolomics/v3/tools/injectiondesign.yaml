@@ -1,0 +1,18 @@
+name: InjectionDesign
+slug: injectiondesign
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we describe InjectionDesign, a free online plate design service focus on GC/LC-MS-based multi-omics experiment design.
+- Like the inter-batch balancing algorithm, InjectionDesign also provides a completely randomized algorithm for intra-batch samples.
+derived_from:
+- doi: 10.1101/2023.02.26.530140
+  title: 'InjectionDesign: Plate Design with Optimized Stratified Block Randomization for Modern LC/GC-MS-Based Sample Preparation'
+source_repos:
+- https://github.com/CSi-Studio/InjectionDesign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSi-Studio/InjectionDesign

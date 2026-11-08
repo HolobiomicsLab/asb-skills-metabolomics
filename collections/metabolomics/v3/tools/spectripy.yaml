@@ -1,0 +1,19 @@
+name: SpectriPy
+slug: spectripy
+version_used: null
+edam_topics: []
+evidence_spans:
+- The *SpectriPy* package provides the
+- For example, *SpectriPy* can
+derived_from:
+- doi: 10.21105/joss.08070
+  title: 'SpectriPy: Enhancing Cross-Language Mass Spectrometry Data Analysis with R and Python'
+source_repos:
+- https://github.com/RforMassSpectrometry/SpectriPy
+- https://github.com/rformassspectrometry/SpectriPy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RforMassSpectrometry/SpectriPy

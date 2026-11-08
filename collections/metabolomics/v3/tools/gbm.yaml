@@ -1,0 +1,17 @@
+name: gbm
+slug: gbm
+version_used: null
+edam_topics: []
+evidence_spans:
+- gbm (Imports)
+derived_from:
+- doi: 10.1093/gigascience/giy136
+  title: 'Lilikoi: an R package for personalized pathway-based classification modeling using metabolomics data'
+source_repos:
+- https://github.com/lanagarmire/lilikoi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lanagarmire/lilikoi

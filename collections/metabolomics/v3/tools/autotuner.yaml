@@ -1,0 +1,23 @@
+name: AutoTuner
+slug: autotuner
+version_used: '3.7'
+edam_topics: []
+evidence_spans:
+- our new parameter optimization algorithm, AutoTuner, obtains parameter estimates from raw data in a single step as opposed to many iterations.
+- our new parameter optimization algorithm, AutoTuner, obtains parameter estimates from raw data in a single step as opposed to many iterations
+derived_from:
+- doi: 10.1101/812370
+  title: 'AutoTuner: High fidelity, robust, and rapid parameter selection for metabolomics data processing'
+- doi: 10.1021/acs.analchem.1c04758
+  title: 'Paramounter: Direct Measurement of Universal Parameters To Process Metabolomics Data in a “White Box”'
+source_repos:
+- https://github.com/KujawinskiLaboratory/Autotuner
+- https://github.com/crmclean/Autotuner
+- https://github.com/crmclean/autotuner
+- https://github.com/HuanLab-backup/Paramounter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KujawinskiLaboratory/Autotuner

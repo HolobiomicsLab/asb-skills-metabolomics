@@ -1,0 +1,19 @@
+name: OpenCV
+slug: opencv
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/jasms.1c00013
+  title: 'macroMS: Image-Guided Analysis of Random Objects by Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry'
+- doi: 10.1021/acs.jproteome.4c01140
+  title: 'MSIght: A Modular Platform for Improved Confidence in Global, Untargeted Mass Spectrometry Imaging Annotation'
+source_repos:
+- https://github.com/macroMS/macroMS_web
+- https://github.com/laurenfields/MSIght
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/macroMS/macroMS_web

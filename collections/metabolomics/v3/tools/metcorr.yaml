@@ -1,0 +1,16 @@
+name: MetCorR
+slug: metcorr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.1c00392
+  title: '<i>Omics Untargeted Key Script</i>: R-Based Software Toolbox for Untargeted Metabolomics with Bladder Cancer Biomarkers Discovery Case Study'
+source_repos:
+- https://github.com/plyush1993/OUKS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/plyush1993/OUKS

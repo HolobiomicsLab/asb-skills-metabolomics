@@ -1,0 +1,21 @@
+name: ipaPy2
+slug: ipapy2
+version_used: null
+edam_topics: []
+evidence_spans:
+- the ipaPy2 library provides a function (clusterFeatures()) able to perform such step
+- The first step of the IPA pipeline consists in the mapping of the isotope patterns within the dataset considered. This is achieved through the map_isotope_patterns().
+- pip install ipaPy2
+- fragmentation data can be included in the annotation process by using the MSMSannotation() function
+- If no fragmentation data is available, the MS1annotation() function should be used
+derived_from:
+- doi: 10.1093/bioinformatics/btad455
+  title: 'ipaPy2: Integrated Probabilistic Annotation (IPA) 2.0—an improved Bayesian-based method for the annotation of LC–MS/MS untargeted metabolomics data'
+source_repos:
+- https://github.com/francescodc87/ipaPy2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/francescodc87/ipaPy2

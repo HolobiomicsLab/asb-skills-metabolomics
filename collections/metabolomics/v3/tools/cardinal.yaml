@@ -1,0 +1,34 @@
+name: Cardinal
+slug: cardinal
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(Cardinal)
+- Cardinal is an R package for statistical analysis of mass spectrometry-based imaging (MSI) experiments of biological samples such as tissues.
+- data objects in the `MSProcessedImagingExperiment` or `MSContinuousImagingExperiment` formats can be converted to mass2adduct's `msimat` format
+- If you are using Cardinal to process your MSI data, data objects in the `MSProcessedImagingExperiment` or `MSContinuousImagingExperiment` formats can be converted to mass2adduct's `msimat` format
+- we compared its spatial clustering and differential analysis capabilities with Cardinal [12], using the same mouse brain dataset
+derived_from:
+- doi: 10.1093/bioinformatics/btv146
+  title: "<i>Cardinal</i>\n                    : an R package for statistical analysis of mass spectrometry-based imaging experiments"
+- doi: 10.1101/2025.10.15.682422
+  title: LipidQMap - An Open-Source Tool for Quantitative Mass Spectrometry Imaging of Lipids
+- doi: 10.1021/acs.analchem.0c04720
+  title: Determination of Abundant Metabolite Matrix Adducts Illuminates the Dark Metabolome of MALDI-Mass Spectrometry Imaging Datasets
+- doi: 10.3390/biom15111562
+  title: 'SMAnalyst: A Web Server for Spatial Metabolomic Data Analysis and Annotation'
+- doi: 10.1101/2024.10.31.621429
+  title: 'SpaMTP: Integrative Statistical Analysis and Visualisation of Spatial Metabolomics and Transcriptomics data'
+source_repos:
+- https://github.com/kuwisdelu/Cardinal
+- https://github.com/swinnenteam/LipidQMap
+- https://github.com/kbseah/mass2adduct
+- https://github.com/mzlab-research/SManalyst
+- https://github.com/GenomicsMachineLearning/SpaMTP
+- https://github.com/kbemis/Cardinal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kuwisdelu/Cardinal

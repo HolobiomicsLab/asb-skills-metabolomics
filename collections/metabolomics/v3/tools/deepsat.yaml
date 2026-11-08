@@ -1,0 +1,20 @@
+name: DeepSAT
+slug: deepsat
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we introduce DeepSAT, a neural network-based structure annotation and scaffold prediction system that directly extracts the chemical features associated with molecular structures from their NMR
+- Here, we introduce DeepSAT, a neural network-based structure annotation and scaffold prediction system
+- we introduce DeepSAT, a neural network-based structure annotation and scaffold prediction system that directly extracts the chemical features associated with molecular structures from their NMR
+- we keep in our logs which structures were classified but not which users queried the structure
+derived_from:
+- doi: 10.1186/s13321-023-00738-4
+  title: 'DeepSAT: Learning Molecular Structures from Nuclear Magnetic Resonance Data'
+source_repos:
+- https://github.com/mwang87/DeepSAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mwang87/DeepSAT

@@ -1,0 +1,17 @@
+name: IDBA
+slug: idba
+version_used: null
+edam_topics: []
+evidence_spans:
+- 82 scaftigs were assembled by MetaRon via IDBA [55].
+derived_from:
+- doi: 10.1186/s12864-020-07357-5
+  title: 'Prediction and analysis of metagenomic operons via MetaRon: a pipeline for prediction of Metagenome and whole-genome opeRons'
+source_repos:
+- https://github.com/zaidissa/MetaRon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zaidissa/MetaRon

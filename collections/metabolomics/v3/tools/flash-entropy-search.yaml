@@ -1,0 +1,30 @@
+name: Flash Entropy Search
+slug: flash-entropy-search
+version_used: null
+edam_topics: []
+evidence_spans:
+- outperforms squared time complexity in flash entropy search
+- data structure optimization based on linear time complexity in EQ module promoted by applying hash tables and bisection methods
+- Flash entropy search seems to be the fastest tool to query all mass spectral libraries thus far, having a squared time complexity
+- While the recent development of Flash Entropy Search20 enables ultrafast and comprehensive MS/MS investigations
+derived_from:
+- doi: 10.1021/acs.analchem.4c02219
+  title: 'FragHub: A Mass Spectral Library Data Integration Workflow'
+- doi: 10.1038/s41467-025-59683-5
+  title: 'LipidIN: a comprehensive repository for flash platform-independent annotation and reverse lipidomics'
+- doi: 10.1038/s41467-025-60640-5
+  title: MassCube improves accuracy for metabolomics data processing from raw files to phenotype classifiers
+- doi: 10.1038/s41592-021-01331-z
+  title: Spectral entropy outperforms MS/MS dot product similarity for small-molecule compound identification
+source_repos:
+- https://github.com/eMetaboHUB/FragHub
+- https://github.com/YuanyueLi/FlashEntropySearch
+- https://github.com/YuanyueLi/MSEntropy
+- https://github.com/LinShuhaiLAB/LipidIN
+- https://github.com/huaxuyu/masscube
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eMetaboHUB/FragHub

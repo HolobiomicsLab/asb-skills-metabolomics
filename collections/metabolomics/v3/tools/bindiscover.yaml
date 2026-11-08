@@ -1,0 +1,17 @@
+name: BinDiscover
+slug: bindiscover
+version_used: null
+edam_topics: []
+evidence_spans:
+- We term this tool BinDiscover. It is a webtool to enable users to perform meta-analysis within minutes
+derived_from:
+- doi: 10.1186/s13321-023-00734-8
+  title: 'The BinDiscover database: a biology-focused meta-analysis tool for 156,000 GC–TOF MS metabolome samples'
+source_repos:
+- https://github.com/GFiehnLab/BinDiscover
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GFiehnLab/BinDiscover

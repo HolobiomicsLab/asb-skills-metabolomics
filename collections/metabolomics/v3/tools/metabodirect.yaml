@@ -1,0 +1,21 @@
+name: MetaboDirect
+slug: metabodirect
+version_used: null
+edam_topics: []
+evidence_spans:
+- develop MetaboDirect, an open-source, command-line-based pipeline for the analysis
+- develop MetaboDirect, an open-source, command-line-based pipeline for the analysis (e.g., chemodiversity analysis, multivariate statistics), visualization (e.g., Van Krevelen diagrams
+- develop MetaboDirect, an open-source, command-line-based pipeline for the analysis (e.g., chemodiversity analysis, multivariate statistics)
+- https://pypi.org/project/metabodirect/
+- An additional script, "test_normalization" is included to help users select the best normalization method and can be run before the main MetaboDirect pipeline
+derived_from:
+- doi: 10.1186/s40168-023-01476-3
+  title: 'MetaboDirect: an analytical pipeline for the processing of FT-ICR MS-based metabolomic data'
+source_repos:
+- https://github.com/Coayala/MetaboDirect
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Coayala/MetaboDirect

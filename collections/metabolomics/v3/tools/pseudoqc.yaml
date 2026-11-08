@@ -1,0 +1,17 @@
+name: pseudoQC
+slug: pseudoqc
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pmic.201900264
+  title: 'pseudoQC: A Regression‐Based Simulation Software for Correction and Normalization of Complex Metabolomics and Proteomics Datasets'
+source_repos:
+- https://github.com/qade544/pseudoQC
+- https://github.com/YanglabWCH/pseudoQC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qade544/pseudoQC

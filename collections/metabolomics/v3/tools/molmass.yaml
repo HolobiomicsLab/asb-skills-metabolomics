@@ -1,0 +1,21 @@
+name: molmass
+slug: molmass
+version_used: 2021.6.18
+edam_topics: []
+evidence_spans:
+- '- ``molmass==2021.6.18``'
+derived_from:
+- doi: 10.1038/s41592-025-02646-x
+  title: Denoising Search doubles the number of metabolite and exposome annotations in human plasma using an Orbitrap Astral mass spectrometer
+- doi: 10.1002/jms.5040
+  title: 'CCSfind: A tool for chemically informed LC‐IM‐MS database building'
+source_repos:
+- https://github.com/FanzhouKong/spectral_denoising
+- https://github.com/sangeeta97/ccs_find.git
+- https://github.com/sangeeta97/ccs_find
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FanzhouKong/spectral_denoising

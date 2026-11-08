@@ -1,0 +1,17 @@
+name: MassBank public website/API (massbank.eu)
+slug: massbank-public-website-api-massbank-eu
+version_used: null
+edam_topics: []
+evidence_spans:
+- MassBank is a distributed database. Each research group provides data from its own MassBank data servers distributed on the Internet.
+derived_from:
+- doi: 10.1002/jms.1777
+  title: 'MassBank: a public repository for sharing mass spectral data for life sciences'
+source_repos:
+- https://github.com/MassBank/MassBank-web
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MassBank/MassBank-web

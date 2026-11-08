@@ -1,0 +1,19 @@
+name: ALISTER
+slug: alister
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'The data filtering mode is used in the following way:'
+- Our "Application for lipid stability evaluation & research" - ALISTER facilitates decision making on blood sample stability during lipidomic and metabolomic studies
+- As described above ALISTER is able to answer questions regarding prospective as well as retrospective pre-analytical scenarios.
+derived_from:
+- doi: 10.1016/j.cca.2024.117858
+  title: ALISTER – Application for lipid stability evaluation and research
+source_repos:
+- https://github.com/Fraunhofer-ITMP/alister
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Fraunhofer-ITMP/alister

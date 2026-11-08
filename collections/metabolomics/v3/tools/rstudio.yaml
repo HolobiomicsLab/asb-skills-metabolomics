@@ -1,0 +1,55 @@
+name: RStudio
+slug: rstudio
+version_used: 2023.09.1
+edam_topics: []
+evidence_spans:
+- further data filtering, evaluation, and visualization was done in the R studio programming environment (R version 4.3.2 and RStudio 2023.09.1)
+- paste the following code into the console of R studio and press enter
+- 'To run MobiLipid it is necessary to install
+
+  [R](https://cran.r-project.org/) and [R
+
+  studio](https://www.rstudio.com/products/rstudio/download/).'
+- further data filtering, evaluation, and visualization was done in the R studio programming environment
+- From Rstudio run the app as
+- installed directly from R or RStudio using the developer tools
+derived_from:
+- doi: 10.1021/acs.analchem.1c01644
+  title: 'ISFrag: De Novo Recognition of In-Source Fragments for Liquid Chromatography–Mass Spectrometry Data'
+- doi: 10.1021/acs.analchem.0c02281
+  title: 'MetIDfyR: An Open-Source R Package to Decipher Small-Molecule
+
+    Drug Metabolism through High-Resolution Mass Spectrometry'
+- doi: 10.1021/acs.analchem.4c01253
+  title: 'MobiLipid: A Tool for Enhancing CCS Quality Control of Ion Mobility–Mass Spectrometry Lipidomics by Internal Standardization'
+- doi: 10.48550/arxiv.2510.09716
+  title: ''
+- doi: 10.48550/arxiv.2410.22030
+  title: ''
+- doi: 10.1007/s11306-018-1347-7
+  title: 'NormalizeMets: assessing, selecting and implementing statistical methods for normalizing metabolomics data'
+- doi: 10.1021/acs.jproteome.1c00392
+  title: '<i>Omics Untargeted Key Script</i>: R-Based Software Toolbox for Untargeted Metabolomics with Bladder Cancer Biomarkers Discovery Case Study'
+- doi: 10.1021/acs.analchem.3c03660
+  title: "QC\n                    <i>omics</i>\n                    : Recommendations and Guidelines for Robust, Easily Implementable and Reportable Quality Control of Metabolomics Data"
+- doi: 10.1371/journal.pone.0306202
+  title: 'uafR: An R package that automates mass spectrometry data processing'
+- doi: 10.1002/mrm.29370
+  title: '<scp>MRSCloud</scp>: A cloud‐based<scp>MRS</scp>tool for basis set simulation'
+source_repos:
+- https://github.com/HuanLab-backup/ISFrag
+- https://github.com/agnesbrnb/MetIDfyR
+- https://github.com/FelinaHildebrand/MobiLipid
+- https://github.com/jsehhs/MS2toImg-CNN
+- https://github.com/TamirBar-Tov/NetAurHPD-Network-Auralization-Hyperlink-Prediction-Method
+- https://github.com/metabolomicstats/NormalizeMets
+- https://github.com/plyush1993/OUKS
+- https://github.com/ricoderks/QComics
+- https://github.com/castratton/uafR
+- https://github.com/shui5/MRSCloud
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuanLab-backup/ISFrag

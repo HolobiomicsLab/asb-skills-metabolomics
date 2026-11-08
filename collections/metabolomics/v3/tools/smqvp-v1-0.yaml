@@ -1,0 +1,17 @@
+name: SMQVP v1.0
+slug: smqvp-v1-0
+version_used: '1.0'
+edam_topics: []
+evidence_spans:
+- we present Spatial Metabolomics data Quality Visualization and Processing (SMQVP v1.0), a novel software with a user-friendly graphical interface
+derived_from:
+- doi: 10.3390/metabo15060354
+  title: 'SMQVP: A Web Application for Spatial Metabolomics Quality Visualization and Processing'
+source_repos:
+- https://github.com/mzlab-research/SMQVP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mzlab-research/SMQVP

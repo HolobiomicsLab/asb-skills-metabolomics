@@ -1,0 +1,16 @@
+name: httr
+slug: httr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2021.02.28.433248
+  title: 'MetaFetcheR: An R package for complete mapping of small compound data'
+source_repos:
+- https://github.com/komorowskilab/MetaFetcheR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/komorowskilab/MetaFetcheR

@@ -1,0 +1,15 @@
+name: R idr package
+slug: r-idr-package
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1080/01621459.2017.1397521
+  title: 'Maximum Rank Reproducibility: A Nonparametric Approach to Assessing Reproducibility in Replicate Experiments'
+source_repos: []
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: null

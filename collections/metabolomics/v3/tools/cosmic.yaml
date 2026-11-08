@@ -1,0 +1,19 @@
+name: COSMIC
+slug: cosmic
+version_used: null
+edam_topics: []
+evidence_spans:
+- SIRIUS integrates a collection of our tools, including CSI:FingerID (with [COSMIC]
+- Here we introduce the COSMIC workflow that combines in silico structure database generation and annotation with a confidence score
+- (with [COSMIC](https://bio.informatik.uni-jena.de/software/cosmic/))
+derived_from:
+- doi: 10.1038/s41587-021-01045-9
+  title: High-confidence structural annotation of metabolites absent from spectral libraries
+source_repos:
+- https://github.com/sirius-ms/sirius
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sirius-ms/sirius

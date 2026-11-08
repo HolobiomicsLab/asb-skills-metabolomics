@@ -1,0 +1,26 @@
+name: RefMet
+slug: refmet
+version_used: null
+edam_topics: []
+evidence_spans:
+- Metabolomics Workbench [28] (RefMet accepted name)
+- fully [RefMet-compliant residue naming](https://www.metabolomicsworkbench.org/databases/refmet/index.php)
+derived_from:
+- doi: 10.3390/metabo13121167
+  title: 'A Metabolites Merging Strategy (MMS): Harmonization to Enable Studies’ Intercomparison'
+- doi: 10.1101/2020.04.09.033894
+  title: 'LipidLynxX: a data transfer hub to support integration of large scale lipidomics datasets'
+- doi: 10.1101/2020.11.20.391912
+  title: 'MetENP/MetENPWeb: An R package and web application for metabolomics enrichment and pathway analysis in Metabolomics Workbench'
+- doi: 10.1038/s41598-020-70259-9
+  title: 'liputils: a Python module to manage individual fatty acid moieties from complex lipids'
+source_repos:
+- https://github.com/SysMedOs/LipidLynxX
+- https://github.com/metabolomicsworkbench/MetENP
+- https://github.com/Stemanz/liputils
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SysMedOs/LipidLynxX

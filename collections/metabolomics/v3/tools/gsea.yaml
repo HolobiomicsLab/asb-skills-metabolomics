@@ -1,0 +1,20 @@
+name: GSEA
+slug: gsea
+version_used: null
+edam_topics: []
+evidence_spans:
+- the most significant result corresponding to the multi-tissue GSEA for high cholesterol at an adjusted p-value of ≈ 0.064
+derived_from:
+- doi: 10.1186/s12859-024-06022-y
+  title: BiomiX, a user-friendly bioinformatic tool for democratized analysis and integration of multiomics data
+- doi: 10.1038/s41467-024-45966-w
+  title: The impact of exercise on gene regulation in association with complex trait genetics
+source_repos:
+- https://github.com/IxI-97/BiomiX
+- https://github.com/NikVetr/MoTrPAC_Complex_Traits
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IxI-97/BiomiX

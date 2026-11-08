@@ -1,0 +1,17 @@
+name: WormBase
+slug: wormbase
+version_used: null
+edam_topics: []
+evidence_spans:
+- no orthologues in higher animal species were reported on the C. elegans database (wormbase.org)
+derived_from:
+- doi: 10.1038/s41467-024-50111-8
+  title: Regulatory mechanism of cold-inducible diapause in Caenorhabditis elegans
+source_repos:
+- https://github.com/fermo-metabolomics/FERMO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fermo-metabolomics/FERMO

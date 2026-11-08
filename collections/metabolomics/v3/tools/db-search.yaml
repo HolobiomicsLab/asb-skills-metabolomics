@@ -1,0 +1,16 @@
+name: DB-Search
+slug: db-search
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.4c00881
+  title: 'MS-RT: A Method for Evaluating MS/MS Clustering Performance for Metabolomics Data'
+source_repos:
+- https://github.com/XianghuWang-287/Metabolomics_Clustering_Benchmark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XianghuWang-287/Metabolomics_Clustering_Benchmark

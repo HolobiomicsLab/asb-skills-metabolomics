@@ -1,0 +1,20 @@
+name: RASSP
+slug: rassp
+version_used: null
+edam_topics: []
+evidence_spans:
+- we employed NEIMS to predict the mass spectrum of all derivatives within our synthetic NPS database.
+derived_from:
+- doi: 10.1021/acs.analchem.3c05019
+  title: 'PS<sup>2</sup>MS: A Deep Learning-Based Prediction System for Identifying New Psychoactive Substances Using Mass Spectrometry'
+- doi: 10.48550/arxiv.2502.05114
+  title: ''
+source_repos:
+- https://github.com/jhhung/PS2MS
+- https://github.com/hejjack/SpecTUS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jhhung/PS2MS

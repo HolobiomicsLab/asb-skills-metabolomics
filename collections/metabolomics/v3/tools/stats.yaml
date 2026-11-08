@@ -1,0 +1,29 @@
+name: stats
+slug: stats
+version_used: null
+edam_topics: []
+evidence_spans:
+- if (!require("stats")) install.packages("stats")
+- stats (Imports)
+- '- `stats (Imports)`'
+- stats (Imports)
+derived_from:
+- doi: 10.1093/bioinformatics/btac388
+  title: 'MiMIR: R-shiny application to infer risk factors and endpoints from Nightingale Health’s 1H-NMR metabolomics data'
+- doi: 10.1093/bioinformatics/btae373
+  title: 'MetaboReport: from metabolomics data analysis to comprehensive reporting'
+- doi: 10.1016/j.cmpb.2025.108672
+  title: 'MInfer: Bridging MetaboAnalyst and Jacobian analysis for metabolomic networks'
+- doi: 10.1021/acs.analchem.3c03660
+  title: "QC\n                    <i>omics</i>\n                    : Recommendations and Guidelines for Robust, Easily Implementable and Reportable Quality Control of Metabolomics Data"
+source_repos:
+- https://github.com/DanieleBizzarri/MiMIR
+- https://github.com/YonghuiDong/MetReport
+- https://github.com/cellbiomaths/MInfer
+- https://github.com/ricoderks/QComics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DanieleBizzarri/MiMIR

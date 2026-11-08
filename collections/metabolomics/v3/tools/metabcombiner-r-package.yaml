@@ -1,0 +1,16 @@
+name: metabCombiner R package
+slug: metabcombiner-r-package
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.0c03693
+  title: '<i>metabCombiner</i>: Paired Untargeted LC-HRMS Metabolomics Feature Matching and Concatenation of Disparately Acquired Data Sets'
+source_repos:
+- https://github.com/hhabra/metabCombiner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hhabra/metabCombiner

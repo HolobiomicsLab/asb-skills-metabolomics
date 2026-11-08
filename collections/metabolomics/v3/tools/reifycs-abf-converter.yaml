@@ -1,0 +1,16 @@
+name: Reifycs Abf Converter
+slug: reifycs-abf-converter
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/jasms.4c00364
+  title: 'Nextflow4MS-DIAL: A Reproducible Nextflow-Based Workflow for Liquid Chromatography–Mass Spectrometry Metabolomics Data Processing'
+source_repos:
+- https://github.com/Nextflow4Metabolomics/nextflow4ms-dial
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Nextflow4Metabolomics/nextflow4ms-dial

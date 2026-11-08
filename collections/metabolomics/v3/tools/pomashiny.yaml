@@ -1,0 +1,18 @@
+name: POMAShiny
+slug: pomashiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- POMAShiny is a web-based tool that provides a structured, flexible and user-friendly workflow for the visualization, exploration and statistical analysis of metabolomics and proteomics data
+- POMAShiny is a web-based tool that provides a structured, flexible and user-friendly workflow
+derived_from:
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+source_repos:
+- https://github.com/nutrimetabolomics/POMAShiny
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nutrimetabolomics/POMAShiny

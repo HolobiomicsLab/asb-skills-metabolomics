@@ -1,0 +1,25 @@
+name: memote
+slug: memote
+version_used: null
+edam_topics: []
+evidence_spans:
+- we next used the memote test suite to assess the quality of the resulting functional models
+- we performed quality control checks on MEMOTE, a standardised genome-scale metabolic model testing software (Leiven et al, 2020)
+- We demonstrate how Reconstructor readily generates high-quality GENRES that capture strain, species, and higher taxonomic differences in functional metabolism
+derived_from:
+- doi: 10.1371/journal.pcbi.1009906
+  title: 'COMMIT: Consideration of metabolite leakage and community composition improves microbial community reconstructions'
+- doi: 10.26508/lsa.202000954
+  title: Integrated human/SARS-CoV-2 metabolic models present novel treatment strategies against COVID-19
+- doi: 10.1093/bioinformatics/btad367
+  title: 'Reconstructor: a COBRApy compatible tool for automated genome-scale metabolic network reconstruction with parsimonious flux-based gap-filling'
+source_repos:
+- https://github.com/pwendering/COMMIT
+- https://github.com/findCP/findCPcli
+- https://github.com/emmamglass/reconstructor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pwendering/COMMIT

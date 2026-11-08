@@ -1,0 +1,74 @@
+name: devtools
+slug: devtools
+version_used: 1.2.1
+edam_topics: []
+evidence_spans:
+- devtools::load_all()
+- devtools::install_gitlab('joerg.buescher/automRm@master', host = 'https://gitlab.gwdg.de')
+- Install "JPA" from Github using "devtools".
+- Install "devtools" package from CRAN if you do not already have it installed.
+- library(devtools)
+- install_github('computational-metabolomics/struct')
+- 'installed directly from R or RStudio using the developer tools: ''devtools::install_github("castratton/uafR")'''
+- install.packages("devtools")
+- if (!require("devtools")) install.packages("devtools")
+derived_from:
+- doi: 10.1021/acs.analchem.5c03207
+  title: 'Aerith: Visualization and Annotation of Isotopic Enrichment Patterns of Peptides and Metabolites with Stable Isotope Labeling from Proteomics and Metabolomics'
+- doi: 10.1021/acs.analchem.1c05224
+  title: 'automRm: An R Package for Fully Automatic LC-QQQ-MS Data Preprocessing Powered by Machine Learning'
+- doi: 10.1021/acs.analchem.9b02655
+  title: 'DecoMetDIA: Deconvolution of Multiplexed MS/MS Spectra for Metabolite Identification in SWATH-MS-Based Untargeted Metabolomics'
+- doi: 10.1016/j.aca.2025.344698
+  title: 'DIATAGeR: Triacylglycerol annotation of data-independent acquisition based lipidomics'
+- doi: 10.1021/acs.analchem.5b03628
+  title: 'geoRge: A Computational Tool To Detect the Presence of Stable Isotope Labeling in LC/MS-Based Untargeted Metabolomics'
+- doi: 10.3390/metabo12030212
+  title: 'JPA: Joint Metabolic Feature Extraction Increases the Depth of Chemical Coverage for LC-MS-Based Metabolomics and Exposomics'
+- doi: 10.1021/acs.analchem.1c01644
+  title: 'ISFrag: De Novo Recognition of In-Source Fragments for Liquid Chromatography–Mass Spectrometry Data'
+- doi: 10.1093/bioinformatics/btac355
+  title: 'MAFFIN: metabolomics sample normalization using maximal density fold change with high-quality metabolic features and corrected signal intensities'
+- doi: 10.1093/bioinformatics/btab741
+  title: "<tt>maplet</tt>\n                    : an extensible R toolbox for modular and reproducible metabolomics pipelines"
+- doi: 10.1186/s12859-021-04336-9
+  title: Reproducibility of mass spectrometry based metabolomics data
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+- doi: 10.1016/j.cmpb.2025.108672
+  title: 'MInfer: Bridging MetaboAnalyst and Jacobian analysis for metabolomic networks'
+- doi: 10.1093/bioinformatics/btaa1031
+  title: 'struct: an R/Bioconductor-based framework for standardized metabolomics data analysis and beyond'
+- doi: 10.1371/journal.pone.0306202
+  title: 'uafR: An R package that automates mass spectrometry data processing'
+- doi: 10.1016/j.csbj.2019.04.009
+  title: Accounting for biological variation with linear mixed-effects modelling improves the quality of clinical metabolomics data
+- doi: 10.1093/bib/bbae116
+  title: Generalized reporter score-based enrichment analysis for omics data
+source_repos:
+- https://github.com/thepanlab/Aerith
+- https://github.com/ZhuMSLab/DecoMetDIA
+- https://github.com/Velenosi-Lab/DIATAGeR
+- https://github.com/jcapelladesto/geoRge
+- https://github.com/HuanLab/JPA.git
+- https://github.com/HuanLab-backup/JPA
+- https://github.com/HuanLab-backup/ISFrag
+- https://github.com/Waddlessss/MAFFIN
+- https://github.com/HuanLab/MAFFIN
+- https://github.com/krumsieklab/maplet
+- https://github.com/Ghoshlab/marr
+- https://github.com/hadley/devtools
+- https://github.com/Ghoshlab/marr_paper_evaluations
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+- https://github.com/cellbiomaths/MInfer
+- https://github.com/computational-metabolomics/struct
+- https://github.com/castratton/uafR
+- https://github.com/kwanjeeraw/lmm2met
+- https://github.com/Asa12138/ReporterScore
+- https://github.com/Asa12138/pcutils
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thepanlab/Aerith

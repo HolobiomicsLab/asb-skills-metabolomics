@@ -1,0 +1,18 @@
+name: hnswlib
+slug: hnswlib
+version_used: null
+edam_topics: []
+evidence_spans:
+- using hnswlib (https://github.com/nmslib/hnswlib) with M = 64, efConstruction = 600, and ef = 300
+derived_from:
+- doi: 10.1038/s41467-023-39279-7
+  title: Ultra-fast and accurate electron ionization mass spectrum matching for compound identification with million-scale in-silico library
+source_repos:
+- https://github.com/nmslib/hnswlib
+- https://github.com/Qiong-Yang/FastEI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nmslib/hnswlib

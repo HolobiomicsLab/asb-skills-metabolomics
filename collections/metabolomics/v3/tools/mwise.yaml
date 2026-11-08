@@ -1,0 +1,16 @@
+name: mWISE
+slug: mwise
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.1c00238
+  title: 'mWISE: An Algorithm for Context-Based Annotation of Liquid Chromatography–Mass Spectrometry Features through Diffusion in Graphs'
+source_repos:
+- https://github.com/b2slab/mWISE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/b2slab/mWISE

@@ -1,0 +1,20 @@
+name: EnrichMet
+slug: enrichmet
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'enrichmet: Pathway and Network Analysis for Metabolomics'
+- we introduce EnrichMet, an R package for fast, flexible, and reproducible pathway enrichment analysis
+- we developed EnrichMet, an R package that performs pathway enrichment in seconds, can be installed with a single command, and runs entirely locally.
+derived_from:
+- doi: 10.1101/2025.08.28.672951
+  title: 'EnrichMet: R Package for Integrated Pathway and Network Analysis for Metabolomics'
+source_repos:
+- https://github.com/biodatalab/enrichmet.git
+- https://github.com/biodatalab/enrichmet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biodatalab/enrichmet.git

@@ -1,0 +1,18 @@
+name: metabolabpytools
+slug: metabolabpytools
+version_used: null
+edam_topics: []
+evidence_spans:
+- The metabolabpytools package contains routines which are not specific to just handling NMR data
+derived_from:
+- doi: 10.3390/metabo15010048
+  title: MetaboLabPy—An Open-Source Software Package for Metabolomics NMR Data Processing and Metabolic Tracer Data Analysis
+source_repos:
+- https://github.com/ludwigc/metabolabpytools
+- https://github.com/ludwigc/metabolabpy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ludwigc/metabolabpytools

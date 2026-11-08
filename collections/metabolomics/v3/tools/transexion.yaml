@@ -1,0 +1,19 @@
+name: TransExION
+slug: transexion
+version_used: null
+edam_topics: []
+evidence_spans:
+- In this study, we propose TransExION, a Transformer based Explainable similarity metric for IONS.
+- The post-hoc explanation is demonstrated in the script ```ms_explain_spectral_similarity.py```. The script can be run with parameters.
+- The pairwise spectral similarity was computed in TransExION for 2161 spectra
+derived_from:
+- doi: 10.1186/s13321-024-00858-5
+  title: 'TransExION: a transformer based explainable similarity metric for comparing IONS in tandem mass spectrometry'
+source_repos:
+- https://github.com/banhdzui/TransExION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/banhdzui/TransExION

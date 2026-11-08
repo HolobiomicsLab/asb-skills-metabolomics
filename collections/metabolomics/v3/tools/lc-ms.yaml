@@ -1,0 +1,26 @@
+name: LC-MS
+slug: lc-ms
+version_used: null
+edam_topics: []
+evidence_spans:
+- Metabolic profiling at the MS1 level was performed on a UHPLC system (Thermo Scientific™ UltiMate™ 3000 System).
+- Liquid chromatography - mass spectrometry (LC-MS) has been the primary analytical platform for global or untargeted metabolomics
+- The cell extracts from our activation experiment were analyzed by LC/MS metabolomics, and yielded 7,995 spectral features
+- The cell extracts from our activation experiment were analyzed by LC/MS metabolomics, and yielded 7,995 spectral features (denoted as ) after quality control.
+derived_from:
+- doi: 10.1021/acs.analchem.9b02983
+  title: Deep Neural Networks for Classification of LC-MS Spectral Peaks
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+- doi: 10.1371/journal.pcbi.1003123
+  title: Predicting Network Activity from High Throughput Metabolomics
+source_repos:
+- https://github.com/JainLab/Manuscript-DNNs-for-Classification-of-LCMS-Peaks
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/shuzhao-li/mummichog
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JainLab/Manuscript-DNNs-for-Classification-of-LCMS-Peaks

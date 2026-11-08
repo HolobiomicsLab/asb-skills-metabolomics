@@ -1,0 +1,18 @@
+name: ISOformSwitchAnalyzeR
+slug: isoformswitchanalyzer
+version_used: null
+edam_topics: []
+evidence_spans:
+- After that [isoformSwitchAnalyzer] is used, which takes these quantification files and performs differential expression analysis on the level of both isoforms and genes.
+- Genome wide isoform analysis | IsoformSwitchAnalyzer
+derived_from:
+- doi: 10.1093/bioadv/vbae175
+  title: 'MultiOmicsIntegrator: a nextflow pipeline for integrated omics analyses'
+source_repos:
+- https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ASAGlab/MOI--An-integrated-solution-for-omics-analyses

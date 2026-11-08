@@ -1,0 +1,18 @@
+name: rMSIcleanup
+slug: rmsicleanup
+version_used: null
+edam_topics: []
+evidence_spans:
+- The algorithm is based on the operating principle of bisecting k-means [25]. All the ions in an experimental cluster
+- results<-rMSIcleanup::annotate_matrix(pks,"Ag1",full)
+derived_from:
+- doi: 10.1186/s13321-020-00449-0
+  title: 'rMSIcleanup: an open-source tool for matrix-related peak annotation in mass spectrometry imaging and its application to silver-assisted laser desorption/ionization'
+source_repos:
+- https://github.com/gbaquer/rMSIcleanup
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gbaquer/rMSIcleanup

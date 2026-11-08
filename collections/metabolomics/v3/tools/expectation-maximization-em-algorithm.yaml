@@ -1,0 +1,17 @@
+name: Expectation-Maximization (EM) algorithm
+slug: expectation-maximization-em-algorithm
+version_used: null
+edam_topics: []
+evidence_spans:
+- we considered a hierarchical statistical model coupled with an Expectation-Maximization (EM) algorithm
+derived_from:
+- doi: 10.3390/metabo9050103
+  title: 'MetPC: Metabolite Pipeline Consisting of Metabolite Identification and Biomarker Discovery Under the Control of Two-Dimensional FDR'
+source_repos:
+- https://github.com/jjs3098/CNU-Bioinformatics-Lab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jjs3098/CNU-Bioinformatics-Lab

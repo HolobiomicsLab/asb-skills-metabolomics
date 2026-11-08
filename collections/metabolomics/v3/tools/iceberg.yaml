@@ -1,0 +1,21 @@
+name: ICEBERG
+slug: iceberg
+version_used: null
+edam_topics: []
+evidence_spans:
+- ICEBERG31 and SCARF32 are two spectral prediction methods recently developed by Goldman et al. (2024)
+derived_from:
+- doi: 10.1021/acs.analchem.3c04654
+  title: Generating Molecular Fragmentation Graphs with Autoregressive Neural Networks
+- doi: 10.1038/s41467-025-57422-4
+  title: 'FIORA: Local neighborhood-based prediction of compound mass spectra from single fragmentation events'
+source_repos:
+- https://github.com/coleygroup/ms-pred
+- https://github.com/samgoldman97/ms-pred
+- https://github.com/BAMeScience/fiora
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/coleygroup/ms-pred

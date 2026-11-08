@@ -1,0 +1,21 @@
+name: imzML
+slug: imzml
+version_used: null
+edam_topics: []
+evidence_spans:
+- Raw MSI data come in different formats, including the emerging standard imzML format, which is based on XML.
+- Current open formats such as mzML and imzML struggle to keep pace due to large file sizes, slow data access, and limited metadata support.
+derived_from:
+- doi: 10.1021/acs.analchem.0c04720
+  title: Determination of Abundant Metabolite Matrix Adducts Illuminates the Dark Metabolome of MALDI-Mass Spectrometry Imaging Datasets
+- doi: 10.1021/acs.jproteome.5c00435
+  title: 'mzPeak: Designing a Scalable, Interoperable, and Future-Ready Mass Spectrometry Data Format'
+source_repos:
+- https://github.com/kbseah/mass2adduct
+- https://github.com/HUPO-PSI/mzPeak
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kbseah/mass2adduct

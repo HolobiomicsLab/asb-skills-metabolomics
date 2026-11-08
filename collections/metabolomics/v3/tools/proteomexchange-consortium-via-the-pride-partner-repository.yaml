@@ -1,0 +1,16 @@
+name: ProteomeXchange Consortium via the PRIDE partner repository
+slug: proteomexchange-consortium-via-the-pride-partner-repository
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.jproteome.4c00854
+  title: 'MSConnect: Open-Source, End-to-End Platform for Automated Mass Spectrometry Data Management, Analysis, and Visualization'
+source_repos:
+- https://github.com/RTKlab-BYU/MSConnect
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RTKlab-BYU/MSConnect

@@ -1,0 +1,16 @@
+name: FluoroMatch Modular
+slug: fluoromatch-modular
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s00216-021-03392-7
+  title: FluoroMatch 2.0—making automated and comprehensive non-targeted PFAS annotation a reality
+source_repos:
+- https://github.com/InnovativeOmics/Core-Match
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/InnovativeOmics/Core-Match

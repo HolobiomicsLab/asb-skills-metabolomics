@@ -1,0 +1,17 @@
+name: GATK
+slug: gatk
+version_used: '3.4'
+edam_topics: []
+evidence_spans:
+- GATK for indel realignment (v. 3.4-46)
+derived_from:
+- doi: 10.1038/s41525-020-0132-5
+  title: 'metPropagate: network-guided propagation of metabolomic information for prioritization of metabolic disease genes'
+source_repos:
+- https://github.com/emmagraham/metPropagate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/emmagraham/metPropagate

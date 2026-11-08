@@ -1,0 +1,29 @@
+name: Percolator
+slug: percolator
+version_used: '0.5'
+edam_topics: []
+evidence_spans:
+- Minor speedup during database searching through optimized candidate selection.
+- an open question is whether, for a given data-dependent acquisition dataset, Casanovo outperforms a standard database search procedure in terms of statistical power to detect peptides.
+- The results were validated using Percolator (v3.4.0) [33].
+derived_from:
+- doi: 10.1038/s41467-024-49731-x
+  title: Sequence-to-sequence translation from mass spectra to peptides with a transformer model
+- doi: 10.1002/pmic.202300336
+  title: Machine learning‐based peptide‐spectrum match rescoring opens up the immunopeptidome
+- doi: 10.1021/acs.jproteome.4c01140
+  title: 'MSIght: A Modular Platform for Improved Confidence in Global, Untargeted Mass Spectrometry Imaging Annotation'
+- doi: 10.3390/genes12030396
+  title: SMITER—A Python Library for the Simulation of LC-MS/MS Experiments
+source_repos:
+- https://github.com/Noble-Lab/casanovo
+- https://github.com/CompOmics/ristretto
+- https://github.com/compomics/ms2rescore
+- https://github.com/laurenfields/MSIght
+- https://github.com/LeidelLab/SMITER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Noble-Lab/casanovo

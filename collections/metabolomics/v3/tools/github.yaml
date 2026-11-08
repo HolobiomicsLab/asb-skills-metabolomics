@@ -1,0 +1,37 @@
+name: GitHub
+slug: github
+version_used: null
+edam_topics: []
+evidence_spans:
+- GetFeatistics is publicly available on GitHub, with comprehensive documentation and a step-by-step vignette.
+- The source code components, JSON-formatted data standard, and SQL schema for the MIBiG Repository are available on GitHub
+- The package is available through CRAN and GitHub
+- git clone https://github.com/Xomics/ACTIONdemonstrator_workflow.git
+- The workflow page links to the publicly accessible and version-controlled source code on GitHub
+derived_from:
+- doi: 10.1515/jib-2025-0047
+  title: 'Streamlining feature elaboration and statistics analysis in metabolomics: the GetFeatistics R-package'
+- doi: 10.1093/nar/gkz882
+  title: 'MIBiG 2.0: a repository for biosynthetic gene clusters of known function'
+- doi: 10.1128/mra.00997-24
+  title: 'mpactR: an R adaptation of the metabolomics peak analysis computational tool (MPACT) for use in reproducible data analysis pipelines'
+- doi: 10.1021/acs.analchem.3c01653
+  title: '<i>mzapy</i>: An Open-Source Python Library Enabling Efficient Extraction and Processing of Ion Mobility Spectrometry-Mass Spectrometry Data in the MZA File Format'
+- doi: 10.1021/acs.analchem.1c03163
+  title: ''
+- doi: 10.1093/gigascience/giad115
+  title: A multi-omics data analysis workflow packaged as a FAIR Digital Object
+source_repos:
+- https://github.com/FrigerioGianfranco/GetFeatistics
+- https://github.com/mibig-secmet/mibig-api
+- https://github.com/mums2/mpactr
+- https://github.com/PNNL-m-q/mzapy
+- https://github.com/poomcj/NPFimg
+- https://github.com/Xomics/ACTIONdemonstrator_workflow
+- https://github.com/Xomics/ACTIONdemonstrator_workflow.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FrigerioGianfranco/GetFeatistics

@@ -1,0 +1,20 @@
+name: MDT
+slug: mdt
+version_used: null
+edam_topics: []
+evidence_spans:
+- Step 2 is optional, and when it is not performed, ElemCor runs based on mass difference theory only.
+- ElemCor runs based on mass difference theory only.
+- The tool is based on mass difference theory (MDT) and information from unlabeled samples (ULS)
+- The tool is based on mass difference theory (MDT) and information from unlabeled samples (ULS) to account for resolution effects.
+derived_from:
+- doi: 10.1186/s12859-019-2669-9
+  title: 'ElemCor: accurate data analysis and enrichment calculation for high-resolution LC-MS stable isotope labeling experiments'
+source_repos:
+- https://github.com/4dsoftware/elemcor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/4dsoftware/elemcor

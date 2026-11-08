@@ -1,0 +1,18 @@
+name: SAGA-optimize
+slug: saga-optimize
+version_used: null
+edam_topics: []
+evidence_spans:
+- SAGA-optimize_ for parameters optimization.
+- SAGA-optimize_ for parameters optimization
+derived_from:
+- doi: 10.1186/s12859-019-3096-7
+  title: Moiety modeling framework for deriving moiety abundances from mass spectrometry measured isotopologues
+source_repos:
+- https://github.com/MoseleyBioinformaticsLab/moiety_modeling
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MoseleyBioinformaticsLab/moiety_modeling

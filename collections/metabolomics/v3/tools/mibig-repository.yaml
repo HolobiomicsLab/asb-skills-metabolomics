@@ -1,0 +1,17 @@
+name: MIBiG Repository
+slug: mibig-repository
+version_used: null
+edam_topics: []
+evidence_spans:
+- The MIBiG Repository is available at https://mibig.secondarymetabolites.org/.
+derived_from:
+- doi: 10.1093/nar/gkz882
+  title: 'MIBiG 2.0: a repository for biosynthetic gene clusters of known function'
+source_repos:
+- https://github.com/mibig-secmet/mibig-api
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mibig-secmet/mibig-api

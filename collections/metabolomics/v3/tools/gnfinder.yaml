@@ -1,0 +1,19 @@
+name: gnfinder
+slug: gnfinder
+version_used: null
+edam_topics: []
+evidence_spans:
+- gnfinder allows to match the detected names against the Global Names index services
+- the gnfinder program (https://github.com/gnames/gnfinder) was used
+derived_from:
+- doi: 10.3389/fpls.2019.01329
+  title: Taxonomically Informed Scoring Enhances Confidence in Natural Products Annotation
+source_repos:
+- https://github.com/gnames/gnfinder
+- https://github.com/taxonomicallyinformedannotation/tima
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gnames/gnfinder

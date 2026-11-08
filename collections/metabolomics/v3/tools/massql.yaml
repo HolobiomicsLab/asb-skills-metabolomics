@@ -1,0 +1,22 @@
+name: MassQL
+slug: massql
+version_used: null
+edam_topics: []
+evidence_spans:
+- combining NPOmix with MassQL can prioritize the discovery of putatively new siderophores
+- MassQLab uses MassQL to apply a series of queries to a series of files and tabulates and visualizes the results.
+derived_from:
+- doi: 10.1093/pnasnexus/pgac257
+  title: 'NPOmix: A machine learning classifier to connect mass spectrometry fragmentation data to biosynthetic gene clusters'
+- doi: 10.1002/rcm.10132
+  title: 'Open‐Source System Suitability: Mass Spectrometry Query Language Lab (MassQLab)'
+source_repos:
+- https://github.com/tiagolbiotech/NPOmix_python
+- https://github.com/mwang87/MassQueryLanguage
+- https://github.com/JohnsonDylan/MassQLab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tiagolbiotech/NPOmix_python

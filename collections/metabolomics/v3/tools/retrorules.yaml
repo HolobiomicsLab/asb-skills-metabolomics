@@ -1,0 +1,23 @@
+name: RetroRules
+slug: retrorules
+version_used: null
+edam_topics: []
+evidence_spans:
+- These rules can be sourced from databases like RetroRules, KEGG, or Metacyc. In this case, RetroRules was used due to its sizable collection of biotransformation rules.
+- In this case, RetroRules was used due to its sizable collection of biotransformation rules.
+- Our pipeline makes use of general reaction rules and metabolite structures, stored in public databases like RetroRules [36] and LOTUS [37]
+- The RetroRules database is publicly available as SQLite database and can be used directly with MEANtools.
+derived_from:
+- doi: 10.1021/acs.analchem.4c01565
+  title: Molecular Structure Discovery for Untargeted Metabolomics Using Biotransformation Rules and Global Molecular Networking
+- doi: 10.1371/journal.pbio.3003307
+  title: MEANtools integrates multi-omics data to identify metabolites and predict biosynthetic pathways
+source_repos:
+- https://github.com/HassounLab/BAM
+- https://github.com/IntegrativeBioinformaticsLab/meantools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/BAM

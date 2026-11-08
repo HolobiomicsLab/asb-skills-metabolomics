@@ -1,0 +1,17 @@
+name: FeatureLinkerUnlabeledQT
+slug: featurelinkerunlabeledqt
+version_used: null
+edam_topics: []
+evidence_spans:
+- FeatureLinkerUnlabeledQT for linking coinciding features from multiple experiments
+derived_from:
+- doi: 10.1074/mcp.m113.031278
+  title: Automated Label-free Quantification of Metabolites from Liquid Chromatography–Mass Spectrometry Data
+source_repos:
+- https://github.com/OpenMS/OpenMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OpenMS/OpenMS

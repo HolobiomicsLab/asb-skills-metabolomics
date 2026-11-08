@@ -1,0 +1,24 @@
+name: LightGBM
+slug: lightgbm
+version_used: '0.01'
+edam_topics: []
+evidence_spans:
+- 'Gradient Boosting Machine (lightGBM) [35]: it is a well-known alternative to XGBoost, with optimizations for speed and memory usage'
+- LightGBM classifier (learning rate 0.01, max depth 5)
+derived_from:
+- doi: 10.1186/s13321-022-00613-8
+  title: Probabilistic metabolite annotation using retention time prediction and meta-learned projections
+- doi: 10.1038/s41467-025-59683-5
+  title: 'LipidIN: a comprehensive repository for flash platform-independent annotation and reverse lipidomics'
+- doi: 10.1021/acs.analchem.9b05765
+  title: 'Retip: Retention Time Prediction for Compound Annotation in Untargeted Metabolomics'
+source_repos:
+- https://github.com/constantino-garcia/cmmrt
+- https://github.com/LinShuhaiLAB/LipidIN
+- https://github.com/oloBion/Retip
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/constantino-garcia/cmmrt

@@ -1,0 +1,24 @@
+name: SummarizedExperiment
+slug: summarizedexperiment
+version_used: null
+edam_topics: []
+evidence_spans:
+- tidyMass has high interoperability with other existing tools, converting “mass_dataset” class with other data structures required by other tools
+- _No usage/docs found._
+derived_from:
+- doi: 10.1093/bioinformatics/btab741
+  title: "<tt>maplet</tt>\n                    : an extensible R toolbox for modular and reproducible metabolomics pipelines"
+- doi: 10.1038/s41467-022-32155-w
+  title: TidyMass an object-oriented reproducible analysis framework for LC–MS data
+- doi: 10.3390/metabo9100200
+  title: The metaRbolomics Toolbox in Bioconductor and beyond
+source_repos:
+- https://github.com/krumsieklab/maplet
+- https://github.com/tidymass/tidymass
+- https://github.com/sneumann/metaRbolomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/krumsieklab/maplet

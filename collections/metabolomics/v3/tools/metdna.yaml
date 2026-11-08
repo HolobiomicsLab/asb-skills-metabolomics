@@ -1,0 +1,20 @@
+name: MetDNA
+slug: metdna
+version_used: null
+edam_topics: []
+evidence_spans:
+- tidyMass has high interoperability with other existing tools, converting “mass_dataset” class with other data structures required by other tools
+derived_from:
+- doi: 10.1021/acs.analchem.9b02655
+  title: 'DecoMetDIA: Deconvolution of Multiplexed MS/MS Spectra for Metabolite Identification in SWATH-MS-Based Untargeted Metabolomics'
+- doi: 10.1038/s41467-022-32155-w
+  title: TidyMass an object-oriented reproducible analysis framework for LC–MS data
+source_repos:
+- https://github.com/ZhuMSLab/DecoMetDIA
+- https://github.com/tidymass/tidymass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhuMSLab/DecoMetDIA

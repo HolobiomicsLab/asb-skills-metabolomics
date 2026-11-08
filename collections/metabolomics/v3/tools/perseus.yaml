@@ -1,0 +1,17 @@
+name: Perseus
+slug: perseus
+version_used: null
+edam_topics: []
+evidence_spans:
+- The Perseus computational platform for comprehensive analysis of (prote)omics data
+derived_from:
+- doi: 10.1038/s41598-018-31154-6
+  title: 'Instant Clue: A Software Suite for Interactive Data Visualization and Analysis'
+source_repos:
+- https://github.com/hnolCol/instantclue
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hnolCol/instantclue

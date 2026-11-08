@@ -1,0 +1,24 @@
+name: mass2adduct
+slug: mass2adduct
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(mass2adduct)
+- 'We developed a software package, mass2adduct, for the community
+
+  for an automated putative assignment and quantification of metabolite–matrix
+
+  adducts'
+- This package presents tools for counting and identifying possible adducts in MS data, and accompanies Janda et al. (in prep.)
+- We developed a software package, mass2adduct, for the community for an automated putative assignment and quantification of metabolite–matrix adducts
+derived_from:
+- doi: 10.1021/acs.analchem.0c04720
+  title: Determination of Abundant Metabolite Matrix Adducts Illuminates the Dark Metabolome of MALDI-Mass Spectrometry Imaging Datasets
+source_repos:
+- https://github.com/kbseah/mass2adduct
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kbseah/mass2adduct

@@ -1,0 +1,82 @@
+name: CFM-ID
+slug: cfm-id
+version_used: '4.0'
+edam_topics: []
+evidence_spans:
+- Scores of MetFrag, MAGMa+, CFM-ID, CSI:FingerID (original) and CSI:FingerID IOKR were downloaded from the CASMI 2016 results web page
+- MetFrag13, MAGMa+16, CFM-ID14 and CSI:FingerID15
+- show retrievals rates comparable to or exceeding the ones obtainable by the current state-of-the-art solutions in the field
+- a variety of tools are currently available to assist metabolite identification [MetFrag (Ruttkies et al., 2016; Wolf et al., 2010), CSI:FingerID (Dührkop et al., 2015), CFM-ID (Allen et al., 2014) etc
+- In silico fragments were generated for all the adducts at three energy levels by using the docker image
+- In silico fragments were generated for all the adducts at three energy levels by using the docker image (https://hub.docker.com/r/wishartlab/cfmid) of CFM-ID
+- publicly available pretrained models of SIRIUS and CFM-ID
+- we combine three spectra of low (<20 eV), medium (≥20 eV and <40 eV), and high (≥40 eV) collision energies per test molecule.
+- compared with another open source in silico fragmenter, CFM-ID.
+- 'CFM-ID: a web server for annotation, spectrum prediction and metabolite identification from tandem mass spectra'
+- machine-learning assisted comparison with structural databases (e.g., SIRIUS4 and CFM-ID)
+- the series of CFM-ID papers8,17−19 achieved state-of-the-art results in using a general rule-based fragmentation scheme
+- CFM-ID is an advanced machine learning (ML) algorithm that predicts transition probabilities between fragments.
+- bioinformatic tools, such as MetFrag15, CFM-ID16, MS-FINDER17, and SIRIUS18, have been developed to predict in silico MS/MS or molecular fingerprinting
+- bioinformatic tools, such as MetFrag15, CFM-ID16, MS-FINDER17, and SIRIUS18, have been developed to predict in silico MS/MS
+- CFM-ID applies stochastic Markov process to predict fragmentation spectra
+- 'CFM-ID: A web server for annotation, spectrum prediction and metabolite identification from tandem mass spectra'
+derived_from:
+- doi: 10.1038/s41587-021-01045-9
+  title: High-confidence structural annotation of metabolites absent from spectral libraries
+- doi: 10.1093/bioinformatics/bty080
+  title: 'ChemDistiller: an engine for metabolite annotation in mass spectrometry'
+- doi: 10.1101/2024.11.13.623458
+  title: Language model-guided anticipation and discovery of unknown metabolites
+- doi: 10.3389/fchem.2022.908572
+  title: A Comprehensive Database for DNA Adductomics
+- doi: 10.1021/acs.analchem.3c04654
+  title: Generating Molecular Fragmentation Graphs with Autoregressive Neural Networks
+- doi: 10.1093/bioinformatics/btaf354
+  title: 'JESTR: Joint Embedding Space Technique for Ranking candidate molecules for the annotation of untargeted metabolomics data'
+- doi: 10.1038/s41467-025-63536-6
+  title: Knowledge and data-driven two-layer networking for accurate metabolite annotation in untargeted metabolomics
+- doi: 10.1186/s13321-016-0115-9
+  title: 'MetFrag relaunched: incorporating strategies beyond in silico fragmentation'
+- doi: 10.1021/jasms.4c00061
+  title: 'ModiFinder: Tandem Mass Spectral Alignment Enables Structural Modification Site Localization'
+- doi: 10.1186/s13321-020-00477-w
+  title: 'patRoon: open source software platform for environmental mass spectrometry based non-target screening'
+- doi: 10.1021/acs.analchem.0c03895
+  title: Rapid Development of Improved Data-Dependent Acquisition Strategies
+- doi: 10.1021/acs.analchem.2c02093
+  title: Rapid Approximate Subset-Based Spectra Prediction for Electron Ionization–Mass Spectrometry
+- doi: 10.1101/2024.11.04.621329
+  title: 'SingleFrag: A deep learning tool for MS/MS fragment and spectral prediction and metabolite annotation'
+- doi: 10.1038/s43588-025-00923-5
+  title: Identifying variants of molecules through database search of mass spectra
+- doi: 10.1038/s41467-025-57422-4
+  title: 'FIORA: Local neighborhood-based prediction of compound mass spectra from single fragmentation events'
+- doi: 10.1038/s41467-022-34537-6
+  title: Metabolite annotation from knowns to unknowns through knowledge-guided multi-layer metabolic networking
+- doi: 10.1038/s41467-021-23986-0
+  title: 'MolDiscovery: learning mass spectrometry fragmentation of small molecules'
+- doi: 10.1007/s11306-017-1242-7
+  title: Navigating freely-available software tools for metabolomics analysis
+source_repos:
+- https://github.com/sirius-ms/sirius
+- https://github.com/Mrqeoqqt/chemdistiller
+- https://github.com/skinniderlab/clm
+- https://github.com/samgoldman97/ms-pred
+- https://github.com/HassounLab/JESTR1
+- https://github.com/ZhuMetLab/MrnAnnoAlgo3
+- https://github.com/ipb-halle/MetFragRelaunched
+- https://github.com/Wang-Bioinformatics-Lab/ModiFinder_base
+- https://github.com/rickhelmus/patRoon
+- https://github.com/thejonaslab/rassp-public
+- https://github.com/MaribelPR/SingleFrag
+- https://github.com/mohimanilab/VInSMoC
+- https://github.com/BAMeScience/fiora
+- https://github.com/ZhuMetLab/MetDNA2Vis
+- https://github.com/mohimanilab/molDiscovery
+- https://github.com/RASpicer/MetabolomicsTools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sirius-ms/sirius

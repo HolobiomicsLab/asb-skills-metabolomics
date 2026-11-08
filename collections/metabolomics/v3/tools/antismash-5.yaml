@@ -1,0 +1,17 @@
+name: antiSMASH 5
+slug: antismash-5
+version_used: null
+edam_topics: []
+evidence_spans:
+- The individual BGC pages are generated using a customised antiSMASH 5 module that sideloads a MIBiG annotation file
+derived_from:
+- doi: 10.1093/nar/gkz882
+  title: 'MIBiG 2.0: a repository for biosynthetic gene clusters of known function'
+source_repos:
+- https://github.com/mibig-secmet/mibig-api
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mibig-secmet/mibig-api

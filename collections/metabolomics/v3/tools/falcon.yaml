@@ -1,0 +1,24 @@
+name: falcon
+slug: falcon
+version_used: '3.8'
+edam_topics: []
+evidence_spans:
+- falcon9 first converts spectra to low-dimensional vectors using a hashing strategy.
+derived_from:
+- doi: 10.1021/acs.jproteome.2c00612
+  title: 'HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space'
+- doi: 10.1021/acs.jproteome.4c00881
+  title: 'MS-RT: A Method for Evaluating MS/MS Clustering Performance for Metabolomics Data'
+- doi: 10.1002/rcm.9153
+  title: Large‐scale tandem mass spectrum clustering using fast nearest neighbor searching
+source_repos:
+- https://github.com/wh-xu/Hyper-Spec
+- https://github.com/bittremieux/falcon
+- https://github.com/XianghuWang-287/Metabolomics_Clustering_Benchmark
+- https://github.com/bittremieuxlab/falcon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wh-xu/Hyper-Spec

@@ -1,0 +1,22 @@
+name: POMA
+slug: poma
+version_used: null
+edam_topics: []
+evidence_spans:
+- This new tool is based on the POMA R/Bioconductor package
+- it is based on the POMA R/Bioconductor package, which increases the reproducibility and flexibility of analyses outside the web environment
+- it is based on the POMA R/Bioconductor package
+- This new tool is based on the POMA R/Bioconductor package (http://www.bioconductor.org)
+- it is based on the POMA R/Bioconductor package, which increases the reproducibility and flexibility of the analysis outside the web environment
+derived_from:
+- doi: 10.1371/journal.pcbi.1009148
+  title: 'POMAShiny: A user-friendly web-based workflow for metabolomics and proteomics data analysis'
+source_repos:
+- https://github.com/nutrimetabolomics/POMA
+- https://github.com/nutrimetabolomics/POMAShiny
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nutrimetabolomics/POMA

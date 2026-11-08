@@ -1,0 +1,28 @@
+name: dgl
+slug: dgl
+version_used: 0.6.1
+edam_topics: []
+evidence_spans:
+- dgl=0.6.1
+- molgraph_dict.pkl - a dictionary containing mapping from molecule InchiKey to DGL graph for that molecule
+- '- dgl'
+- '- python
+
+  - dgl'
+derived_from:
+- doi: 10.1093/bioinformatics/btae490
+  title: An Ensemble Spectral Prediction (ESP) model for metabolite annotation
+- doi: 10.1093/bioinformatics/btaf354
+  title: 'JESTR: Joint Embedding Space Technique for Ranking candidate molecules for the annotation of untargeted metabolomics data'
+- doi: 10.1101/2025.11.12.688047
+  title: 'Learning from All Views: A Multiview Contrastive Framework for Metabolite Annotation'
+source_repos:
+- https://github.com/HassounLab/ESP
+- https://github.com/HassounLab/JESTR1
+- https://github.com/HassounLab/MVP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HassounLab/ESP

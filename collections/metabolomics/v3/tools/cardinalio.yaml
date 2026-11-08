@@ -1,0 +1,18 @@
+name: CardinalIO
+slug: cardinalio
+version_used: null
+edam_topics: []
+evidence_spans:
+- '*Cardinal* natively supports reading and writing imzML (both "continuous" and "processed" types) and Analyze 7.5 formats via the `readMSIData()` and `writeMSIData()` functions.'
+- 'We can read an example of a "continuous" imzML file from the `CardinalIO` package:'
+derived_from:
+- doi: 10.1093/bioinformatics/btv146
+  title: "<i>Cardinal</i>\n                    : an R package for statistical analysis of mass spectrometry-based imaging experiments"
+source_repos:
+- https://github.com/kuwisdelu/Cardinal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kuwisdelu/Cardinal

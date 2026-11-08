@@ -1,0 +1,17 @@
+name: massprocesser
+slug: massprocesser
+version_used: null
+edam_topics: []
+evidence_spans:
+- massprocesser (Imports)
+derived_from:
+- doi: 10.1038/s41467-022-32155-w
+  title: TidyMass an object-oriented reproducible analysis framework for LC–MS data
+source_repos:
+- https://github.com/tidymass/tidymass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tidymass/tidymass

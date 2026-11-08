@@ -1,0 +1,16 @@
+name: Lipid Spectrum Generator
+slug: lipid-spectrum-generator
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1021/acs.analchem.2c04518
+  title: 'Lipid Spectrum Generator: A Simple Script for the Generation of Accurate In Silico Lipid Fragmentation Spectra'
+source_repos:
+- https://github.com/98104781/LSG
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/98104781/LSG

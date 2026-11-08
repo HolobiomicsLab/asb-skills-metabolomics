@@ -1,0 +1,19 @@
+name: rMSIKeyIon
+slug: rmsikeyion
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("LlucSF/rMSIKeyIon")
+- results <- rMSIKeyIon::TestIonSelect(PeakMtx = peak_matrix,
+- Finally, install the rMSIKeyIon package.
+derived_from:
+- doi: 10.3390/metabo9080162
+  title: 'rMSIKeyIon: An Ion Filtering R Package for Untargeted Analysis of Metabolomic LDI-MS Images'
+source_repos:
+- https://github.com/LlucSF/rMSIKeyIon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LlucSF/rMSIKeyIon

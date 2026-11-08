@@ -1,0 +1,17 @@
+name: Metabox2
+slug: metabox2
+version_used: null
+edam_topics: []
+evidence_spans:
+- The DNEA, Filigree and Metabox2 networks were filtered to include edges with an absolute value of correlation coefficient greater than or equal to 0.2.
+derived_from:
+- doi: 10.1186/s12859-024-05994-1
+  title: 'DNEA: an R package for fast and versatile data-driven network analysis of metabolomics data'
+source_repos:
+- https://github.com/Karnovsky-Lab/DNEA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Karnovsky-Lab/DNEA

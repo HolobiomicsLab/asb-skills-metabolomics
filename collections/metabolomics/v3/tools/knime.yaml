@@ -1,0 +1,20 @@
+name: KNIME
+slug: knime
+version_used: '1.0'
+edam_topics: []
+evidence_spans:
+- we implemented this workflow in KNIME, a powerful platform for information mining
+derived_from:
+- doi: 10.1038/nprot.2017.122
+  title: 3D molecular cartography using LC–MS facilitated by Optimus and 'ili software
+- doi: 10.1074/mcp.m113.031278
+  title: Automated Label-free Quantification of Metabolites from Liquid Chromatography–Mass Spectrometry Data
+source_repos:
+- https://github.com/MolecularCartography/Optimus
+- https://github.com/OpenMS/OpenMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MolecularCartography/Optimus

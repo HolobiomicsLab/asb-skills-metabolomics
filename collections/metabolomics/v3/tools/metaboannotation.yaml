@@ -1,0 +1,30 @@
+name: MetaboAnnotation
+slug: metaboannotation
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'We next extract all peaks from the `xcms` result object and annotate them using
+
+  the `matchMz` function against all compounds from HMDB'
+- 'Such annotation can be performed using the `matchSpectra` from the `MetaboAnnotation`
+
+  package'
+- library(MetaboAnnotation)
+- tidyMass has high interoperability with other existing tools, converting “mass_dataset” class with other data structures required by other tools
+derived_from:
+- doi: 10.3390/metabo12020173
+  title: A Modular and Expandable Ecosystem for Metabolomics Data Annotation in R
+- doi: 10.1021/acs.jproteome.1c00392
+  title: '<i>Omics Untargeted Key Script</i>: R-Based Software Toolbox for Untargeted Metabolomics with Bladder Cancer Biomarkers Discovery Case Study'
+- doi: 10.1038/s41467-022-32155-w
+  title: TidyMass an object-oriented reproducible analysis framework for LC–MS data
+source_repos:
+- https://github.com/jorainer/MetaboAnnotationTutorials
+- https://github.com/plyush1993/OUKS
+- https://github.com/tidymass/tidymass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jorainer/MetaboAnnotationTutorials

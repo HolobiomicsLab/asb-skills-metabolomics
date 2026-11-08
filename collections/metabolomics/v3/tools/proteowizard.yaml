@@ -1,0 +1,104 @@
+name: ProteoWizard
+slug: proteowizard
+version_used: '6.0'
+edam_topics: []
+evidence_spans:
+- Raw MS data in Waters RAW format where converted to mzML format in centroid mode using
+- Raw MS data in Waters RAW format where converted to mzML format in centroid mode using Proteo Wizard's msconvert software version 3.0
+- msConvert in Proteowizard [29] is employed to convert MS files from RAW to mzML
+- We reformatted the raw MS/MS data files from the previously mentioned data sets to Mascot Generic Format (MGF) using ProteoWizard [41].
+- using the MSConvert software (v3.0.10385), part of the ProteoWizard
+- using the MSConvert software (v3.0.10385), part of the ProteoWizard package
+- GC-MS data files were converted to .mzXML format using Proteowizard software
+- ProteoWizard is used to convert the raw MS files to mzXML format.
+- The vendor MS raw data was converted into a centroided format38 using Proteowizard's MsConvert39
+- These data were converted to mzML format using ProteoWizard
+- MSConvert software, part of the ProteoWizard package (Chambers et al., 2012).
+- The spectra were first centroided and converted into mzML format using ProteoWizard (60,61) and uploaded to MetaboAnalyst 6.0.
+- The MS spectral data used in this study were converted into mzML centroid mode using Proteowizard73 for both MS1 and MS2 levels.
+- The MS spectral data used in this study were converted into mzML centroid mode using Proteowizard73
+- strategic partnerships will be established not only with major MS vendors but also with developers of existing "keystone" software, e.g., OpenMS, ProteoWizard, METASPACE
+- raw data reduction steps to conserve space such as trimming chromatographs or filtering mass scans (e.g. with the functionality from the ProteoWizard suite
+- First, raw data were converted to the mzML format through ProteoWizard31
+- This can be done using the tools from [ProteoWizard](http://proteowizard.sourceforge.net/) or software from your mass spectrometer vendor.
+- by using the MSConvert software from ProteoWizard
+derived_from:
+- doi: 10.1038/nprot.2017.122
+  title: 3D molecular cartography using LC–MS facilitated by Optimus and 'ili software
+- doi: 10.3390/metabo10100416
+  title: A Python-Based Pipeline for Preprocessing LC–MS Data for Untargeted Metabolomics Workflows
+- doi: 10.1186/s13321-020-00481-0
+  title: 'ChemSpectra: a web-based spectra editor for analytical data'
+- doi: 10.1093/bib/bbac542
+  title: "Comprehensive evaluation of peptide\n                    <i>de novo</i>\n                    sequencing tools for monoclonal antibody assembly"
+- doi: 10.1021/acscentsci.3c00800
+  title: A Sample-Centric and Knowledge-Driven Computational Framework for Natural Products Drug Discovery
+- doi: 10.1021/acs.analchem.6b02927
+  title: 'eRah: A Computational Tool Integrating Spectral Deconvolution and Alignment with Quantification and Identification of Metabolites in GC/MS-Based Metabolomics'
+- doi: 10.1007/s11306-025-02379-0
+  title: Automated metabolite formula ranking using formula subset analysis for LC-MS/MS-based metabolomics
+- doi: 10.1186/s12859-023-05346-5
+  title: A MATLAB-based app to improve LC–MS/MS data analysis for N-linked glycan peak identification
+- doi: 10.1038/s41467-020-15960-z
+  title: LipidCreator workbench to probe the lipidomic landscape
+- doi: 10.1021/acs.analchem.5c01327
+  title: 'MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning'
+- doi: 10.3389/fbinf.2022.842964
+  title: 'MEMO: Mass Spectrometry-Based Sample Vectorization to Explore Chemodiverse Datasets'
+- doi: 10.1093/nar/gkae253
+  title: 'MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation'
+- doi: 10.1038/s41467-024-48009-6
+  title: 'MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics'
+- doi: 10.1021/acs.analchem.4c02462
+  title: 'MRMQuant: Automated MRM Data Quantitation for Large-Scale Targeted Metabolomics Analysis'
+- doi: 10.1021/acs.jproteome.4c00881
+  title: 'MS-RT: A Method for Evaluating MS/MS Clustering Performance for Metabolomics Data'
+- doi: 10.1021/acs.jproteome.2c00313
+  title: 'MZA: A Data Conversion Tool to Facilitate Software Development and Artificial Intelligence Research in Multidimensional Mass Spectrometry'
+- doi: 10.1021/acs.jproteome.5c00435
+  title: 'mzPeak: Designing a Scalable, Interoperable, and Future-Ready Mass Spectrometry Data Format'
+- doi: 10.1038/s41596-021-00636-9
+  title: Optimization of metabolomic data processing using NOREVA
+- doi: 10.1186/s13321-020-00477-w
+  title: 'patRoon: open source software platform for environmental mass spectrometry based non-target screening'
+- doi: 10.1021/acs.analchem.4c00786
+  title: 'Rapid QC-MS: Interactive Dashboard for Synchronous Mass Spectrometry Data Acquisition Quality Control'
+- doi: 10.1016/j.aca.2018.08.002
+  title: 'statTarget: A streamlined tool for signal drift correction and interpretations of quantitative mass spectrometry-based omics data'
+- doi: 10.1038/s41467-022-32155-w
+  title: TidyMass an object-oriented reproducible analysis framework for LC–MS data
+- doi: 10.21105/joss.04029
+  title: 'patRoon 2.0: Improved non-target analysis workflows
+
+    including automated transformation product screening'
+- doi: 10.1007/s00216-023-05070-2
+  title: PFΔScreen — an open-source tool for automated PFAS feature prioritization in non-target HRMS data
+- doi: 10.1007/s11306-021-01839-7
+  title: 'WaveICA 2.0: a novel batch effect removal method for untargeted metabolomics data without using batch information'
+source_repos:
+- https://github.com/MolecularCartography/Optimus
+- https://github.com/ComPlat/chem-spectra-app
+- https://github.com/enpkg/enpkg_full
+- https://github.com/xdomingoal/erah-devel
+- https://github.com/kslynn128171/FSA
+- https://github.com/ZaylaSchaeffer/GlyKAn-AZ-application
+- https://github.com/lifs-tools/lipidcreator
+- https://github.com/kopeckylukas/py-mamsi
+- https://github.com/mandelbrot-project/memo
+- https://github.com/xia-lab/MetaboAnalystR
+- https://github.com/kslynn128171/MRMQuant
+- https://github.com/XianghuWang-287/Metabolomics_Clustering_Benchmark
+- https://github.com/PNNL-m-q/mza
+- https://github.com/HUPO-PSI/mzPeak
+- https://github.com/rickhelmus/patRoon
+- https://github.com/czbiohub-sf/Rapid-QC-MS
+- https://github.com/13479776/statTarget
+- https://github.com/tidymass/tidymass
+- https://github.com/JonZwe/PFAScreen
+- https://github.com/dengkuistat/WaveICA_2.0
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MolecularCartography/Optimus

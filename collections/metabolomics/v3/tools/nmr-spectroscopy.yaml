@@ -1,0 +1,17 @@
+name: NMR spectroscopy
+slug: nmr-spectroscopy
+version_used: null
+edam_topics: []
+evidence_spans:
+- Metabolite levels were quantified using NMR spectroscopy
+derived_from:
+- doi: 10.1021/acs.analchem.4c04938
+  title: Validating Centralized Biobanking Workflows for NMR Metabolomics Using the PRIMA Panel
+source_repos:
+- https://github.com/funkam/PRIMA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/funkam/PRIMA
