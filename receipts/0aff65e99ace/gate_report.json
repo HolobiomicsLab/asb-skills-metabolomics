@@ -1,8 +1,8 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-08T10:49:04.629892+00:00",
-  "collection_dir": "candidate",
-  "corpus_path": "corpus.yaml",
+  "generated_at": "2026-11-08T14:43:16.001286+00:00",
+  "collection_dir": "collections/metabolomics/v3",
+  "corpus_path": "collections/metabolomics/v3/corpus.yaml",
   "mode": "strict",
   "strict": true,
   "promote_logic_source": "agentic_science_builder.release.promote",
@@ -48,7 +48,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "e247b94b6419dbf72c0aa1cd161672bf8202837b9fc1792a5dec0dd9831eee55",
+      "sha256": "1e0af56ceef1d0bb3b9d31366c620b4182e3e86941af4b5a1564eef380f3add1",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -66,8 +66,13 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 698,
-          "sha256": "b804a6efe6d786c59016f23dbadcf0618285fe56fc499c3794268cd71af8043b"
+          "bytes": 988,
+          "sha256": "913298ef8e19dc92baee90415fc0e19c725ecd75662fb8e269cae1b50bdf715c"
+        },
+        {
+          "path": "USAGE.md",
+          "bytes": 16984,
+          "sha256": "da1f0c8247056a12ab81e6bb24e5e274cebce3fa0418ae537d47f73af26389aa"
         },
         {
           "path": "bin",
@@ -77,6 +82,11 @@
           "path": "bin/search_skills.py",
           "bytes": 23077,
           "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+        },
+        {
+          "path": "bin/semantic_search.py",
+          "bytes": 6337,
+          "sha256": "1b3a07e596f10df3646fc82c9015f07bb236e3bdc86d823a368a6a0e69efb065"
         },
         {
           "path": "collection.yaml",
@@ -117201,7 +117211,7 @@
       "scope": "advertised text files",
       "required": false,
       "counts": {
-        "checked": 5,
+        "checked": 6,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -117261,7 +117271,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 13892,
+        "checked": 13894,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -117348,5 +117358,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "5f3acae5fa3b8b97893926e615ecd076e99eca557c1e0f2b29234233ede521bb"
+  "receipt_sha256": "9dfb35729f7248e7ebd49cee1483feebdce4950540692b3c9783ef1ea5cf3630"
 }

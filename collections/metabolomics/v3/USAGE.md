@@ -360,8 +360,8 @@ Useful files from the collection root:
 Cite both:
 
 1. **The collection**, using v3's `CITATION.cff` and the version DOI of its
-   Zenodo record. The version DOI was pending when this guide was written; the
-   lineage's concept DOI is `10.5281/zenodo.20794026`.
+   Zenodo record, `10.5281/zenodo.24054446`; the lineage's concept DOI (all
+   versions) is `10.5281/zenodo.20794026`.
 2. **Every source paper behind a skill you used**, through the DOI in that
    leaf's `provenance.source_papers` block or its index row's `dois`.
 
