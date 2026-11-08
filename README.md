@@ -16,6 +16,7 @@ the governance documents and the community contribution loop live in
 |---|---|---|---|---|---|
 | `collections/metabolomics/v1` | ASB Metabolomics Skill Collection v1 | 1,485 | 292 | 2026-06-15 | not deposited |
 | `collections/metabolomics/v2` | ASB Metabolomics Skill Collection v2 (expansion) | 5,859 | 909 | 2026-06-28 | [10.5281/zenodo.20794027](https://doi.org/10.5281/zenodo.20794027) |
+| `collections/metabolomics/v3` | ASB Metabolomics Skill Collection v3 (consolidated rebuild, 20 composite workflows) | 11,830 | 1,989 | 2026-11-09 | pending (new version of the v2 record, concept [10.5281/zenodo.20794026](https://doi.org/10.5281/zenodo.20794026)) |
 
 Per-technique packs under `packs/metabolomics/`: `ce-ms`, `direct-infusion`, `gc-ms`, `ion-mobility`, `lc-ms`, `ms-generic`, `ms-imaging`, `nmr`.
 
@@ -31,6 +32,8 @@ git clone https://github.com/HolobiomicsLab/asb-skills-metabolomics.git
 claude plugin marketplace add ./asb-skills-metabolomics
 claude plugin install metabolomics@asb-skills-metabolomics
 ```
+
+`metabolomics` installs the latest release (v3); `metabolomics-v2` pins the previous one.
 
 ## Provenance
 
