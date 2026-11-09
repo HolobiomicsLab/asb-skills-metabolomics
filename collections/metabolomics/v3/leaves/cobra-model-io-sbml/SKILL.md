@@ -9,8 +9,7 @@ when_to_use_negative:
 - The goal is to modify upper bounds or stoichiometry rather than lower bounds of
   exchange reactions, which is outside M2R's described scope.
 edam_operation: http://edamontology.org/operation_2406
-edam_topics:
-- http://edamontology.org/topic_2250
+edam_topics: []
 tools:
 - name: cobrapy
   role: Provides the SBML read/write functions used to load RECON3D and the microbiota
@@ -40,8 +39,7 @@ metadata:
   - Python
   - cobrapy
   edam_operation: http://edamontology.org/operation_2406
-  edam_topics:
-  - http://edamontology.org/topic_2250
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

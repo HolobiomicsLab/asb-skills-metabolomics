@@ -12,7 +12,7 @@ when_to_use_negative:
   loss-of-function rule) does not apply and downgrade fractions are undefined.
 - The goal is general annotation-concordance measurement (HGVSc/HGVSp agreement rates)
   rather than the downstream ACMG/PVS1 impact quantification.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3325
 tools:
@@ -44,7 +44,7 @@ metadata:
   - ClinVar
   - SnpEff
   - Variant Effect Predictor (VEP)
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3325
   provenance_tier: literature

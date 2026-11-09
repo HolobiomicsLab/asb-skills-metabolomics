@@ -8,7 +8,7 @@ when_to_use_negative:
   simple accuracy would suffice
 - When the goal is regression or ranking rather than discrete binary Pass/Fail labeling
 - When ground-truth labels are unavailable (e.g., purely unsupervised peak-filtering)
-edam_operation: http://edamontology.org/operation_2934
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -34,7 +34,7 @@ metadata:
   tools:
   - MetaClean
   - caret
-  edam_operation: http://edamontology.org/operation_2934
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

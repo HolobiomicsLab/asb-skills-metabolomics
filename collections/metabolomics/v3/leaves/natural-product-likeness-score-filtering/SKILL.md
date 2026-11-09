@@ -12,7 +12,7 @@ when_to_use_negative:
   II-only entries
 - The goal is removing polyfluorinated compounds (64 total) or structures unparseable
   by the ChEMBL curation pipeline (113 total) — those are separate filter steps
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3336
@@ -46,7 +46,7 @@ metadata:
   - COCONUT compiler
   - NPclassifier
   - RDKit
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3336

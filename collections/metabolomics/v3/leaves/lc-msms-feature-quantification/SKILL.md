@@ -11,7 +11,7 @@ when_to_use_negative:
   Identification (step 6) via Tremolo/GNPS2 alone suffices.
 - Targeted metabolomics data already processed outside NP3 (e.g. with vendor peak
   tables) where the NP3 clustering/noise_cutoff behavior is not desired.
-edam_operation: http://edamontology.org/operation_3615
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3172
@@ -47,7 +47,7 @@ metadata:
   - GNPS
   - Mascot Generic Format (MGF)
   - NP3 MS Workflow
-  edam_operation: http://edamontology.org/operation_3615
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3172

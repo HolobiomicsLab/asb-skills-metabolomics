@@ -13,8 +13,7 @@ when_to_use_negative:
   execution on Thermo Tribrid Fusion instruments requires the additional IAPI bridging
   code
 edam_operation: http://edamontology.org/operation_0292
-edam_topics:
-- http://edamontology.org/topic_3364
+edam_topics: []
 tools:
 - name: ViMMS 2.0
   role: Framework hosting the base Controller class whose _process_scan is overridden
@@ -49,8 +48,7 @@ metadata:
   - ViMMS 2.0
   - numpy
   edam_operation: http://edamontology.org/operation_0292
-  edam_topics:
-  - http://edamontology.org/topic_3364
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

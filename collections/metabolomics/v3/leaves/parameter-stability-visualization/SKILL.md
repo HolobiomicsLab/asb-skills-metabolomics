@@ -12,8 +12,7 @@ when_to_use_negative:
 - Fewer than 3 samples are available, since AutoTuner requires at least 3 samples
   of raw data as input.
 edam_operation: http://edamontology.org/operation_0337
-edam_topics:
-- http://edamontology.org/topic_3862
+edam_topics: []
 tools:
 - name: AutoTuner
   role: Runs on each random subsample to obtain single-step statistical-inference
@@ -40,8 +39,7 @@ metadata:
   - AutoTuner
   - R
   edam_operation: http://edamontology.org/operation_0337
-  edam_topics:
-  - http://edamontology.org/topic_3862
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

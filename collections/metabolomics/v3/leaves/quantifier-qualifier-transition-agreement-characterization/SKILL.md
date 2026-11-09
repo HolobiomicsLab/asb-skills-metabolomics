@@ -14,7 +14,6 @@ when_to_use_negative:
   dirty samples, very-low-input samples, or new LC methods.
 edam_operation: http://edamontology.org/operation_3646
 edam_topics:
-- http://edamontology.org/topic_0037
 - http://edamontology.org/topic_3678
 tools:
 - name: automRm
@@ -49,7 +48,6 @@ metadata:
   - openxlsx
   edam_operation: http://edamontology.org/operation_3646
   edam_topics:
-  - http://edamontology.org/topic_0037
   - http://edamontology.org/topic_3678
   provenance_tier: literature
 license: CC-BY-4.0

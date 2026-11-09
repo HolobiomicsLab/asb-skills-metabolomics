@@ -12,7 +12,6 @@ when_to_use_negative:
   raw-file ingestion, not downstream MS-DIAL/MS-FLO processing.
 edam_operation: http://edamontology.org/operation_0335
 edam_topics:
-- http://edamontology.org/topic_3273
 - http://edamontology.org/topic_0092
 tools:
 - name: ProteoWizard msConvert
@@ -45,7 +44,6 @@ metadata:
   - Reifycs Abf Converter
   edam_operation: http://edamontology.org/operation_0335
   edam_topics:
-  - http://edamontology.org/topic_3273
   - http://edamontology.org/topic_0092
   provenance_tier: literature
 license: CC-BY-4.0

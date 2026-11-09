@@ -10,7 +10,7 @@ when_to_use_negative:
   so no XIC maxima can be assigned to anchor the regression.
 - The goal is peptide identification or scoring (e.g., MS-GF+ assignment of spectra
   such as scan 9594 to LGGNEQVTR) rather than retention-time calibration.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -42,7 +42,7 @@ metadata:
   - RawFileReader
   - rawR
   - rawrr
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

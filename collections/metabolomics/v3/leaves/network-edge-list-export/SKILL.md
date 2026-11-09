@@ -11,7 +11,7 @@ when_to_use_negative:
   pairs
 - Raw mass spectral or chromatographic data still require preprocessing — this skill
   operates on already-computed similarity/correlation edge tables
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_0605
@@ -53,7 +53,7 @@ metadata:
   - PubChem Substructure Fingerprints
   - R
   - Shiny
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_0605

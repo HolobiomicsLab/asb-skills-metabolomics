@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3435
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3272
 tools:
 - name: LOWESS-Normalization
   role: QC sample-based lowess drift-correction reference implementation whose coverage
@@ -46,7 +45,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3435
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -11,7 +11,7 @@ when_to_use_negative:
   instead
 - Feature-to-pathway membership tables already exist and only the activity-level decomposition
   (PLAGE scoring) step is needed
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -46,7 +46,7 @@ metadata:
   - Reactome
   - SciPy
   - pandas
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

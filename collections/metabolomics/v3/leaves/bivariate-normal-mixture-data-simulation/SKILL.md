@@ -15,7 +15,7 @@ when_to_use_negative:
 - Signals cannot be reasonably modeled as bivariate normal (reproducible component
   with covariance [[1, rho], [rho, 1]], irreproducible standard normal); other generating
   distributions require a different simulation design.
-edam_operation: http://edamontology.org/operation_3579
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_0203
@@ -40,7 +40,7 @@ metadata:
   tools:
   - Python
   - R idr package
-  edam_operation: http://edamontology.org/operation_3579
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_0203

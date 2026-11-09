@@ -11,7 +11,7 @@ when_to_use_negative:
   variable selection
 - You need only feature-wise univariate tests rather than multivariate prediction/variable-selection
   models
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3172
@@ -40,7 +40,7 @@ metadata:
   - MUVR
   - R
   - notame
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3172

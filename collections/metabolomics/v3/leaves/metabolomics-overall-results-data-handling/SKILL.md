@@ -10,7 +10,7 @@ when_to_use_negative:
   p-value combination and weighted fold-change averaging) instead.
 - Studies report effect sizes with standard deviations, for which a standard weighted
   quantitative meta-analysis is appropriate rather than trend-only vote-counting.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_2269
@@ -44,7 +44,7 @@ metadata:
   - R
   - amanida
   - webchem
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_2269

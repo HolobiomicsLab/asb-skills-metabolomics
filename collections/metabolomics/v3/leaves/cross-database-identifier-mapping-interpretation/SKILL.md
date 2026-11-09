@@ -13,8 +13,7 @@ when_to_use_negative:
 - The analysis concerns systematic identifiers (e.g. InChIKey) or chemical property
   descriptors rather than the eight non-systematic identifier attributes
 edam_operation: http://edamontology.org/operation_0226
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: Python
   role: pandas-based counting of non-empty identifier columns and computation of per-attribute
@@ -33,8 +32,7 @@ metadata:
   tools:
   - Python
   edam_operation: http://edamontology.org/operation_0226
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

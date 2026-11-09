@@ -11,7 +11,7 @@ when_to_use_negative:
   genes absent from the Recon3D gene filter)
 - When you need causal/mechanistic validation rather than 'guilt by association' topological
   proximity, which is descriptive
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 tools:
@@ -40,7 +40,7 @@ metadata:
   - COBRA toolbox
   - Python
   - Recon3D genome-scale metabolic model
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   provenance_tier: literature

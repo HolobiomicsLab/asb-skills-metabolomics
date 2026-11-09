@@ -12,7 +12,7 @@ when_to_use_negative:
   complete multi-omics samples and discards samples with entire rows of missing data
 - The analysis targets molecules that cannot be annotated to pathways (no ChEBI/UniProt/gene
   mapping), as un-annotated molecules cannot be incorporated and are lost
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_3308
@@ -49,7 +49,7 @@ metadata:
   - Python
   - SciKitLearn
   - py-ssPA
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_3308

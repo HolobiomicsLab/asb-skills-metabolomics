@@ -14,7 +14,7 @@ when_to_use_negative:
 - When the sample size after subsetting is too small to support a partial correlation
   with the chosen covariate set (the method assumes sufficient residual degrees of
   freedom).
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0219
@@ -40,7 +40,7 @@ metadata:
   tools:
   - GNPS
   - tissueMASST
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0219

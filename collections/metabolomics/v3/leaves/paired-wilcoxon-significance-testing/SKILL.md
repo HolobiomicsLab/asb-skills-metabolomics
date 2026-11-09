@@ -12,7 +12,7 @@ when_to_use_negative:
   counterpart
 - When the comparison target is a traditional ML benchmark (SVM, logistic regression,
   Random Forest, XGBoost) evaluated without matched-fold pairing to the deep model
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -47,7 +47,7 @@ metadata:
   - scikit-learn
   - thop
   - torchinfo
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

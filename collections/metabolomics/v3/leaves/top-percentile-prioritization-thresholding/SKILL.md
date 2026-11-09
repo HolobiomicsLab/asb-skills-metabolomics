@@ -10,7 +10,7 @@ when_to_use_negative:
   criterion cannot be scored
 - When the goal is ranked-list evaluation without a reference gene (e.g., purely exploratory
   prioritization) - percentile-of-causative-gene scoring does not apply
-edam_operation: http://edamontology.org/operation_1811
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3517
@@ -40,7 +40,7 @@ metadata:
   - DeepVariant
   - Exomiser
   - metPropagate
-  edam_operation: http://edamontology.org/operation_1811
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3517

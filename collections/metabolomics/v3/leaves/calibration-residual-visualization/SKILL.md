@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_3318
-- http://edamontology.org/topic_0037
 tools:
 - name: LiPydomics
   role: Provides the reference lipid database with HILIC RTs and the plotting module
@@ -52,7 +51,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_3318
-  - http://edamontology.org/topic_0037
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

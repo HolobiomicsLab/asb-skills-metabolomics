@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_2250
 tools:
 - name: NPLinker
   role: Framework that automatically downloads and stores MIBiG metadata for parsing,
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_2250
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

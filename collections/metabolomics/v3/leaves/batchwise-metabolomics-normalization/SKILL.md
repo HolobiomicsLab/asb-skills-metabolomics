@@ -10,7 +10,7 @@ when_to_use_negative:
   (e.g. QC-RLSC with QConly = TRUE) suffices without batch subsetting
 - When the goal is generic feature filtering or downstream differential-abundance
   testing rather than drift/batch correction of raw intensities
-edam_operation: http://edamontology.org/operation_3578
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -57,7 +57,7 @@ metadata:
   - pbapply
   - plotPCA
   - rLOESS
-  edam_operation: http://edamontology.org/operation_3578
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

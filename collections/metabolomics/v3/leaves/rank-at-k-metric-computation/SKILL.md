@@ -13,7 +13,7 @@ when_to_use_negative:
 - When evaluating on custom candidate pools not derived from MassSpecGym's by-mass/by-formula
   retrieval conditions, since the published rank@1 baselines (35.99%/13.96% consensus,
   26.37%/11.10% individual) assume those conditions.
-edam_operation: http://edamontology.org/operation_3452
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0219
@@ -51,7 +51,7 @@ metadata:
   - MVP
   - MassSpecGym
   - PyTorch
-  edam_operation: http://edamontology.org/operation_3452
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0219

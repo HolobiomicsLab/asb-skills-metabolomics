@@ -11,7 +11,7 @@ when_to_use_negative:
   where classifier performance degrades, especially for low-abundance Fail peaks
 - The goal is pure reproducibility filtering rather than integration-quality assessment
   — a simple RSD < 30% cut-off on pooled QC samples is the cheaper alternative
-edam_operation: http://edamontology.org/operation_3676
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3361
@@ -47,7 +47,7 @@ metadata:
   - XCMS
   - caret
   - fastAdaboost
-  edam_operation: http://edamontology.org/operation_3676
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3361

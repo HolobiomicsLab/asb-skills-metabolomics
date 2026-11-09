@@ -13,7 +13,7 @@ when_to_use_negative:
   comparison) is the appropriate choice.
 - Input is raw peak-quality metric data or an unprocessed XCMS feature table rather
   than aggregated per-fold evaluation measures — pre-compute F-measures/Accuracy first.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_0203
@@ -48,7 +48,7 @@ metadata:
   - plotrix
   - scmamp
   - scmamp R package
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_0203

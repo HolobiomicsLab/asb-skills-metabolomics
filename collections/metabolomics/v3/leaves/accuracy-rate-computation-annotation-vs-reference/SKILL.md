@@ -10,7 +10,7 @@ when_to_use_negative:
 - When the reference compounds are absent from the analyzed matrix (e.g. not spiked
   or degraded), since a failed detection would be misinterpreted as an annotation
   error.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -49,7 +49,7 @@ metadata:
   - getPeaklist
   - groupCorr
   - groupFWHM
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

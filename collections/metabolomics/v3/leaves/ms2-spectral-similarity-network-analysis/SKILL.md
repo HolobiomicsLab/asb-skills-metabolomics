@@ -10,7 +10,7 @@ when_to_use_negative:
   spectral similarity edges can be formed.
 - The analysis goal is single-spectrum library search rather than network-level connectivity
   analysis across features.
-edam_operation: http://edamontology.org/operation_3620
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_3520
@@ -47,7 +47,7 @@ metadata:
   - MS-DIAL
   - MZmine
   - XCMS
-  edam_operation: http://edamontology.org/operation_3620
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_3520

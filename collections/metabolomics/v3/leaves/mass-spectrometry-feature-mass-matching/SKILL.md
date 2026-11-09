@@ -11,7 +11,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0324
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3362
 tools:
 - name: SPARQL
   role: Query language used to traverse the ENPKG knowledge graph and recover compounds
@@ -42,7 +41,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0324
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3362
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

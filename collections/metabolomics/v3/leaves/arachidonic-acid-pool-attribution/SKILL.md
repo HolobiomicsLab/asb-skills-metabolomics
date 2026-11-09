@@ -13,8 +13,7 @@ when_to_use_negative:
 - The question requires resolving stereoisomers or unvalidated fragment identifications,
   which LipidCreator does not address
 edam_operation: http://edamontology.org/operation_3463
-edam_topics:
-- http://edamontology.org/topic_3353
+edam_topics: []
 tools:
 - name: LipidCreator
   role: Designs the targeted transition lists and fragment libraries for the PRM/MRM
@@ -42,8 +41,7 @@ metadata:
   - MSStats
   - Skyline
   edam_operation: http://edamontology.org/operation_3463
-  edam_topics:
-  - http://edamontology.org/topic_3353
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

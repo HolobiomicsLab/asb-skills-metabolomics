@@ -12,7 +12,7 @@ when_to_use_negative:
   via a heading-specified bulk URL.
 - Tabular specialized data that come from other backend services and are not currently
   accessible through PUG-View.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0154
@@ -39,7 +39,7 @@ metadata:
   tools:
   - PUG-View
   - PubChem
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0154

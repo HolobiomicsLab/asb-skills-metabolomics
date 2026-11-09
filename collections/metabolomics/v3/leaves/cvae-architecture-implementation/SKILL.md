@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3935
 edam_topics:
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_3272
 tools:
 - name: SpatialMETA
   role: Provides ConditionalVAESTSM CVAE with ZINB/Gaussian decoders, MMD batch-correction
@@ -43,7 +42,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3935
   edam_topics:
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

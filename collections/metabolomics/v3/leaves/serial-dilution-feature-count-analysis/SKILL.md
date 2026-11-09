@@ -13,7 +13,7 @@ when_to_use_negative:
   using the MS2-recognition function
 edam_operation: http://edamontology.org/operation_3695
 edam_topics:
-- http://edamontology.org/topic_3514
+- http://edamontology.org/topic_0128
 tools:
 - name: JPA
   role: R package whose XCMS.featureTable function performs the MS1 PP peak-picking
@@ -50,7 +50,7 @@ metadata:
   - xcms
   edam_operation: http://edamontology.org/operation_3695
   edam_topics:
-  - http://edamontology.org/topic_3514
+  - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

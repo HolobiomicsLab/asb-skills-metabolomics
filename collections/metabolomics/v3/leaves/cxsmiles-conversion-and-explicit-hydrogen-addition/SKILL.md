@@ -10,8 +10,7 @@ when_to_use_negative:
   first, since unstandardized SMILES are incompatible with rcdk and ChemAxon/OpenBabel.
 - The analysis requires 3D conformational descriptors — this workflow deliberately
   uses 2D coordinates to avoid 3D computational overhead.
-edam_topics:
-- http://edamontology.org/topic_2251
+edam_topics: []
 tools:
 - name: ChemAxon standardizer
   role: Removes salts and metal-containing compounds and reformats SMILES into the
@@ -51,8 +50,7 @@ metadata:
   - alvaDesc
   - rcdk
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_2251
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

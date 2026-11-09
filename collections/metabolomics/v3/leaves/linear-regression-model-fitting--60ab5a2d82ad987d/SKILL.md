@@ -12,7 +12,7 @@ when_to_use_negative:
   do not exist
 - The goal is only CCS bias monitoring without correction — use MobiLipid_CCS-bias-calculation.Rmd
   instead of the correction workflow
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
@@ -49,7 +49,7 @@ metadata:
   - R Markdown
   - RStudio 2023.09.1
   - data.table
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092

@@ -12,7 +12,6 @@ when_to_use_negative:
   not identifiable
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3520
 tools:
 - name: R
@@ -44,7 +43,6 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

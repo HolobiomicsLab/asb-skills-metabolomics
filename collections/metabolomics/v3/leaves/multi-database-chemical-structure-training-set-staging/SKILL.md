@@ -13,7 +13,6 @@ when_to_use_negative:
   ''freak out on login node'' and must run on job nodes'
 edam_topics:
 - http://edamontology.org/topic_3332
-- http://edamontology.org/topic_3364
 tools:
 - name: MSNovelist
   role: Encoder–decoder RNN framework whose training corpus is being staged; the staged
@@ -39,7 +38,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3332
-  - http://edamontology.org/topic_3364
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

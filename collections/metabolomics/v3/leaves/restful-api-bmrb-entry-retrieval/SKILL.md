@@ -13,8 +13,7 @@ when_to_use_negative:
   entry retrieval — PyBMRB is the appropriate layer, as it fetches and plots shifts
   directly.
 edam_operation: http://edamontology.org/operation_2422
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: BMRB-API
   role: RESTful query interface used to fetch the BMRB entry by entry_id in JSON or
@@ -49,8 +48,7 @@ metadata:
   - PyNMR-STAR
   - RBMRB
   edam_operation: http://edamontology.org/operation_2422
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 emails_redacted: true

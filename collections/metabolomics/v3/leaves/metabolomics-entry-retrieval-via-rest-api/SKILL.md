@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0224
 edam_topics:
 - http://edamontology.org/topic_0593
-- http://edamontology.org/topic_3272
 tools:
 - name: BMRB-API
   role: RESTful query interface used to list metabolomics entries and retrieve a small-molecule
@@ -45,7 +44,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0224
   edam_topics:
   - http://edamontology.org/topic_0593
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3633
 edam_topics:
 - http://edamontology.org/topic_0085
-- http://edamontology.org/topic_1772
 tools:
 - name: metPropagate
   role: 'Implements the DAM enrichment pipeline: Fisher''s Exact Test of patient DAMs
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3633
   edam_topics:
   - http://edamontology.org/topic_0085
-  - http://edamontology.org/topic_1772
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

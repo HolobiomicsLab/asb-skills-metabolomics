@@ -11,7 +11,7 @@ when_to_use_negative:
   instead
 - Only univariate statistics are required — Galaxy-M explicitly includes no univariate
   statistics tools
-edam_operation: http://edamontology.org/operation_3613
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -43,7 +43,7 @@ metadata:
   - Galaxy-M
   - PLS-Toolbox
   - XCMS
-  edam_operation: http://edamontology.org/operation_3613
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

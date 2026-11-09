@@ -12,7 +12,6 @@ when_to_use_negative:
   preprocessing consistency across methods/thresholds
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3279
 tools:
 - name: apLCMS
   role: R package providing cdf.to.ftr / proc.cdf / prof.to.features / feature.align
@@ -47,7 +46,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3279
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

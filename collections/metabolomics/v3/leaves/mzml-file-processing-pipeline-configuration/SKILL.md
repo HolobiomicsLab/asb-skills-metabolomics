@@ -12,8 +12,7 @@ when_to_use_negative:
 - Compound identification downstream of prescreening is the goal — use Shinyscreen's
   MetFrag integration rather than bare extraction configuration
 edam_operation: http://edamontology.org/operation_0335
-edam_topics:
-- http://edamontology.org/topic_3364
+edam_topics: []
 tools:
 - name: Shinyscreen
   role: R package / Shiny web application whose initialisation and extraction-prescreening
@@ -44,8 +43,7 @@ metadata:
   - Shinyscreen
   - future
   edam_operation: http://edamontology.org/operation_0335
-  edam_topics:
-  - http://edamontology.org/topic_3364
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

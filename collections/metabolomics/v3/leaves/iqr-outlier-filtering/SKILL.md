@@ -14,7 +14,6 @@ when_to_use_negative:
   directly
 edam_operation: http://edamontology.org/operation_3223
 edam_topics:
-- http://edamontology.org/topic_2228
 - http://edamontology.org/topic_0092
 tools:
 - name: ukbnmr
@@ -46,7 +45,6 @@ metadata:
   - ukbnmr
   edam_operation: http://edamontology.org/operation_3223
   edam_topics:
-  - http://edamontology.org/topic_2228
   - http://edamontology.org/topic_0092
   provenance_tier: literature
 license: CC-BY-4.0

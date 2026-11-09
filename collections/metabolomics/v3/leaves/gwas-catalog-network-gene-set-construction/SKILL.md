@@ -17,7 +17,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2436
 edam_topics:
 - http://edamontology.org/topic_0625
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0203
 tools:
 - name: metGWAS 1.0
@@ -49,7 +48,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2436
   edam_topics:
   - http://edamontology.org/topic_0625
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

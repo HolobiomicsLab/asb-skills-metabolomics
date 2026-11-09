@@ -12,7 +12,6 @@ when_to_use_negative:
   (6 and 8 h) time points.
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3360
 tools:
 - name: PRIMA Panel
@@ -46,7 +45,6 @@ metadata:
   - Shiny
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3360
   provenance_tier: literature
 license: CC-BY-4.0

@@ -11,8 +11,7 @@ when_to_use_negative:
 - Raw data are not yet standardized/preprocessed (standardization and QC are handled
   upstream in the ACTIONdemonstrator preprocessing workflow)
 edam_operation: http://edamontology.org/operation_3935
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: SNFpy
   role: Python library used to normalize similarity matrices, run the SNF fusion algorithm,
@@ -47,8 +46,7 @@ metadata:
   - Nextflow
   - SNFpy
   edam_operation: http://edamontology.org/operation_3935
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

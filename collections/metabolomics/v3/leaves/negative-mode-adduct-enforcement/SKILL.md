@@ -11,7 +11,6 @@ when_to_use_negative:
   — fix formulas first or look them up via compound identifiers before running
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_0057
 tools:
 - name: mummichog
   role: Core package whose metabolite-prediction option enforces the M−H[−] (or M+H[+])
@@ -46,7 +45,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_0057
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -9,7 +9,7 @@ when_to_use_negative:
   may be preferable for hypothesis generation.
 - When comparing methods at different effective thresholds — counts of spectra/compounds
   are only comparable if both methods are filtered at the same FDR level.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0154
@@ -35,7 +35,7 @@ metadata:
   tools:
   - Dereplicator+
   - molDiscovery
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0154

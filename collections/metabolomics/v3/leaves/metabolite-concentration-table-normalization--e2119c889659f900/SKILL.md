@@ -12,8 +12,7 @@ when_to_use_negative:
 - The goal is integrating multiple platforms' datasets (concatenative, mid-level,
   or multi-block fusion) rather than normalizing a single table.
 edam_operation: http://edamontology.org/operation_3432
-edam_topics:
-- http://edamontology.org/topic_3820
+edam_topics: []
 tools:
 - name: Viime
   role: web-based application whose first data-treatment step is normalization, offering
@@ -45,8 +44,7 @@ metadata:
   - R
   - Viime
   edam_operation: http://edamontology.org/operation_3432
-  edam_topics:
-  - http://edamontology.org/topic_3820
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

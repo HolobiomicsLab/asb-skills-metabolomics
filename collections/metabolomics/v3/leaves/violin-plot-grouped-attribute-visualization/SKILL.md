@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_2250
 tools:
 - name: ROASMI
   role: Source of the CCRS replicability analysis pipeline and collated paired RPLC
@@ -41,7 +40,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_2250
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

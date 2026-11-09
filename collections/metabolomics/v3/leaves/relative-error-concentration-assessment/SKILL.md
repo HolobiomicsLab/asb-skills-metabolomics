@@ -12,8 +12,7 @@ when_to_use_negative:
   and trueness claims from Table S1 do not apply to your instrument or field strength
   without recalibration
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: Magnetstein
   role: Produces the estimated relative concentrations π̂_i whose trueness is scored
@@ -47,8 +46,7 @@ metadata:
   - MANIQ
   - Magnetstein
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

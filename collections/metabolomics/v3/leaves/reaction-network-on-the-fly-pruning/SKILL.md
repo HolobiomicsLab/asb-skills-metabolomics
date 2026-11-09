@@ -12,7 +12,6 @@ when_to_use_negative:
 - Your goal is authoring custom reaction rules rather than controlling expansion size
   with filters
 edam_topics:
-- http://edamontology.org/topic_3925
 - http://edamontology.org/topic_2258
 tools:
 - name: Pickaxe
@@ -54,7 +53,6 @@ metadata:
   - minedatabase
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3925
   - http://edamontology.org/topic_2258
   provenance_tier: literature
 license: CC-BY-4.0

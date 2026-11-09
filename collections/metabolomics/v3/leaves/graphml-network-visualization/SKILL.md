@@ -11,9 +11,8 @@ when_to_use_negative:
   network; spectral processing and spin-system construction must happen first
 - The goal is quantitative compound quantification rather than structural relationship
   visualization; the network conveys shared-feature similarity, not concentration
-edam_operation: http://edamontology.org/operation_3083
-edam_topics:
-- http://edamontology.org/topic_3312
+edam_operation: null
+edam_topics: []
 tools:
 - name: MADByTE
   role: Generates the chemical similarity network from TOCSY/HSQC spin-system features
@@ -37,9 +36,8 @@ metadata:
   tools:
   - Gephi
   - MADByTE
-  edam_operation: http://edamontology.org/operation_3083
-  edam_topics:
-  - http://edamontology.org/topic_3312
+  edam_operation: null
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

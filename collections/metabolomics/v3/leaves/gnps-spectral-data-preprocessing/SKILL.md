@@ -11,8 +11,7 @@ when_to_use_negative:
 - Spectra are already binned/embedded — re-binning would discard the original peak
   structure
 edam_operation: http://edamontology.org/operation_2939
-edam_topics:
-- http://edamontology.org/topic_3621
+edam_topics: []
 tools:
 - name: ms2deepscore
   role: Provides the binning/embedding pipeline whose binned spectra feed the Siamese
@@ -39,8 +38,7 @@ metadata:
   - matchms
   - ms2deepscore
   edam_operation: http://edamontology.org/operation_2939
-  edam_topics:
-  - http://edamontology.org/topic_3621
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   at regular intervals, since QComics assumes QCpool-based sequences
 - Data are quality-control metrics (RSD, drift, carryover) rather than sample-level
   metabolite intensities requiring missingness classification
-edam_operation: http://edamontology.org/operation_3667
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0219
@@ -42,7 +42,7 @@ metadata:
   - RStudio
   - dplyr
   - readr
-  edam_operation: http://edamontology.org/operation_3667
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0219

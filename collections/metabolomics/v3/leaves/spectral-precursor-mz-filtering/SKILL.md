@@ -10,7 +10,7 @@ when_to_use_negative:
   matching), which does not require precursor-bounded peak lists
 - The downstream networking uses a similarity measure that tolerates fragments above
   the precursor m/z, so modified cosine filtering is unnecessary
-edam_operation: http://edamontology.org/operation_3368
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3334
 tools:
@@ -42,7 +42,7 @@ metadata:
   tools:
   - GNPS2
   - ms1-id
-  edam_operation: http://edamontology.org/operation_3368
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3334
   provenance_tier: literature

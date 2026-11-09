@@ -12,7 +12,6 @@ when_to_use_negative:
   performance ranking rather than hypothesis generation
 edam_topics:
 - http://edamontology.org/topic_3697
-- http://edamontology.org/topic_0699
 tools:
 - name: TAMPA
   role: Consumes profiler profiles plus the NCBI taxdump to build percentage abundance
@@ -43,7 +42,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
-  - http://edamontology.org/topic_0699
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

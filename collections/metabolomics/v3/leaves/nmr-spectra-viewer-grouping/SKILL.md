@@ -13,7 +13,6 @@ when_to_use_negative:
   can be applied
 edam_operation: http://edamontology.org/operation_0570
 edam_topics:
-- http://edamontology.org/topic_3826
 - http://edamontology.org/topic_0092
 tools:
 - name: NMRProcFlow
@@ -45,7 +44,6 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_0570
   edam_topics:
-  - http://edamontology.org/topic_3826
   - http://edamontology.org/topic_0092
   provenance_tier: literature
 license: CC-BY-4.0

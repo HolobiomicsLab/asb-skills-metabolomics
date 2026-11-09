@@ -9,8 +9,7 @@ when_to_use_negative:
   and 4 ppm mass matching, not Tanimoto fingerprints
 - When the goal is BGC clustering alone with no reference compound data, since the
   correlation-to-compound step requires MIBiG (or equivalent) SMILES input
-edam_topics:
-- http://edamontology.org/topic_2250
+edam_topics: []
 tools:
 - name: RDKit
   role: Generates Morgan fingerprints (radius 4) from MIBiG compound SMILES and computes
@@ -41,8 +40,7 @@ metadata:
   - MIBiG
   - RDKit
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_2250
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 merged_aliases:

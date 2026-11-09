@@ -10,7 +10,7 @@ when_to_use_negative:
   evaluation, rather than clustering-based deduplication, is the goal
 - When spectra come from a single acquisition with no redundancy, since clustering
   adds no value for de-duplication
-edam_operation: http://edamontology.org/operation_2926
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0081
 - http://edamontology.org/topic_3520
@@ -52,7 +52,7 @@ metadata:
   - Python
   - ThermoRawFileParser
   - msconvert
-  edam_operation: http://edamontology.org/operation_2926
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0081
   - http://edamontology.org/topic_3520

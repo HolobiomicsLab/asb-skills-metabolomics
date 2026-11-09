@@ -11,7 +11,7 @@ when_to_use_negative:
   accuracy required by MSThunder's dataset rules.
 - Only raw vendor files (ThermoFisher, Agilent) are available and cannot be converted
   via MSConvert, since the current version does not support offline raw-data processing.
-edam_operation: http://edamontology.org/operation_0223
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -51,7 +51,7 @@ metadata:
   - PubChemPy
   - Python 3.10.5
   - RDKit
-  edam_operation: http://edamontology.org/operation_0223
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

@@ -13,7 +13,7 @@ when_to_use_negative:
   fitting
 - You only need spectral preprocessing (peak alignment, baseline correction, binning)
   — that is the Protomix preprocessing skill, not variance reporting
-edam_operation: http://edamontology.org/operation_0522
+edam_operation: http://edamontology.org/operation_0308
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3855
@@ -48,7 +48,7 @@ metadata:
   - pandas
   - plotly
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_0522
+  edam_operation: http://edamontology.org/operation_0308
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3855

@@ -11,7 +11,7 @@ when_to_use_negative:
   rather than train/test supervised evaluation.
 - The sample size is too small for a 4:1 held-out test set to be representative; repeated
   CV alone without a held-out test partition is safer.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3474
@@ -39,7 +39,7 @@ metadata:
   tools:
   - Lilikoi v2.0
   - R
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3474

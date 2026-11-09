@@ -11,8 +11,7 @@ when_to_use_negative:
 - Samples are not matched across the layers (each layer must be an N x N kernel over
   the same N samples) or the layers do not share a common clustering structure.
 edam_operation: http://edamontology.org/operation_3432
-edam_topics:
-- http://edamontology.org/topic_2648
+edam_topics: []
 tools:
 - name: klic
   role: Implements Consensus Clustering kernel construction and the KLIC/localized
@@ -42,8 +41,7 @@ metadata:
   - coca
   - klic
   edam_operation: http://edamontology.org/operation_3432
-  edam_topics:
-  - http://edamontology.org/topic_2648
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

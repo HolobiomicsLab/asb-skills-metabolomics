@@ -10,7 +10,7 @@ when_to_use_negative:
   from InChIKeys — that is MMS Step 2 attribute retrieval, not identifier translation
 - When curating conjugated base/acid disparities or synonym duplication — that belongs
   to MMS Step 3's three-step curation process
-edam_operation: http://edamontology.org/operation_3345
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3292
 tools:
@@ -37,7 +37,7 @@ metadata:
   - Chemical Translation Service (CTS)
   - PubChem Identifier Exchange Service
   - Python
-  edam_operation: http://edamontology.org/operation_3345
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3292
   provenance_tier: literature

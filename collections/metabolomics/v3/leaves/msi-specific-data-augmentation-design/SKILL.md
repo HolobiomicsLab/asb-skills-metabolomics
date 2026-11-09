@@ -15,7 +15,6 @@ when_to_use_negative:
   the preprocessed MSI matrix [X*Y, P] and peak list [P, 1] already prepared by preprocessing.'
 edam_operation: http://edamontology.org/operation_3927
 edam_topics:
-- http://edamontology.org/topic_3869
 - http://edamontology.org/topic_0091
 tools:
 - name: DeepION
@@ -67,7 +66,6 @@ metadata:
   - rMSI
   edam_operation: http://edamontology.org/operation_3927
   edam_topics:
-  - http://edamontology.org/topic_3869
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

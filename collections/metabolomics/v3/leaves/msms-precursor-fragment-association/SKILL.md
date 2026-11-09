@@ -13,7 +13,7 @@ when_to_use_negative:
   than mitigate them.
 - When the goal is feature detection or CCS calibration rather than fragment-to-precursor
   attribution — those are separate DEIMoS workflow steps.
-edam_operation: http://edamontology.org/operation_3720
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -46,7 +46,7 @@ metadata:
   - DEIMoS
   - LC-IMS-MS/MS
   - Python
-  edam_operation: http://edamontology.org/operation_3720
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

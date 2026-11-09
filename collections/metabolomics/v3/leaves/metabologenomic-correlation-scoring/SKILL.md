@@ -11,7 +11,7 @@ when_to_use_negative:
   predictions — there is nothing to correlate.
 - You only need BGC sub-cluster prediction itself (run iPRESTO alone); this skill
   is specifically the downstream metabologenomic linkage step.
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0622
@@ -41,7 +41,7 @@ metadata:
   - Mass2Motifs
   - antiSMASH
   - iPRESTO
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0622

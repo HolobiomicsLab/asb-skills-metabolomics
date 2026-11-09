@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3664
 edam_topics:
 - http://edamontology.org/topic_0092
-- http://edamontology.org/topic_3272
 tools:
 - name: msiFlow
   role: Provides region_group_analysis_flow, the Snakemake workflow that performs
@@ -54,7 +53,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3664
   edam_topics:
   - http://edamontology.org/topic_0092
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

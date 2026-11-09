@@ -11,8 +11,7 @@ when_to_use_negative:
   — centWave peak detection and retcor cannot be re-run on it
 - Fewer than 3 raw samples are available — AutoTuner requires at least 3 samples of
   raw data to generate parameter estimates
-edam_topics:
-- http://edamontology.org/topic_3861
+edam_topics: []
 tools:
 - name: AutoTuner
   role: Supplies the fixed, dataset-specific optimal centWave parameters around which
@@ -41,8 +40,7 @@ metadata:
   - R
   - XCMS
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3861
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

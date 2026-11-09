@@ -13,7 +13,7 @@ when_to_use_negative:
 - When feature detection/signal processing has not yet been run and the input is raw
   instrument data (e.g. Bruker/Waters/Agilent vendor formats) rather than peak lists—clustering
   requires pre-extracted peaks.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -45,7 +45,7 @@ metadata:
   tools:
   - DEIMoS
   - Python
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

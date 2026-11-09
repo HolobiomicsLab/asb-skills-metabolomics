@@ -16,7 +16,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0306
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3272
 tools:
 - name: pandas
   role: Loads the vendor-vs-CCSfind comparison table, computes per-compound absolute
@@ -56,7 +55,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0306
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

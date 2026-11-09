@@ -13,7 +13,6 @@ when_to_use_negative:
   file, since group labels and covariates must come from the target CSV.
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
-- http://edamontology.org/topic_3828
 - http://edamontology.org/topic_3520
 tools:
 - name: POMAShiny
@@ -51,7 +50,6 @@ metadata:
   - tidyverse
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
-  - http://edamontology.org/topic_3828
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

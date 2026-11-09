@@ -14,7 +14,6 @@ edam_operation: http://edamontology.org/operation_2928
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3913
 tools:
 - name: Lilikoi v2.0
   role: Provides the lilikoi.explr function that runs PCA/t-SNE plotting and SOV ANOVA
@@ -46,7 +45,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3913
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -15,7 +15,6 @@ when_to_use_negative:
   including specifically to support normalization performance investigations
 edam_operation: http://edamontology.org/operation_2239
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0091
 tools:
 - name: Metanorm
@@ -66,7 +65,6 @@ metadata:
   - mgcv
   edam_operation: http://edamontology.org/operation_2239
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

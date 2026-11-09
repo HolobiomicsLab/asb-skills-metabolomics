@@ -12,7 +12,6 @@ when_to_use_negative:
   LipidBlast, MINEs) rather than study raw data
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
-- http://edamontology.org/topic_3820
 - http://edamontology.org/topic_0092
 tools:
 - name: MetaboAnalystR 4.0
@@ -43,7 +42,6 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
-  - http://edamontology.org/topic_3820
   - http://edamontology.org/topic_0092
   provenance_tier: literature
 license: CC-BY-4.0

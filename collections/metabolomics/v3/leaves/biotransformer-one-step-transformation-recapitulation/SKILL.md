@@ -11,7 +11,7 @@ when_to_use_negative:
   of interest.
 - The model was trained on a metabolome very distant from human (e.g. plant or bacterial),
   where the one-step transformation rules calibrated on human metabolism may not transfer.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 tools:
@@ -48,7 +48,7 @@ metadata:
   - Python
   - RDKit
   - Snakemake
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   provenance_tier: literature

@@ -9,7 +9,7 @@ when_to_use_negative:
 - The input is not a fixed metabolite identifier list shared across tools (e.g. raw
   metabolomics matrices or differential results only usable by one tool), which breaks
   the controlled runtime comparison
-edam_operation: http://edamontology.org/operation_3955
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0602
@@ -42,7 +42,7 @@ metadata:
   - FELLA
   - MetaboAnalystR
   - R
-  edam_operation: http://edamontology.org/operation_3955
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0602

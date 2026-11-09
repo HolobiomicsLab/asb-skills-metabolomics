@@ -15,7 +15,6 @@ when_to_use_negative:
   not implemented
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
-- http://edamontology.org/topic_3312
 - http://edamontology.org/topic_0091
 tools:
 - name: RAIChU
@@ -46,7 +45,6 @@ metadata:
   - antiSMASH
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
-  - http://edamontology.org/topic_3312
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

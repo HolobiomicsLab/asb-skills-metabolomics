@@ -14,7 +14,6 @@ when_to_use_negative:
   developed; clinical-diagnosis use was explicitly flagged as future work).
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3520
 tools:
 - name: NMRQNet
@@ -42,7 +41,6 @@ metadata:
   - NMRQNet
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

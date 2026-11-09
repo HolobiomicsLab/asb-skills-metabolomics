@@ -9,10 +9,9 @@ when_to_use_negative:
   for peptide hormone entries.
 - A quantitative BBB permeability prediction is needed — this skill only extracts
   the deposited annotation, not a computed permeability value.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
-- http://edamontology.org/topic_3062
 tools:
 - name: pandas
   role: Loads the HORDB peptide hormone table and filters rows on the 'cross BBB'
@@ -36,10 +35,9 @@ metadata:
   - HORDB
   - Python
   - pandas
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
-  - http://edamontology.org/topic_3062
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

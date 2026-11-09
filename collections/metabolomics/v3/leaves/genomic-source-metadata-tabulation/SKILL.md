@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_3885
 tools:
 - name: Paired Omics Data Platform
   role: 'Source of project JSON records: each (meta)genome is added to a project via
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_3885
   provenance_tier: literature
 license: CC-BY-4.0
 emails_redacted: true

@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3927
 edam_topics:
 - http://edamontology.org/topic_3174
-- http://edamontology.org/topic_3272
 tools:
 - name: MiMeNet
   role: MLPNN framework trained with MiMeNet_train.py to predict metabolomic profiles
@@ -35,7 +34,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3927
   edam_topics:
   - http://edamontology.org/topic_3174
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

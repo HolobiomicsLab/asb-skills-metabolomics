@@ -11,8 +11,7 @@ when_to_use_negative:
   approach lacks that resolution
 - Only raw spectra without any paired genome/metagenome data exist, since linking
   requires the genomic fingerprint side
-edam_topics:
-- http://edamontology.org/topic_3364
+edam_topics: []
 tools:
 - name: GNPS
   role: Computes pairwise modified cosine similarity scores between MS/MS spectra
@@ -43,8 +42,7 @@ metadata:
   - antiSMASH
   - tandem mass spectrometry
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3364
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -14,7 +14,6 @@ when_to_use_negative:
   excludes as ORA input
 edam_operation: http://edamontology.org/operation_2436
 edam_topics:
-- http://edamontology.org/topic_3486
 - http://edamontology.org/topic_0092
 tools:
 - name: scipy stats fisher_exact
@@ -52,7 +51,6 @@ metadata:
   - scipy stats fisher_exact
   edam_operation: http://edamontology.org/operation_2436
   edam_topics:
-  - http://edamontology.org/topic_3486
   - http://edamontology.org/topic_0092
   provenance_tier: literature
 license: CC-BY-4.0

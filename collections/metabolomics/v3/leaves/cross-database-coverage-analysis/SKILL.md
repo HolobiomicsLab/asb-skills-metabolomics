@@ -12,7 +12,6 @@ when_to_use_negative:
   presence/absence coverage statistics
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
-- http://edamontology.org/topic_3353
 - http://edamontology.org/topic_0089
 tools:
 - name: LipidLynxX
@@ -50,7 +49,6 @@ metadata:
   - pandas
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
-  - http://edamontology.org/topic_3353
   - http://edamontology.org/topic_0089
   provenance_tier: literature
 license: CC-BY-4.0

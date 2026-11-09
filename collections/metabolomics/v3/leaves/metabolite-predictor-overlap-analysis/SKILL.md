@@ -10,7 +10,7 @@ when_to_use_negative:
   than quantifying SL enrichment among predictors
 - The metabolite panel is not the 225-metabolite CCLE panel, or the feature pool differs
   from the nine Metab8D feature sets
-edam_operation: http://edamontology.org/operation_3452
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3524
@@ -42,7 +42,7 @@ metadata:
   - Python
   - machine learning (random forest regression)
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3452
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3524

@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3206
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3272
 tools:
 - name: '''ili'
   role: Web-application used to interactively visualize intensity maps of detected
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3206
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

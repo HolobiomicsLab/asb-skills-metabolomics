@@ -10,7 +10,7 @@ when_to_use_negative:
 - When the source is a benchmark or performance study reporting quantitative accuracy/latency
   metrics rather than adoption volumes — this skill captures usage counts, not performance
   numbers.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - ClassyFire
   - Ruby
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   provenance_tier: literature

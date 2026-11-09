@@ -12,8 +12,7 @@ when_to_use_negative:
   fingerprint component enumeration
 edam_operation: http://edamontology.org/operation_3219
 edam_topics:
-- http://edamontology.org/topic_3521
-- http://edamontology.org/topic_3311
+- http://edamontology.org/topic_3520
 tools:
 - name: PATBS
   role: Background-subtraction step that strips blank/background ions from the ESI-mode
@@ -53,8 +52,7 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_3219
   edam_topics:
-  - http://edamontology.org/topic_3521
-  - http://edamontology.org/topic_3311
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

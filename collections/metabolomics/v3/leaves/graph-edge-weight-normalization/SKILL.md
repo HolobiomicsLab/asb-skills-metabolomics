@@ -12,7 +12,7 @@ when_to_use_negative:
 - The goal is variant-level candidate generation (Exomiser variant effect and population
   frequency filters on DeepVariant singleton VCFs), which precedes network propagation
   and does not involve edge weights.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0128
 - http://edamontology.org/topic_3308
@@ -49,7 +49,7 @@ metadata:
   - label_propagation (LGC)
   - metPropagate
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_3308

@@ -11,7 +11,7 @@ when_to_use_negative:
 - The formula space needed exceeds the supplied IPDB (e.g. exhaustive enumeration
   across C, B, Br, Cl, K, S, Si, N, H, As, F, I, Na, O, P is required) — use IDSL.UFAx
   instead
-edam_operation: http://edamontology.org/operation_3859
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0154
@@ -42,7 +42,7 @@ metadata:
   - IDSL.IPA
   - IDSL.UFA
   - R
-  edam_operation: http://edamontology.org/operation_3859
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0154

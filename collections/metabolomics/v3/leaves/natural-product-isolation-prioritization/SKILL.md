@@ -13,7 +13,6 @@ when_to_use_negative:
   any follow-up isolation work
 edam_operation: http://edamontology.org/operation_3646
 edam_topics:
-- http://edamontology.org/topic_3362
 - http://edamontology.org/topic_0218
 tools:
 - name: molecular networking
@@ -44,7 +43,6 @@ metadata:
   - molecular networking
   edam_operation: http://edamontology.org/operation_3646
   edam_topics:
-  - http://edamontology.org/topic_3362
   - http://edamontology.org/topic_0218
   provenance_tier: literature
 license: CC-BY-4.0

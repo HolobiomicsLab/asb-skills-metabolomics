@@ -11,7 +11,7 @@ when_to_use_negative:
   edge weight
 - Community partitions have not yet been computed, as this skill operates on per-community
   subgraphs
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - NetworkX
   - pandas
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

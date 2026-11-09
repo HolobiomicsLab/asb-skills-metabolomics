@@ -14,7 +14,7 @@ when_to_use_negative:
 - You require a formal or quantitative attribution metric with error bars — the article
   notes the occlusion results 'do not fully explain the decision-making process of
   DeepSAT' and were assessed qualitatively for a single compound.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3473
 - http://edamontology.org/topic_0593
@@ -37,7 +37,7 @@ metadata:
   license_tier: open
   tools:
   - DeepSAT
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3473
   - http://edamontology.org/topic_0593

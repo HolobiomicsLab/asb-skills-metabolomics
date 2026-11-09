@@ -13,8 +13,7 @@ when_to_use_negative:
   of interest.
 edam_operation: http://edamontology.org/operation_2422
 edam_topics:
-- http://edamontology.org/topic_3214
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: MASST
   role: Submits each compound's reference MS/MS spectrum as a search against the ~1.2
@@ -47,8 +46,7 @@ metadata:
   - Thermo QE Orbitrap
   edam_operation: http://edamontology.org/operation_2422
   edam_topics:
-  - http://edamontology.org/topic_3214
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

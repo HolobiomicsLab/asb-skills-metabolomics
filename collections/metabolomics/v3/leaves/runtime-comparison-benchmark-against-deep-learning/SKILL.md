@@ -10,7 +10,7 @@ when_to_use_negative:
 - The input is already a low-dimensional feature table (e.g. a short list of hand-picked
   m/z peaks) where the 174-fold speed advantage over SVM, driven by high-dimensional
   spectra, would not apply.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3474
@@ -47,7 +47,7 @@ metadata:
   - Python
   - massNet
   - support vector machine (SVM)
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3474

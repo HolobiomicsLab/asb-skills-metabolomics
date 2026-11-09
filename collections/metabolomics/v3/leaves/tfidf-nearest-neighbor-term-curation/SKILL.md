@@ -8,7 +8,7 @@ when_to_use_negative:
   strings were the target in the ozone use case)
 - Metadata already fully encoded as controlled vocabulary terms, where no freetext-to-vocabulary
   transformation is needed
-edam_operation: http://edamontology.org/operation_3452
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0219
 tools:
@@ -33,7 +33,7 @@ metadata:
   tools:
   - MetaS
   - SMetaS
-  edam_operation: http://edamontology.org/operation_3452
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0219
   provenance_tier: literature

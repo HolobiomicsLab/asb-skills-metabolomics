@@ -13,7 +13,7 @@ when_to_use_negative:
   by Met-ID's built-in database and setup
 edam_operation: http://edamontology.org/operation_3214
 edam_topics:
-- http://edamontology.org/topic_1312
+- http://edamontology.org/topic_0749
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3172
 tools:
@@ -37,7 +37,7 @@ metadata:
   - Met-ID
   edam_operation: http://edamontology.org/operation_3214
   edam_topics:
-  - http://edamontology.org/topic_1312
+  - http://edamontology.org/topic_0749
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3172
   provenance_tier: literature

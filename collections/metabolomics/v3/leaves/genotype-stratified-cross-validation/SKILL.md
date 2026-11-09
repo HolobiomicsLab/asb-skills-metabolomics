@@ -12,7 +12,7 @@ when_to_use_negative:
 - When the goal is unsupervised exploration of genotype-dysregulated molecular classes
   — use PCA-based quality control and cross-tissue molecular networking instead of
   PLS-DA classification
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0219
@@ -42,7 +42,7 @@ metadata:
   - GNPS/MassIVE
   - Qiita
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0219

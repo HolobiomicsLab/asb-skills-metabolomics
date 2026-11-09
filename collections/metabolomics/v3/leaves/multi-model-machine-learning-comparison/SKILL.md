@@ -11,7 +11,7 @@ when_to_use_negative:
   closely eluting isomers in typical 12 min UPLC methods.
 - Your chromatographic method differs from the trained HILIC/RPLC setup and you have
   no matching training data to refit models.
-edam_operation: http://edamontology.org/operation_3988
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_2269
@@ -60,7 +60,7 @@ metadata:
   - ggplot2
   - h2o
   - randomForest
-  edam_operation: http://edamontology.org/operation_3988
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_2269

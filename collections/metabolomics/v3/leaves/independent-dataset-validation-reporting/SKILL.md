@@ -11,8 +11,7 @@ when_to_use_negative:
 - The dataset lacks idMS/MS (indiscriminant tandem MS) data, so MS/MS spectral similarity
   — the primary validation metric here — cannot be computed
 edam_operation: http://edamontology.org/operation_2428
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: RAMClustR
   role: Method under test; unsupervised post-XCMS feature clustering evaluated on
@@ -45,8 +44,7 @@ metadata:
   - RAMClustR
   - XCMS
   edam_operation: http://edamontology.org/operation_2428
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

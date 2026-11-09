@@ -11,8 +11,7 @@ when_to_use_negative:
 - The metric's boundary conditions cannot be stated analytically (no known worst/best
   case), since the derivation of GSI=0 and GSI=1 anchors is the core of the method
 edam_operation: http://edamontology.org/operation_3629
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: bago
   role: Provides the sepEfficiency(rtSeq, rtRange) function whose SQRTI-based GSI
@@ -44,8 +43,7 @@ metadata:
   - Python
   - bago
   edam_operation: http://edamontology.org/operation_3629
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

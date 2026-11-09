@@ -12,7 +12,6 @@ when_to_use_negative:
   for classification problems, not format transformation.
 edam_operation: http://edamontology.org/operation_0252
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3174
 tools:
 - name: CloMet
@@ -44,7 +43,6 @@ metadata:
   - Metabolomics Workbench
   edam_operation: http://edamontology.org/operation_0252
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3174
   provenance_tier: literature
 license: CC-BY-4.0

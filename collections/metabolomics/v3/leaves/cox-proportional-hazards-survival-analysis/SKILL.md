@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0314
 edam_topics:
 - http://edamontology.org/topic_2269
-- http://edamontology.org/topic_3270
 tools:
 - name: R
   role: Environment for per-cohort Cox proportional hazards fitting and the stepwise
@@ -40,7 +39,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0314
   edam_topics:
   - http://edamontology.org/topic_2269
-  - http://edamontology.org/topic_3270
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

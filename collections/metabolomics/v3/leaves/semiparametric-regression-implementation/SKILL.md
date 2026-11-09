@@ -11,7 +11,7 @@ when_to_use_negative:
   testing performance' on disconnected graphs
 - When the goal is simply associating a phenotype with individual metabolites rather
   than pathway-level tests
-edam_operation: http://edamontology.org/operation_3287
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3174
@@ -49,7 +49,7 @@ metadata:
   - R
   - igraph
   - impute (R package)
-  edam_operation: http://edamontology.org/operation_3287
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3174

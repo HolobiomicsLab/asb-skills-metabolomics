@@ -10,7 +10,7 @@ when_to_use_negative:
   in the notame workflow) rather than a simple random-below-minimum replacement
 - Input is raw instrument data or an MS-DIAL peak-picking table not yet reduced to
   the feature abundance matrix that filtering() operates on
-edam_operation: http://edamontology.org/operation_3914
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -37,7 +37,7 @@ metadata:
   tools:
   - R
   - margheRita
-  edam_operation: http://edamontology.org/operation_3914
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

@@ -13,7 +13,7 @@ when_to_use_negative:
 - No trained transformer model weights are available and training from scratch is
   required; this skill assumes inference and post-hoc attribution on a pre-existing
   checkpoint.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3474
@@ -52,7 +52,7 @@ metadata:
   - LipiDetective
   - PyTorch
   - h5py
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3474

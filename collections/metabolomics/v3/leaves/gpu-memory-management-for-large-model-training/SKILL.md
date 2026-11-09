@@ -8,7 +8,7 @@ when_to_use_negative:
   fit and the released 13B-backbone pipeline cannot be run as documented
 - Goal is inference/evaluation only with the provided checkpoint — no training memory
   budgeting or iters_per_epoch tuning is needed
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -42,7 +42,7 @@ metadata:
   - nvidia-smi
   - pip
   - torchrun
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

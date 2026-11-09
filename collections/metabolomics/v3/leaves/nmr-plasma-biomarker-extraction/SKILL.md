@@ -12,7 +12,6 @@ when_to_use_negative:
   correlation) rather than downstream biomarker statistics
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0153
 tools:
 - name: NMRQNet
@@ -45,7 +44,6 @@ metadata:
   - NMRQNet
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0153
   provenance_tier: literature
 license: CC-BY-4.0

@@ -13,7 +13,7 @@ when_to_use_negative:
 - The study cohort is large enough that p-values are indistinguishable between methods
   (the paper notes differences were only demonstrable on random subsets of 100–500
   subjects from datasets with over 1,000 observations).
-edam_operation: http://edamontology.org/operation_0281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3396
 - http://edamontology.org/topic_0611
@@ -48,7 +48,7 @@ metadata:
   - KEGGREST
   - R
   - igraph
-  edam_operation: http://edamontology.org/operation_0281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3396
   - http://edamontology.org/topic_0611

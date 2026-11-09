@@ -11,7 +11,7 @@ when_to_use_negative:
 - You want to simulate from observed data via resampling while accounting for cross-metabolite
   correlations — the article proposes this as a different, more realistic simulation
   strategy not covered by the sine + Gaussian-noise scheme
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -44,7 +44,7 @@ metadata:
   - rGAM
   - rLOESS
   - tGAM
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

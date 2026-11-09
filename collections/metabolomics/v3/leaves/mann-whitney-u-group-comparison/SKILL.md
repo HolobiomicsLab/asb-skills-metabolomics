@@ -12,7 +12,7 @@ when_to_use_negative:
   definitions.
 - When comparing more than two groups or needing multivariate interaction modelling
   — MWU is a two-sample univariate test.
-edam_operation: http://edamontology.org/operation_3462
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3360
@@ -45,7 +45,7 @@ metadata:
   - Python
   - SciKitLearn
   - sspa (py-ssPA)
-  edam_operation: http://edamontology.org/operation_3462
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3360

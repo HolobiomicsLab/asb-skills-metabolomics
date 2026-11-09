@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3364
 tools:
 - name: MongoDB
   role: Database into which generated compounds and reactions from Pickaxe runs are
@@ -49,7 +48,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3364
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

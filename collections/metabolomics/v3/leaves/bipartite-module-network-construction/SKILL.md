@@ -12,7 +12,7 @@ when_to_use_negative:
   modules, so this biclustering network is inappropriate for that goal.
 - The score matrix has fewer features than the number of consensus clusters implied
   by the delta-area threshold, making the 8x8 module structure degenerate.
-edam_operation: http://edamontology.org/operation_3452
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_3172
@@ -45,7 +45,7 @@ metadata:
   - BiomeNED
   - MelonnPan
   - MiMeNet
-  edam_operation: http://edamontology.org/operation_3452
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_3172

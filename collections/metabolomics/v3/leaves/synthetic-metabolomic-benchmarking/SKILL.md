@@ -12,7 +12,6 @@ when_to_use_negative:
   benchmarking is only meaningful relative to the ground truth and, ideally, a competing
   aligner such as the Join aligner
 edam_topics:
-- http://edamontology.org/topic_3822
 - http://edamontology.org/topic_0092
 tools:
 - name: MZmine 2
@@ -41,7 +40,6 @@ metadata:
   - MZmine 2
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3822
   - http://edamontology.org/topic_0092
   provenance_tier: literature
 license: CC-BY-4.0

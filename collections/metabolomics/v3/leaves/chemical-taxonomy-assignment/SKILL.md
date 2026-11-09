@@ -13,7 +13,7 @@ when_to_use_negative:
   typically cover only 1–20% of features and ClassyFire operates on annotated structures.
 - Input is a feature table or MGF of raw MS/MS data rather than the merged feature-data
   artifact output by qemistree make-hierarchy.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0154
@@ -62,7 +62,7 @@ metadata:
   - Qemistree
   - SIRIUS
   - iTOL
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0154

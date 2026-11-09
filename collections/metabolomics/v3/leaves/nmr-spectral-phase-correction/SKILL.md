@@ -10,8 +10,7 @@ when_to_use_negative:
   baseline regions, so the objective function cannot be defined
 - The data are 2D-NMR spectra, for which this baseline-edge ph0/ph1 optimisation scheme
   is not described
-edam_topics:
-- http://edamontology.org/topic_0523
+edam_topics: []
 tools:
 - name: MetaboLabPy 0.9.66
   role: Provides the nmrData object and the automated phase correction algorithm for
@@ -44,8 +43,7 @@ metadata:
   - pandas
   - scipy
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0523
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

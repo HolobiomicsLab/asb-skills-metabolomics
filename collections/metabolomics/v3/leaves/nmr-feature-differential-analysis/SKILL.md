@@ -12,7 +12,6 @@ when_to_use_negative:
   rather than per-feature univariate class comparison
 edam_operation: http://edamontology.org/operation_3223
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0203
 tools:
 - name: speaq 2.0
@@ -45,7 +44,6 @@ metadata:
   - speaq R package
   edam_operation: http://edamontology.org/operation_3223
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

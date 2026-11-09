@@ -12,8 +12,7 @@ when_to_use_negative:
 - Peaks already carry Pass/Fail labels and only need evaluation — skip prediction
   and go directly to calculateEvaluationMeasures/MLmetrics.
 edam_operation: http://edamontology.org/operation_2945
-edam_topics:
-- http://edamontology.org/topic_3893
+edam_topics: []
 tools:
 - name: XCMS
   role: Performs peak-picking, retention time correction, and grouping across samples
@@ -49,8 +48,7 @@ metadata:
   - caret
   - fastAdaboost
   edam_operation: http://edamontology.org/operation_2945
-  edam_topics:
-  - http://edamontology.org/topic_3893
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

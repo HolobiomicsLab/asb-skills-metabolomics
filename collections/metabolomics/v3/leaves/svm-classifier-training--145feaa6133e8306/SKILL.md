@@ -9,7 +9,7 @@ when_to_use_negative:
 - The outcome is continuous or multi-class rather than a binary label such as early
   recurrence vs. non-recurrence
 - The cohort is too small after subsetting to support five-fold cross-validation reliably
-edam_operation: http://edamontology.org/operation_3948
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0203
@@ -32,7 +32,7 @@ metadata:
   repo_url: https://github.com/PHOENIXcenter/deeprtalign
   tools:
   - DeepRTAlign
-  edam_operation: http://edamontology.org/operation_3948
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0203

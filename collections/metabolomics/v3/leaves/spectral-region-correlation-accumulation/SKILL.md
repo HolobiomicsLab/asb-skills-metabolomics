@@ -11,7 +11,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3432
 edam_topics:
 - http://edamontology.org/topic_0593
-- http://edamontology.org/topic_3272
 tools:
 - name: NMRQNet
   role: Deep-learning pipeline whose CRNN initial reconstruction is globally shifted
@@ -43,7 +42,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3432
   edam_topics:
   - http://edamontology.org/topic_0593
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

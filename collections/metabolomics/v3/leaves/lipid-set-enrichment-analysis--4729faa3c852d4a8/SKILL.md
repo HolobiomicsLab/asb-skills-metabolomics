@@ -13,7 +13,7 @@ when_to_use_negative:
 - 'The data are multi-group: enrichment interpretation in the surfaced case study
   is case-versus-control, and Network/Machine-learning-style two-group constraints
   signal this package''s two-group orientation'
-edam_operation: http://edamontology.org/operation_3932
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 - http://edamontology.org/topic_0091
@@ -43,7 +43,7 @@ metadata:
   - LipidSigR
   - R
   - dplyr
-  edam_operation: http://edamontology.org/operation_3932
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   - http://edamontology.org/topic_0091

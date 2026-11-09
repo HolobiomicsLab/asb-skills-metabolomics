@@ -12,8 +12,7 @@ when_to_use_negative:
   workflow), so GNPS edge tables and MS2LDA job summaries cannot be matched
 - You need novel substructure discovery rather than validation of already-annotated
   motifs — create a new LDA experiment on ms2lda.org instead of evaluating consistency
-edam_topics:
-- http://edamontology.org/topic_3364
+edam_topics: []
 tools:
 - name: pyMolNetEnhancer
   role: Python module used to filter Mass2Motif–document relations (prob=0.01, overlap=0.3),
@@ -48,8 +47,7 @@ metadata:
   - MS2LDA
   - pyMolNetEnhancer
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3364
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   prioritization against known reference annotations.
 - The analysis requires non-KEGG reference databases such as HMDB, Lipid Maps or T3DB,
   which mWISE does not offer data to annotate against.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3391
 - http://edamontology.org/topic_0091
@@ -49,7 +49,7 @@ metadata:
   - R
   - mWISE
   - xMSannotator
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3391
   - http://edamontology.org/topic_0091

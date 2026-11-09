@@ -11,7 +11,7 @@ when_to_use_negative:
   information'
 - When only local, pathway-by-pathway comparison is of interest rather than global
   organism grouping
-edam_operation: http://edamontology.org/operation_3613
+edam_operation: null
 tools:
 - name: MetNet
   role: Reconstructs each organism's metabolic network from KEGG KGML files and computes
@@ -38,7 +38,7 @@ metadata:
   - Java
   - KEGG database
   - MetNet
-  edam_operation: http://edamontology.org/operation_3613
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

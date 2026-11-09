@@ -10,7 +10,7 @@ when_to_use_negative:
   MGF, JSON, or metabolomics-USI.
 - The task is spectra visualization; the article points to spectrum_utils as the lightweight,
   visualization-focused package instead.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -39,7 +39,7 @@ metadata:
   - matchms
   - pymzml
   - pyteomics
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

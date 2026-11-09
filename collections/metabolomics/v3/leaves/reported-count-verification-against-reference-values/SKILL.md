@@ -11,8 +11,7 @@ when_to_use_negative:
   time points have not yet been recomputed — the 240 min threshold cannot be applied
   without the stability time point table.
 edam_operation: http://edamontology.org/operation_0335
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: PRIMA Panel
   role: Source of the stability time point data (Data tab) whose per-parameter time
@@ -44,8 +43,7 @@ metadata:
   - R
   - Shiny
   edam_operation: http://edamontology.org/operation_0335
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

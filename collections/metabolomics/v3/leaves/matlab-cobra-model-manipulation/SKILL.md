@@ -12,7 +12,6 @@ when_to_use_negative:
   for this workflow
 edam_operation: http://edamontology.org/operation_3660
 edam_topics:
-- http://edamontology.org/topic_3953
 - http://edamontology.org/topic_2259
 - http://edamontology.org/topic_0196
 tools:
@@ -57,7 +56,6 @@ metadata:
   - RAVEN 2.0
   edam_operation: http://edamontology.org/operation_3660
   edam_topics:
-  - http://edamontology.org/topic_3953
   - http://edamontology.org/topic_2259
   - http://edamontology.org/topic_0196
   provenance_tier: literature

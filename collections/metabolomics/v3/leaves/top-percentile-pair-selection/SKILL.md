@@ -14,7 +14,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: matchms
   role: computes cosine and modified cosine similarity matrices and handles peak/loss
@@ -46,7 +46,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

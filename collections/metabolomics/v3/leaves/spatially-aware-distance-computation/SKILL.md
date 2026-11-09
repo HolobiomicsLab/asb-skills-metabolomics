@@ -12,8 +12,7 @@ when_to_use_negative:
 - The input is already a feature/sample table with no spatial coordinates, so pixel
   neighborhoods cannot inform the distance
 edam_operation: http://edamontology.org/operation_2939
-edam_topics:
-- http://edamontology.org/topic_3621
+edam_topics: []
 tools:
 - name: Cardinal
   role: Provides spatialShrunkenCentroids() with the Spatially-Aware (method='gaussian')
@@ -45,8 +44,7 @@ metadata:
   - R
   - matter
   edam_operation: http://edamontology.org/operation_2939
-  edam_topics:
-  - http://edamontology.org/topic_3621
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -10,7 +10,7 @@ when_to_use_negative:
   — MS2 data would be missing and data evaluation cannot proceed
 edam_operation: http://edamontology.org/operation_3214
 edam_topics:
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: pyOpenMS
   role: Performs feature detection on the ddMS2 mzML data and supports the MS2 handling
@@ -43,7 +43,7 @@ metadata:
   - pyOpenMS
   edam_operation: http://edamontology.org/operation_3214
   edam_topics:
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

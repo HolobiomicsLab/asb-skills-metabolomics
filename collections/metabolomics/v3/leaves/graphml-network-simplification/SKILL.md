@@ -10,7 +10,7 @@ when_to_use_negative:
   mining step, not network simplification
 - The network must retain weighted multi-edges or self-edges, since simplification
   deliberately removes them
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3383
 - http://edamontology.org/topic_3318
@@ -41,7 +41,7 @@ metadata:
   - R
   - igraph
   - mineMS2
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3383
   - http://edamontology.org/topic_3318

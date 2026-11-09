@@ -14,7 +14,6 @@ when_to_use_negative:
   LC-MS data only.
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3522
 tools:
 - name: MZmine 2
   role: Modular open-source framework whose peak list alignment module implements
@@ -44,7 +43,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3522
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

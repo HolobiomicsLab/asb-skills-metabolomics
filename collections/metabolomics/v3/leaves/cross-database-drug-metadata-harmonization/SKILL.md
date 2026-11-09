@@ -9,7 +9,7 @@ when_to_use_negative:
 - When a targeted method with purchased reference standards is required and metabolite
   reference spectra must be experimentally acquired rather than aggregated from public
   libraries
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_3520
@@ -30,7 +30,7 @@ metadata:
   license_tier: open
   tools:
   - GNPS (Global Natural Product Social Molecular Networking)
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_3520

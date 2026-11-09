@@ -12,8 +12,7 @@ when_to_use_negative:
 - The goal is Metabolomics Workbench retrieval or normalization itself rather than
   structuring the lipid species identifiers
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3820
+edam_topics: []
 tools:
 - name: ADViSELipidomics
   role: Shiny app whose preprocessing module parses lipid species identifiers using
@@ -49,8 +48,7 @@ metadata:
   - Metabolomics Workbench
   - metabolomicsWorkbenchR
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3820
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

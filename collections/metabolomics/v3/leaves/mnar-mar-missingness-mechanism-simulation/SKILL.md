@@ -11,7 +11,7 @@ when_to_use_negative:
 - When sample size or missingness percentage falls below the evaluated ranges (e.g.,
   under 20 samples or below 9% missing), as the paper notes results for such cases
   were only referenced as 'data not shown'
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -40,7 +40,7 @@ metadata:
   - Multi-factor ANOVA
   - Newton-Raphson optimization
   - R (runtime-implemented simulation and imputation scripts)
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

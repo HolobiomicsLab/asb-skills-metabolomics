@@ -8,7 +8,7 @@ when_to_use_negative:
   use MetaboPAC_*_noisy.m with timepoints [50 15] and CoV [5 15] instead
 - When the dataset contains real experimental metabolomics measurements with missing
   values or instrument noise rather than simulated noiseless profiles
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -34,7 +34,7 @@ metadata:
   tools:
   - MATLAB
   - MetaboPAC
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

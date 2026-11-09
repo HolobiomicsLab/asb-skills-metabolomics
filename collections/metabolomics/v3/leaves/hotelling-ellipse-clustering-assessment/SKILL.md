@@ -11,7 +11,7 @@ when_to_use_negative:
 - Analysis goal is metabolite-phenotype association rather than analytical-reproducibility
   QC; MWAS models (partial correlations, generalized linear models) are the appropriate
   next skill
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0605
@@ -45,7 +45,7 @@ metadata:
   - R
   - knitr
   - rmarkdown
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0605

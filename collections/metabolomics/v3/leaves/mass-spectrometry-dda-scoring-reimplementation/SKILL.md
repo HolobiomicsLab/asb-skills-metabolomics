@@ -10,7 +10,7 @@ when_to_use_negative:
   per m/z (e.g., first-pass analysis with no exclusion history)
 - Input is already an aggregated feature table without time-resolved scan-level intensities,
   since w(t) is defined per ion observed at time t relative to tf
-edam_operation: http://edamontology.org/operation_3212
+edam_operation: http://edamontology.org/operation_3211
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
@@ -39,7 +39,7 @@ metadata:
   - MZmine 2
   - ViMMS
   - XCMS
-  edam_operation: http://edamontology.org/operation_3212
+  edam_operation: http://edamontology.org/operation_3211
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092

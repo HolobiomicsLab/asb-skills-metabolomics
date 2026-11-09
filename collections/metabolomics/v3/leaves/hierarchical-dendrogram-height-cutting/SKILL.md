@@ -12,7 +12,6 @@ when_to_use_negative:
   not been quantified, since representative selection depends on per-feature missingness.
 edam_operation: http://edamontology.org/operation_3478
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0091
 tools:
 - name: metaboprep
@@ -42,7 +41,6 @@ metadata:
   - metaboprep
   edam_operation: http://edamontology.org/operation_3478
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

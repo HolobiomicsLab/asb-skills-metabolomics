@@ -12,8 +12,7 @@ when_to_use_negative:
   only).
 - Data-dependent acquisition (DDA) data, where coeluting fragment spectra do not need
   DIA-style deconvolution.
-edam_topics:
-- http://edamontology.org/topic_3822
+edam_topics: []
 tools:
 - name: MS-DIAL
   role: Console application (MSDIALCUI.exe, 'lcms' mode) run twice from the same method
@@ -48,8 +47,7 @@ metadata:
   - MS-DIAL
   - MS2Dec
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3822
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

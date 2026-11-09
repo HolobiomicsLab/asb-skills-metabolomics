@@ -14,7 +14,7 @@ when_to_use_negative:
 - When biological/clinical interpretability of which m/z regions drive classification
   is the primary goal — the article notes the direct biological interpretation of
   learned features has not been deeply investigated.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3474
@@ -45,7 +45,7 @@ metadata:
   - WoodFY/MSMCE
   - thop
   - torchinfo
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3474

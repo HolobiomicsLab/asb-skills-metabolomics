@@ -10,7 +10,7 @@ when_to_use_negative:
   this enrichment benchmarking design do not directly apply
 - The goal is continuous-score evaluation rather than categorical candidate-vs-non-candidate
   enrichment; a 2x2 Fisher test is not appropriate
-edam_operation: http://edamontology.org/operation_0280
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0092
@@ -38,7 +38,7 @@ metadata:
   tools:
   - ProGeM
   - R
-  edam_operation: http://edamontology.org/operation_0280
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0092

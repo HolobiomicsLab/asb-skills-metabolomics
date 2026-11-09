@@ -11,7 +11,7 @@ when_to_use_negative:
   this skill produces reaction-set records, not network plots.
 - Metabolic databases other than KEGG (e.g. BioCyc, BioModels) are the data source;
   the KGML parsing here is KEGG-specific.
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_0780
@@ -43,7 +43,7 @@ metadata:
   - KEGG database
   - MetNet
   - guava-19.0.jar
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_0780

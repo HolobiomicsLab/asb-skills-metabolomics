@@ -13,7 +13,6 @@ when_to_use_negative:
   poorly suited
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
-- http://edamontology.org/topic_3820
 - http://edamontology.org/topic_3474
 tools:
 - name: MS2DeepScore 2.0
@@ -51,7 +50,6 @@ metadata:
   - ms2deepscore (SettingsMS2Deepscore)
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
-  - http://edamontology.org/topic_3820
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

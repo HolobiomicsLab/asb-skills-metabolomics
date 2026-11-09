@@ -10,7 +10,7 @@ when_to_use_negative:
   than a microbiome-derived feature; use the metabolomics differential pipeline instead
 - Data comes from longitudinal fecal samples without animal IDs (collected randomly
   per cage), where single-animal developmental inference is not supported
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 tools:
@@ -30,7 +30,7 @@ metadata:
   license_tier: open
   tools:
   - Qiita
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   provenance_tier: literature

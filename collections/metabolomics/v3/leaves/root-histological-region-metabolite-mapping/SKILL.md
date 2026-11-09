@@ -11,7 +11,6 @@ when_to_use_negative:
 - The tissue geometry is not a linear developmental axis (the DIMPLE design leverages
   'the linear developmental axis' of the root)
 edam_topics:
-- http://edamontology.org/topic_3611
 - http://edamontology.org/topic_3382
 tools:
 - name: DESI-MSI
@@ -56,7 +55,6 @@ metadata:
   - Metlin Classic
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3611
   - http://edamontology.org/topic_3382
   provenance_tier: literature
 license: CC-BY-4.0

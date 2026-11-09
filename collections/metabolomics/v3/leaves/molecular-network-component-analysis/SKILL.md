@@ -12,7 +12,7 @@ when_to_use_negative:
   the component
 - Probabilistic substructure topics are preferred over exact graph-structured patterns
   — MS2LDA/MolNetEnhancer is the alternative pipeline
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -47,7 +47,7 @@ metadata:
   - R
   - igraph
   - mineMS2
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

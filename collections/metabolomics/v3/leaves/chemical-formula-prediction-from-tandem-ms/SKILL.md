@@ -11,7 +11,7 @@ when_to_use_negative:
   data filters
 - Goal is chimeric (co-eluting) spectrum deconvolution — FIDDLE's performance decreases
   as spectral mixing increases
-edam_operation: http://edamontology.org/operation_0395
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3172
@@ -55,7 +55,7 @@ metadata:
   - Q-TOF
   - SIRIUS
   - msfiddle
-  edam_operation: http://edamontology.org/operation_0395
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3172

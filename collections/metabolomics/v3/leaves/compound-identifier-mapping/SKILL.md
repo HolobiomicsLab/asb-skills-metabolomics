@@ -12,7 +12,6 @@ when_to_use_negative:
   making mapping uninformative.
 edam_operation: http://edamontology.org/operation_0226
 edam_topics:
-- http://edamontology.org/topic_3331
 - http://edamontology.org/topic_3315
 tools:
 - name: webchem
@@ -50,7 +49,6 @@ metadata:
   - webchem
   edam_operation: http://edamontology.org/operation_0226
   edam_topics:
-  - http://edamontology.org/topic_3331
   - http://edamontology.org/topic_3315
   provenance_tier: literature
 license: CC-BY-4.0

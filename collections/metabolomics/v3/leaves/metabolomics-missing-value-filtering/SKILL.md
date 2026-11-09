@@ -11,7 +11,7 @@ when_to_use_negative:
   and filtered), so re-applying the 20%/70% rules would double-filter
 - The goal is general QC (signal drift, carryover, outlier removal) rather than specifically
   missing-data handling — use the full QComics sequential workflow instead
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_3520
@@ -41,7 +41,7 @@ metadata:
   - QComics
   - R
   - RStudio
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_3520

@@ -12,7 +12,7 @@ when_to_use_negative:
   ≈ 2.7) and HILIC generalizability is explicitly future work.
 - Comparing a single compound's retention value against a threshold (e.g. RT outlier
   detection) rather than pairwise ranking across compounds in a dataset.
-edam_operation: http://edamontology.org/operation_0220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -44,7 +44,7 @@ metadata:
   - PyTorch
   - ROASMI
   - chemprop
-  edam_operation: http://edamontology.org/operation_0220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
   model has been implemented
 - Only qualitative peak identification is needed — the skill targets quantitative
   parameter extraction (intensity, area, chemical shift, J), not annotation alone
-edam_operation: http://edamontology.org/operation_3790
+edam_operation: null
 tools:
 - name: MultiNMRFit
   role: Provides the built-in mixed Gaussian-Lorentzian multiplet signal models (singlet
@@ -39,7 +39,7 @@ metadata:
   - Python
   - Python 3.8
   - pip
-  edam_operation: http://edamontology.org/operation_3790
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

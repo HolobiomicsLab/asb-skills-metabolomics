@@ -11,7 +11,7 @@ when_to_use_negative:
 - Analysis goal is metabolite annotation or differential analysis rather than pre-analysis
   quality assessment — use SMAnalyst's annotation or spatial/differential modules
   instead
-edam_operation: http://edamontology.org/operation_4096
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -50,7 +50,7 @@ metadata:
   - ggplot2
   - spatstat
   - tidyverse
-  edam_operation: http://edamontology.org/operation_4096
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

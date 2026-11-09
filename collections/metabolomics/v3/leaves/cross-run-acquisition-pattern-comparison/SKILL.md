@@ -12,7 +12,6 @@ when_to_use_negative:
   method-reading calls are unsupported there
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0092
 tools:
 - name: MetaXtract
@@ -49,7 +48,6 @@ metadata:
   - RawFileReader
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0092
   provenance_tier: literature
 license: CC-BY-4.0

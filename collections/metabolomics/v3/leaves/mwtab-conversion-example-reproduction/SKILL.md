@@ -12,8 +12,7 @@ when_to_use_negative:
   Protocol Dependent Schema, or format-specific schema — fix extraction errors before
   converting
 edam_operation: http://edamontology.org/operation_0335
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MESSES
   role: Provides the extract, validate, and convert commands; its convert command
@@ -43,8 +42,7 @@ metadata:
   - jsonschema
   - mwtab
   edam_operation: http://edamontology.org/operation_0335
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

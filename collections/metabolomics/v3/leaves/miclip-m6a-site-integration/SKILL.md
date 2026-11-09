@@ -10,7 +10,7 @@ when_to_use_negative:
 - The pipeline already folds m6A sites into a generic 'transcriptomics' profile count
   — GutUDB's convention requires a dedicated epitranscriptomics entry separate from
   the 7.9 million RNA-seq profiles.
-edam_operation: http://edamontology.org/operation_3804
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0749
 - http://edamontology.org/topic_3307
@@ -38,7 +38,7 @@ metadata:
   tools:
   - GutUDB
   - Python
-  edam_operation: http://edamontology.org/operation_3804
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0749
   - http://edamontology.org/topic_3307

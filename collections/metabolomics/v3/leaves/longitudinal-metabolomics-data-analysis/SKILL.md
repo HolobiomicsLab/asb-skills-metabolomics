@@ -14,7 +14,6 @@ when_to_use_negative:
   must be completed first
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0154
 tools:
 - name: MetaboLINK (PCA-GLASSO algorithm)
@@ -54,7 +53,6 @@ metadata:
   - scikit-learn
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0154
   provenance_tier: literature
 license: CC-BY-4.0

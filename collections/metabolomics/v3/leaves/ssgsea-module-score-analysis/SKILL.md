@@ -12,7 +12,7 @@ when_to_use_negative:
   instead
 - Metabolomics data lack matched knockdown/control conditions, making fold-change
   computation and the correlation undefined
-edam_operation: http://edamontology.org/operation_3082
+edam_operation: null
 tools:
 - name: scFEA
   role: Provides the underlying module framework and the validated Pa03c matched scRNA-seq/metabolomics
@@ -42,7 +42,7 @@ metadata:
   tools:
   - FLUXestimator
   - scFEA
-  edam_operation: http://edamontology.org/operation_3082
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

@@ -11,7 +11,7 @@ when_to_use_negative:
   metabolomics-driven gap identification.
 - The analysis targets a non-metabolic annotation gap (e.g. missing genes in a pathway
   file) rather than reactions absent from KEGG purine, pyrimidine, or nicotinate metabolism.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 tools:
@@ -43,7 +43,7 @@ metadata:
   tools:
   - MINNO
   - NCBI-RefSeq
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   provenance_tier: literature

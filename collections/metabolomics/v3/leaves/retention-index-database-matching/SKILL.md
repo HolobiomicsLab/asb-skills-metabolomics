@@ -12,7 +12,7 @@ when_to_use_negative:
 - When no retention-index standard series or reference database with retention indices
   is available; in that case use Mass2MzParam (m/z-only) matching, accepting that
   most peaks will match several compounds.
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
@@ -45,7 +45,7 @@ metadata:
   - MetaboAnnotationTutorials
   - MetaboCoreUtils
   - R
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092

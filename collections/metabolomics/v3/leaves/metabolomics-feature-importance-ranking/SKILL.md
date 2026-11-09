@@ -12,8 +12,7 @@ when_to_use_negative:
 - Input metabolite values have not yet been checked for numeric type and missing-value
   imputation in MeTEor's filter/imputation steps
 edam_operation: http://edamontology.org/operation_2939
-edam_topics:
-- http://edamontology.org/topic_0521
+edam_topics: []
 tools:
 - name: MeTEor
   role: R Shiny app whose Prediction module implements the XGBoost binary classifier;
@@ -45,8 +44,7 @@ metadata:
   - caret
   - pROC
   edam_operation: http://edamontology.org/operation_2939
-  edam_topics:
-  - http://edamontology.org/topic_0521
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

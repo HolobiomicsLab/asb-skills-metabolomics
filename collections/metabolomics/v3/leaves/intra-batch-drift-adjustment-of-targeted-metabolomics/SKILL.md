@@ -12,7 +12,7 @@ when_to_use_negative:
 - Drift is attributable to pooled-QC degradation over months/years between batches
   rather than run-order effects within a single plate; the intra-batch smoother does
   not address that assumption failure
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -42,7 +42,7 @@ metadata:
   - MASS
   - R
   - hRUV
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

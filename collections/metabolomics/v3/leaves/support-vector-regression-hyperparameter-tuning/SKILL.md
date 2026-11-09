@@ -10,7 +10,7 @@ when_to_use_negative:
   against CCSbase, DeepCCS, AllCCS) rather than repeated random 70/30 resampling
 - When the user cannot work in Python/scikit-learn — the workflow requires programming
   familiarity and sklearn V1.0.2 or later
-edam_operation: http://edamontology.org/operation_3949
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0154
@@ -54,7 +54,7 @@ metadata:
   - Python
   - RDKit
   - SciKit-Learn
-  edam_operation: http://edamontology.org/operation_3949
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0154

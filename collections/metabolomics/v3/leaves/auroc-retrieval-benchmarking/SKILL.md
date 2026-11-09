@@ -10,7 +10,7 @@ when_to_use_negative:
   label matrix or the 10 ppm candidate-pair filter cannot be constructed
 - You are comparing similarity metrics against each other (e.g. cosine vs. spectral
   entropy) rather than measuring how preprocessing variants change cosine-based discrimination
-edam_operation: http://edamontology.org/operation_3814
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -50,7 +50,7 @@ metadata:
   - matchms
   - spectral_denoising
   - spectraverse-analysis
-  edam_operation: http://edamontology.org/operation_3814
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

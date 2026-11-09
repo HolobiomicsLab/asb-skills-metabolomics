@@ -10,7 +10,7 @@ when_to_use_negative:
   than global index computation and cross-network comparison.
 - The question concerns differential edges between two specific networks (intersection/union/difference)
   rather than per-sample topological index trajectories.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 tools:
 - name: MetaNet
   role: Provides extract_sample_net(), net_par() (global topological indices with
@@ -35,7 +35,7 @@ metadata:
   - MetaNet
   - R
   - igraph
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

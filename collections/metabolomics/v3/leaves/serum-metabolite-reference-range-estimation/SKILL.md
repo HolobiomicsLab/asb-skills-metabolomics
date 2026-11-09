@@ -14,7 +14,6 @@ when_to_use_negative:
   fidelity is not assured.
 edam_operation: http://edamontology.org/operation_3435
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0218
 - http://edamontology.org/topic_3570
 tools:
@@ -55,7 +54,6 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_3435
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0218
   - http://edamontology.org/topic_3570
   provenance_tier: literature

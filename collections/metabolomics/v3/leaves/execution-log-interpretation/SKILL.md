@@ -12,7 +12,6 @@ when_to_use_negative:
 - The run is not Nextflow-based — e.g. manually run MS-DIAL or MS-FLO produces no
   execution_report.html or execution_timeline.html to interpret
 edam_topics:
-- http://edamontology.org/topic_3885
 - http://edamontology.org/topic_3172
 tools:
 - name: Nextflow
@@ -41,7 +40,6 @@ metadata:
   - Nextflow4MS-DIAL
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3885
   - http://edamontology.org/topic_3172
   provenance_tier: literature
 license: CC-BY-4.0

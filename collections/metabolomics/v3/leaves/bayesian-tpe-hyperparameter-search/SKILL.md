@@ -11,7 +11,7 @@ when_to_use_negative:
   not the RT-predictor TPE search.
 - Your targets or evaluation metric differ fundamentally (e.g., classification of
   non-retained vs retained molecules is a separate step, not what the TPE search optimizes).
-edam_operation: http://edamontology.org/operation_2976
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -43,7 +43,7 @@ metadata:
   - RDKit
   - alvaDesc
   - cmmrt
-  edam_operation: http://edamontology.org/operation_2976
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

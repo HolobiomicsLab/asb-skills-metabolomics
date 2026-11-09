@@ -15,7 +15,6 @@ edam_operation: http://edamontology.org/operation_3659
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3459
 tools:
 - name: FeatureFinderMetabo
   role: Detects mass traces and assembles them into features (m/z spacing, co-elution,
@@ -60,7 +59,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3459
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

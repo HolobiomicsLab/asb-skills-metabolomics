@@ -10,7 +10,7 @@ when_to_use_negative:
   calibration available), so a linear correction cannot be justified.
 - The analysis target is CCS prediction via machine learning models (e.g., DeepCCS
   or LipidCCS) rather than calibration of experimental TIMS measurements.
-edam_operation: http://edamontology.org/operation_3539
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -49,7 +49,7 @@ metadata:
   - Python
   - SciPy
   - pandas
-  edam_operation: http://edamontology.org/operation_3539
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

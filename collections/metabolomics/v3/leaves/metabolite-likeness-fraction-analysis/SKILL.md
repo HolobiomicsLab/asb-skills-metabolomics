@@ -11,7 +11,7 @@ when_to_use_negative:
   estimation of metabolite-like entry fractions.
 - No pre-calculated fingerprint database is available (ChemDistiller supplies only
   a small set due to size limitations, and full databases must be downloaded separately).
-edam_operation: http://edamontology.org/operation_3914
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_3174
@@ -50,7 +50,7 @@ metadata:
   - Python
   - RDKit
   - SciPy
-  edam_operation: http://edamontology.org/operation_3914
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_3174

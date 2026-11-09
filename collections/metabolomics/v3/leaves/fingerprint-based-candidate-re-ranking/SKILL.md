@@ -13,7 +13,6 @@ when_to_use_negative:
   without de novo candidates to rank
 edam_topics:
 - http://edamontology.org/topic_0092
-- http://edamontology.org/topic_2250
 tools:
 - name: MSNovelist
   role: Generates k candidate SMILES structures and re-ranks them by fingerprint match
@@ -45,7 +44,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
-  - http://edamontology.org/topic_2250
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

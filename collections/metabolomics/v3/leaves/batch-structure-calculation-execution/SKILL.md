@@ -10,7 +10,7 @@ when_to_use_negative:
   NEF files directly.
 - When only a single structure (not an ensemble) is required, as the batch mode generates
   and ranks 200 candidate structures.
-edam_operation: http://edamontology.org/operation_0301
+edam_operation: http://edamontology.org/operation_0303
 edam_topics:
 - http://edamontology.org/topic_0593
 - http://edamontology.org/topic_3300
@@ -37,7 +37,7 @@ metadata:
     url: https://github.com/nanalysis/nmrfx
   tools:
   - NMRFx
-  edam_operation: http://edamontology.org/operation_0301
+  edam_operation: http://edamontology.org/operation_0303
   edam_topics:
   - http://edamontology.org/topic_0593
   - http://edamontology.org/topic_3300

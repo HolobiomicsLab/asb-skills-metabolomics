@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3798
 edam_topics:
 - http://edamontology.org/topic_0593
-- http://edamontology.org/topic_3272
 tools:
 - name: SMolESY-select
   role: Core algorithm that searches SMolESY spectra for spin-system patterns within
@@ -49,7 +48,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3798
   edam_topics:
   - http://edamontology.org/topic_0593
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

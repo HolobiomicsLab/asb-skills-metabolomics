@@ -12,8 +12,7 @@ when_to_use_negative:
 - When chemical/electronic noise removal is needed — spectral_denoising handles that,
   not near-duplicate detection.
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3319
+edam_topics: []
 tools:
 - name: matchms
   role: Parses and loads the MGF spectral library and provides the spectral comparison
@@ -48,8 +47,7 @@ metadata:
   - matchms
   - spectraverse-analysis
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3319
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

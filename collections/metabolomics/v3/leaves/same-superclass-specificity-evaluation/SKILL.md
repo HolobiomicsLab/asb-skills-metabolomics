@@ -10,7 +10,7 @@ when_to_use_negative:
   specificity metric cannot be computed
 - When no decoy MS2 spectra exist, since the paired FDR/Top-3 accuracy evaluation
   (15.8%/36.4%/44.5% FDR for MRN/SMN/FCN) cannot be replicated
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_3172
@@ -51,7 +51,7 @@ metadata:
   - dplyr
   - igraph
   - readr
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_3172

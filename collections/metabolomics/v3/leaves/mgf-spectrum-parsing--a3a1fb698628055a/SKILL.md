@@ -10,7 +10,7 @@ when_to_use_negative:
   matchms importer for that format instead
 - Metadata fields need cleaning/correction (e.g. harmonizing ionmode or checking InChI/SMILES)
   — that belongs to the matchms filtering pipeline, not to load_from_mgf
-edam_operation: http://edamontology.org/operation_0223
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -34,7 +34,7 @@ metadata:
   tools:
   - matchms
   - pyteomics
-  edam_operation: http://edamontology.org/operation_0223
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

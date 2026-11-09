@@ -10,7 +10,7 @@ when_to_use_negative:
   its internals from behavior alone is unreliable.
 - The goal is to change annotation behavior (e.g. different databases or tolerances)
   rather than reproduce it; a reimplementation should faithfully copy, not diverge.
-edam_operation: http://edamontology.org/operation_3754
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0153
@@ -61,7 +61,7 @@ metadata:
   - devtools
   - limma
   - metid
-  edam_operation: http://edamontology.org/operation_3754
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0153

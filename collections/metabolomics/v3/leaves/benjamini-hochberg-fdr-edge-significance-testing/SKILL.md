@@ -11,7 +11,6 @@ when_to_use_negative:
   object — use `c_net_plot` directly instead.
 edam_operation: http://edamontology.org/operation_0279
 edam_topics:
-- http://edamontology.org/topic_1772
 - http://edamontology.org/topic_0154
 tools:
 - name: MetaNet
@@ -46,7 +45,6 @@ metadata:
   - pcutils
   edam_operation: http://edamontology.org/operation_0279
   edam_topics:
-  - http://edamontology.org/topic_1772
   - http://edamontology.org/topic_0154
   provenance_tier: literature
 license: CC-BY-4.0

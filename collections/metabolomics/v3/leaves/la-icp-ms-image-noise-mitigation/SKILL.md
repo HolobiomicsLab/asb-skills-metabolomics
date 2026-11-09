@@ -12,7 +12,7 @@ when_to_use_negative:
   background slice) instead.
 - The artifact spans a contiguous region larger than the chosen local window — a local
   median filter cannot distinguish extended features from noise.
-edam_operation: http://edamontology.org/operation_3807
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -43,7 +43,7 @@ metadata:
   - NumPy
   - Pew2
   - pewlib
-  edam_operation: http://edamontology.org/operation_3807
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

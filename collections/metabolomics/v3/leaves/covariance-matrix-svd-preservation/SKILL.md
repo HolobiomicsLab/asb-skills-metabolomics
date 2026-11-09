@@ -9,9 +9,8 @@ when_to_use_negative:
 - When the target data structure is not covariance-based multivariate normal (e.g.
   count data or compositional data), since the generator assumes a multivariate normal
   draw with covariance Cov.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_3283
 - http://edamontology.org/topic_0091
 tools:
 - name: R
@@ -41,9 +40,8 @@ metadata:
   - GSimp
   - R
   - SVD
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3283
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

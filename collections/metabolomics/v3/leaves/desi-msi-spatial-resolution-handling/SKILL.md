@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3634
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3272
 tools:
 - name: DESI-MSI
   role: Desorption electrospray ionization mass spectrometry imaging modality that
@@ -44,7 +43,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3634
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

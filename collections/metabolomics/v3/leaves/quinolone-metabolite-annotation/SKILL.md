@@ -14,7 +14,7 @@ when_to_use_negative:
 - Comprehensive metabolite annotation of all nodes is expected — on average only ~5–6%
   of MS2 spectra in untargeted metabolomics are annotated, so most nodes will remain
   unannotated 'dark matter'.
-edam_operation: http://edamontology.org/operation_3354
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -50,7 +50,7 @@ metadata:
   - Cytoscape
   - GNPS
   - GNPS Documentation
-  edam_operation: http://edamontology.org/operation_3354
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

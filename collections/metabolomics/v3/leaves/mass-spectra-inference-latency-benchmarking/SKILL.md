@@ -12,7 +12,7 @@ when_to_use_negative:
   sweeps are inapplicable.
 - You only have a small CPU-only environment; latency numbers would not be comparable
   to the GPU-timed A800/RTX-4090 measurements.
-edam_operation: http://edamontology.org/operation_3452
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3418
 tools:
@@ -43,7 +43,7 @@ metadata:
   - FRIGID
   - MIST
   - MS-BART
-  edam_operation: http://edamontology.org/operation_3452
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3418
   provenance_tier: literature

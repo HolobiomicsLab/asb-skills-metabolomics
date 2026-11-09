@@ -8,7 +8,7 @@ when_to_use_negative:
   only reads .mza files, not vendor .d/.raw or mzML inputs directly
 - Downstream analysis expects a feature table or processed peak matrix rather than
   raw per-spectrum jagged arrays
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
@@ -41,7 +41,7 @@ metadata:
   - Python
   - h5py
   - rhdf5
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092

@@ -12,7 +12,7 @@ when_to_use_negative:
   matchMz/matchSpectra on an existing database.
 - When predicted (in silico) MS2 spectra are required as library content — this skill's
   reference build explicitly excludes predicted spectra.
-edam_operation: http://edamontology.org/operation_3759
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -47,7 +47,7 @@ metadata:
   - MetaboAnnotation
   - R
   - Spectra
-  edam_operation: http://edamontology.org/operation_3759
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

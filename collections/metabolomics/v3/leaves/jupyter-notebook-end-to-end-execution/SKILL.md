@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0004
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_2648
 tools:
 - name: Jupyter Notebook
   role: Interactive notebook environment in which the example ICA on cancer omics
@@ -45,7 +44,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0004
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

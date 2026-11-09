@@ -12,8 +12,7 @@ when_to_use_negative:
   distance on molecular graphs, not a fragmentation-similarity metric
 - Only identical-match confirmation is needed without structural comparison, since
   MCES computation carries nontrivial runtime cost for large pair sets
-edam_topics:
-- http://edamontology.org/topic_2250
+edam_topics: []
 tools:
 - name: AlBi-HHU/myopic-mces
   role: Reference implementation for computing myopic Maximum Common Edge Subgraph
@@ -39,8 +38,7 @@ metadata:
   - AlBi-HHU/myopic-mces
   - mzmine
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_2250
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

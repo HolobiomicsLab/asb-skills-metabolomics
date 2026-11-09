@@ -11,7 +11,7 @@ when_to_use_negative:
   PA, PC, PE, PG, PI, PS, SPH, TG) or use adducts not permitted for that class
 - Goal is absolute CCS prediction rather than bias assessment/correction against a
   DTCCSN2 library
-edam_operation: http://edamontology.org/operation_3861
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0157
 - http://edamontology.org/topic_3520
@@ -44,7 +44,7 @@ metadata:
   - R
   - R Markdown
   - Skyline
-  edam_operation: http://edamontology.org/operation_3861
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0157
   - http://edamontology.org/topic_3520

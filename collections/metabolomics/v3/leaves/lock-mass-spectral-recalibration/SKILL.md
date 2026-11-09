@@ -10,8 +10,7 @@ when_to_use_negative:
   timsTOF instruments), which may lead to incorrect signal assignment
 - The task is adduct/isobar correction or internal-standard normalization rather than
   mass-axis stabilization — LipidQMap handles those in separate workflow steps
-edam_topics:
-- http://edamontology.org/topic_0032
+edam_topics: []
 tools:
 - name: LipidQMap
   role: 'Implements lock-mass (online) recalibration in its imzML import dialog: user
@@ -33,8 +32,7 @@ metadata:
   - LipidQMap
   - alexandrovteam/pyimzML
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0032
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

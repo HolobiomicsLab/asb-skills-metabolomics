@@ -11,7 +11,7 @@ when_to_use_negative:
   Voigt Fitter instead of local maxima detection
 - The task is CEST dip pre-analysis or exchange-active residue filtering ('Show ≥2
   Peaks Only'), which are separate COLMARvista workflows
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 tools:
 - name: COLMARvista
   role: Web-based environment hosting the Simple Picker local-maxima peak detection
@@ -39,7 +39,7 @@ metadata:
   - COLMARvista
   - DEEP Picker
   - Voigt Fitter
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,7 +12,7 @@ when_to_use_negative:
   tables.
 - When the analysis targets non-spectral data (e.g., genomics or imaging) outside
   the untargeted metabolomics scope of the paper.
-edam_operation: http://edamontology.org/operation_3669
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -35,7 +35,7 @@ metadata:
   repo_url: https://github.com/Alexander0/molecular_communities
   tools:
   - molecular_communities
-  edam_operation: http://edamontology.org/operation_3669
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

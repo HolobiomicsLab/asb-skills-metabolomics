@@ -10,7 +10,7 @@ when_to_use_negative:
   compound may legitimately appear in both train and test
 - Your dataset is not a cleaned spectral library but raw acquisition data requiring
   peak picking or library search first
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -37,7 +37,7 @@ metadata:
   tools:
   - matchms
   - ms2deepscore
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

@@ -11,8 +11,7 @@ when_to_use_negative:
   out unreliable samples before those steps
 - The input is not element-concentration ionomics data (e.g. already-derived z-score
   tables), where IQR fences on raw ppm values would be meaningless
-edam_topics:
-- http://edamontology.org/topic_3389
+edam_topics: []
 tools:
 - name: IonFlow
   role: R package whose PreProcessing function implements per-ion outlier detection
@@ -43,8 +42,7 @@ metadata:
   - MetaboFlow
   - R
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3389
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

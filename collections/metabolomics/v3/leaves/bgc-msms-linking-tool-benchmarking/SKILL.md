@@ -11,7 +11,6 @@ when_to_use_negative:
 - The input genomes have no BGCs similar to the PoDP training set (e.g. fungal species),
   where tools like NPOmix produce no output at all
 edam_topics:
-- http://edamontology.org/topic_3364
 - http://edamontology.org/topic_0622
 tools:
 - name: NPOmix
@@ -61,7 +60,6 @@ metadata:
   - antiSMASH
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3364
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,8 +12,7 @@ when_to_use_negative:
 - You cannot set up a local PostgreSQL database and download the HMDB/ChEBI/LIPID
   MAPS dump files, since the cache-based algorithm depends on them
 edam_operation: http://edamontology.org/operation_0335
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MetaFetcheR
   role: Core R package implementing the queue-based identifier-resolution algorithm
@@ -53,8 +52,7 @@ metadata:
   - lipidmaps
   - pubchem
   edam_operation: http://edamontology.org/operation_0335
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

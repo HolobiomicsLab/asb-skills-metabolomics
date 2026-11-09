@@ -10,7 +10,7 @@ when_to_use_negative:
   concentration table — Viime's workflow picks up only after preprocessing and annotation
 - The goal is integrating multiple validated datasets via concatenative, mid-level,
   or multi-block fusion — that is the dataset-merge step, not per-table validation
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - Pandas
   - Viime
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

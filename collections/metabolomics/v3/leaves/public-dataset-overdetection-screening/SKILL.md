@@ -13,7 +13,6 @@ when_to_use_negative:
   offsets — dataset testing cannot rescue chemically unexplained offsets.
 edam_operation: http://edamontology.org/operation_3695
 edam_topics:
-- http://edamontology.org/topic_3823
 - http://edamontology.org/topic_0091
 tools:
 - name: GNPS MASST (Fast Search API)
@@ -41,7 +40,6 @@ metadata:
   - robinschmid/microbe_masst (jobs.py batch search)
   edam_operation: http://edamontology.org/operation_3695
   edam_topics:
-  - http://edamontology.org/topic_3823
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

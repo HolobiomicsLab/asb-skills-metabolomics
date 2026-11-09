@@ -9,8 +9,7 @@ when_to_use_negative:
 - The goal is a downstream metabolite-phenotype association model (partial correlations
   or generalized linear models) rather than analytical reproducibility assessment
 edam_operation: http://edamontology.org/operation_2945
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MWASTools
   role: R/Bioconductor package providing QC_CV() and QC_CV_specNMR() to compute per-feature
@@ -33,8 +32,7 @@ metadata:
   - MWASTools
   - R
   edam_operation: http://edamontology.org/operation_2945
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

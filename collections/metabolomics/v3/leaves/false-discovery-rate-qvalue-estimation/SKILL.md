@@ -10,7 +10,7 @@ when_to_use_negative:
   file, making target-decoy FDR estimation impossible
 - The user only needs raw search-engine scores without FDR control; q-value estimation
   adds post-processing overhead with no benefit
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -52,7 +52,7 @@ metadata:
   - Percolator
   - Ristretto
   - ristretto
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

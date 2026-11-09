@@ -12,7 +12,6 @@ when_to_use_negative:
   benchmarking against a known-compound test split
 edam_topics:
 - http://edamontology.org/topic_0121
-- http://edamontology.org/topic_3822
 tools:
 - name: MetFrag
   role: Baseline tool run from the command line on each test spectrum, ranking database
@@ -51,7 +50,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
-  - http://edamontology.org/topic_3822
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

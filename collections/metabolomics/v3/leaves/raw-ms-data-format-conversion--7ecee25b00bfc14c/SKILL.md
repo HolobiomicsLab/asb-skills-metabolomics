@@ -9,7 +9,7 @@ when_to_use_negative:
 - Analysis starts from a preprocessed feature table or extracted data matrix rather
   than raw vendor files, e.g. TidyMS data-curation filters (Rt > 90 s, RSD < 20%,
   D-ratio) on an existing matrix.
-edam_operation: http://edamontology.org/operation_3257
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3174
@@ -44,7 +44,7 @@ metadata:
   - pyopenms
   - scikit-learn
   - statsmodels
-  edam_operation: http://edamontology.org/operation_3257
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3174

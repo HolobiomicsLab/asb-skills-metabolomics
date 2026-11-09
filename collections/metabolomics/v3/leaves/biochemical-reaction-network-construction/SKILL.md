@@ -12,10 +12,9 @@ when_to_use_negative:
   appropriate
 - Input data are non-metabolomic features (genomic, proteomic, clinical) with no chemical
   identity that can be translated to KEGG compounds
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
-- http://edamontology.org/topic_3862
 tools:
 - name: MetaMapR
   role: Shiny/R application that computes the Biochemical Reaction Network from the
@@ -48,10 +47,9 @@ metadata:
   - MetaMapR
   - R
   - Shiny
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
-  - http://edamontology.org/topic_3862
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

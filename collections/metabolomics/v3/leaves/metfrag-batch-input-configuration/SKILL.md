@@ -13,8 +13,7 @@ when_to_use_negative:
 - You need full MetFrag parameterisation beyond candidate lists — Shinyscreen's interface
   intentionally 'hides a lot of the complexity' rather than exposing it
 edam_operation: http://edamontology.org/operation_3632
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: Shinyscreen
   role: Produces the validated compound list and provides the MetFrag configuration
@@ -46,8 +45,7 @@ metadata:
   - Shinyscreen
   - enviPat
   edam_operation: http://edamontology.org/operation_3632
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

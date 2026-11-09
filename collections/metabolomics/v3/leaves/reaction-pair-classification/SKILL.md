@@ -12,7 +12,7 @@ when_to_use_negative:
   the MRN layer.
 - Do not use when no labeled non-RP (negative) examples can be defined for the reaction
   space of interest.
-edam_operation: http://edamontology.org/operation_3823
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3391
 - http://edamontology.org/topic_3474
@@ -48,7 +48,7 @@ metadata:
   - MetDNA3
   - PyTorch
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3823
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3391
   - http://edamontology.org/topic_3474

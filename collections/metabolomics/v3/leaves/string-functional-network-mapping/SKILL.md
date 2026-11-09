@@ -13,7 +13,7 @@ when_to_use_negative:
 - When candidate lists are already short (trio WES with parental data), where the
   paper notes prioritization is already simplified and network smoothing adds less
   value
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0154
@@ -53,7 +53,7 @@ metadata:
   - STRING
   - metPropagate
   - yamaguchiyuto/label_propagation
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0154

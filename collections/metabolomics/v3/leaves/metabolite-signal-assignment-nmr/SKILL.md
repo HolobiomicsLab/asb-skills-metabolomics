@@ -11,10 +11,9 @@ when_to_use_negative:
   at 5.233 ppm; uncalibrated chemical-shift scales break the bin-pattern matching.
 - You need quantitation of metabolites outside the 22-metabolite panel (the algorithm
   was built and validated only for those 22 targets).
-edam_operation: http://edamontology.org/operation_3794
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3292
-- http://edamontology.org/topic_3272
 tools:
 - name: SMolESY-select
   role: Runs the bin-pattern search that assigns each of the 24 spin systems to its
@@ -48,10 +47,9 @@ metadata:
   - SMolESY
   - SMolESY-select
   - STOCSY
-  edam_operation: http://edamontology.org/operation_3794
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3292
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

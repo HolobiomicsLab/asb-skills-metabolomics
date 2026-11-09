@@ -11,7 +11,7 @@ when_to_use_negative:
   route, not prediction aggregation).
 - The task is a binary or non-tri-class classification problem (e.g. the PACS seven-class
   image task or CCLE lipid data) where the three-class serum labels do not apply.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_3474
@@ -55,7 +55,7 @@ metadata:
   - Python (>= 3.6)
   - TensorFlow
   - TensorFlow 2.2.0
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_3474

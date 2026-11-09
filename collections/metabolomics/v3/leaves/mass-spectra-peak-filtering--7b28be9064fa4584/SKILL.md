@@ -11,8 +11,7 @@ when_to_use_negative:
 - Working in negative ionisation mode or with spectra whose relevant features lie
   in the very-low-intensity (<0.1% of base peak) region the filter discards
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3843
+edam_topics: []
 tools:
 - name: matchms
   role: Python library used to import, filter, normalize (square-root transform) and
@@ -39,8 +38,7 @@ metadata:
   - MS2DeepScore
   - matchms
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3843
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

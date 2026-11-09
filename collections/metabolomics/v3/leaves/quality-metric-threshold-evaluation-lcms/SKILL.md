@@ -11,7 +11,7 @@ when_to_use_negative:
   run
 - Non-Thermo vendor data where Rapid QC-MS processing has not been validated and may
   contain bugs
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -54,7 +54,7 @@ metadata:
   - MSConvert
   - Rapid QC-MS
   - Slack API
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

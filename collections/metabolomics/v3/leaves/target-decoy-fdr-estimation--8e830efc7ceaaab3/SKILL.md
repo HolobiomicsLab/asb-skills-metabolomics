@@ -12,7 +12,7 @@ when_to_use_negative:
   as reliable.
 - When using a search engine that does not append decoy spectra (1:1 shuffle-and-reposition),
   the decoy/target ratio cannot be computed and this skill does not apply.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -53,7 +53,7 @@ metadata:
   - SpectraST
   - msconvert
   - pandas
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

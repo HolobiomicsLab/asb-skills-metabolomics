@@ -8,8 +8,7 @@ when_to_use_negative:
 - A genuinely 2D peak-picking output (cross-peak positions in both F1 and F2) is required,
   since this skill collapses one dimension before localization.
 edam_operation: http://edamontology.org/operation_3218
-edam_topics:
-- http://edamontology.org/topic_3279
+edam_topics: []
 tools:
 - name: MetAssimulo 2.0
   role: Simulation and peak-detection pipeline in which the skyline (F2) and diagonal
@@ -33,8 +32,7 @@ metadata:
   - MetAssimulo 2.0
   - Python
   edam_operation: http://edamontology.org/operation_3218
-  edam_topics:
-  - http://edamontology.org/topic_3279
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

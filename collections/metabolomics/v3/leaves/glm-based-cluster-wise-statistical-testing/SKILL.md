@@ -10,7 +10,7 @@ when_to_use_negative:
   (k-medoids clustering must be done first)
 - When the contrast involves more than two treatment levels without a clear pairwise
   comparison definition
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0153
 - http://edamontology.org/topic_3172
@@ -36,7 +36,7 @@ metadata:
   tools:
   - globaltest
   - msFeaST
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0153
   - http://edamontology.org/topic_3172

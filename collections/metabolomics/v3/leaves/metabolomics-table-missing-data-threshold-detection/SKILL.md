@@ -12,8 +12,7 @@ when_to_use_negative:
 - The goal is choosing imputation strategy (MCAR/MNAR) or normalization/transformation
   options rather than gating the dataset for processing.
 edam_operation: http://edamontology.org/operation_0336
-edam_topics:
-- http://edamontology.org/topic_3311
+edam_topics: []
 tools:
 - name: Viime
   role: Application whose upload-time validation logic performs missing-data threshold
@@ -38,8 +37,7 @@ metadata:
   - Pandas
   - Viime
   edam_operation: http://edamontology.org/operation_0336
-  edam_topics:
-  - http://edamontology.org/topic_3311
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

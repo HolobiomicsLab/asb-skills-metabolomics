@@ -14,7 +14,7 @@ when_to_use_negative:
 - When concentrations are relative (peak-area-only) without internal-standard normalization
   and matrix-matched calibration, since the reported CD-only increase of conjugated
   bile acids was quantified in mg/kg against a sulfadimethoxine standard.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 - http://edamontology.org/topic_3337
@@ -51,7 +51,7 @@ metadata:
   - numpy
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   - http://edamontology.org/topic_3337

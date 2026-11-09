@@ -12,7 +12,6 @@ when_to_use_negative:
   integration of two modalities
 edam_operation: http://edamontology.org/operation_2935
 edam_topics:
-- http://edamontology.org/topic_3817
 - http://edamontology.org/topic_3308
 tools:
 - name: SpatialMETA
@@ -62,7 +61,6 @@ metadata:
   - spaVAE
   edam_operation: http://edamontology.org/operation_2935
   edam_topics:
-  - http://edamontology.org/topic_3817
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

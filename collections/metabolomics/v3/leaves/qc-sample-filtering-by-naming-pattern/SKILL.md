@@ -12,7 +12,7 @@ when_to_use_negative:
   injections.
 - When correcting intensity drifts postanalysis rather than filtering which samples
   to monitor — QC-MXP-style correction tools are the appropriate skill.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -50,7 +50,7 @@ metadata:
   - QC4Metabolomics
   - R
   - Shiny
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

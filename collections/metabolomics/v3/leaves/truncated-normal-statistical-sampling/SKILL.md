@@ -12,7 +12,7 @@ when_to_use_negative:
   module uses a different (non-regression) concentration-sampling approach
 - When you need simulated NMR spectra themselves rather than the underlying concentration
   vectors that drive them
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0204
@@ -41,7 +41,7 @@ metadata:
   - MetAssimulo 2
   - MetAssimulo 2.0
   - Python
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0204

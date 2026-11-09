@@ -13,7 +13,7 @@ when_to_use_negative:
 - Lipid identifiers cannot be interpreted by the parser (neither generic 'CLASS N:N/M:M'
   format, isomer groups, nor RefMet names) and cannot be batch-translated with RefMet's
   online translator — residues may be silently wrong or dropped.
-edam_operation: http://edamontology.org/operation_3287
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -48,7 +48,7 @@ metadata:
   - RefMet
   - liputils
   - pandas
-  edam_operation: http://edamontology.org/operation_3287
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

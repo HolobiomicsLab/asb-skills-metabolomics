@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2239
 edam_topics:
 - http://edamontology.org/topic_2269
-- http://edamontology.org/topic_3272
 tools:
 - name: R
   role: Host environment for the imputation evaluation pipeline (GSimp_evaluation.R
@@ -52,7 +51,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2239
   edam_topics:
   - http://edamontology.org/topic_2269
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

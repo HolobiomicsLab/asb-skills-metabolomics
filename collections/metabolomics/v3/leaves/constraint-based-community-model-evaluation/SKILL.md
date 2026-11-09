@@ -12,7 +12,7 @@ when_to_use_negative:
   evaluation)
 - You need whole-community flux simulation rather than pairwise interaction potential
   (SteadyCom or MICOM perform whole-community optimization)
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 tools:
 - name: SMETANA
   role: Runs species metabolic interaction analysis over all community member pairs
@@ -42,7 +42,7 @@ metadata:
   - COBRA toolbox v3.0
   - COMMIT
   - SMETANA
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,6 @@ when_to_use_negative:
   a large enumerated candidate set
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
-- http://edamontology.org/topic_2253
 - http://edamontology.org/topic_2258
 tools:
 - name: rdkit
@@ -39,7 +38,6 @@ metadata:
   - rdkit
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
-  - http://edamontology.org/topic_2253
   - http://edamontology.org/topic_2258
   provenance_tier: literature
 license: CC-BY-4.0

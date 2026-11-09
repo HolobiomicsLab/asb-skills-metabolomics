@@ -11,7 +11,7 @@ when_to_use_negative:
 - Exact replication of a vendor's disseminated MEGA-PRESS variant is required — the
   simulations cannot capture all differences between disseminated versions of MEGA-PRESS
   within each vendor, and Philips hardware-specific parameter sets are only approximated.
-edam_operation: http://edamontology.org/operation_0395
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3444
 - http://edamontology.org/topic_3384
@@ -45,7 +45,7 @@ metadata:
   - Osprey
   - R
   - RStudio
-  edam_operation: http://edamontology.org/operation_0395
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3444
   - http://edamontology.org/topic_3384

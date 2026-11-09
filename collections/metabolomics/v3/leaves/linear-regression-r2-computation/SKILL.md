@@ -12,7 +12,7 @@ when_to_use_negative:
   required before regression.
 - The goal is peak picking or deconvolution itself rather than post-hoc quantification
   comparison; use eRah's deconvolveComp/alignComp pipeline or XCMS centWave first.
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -47,7 +47,7 @@ metadata:
   - R
   - XCMS
   - erah
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

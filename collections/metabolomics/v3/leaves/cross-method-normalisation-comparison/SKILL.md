@@ -14,7 +14,7 @@ when_to_use_negative:
 - The study lacks embedded biological sample replicates (pooled QC, short replicates,
   batch replicates), since the comparison relies on replicate-wise standard deviation
   as the key metric.
-edam_operation: http://edamontology.org/operation_3653
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -54,7 +54,7 @@ metadata:
   - R
   - hRUV
   - hRUV (R package, plateDesign function)
-  edam_operation: http://edamontology.org/operation_3653
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

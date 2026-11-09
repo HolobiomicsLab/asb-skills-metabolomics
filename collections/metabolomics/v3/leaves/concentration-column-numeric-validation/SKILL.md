@@ -10,7 +10,7 @@ when_to_use_negative:
   — without user designation there is nothing to validate against.
 - The goal is statistical analysis (ANOVA, volcano plots, heatmaps) on an already-processed
   dataset rather than pre-flight error detection on raw uploaded tables.
-edam_operation: http://edamontology.org/operation_3354
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -37,7 +37,7 @@ metadata:
   tools:
   - Pandas
   - Viime
-  edam_operation: http://edamontology.org/operation_3354
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

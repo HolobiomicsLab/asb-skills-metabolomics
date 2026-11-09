@@ -14,7 +14,6 @@ when_to_use_negative:
   static PNG output.
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
-- http://edamontology.org/topic_0523
 - http://edamontology.org/topic_3318
 tools:
 - name: NMRProcFlow
@@ -45,7 +44,6 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
-  - http://edamontology.org/topic_0523
   - http://edamontology.org/topic_3318
   provenance_tier: literature
 license: CC-BY-4.0

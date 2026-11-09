@@ -11,8 +11,7 @@ when_to_use_negative:
 - The goal is de novo metabolite annotation (e.g., METASPACE or Metlin/LOTUS database
   searching) rather than benchmarking peak-extraction reproducibility.
 edam_operation: http://edamontology.org/operation_3631
-edam_topics:
-- http://edamontology.org/topic_3311
+edam_topics: []
 tools:
 - name: DIMPLE
   role: Pipeline whose consensus-peak extraction (2.5 ppm tolerance, 1.5-fold background
@@ -42,8 +41,7 @@ metadata:
   - DESI-MSI
   - DIMPLE
   edam_operation: http://edamontology.org/operation_3631
-  edam_topics:
-  - http://edamontology.org/topic_3311
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

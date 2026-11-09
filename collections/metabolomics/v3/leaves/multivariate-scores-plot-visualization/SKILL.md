@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3872
 tools:
 - name: ropls
   role: R package used to fit the supervised OPLS-DA model, compute R²Y and cross-validated
@@ -37,7 +36,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3872
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -12,7 +12,7 @@ when_to_use_negative:
 - Only a handful of spectra are available and a fully functional local PeakForest
   database is the goal — a minimum number of compounds and spectra must be imported
   first
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0153
@@ -43,7 +43,7 @@ metadata:
   - Java 8
   - MySQL 5+
   - PeakForest
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0153

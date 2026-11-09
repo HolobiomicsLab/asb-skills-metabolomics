@@ -14,7 +14,6 @@ when_to_use_negative:
   can introduce new unwanted variation into ratios and percentages
 edam_operation: http://edamontology.org/operation_0335
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0091
 tools:
 - name: ukbnmr
@@ -46,7 +45,6 @@ metadata:
   - ukbnmr
   edam_operation: http://edamontology.org/operation_0335
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

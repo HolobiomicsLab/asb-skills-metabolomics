@@ -10,7 +10,7 @@ when_to_use_negative:
   quantitation must precede drift correction)
 - The goal is aligning retention times or quantifying coeluted peaks rather than removing
   injection-order drift — use MRMQuant's deconvolution/quantitation steps instead
-edam_operation: http://edamontology.org/operation_3790
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -52,7 +52,7 @@ metadata:
   - MRMQuant
   - MRMkit
   - Microsoft Excel
-  edam_operation: http://edamontology.org/operation_3790
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

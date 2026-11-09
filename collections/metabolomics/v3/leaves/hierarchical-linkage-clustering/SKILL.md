@@ -13,7 +13,7 @@ when_to_use_negative:
   will not yield interpretable modules.
 - Metabolite abundances are being predicted directly rather than analyzed for network
   structure - use the MiMeNet prediction pipeline, not module biclustering.
-edam_operation: http://edamontology.org/operation_3462
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_3452
@@ -35,7 +35,7 @@ metadata:
   license_tier: open
   tools:
   - MiMeNet
-  edam_operation: http://edamontology.org/operation_3462
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_3452

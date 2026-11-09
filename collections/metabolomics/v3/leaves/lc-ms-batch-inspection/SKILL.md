@@ -12,7 +12,7 @@ when_to_use_negative:
 - The analysis requires resolution of individual chromatographic peaks from the image;
   the log-transformed time-vs-m/z rendering deliberately distorts intensity and does
   not resolve individual peaks.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -40,7 +40,7 @@ metadata:
   tools:
   - IonToolPack
   - PeakQC
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

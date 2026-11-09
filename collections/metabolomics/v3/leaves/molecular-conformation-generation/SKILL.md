@@ -10,7 +10,7 @@ when_to_use_negative:
   and no alternative potential is available, since downstream relaxation would fail.
 - Goal is direct CCS computation from a single known structure rather than ensemble-based
   prediction.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3332
 - http://edamontology.org/topic_0081
@@ -47,7 +47,7 @@ metadata:
   - Dimorphite-DL
   - RDKit
   - Snakemake (snakemake_ccs)
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3332
   - http://edamontology.org/topic_0081

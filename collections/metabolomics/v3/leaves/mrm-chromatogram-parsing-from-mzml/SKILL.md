@@ -10,7 +10,7 @@ when_to_use_negative:
   automRm requires the use of at least one qualifier in addition to the quantifier'
 - A preprocessed peak/quality-score table already exists (e.g. qslog_initial.tsv)
   — parsing mzML again is redundant
-edam_operation: http://edamontology.org/operation_3231
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
@@ -46,7 +46,7 @@ metadata:
   - devtools
   - mzR
   - openxlsx
-  edam_operation: http://edamontology.org/operation_3231
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092

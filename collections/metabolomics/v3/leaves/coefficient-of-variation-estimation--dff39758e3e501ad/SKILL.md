@@ -12,8 +12,7 @@ when_to_use_negative:
 - You are working with derived/composite biomarkers or ratios, which should be recomputed
   post-adjustment from the 107 non-derived biomarkers instead
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: ukbnmr
   role: R package providing remove_technical_variation() to produce the post-QC biomarker
@@ -42,8 +41,7 @@ metadata:
   - data.table
   - ukbnmr
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

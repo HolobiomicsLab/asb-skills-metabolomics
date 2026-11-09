@@ -14,7 +14,7 @@ when_to_use_negative:
   retuned and validated before use
 edam_operation: http://edamontology.org/operation_3695
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: Spectral Denoising
   role: provides sd.spectral_denoising and its formula_denoising step implementing
@@ -46,7 +46,7 @@ metadata:
   - pandas
   edam_operation: http://edamontology.org/operation_3695
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -12,7 +12,7 @@ when_to_use_negative:
   only for coloration
 - When collision-energy harmonization or spectral-scoring consistency is the analysis
   target; NPClassifier annotates chemistry classes, not spectral quality or redundancy
-edam_operation: http://edamontology.org/operation_3777
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0091
@@ -57,7 +57,7 @@ metadata:
   - PubChem (offline data)
   - Python
   - RDKit
-  edam_operation: http://edamontology.org/operation_3777
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0091

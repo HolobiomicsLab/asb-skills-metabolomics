@@ -10,7 +10,7 @@ when_to_use_negative:
   these are discarded during dataset construction
 - Molecules exceed 300 atoms or contain atom types outside C, O, N, H, P, S, F, Cl,
   B, Br, I
-edam_operation: http://edamontology.org/operation_2934
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0154
 - http://edamontology.org/topic_3520
@@ -49,7 +49,7 @@ metadata:
   - Python+
   - RDKit
   - molnetpack
-  edam_operation: http://edamontology.org/operation_2934
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0154
   - http://edamontology.org/topic_3520

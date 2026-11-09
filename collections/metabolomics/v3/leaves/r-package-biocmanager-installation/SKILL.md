@@ -7,7 +7,7 @@ when_to_use_negative:
   for installation
 - The needed packages are already installed and requireNamespace('JPA') succeeds —
   reinstalling is unnecessary
-edam_operation: http://edamontology.org/operation_2985
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3366
 - http://edamontology.org/topic_3172
@@ -43,7 +43,7 @@ metadata:
   - R
   - RStudio
   - devtools
-  edam_operation: http://edamontology.org/operation_2985
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3366
   - http://edamontology.org/topic_3172

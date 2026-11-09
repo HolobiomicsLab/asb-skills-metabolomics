@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0324
 edam_topics:
 - http://edamontology.org/topic_3292
-- http://edamontology.org/topic_3792
 tools:
 - name: SAND
   role: Host pipeline whose adaptive binning stage embeds the minimum-shift baseline
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0324
   edam_topics:
   - http://edamontology.org/topic_3292
-  - http://edamontology.org/topic_3792
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

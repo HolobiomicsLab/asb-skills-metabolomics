@@ -10,7 +10,7 @@ when_to_use_negative:
   then direct KEGG (PiMP_KEGG) or Reactome database queries suffice.
 - The input is a proteomics or transcriptomics table rather than metabolomics peak
   data (Reactome UniProt/ENSEMBL modes, not MF/Motif sets, apply).
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 tools:
 - name: PALS
   role: Python library/command-line tool that consumes MF and Mass2Motif metabolite
@@ -40,7 +40,7 @@ metadata:
   - PALS
   - Python
   - pandas
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

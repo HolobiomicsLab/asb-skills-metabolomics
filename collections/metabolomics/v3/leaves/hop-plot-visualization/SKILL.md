@@ -8,7 +8,7 @@ when_to_use_negative:
   ground truth, where evaluations must rely on reference measurements)
 - Input is a list of raw spectra rather than ranked candidate structure scores per
   compound
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 tools:
 - name: COSMIC
   role: Confidence scores whose separation performance (AUC ~0.82, 57 correct hits
@@ -40,7 +40,7 @@ metadata:
   - CSI:FingerID IOKR
   - MAGMa+
   - MetFrag
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

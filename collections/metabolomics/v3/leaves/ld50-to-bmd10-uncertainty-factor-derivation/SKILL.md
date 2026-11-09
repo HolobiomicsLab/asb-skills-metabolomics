@@ -12,8 +12,7 @@ when_to_use_negative:
 - The analysis requires internal (IVIVE-based) rather than external exposure — the
   PrHQ here is computed from external exposure only
 edam_operation: http://edamontology.org/operation_2945
-edam_topics:
-- http://edamontology.org/topic_3389
+edam_topics: []
 tools:
 - name: TEST
   role: Supplies the predicted oral LD50 values for rats that are converted into probabilistic
@@ -32,8 +31,7 @@ metadata:
   tools:
   - TEST
   edam_operation: http://edamontology.org/operation_2945
-  edam_topics:
-  - http://edamontology.org/topic_3389
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

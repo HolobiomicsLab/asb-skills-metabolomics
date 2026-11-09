@@ -10,7 +10,7 @@ when_to_use_negative:
 - When the goal is structural similarity clustering rather than hierarchical category
   counting — NPClassifier predicts fixed pathway/superclass/class labels, not pairwise
   similarities
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0091
@@ -53,7 +53,7 @@ metadata:
   - docker
   - docker-compose
   - tensorflow 2.3.0
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0091

@@ -11,7 +11,6 @@ when_to_use_negative:
   to train the SVM classifiers — retraining on new annotations is required
 - Input is already a curated feature/peak table (no raw chromatograms to classify)
 edam_topics:
-- http://edamontology.org/topic_3389
 - http://edamontology.org/topic_3474
 tools:
 - name: WiPP
@@ -46,7 +45,6 @@ metadata:
   - libnetcdf11
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3389
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

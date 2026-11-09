@@ -13,7 +13,6 @@ when_to_use_negative:
   model's application domain covers
 edam_topics:
 - http://edamontology.org/topic_2258
-- http://edamontology.org/topic_3465
 tools:
 - name: ROASMI
   role: Provides the training pipeline (code/ROASMI_train.py), pairing logic, and
@@ -50,7 +49,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2258
-  - http://edamontology.org/topic_3465
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

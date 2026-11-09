@@ -11,9 +11,8 @@ when_to_use_negative:
   than phase correction.
 - The DataFrame already contains referenced, baseline-corrected spectra (e.g. output
   of baseline_correction) — further phase correction is unnecessary.
-edam_operation: http://edamontology.org/operation_3417
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_operation: null
+edam_topics: []
 tools:
 - name: Protomix
   role: Python package whose DataFrame-oriented functions (px.phase_correction, px.internal_referencing,
@@ -41,9 +40,8 @@ metadata:
   - Python
   - numpy
   - pandas
-  edam_operation: http://edamontology.org/operation_3417
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_operation: null
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

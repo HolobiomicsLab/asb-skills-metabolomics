@@ -10,7 +10,7 @@ when_to_use_negative:
   compound class hierarchy — use omu's KEGG_gather instead
 - Input is raw instrument output (e.g. vendor peak lists) rather than a count table
   already keyed by compound identifier — load via read.metabo first
-edam_operation: http://edamontology.org/operation_3287
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -43,7 +43,7 @@ metadata:
   - R
   - omu
   - read.metabo
-  edam_operation: http://edamontology.org/operation_3287
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

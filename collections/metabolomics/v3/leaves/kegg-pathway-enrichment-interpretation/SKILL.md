@@ -14,8 +14,7 @@ when_to_use_negative:
   run is needed — the adjusted p < 0.05 filter and impact-score combination would
   discard borderline pathways
 edam_operation: http://edamontology.org/operation_2436
-edam_topics:
-- http://edamontology.org/topic_3822
+edam_topics: []
 tools:
 - name: EnrichMet
   role: Primary R package; its modular components run Fisher's Exact Test ORA, fgsea-based
@@ -56,8 +55,7 @@ metadata:
   - STITCH
   - fgsea
   edam_operation: http://edamontology.org/operation_2436
-  edam_topics:
-  - http://edamontology.org/topic_3822
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 merged_aliases:

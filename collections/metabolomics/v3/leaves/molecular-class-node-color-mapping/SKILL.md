@@ -11,7 +11,7 @@ when_to_use_negative:
   on the network files alone may suffice
 - Data are not mass-difference-based transformation networks (e.g., KEGG pathway maps
   generated via KEGGREST annotations are a different output type)
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3391
 - http://edamontology.org/topic_0602
@@ -48,7 +48,7 @@ metadata:
   - MetaboDirect
   - pandas
   - py4cytoscape
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3391
   - http://edamontology.org/topic_0602

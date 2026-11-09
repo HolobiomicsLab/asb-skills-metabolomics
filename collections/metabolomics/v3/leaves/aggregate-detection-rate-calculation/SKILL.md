@@ -10,7 +10,7 @@ when_to_use_negative:
   tolerance than ±5 ppm, so the detected/predicted matching is not comparable
 - The goal is per-drug or per-metabolite-level statistics rather than a single overall
   detection-rate summary
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -43,7 +43,7 @@ metadata:
   - BioTransformer 3.0
   - Metabolomics Workbench ST003991
   - R 4.0.3
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

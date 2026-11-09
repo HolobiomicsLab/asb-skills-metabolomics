@@ -12,8 +12,7 @@ when_to_use_negative:
   expects the CDF scan vectors (scan_acquisition_time, intensity_values, mass_values,
   point_count)
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: GcDUO
   role: Provides readFolderCDF, the Module I function that folds CDF vectors into
@@ -47,8 +46,7 @@ metadata:
   - R
   - ncdf4
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

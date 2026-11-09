@@ -12,8 +12,7 @@ when_to_use_negative:
 - Pseudo-MS/MS or MS/MS evidence is available — use the MS1-ID/GNPS spectral library
   route (CalculateSingleAnnotationStatistics / ms1_id) instead of mass-only concordance
 edam_operation: http://edamontology.org/operation_3632
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: SpaMTP
   role: R package whose annotation module performs the adduct-expanded, ppm-filtered
@@ -48,8 +47,7 @@ metadata:
   - SpaMTP
   - ms1_id
   edam_operation: http://edamontology.org/operation_3632
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

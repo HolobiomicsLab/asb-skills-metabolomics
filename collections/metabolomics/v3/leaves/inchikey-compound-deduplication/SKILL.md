@@ -14,7 +14,7 @@ when_to_use_negative:
   — use cosine/FAISS candidate retrieval, not InChIKey prefix comparison.
 edam_operation: http://edamontology.org/operation_2930
 edam_topics:
-- http://edamontology.org/topic_3346
+- http://edamontology.org/topic_0080
 tools:
 - name: ChemEmbed
   role: The deduplicated reference database is the compound reference used downstream
@@ -50,7 +50,7 @@ metadata:
   - pandas >= 1.0.0
   edam_operation: http://edamontology.org/operation_2930
   edam_topics:
-  - http://edamontology.org/topic_3346
+  - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

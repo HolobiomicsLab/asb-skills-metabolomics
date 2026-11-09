@@ -11,7 +11,7 @@ when_to_use_negative:
   Approximate score), not the GNPS analog search
 - You need real-time annotation — the iterative weighted analog search can take up
   to three hours and launches 27 FBMN jobs
-edam_operation: http://edamontology.org/operation_3804
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_3520
@@ -39,7 +39,7 @@ metadata:
   tools:
   - GNPS
   - MS2DECIDE
-  edam_operation: http://edamontology.org/operation_3804
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_3520

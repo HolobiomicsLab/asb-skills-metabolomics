@@ -15,9 +15,8 @@ when_to_use_negative:
 - When per-feature stability of estimates is not needed and bootstrapping would add
   unnecessary compute — bootstrap CIs only validate, they do not replace the BH-corrected
   association test.
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3520
 tools:
@@ -43,9 +42,8 @@ metadata:
   tools:
   - MWASTools
   - R
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3520
   provenance_tier: literature

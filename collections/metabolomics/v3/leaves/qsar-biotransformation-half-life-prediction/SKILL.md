@@ -10,7 +10,7 @@ when_to_use_negative:
   — that is handled by the BioTransformer machine-learning method in the same pipeline
 - Measured biotransformation half-life data already exist for the chemicals; use measured
   values instead of QSAR predictions
-edam_operation: http://edamontology.org/operation_0425
+edam_operation: http://edamontology.org/operation_2454
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -38,7 +38,7 @@ metadata:
   - BioTransformer
   - Iterative Fragment Selection QSAR (Arnot et al. 2014)
   - UFZ-LSER database v3.2.1
-  edam_operation: http://edamontology.org/operation_0425
+  edam_operation: http://edamontology.org/operation_2454
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

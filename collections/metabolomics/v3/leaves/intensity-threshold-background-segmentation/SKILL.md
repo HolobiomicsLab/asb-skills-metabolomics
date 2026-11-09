@@ -12,8 +12,7 @@ when_to_use_negative:
 - Peak table lacks pixel coordinate columns or the analysis goal is not spatial pixel
   segmentation
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3963
+edam_topics: []
 tools:
 - name: SMQVP
   role: Web application whose Process 2 (Background Noise Removal) implements tissue/background
@@ -42,8 +41,7 @@ metadata:
   - SMQVP
   - Shiny
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3963
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

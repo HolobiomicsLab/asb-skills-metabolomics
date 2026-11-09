@@ -13,7 +13,6 @@ when_to_use_negative:
   platforms
 edam_operation: http://edamontology.org/operation_2928
 edam_topics:
-- http://edamontology.org/topic_3353
 - http://edamontology.org/topic_0153
 tools:
 - name: Lipid One 2.0
@@ -44,7 +43,6 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_2928
   edam_topics:
-  - http://edamontology.org/topic_3353
   - http://edamontology.org/topic_0153
   provenance_tier: literature
 license: CC-BY-4.0

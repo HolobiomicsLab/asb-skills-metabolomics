@@ -11,7 +11,7 @@ when_to_use_negative:
   presuppose a completed peak-picking step with pixels × ions dimensions
 - Assessing background signal spatial consistency (QC1) or median intensity distributions
   (QC2) — those use correlation and intensity metrics, not missing-value counts
-edam_operation: http://edamontology.org/operation_3578
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -44,7 +44,7 @@ metadata:
   - SMAnalyst
   - ggplot2
   - tidyverse
-  edam_operation: http://edamontology.org/operation_3578
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

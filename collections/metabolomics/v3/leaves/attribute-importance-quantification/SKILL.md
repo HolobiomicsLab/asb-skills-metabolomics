@@ -12,8 +12,7 @@ when_to_use_negative:
   whole test set.
 - Molecules contain elements outside C, H, O, N, P, S, F, Cl, Br, I, Co, As, and Se
   — the underlying SigmaCCS model cannot predict them, so masked errors would be meaningless.
-edam_topics:
-- http://edamontology.org/topic_2250
+edam_topics: []
 tools:
 - name: SigmaCCS
   role: Supplies the trained model.h5, parameter.pkl, TestData.csv, and GraphData.py
@@ -35,8 +34,7 @@ metadata:
   tools:
   - SigmaCCS
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_2250
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

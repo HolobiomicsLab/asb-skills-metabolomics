@@ -12,7 +12,7 @@ when_to_use_negative:
 - When overall substrate usage is very low (e.g. the hypoxia/normoxia experiment),
   where the article states 'it becomes impossible to reliably fit a binomial distribution
   and estimate the uptake fraction'
-edam_operation: http://edamontology.org/operation_3210
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0610
@@ -48,7 +48,7 @@ metadata:
   - METASPACE
   - SpaceM
   - pyimzML
-  edam_operation: http://edamontology.org/operation_3210
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0610

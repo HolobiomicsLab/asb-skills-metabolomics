@@ -10,7 +10,7 @@ when_to_use_negative:
   unpaired metabolomics + GWAS Catalog setting metGWAS 1.0 is designed for.
 - The GWAS Catalog network object has not been loaded (GWASnetwork_discoverableGenesOnly_2021_10_14.RData
   is missing), since node positions cannot be traced without it.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_3366
@@ -37,7 +37,7 @@ metadata:
   tools:
   - R
   - metGWAS 1.0
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_3366

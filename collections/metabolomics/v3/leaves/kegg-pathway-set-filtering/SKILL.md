@@ -9,8 +9,7 @@ when_to_use_negative:
 - The pathway collection is a custom metabolite set designed by the user with intentionally
   small sets (fewer than 3 metabolites), which the >=3-compound rule would discard
 edam_operation: http://edamontology.org/operation_3660
-edam_topics:
-- http://edamontology.org/topic_3828
+edam_topics: []
 tools:
 - name: MetaboAnalyst 4.0
   role: Converts compound names in each dataset to KEGG identifiers so compounds can
@@ -38,8 +37,7 @@ metadata:
   - pip3
   - reproducible_simulations.ipynb (Jupyter Notebook)
   edam_operation: http://edamontology.org/operation_3660
-  edam_topics:
-  - http://edamontology.org/topic_3828
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

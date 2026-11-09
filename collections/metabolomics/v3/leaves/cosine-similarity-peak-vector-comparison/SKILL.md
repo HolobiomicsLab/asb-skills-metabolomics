@@ -12,7 +12,7 @@ when_to_use_negative:
 - The query target is annotation filtering/scoring by experimental setup and compound
   properties, which CMM 3.0 handles through its expert-system filter rather than MS2
   spectral comparison
-edam_operation: http://edamontology.org/operation_3254
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -39,7 +39,7 @@ metadata:
   repo_url: https://github.com/albertogilf/ceuMassMediator
   tools:
   - CEU Mass Mediator (CMM) 3.0
-  edam_operation: http://edamontology.org/operation_3254
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

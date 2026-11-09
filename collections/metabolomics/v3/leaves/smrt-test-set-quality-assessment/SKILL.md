@@ -15,7 +15,6 @@ when_to_use_negative:
   notebook / HuggingFace web server) rather than to audit test-set prediction quality
 edam_operation: http://edamontology.org/operation_0306
 edam_topics:
-- http://edamontology.org/topic_3826
 - http://edamontology.org/topic_3474
 tools:
 - name: RT-Transformer
@@ -38,7 +37,6 @@ metadata:
   - RT-Transformer
   edam_operation: http://edamontology.org/operation_0306
   edam_topics:
-  - http://edamontology.org/topic_3826
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

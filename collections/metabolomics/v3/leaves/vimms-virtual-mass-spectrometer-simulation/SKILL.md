@@ -11,7 +11,7 @@ when_to_use_negative:
   must still be validated on real samples (via the IAPI interface) before being trusted
 - You need results in minutes and cannot afford ~1 h of simulation per virtual injection
   times dozens of parameter combinations
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -31,7 +31,7 @@ metadata:
   license_tier: open
   tools:
   - ViMMS
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

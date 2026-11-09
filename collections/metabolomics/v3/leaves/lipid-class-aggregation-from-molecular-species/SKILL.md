@@ -14,7 +14,6 @@ when_to_use_negative:
   or proprietary names), so class prefixes cannot be reliably extracted without a
   prior nomenclature mapping step (see the article's Support Protocol on lipid nomenclature).
 edam_topics:
-- http://edamontology.org/topic_3389
 - http://edamontology.org/topic_0091
 tools:
 - name: LipidOne 2.0
@@ -45,7 +44,6 @@ metadata:
   - R
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3389
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

@@ -14,7 +14,7 @@ when_to_use_negative:
   within a group or across all samples, non-numeric concentration data, missing or
   non-unique primary ID) — correct errors first, since imputation is only automatically
   performed once errors are corrected
-edam_operation: http://edamontology.org/operation_3554
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0154
@@ -53,7 +53,7 @@ metadata:
   - Scikit-learn
   - Viime
   - missForest
-  edam_operation: http://edamontology.org/operation_3554
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0154

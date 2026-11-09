@@ -12,7 +12,6 @@ when_to_use_negative:
   (volcano plots, MSEA) rather than statistical-model batch adjustment and model selection
 edam_operation: http://edamontology.org/operation_2935
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0091
 tools:
 - name: dbnorm
@@ -48,7 +47,6 @@ metadata:
   - sva
   edam_operation: http://edamontology.org/operation_2935
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

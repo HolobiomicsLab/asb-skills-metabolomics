@@ -10,7 +10,7 @@ when_to_use_negative:
   (fingerprints to MS/MS fragments), not fingerprint-target construction.
 - Input is raw LC-MS data rather than curated .msp reference blocks with structural
   identifiers.
-edam_operation: http://edamontology.org/operation_3859
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3316
@@ -37,7 +37,7 @@ metadata:
   tools:
   - IDSL_MINT
   - RDKit
-  edam_operation: http://edamontology.org/operation_3859
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3316

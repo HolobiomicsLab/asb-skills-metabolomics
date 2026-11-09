@@ -10,7 +10,7 @@ when_to_use_negative:
   membership counts (M and k) cannot be tabulated
 - Significant metabolites have not yet been determined — run significant_met first
   rather than testing enrichment on all metabolites
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -41,7 +41,7 @@ metadata:
   - MetENP
   - R
   - RefMet
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

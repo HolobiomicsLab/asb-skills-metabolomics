@@ -11,8 +11,7 @@ when_to_use_negative:
 - Group sample sizes or subgroup labels (e.g., phosphoAKT1/MYC k-means clusters) have
   not yet been defined, so no directed comparison can be tested
 edam_operation: http://edamontology.org/operation_3660
-edam_topics:
-- http://edamontology.org/topic_3826
+edam_topics: []
 tools:
 - name: GraphPad Prism
   role: Runs the Mann-Whitney Test used to compare absolute metabolite concentrations
@@ -36,8 +35,7 @@ metadata:
   - GraphPad Prism
   - Python
   edam_operation: http://edamontology.org/operation_3660
-  edam_topics:
-  - http://edamontology.org/topic_3826
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

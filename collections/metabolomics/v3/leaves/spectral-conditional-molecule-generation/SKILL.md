@@ -10,7 +10,7 @@ when_to_use_negative:
   de novo elucidation
 - You only have a single spectrum type and expect joint-modality accuracy — single-modality
   runs (e.g. UV-Vis at ~0.3% top-1) substantially underperform
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 - http://edamontology.org/topic_3318
@@ -45,7 +45,7 @@ metadata:
   - Diffusion Molecule Transformer (DMT)
   - RDKit
   - SpecFormer
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   - http://edamontology.org/topic_3318

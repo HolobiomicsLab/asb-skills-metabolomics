@@ -15,7 +15,6 @@ when_to_use_negative:
   the databases themselves
 edam_operation: http://edamontology.org/operation_0336
 edam_topics:
-- http://edamontology.org/topic_3389
 - http://edamontology.org/topic_3315
 tools:
 - name: MetaFetcheR
@@ -51,7 +50,6 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_0336
   edam_topics:
-  - http://edamontology.org/topic_3389
   - http://edamontology.org/topic_3315
   provenance_tier: literature
 license: CC-BY-4.0

@@ -11,7 +11,7 @@ when_to_use_negative:
   Fisher IAPI bridging rather than in simulation
 - Only exporting or evaluating scans from an already-completed simulated run — use
   write_mzML or the evaluation methods directly instead of re-running the Environment
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Python
   - ViMMS 2.0
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

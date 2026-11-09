@@ -11,7 +11,7 @@ when_to_use_negative:
   matched/unmatched bookkeeping cannot be performed.
 - A different metabolite reference database is required instead of LOTUS as downloaded
   on 10/10/2023, changing the reference set that defines the overlap.
-edam_operation: http://edamontology.org/operation_2232
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0091
@@ -38,7 +38,7 @@ metadata:
   tools:
   - LOTUS
   - MEANtools
-  edam_operation: http://edamontology.org/operation_2232
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0091

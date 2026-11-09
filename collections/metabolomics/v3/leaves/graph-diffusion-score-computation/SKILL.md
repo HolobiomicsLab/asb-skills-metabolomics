@@ -10,7 +10,7 @@ when_to_use_negative:
 - Peaks have not yet been matched to KEGG or filtered by cluster — diffusion labels
   cannot be computed meaningfully without the candidate set from the matching and
   filtering stages.
-edam_operation: http://edamontology.org/operation_3914
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 - http://edamontology.org/topic_3520
@@ -45,7 +45,7 @@ metadata:
   - Diffu Stats
   - R
   - mWISE
-  edam_operation: http://edamontology.org/operation_3914
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   - http://edamontology.org/topic_3520

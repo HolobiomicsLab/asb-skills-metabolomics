@@ -10,7 +10,7 @@ when_to_use_negative:
   metabolism) where a bespoke model is required.
 - You need MS/MS or retention-time predictions for the generated structures; the article
   notes predicting these from chemical structures remains an open problem.
-edam_operation: http://edamontology.org/operation_3985
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3047
 - http://edamontology.org/topic_0091
@@ -45,7 +45,7 @@ metadata:
   - Python
   - RDKit
   - Snakemake
-  edam_operation: http://edamontology.org/operation_3985
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3047
   - http://edamontology.org/topic_0091

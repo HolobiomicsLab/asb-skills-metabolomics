@@ -14,7 +14,6 @@ edam_operation: http://edamontology.org/operation_3935
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3869
 tools:
 - name: MEISTER
   role: Framework providing the parametric UMAP embedding workflow (embed_3D.ipynb
@@ -44,7 +43,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3869
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

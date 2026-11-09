@@ -10,7 +10,7 @@ when_to_use_negative:
   so a percent-error benchmark is undefined
 - The goal is acquiring or calibrating raw TWIMS IM-MS data rather than comparing
   computed CCS values to published/measured references
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3334
 tools:
@@ -57,7 +57,7 @@ metadata:
   - QUICK
   - RDKit
   - Snakemake
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3334
   provenance_tier: literature

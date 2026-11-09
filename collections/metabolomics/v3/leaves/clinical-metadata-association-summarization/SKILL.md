@@ -9,7 +9,7 @@ when_to_use_negative:
   rather than patient clinical metadata
 - The interpretation target is pathway enrichment or PubMed bibliography mining rather
   than clinical trait association
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -43,7 +43,7 @@ metadata:
   - BiomiX
   - MOFA (Multi-Omics Factor Analysis)
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
   to compute the correlation score
 - The goal is compound classification or biological-system insight rather than annotation
   prioritization (use the Tagger module instead)
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -32,7 +32,7 @@ metadata:
   repo_url: https://github.com/CNIC-Proteomics/TurboPutative-web
   tools:
   - TurboPutative
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

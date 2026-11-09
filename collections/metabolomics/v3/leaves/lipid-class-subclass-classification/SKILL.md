@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
 - http://edamontology.org/topic_3172
-- http://edamontology.org/topic_0057
 tools:
 - name: SpaMTP
   role: Provides the RefineLipids function that simplifies lipid nomenclature into
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
   - http://edamontology.org/topic_3172
-  - http://edamontology.org/topic_0057
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -12,7 +12,7 @@ when_to_use_negative:
   matrix
 - The data are bulk (population-level) metabolomics rather than single-cell profiles,
   since the paper's motivation is heterogeneity at the single-cell level
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3382
 - http://edamontology.org/topic_3474
@@ -42,7 +42,7 @@ metadata:
   - Geena2
   - MetaPhenotype
   - Single-probe SCMS
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3382
   - http://edamontology.org/topic_3474

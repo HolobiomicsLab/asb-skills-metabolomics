@@ -13,7 +13,6 @@ when_to_use_negative:
   generation — the article reports no quantitative evaluation or performance metrics
 edam_operation: http://edamontology.org/operation_3222
 edam_topics:
-- http://edamontology.org/topic_0031
 - http://edamontology.org/topic_0593
 tools:
 - name: ChemSpectra
@@ -46,7 +45,6 @@ metadata:
   - react-spectra-editor
   edam_operation: http://edamontology.org/operation_3222
   edam_topics:
-  - http://edamontology.org/topic_0031
   - http://edamontology.org/topic_0593
   provenance_tier: literature
 license: CC-BY-4.0

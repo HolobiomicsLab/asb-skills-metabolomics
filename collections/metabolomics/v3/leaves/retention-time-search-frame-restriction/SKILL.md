@@ -14,7 +14,7 @@ when_to_use_negative:
   a reference chromatogram
 edam_operation: http://edamontology.org/operation_3215
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: MetMatch
   role: Provides the three peak-picking algorithms (MassSpecWavelet, Gaussian peak
@@ -40,7 +40,7 @@ metadata:
   - MetMatch
   edam_operation: http://edamontology.org/operation_3215
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

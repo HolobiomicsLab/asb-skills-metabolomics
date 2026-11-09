@@ -9,7 +9,7 @@ when_to_use_negative:
   is more appropriate
 - When the comparison involves more than two groups or requires correction for multiple
   testing across all metabolites simultaneously without prior biological selection
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -33,7 +33,7 @@ metadata:
   tools:
   - GraphPad Prism
   - Python
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

@@ -11,7 +11,7 @@ when_to_use_negative:
 - When descriptors have not yet been scrubbed — constant descriptors across calibration
   molecules and inapplicable descriptors must be removed before Z-transformation and
   RFECV
-edam_operation: http://edamontology.org/operation_3912
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 - http://edamontology.org/topic_3524
@@ -54,7 +54,7 @@ metadata:
   - Python
   - RDKit
   - SciKit-Learn
-  edam_operation: http://edamontology.org/operation_3912
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   - http://edamontology.org/topic_3524

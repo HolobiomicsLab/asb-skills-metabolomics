@@ -10,7 +10,7 @@ when_to_use_negative:
   MS/MS data (convert e.g. via MZmine3 export first).
 - Only one spectrum is of interest — with a single spectrum there is no cross-spectral
   overlap to display and a fragmap adds nothing over a plain spectrum plot.
-edam_operation: http://edamontology.org/operation_3722
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -42,7 +42,7 @@ metadata:
   - matchms
   - plotly
   - specXplore
-  edam_operation: http://edamontology.org/operation_3722
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

@@ -10,7 +10,7 @@ when_to_use_negative:
   dynamic interaction-network/Jacobian analysis of metabolites.
 - When metabolite IDs are not present in both rows and columns of the input dataset,
   as required for interaction-network construction.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -47,7 +47,7 @@ metadata:
   - MetaboAnalyst
   - R
   - devtools
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

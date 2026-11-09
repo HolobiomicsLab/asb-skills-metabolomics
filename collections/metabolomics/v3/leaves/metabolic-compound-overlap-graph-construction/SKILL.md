@@ -10,7 +10,7 @@ when_to_use_negative:
   as visual-only and unreliable, so maplink-based graphs are out of scope.
 - Ubiquitous compounds should connect pathways — the method deliberately discards
   H2O, phosphate, ATP and ADP before edge construction.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_0091
@@ -49,7 +49,7 @@ metadata:
   - guava-19.0.jar
   - poi-3.9.jar
   - sax2r2.jar
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_0091

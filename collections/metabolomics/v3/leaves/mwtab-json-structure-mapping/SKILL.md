@@ -11,8 +11,7 @@ when_to_use_negative:
 - Target format is anything other than mwTab, which is currently the only supported
   conversion format in MESSES
 edam_operation: http://edamontology.org/operation_0335
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MESSES
   role: Provides the convert command, conversion directives system (value_type str/matrix/section),
@@ -41,8 +40,7 @@ metadata:
   - jsonschema
   - mwtab
   edam_operation: http://edamontology.org/operation_0335
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

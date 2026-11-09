@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2239
 edam_topics:
 - http://edamontology.org/topic_2269
-- http://edamontology.org/topic_3311
 tools:
 - name: MEANtools
   role: Provides the LOTUS SQLite database and the structure-matching logic used to
@@ -42,7 +41,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2239
   edam_topics:
   - http://edamontology.org/topic_2269
-  - http://edamontology.org/topic_3311
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

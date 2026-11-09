@@ -12,9 +12,7 @@ when_to_use_negative:
   MS1-constrained feature-to-metabolite mapping onto a reaction network.
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
-- http://edamontology.org/topic_3822
 - http://edamontology.org/topic_3172
-- http://edamontology.org/topic_3272
 tools:
 - name: MrnAnnoAlgo3
   role: R package supplying getMs1Data4Mrn3, getTableSeedLong4Mrn3, predictRtInMrn3,
@@ -59,9 +57,7 @@ metadata:
   - readr
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
-  - http://edamontology.org/topic_3822
   - http://edamontology.org/topic_3172
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

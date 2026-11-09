@@ -13,7 +13,6 @@ when_to_use_negative:
   double-aggregate and lose the per-compound denominator
 edam_topics:
 - http://edamontology.org/topic_3172
-- http://edamontology.org/topic_2250
 tools:
 - name: PeakForest
   role: Source of the compound card whose cross-reference identifiers section (ChEBI,
@@ -36,7 +35,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
-  - http://edamontology.org/topic_2250
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

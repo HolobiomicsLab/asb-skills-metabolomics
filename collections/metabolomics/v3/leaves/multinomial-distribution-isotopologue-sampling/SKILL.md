@@ -13,7 +13,7 @@ when_to_use_negative:
 - The analysis requires isotopic fine structures only under natural abundance with
   no SIP enrichment — IsoSpec2 already provides rapid natural-abundance fine-structure
   simulation
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3174
@@ -48,7 +48,7 @@ metadata:
   - C++
   - R
   - Rcpp
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3174

@@ -11,7 +11,7 @@ when_to_use_negative:
 - Only functional groups with very high synthetic difficulty are of interest — SCScore
   screening deliberately excludes highly challenging-to-synthesize compounds from
   enumeration
-edam_operation: http://edamontology.org/operation_3676
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3314
@@ -48,7 +48,7 @@ metadata:
   - SCScore
   - python
   - rdkit
-  edam_operation: http://edamontology.org/operation_3676
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3314

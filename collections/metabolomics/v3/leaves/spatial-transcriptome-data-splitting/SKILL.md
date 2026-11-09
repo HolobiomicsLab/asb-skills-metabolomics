@@ -13,7 +13,7 @@ when_to_use_negative:
 - When the data are not spot-resolution spatial transcriptomes (e.g. image-based sequencing,
   spatial proteomics, or histological images) — haCCA's integration and this benchmarking
   scheme are limited to spatial transcriptome and spatial metabolome data.
-edam_operation: http://edamontology.org/operation_3804
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0092
@@ -48,7 +48,7 @@ metadata:
   - Python
   - Scanpy
   - haCCA
-  edam_operation: http://edamontology.org/operation_3804
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0092

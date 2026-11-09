@@ -11,7 +11,7 @@ when_to_use_negative:
   dataset, so per-file mode and instrument annotations cannot be retrieved.
 - MSConnect is not a standalone data analysis tool — do not use this skill to substitute
   for third-party search/quantification software on the raw files themselves.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 tools:
@@ -39,7 +39,7 @@ metadata:
   tools:
   - MSConnect
   - PRIDE (ProteomeXchange partner repository)
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   provenance_tier: literature

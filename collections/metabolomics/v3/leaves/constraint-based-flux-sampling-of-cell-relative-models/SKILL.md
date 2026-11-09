@@ -10,7 +10,7 @@ when_to_use_negative:
   getRASscore/rasTtest instead.
 - When metabolomics-only classification is needed (RPS) — use createMetabolicDataset/concordanceAnalysis
   without flux sampling.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0769
 - http://edamontology.org/topic_2258
@@ -50,7 +50,7 @@ metadata:
   - mannWhitneyUTest
   - randomSampling
   - rasIntegration
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0769
   - http://edamontology.org/topic_2258

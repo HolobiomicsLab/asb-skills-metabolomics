@@ -10,7 +10,7 @@ when_to_use_negative:
   output must first be converted with the transX function)
 - When the goal is drift correction itself rather than precision assessment — RSD
   computation only evaluates correction quality, it does not correct signal
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0219
@@ -50,7 +50,7 @@ metadata:
   - shiftCor
   - statTarget
   - transX
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0219

@@ -11,7 +11,7 @@ when_to_use_negative:
   rather than alignment-level QC of MS feature groups
 - You need per-feature intensity normalization rather than alignment quality control
   — QC filters groups but does not correct quantification
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -45,7 +45,7 @@ metadata:
   - DeepRTAlign
   - Dinosaur
   - PyTorch
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

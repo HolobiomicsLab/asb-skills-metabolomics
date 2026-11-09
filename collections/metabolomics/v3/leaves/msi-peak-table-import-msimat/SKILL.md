@@ -11,7 +11,7 @@ when_to_use_negative:
   downstream mass2adduct functions on the resulting msimat object
 - When working with non-MSI spectra or already-processed feature tables not in the
   CSV/triplet/peak-binned formats this importer expects
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -53,7 +53,7 @@ metadata:
   - SCiLS
   - mass2adduct
   - msimunging.pl
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

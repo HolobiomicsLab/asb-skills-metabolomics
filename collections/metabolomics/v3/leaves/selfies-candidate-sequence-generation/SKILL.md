@@ -14,7 +14,6 @@ when_to_use_negative:
   was not thresholded and filtered as in finetuning — candidate quality will degrade
   on out-of-distribution conditioning tokens
 edam_topics:
-- http://edamontology.org/topic_3364
 - http://edamontology.org/topic_3172
 tools:
 - name: MS-BART
@@ -43,7 +42,6 @@ metadata:
   - SELFIES
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3364
   - http://edamontology.org/topic_3172
   provenance_tier: literature
 license: CC-BY-4.0

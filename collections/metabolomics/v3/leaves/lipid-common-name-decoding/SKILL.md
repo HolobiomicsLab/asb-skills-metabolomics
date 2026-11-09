@@ -10,8 +10,7 @@ when_to_use_negative:
   would need to trim via the 'unwanted' parameter rather than individual molecular
   lipid names
 edam_operation: http://edamontology.org/operation_0335
-edam_topics:
-- http://edamontology.org/topic_3353
+edam_topics: []
 tools:
 - name: liputils
   role: Python module whose Lipid class parses lipid string identifiers; .refmet_residues()
@@ -41,8 +40,7 @@ metadata:
   - liputils
   - pandas
   edam_operation: http://edamontology.org/operation_0335
-  edam_topics:
-  - http://edamontology.org/topic_3353
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

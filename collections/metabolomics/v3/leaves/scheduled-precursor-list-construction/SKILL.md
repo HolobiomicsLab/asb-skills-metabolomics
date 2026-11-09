@@ -13,7 +13,7 @@ when_to_use_negative:
   for the standard untargeted workflow.
 - A DDA run already fragmented the features of interest — RegFilter's value is capturing
   ions 'previously missed in DDA mode', not re-listing ions already confidently fragmented.
-edam_operation: http://edamontology.org/operation_3862
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0121
@@ -48,7 +48,7 @@ metadata:
   - MZmine
   - MZmine 2.53
   - RegFilter
-  edam_operation: http://edamontology.org/operation_3862
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0121

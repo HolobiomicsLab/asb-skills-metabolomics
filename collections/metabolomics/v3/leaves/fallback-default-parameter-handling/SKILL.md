@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0334
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3364
 tools:
 - name: MS2DECIDE
   role: Library whose K_estimation aggregation consumes the fallback-adjusted annotations;
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0334
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3364
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

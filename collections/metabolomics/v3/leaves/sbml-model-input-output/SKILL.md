@@ -13,7 +13,7 @@ when_to_use_negative:
 - The model was not generated with PyCoMo and lacks the expected SBML conventions
   (shared exchange compartment named 'medium' or a shared_compartment_id parameter)
   required by downstream consumers such as ScyNet.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0602
 tools:
@@ -42,7 +42,7 @@ metadata:
   - Python 3
   - SBML
   - openCOBRA
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0602
   provenance_tier: literature

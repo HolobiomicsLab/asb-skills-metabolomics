@@ -12,8 +12,7 @@ when_to_use_negative:
 - The table is raw instrument output needing peak picking / feature identification
   first; BFF operates on a preprocessed feature intensity table
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: SECIMTools
   role: Source implementation of the Blank Feature Filtering tool whose per-feature
@@ -41,8 +40,7 @@ metadata:
   - Python
   - SECIMTools
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

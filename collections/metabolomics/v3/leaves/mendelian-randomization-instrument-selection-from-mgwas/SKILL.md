@@ -12,7 +12,6 @@ when_to_use_negative:
   the module integrates mGWAS data with comparable GWAS data
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_3399
 tools:
 - name: MetaboAnalyst 6.0
@@ -44,7 +43,6 @@ metadata:
   - asari
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_3399
   provenance_tier: literature
 license: CC-BY-4.0

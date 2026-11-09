@@ -11,7 +11,7 @@ when_to_use_negative:
   validation
 - Groups have paired or matched designs requiring a signed-rank test rather than the
   independent-sample rank-sum test
-edam_operation: http://edamontology.org/operation_3720
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0203
@@ -31,7 +31,7 @@ metadata:
   license_tier: open
   tools:
   - conda
-  edam_operation: http://edamontology.org/operation_3720
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0203

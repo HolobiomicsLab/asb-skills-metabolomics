@@ -9,10 +9,9 @@ when_to_use_negative:
   graphs
 - When the analysis does not involve graph-structured pathway information (e.g., single-metabolite
   tests or unregularized kernel tests)
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
-- http://edamontology.org/topic_0151
 tools:
 - name: R
   role: Implementation environment for the simulation framework and PaIRKAT score
@@ -40,10 +39,9 @@ metadata:
   tools:
   - R
   - igraph
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
-  - http://edamontology.org/topic_0151
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -11,7 +11,6 @@ when_to_use_negative:
 - The apex must be a fixed exact retention-time window rather than data-driven local-minimum
   borders, e.g., strict vendor-defined integration regions
 edam_topics:
-- http://edamontology.org/topic_3652
 - http://edamontology.org/topic_3383
 tools:
 - name: TARDIS
@@ -47,7 +46,6 @@ metadata:
   - signal
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3652
   - http://edamontology.org/topic_3383
   provenance_tier: literature
 license: CC-BY-4.0

@@ -8,7 +8,7 @@ when_to_use_negative:
   would be drawn on an inconsistent scale.
 - Missingness should be MCAR/MAR rather than left-censored MNAR, since non-informative
   bounds (e.g., -Inf to +Inf) apply in that setting.
-edam_operation: http://edamontology.org/operation_3555
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 tools:
@@ -33,7 +33,7 @@ metadata:
   tools:
   - GSimp
   - R
-  edam_operation: http://edamontology.org/operation_3555
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   provenance_tier: literature

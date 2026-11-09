@@ -12,7 +12,6 @@ when_to_use_negative:
   from the precision matrix are not plain Pearson correlations
 edam_operation: http://edamontology.org/operation_3435
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3520
 tools:
 - name: scikit-learn
@@ -42,7 +41,6 @@ metadata:
   - scikit-learn
   edam_operation: http://edamontology.org/operation_3435
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

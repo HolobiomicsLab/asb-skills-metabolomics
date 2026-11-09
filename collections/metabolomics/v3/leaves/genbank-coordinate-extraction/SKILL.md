@@ -10,7 +10,7 @@ when_to_use_negative:
   a new one; use the repository's annotation-metadata filters or Boolean queries instead.
 - The source cluster has no Genbank/NCBI accession or traceable sequence coordinates,
   so the required accession-request fields cannot be compiled.
-edam_operation: http://edamontology.org/operation_2402
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0797
 - http://edamontology.org/topic_3174
@@ -43,7 +43,7 @@ metadata:
   - JSON schema
   - MIBiG Repository
   - mibig-api
-  edam_operation: http://edamontology.org/operation_2402
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0797
   - http://edamontology.org/topic_3174

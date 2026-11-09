@@ -12,7 +12,7 @@ when_to_use_negative:
   was still ongoing and the authors caution 'no single tool will be best for all workflows'
 - A latest-generation or vendor-specific acquisition workflow is required, where Skyline
   may lag behind commercial vendor software until support is implemented
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
@@ -40,7 +40,7 @@ metadata:
   tools:
   - Panorama
   - Skyline
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092

@@ -11,8 +11,7 @@ when_to_use_negative:
 - The goal is metabolite-phenotype association modelling (partial correlations, generalized
   linear models) rather than quality control of the spectral data
 edam_operation: http://edamontology.org/operation_3218
-edam_topics:
-- http://edamontology.org/topic_3822
+edam_topics: []
 tools:
 - name: MWASTools
   role: Supplies the QC_CV and QC_CV_specNMR functions and the packaged metabo_SE
@@ -36,8 +35,7 @@ metadata:
   - MWASTools
   - R
   edam_operation: http://edamontology.org/operation_3218
-  edam_topics:
-  - http://edamontology.org/topic_3822
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

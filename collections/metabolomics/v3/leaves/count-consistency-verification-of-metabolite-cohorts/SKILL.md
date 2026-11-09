@@ -10,7 +10,7 @@ when_to_use_negative:
   and the filtering audit has already been performed.
 - The analysis goal is downstream statistical modeling (OPLS-DA, ROC) rather than
   auditing the filtering funnel itself.
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -31,7 +31,7 @@ metadata:
   license_tier: open
   tools:
   - GCxGC-TOFMS
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

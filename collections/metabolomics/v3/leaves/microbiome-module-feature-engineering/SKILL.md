@@ -11,7 +11,7 @@ when_to_use_negative:
   further adds no value.
 - The goal is mechanistic discovery of microbe-metabolite interaction modules rather
   than building a classification feature set.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_0203
@@ -37,7 +37,7 @@ metadata:
   tools:
   - MiMeNet
   - WGCNA
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_0203

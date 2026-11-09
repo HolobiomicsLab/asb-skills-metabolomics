@@ -11,8 +11,7 @@ when_to_use_negative:
 - Input is already a pre-computed feature/CV table needing statistical analysis rather
   than metric extraction
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: PeakMeister
   role: Source of the validation study whose supplementary QC replicate peak areas
@@ -42,8 +41,7 @@ metadata:
   - PeakMeister
   - R
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

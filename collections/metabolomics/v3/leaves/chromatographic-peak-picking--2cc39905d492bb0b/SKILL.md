@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3646
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3521
 tools:
 - name: Mass-Suite (MSS)
   role: Provides mssmain.peak_pick (peak detection) and mssmain.get_scans, plus post-processing
@@ -52,7 +51,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3646
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3521
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

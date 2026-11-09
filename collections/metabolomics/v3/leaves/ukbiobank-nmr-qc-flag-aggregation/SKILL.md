@@ -11,8 +11,7 @@ when_to_use_negative:
   extracted measurement QC flags and need no aggregation
 - When no sensitivity analysis to QC-flagged samples or measurements is planned and
   flags will not inform inclusion/exclusion decisions
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: ukbnmr
   role: R package supplying recompute_derived_biomarkers(), recompute_derived_biomarker_qc_flags(),
@@ -39,8 +38,7 @@ metadata:
   - data.table
   - ukbnmr
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

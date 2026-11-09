@@ -10,7 +10,7 @@ when_to_use_negative:
   complexes) — use the full two-layer IIMN output instead
 - Nodes do not share IIN IDs (no MS1-based ion identity grouping was run), so no collapse
   grouping is possible
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -38,7 +38,7 @@ metadata:
   tools:
   - GNPS
   - mzmine
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

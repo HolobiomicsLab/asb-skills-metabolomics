@@ -11,7 +11,7 @@ when_to_use_negative:
   PDSmatrix — use those skills instead of this mapping step
 - Metabolite identifiers are not recognized names that MetaTOpathway('name') can convert
   to HMDB ids
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0602
@@ -50,7 +50,7 @@ metadata:
   - Lilikoi v2.0
   - R
   - lilikoi
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0602

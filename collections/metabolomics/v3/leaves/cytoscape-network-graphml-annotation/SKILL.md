@@ -11,7 +11,7 @@ when_to_use_negative:
 - Motif–document relations need to be re-filtered at different prob/overlap thresholds
   — regenerate the summary/graphml first, since the ms2lda.org summary table already
   contains relations filtered at the web-app thresholds.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3314
@@ -52,7 +52,7 @@ metadata:
   - MS2LDA
   - RMolNetEnhancer
   - pyMolNetEnhancer
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3314

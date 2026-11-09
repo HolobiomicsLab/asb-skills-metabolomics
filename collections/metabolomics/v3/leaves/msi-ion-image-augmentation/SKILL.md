@@ -13,7 +13,7 @@ when_to_use_negative:
 - When the input is already an embedding or feature table (e.g. after UMAP reduction
   to 20 dimensions) — augmentation must be applied to raw ion images before encoder
   training.
-edam_operation: http://edamontology.org/operation_3674
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3382
@@ -56,7 +56,7 @@ metadata:
   - Resnet18
   - SimSiam
   - kornia
-  edam_operation: http://edamontology.org/operation_3674
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3382

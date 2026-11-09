@@ -8,7 +8,7 @@ when_to_use_negative:
   noise-robustness benchmark with repeated stochastic runs
 - When peak features lack compound annotations — unannotated peaks are excluded from
   PALS pathway analysis, so the benchmark cannot be run
-edam_operation: http://edamontology.org/operation_2497
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_2269
@@ -40,7 +40,7 @@ metadata:
   - Python
   - SciPy
   - pandas
-  edam_operation: http://edamontology.org/operation_2497
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_2269

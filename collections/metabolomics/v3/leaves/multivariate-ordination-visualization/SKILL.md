@@ -11,8 +11,7 @@ when_to_use_negative:
 - The goal is de novo peak deconvolution or library matching — use Agilent Unknowns
   Analysis (deconvolution algorithm) upstream of this skill instead
 edam_operation: http://edamontology.org/operation_2945
-edam_topics:
-- http://edamontology.org/topic_2250
+edam_topics: []
 tools:
 - name: uafR
   role: Provides the downstream statistical analysis pathway used to compute sample-by-sample
@@ -35,8 +34,7 @@ metadata:
   - R
   - uafR
   edam_operation: http://edamontology.org/operation_2945
-  edam_topics:
-  - http://edamontology.org/topic_2250
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

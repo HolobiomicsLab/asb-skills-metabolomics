@@ -9,7 +9,7 @@ when_to_use_negative:
   linksets
 - Only a single entity type is needed — a one-step extension with one linkset suffices
   and the two-step mechanism is unnecessary
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 tools:
 - name: CyTargetLinker
   role: Performs the two-step 'extend' operations and supplies the visual style applied
@@ -38,7 +38,7 @@ metadata:
   - CyTargetLinker
   - Cytoscape
   - R
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

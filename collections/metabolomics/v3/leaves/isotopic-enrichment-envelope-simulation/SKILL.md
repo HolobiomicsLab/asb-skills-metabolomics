@@ -16,7 +16,6 @@ edam_operation: http://edamontology.org/operation_3214
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
-- http://edamontology.org/topic_3825
 tools:
 - name: Aerith
   role: R package (C++ via Rcpp) that reads/writes spectrum scans, computes theoretical
@@ -54,7 +53,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092
-  - http://edamontology.org/topic_3825
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

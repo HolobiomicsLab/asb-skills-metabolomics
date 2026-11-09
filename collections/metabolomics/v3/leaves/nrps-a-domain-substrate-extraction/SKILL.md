@@ -11,7 +11,7 @@ when_to_use_negative:
 - The A-domains of interest are not present in MIBiG entries — this skill only counts
   annotations already curated in MIBiG, it does not predict substrates for novel sequences
   (use predictors such as SANDPUMA or NRPSPredictor2 for prediction)
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - MIBiG 3.0
   - PIKAChU
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

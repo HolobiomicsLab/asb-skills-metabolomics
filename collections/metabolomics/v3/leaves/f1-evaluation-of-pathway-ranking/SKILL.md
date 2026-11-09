@@ -11,8 +11,7 @@ when_to_use_negative:
 - The pathway database contains no ground-truth active pathways, so F1 against known
   true pathways cannot be computed
 edam_operation: http://edamontology.org/operation_3929
-edam_topics:
-- http://edamontology.org/topic_3820
+edam_topics: []
 tools:
 - name: PALS
   role: Python library providing pals.PLAGE, pals.ORA, pals.GSEA classes and the DataSource
@@ -41,8 +40,7 @@ metadata:
   - SciPy
   - pandas
   edam_operation: http://edamontology.org/operation_3929
-  edam_topics:
-  - http://edamontology.org/topic_3820
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

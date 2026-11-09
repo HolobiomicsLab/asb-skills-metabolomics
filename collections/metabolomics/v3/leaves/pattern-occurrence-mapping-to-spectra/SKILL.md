@@ -11,7 +11,7 @@ when_to_use_negative:
   rather than exact graph-structured pattern querying
 - You need to rank or score patterns by informativeness — the article notes no scoring
   system for patterns yet exists
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3336
 - http://edamontology.org/topic_3292
@@ -38,7 +38,7 @@ metadata:
   - GNPS
   - R
   - mineMS2
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3336
   - http://edamontology.org/topic_3292

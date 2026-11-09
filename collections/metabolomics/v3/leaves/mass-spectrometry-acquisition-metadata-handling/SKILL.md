@@ -10,7 +10,7 @@ when_to_use_negative:
   Thermo .raw files; the README notes '.raw files but support is limited'.
 - A feature table already exists and no raw-level reprocessing is needed — this skill
   only produces conversion-ready mzML inputs.
-edam_operation: http://edamontology.org/operation_3254
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -44,7 +44,7 @@ metadata:
   - ThermoRawFileParser
   - mono
   - pcpfm
-  edam_operation: http://edamontology.org/operation_3254
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

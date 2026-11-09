@@ -13,8 +13,7 @@ when_to_use_negative:
 - The goal is database-driven metabolite annotation (HMDB/KEGG/LIPIDMAPS scoring by
   mass accuracy, isotopic similarity, adduct evidence) rather than classifying peaks
   as isotope/adduct pairs
-edam_topics:
-- http://edamontology.org/topic_3826
+edam_topics: []
 tools:
 - name: SMAnalyst
   role: Web/R platform whose Metabolite Annotation module performs isotope/adduct
@@ -46,8 +45,7 @@ metadata:
   - SMAnalyst
   - spdep (moran_bv)
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3826
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

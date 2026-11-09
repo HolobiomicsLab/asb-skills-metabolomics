@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3218
 edam_topics:
 - http://edamontology.org/topic_0593
-- http://edamontology.org/topic_3272
 tools:
 - name: Protomix
   role: Python package providing the chained FID-to-spectrum preprocessing functions
@@ -50,7 +49,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3218
   edam_topics:
   - http://edamontology.org/topic_0593
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

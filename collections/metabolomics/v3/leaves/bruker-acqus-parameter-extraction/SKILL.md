@@ -10,7 +10,6 @@ when_to_use_negative:
   expects the per-sample directory structure
 edam_operation: http://edamontology.org/operation_0226
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0593
 tools:
 - name: Protomix
@@ -38,7 +37,6 @@ metadata:
   - pandas
   edam_operation: http://edamontology.org/operation_0226
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0593
   provenance_tier: literature
 license: CC-BY-4.0

@@ -13,7 +13,6 @@ when_to_use_negative:
 - You are working outside the dedicated rdkit environment, since RDKit is intentionally
   installed separately from the main metabolitechat conda environment
 edam_topics:
-- http://edamontology.org/topic_3312
 - http://edamontology.org/topic_3474
 tools:
 - name: RDKit
@@ -54,7 +53,6 @@ metadata:
   - pip
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3312
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

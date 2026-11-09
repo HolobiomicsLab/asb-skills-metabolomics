@@ -9,7 +9,7 @@ when_to_use_negative:
   query its built-in functional-group tables directly
 - Input is raw MALDI-MSI imaging data rather than a structure database — this skill
   operates on candidate metabolite structures, not spectra
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -43,7 +43,7 @@ metadata:
   - Met-ID
   - RDKit
   - SQLite
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

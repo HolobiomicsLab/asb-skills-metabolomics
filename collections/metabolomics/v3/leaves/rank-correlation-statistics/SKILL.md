@@ -11,7 +11,7 @@ when_to_use_negative:
   on ranks is adequate
 - The goal is toxicity-only prioritization without an exposure term; the PrHQ or ToxPi-only
   pathway applies, not the RI-vs-PrHQ comparison
-edam_operation: http://edamontology.org/operation_2264
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2258
 tools:
@@ -39,7 +39,7 @@ metadata:
   - ToxPI
   - U.S. EPA Chemistry Dashboard
   - scipy.stats.pearsonr
-  edam_operation: http://edamontology.org/operation_2264
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2258
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
 - 'When atom-to-atom mapping is required from a database: MetaCyc does not number
   atoms consistently across reactions, so manual curation with consistent numbering
   is required'
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3345
 - http://edamontology.org/topic_0602
@@ -49,7 +49,7 @@ metadata:
   - PathModel
   - clingo
   - clyngor
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3345
   - http://edamontology.org/topic_0602

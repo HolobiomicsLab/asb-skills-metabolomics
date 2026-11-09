@@ -10,7 +10,7 @@ when_to_use_negative:
   intensities (re-normalizing would double-scale the intensity weights)
 edam_operation: http://edamontology.org/operation_3359
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: ChemDistiller
   role: Engine whose msspectra.spectrum module defines the peak/spectrum handling
@@ -44,7 +44,7 @@ metadata:
   - SciPy
   edam_operation: http://edamontology.org/operation_3359
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -17,7 +17,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
 - http://edamontology.org/topic_0593
-- http://edamontology.org/topic_3331
 tools:
 - name: MRSCloud
   role: MATLAB tool that consumes the spin-system definitions (via simMRS.json) together
@@ -54,7 +53,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
   - http://edamontology.org/topic_0593
-  - http://edamontology.org/topic_3331
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

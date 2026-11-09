@@ -10,7 +10,7 @@ when_to_use_negative:
 - The goal is quantitation or absolute concentration estimation rather than method
   benchmarking on classification performance
 - The spectra are LC-MS data — this skill targets 1D NMR spectra summarization comparisons
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0593
 - http://edamontology.org/topic_3172
@@ -49,7 +49,7 @@ metadata:
   - icoshift
   - speaq 2.0
   - speaq R package
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0593
   - http://edamontology.org/topic_3172

@@ -11,8 +11,7 @@ when_to_use_negative:
 - You need directed donor-to-receiver exchange semantics from SMETANA itself — this
   skill symmetrizes directed interactions into undirected pairwise overlaps
 edam_operation: http://edamontology.org/operation_0292
-edam_topics:
-- http://edamontology.org/topic_2254
+edam_topics: []
 tools:
 - name: SMETANA
   role: Computes cross-feeding interaction metrics over all member pairs under the
@@ -42,8 +41,7 @@ metadata:
   - COMMIT
   - SMETANA
   edam_operation: http://edamontology.org/operation_0292
-  edam_topics:
-  - http://edamontology.org/topic_2254
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

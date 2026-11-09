@@ -10,7 +10,7 @@ when_to_use_negative:
 - When the goal is omnibus multi-pathway or genome-wide association rather than testing
   individual pathway–phenotype associations within PaIRKAT's semi-parametric kernel
   framework
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3517
@@ -38,7 +38,7 @@ metadata:
   repo_url: https://github.com/CharlieCarpenter/PaIRKAT
   tools:
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3517

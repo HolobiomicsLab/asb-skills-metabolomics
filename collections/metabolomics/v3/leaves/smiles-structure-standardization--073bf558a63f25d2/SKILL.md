@@ -11,7 +11,6 @@ when_to_use_negative:
 - The target compounds (e.g. triacylglycerols, phosphatidylcholines) lie outside the
   training chemical landscape and would likely fail rCDK descriptor calculation anyway.
 edam_topics:
-- http://edamontology.org/topic_2250
 - http://edamontology.org/topic_0089
 tools:
 - name: ChemAxon
@@ -51,7 +50,6 @@ metadata:
   - rcdk
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_2250
   - http://edamontology.org/topic_0089
   provenance_tier: literature
 license: CC-BY-4.0

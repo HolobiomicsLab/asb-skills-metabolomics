@@ -10,7 +10,7 @@ when_to_use_negative:
   PAFFT alignment) — the visualization depends on that quantification table.
 - When the goal is untargeted discovery of labelling patterns rather than visualization
   of a predefined target metabolite list of glucose-pathway metabolites.
-edam_operation: http://edamontology.org/operation_3941
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -44,7 +44,7 @@ metadata:
   - enviPat
   - plotly
   - shiny
-  edam_operation: http://edamontology.org/operation_3941
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

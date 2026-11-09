@@ -10,7 +10,7 @@ when_to_use_negative:
   extraction must run first, since DeepRTAlign only consumes feature tables
 - Only non-monotonic, piecewise-constant shifts with no global drift exist and a direct-matching
   model will be trained on raw RTs — coarse warping adds little
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -50,7 +50,7 @@ metadata:
   - MaxQuant
   - OpenMS
   - XICFinder
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

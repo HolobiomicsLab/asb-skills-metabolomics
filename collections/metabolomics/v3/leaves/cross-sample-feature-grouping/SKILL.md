@@ -10,7 +10,7 @@ when_to_use_negative:
   (duoID) and integration (ConsProcessing), so re-grouping would duplicate work
 - Features were produced by a different deconvolution pipeline whose spectra are not
   dot-product comparable with the per-sample PARAFAC-extracted spectra
-edam_operation: http://edamontology.org/operation_3709
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0092
@@ -45,7 +45,7 @@ metadata:
   - PARAFAC
   - multiway
   - rrcov3way
-  edam_operation: http://edamontology.org/operation_3709
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0092

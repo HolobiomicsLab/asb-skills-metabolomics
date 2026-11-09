@@ -13,8 +13,7 @@ when_to_use_negative:
   times cannot be computed or verified.
 edam_operation: http://edamontology.org/operation_0226
 edam_topics:
-- http://edamontology.org/topic_3539
-- http://edamontology.org/topic_3272
+- http://edamontology.org/topic_0736
 tools:
 - name: PRIMA Panel
   role: Interactive R Shiny tool whose Data tab renders stability time points sorted
@@ -44,8 +43,7 @@ metadata:
   - Shiny
   edam_operation: http://edamontology.org/operation_0226
   edam_topics:
-  - http://edamontology.org/topic_3539
-  - http://edamontology.org/topic_3272
+  - http://edamontology.org/topic_0736
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   full annotation content — PUG-REST is better suited for that purpose.
 - Only a specific tabular data type is needed — some specialized (especially tabular)
   data come from other backend services and are not currently accessible through PUG-View.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_2258
@@ -36,7 +36,7 @@ metadata:
   tools:
   - PUG-REST
   - PUG-View
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_2258

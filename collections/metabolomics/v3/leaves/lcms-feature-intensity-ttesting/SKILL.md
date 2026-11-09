@@ -11,7 +11,7 @@ when_to_use_negative:
   unnecessary
 - The analysis requires multi-group or covariate-adjusted modeling rather than a two-sample
   comparison between exactly two cell types
-edam_operation: http://edamontology.org/operation_2262
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3520
@@ -46,7 +46,7 @@ metadata:
   - R
   - XCMS
   - apLCMS
-  edam_operation: http://edamontology.org/operation_2262
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3520

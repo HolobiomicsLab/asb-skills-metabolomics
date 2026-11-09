@@ -14,7 +14,7 @@ when_to_use_negative:
 - When metabolite data contain missing values that cannot be imputed — hRUV expects
   data without missing values, which is often not possible in large-scale metabolomics;
   the imputation workaround must be resolved first.
-edam_operation: http://edamontology.org/operation_3653
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 tools:
@@ -46,7 +46,7 @@ metadata:
   - R
   - hRUV
   - hRUV Shiny application
-  edam_operation: http://edamontology.org/operation_3653
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   provenance_tier: literature

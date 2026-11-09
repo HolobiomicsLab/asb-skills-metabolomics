@@ -8,7 +8,7 @@ when_to_use_negative:
   or load-time difference would confound input size with tool efficiency
 - The goal is rendering quality or statistical fidelity of visualizations rather than
   load-time scalability and output size on a large sample/metadata-rich dataset
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -38,7 +38,7 @@ metadata:
   - EMPeror
   - KiNG
   - QIIME
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

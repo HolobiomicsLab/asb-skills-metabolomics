@@ -11,7 +11,7 @@ when_to_use_negative:
   (as reported for the Rotterdam dataset)'
 - Peak-shape distortion after realignment is unacceptable and cannot be handled —
   apply ncGTW's post-processing module or consider that parameter tuning may be needed
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0219
@@ -45,7 +45,7 @@ metadata:
   - R
   - XCMS
   - ncGTW
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0219

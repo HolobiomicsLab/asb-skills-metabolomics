@@ -11,7 +11,7 @@ when_to_use_negative:
   across a molecular family.
 - The source dataset is not exposed through a USI-supporting public source (MassIVE/GNPS,
   Metabolomics Workbench, PRIDE, GNPS2).
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0085
 - http://edamontology.org/topic_3520
@@ -49,7 +49,7 @@ metadata:
   - NetworkX
   - Plotly
   - Python Dash
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0085
   - http://edamontology.org/topic_3520

@@ -12,7 +12,7 @@ when_to_use_negative:
 - Too few samples or genes per tissue to support fitting an inverse-gamma distribution
   to variances separately for male- and female-coded individuals
 edam_topics:
-- http://edamontology.org/topic_0220
+- http://edamontology.org/topic_3489
 - http://edamontology.org/topic_3308
 tools:
 - name: fitdistrplus
@@ -53,7 +53,7 @@ metadata:
   - fitdistrplus
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0220
+  - http://edamontology.org/topic_3489
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

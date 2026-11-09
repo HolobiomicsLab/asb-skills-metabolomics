@@ -10,7 +10,7 @@ when_to_use_negative:
   is not expected within the sample itself
 - The metabolites of interest are not present in any of the metabolic models (many
   metabolomics database entries are not in any model)
-edam_operation: http://edamontology.org/operation_3722
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 - http://edamontology.org/topic_3172
@@ -44,7 +44,7 @@ metadata:
   - JMS
   - metDataModel
   - mummichog
-  edam_operation: http://edamontology.org/operation_3722
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   - http://edamontology.org/topic_3172

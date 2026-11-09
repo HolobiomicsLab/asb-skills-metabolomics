@@ -11,7 +11,7 @@ when_to_use_negative:
   rather than retraining)
 - You need a cross-ionization-mode model built on top of a backbone trained only on
   positive ionization spectra (e.g. DreaMS is unsuitable for this purpose)
-edam_operation: http://edamontology.org/operation_3983
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3474
@@ -42,7 +42,7 @@ metadata:
   - PyTorch
   - matchms
   - ms2deepscore
-  edam_operation: http://edamontology.org/operation_3983
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3474

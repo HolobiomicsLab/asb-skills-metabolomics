@@ -12,7 +12,7 @@ when_to_use_negative:
   directly in Cytoscape rather than merging curated XGMML linksets
 - The linkset's identifier types cannot be mapped to the network's node identifiers
   (BridgeDb mapped fraction near zero), since 'extend' would extract no matching interactions
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 tools:
@@ -54,7 +54,7 @@ metadata:
   - R
   - WikiPathways
   - qc_xgmml.py
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   provenance_tier: literature

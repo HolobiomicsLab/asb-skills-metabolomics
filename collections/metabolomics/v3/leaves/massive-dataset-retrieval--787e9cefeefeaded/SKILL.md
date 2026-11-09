@@ -9,7 +9,7 @@ when_to_use_negative:
   is needed.
 - The study data are direct-infusion or non-LC-MS mass spectrometry not deposited
   as MassIVE mzML runs, so the accession-based retrieval path does not apply.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3314
@@ -46,7 +46,7 @@ metadata:
   - KNIME
   - OpenMS
   - Optimus
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3314

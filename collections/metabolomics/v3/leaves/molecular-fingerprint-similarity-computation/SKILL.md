@@ -10,7 +10,7 @@ when_to_use_negative:
   construction; seed nodes come from spectral library matches, not fingerprint similarity
 - When only the default ChemWalker fingerprint behavior is needed with no sensitivity
   analysis — a single fingerprint suffices, not all 27
-edam_operation: http://edamontology.org/operation_4003
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -50,7 +50,7 @@ metadata:
   - MetFusion
   - RDKit
   - pyrwr
-  edam_operation: http://edamontology.org/operation_4003
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

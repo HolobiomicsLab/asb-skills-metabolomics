@@ -13,7 +13,6 @@ when_to_use_negative:
   outside the colorectal cancer subset.
 edam_operation: http://edamontology.org/operation_3230
 edam_topics:
-- http://edamontology.org/topic_3121
 - http://edamontology.org/topic_0203
 tools:
 - name: GutUDB
@@ -35,7 +34,6 @@ metadata:
   - GutUDB
   edam_operation: http://edamontology.org/operation_3230
   edam_topics:
-  - http://edamontology.org/topic_3121
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

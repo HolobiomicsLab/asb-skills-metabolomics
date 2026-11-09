@@ -13,7 +13,7 @@ when_to_use_negative:
 - When the input is raw peak intensities that have not passed upstream DNEA pre-processing
   (missing-value filtering >30%, median imputation, optional aggregateFeatures) and
   BIC tuning
-edam_operation: http://edamontology.org/operation_3777
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0203
@@ -44,7 +44,7 @@ metadata:
   - DNEA R package
   - Filigree
   - R
-  edam_operation: http://edamontology.org/operation_3777
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0203

@@ -11,8 +11,7 @@ when_to_use_negative:
   of an already-executed pipeline
 - The object was not built with maplet/SummarizedExperiment and therefore lacks the
   recorded annotations of executed functions and their arguments
-edam_topics:
-- http://edamontology.org/topic_3331
+edam_topics: []
 tools:
 - name: maplet
   role: R package whose pipeline container records executed functions, arguments,
@@ -45,8 +44,7 @@ metadata:
   - SummarizedExperiment
   - maplet
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3331
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

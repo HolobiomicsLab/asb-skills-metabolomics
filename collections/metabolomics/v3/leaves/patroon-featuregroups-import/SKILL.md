@@ -11,8 +11,7 @@ when_to_use_negative:
 - Feature extraction itself still needs to be performed from raw data — patRoon (or
   XCMS/OpenMS) must first produce featureGroups before import
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3482
+edam_topics: []
 tools:
 - name: GetFeatistics
   role: Provides the import functions (get_feat_table_from_patRoon, get_feat_info_from_patRoon)
@@ -42,8 +41,7 @@ metadata:
   - R
   - patRoon
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3482
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

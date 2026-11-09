@@ -12,7 +12,7 @@ when_to_use_negative:
 - The analysis targets the BioTransformer hold-out set (13321_2018_324_MOESM6_ESM.sdf)
   or HDFame 60Reactants/30NonReactants files, which are not the BoM-annotated EBoMD
   records
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 - http://edamontology.org/topic_2258
@@ -40,7 +40,7 @@ metadata:
   - CDK
   - EBoMD
   - EBoMD.sdf
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   - http://edamontology.org/topic_2258

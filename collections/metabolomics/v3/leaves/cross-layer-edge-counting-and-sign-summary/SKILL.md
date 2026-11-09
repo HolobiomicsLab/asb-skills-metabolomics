@@ -11,7 +11,7 @@ when_to_use_negative:
   rather than cross-layer association counts and sign patterns
 - Associations are non-correlation-based (e.g. non-linear or directed causal edges),
   which the article notes correlation-based network optimization may overlook
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3174
@@ -44,7 +44,7 @@ metadata:
   - R
   - igraph
   - pcutils
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3174

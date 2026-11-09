@@ -10,7 +10,6 @@ when_to_use_negative:
   into
 edam_operation: http://edamontology.org/operation_0306
 edam_topics:
-- http://edamontology.org/topic_3485
 - http://edamontology.org/topic_0091
 tools:
 - name: SMetaS
@@ -36,7 +35,6 @@ metadata:
   - SMetaS
   edam_operation: http://edamontology.org/operation_0306
   edam_topics:
-  - http://edamontology.org/topic_3485
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

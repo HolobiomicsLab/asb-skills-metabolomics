@@ -13,7 +13,7 @@ when_to_use_negative:
 - Input peaks already carry metabolite assignments and only downstream refinement
   (RefineLipids, CalculateAnnotationStatistics) is required
 edam_topics:
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: SpaMTP
   role: R package whose annotation engine (AdductRules, MALDIMatrixRules, MALDIMatrixProfiles,
@@ -37,7 +37,7 @@ metadata:
   - SpaMTP
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

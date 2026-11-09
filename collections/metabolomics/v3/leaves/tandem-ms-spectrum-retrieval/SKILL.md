@@ -10,7 +10,7 @@ when_to_use_negative:
   repository (GNPS, MassBank, MassIVE, MetaboLights, Metabolomics Workbench, ProteomeXchange)
 - You already hold the spectrum locally (e.g. an MGF or mzML file) and just need plotting
   or annotation — use the resolver's rendering endpoints directly rather than retrieval
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -41,7 +41,7 @@ metadata:
   tools:
   - Metabolomics Spectrum Resolver
   - USI
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

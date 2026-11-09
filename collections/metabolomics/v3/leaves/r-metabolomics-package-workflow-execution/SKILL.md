@@ -11,7 +11,7 @@ when_to_use_negative:
   downstream of MetaboAnalyst-style processing.
 - Multi-time-point data without knowing the correct num_tp setting is required, since
   the example workflow demonstrates only num_tp = 1.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -50,7 +50,7 @@ metadata:
   - MetaboAnalyst
   - R
   - devtools
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

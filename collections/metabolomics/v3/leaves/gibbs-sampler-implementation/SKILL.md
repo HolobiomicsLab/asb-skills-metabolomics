@@ -13,7 +13,7 @@ when_to_use_negative:
 - When the data are not log-transformable (already normalized or contain zeros) without
   violating the pre-processing assumptions (log-transform → QRILC init → scale → impute
   → recover → exponentiate)
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0091
@@ -50,7 +50,7 @@ metadata:
   - R
   - glmnet
   - imputeLCMD
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0091

@@ -14,7 +14,6 @@ when_to_use_negative:
   negative-mode rules
 edam_topics:
 - http://edamontology.org/topic_0121
-- http://edamontology.org/topic_3272
 tools:
 - name: NP3 MS Workflow
   role: Executes the Annotation/Merging steps 7–8 that build the IVAMN from pairwise
@@ -47,7 +46,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

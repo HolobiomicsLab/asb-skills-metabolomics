@@ -13,7 +13,6 @@ when_to_use_negative:
   from the EPA PFAS structure list and defaults to PFAS analysis
 edam_operation: http://edamontology.org/operation_0346
 edam_topics:
-- http://edamontology.org/topic_0171
 - http://edamontology.org/topic_3318
 tools:
 - name: FluoroMatch 2.0
@@ -48,7 +47,6 @@ metadata:
   - RCDK
   edam_operation: http://edamontology.org/operation_0346
   edam_topics:
-  - http://edamontology.org/topic_0171
   - http://edamontology.org/topic_3318
   provenance_tier: literature
 license: CC-BY-4.0

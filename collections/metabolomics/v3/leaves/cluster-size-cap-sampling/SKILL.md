@@ -12,8 +12,7 @@ when_to_use_negative:
 - Every redundant spectrum must be retained, since capping by random sampling discards
   non-sampled members of each cluster
 edam_operation: http://edamontology.org/operation_3432
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: HDF5
   role: Serialization format for storing the quality-filtered input subsets and the
@@ -37,8 +36,7 @@ metadata:
   - HDF5
   - Locality-sensitive hashing (LSH)
   edam_operation: http://edamontology.org/operation_3432
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

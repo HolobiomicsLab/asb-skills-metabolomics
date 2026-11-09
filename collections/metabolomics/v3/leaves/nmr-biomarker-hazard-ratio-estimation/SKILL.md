@@ -10,7 +10,7 @@ when_to_use_negative:
   Cox models
 - The endpoint is a continuous trait rather than incident CAD/stroke requiring survival
   analysis
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3335
 - http://edamontology.org/topic_2269
@@ -42,7 +42,7 @@ metadata:
   - R
   - data.table
   - ukbnmr
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3335
   - http://edamontology.org/topic_2269

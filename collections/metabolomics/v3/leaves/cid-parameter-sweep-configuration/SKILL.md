@@ -12,7 +12,7 @@ when_to_use_negative:
 - No experimental reference spectrum (e.g., NIST20) exists for the target compound,
   since the sweep is benchmarked and parameter selection relies on entropy similarity
   scoring against library spectra
-edam_operation: http://edamontology.org/operation_4004
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3369
 - http://edamontology.org/topic_3517
@@ -62,7 +62,7 @@ metadata:
   - TeraChem
   - density functional theory
   - nanoreactor (LearnReactions.py)
-  edam_operation: http://edamontology.org/operation_4004
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3369
   - http://edamontology.org/topic_3517

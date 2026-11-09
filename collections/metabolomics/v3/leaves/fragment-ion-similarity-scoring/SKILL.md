@@ -11,7 +11,7 @@ when_to_use_negative:
   to protonation/deprotonation analysis.
 - Only a global, dataset-wide fragment substitution matrix is needed — this skill
   produces a pair-specific, context-sensitive matrix, not a reusable global one.
-edam_operation: http://edamontology.org/operation_3254
+edam_operation: null
 tools:
 - name: SIMILE
   role: Python library providing sml.similarity_matrix, which builds the m/z difference
@@ -41,7 +41,7 @@ metadata:
   - numpy
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_3254
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

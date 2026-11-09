@@ -14,7 +14,6 @@ when_to_use_negative:
   set
 edam_operation: http://edamontology.org/operation_2423
 edam_topics:
-- http://edamontology.org/topic_0038
 - http://edamontology.org/topic_3474
 tools:
 - name: BitterMasS
@@ -46,7 +45,6 @@ metadata:
   - MassBank
   edam_operation: http://edamontology.org/operation_2423
   edam_topics:
-  - http://edamontology.org/topic_0038
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

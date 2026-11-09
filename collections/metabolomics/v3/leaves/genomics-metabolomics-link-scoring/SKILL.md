@@ -10,7 +10,7 @@ when_to_use_negative:
   and nocardimicin in the Nocardia dataset)
 - MolNetEnhancer classes are required but you cannot run external GNPS jobs, since
   MolNetEnhancer has to be run outside NPLinker
-edam_operation: http://edamontology.org/operation_3754
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_3520
@@ -52,7 +52,7 @@ metadata:
   - Python
   - antiSMASH
   - mibig_classifications
-  edam_operation: http://edamontology.org/operation_3754
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_3520

@@ -9,7 +9,7 @@ when_to_use_negative:
   database'
 - Your annotation pipeline is not tidyMass/metID-based and cannot load 'databaseClass'
   objects
-edam_operation: http://edamontology.org/operation_3736
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_3520
@@ -46,7 +46,7 @@ metadata:
   - KEGG
   - MetMiner
   - tidyMass
-  edam_operation: http://edamontology.org/operation_3736
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_3520

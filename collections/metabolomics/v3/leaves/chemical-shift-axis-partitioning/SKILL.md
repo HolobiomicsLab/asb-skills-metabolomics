@@ -12,7 +12,6 @@ when_to_use_negative:
   peak alignment instead of binning
 edam_operation: http://edamontology.org/operation_3891
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3520
 tools:
 - name: Protomix
@@ -41,7 +40,6 @@ metadata:
   - pandas
   edam_operation: http://edamontology.org/operation_3891
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

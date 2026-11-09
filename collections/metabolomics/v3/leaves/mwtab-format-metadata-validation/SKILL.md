@@ -10,7 +10,7 @@ when_to_use_negative:
   the convert command instead)
 - The goal is deposition to a repository other than Metabolomics Workbench, for which
   the built-in mwTab format schema does not apply
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3336
 tools:
@@ -46,7 +46,7 @@ metadata:
   - Python 3
   - jsonschema
   - mwtab
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3336
   provenance_tier: literature

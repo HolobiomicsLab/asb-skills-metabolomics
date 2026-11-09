@@ -9,7 +9,7 @@ when_to_use_negative:
   been extracted from features.
 - Input data are already annotated metabolite tables with confidence levels — no further
   spectral matching is needed at that stage.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -37,7 +37,7 @@ metadata:
   - DaDIA.R
   - MoNA MS spectral library
   - R
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

@@ -12,7 +12,7 @@ when_to_use_negative:
   harmonisation)
 - The goal is conventional differential-molecule pathway testing (ORA or GSEA), not
   per-sample pathway scoring for supervised prediction
-edam_operation: http://edamontology.org/operation_3930
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3173
@@ -46,7 +46,7 @@ metadata:
   - Python
   - SciKitLearn
   - sspa
-  edam_operation: http://edamontology.org/operation_3930
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3173

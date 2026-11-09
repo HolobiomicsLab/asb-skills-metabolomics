@@ -10,7 +10,7 @@ when_to_use_negative:
   = modules)
 - The goal is to run flux prediction on single-cell data rather than to summarize
   the static structure of the metabolic map
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 tools:
 - name: scFEA
   role: Source of the human metabolic map files (module_gene_m168.csv, cmMat_171.csv,
@@ -40,7 +40,7 @@ metadata:
   tools:
   - FLUXestimator
   - scFEA
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

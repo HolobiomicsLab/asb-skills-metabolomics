@@ -13,7 +13,7 @@ when_to_use_negative:
 - When a fully supervised classification or an existing labeled segmentation already
   exists — k-means clustering is unsupervised and may not match domain labels without
   validation.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2640
 - http://edamontology.org/topic_3361
@@ -46,7 +46,7 @@ metadata:
   - Pew2
   - Python
   - pewlib
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2640
   - http://edamontology.org/topic_3361

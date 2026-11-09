@@ -11,7 +11,7 @@ when_to_use_negative:
 - The task is generic peak-quality filtering (e.g., removing spectra with identical
   fragment intensities or low-resolution spectra via library_cleaning yaml filters)
   rather than charge-state handling of chemical structures
-edam_operation: http://edamontology.org/operation_4003
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -41,7 +41,7 @@ metadata:
   - Python
   - RDKit
   - matchms
-  edam_operation: http://edamontology.org/operation_4003
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

@@ -12,8 +12,7 @@ when_to_use_negative:
 - You need accession ID mapping to external databases (LIPID MAPS, SwissLipids) rather
   than alias-to-LipidLynxX-ID conversion.
 edam_operation: http://edamontology.org/operation_0335
-edam_topics:
-- http://edamontology.org/topic_3353
+edam_topics: []
 tools:
 - name: LipidLynxX
   role: Source of the controlled-vocabulary and alias JSON configuration files, the
@@ -46,8 +45,7 @@ metadata:
   - LipidLynxX
   - Python
   edam_operation: http://edamontology.org/operation_0335
-  edam_topics:
-  - http://edamontology.org/topic_3353
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

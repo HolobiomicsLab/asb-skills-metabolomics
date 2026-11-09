@@ -10,7 +10,7 @@ when_to_use_negative:
   of an already-identified peptide set
 - The data are MHC class II ligands, which require an MHC class II prediction tool
   rather than NetMHCpan
-edam_operation: http://edamontology.org/operation_0426
+edam_operation: http://edamontology.org/operation_2454
 edam_topics:
 - http://edamontology.org/topic_0080
 tools:
@@ -40,7 +40,7 @@ metadata:
   - Casanovo
   - NetMHCpan-4.1
   - Tide
-  edam_operation: http://edamontology.org/operation_0426
+  edam_operation: http://edamontology.org/operation_2454
   edam_topics:
   - http://edamontology.org/topic_0080
   provenance_tier: literature

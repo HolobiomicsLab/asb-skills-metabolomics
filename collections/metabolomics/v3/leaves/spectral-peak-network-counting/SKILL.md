@@ -12,7 +12,6 @@ when_to_use_negative:
   peaks is not equivalent to counting networks
 edam_operation: http://edamontology.org/operation_3218
 edam_topics:
-- http://edamontology.org/topic_3271
 - http://edamontology.org/topic_3520
 tools:
 - name: PyINETA
@@ -42,7 +41,6 @@ metadata:
   - Python
   edam_operation: http://edamontology.org/operation_3218
   edam_topics:
-  - http://edamontology.org/topic_3271
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,7 @@ when_to_use_negative:
 - Unsupervised metabolomics analysis goals (clustering, enrichment, pathway interpretation)
   where no phenotype classifier is required
 - Datasets too small to support a stratified train/test split and reliable OOB estimation
-edam_operation: http://edamontology.org/operation_3948
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -45,7 +45,7 @@ metadata:
   - R-scripts-for-iMAP
   - iMAP
   - randomForest
-  edam_operation: http://edamontology.org/operation_3948
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

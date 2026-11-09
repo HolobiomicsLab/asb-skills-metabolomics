@@ -11,7 +11,7 @@ when_to_use_negative:
 - When the compound match table lacks adduct/isotope/source-database metadata (e.g.
   from a single-database tool that records none), since filtering depends on those
   fields.
-edam_operation: http://edamontology.org/operation_3754
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -39,7 +39,7 @@ metadata:
   - MetaDBparse
   - MetaboShiny
   - R
-  edam_operation: http://edamontology.org/operation_3754
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

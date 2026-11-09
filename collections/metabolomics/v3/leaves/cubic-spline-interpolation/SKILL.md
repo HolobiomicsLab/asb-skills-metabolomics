@@ -13,7 +13,6 @@ when_to_use_negative:
   not eliminates
 edam_operation: http://edamontology.org/operation_3206
 edam_topics:
-- http://edamontology.org/topic_0523
 - http://edamontology.org/topic_0593
 tools:
 - name: MetaboLabPy
@@ -47,7 +46,6 @@ metadata:
   - scipy
   edam_operation: http://edamontology.org/operation_3206
   edam_topics:
-  - http://edamontology.org/topic_0523
   - http://edamontology.org/topic_0593
   provenance_tier: literature
 license: CC-BY-4.0

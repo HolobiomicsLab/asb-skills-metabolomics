@@ -10,7 +10,7 @@ when_to_use_negative:
   consensus complementarity of LOF, One-Class SVM, and Isolation Forest
 - The analysis goal is chemical class novelty rather than general MS2 spectral dissimilarity
   — use the Class Component (CC) with CANOPUS output
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -43,7 +43,7 @@ metadata:
   - Inventa
   - MEMO
   - scikit-bio
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

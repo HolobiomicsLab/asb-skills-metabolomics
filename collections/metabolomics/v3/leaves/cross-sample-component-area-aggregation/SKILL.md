@@ -12,7 +12,6 @@ when_to_use_negative:
   File.Name, Compound.Name, Match.Factor) and cannot be reshaped to vendor-export
   format
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0091
 tools:
 - name: uafR
@@ -44,7 +43,6 @@ metadata:
   - uafR
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

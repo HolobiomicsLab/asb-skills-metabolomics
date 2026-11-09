@@ -15,7 +15,7 @@ when_to_use_negative:
   annotation of peaks
 edam_operation: http://edamontology.org/operation_0324
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
 tools:
 - name: IDSL.CSA
@@ -53,7 +53,7 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_0324
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

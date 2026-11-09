@@ -13,7 +13,7 @@ when_to_use_negative:
 - Metabolites lacking PubChem properties must be assumed non-permeable, so if nearly
   all metabolites lack XLogP3 values (only 11% of PubChem entries had them), permeability
   classification will be unreliable
-edam_operation: http://edamontology.org/operation_0217
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 tools:
@@ -53,7 +53,7 @@ metadata:
   - HMMER
   - IBM CPLEX
   - IBM CPLEX v12.9
-  edam_operation: http://edamontology.org/operation_0217
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   provenance_tier: literature

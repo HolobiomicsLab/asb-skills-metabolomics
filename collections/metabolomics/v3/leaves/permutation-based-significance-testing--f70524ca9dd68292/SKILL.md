@@ -9,7 +9,7 @@ when_to_use_negative:
   conservative.
 - When the design has more than two groups or a continuous covariate; the article's
   workflow only defines t-statistic-based two-group pairwise comparisons.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0082
 - http://edamontology.org/topic_3523
@@ -31,7 +31,7 @@ metadata:
   license_tier: open
   tools:
   - PLAGE
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0082
   - http://edamontology.org/topic_3523

@@ -8,7 +8,7 @@ when_to_use_negative:
   ranking suffices
 - The ranking criterion is not GNN-SOM site-of-metabolism likelihood (e.g. ranking
   by spectral similarity or formula score)
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 - http://edamontology.org/topic_3520
@@ -46,7 +46,7 @@ metadata:
   - PyTorch Geometric
   - RDKit
   - RetroRules
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   - http://edamontology.org/topic_3520

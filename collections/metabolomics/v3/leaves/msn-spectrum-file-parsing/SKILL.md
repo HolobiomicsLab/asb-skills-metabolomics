@@ -10,7 +10,7 @@ when_to_use_negative:
 - The goal is acquisition or library building (mzmine pipeline, sequence setup for
   the Orbitrap ID-X) rather than reprocessing existing deposited library files
 - Metadata cleanup or structure lookup is the task, not library-wide spectrum counting
-edam_operation: http://edamontology.org/operation_0219
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -48,7 +48,7 @@ metadata:
   - Prefect
   - mzmine
   - pip
-  edam_operation: http://edamontology.org/operation_0219
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

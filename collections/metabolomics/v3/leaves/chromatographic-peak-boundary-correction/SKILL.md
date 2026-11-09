@@ -12,7 +12,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3925
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3821
 tools:
 - name: AriumMS
   role: Open-source MATLAB toolbox whose automatic peak detection on AriumMS-generated
@@ -35,7 +34,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3925
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3821
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

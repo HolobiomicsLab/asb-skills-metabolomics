@@ -10,7 +10,7 @@ when_to_use_negative:
   data requirement) is unnecessary compared to steady-state MFA
 - Only a single-isotope tracer experiment exists and no 15N (or second-element) labeling
   information can be summed from the HRMS data
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3292
 - http://edamontology.org/topic_0203
@@ -37,7 +37,7 @@ metadata:
   tools:
   - INCA
   - SIMPEL
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3292
   - http://edamontology.org/topic_0203

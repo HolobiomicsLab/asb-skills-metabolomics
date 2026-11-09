@@ -13,7 +13,7 @@ when_to_use_negative:
 - The input is only per-sample MGF files or a Metadata Table; these are preprocessing
   inputs (steps 1-2) and cannot be visualized as a molecular network until steps 3-10
   have run.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_0091
@@ -53,7 +53,7 @@ metadata:
   - Mascot Generic Format (MGF)
   - NP3 MS Workflow
   - Tremolo
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_0091

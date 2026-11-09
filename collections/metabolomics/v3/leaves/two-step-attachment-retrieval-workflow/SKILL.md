@@ -12,7 +12,7 @@ when_to_use_negative:
   retrieval
 - When retrieving specialized tabular data served from other backend services that
   are not accessible through PUG-View at all
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3314
@@ -38,7 +38,7 @@ metadata:
   tools:
   - PUG-REST
   - PUG-View
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3314

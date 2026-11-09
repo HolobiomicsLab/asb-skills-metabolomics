@@ -10,8 +10,7 @@ when_to_use_negative:
   — segmental alignment will not occur and a different reference must be chosen
 - The analysis goal is isotopomer distribution derivation from NMR multiplet and GC-MS
   data — use the metabolabpytools isotopomer routines instead
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MetaboLabPy 0.9.66
   role: Provides the segmental alignment algorithm applied to the selected spectral
@@ -53,8 +52,7 @@ metadata:
   - pandas
   - scipy
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -12,7 +12,7 @@ when_to_use_negative:
 - When you need proven ground-truth fragmentation explanations — the article states
   there are no guarantees that generated fragment explanations are the correct physical
   explanations.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0089
@@ -42,7 +42,7 @@ metadata:
   - ICEBERG
   - MAGMa
   - Python
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0089

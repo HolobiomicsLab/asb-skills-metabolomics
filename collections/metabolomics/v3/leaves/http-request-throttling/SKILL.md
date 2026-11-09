@@ -12,8 +12,7 @@ when_to_use_negative:
   call — instead request the full annotation data retrieval; throttling only paces
   the per-request loop, it does not merge heading queries.
 edam_operation: http://edamontology.org/operation_2422
-edam_topics:
-- http://edamontology.org/topic_3311
+edam_topics: []
 tools:
 - name: PUG-View
   role: The REST-style web service whose 30-second per-request time limit and usage
@@ -39,8 +38,7 @@ metadata:
   - PUG-View
   - PubChem
   edam_operation: http://edamontology.org/operation_2422
-  edam_topics:
-  - http://edamontology.org/topic_3311
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

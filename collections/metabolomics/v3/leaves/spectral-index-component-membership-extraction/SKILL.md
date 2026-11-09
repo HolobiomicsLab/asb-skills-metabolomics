@@ -12,8 +12,7 @@ when_to_use_negative:
   the extracted components instead
 - Components of size 1–2 are the target without any threshold filtering — the default
   minSize=3 excludes singletons and only pairs above pairThreshold are retained
-edam_topics:
-- http://edamontology.org/topic_0057
+edam_topics: []
 tools:
 - name: mineMS2
   role: R package providing findGNPSComponents and the packaged pnordicum_ms2_gnps.graphml
@@ -42,8 +41,7 @@ metadata:
   - R
   - mineMS2
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0057
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

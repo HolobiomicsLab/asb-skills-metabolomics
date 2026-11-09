@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3204
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3820
 tools:
 - name: ROASMI
   role: Its repository (FangYuan717/ROASMI) provides the data folder with the paired
@@ -38,7 +37,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3204
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3820
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

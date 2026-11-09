@@ -15,7 +15,6 @@ when_to_use_negative:
   signatures.
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3272
 tools:
 - name: GCxGC-TOFMS
   role: Source analytical platform whose plasma metabolite feature lists (195 metabolites,
@@ -37,7 +36,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

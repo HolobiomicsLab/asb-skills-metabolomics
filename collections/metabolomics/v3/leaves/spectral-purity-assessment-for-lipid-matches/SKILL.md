@@ -11,7 +11,7 @@ when_to_use_negative:
 - Validating features where the lipid identification comes from retention-time (ECN
   vs. RT) or dilution-series evidence rather than spectral matching — Degreaser QC
   evidence types handle those, not purity/dot-product scores.
-edam_operation: http://edamontology.org/operation_3796
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0153
@@ -52,7 +52,7 @@ metadata:
   - LipiDex 2 Lipid Spectral Annotator module
   - LipiDex 2 Spectrum Searcher
   - Spectrum Searcher
-  edam_operation: http://edamontology.org/operation_3796
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0153

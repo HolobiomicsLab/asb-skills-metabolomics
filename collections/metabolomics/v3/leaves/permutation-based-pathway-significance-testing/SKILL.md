@@ -12,7 +12,7 @@ when_to_use_negative:
 - The phenotype association is at the individual-gene level with no interest in group-defined
   pathway features — the paper argues individual-gene analyses are complementary,
   not substitutes.
-edam_operation: http://edamontology.org/operation_3653
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -33,7 +33,7 @@ metadata:
   license_tier: open
   tools:
   - PLAGE
-  edam_operation: http://edamontology.org/operation_3653
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

@@ -12,7 +12,7 @@ when_to_use_negative:
 - You want to evaluate an existing checkpoint or compute library-matching metrics
   — that is the job of forward_evaluate_pipeline.py and library_match_pipeline.py,
   not training.
-edam_operation: http://edamontology.org/operation_3983
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 - http://edamontology.org/topic_3474
@@ -47,7 +47,7 @@ metadata:
   - CFM-ID
   - FormulaNet
   - SubsetNet
-  edam_operation: http://edamontology.org/operation_3983
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   - http://edamontology.org/topic_3474

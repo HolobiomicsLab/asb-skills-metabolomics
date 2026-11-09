@@ -9,8 +9,7 @@ when_to_use_negative:
   glucose anomeric proton at 5.233 ppm.
 - When the analytical goal is 2D NMR (e.g. 2D-Jres) quantitation or a workflow that
   requires extensive manual baseline correction before any calibration.
-edam_topics:
-- http://edamontology.org/topic_3219
+edam_topics: []
 tools:
 - name: SMolESY-select
   role: Runs the automated glucose-anomeric-proton recalibration as its first pipeline
@@ -40,8 +39,7 @@ metadata:
   - SMolESY-select
   - STOCSY
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3219
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

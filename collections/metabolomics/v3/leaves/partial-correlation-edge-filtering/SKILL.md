@@ -9,7 +9,7 @@ when_to_use_negative:
 - Pathway-database enrichment (e.g. FELLA/KEGG) is the goal — FELLA required KEGG
   IDs and covered only 19 of 174 TEDDY metabolites; data-driven network filtering
   is not a substitute for pathway mapping.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0605
@@ -41,7 +41,7 @@ metadata:
   - DNEA R package
   - Filigree
   - R
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0605

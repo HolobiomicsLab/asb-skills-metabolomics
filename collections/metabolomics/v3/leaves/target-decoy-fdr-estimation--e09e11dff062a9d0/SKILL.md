@@ -11,7 +11,7 @@ when_to_use_negative:
   the article notes DEREPLICATOR+ 'is not applicable to all the classes of compounds'
 - A simple raw score cutoff suffices and no FDR-controlled identification counts are
   required
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0154
@@ -49,7 +49,7 @@ metadata:
   - GNPS
   - ProteoWizard msconvert
   - molDiscovery
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0154

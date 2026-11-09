@@ -10,7 +10,7 @@ when_to_use_negative:
 - Exchangeable Spectra backends are required via the R for Mass Spectrometry initiative
   — MsBackendRawFileReader is still WIP, so rawrr only serves as a backend in limited
   form.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -52,7 +52,7 @@ metadata:
   - rawDiag
   - rawR
   - rawrr
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

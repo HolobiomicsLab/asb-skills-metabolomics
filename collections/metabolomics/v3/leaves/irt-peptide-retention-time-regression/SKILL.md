@@ -10,7 +10,7 @@ when_to_use_negative:
   matched to indexed RTs
 - Goal is peak/intensity quality control or LC-MS method optimization rather than
   RT calibration — rawDiag's instrument-monitoring visualizations are the better fit
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -47,7 +47,7 @@ metadata:
   - rawR
   - rawrr
   - tartare
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

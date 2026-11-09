@@ -13,8 +13,7 @@ when_to_use_negative:
   of metabolites, which belongs to the COMMIT gap-filling step, not uptake-perturbation
   simulation.
 edam_operation: http://edamontology.org/operation_3660
-edam_topics:
-- http://edamontology.org/topic_2250
+edam_topics: []
 tools:
 - name: COMMIT
   role: Produces the gap-filled community models (run_iterative_gap_filling.m) that
@@ -49,8 +48,7 @@ metadata:
   - SMETANA
   - pheatmap
   edam_operation: http://edamontology.org/operation_3660
-  edam_topics:
-  - http://edamontology.org/topic_2250
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

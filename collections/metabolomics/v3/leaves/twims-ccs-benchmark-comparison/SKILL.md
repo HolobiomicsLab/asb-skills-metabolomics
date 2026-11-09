@@ -11,7 +11,7 @@ when_to_use_negative:
 - Evaluating CCS prediction methods outside the conformational-averaging context (e.g.,
   cross-validating a machine learning model on training data), where the Boltzmann-average
   versus global-minimum comparison is not the relevant question.
-edam_operation: http://edamontology.org/operation_3418
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -41,7 +41,7 @@ metadata:
   - HPCCS
   - Snakemake CCS workflow (snakemake_ccs)
   - Traveling Wave IM-MS (TWIMS)
-  edam_operation: http://edamontology.org/operation_3418
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

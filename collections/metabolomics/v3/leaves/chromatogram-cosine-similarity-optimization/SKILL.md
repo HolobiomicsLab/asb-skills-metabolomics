@@ -10,7 +10,7 @@ when_to_use_negative:
   for MRM EICs; use a proteomics-wide alignment method instead
 - The goal is improving peak extraction accuracy itself — the paper states peak extraction
   accuracy is not yet improved and defers that to future work
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -38,7 +38,7 @@ metadata:
   tools:
   - AirdPro
   - MRMPro
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

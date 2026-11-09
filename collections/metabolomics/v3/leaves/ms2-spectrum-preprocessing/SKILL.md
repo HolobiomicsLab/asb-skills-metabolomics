@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3661
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3522
 tools:
 - name: falcon
   role: spectrum clustering tool whose preprocessing module applies precursor/noise
@@ -52,7 +51,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3661
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3522
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

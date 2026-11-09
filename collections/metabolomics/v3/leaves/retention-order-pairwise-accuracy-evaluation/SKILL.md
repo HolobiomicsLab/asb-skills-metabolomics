@@ -16,7 +16,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3272
 tools:
 - name: evaluation_scenarios_main.py
   role: Entry-point script that runs the ranksvm/svr estimators under baseline_single,
@@ -60,7 +59,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

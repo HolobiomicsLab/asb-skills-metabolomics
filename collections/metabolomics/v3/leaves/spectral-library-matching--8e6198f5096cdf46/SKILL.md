@@ -12,7 +12,7 @@ when_to_use_negative:
   — spectral matching is a downstream step, not a replacement
 edam_operation: http://edamontology.org/operation_3695
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: GNPS
   role: Hosts the Feature-Based Molecular Networking workflow that produces MS2 spectral
@@ -54,7 +54,7 @@ metadata:
   - SIRIUS
   edam_operation: http://edamontology.org/operation_3695
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -9,7 +9,7 @@ when_to_use_negative:
 - Only a feature table (m/z and intensity matrix) is available without per-feature
   chromatographic or spatial profiles, since clustering requires XIC or ion image
   correlation
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -42,7 +42,7 @@ metadata:
   - MassCube
   - Numba
   - ms1-id
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

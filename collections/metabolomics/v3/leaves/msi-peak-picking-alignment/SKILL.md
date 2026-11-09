@@ -9,8 +9,7 @@ when_to_use_negative:
 - Data are not raw MSI ion images (e.g. bulk spectra, LC-MS feature tables) — the
   SCiLS Lab peak-picking and pixel-grid reshaping steps assume spatial pixel coordinates.
 edam_operation: http://edamontology.org/operation_3222
-edam_topics:
-- http://edamontology.org/topic_3870
+edam_topics: []
 tools:
 - name: SCiLS Lab
   role: Commercial/standalone software used to import the raw rat brain MSI sections
@@ -42,8 +41,7 @@ metadata:
   - Python
   - SCiLS Lab
   edam_operation: http://edamontology.org/operation_3222
-  edam_topics:
-  - http://edamontology.org/topic_3870
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

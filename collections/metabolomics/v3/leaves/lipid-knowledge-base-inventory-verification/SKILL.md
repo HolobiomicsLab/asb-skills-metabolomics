@@ -14,7 +14,6 @@ when_to_use_negative:
   so the eukaryotic-tuned inventory does not apply
 edam_operation: http://edamontology.org/operation_3633
 edam_topics:
-- http://edamontology.org/topic_3820
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_2640
 tools:
@@ -46,7 +45,6 @@ metadata:
   - Skyline
   edam_operation: http://edamontology.org/operation_3633
   edam_topics:
-  - http://edamontology.org/topic_3820
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_2640
   provenance_tier: literature

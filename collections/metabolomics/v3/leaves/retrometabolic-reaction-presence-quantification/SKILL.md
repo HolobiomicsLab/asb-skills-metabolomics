@@ -13,9 +13,7 @@ when_to_use_negative:
 - Your reactions lack identifiers mappable to the RetroRules/Rhea/KEGG cross-referenced
   rule-enzyme associations, so found/missing tagging cannot be assigned.
 edam_operation: http://edamontology.org/operation_2238
-edam_topics:
-- http://edamontology.org/topic_3272
-- http://edamontology.org/topic_2250
+edam_topics: []
 tools:
 - name: MEANtools
   role: Loads the strict RetroRules reaction-rule dataset and checks which of the
@@ -37,9 +35,7 @@ metadata:
   tools:
   - MEANtools
   edam_operation: http://edamontology.org/operation_2238
-  edam_topics:
-  - http://edamontology.org/topic_3272
-  - http://edamontology.org/topic_2250
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

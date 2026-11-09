@@ -12,7 +12,7 @@ when_to_use_negative:
   design of confirming putative MSI identifications with LC-MS/MS.
 - The goal is segmentation or clustering of MSI pixels (MSIght.refactor_segment.cluster_msi)
   rather than protein-level histology overlay visualization.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3382
@@ -47,7 +47,7 @@ metadata:
   - OpenCV
   - Python
   - pyimzML
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3382

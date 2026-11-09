@@ -9,7 +9,7 @@ when_to_use_negative:
 - The controller has not yet been run via env.run(), so no scan list exists to export.
 - The goal is to modify or rewrite an existing real-data mzML file (e.g. Beer_multibeers_1_T10_POS.mzML)
   rather than export a simulated run.
-edam_operation: http://edamontology.org/operation_3448
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -39,7 +39,7 @@ metadata:
   - numpy
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_3448
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

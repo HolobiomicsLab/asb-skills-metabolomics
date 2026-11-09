@@ -13,8 +13,7 @@ when_to_use_negative:
 - No YAML configuration or compound-list CSV exists; this skill presupposes both a
   configuration file and a curated list of compounds or masses.
 edam_operation: http://edamontology.org/operation_0335
-edam_topics:
-- http://edamontology.org/topic_3364
+edam_topics: []
 tools:
 - name: yaml
   role: R package used to read the Shinyscreen YAML configuration file and extract
@@ -45,8 +44,7 @@ metadata:
   - enviPat
   - yaml
   edam_operation: http://edamontology.org/operation_0335
-  edam_topics:
-  - http://edamontology.org/topic_3364
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

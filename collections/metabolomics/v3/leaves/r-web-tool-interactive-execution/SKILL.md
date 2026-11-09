@@ -14,7 +14,6 @@ edam_operation: http://edamontology.org/operation_3435
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3172
-- http://edamontology.org/topic_0511
 tools:
 - name: pseudoQC
   role: Interactive R-based web software that simulates QC sample data for actual
@@ -43,7 +42,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3172
-  - http://edamontology.org/topic_0511
   provenance_tier: literature
 license: CC-BY-4.0
 emails_redacted: true

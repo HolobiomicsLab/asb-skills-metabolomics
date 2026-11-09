@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2422
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3364
 tools:
 - name: MIBiG Repository
   role: Web interface hosting the statistics page and filterable Repository page from
@@ -39,7 +38,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2422
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3364
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

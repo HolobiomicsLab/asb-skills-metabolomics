@@ -10,9 +10,8 @@ when_to_use_negative:
   CDGS or JODO) rather than spectra-conditioned elucidation
 - You have no trained checkpoints and only want to pre-train the spectral encoder
   — use the SpecFormer pre-training pipeline (MPR + InfoNCE) instead
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_2267
 - http://edamontology.org/topic_3474
 tools:
 - name: DiffSpectra
@@ -41,9 +40,8 @@ metadata:
   - DiffSpectra
   - Diffusion Molecule Transformer (DMT)
   - SpecFormer
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_2267
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

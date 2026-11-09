@@ -11,8 +11,7 @@ when_to_use_negative:
   isotopes not among C, H, O, N, P, S, Cl, Br, I, F).
 - Spectra were recorded in negative ion mode—TeFT was only trained on positive ion
   mode (H+) spectra.
-edam_topics:
-- http://edamontology.org/topic_0031
+edam_topics: []
 tools:
 - name: miniaturized mass spectrometer
   role: Produces the low-resolution MSn peak lists whose narrow mass accuracy motivates
@@ -37,8 +36,7 @@ metadata:
   - Transformer enabled Fragment Tree (TeFT)
   - miniaturized mass spectrometer
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0031
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

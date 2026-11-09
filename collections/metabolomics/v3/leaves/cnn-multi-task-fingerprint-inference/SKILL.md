@@ -19,7 +19,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0323
 edam_topics:
 - http://edamontology.org/topic_3047
-- http://edamontology.org/topic_3425
 - http://edamontology.org/topic_3315
 tools:
 - name: DeepSAT
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0323
   edam_topics:
   - http://edamontology.org/topic_3047
-  - http://edamontology.org/topic_3425
   - http://edamontology.org/topic_3315
   provenance_tier: literature
 license: CC-BY-4.0

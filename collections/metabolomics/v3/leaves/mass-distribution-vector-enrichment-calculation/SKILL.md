@@ -14,8 +14,7 @@ when_to_use_negative:
   must be used instead of ULS, since ULS requires additional measurement of unlabeled
   samples
 edam_operation: http://edamontology.org/operation_2939
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: ElemCor
   role: 'Primary tool: loads XLSX FAM data, builds resolution-dependent correction
@@ -45,8 +44,7 @@ metadata:
   - MDT
   - ULS
   edam_operation: http://edamontology.org/operation_2939
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

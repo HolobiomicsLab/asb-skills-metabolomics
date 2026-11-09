@@ -11,7 +11,7 @@ when_to_use_negative:
 - GNPS library matches lack ChemOnt columns and you cannot supply them — in that case
   the tool requires NPClassifier ontologies or manually merged ClassyFire data, which
   is a distinct setup
-edam_operation: http://edamontology.org/operation_3674
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -51,7 +51,7 @@ metadata:
   - ConCISE
   - GNPS
   - Python
-  edam_operation: http://edamontology.org/operation_3674
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

@@ -10,7 +10,7 @@ when_to_use_negative:
   Zenodo deposit) for the required data.
 - You need newly generated instrument runs rather than reanalysis of a published public
   dataset.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -50,7 +50,7 @@ metadata:
   - fastcluster
   - msCRUSH
   - pandas
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

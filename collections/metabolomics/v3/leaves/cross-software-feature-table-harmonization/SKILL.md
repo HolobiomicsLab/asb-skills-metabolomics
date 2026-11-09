@@ -15,7 +15,7 @@ when_to_use_negative:
   with synthetic data.
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0102
 tools:
 - name: MassCube
@@ -54,7 +54,7 @@ metadata:
   - XCMS
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0102
   provenance_tier: literature
 license: CC-BY-4.0
