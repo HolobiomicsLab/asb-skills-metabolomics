@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: HolobiomicsLab/asb-skill-collections
-          ref: a064242e56ce308652c82a70ab0eb99a5774185e
+          ref: b260f24ae51addcdbe223e8849b4f2a98f47c9bc
           path: tooling
       - name: Install Python dependencies
         run: python -m pip install pyyaml

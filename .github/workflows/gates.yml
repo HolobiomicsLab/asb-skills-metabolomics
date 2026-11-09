@@ -30,7 +30,7 @@ jobs:
             # maintainers regenerate its receipt or the caller gains a per-row strict flag.
     # Pin the tooling commit recorded in collections.yaml for the release.
     # Bump this full commit SHA deliberately when adopting newer gate tooling.
-    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@a064242e56ce308652c82a70ab0eb99a5774185e
+    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@b260f24ae51addcdbe223e8849b4f2a98f47c9bc
     with:
       domain: ${{ matrix.collection.domain }}
       collection_path: ${{ matrix.collection.collection_path }}
