@@ -10376,7 +10376,7 @@
   "dois": [
    "10.3390/metabo13080944"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "r",
@@ -10547,7 +10547,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -20699,7 +20699,7 @@
   "dois": [
    "10.1021/acs.analchem.0c03421"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "openms",
@@ -24313,7 +24313,7 @@
   "dois": [
    "10.1021/acs.analchem.3c04290"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "agilent-esi-l-tune-mix",
@@ -34481,7 +34481,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -34666,7 +34666,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -35195,7 +35195,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -49450,7 +49450,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -54789,7 +54789,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -54899,7 +54899,7 @@
   "dois": [
    "10.1038/s41592-025-02813-0"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "orbitrap-id-x",
@@ -55424,7 +55424,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -56556,7 +56556,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -69184,7 +69184,7 @@
   "dois": [
    "10.1186/s13742-016-0115-8"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "galaxy",
@@ -69242,7 +69242,7 @@
   "dois": [
    "10.1093/bioinformatics/btad088"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "dbdipy",
@@ -74389,7 +74389,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -75886,7 +75886,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -79402,7 +79402,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -80290,7 +80290,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -80314,7 +80314,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -82232,7 +82232,7 @@
   "dois": [
    "10.1038/s41592-025-02813-0"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "orbitrap-id-x",
@@ -82806,7 +82806,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -88089,7 +88089,7 @@
   "dois": [
    "10.1186/s13742-016-0115-8"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [],
   "triage_status": "promoted",
@@ -90051,7 +90051,7 @@
   "dois": [
    "10.1186/s13742-016-0115-8"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [],
   "triage_status": "promoted",
@@ -90646,7 +90646,7 @@
   "dois": [
    "10.1186/s13742-016-0115-8"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "galaxy",
@@ -114773,7 +114773,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -115233,7 +115233,7 @@
   "dois": [
    "10.1021/acs.analchem.0c03421"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "openms",
@@ -115344,7 +115344,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -117570,7 +117570,7 @@
   "dois": [
    "10.1038/s41592-025-02813-0"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "orbitrap-id-x",
@@ -119263,7 +119263,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -138024,7 +138024,7 @@
   "dois": [
    "10.1038/s41592-025-02813-0"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "orbitrap-id-x",
@@ -149022,7 +149022,7 @@
   "dois": [
    "10.1021/acs.analchem.5c01414"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "mzbatch-py",
@@ -150591,7 +150591,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -157354,7 +157354,7 @@
   "dois": [
    "10.1038/s41592-025-02813-0"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "orbitrap-id-x",
@@ -159193,7 +159193,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -159432,7 +159432,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -164209,7 +164209,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -167761,7 +167761,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -169951,7 +169951,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -170331,7 +170331,7 @@
   "dois": [
    "10.1021/acs.analchem.5c01414"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "001-007-ipynb",
@@ -171349,7 +171349,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -172818,7 +172818,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -177616,7 +177616,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -180620,7 +180620,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -182835,7 +182835,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -184157,7 +184157,7 @@
   "dois": [
    "10.1038/s41592-025-02813-0"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "orbitrap-id-x",
@@ -185315,7 +185315,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -187844,7 +187844,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -187873,7 +187873,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -187901,7 +187901,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -187931,7 +187931,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -187962,7 +187962,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -199050,7 +199050,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -200571,7 +200571,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -201496,7 +201496,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -201523,7 +201523,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -204933,7 +204933,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -204963,7 +204963,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -204994,7 +204994,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -205025,7 +205025,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -205054,7 +205054,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "mzml",
@@ -210145,7 +210145,7 @@
   "dois": [
    "10.1021/acs.analchem.5c01414"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "001-007-ipynb",
@@ -213919,7 +213919,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -213947,7 +213947,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -216180,7 +216180,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -217972,7 +217972,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -242702,7 +242702,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -251079,7 +251079,7 @@
   "dois": [
    "10.1038/s41592-025-02813-0"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "orbitrap-id-x",
@@ -254889,7 +254889,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -255923,7 +255923,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "mza",
@@ -264341,7 +264341,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -264397,7 +264397,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -264459,7 +264459,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -269242,7 +269242,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -272743,7 +272743,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -275903,7 +275903,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -278304,7 +278304,7 @@
   "dois": [
    "10.1093/bioinformatics/btad096"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "matplotlib",
@@ -280476,7 +280476,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -286293,7 +286293,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -286346,7 +286346,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -286401,7 +286401,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -288825,7 +288825,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -291861,7 +291861,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -293130,7 +293130,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -295430,7 +295430,7 @@
   "dois": [
    "10.1186/s13742-016-0115-8"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "galaxy-m",
@@ -295460,7 +295460,7 @@
   "dois": [
    "10.1186/s13742-016-0115-8"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "galaxy"
@@ -321974,7 +321974,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -322132,7 +322132,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -329171,7 +329171,7 @@
   "dois": [
    "10.1021/acs.analchem.4c03513"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "noncommercial",
   "tools_used": [
    "msi-ce-ms",
@@ -329450,7 +329450,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -340893,7 +340893,7 @@
   "dois": [
    "10.1021/jasms.4c00146"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "unknown",
   "tools_used": [
    "iontoolpack",
@@ -341561,7 +341561,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -344739,7 +344739,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms"
@@ -347513,7 +347513,7 @@
   "dois": [
    "10.1038/s41592-025-02813-0"
   ],
-  "techniques": [],
+  "techniques": ["direct-infusion-MS"],
   "license_tier": "open",
   "tools_used": [
    "orbitrap-id-x",
@@ -348853,7 +348853,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",
@@ -348905,7 +348905,7 @@
   "dois": [
    "10.1007/s00216-023-04715-6"
   ],
-  "techniques": [],
+  "techniques": ["CE-MS"],
   "license_tier": "open",
   "tools_used": [
    "ariumms",

@@ -43,6 +43,8 @@ metadata:
   edam_operation: http://edamontology.org/operation_2409
   edam_topics: []
   provenance_tier: literature
+  techniques:
+  - CE-MS
 license: CC-BY-4.0
 evidence_trimmed: true
 triage_status: critique

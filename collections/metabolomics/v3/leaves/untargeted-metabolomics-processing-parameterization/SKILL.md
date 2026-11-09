@@ -43,6 +43,8 @@ metadata:
   edam_operation: null
   edam_topics: []
   provenance_tier: literature
+  techniques:
+  - CE-MS
 license: CC-BY-4.0
 triage_status: promoted
 yes_rate: 0.7142857142857143

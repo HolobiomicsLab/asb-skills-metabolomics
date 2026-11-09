@@ -44,6 +44,8 @@ metadata:
   edam_operation: http://edamontology.org/operation_2928
   edam_topics: []
   provenance_tier: literature
+  techniques:
+  - CE-MS
 license: CC-BY-4.0
 triage_status: promoted
 yes_rate: 0.625

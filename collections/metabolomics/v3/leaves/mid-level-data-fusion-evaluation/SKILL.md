@@ -55,6 +55,8 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature
+  techniques:
+  - CE-MS
 license: CC-BY-4.0
 triage_status: promoted
 yes_rate: 0.9166666666666666
