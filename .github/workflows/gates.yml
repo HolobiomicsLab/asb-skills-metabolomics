@@ -28,11 +28,12 @@ jobs:
             # local strict rehearsal of 2026-11-09 fails on it (release surface,
             # release gate and receipt re-verification). Add it back once the
             # maintainers regenerate its receipt or the caller gains a per-row strict flag.
-    # Pin the merged EDAM remap tooling for the v3.0.1 patch.
+    # Pin the tooling that adds the edam_strict input (v3.0.1 carries the T2 remap, so the strict EDAM gate holds).
     # Bump this full commit SHA deliberately when adopting newer gate tooling.
-    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@c5623a3307d53c20ea053dc922ae1584858e31ec
+    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@d68884284c5a2764a672130d3ce7cf270394a3f8
     with:
       domain: ${{ matrix.collection.domain }}
       collection_path: ${{ matrix.collection.collection_path }}
       receipts_path: ${{ matrix.collection.receipts_path }}
       strict: true
+      edam_strict: true
