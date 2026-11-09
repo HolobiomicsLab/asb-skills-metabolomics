@@ -15,8 +15,10 @@ preprints). This guide covers **choose a route → search → apply → ground �
 | An exact parameter, threshold or default | Read the leaf's evidence and ground it against its source paper; do not infer precision from a generated summary. |
 
 Not available in v3: technique packs (the eight packs in this repository are v2
-content) and EDAM-based sub-collections (planned, not released). All v3 index
-rows have an empty `techniques` list, so `--technique` cannot narrow this release.
+content). EDAM topic facets give partial installs (section "Install one EDAM
+facet"). Since v3.0.1, 65 index rows carry `CE-MS` and 30 carry
+`direct-infusion-MS` in `techniques` (tags by mention); no other platform is
+tagged in v3, so `--technique` narrows this release to those two only.
 
 ## 0. Requirements
 

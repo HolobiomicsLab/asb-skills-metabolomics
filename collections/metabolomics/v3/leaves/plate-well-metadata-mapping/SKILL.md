@@ -46,6 +46,8 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature
+  techniques:
+  - direct-infusion-MS
 license: CC-BY-4.0
 triage_status: critique
 yes_rate: 0.5714285714285714

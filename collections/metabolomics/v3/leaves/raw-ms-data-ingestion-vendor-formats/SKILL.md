@@ -42,6 +42,8 @@ metadata:
   edam_operation: null
   edam_topics: []
   provenance_tier: literature
+  techniques:
+  - direct-infusion-MS
 license: CC-BY-4.0
 evidence_trimmed: true
 triage_status: critique

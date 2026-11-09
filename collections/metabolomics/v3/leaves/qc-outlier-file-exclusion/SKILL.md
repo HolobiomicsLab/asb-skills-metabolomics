@@ -50,6 +50,8 @@ metadata:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091
   provenance_tier: literature
+  techniques:
+  - CE-MS
 license: CC-BY-4.0
 evidence_trimmed: true
 triage_status: promoted

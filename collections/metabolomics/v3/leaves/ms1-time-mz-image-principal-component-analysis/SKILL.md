@@ -45,6 +45,8 @@ metadata:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3172
   provenance_tier: literature
+  techniques:
+  - direct-infusion-MS
 license: CC-BY-4.0
 evidence_trimmed: true
 triage_status: promoted

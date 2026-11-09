@@ -62,6 +62,8 @@ metadata:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0219
   provenance_tier: literature
+  techniques:
+  - CE-MS
 license: CC-BY-4.0
 emails_redacted: true
 triage_status: critique
