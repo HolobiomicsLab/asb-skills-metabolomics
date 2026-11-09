@@ -102,6 +102,32 @@ repository `HolobiomicsLab/asb-skill-collections`, which no longer holds this
 collection, so fetch is not available for v3 until the tooling learns the
 domain repositories; use a checkout and a selection install instead.
 
+### Install one EDAM facet
+
+The `facets/metabolomics/v3/topics/` directory provides one sorted slug list
+per EDAM topic meeting the facet threshold of 50. Read `facets/metabolomics/v3/index.json`
+for labels, synonyms, counts, source digest and overlaps. Install one list as
+an `asbb` selection, for example Metabolomics (`topic_3172`, `count: 1625`):
+
+```bash
+asbb install --repo <domain checkout> \
+  --collection metabolomics/v3 \
+  --skills-file <domain checkout>/facets/metabolomics/v3/topics/topic_3172.txt \
+  --name metabolomics-edam-topic-3172 \
+  --runtime agents
+```
+
+Add `--dry-run` to preview the derived unit without writing it. One skill can
+carry several EDAM topics, so facets overlap. Install the full collection or a
+few facets, not both; use `facets/metabolomics/v3/index.json` to inspect the
+overlap before installing several.
+
+EDAM identifiers are not always self-explanatory: `topic_3520` is "Proteomics
+experiment", and its EDAM synonyms include "Mass spectrometry". Check the label
+and synonyms in the facet index rather than interpreting the identifier alone.
+Topic facets are the default derived view; operation facets are not generated
+by default.
+
 ## 2. Search
 
 ### Offline keyword, facet and EDAM search
