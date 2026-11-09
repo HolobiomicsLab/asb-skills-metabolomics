@@ -10,7 +10,7 @@ when_to_use_negative:
   a single full p x p adjacency matrix
 - Adjacency matrices across tested groups must share an identical block diagonal structure
   that this skill's per-condition reassembly does not guarantee
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_0203
@@ -39,7 +39,7 @@ metadata:
   tools:
   - igraph
   - netgsa
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_0203

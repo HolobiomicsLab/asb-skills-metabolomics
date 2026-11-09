@@ -12,8 +12,7 @@ when_to_use_negative:
 - Only a single predefined processing workflow needs to be applied and no comparative
   optimization across S1–S4 combinations is required
 edam_operation: http://edamontology.org/operation_2945
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: NOREVA
   role: R package whose PrepareInuputFiles and nortimecourseqcall/nortimecoursenoall
@@ -45,8 +44,7 @@ metadata:
   - NOREVA_exampledata
   - R
   edam_operation: http://edamontology.org/operation_2945
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

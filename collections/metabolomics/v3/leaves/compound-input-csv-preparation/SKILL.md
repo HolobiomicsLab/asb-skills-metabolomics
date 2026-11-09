@@ -11,8 +11,7 @@ when_to_use_negative:
 - Spectra with missing collision energies or unclear formats, which were excluded
   in the paper's pipeline
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_2254
+edam_topics: []
 tools:
 - name: FIORA
   role: Target tool whose CLI (fiora-predict) consumes the prepared CSV and produces
@@ -44,8 +43,7 @@ metadata:
   - ICEBERG
   - Python
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_2254
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

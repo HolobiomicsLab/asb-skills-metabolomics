@@ -11,7 +11,6 @@ when_to_use_negative:
 - Only raw vendor instrument files without the MZmine FBMN export (.csv quantitative
   table) are needed for a workflow outside the MS2DECIDE input format.
 edam_topics:
-- http://edamontology.org/topic_3521
 - http://edamontology.org/topic_3520
 tools:
 - name: MS2DECIDE
@@ -47,7 +46,6 @@ metadata:
   - Sirius
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3521
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

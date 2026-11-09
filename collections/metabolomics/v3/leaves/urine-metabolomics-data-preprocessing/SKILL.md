@@ -12,7 +12,7 @@ when_to_use_negative:
   can be mapped to HMDB identifiers
 - Metabolite names cannot be matched to HMDB identifiers, so the crosswalk (name_map.csv)
   and downstream hypergeometric test against metabolic gene sets would be undefined
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -48,7 +48,7 @@ metadata:
   - RSelenium
   - metGWAS 1.0
   - qvalue
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

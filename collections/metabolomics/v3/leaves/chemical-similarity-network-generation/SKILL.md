@@ -13,9 +13,8 @@ when_to_use_negative:
 - Input is already a molecular fingerprint/MS/MS spectral library similarity table
   rather than NMR spin system features — MADByTE operates on TOCSY/HSQC-derived spin
   systems
-edam_operation: http://edamontology.org/operation_0271
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_operation: null
+edam_topics: []
 tools:
 - name: MADByTE
   role: Provides spin_system_construction, correlation_matrix_generation, and generate_network
@@ -45,9 +44,8 @@ metadata:
   - MADByTE
   - correlation_matrix_generation
   - generate_network
-  edam_operation: http://edamontology.org/operation_0271
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_operation: null
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -15,7 +15,6 @@ edam_operation: http://edamontology.org/operation_3695
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0602
-- http://edamontology.org/topic_3611
 tools:
 - name: metGWAS 1.0
   role: R workflow environment in which the pathway FDR filter and KEGG-to-HMDB annotation
@@ -49,7 +48,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0602
-  - http://edamontology.org/topic_3611
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

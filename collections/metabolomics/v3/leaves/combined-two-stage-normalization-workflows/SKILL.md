@@ -13,7 +13,6 @@ when_to_use_negative:
   flags, QC sampledata) that are not available for the dataset
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_0266
 tools:
 - name: NormalizeMets
   role: Provides the NormCombined function that sequences two normalization methods
@@ -45,7 +44,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_0266
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

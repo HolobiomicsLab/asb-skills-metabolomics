@@ -10,7 +10,7 @@ when_to_use_negative:
   bibliographic network requiring the two-step extension mechanism
 - No curated linkset exists for the organism or identifier type of the gene list (linksets
   cover specific species, e.g., WikiPathways covers 13 species)
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0121
@@ -47,7 +47,7 @@ metadata:
   - Cytoscape
   - R
   - WikiPathways
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0121

@@ -12,8 +12,7 @@ when_to_use_negative:
 - The goal is downstream analysis only (PCA, hierarchical clustering, relevance networks,
   GO enrichment) — use those IonFlow sections directly on an already-cleaned dataset
 edam_operation: http://edamontology.org/operation_3432
-edam_topics:
-- http://edamontology.org/topic_3621
+edam_topics: []
 tools:
 - name: IonFlow
   role: R package whose PreProcessing function implements log-transformation followed
@@ -45,8 +44,7 @@ metadata:
   - MetaboFlow
   - R
   edam_operation: http://edamontology.org/operation_3432
-  edam_topics:
-  - http://edamontology.org/topic_3621
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -13,7 +13,7 @@ when_to_use_negative:
 - Only a single descriptive summary is needed with no statistical testing — maplet's
   value is in recording fitted models and parameters, which is overhead for one-off
   summaries
-edam_operation: http://edamontology.org/operation_3287
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3391
 - http://edamontology.org/topic_0091
@@ -57,7 +57,7 @@ metadata:
   - devtools
   - magrittr
   - maplet
-  edam_operation: http://edamontology.org/operation_3287
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3391
   - http://edamontology.org/topic_0091

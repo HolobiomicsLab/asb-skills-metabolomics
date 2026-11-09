@@ -10,7 +10,6 @@ when_to_use_negative:
   than peak picking plus grouping (speaq 2.0 explicitly avoids the binning step)
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3520
 tools:
 - name: speaq 2.0
@@ -47,7 +46,6 @@ metadata:
   - speaq R package
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

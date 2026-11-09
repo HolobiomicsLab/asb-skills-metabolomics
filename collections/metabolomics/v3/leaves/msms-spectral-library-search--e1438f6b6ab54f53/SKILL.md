@@ -12,7 +12,7 @@ when_to_use_negative:
   specifically
 - When precursor m/z or fragmentation parameters differ from the 10 ppm / ≥3 matched-fragment
   setup used for the human blood benchmark
-edam_operation: http://edamontology.org/operation_3790
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0605
@@ -43,7 +43,7 @@ metadata:
   - Python
   - SpectralEntropy
   - matchms
-  edam_operation: http://edamontology.org/operation_3790
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0605

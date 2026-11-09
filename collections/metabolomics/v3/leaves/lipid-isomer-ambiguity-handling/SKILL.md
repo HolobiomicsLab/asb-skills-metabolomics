@@ -11,8 +11,7 @@ when_to_use_negative:
 - The identifiers are RefMet-compliant common names or FA(N:N) forms — use the .refmet_residues()
   method instead of the isomer-group parser.
 edam_operation: http://edamontology.org/operation_0252
-edam_topics:
-- http://edamontology.org/topic_3359
+edam_topics: []
 tools:
 - name: liputils
   role: Provides the Lipid class (.residues() with drop_ambiguous parameter) and make_residues_table()
@@ -43,8 +42,7 @@ metadata:
   - liputils
   - pandas
   edam_operation: http://edamontology.org/operation_0252
-  edam_topics:
-  - http://edamontology.org/topic_3359
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

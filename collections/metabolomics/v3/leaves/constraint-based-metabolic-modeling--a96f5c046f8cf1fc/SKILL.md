@@ -10,7 +10,7 @@ when_to_use_negative:
 - 'When the reconstructions have not been mapped to a common identifier space (MNXref):
   identifier inconsistency between databases hampered comparison and would invalidate
   cross-model gap filling'
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0157
@@ -66,7 +66,7 @@ metadata:
   - RAVEN 2.0
   - SARTRE
   - SMETANA
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0157

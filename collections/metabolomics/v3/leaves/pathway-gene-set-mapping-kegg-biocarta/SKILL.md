@@ -11,7 +11,7 @@ when_to_use_negative:
   genes to KEGG/Biocarta sets would redo work downstream of this step.
 - Your gene identifiers do not overlap the KEGG/Biocarta namespace for the platform
   — intersections would silently shrink or empty the per-pathway matrices.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0621
@@ -33,7 +33,7 @@ metadata:
   license_tier: open
   tools:
   - PLAGE
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0621

@@ -12,7 +12,7 @@ when_to_use_negative:
 - When higher-resolution spatial data (e.g. sub-cellular or single-cell resolution)
   is required, since haCCA and this pseudo-pair generation have not been evaluated
   on higher resolution data.
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0157
@@ -47,7 +47,7 @@ metadata:
   - STUtility
   - Scanpy
   - haCCA
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0157

@@ -11,7 +11,7 @@ when_to_use_negative:
   is not its aim
 - Input is raw FID/spectral data without curve-fitted ROI p-values; FDR correction
   operates on ROI-level significance calls, not on the spectra directly
-edam_operation: http://edamontology.org/operation_2292
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3173
@@ -44,7 +44,7 @@ metadata:
   - openpyxl
   - pandas
   - pandas 2.2.3
-  edam_operation: http://edamontology.org/operation_2292
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3173

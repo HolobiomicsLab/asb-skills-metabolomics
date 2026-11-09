@@ -15,7 +15,6 @@ when_to_use_negative:
   sample IDs
 edam_operation: http://edamontology.org/operation_3766
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0605
 tools:
 - name: MetMiner
@@ -56,7 +55,6 @@ metadata:
   - weighted gene co-expression network analysis
   edam_operation: http://edamontology.org/operation_3766
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0605
   provenance_tier: literature
 license: CC-BY-4.0

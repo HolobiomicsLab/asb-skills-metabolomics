@@ -11,7 +11,7 @@ when_to_use_negative:
 - The task is metabolite assignment, QC or network/pathway interpretation (STOCSY,
   biological interpretation), which are separate MWASTools functionalities rather
   than the association-testing step
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3277
 - http://edamontology.org/topic_0153
@@ -37,7 +37,7 @@ metadata:
   tools:
   - MWASTools
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3277
   - http://edamontology.org/topic_0153

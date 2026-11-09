@@ -12,7 +12,7 @@ when_to_use_negative:
   field checks
 - When the goal is biological validation of BGC–metabolite links (e.g., scoring with
   NPLinker) rather than structural completeness of link records
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -42,7 +42,7 @@ metadata:
   - MIBiG
   - Paired Omics Data Platform
   - Zenodo
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

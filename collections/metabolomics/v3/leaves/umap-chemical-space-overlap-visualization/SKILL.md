@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3925
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_2252
 tools:
 - name: DeepMet
   role: Chemical language model whose sampled molecules are the subject of the chemical-space
@@ -53,7 +52,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3925
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_2252
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

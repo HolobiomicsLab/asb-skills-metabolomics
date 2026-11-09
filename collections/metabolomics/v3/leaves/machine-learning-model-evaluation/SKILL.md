@@ -11,7 +11,7 @@ when_to_use_negative:
 - The goal is only reproducibility filtering on pooled QC peaks with a known threshold
   (e.g. RSD < 30%); the ML classifier evaluation is unnecessary if a simpler deterministic
   filter suffices and has been pre-validated.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3520
@@ -50,7 +50,7 @@ metadata:
   - XCMS
   - caret
   - scmamp
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3520

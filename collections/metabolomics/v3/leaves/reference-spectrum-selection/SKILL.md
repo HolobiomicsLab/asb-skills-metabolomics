@@ -12,8 +12,7 @@ when_to_use_negative:
   apply.
 - Spectra are already aligned relative to a prior reference and only downstream steps
   (spectral scaling, variance stabilisation) are needed.
-edam_topics:
-- http://edamontology.org/topic_3822
+edam_topics: []
 tools:
 - name: MetaboLabPy 0.9.66
   role: Provides the segmental alignment routine whose optimum-shift determination
@@ -46,8 +45,7 @@ metadata:
   - pandas
   - scipy
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3822
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

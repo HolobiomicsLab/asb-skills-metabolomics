@@ -12,10 +12,9 @@ when_to_use_negative:
   faint or gradient-like tissue contrast.
 - The data has not yet been drift-corrected and spike-filtered in Pew2; raw instrument
   noise can distort the between-class variance Otsu relies on.
-edam_operation: http://edamontology.org/operation_3721
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0003
-- http://edamontology.org/topic_1319
 tools:
 - name: Pew2
   role: Provides the selection dialog that exposes Otsu's method as a binary thresholding
@@ -46,10 +45,9 @@ metadata:
   - Pew2
   - pewlib
   - pewpew
-  edam_operation: http://edamontology.org/operation_3721
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0003
-  - http://edamontology.org/topic_1319
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

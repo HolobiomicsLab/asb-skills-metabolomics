@@ -11,7 +11,6 @@ when_to_use_negative:
   stage), not chemical structure standardization
 - Names must be mapped to organism taxonomy rather than translated to structures
 edam_topics:
-- http://edamontology.org/topic_2250
 - http://edamontology.org/topic_3314
 tools:
 - name: RDKit
@@ -51,7 +50,6 @@ metadata:
   - smiles.py
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_2250
   - http://edamontology.org/topic_3314
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,7 @@ when_to_use_negative:
   since the maximum-weight spanning tree construction depends on weighted cosine edges.
 - Only pairwise spectral similarity clustering is needed without any graph-wide re-ordering
   of molecular families.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 tools:
 - name: networkx
   role: Builds the weighted molecular similarity graph, runs Louvain community detection,
@@ -34,7 +34,7 @@ metadata:
   tools:
   - molecular_communities
   - networkx
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

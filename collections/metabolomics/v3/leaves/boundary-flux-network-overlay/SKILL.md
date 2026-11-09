@@ -10,7 +10,7 @@ when_to_use_negative:
 - The goal is a genome-scale stoichiometric FBA model rather than visual network refinement
   — MINNO explicitly avoids complex mathematical modeling and can access BiGG models
   only for network viewing
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2258
 - http://edamontology.org/topic_3174
@@ -49,7 +49,7 @@ metadata:
   - KEGG
   - MINNO
   - NCBI-RefSeq
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2258
   - http://edamontology.org/topic_3174

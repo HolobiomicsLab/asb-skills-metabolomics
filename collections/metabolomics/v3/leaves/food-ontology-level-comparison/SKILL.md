@@ -12,7 +12,7 @@ when_to_use_negative:
   (the article notes features with only MS1 are not considered)
 - The analysis goal is simply a single global clustering of samples rather than a
   per-ontology-level comparison across multiple metrics
-edam_operation: http://edamontology.org/operation_3845
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -69,7 +69,7 @@ metadata:
   - R
   - SIRIUS
   - q2-empress
-  edam_operation: http://edamontology.org/operation_3845
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

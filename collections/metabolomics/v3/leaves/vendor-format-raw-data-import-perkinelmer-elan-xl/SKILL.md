@@ -10,7 +10,7 @@ when_to_use_negative:
   imzML import wizard instead
 - Vendor export is an Iolite laser log to be synced with ICP data rather than directly
   imported
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -46,7 +46,7 @@ metadata:
   - PySide2
   - Python
   - pewlib
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

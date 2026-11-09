@@ -14,7 +14,6 @@ when_to_use_negative:
   HMDB, and WikiPathways
 edam_operation: http://edamontology.org/operation_2422
 edam_topics:
-- http://edamontology.org/topic_3275
 - http://edamontology.org/topic_0091
 tools:
 - name: RaMP
@@ -55,7 +54,6 @@ metadata:
   - dplyr
   edam_operation: http://edamontology.org/operation_2422
   edam_topics:
-  - http://edamontology.org/topic_3275
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

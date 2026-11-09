@@ -10,8 +10,7 @@ when_to_use_negative:
   time
 - You need targeted analysis with prior knowledge of components — blind PARAFAC ROI
   extraction is designed for untargeted use without previous knowledge of the samples
-edam_topics:
-- http://edamontology.org/topic_3862
+edam_topics: []
 tools:
 - name: GcDUO
   role: R package providing readFolderCDF (builds the 4D array from CDF files), visualizeChrom2D/3D
@@ -39,8 +38,7 @@ metadata:
   - multiway
   - rrcov3way
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3862
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

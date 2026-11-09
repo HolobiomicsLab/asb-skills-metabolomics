@@ -13,7 +13,6 @@ when_to_use_negative:
   the QC-RLSC baseline for comparison (tGAM is the tentatively recommended default)
 edam_operation: http://edamontology.org/operation_3435
 edam_topics:
-- http://edamontology.org/topic_3275
 - http://edamontology.org/topic_2269
 tools:
 - name: metanorm
@@ -58,7 +57,6 @@ metadata:
   - tGAM
   edam_operation: http://edamontology.org/operation_3435
   edam_topics:
-  - http://edamontology.org/topic_3275
   - http://edamontology.org/topic_2269
   provenance_tier: literature
 license: CC-BY-4.0

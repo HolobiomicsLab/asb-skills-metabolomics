@@ -11,7 +11,6 @@ when_to_use_negative:
 - The metric depends on configuration the paper does not document (e.g., unstated
   κmixture/κcomponents values), making exact reproduction unreliable.
 edam_topics:
-- http://edamontology.org/topic_0592
 - http://edamontology.org/topic_3360
 tools:
 - name: Magnetstein
@@ -39,7 +38,6 @@ metadata:
   - Magnetstein
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0592
   - http://edamontology.org/topic_3360
   provenance_tier: literature
 license: CC-BY-4.0

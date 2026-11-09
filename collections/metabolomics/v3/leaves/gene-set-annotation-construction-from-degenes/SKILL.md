@@ -10,7 +10,7 @@ when_to_use_negative:
   or TWAS hits) — S-PrediXcan/FUSION-style TWAS is the appropriate skill
 - The DE gene list lacks a matched expressed-gene background annotation, making enrichment
   uninterpretable relative to baseline expression
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3517
@@ -43,7 +43,7 @@ metadata:
   - DESeq2
   - LDSC
   - LDSC 1.0.1
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3517

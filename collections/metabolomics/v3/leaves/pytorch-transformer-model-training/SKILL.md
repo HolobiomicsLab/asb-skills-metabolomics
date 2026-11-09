@@ -12,7 +12,7 @@ when_to_use_negative:
   retraining from scratch would be needed.
 - Only a handful of samples are available — transformer pre-training on 83,744 individuals
   relies on large-scale population data to capture normative metabolite patterns.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3336
 - http://edamontology.org/topic_2269
@@ -50,7 +50,7 @@ metadata:
   - PyTorch
   - pandas
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3336
   - http://edamontology.org/topic_2269

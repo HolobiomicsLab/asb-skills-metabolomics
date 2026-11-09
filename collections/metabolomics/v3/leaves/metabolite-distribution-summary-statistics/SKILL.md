@@ -13,8 +13,7 @@ when_to_use_negative:
 - Only the post-QC 'qc' layer statistics are needed rather than baseline distributions
   of the raw data
 edam_operation: http://edamontology.org/operation_2239
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: metaboprep
   role: R package providing the Metaboprep object, read_nightingale()/read_metabolon()
@@ -39,8 +38,7 @@ metadata:
   - R
   - metaboprep
   edam_operation: http://edamontology.org/operation_2239
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

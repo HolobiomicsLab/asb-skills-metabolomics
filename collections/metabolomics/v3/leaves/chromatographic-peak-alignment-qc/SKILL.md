@@ -10,7 +10,7 @@ when_to_use_negative:
   which are not based on compound spectra and are outside eRah's recovery workflow
 - LC-MS or NMR data — this recovery operation is designed for GC-EI MS data with co-eluting
   compounds and extensive fragmentation
-edam_operation: http://edamontology.org/operation_3681
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - R
   - erah
-  edam_operation: http://edamontology.org/operation_3681
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

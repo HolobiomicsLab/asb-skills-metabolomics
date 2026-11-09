@@ -11,7 +11,6 @@ when_to_use_negative:
 - The input is not a NormalizeMets-format featuredata matrix with sample and metabolite
   annotation dataframes
 edam_topics:
-- http://edamontology.org/topic_3311
 - http://edamontology.org/topic_0091
 tools:
 - name: NormalizeMets
@@ -44,7 +43,6 @@ metadata:
   - impute
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3311
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

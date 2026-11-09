@@ -10,7 +10,7 @@ when_to_use_negative:
   the batch, leaving no anchor points for RT deviation modeling
 - The goal is untargeted preprocessing (e.g., xcms/MZmine/OpenMS-style feature finding)
   rather than targeted peak adjustment
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -46,7 +46,7 @@ metadata:
   - R
   - TARDIS
   - xcms
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

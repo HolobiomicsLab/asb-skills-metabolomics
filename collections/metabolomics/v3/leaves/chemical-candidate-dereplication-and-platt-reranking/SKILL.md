@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3801
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3435
 tools:
 - name: MSNovelist
   role: Generates the k candidate SMILES structures and produces the score_mod_platt
@@ -46,7 +45,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3801
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3435
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

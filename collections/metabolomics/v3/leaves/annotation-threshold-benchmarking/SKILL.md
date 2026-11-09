@@ -11,7 +11,7 @@ when_to_use_negative:
   direct reference-library matching against existing curated spectra.
 - Input libraries lack harmonized metadata (precursor m/z, adduct, structure) so that
   matchms comparison would be unreliable without prior curation.
-edam_operation: http://edamontology.org/operation_3858
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0219
@@ -45,7 +45,7 @@ metadata:
   - SpectralEntropy
   - matchms
   - spectraverse-analysis
-  edam_operation: http://edamontology.org/operation_3858
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0219

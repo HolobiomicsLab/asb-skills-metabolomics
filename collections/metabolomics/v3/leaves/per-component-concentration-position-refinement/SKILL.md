@@ -13,7 +13,7 @@ when_to_use_negative:
   so SHC's MSE objective alone will not filter them
 - When the target data is not 1H NMR spectra of plasma (or other biofluids) — the
   concentration scaling and position-shift ranges were tuned for NMR spectral fitting
-edam_operation: http://edamontology.org/operation_3592
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -40,7 +40,7 @@ metadata:
     url: https://github.com/LiuzLab/NMRQNet
   tools:
   - NMRQNet
-  edam_operation: http://edamontology.org/operation_3592
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

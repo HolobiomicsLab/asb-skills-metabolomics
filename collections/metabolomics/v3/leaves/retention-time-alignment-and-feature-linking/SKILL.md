@@ -8,7 +8,7 @@ when_to_use_negative:
   will link noise instead of peptide features
 - A single-run experiment with no cross-run comparison — linking is unnecessary and
   can merge distinct co-eluting isobaric peptides
-edam_operation: http://edamontology.org/operation_3707
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -40,7 +40,7 @@ metadata:
   - OpenMS
   - OpenMS 2.0
   - Python
-  edam_operation: http://edamontology.org/operation_3707
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

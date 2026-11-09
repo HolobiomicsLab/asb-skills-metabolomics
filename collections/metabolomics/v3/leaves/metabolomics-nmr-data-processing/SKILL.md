@@ -10,7 +10,7 @@ when_to_use_negative:
   (that belongs to the metabolabpytools deep-learning workflow, not 1D phase correction)
 - Only a single 2D-NMR spectrum needs inspection rather than a 1D spectra series with
   a reference spectrum available
-edam_operation: http://edamontology.org/operation_3257
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0593
 - http://edamontology.org/topic_3174
@@ -51,7 +51,7 @@ metadata:
   - pandas
   - scikit-learn
   - scipy
-  edam_operation: http://edamontology.org/operation_3257
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0593
   - http://edamontology.org/topic_3174

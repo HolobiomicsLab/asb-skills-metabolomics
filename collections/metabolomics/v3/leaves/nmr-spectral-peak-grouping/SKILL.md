@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than peak-based processing
 - Concentration estimates of known metabolites are required (e.g. targeted tools like
   BATMAN) rather than feature-based profiling
-edam_operation: http://edamontology.org/operation_3255
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -43,7 +43,7 @@ metadata:
   - icoshift
   - speaq 2.0
   - speaq R package
-  edam_operation: http://edamontology.org/operation_3255
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

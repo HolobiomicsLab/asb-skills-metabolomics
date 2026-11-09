@@ -12,7 +12,7 @@ when_to_use_negative:
 - When exact (full) nearest neighbor search is required rather than approximate indexing,
   since ANN results only approach the full-search baseline as trees and inspected
   nodes increase
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_3520
@@ -47,7 +47,7 @@ metadata:
   - Python
   - SpectraST
   - msconvert
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_3520

@@ -13,7 +13,7 @@ when_to_use_negative:
 - You need a cross-tissue/cross-trait correlation of continuous effect sizes rather
   than binary significance concordance — the bivariate probit framing here models
   IHW-significance overlap, not continuous TWAS effect correlation
-edam_operation: http://edamontology.org/operation_3810
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -55,7 +55,7 @@ metadata:
   - Stan
   - fgsea
   - optimx
-  edam_operation: http://edamontology.org/operation_3810
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

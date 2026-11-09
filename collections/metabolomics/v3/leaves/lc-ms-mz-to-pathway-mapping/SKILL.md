@@ -12,7 +12,7 @@ when_to_use_negative:
   e.g. asari/OptiLCMS)
 - No pathway-level question exists and the goal is only univariate statistics or biomarker
   analysis on the feature table
-edam_operation: http://edamontology.org/operation_3768
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 tools:
@@ -42,7 +42,7 @@ metadata:
   - MetaboAnalyst 6.0
   - MetaboAnalystR
   - R
-  edam_operation: http://edamontology.org/operation_3768
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   provenance_tier: literature

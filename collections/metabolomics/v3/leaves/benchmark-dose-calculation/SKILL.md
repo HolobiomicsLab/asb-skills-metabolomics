@@ -10,8 +10,7 @@ when_to_use_negative:
   often conducted at multiple dose levels')
 - Input is raw MS spectra rather than a processed feature table — use the Spectra
   Processing module first to generate quantified features before dose-response modeling
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MetaboAnalyst 6.0
   role: Web platform whose Dose-Response Analysis module performs normalization, differential
@@ -38,8 +37,7 @@ metadata:
   - MetaboAnalyst 6.0
   - MetaboAnalystR 4.0
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

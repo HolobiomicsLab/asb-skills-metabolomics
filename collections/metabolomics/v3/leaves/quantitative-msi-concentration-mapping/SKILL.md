@@ -11,7 +11,7 @@ when_to_use_negative:
   workflow expects centroided .imzML import
 - The task is general MSI visualization or peak picking (e.g. with SCiLS Lab, Cardinal,
   or DataCubeExplorer) rather than class-specific-standard-based quantitation
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -41,7 +41,7 @@ metadata:
   tools:
   - LipidQMap
   - alexandrovteam/pyimzML
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

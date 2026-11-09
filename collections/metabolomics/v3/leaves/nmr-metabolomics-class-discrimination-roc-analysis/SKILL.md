@@ -13,7 +13,6 @@ when_to_use_negative:
   conversion step is needed.
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3520
 tools:
 - name: CloMet
@@ -47,7 +46,6 @@ metadata:
   - MetaboLights
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

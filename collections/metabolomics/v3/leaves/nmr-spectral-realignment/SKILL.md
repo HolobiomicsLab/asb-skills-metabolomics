@@ -12,8 +12,7 @@ when_to_use_negative:
 - Input spectra have not yet been chemically shift calibrated; realignment is meant
   for uncontrolled variations remaining after calibration.
 edam_operation: http://edamontology.org/operation_0252
-edam_topics:
-- http://edamontology.org/topic_3665
+edam_topics: []
 tools:
 - name: NMRProcFlow
   role: GUI application providing the realignment of a set of ppm areas, with the
@@ -48,8 +47,7 @@ metadata:
   - R
   - Rcpp
   edam_operation: http://edamontology.org/operation_0252
-  edam_topics:
-  - http://edamontology.org/topic_3665
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

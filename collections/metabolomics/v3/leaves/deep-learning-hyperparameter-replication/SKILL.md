@@ -11,7 +11,7 @@ when_to_use_negative:
   — a different sampling algorithm or metadata input would confound attribution.
 - Spectra come from a very different chemical domain than the reference training data;
   per-bin loss comparisons to the reference may not transfer.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0154
@@ -42,7 +42,7 @@ metadata:
   - PyTorch
   - matchms
   - ms2deepscore
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0154

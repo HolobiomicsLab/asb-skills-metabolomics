@@ -12,8 +12,7 @@ when_to_use_negative:
   ORA on a list of significant species.
 - The task targets the Network or Machine learning workflows, which LipidSigR restricts
   to two-group data.
-edam_topics:
-- http://edamontology.org/topic_3956
+edam_topics: []
 tools:
 - name: LipidSigR
   role: Provides the enrichment_ora function and the lipid characteristic set (lipid
@@ -42,8 +41,7 @@ metadata:
   - R
   - dplyr
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3956
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

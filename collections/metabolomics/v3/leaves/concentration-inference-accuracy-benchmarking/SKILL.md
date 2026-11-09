@@ -16,7 +16,6 @@ when_to_use_negative:
   against noiseless reference numbers would be misleading without appropriate caveats.
 edam_operation: http://edamontology.org/operation_0335
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0219
 tools:
 - name: MetaboPAC
@@ -44,7 +43,6 @@ metadata:
   - MetaboPAC
   edam_operation: http://edamontology.org/operation_0335
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0219
   provenance_tier: literature
 license: CC-BY-4.0

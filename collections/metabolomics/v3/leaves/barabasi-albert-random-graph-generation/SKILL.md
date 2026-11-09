@@ -11,7 +11,7 @@ when_to_use_negative:
 - The downstream task is not a graph-based kernel association simulation — these BA
   graphs specifically emulate metabolomic pathway networks of 15-45 metabolites for
   PaIRKAT score-test evaluation.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2258
 - http://edamontology.org/topic_3307
@@ -48,7 +48,7 @@ metadata:
   - PaIRKAT SimulationFunctions
   - R
   - igraph
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2258
   - http://edamontology.org/topic_3307

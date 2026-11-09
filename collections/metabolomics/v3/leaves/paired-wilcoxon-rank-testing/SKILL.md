@@ -11,7 +11,7 @@ when_to_use_negative:
   test handles only two related samples
 - The comparison targets nominal or categorical outcomes rather than continuous relative
   RT errors
-edam_operation: http://edamontology.org/operation_2292
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3174
@@ -48,7 +48,7 @@ metadata:
   - SciPy
   - Wilcoxon rank test
   - pandas
-  edam_operation: http://edamontology.org/operation_2292
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3174

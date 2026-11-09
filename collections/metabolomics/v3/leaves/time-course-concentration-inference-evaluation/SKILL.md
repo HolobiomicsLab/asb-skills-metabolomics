@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2424
 edam_topics:
 - http://edamontology.org/topic_0153
-- http://edamontology.org/topic_3272
 tools:
 - name: MetaboPAC
   role: Source of the inferred response factors being evaluated; its runs over repetitions
@@ -41,7 +40,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2424
   edam_topics:
   - http://edamontology.org/topic_0153
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

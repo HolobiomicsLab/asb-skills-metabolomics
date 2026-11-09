@@ -9,7 +9,7 @@ when_to_use_negative:
   rather than metabolomics mirror-match quality assessment
 - The comparison requires full peak-by-peak fragment assignment rather than an aggregate
   similarity score
-edam_operation: http://edamontology.org/operation_3254
+edam_operation: null
 tools:
 - name: Metabolomics Spectrum Resolver
   role: Source of machine-readable peak data (/json/ endpoint) and mirror plot rendering
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Metabolomics Spectrum Resolver
   - spectrum_utils
-  edam_operation: http://edamontology.org/operation_3254
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,7 @@ when_to_use_negative:
   mza converter tool (github.com/PNNL-m-q/mza) instead of the mzapy access interface
 - The data is not mass spectrometry data in MZA/HDF5 form (e.g., already-summarized
   feature tables), which this interface does not consume
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0121
@@ -44,7 +44,7 @@ metadata:
   - Python
   - h5py
   - mzapy
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0121

@@ -11,7 +11,7 @@ when_to_use_negative:
 - Samples come from an ambient SCMS protocol with different acquisition parameters;
   the 10 ppm Geena2 tolerance and established protocol were validated for this Single-probe
   setup.
-edam_operation: http://edamontology.org/operation_2941
+edam_operation: http://edamontology.org/operation_0571
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0154
@@ -48,7 +48,7 @@ metadata:
   - MetaboAnalyst 6.0
   - Single-probe SCMS
   - Thermo Xcalibur Qual Browser 3.0
-  edam_operation: http://edamontology.org/operation_2941
+  edam_operation: http://edamontology.org/operation_0571
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0154

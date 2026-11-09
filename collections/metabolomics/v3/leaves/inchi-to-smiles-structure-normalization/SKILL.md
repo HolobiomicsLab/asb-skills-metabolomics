@@ -11,7 +11,6 @@ when_to_use_negative:
 - The .msp block has no InChI/SMILES/structure information between the Name and Num
   Peaks rows, so no descriptor can be derived.
 edam_topics:
-- http://edamontology.org/topic_3319
 - http://edamontology.org/topic_3452
 tools:
 - name: RDKit
@@ -38,7 +37,6 @@ metadata:
   - RDKit
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3319
   - http://edamontology.org/topic_3452
   provenance_tier: literature
 license: CC-BY-4.0

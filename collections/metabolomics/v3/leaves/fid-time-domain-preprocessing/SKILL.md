@@ -12,8 +12,7 @@ when_to_use_negative:
 - Data is not Bruker-formatted NMR with an acqus file providing the group-delay parameter,
   since the number of leading points to delete cannot be determined.
 edam_operation: http://edamontology.org/operation_3214
-edam_topics:
-- http://edamontology.org/topic_3820
+edam_topics: []
 tools:
 - name: Protomix
   role: 'Provides the FID-stage functions: group_delay_removal, solvent_residuals_removal,
@@ -43,8 +42,7 @@ metadata:
   - pandas
   - pyicoshift
   edam_operation: http://edamontology.org/operation_3214
-  edam_topics:
-  - http://edamontology.org/topic_3820
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

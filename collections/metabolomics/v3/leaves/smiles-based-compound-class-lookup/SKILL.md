@@ -11,7 +11,7 @@ when_to_use_negative:
   requires explicit structural identifiers, not just InChIKeys or mass values
 - When working with metabolites above ~850 Da, where current class-prediction tools
   and this lookup's coverage become unreliable
-edam_operation: http://edamontology.org/operation_3779
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_3316
@@ -46,7 +46,7 @@ metadata:
   - GNPS
   - NPClassifier
   - NPLinker
-  edam_operation: http://edamontology.org/operation_3779
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_3316

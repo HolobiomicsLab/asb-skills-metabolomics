@@ -10,7 +10,7 @@ when_to_use_negative:
   MVs in QC or >50% MVs in all study groups should be removed before imputation)
 - The table is already complete/imputed or is destined for a non-tidyMass pipeline
   whose data structure differs from the mass_dataset class
-edam_operation: http://edamontology.org/operation_3754
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3316
 - http://edamontology.org/topic_0091
@@ -43,7 +43,7 @@ metadata:
   - masscleaner
   - massdataset
   - tidyMass
-  edam_operation: http://edamontology.org/operation_3754
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3316
   - http://edamontology.org/topic_0091

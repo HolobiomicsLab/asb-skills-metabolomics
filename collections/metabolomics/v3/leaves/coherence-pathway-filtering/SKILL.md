@@ -10,7 +10,7 @@ when_to_use_negative:
   generation of basis sets at 3T.
 - You must faithfully reproduce phase-cycling-dependent artifacts or pulse-phase sensitivities
   rather than an idealized single-coherence-pathway simulation.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: MRSCloud
   role: Implements the P-matrix coherence-order filter that zeroes undesired coherence-order
@@ -42,7 +42,7 @@ metadata:
   - MARSS
   - MRSCloud
   - R
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

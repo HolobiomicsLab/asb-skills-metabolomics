@@ -10,7 +10,7 @@ when_to_use_negative:
   with increasing numbers of protomers and tautomers.
 - You need a full fragmentation tree with radical ions; no systematic investigation
   of radical fragment ions in CID has been done.
-edam_operation: http://edamontology.org/operation_3874
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_2269
@@ -54,7 +54,7 @@ metadata:
   - CIDMD_setup
   - TeraChem
   - nanoreactor (LearnReactions.py)
-  edam_operation: http://edamontology.org/operation_3874
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_2269

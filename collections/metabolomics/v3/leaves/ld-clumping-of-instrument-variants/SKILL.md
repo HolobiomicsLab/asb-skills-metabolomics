@@ -11,7 +11,7 @@ when_to_use_negative:
 - When instrument variants come from a single reference panel with no LD structure
   to account for (e.g. rare independent variants already selected by significance
   threshold alone)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3393
@@ -39,7 +39,7 @@ metadata:
   tools:
   - MetaboAnalyst 6.0
   - MetaboAnalystR 4.0
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3393

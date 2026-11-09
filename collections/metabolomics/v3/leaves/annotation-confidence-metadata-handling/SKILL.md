@@ -10,7 +10,7 @@ when_to_use_negative:
   is used instead of untargeted import functions'
 - Raw mass spectrometry data still needs feature extraction — use patRoon/XCMS processing
   first; these functions only import existing feature tables
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_3174
@@ -44,7 +44,7 @@ metadata:
   - MS-DIAL
   - R
   - patRoon
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_3174

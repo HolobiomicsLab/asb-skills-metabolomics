@@ -13,7 +13,7 @@ when_to_use_negative:
 - When the goal is supervised ion classification with manual annotations — DeepION
   is explicitly designed to generate representations self-supervised without manual
   annotation.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0091
@@ -52,7 +52,7 @@ metadata:
   - Resnet18
   - SimSiam
   - torchvision
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0091

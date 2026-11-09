@@ -13,7 +13,7 @@ when_to_use_negative:
 - Predictions come from CFM-ID trained on METLIN17 where train/test compound separation
   cannot be guaranteed — interpret such comparisons with the paper's stated caveat
   rather than as a clean generalization test
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -47,7 +47,7 @@ metadata:
   - CFM-ID
   - FIORA
   - ICEBERG
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

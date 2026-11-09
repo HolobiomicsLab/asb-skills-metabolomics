@@ -11,7 +11,7 @@ when_to_use_negative:
   IFS applicability domain
 - Input chemicals lack structures or molecular formulas, so metal content and molecular
   weight cannot be determined
-edam_operation: http://edamontology.org/operation_3696
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3316
 - http://edamontology.org/topic_0209
@@ -33,7 +33,7 @@ metadata:
   license_tier: open
   tools:
   - BioTransformer
-  edam_operation: http://edamontology.org/operation_3696
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3316
   - http://edamontology.org/topic_0209

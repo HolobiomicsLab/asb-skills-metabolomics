@@ -13,7 +13,6 @@ when_to_use_negative:
   filling — SteadyCom or MICOM-style whole-community optimization addresses that instead.
 edam_operation: http://edamontology.org/operation_3660
 edam_topics:
-- http://edamontology.org/topic_2256
 - http://edamontology.org/topic_0602
 tools:
 - name: COMMIT
@@ -56,7 +55,6 @@ metadata:
   - memote
   edam_operation: http://edamontology.org/operation_3660
   edam_topics:
-  - http://edamontology.org/topic_2256
   - http://edamontology.org/topic_0602
   provenance_tier: literature
 license: CC-BY-4.0

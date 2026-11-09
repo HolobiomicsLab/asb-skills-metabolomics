@@ -10,8 +10,7 @@ when_to_use_negative:
   axis at, so the 4D fold is undefined'
 - Data are in mzML/mzXML or other non-CDF vendor formats not handled by readFolderCDF
 edam_operation: http://edamontology.org/operation_0279
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: GcDUO
   role: readFolderCDF reads CDF folders, folds scans at the modulation period, and
@@ -47,8 +46,7 @@ metadata:
   - dplyr
   - ncdf4
   edam_operation: http://edamontology.org/operation_0279
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

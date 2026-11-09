@@ -12,8 +12,7 @@ when_to_use_negative:
 - The target metabolites are only reported as unknown-identity peaks with no mass
   spectra/retention index available to match across studies.
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3822
+edam_topics: []
 tools:
 - name: GCxGC-TOFMS
   role: Instrument whose metabolite annotations (named and Unknown_### peaks) populate
@@ -33,8 +32,7 @@ metadata:
   tools:
   - GCxGC-TOFMS
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3822
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

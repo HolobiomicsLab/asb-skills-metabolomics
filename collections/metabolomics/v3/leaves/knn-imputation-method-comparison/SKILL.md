@@ -13,7 +13,7 @@ when_to_use_negative:
   imputation, so benchmarking KNN variants on them is inappropriate.
 - When the user needs a non-KNN or non-truncated-distribution approach; this skill
   only covers the three KNN procedures described in the paper.
-edam_operation: http://edamontology.org/operation_3554
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3365
@@ -50,7 +50,7 @@ metadata:
   - KNN-TN
   - KNN-TN (truncation-based KNN imputation)
   - Newton-Raphson optimization for truncated normal MLE
-  edam_operation: http://edamontology.org/operation_3554
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3365

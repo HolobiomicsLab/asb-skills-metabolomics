@@ -11,7 +11,7 @@ when_to_use_negative:
   in QC or >50% MV in study groups should be removed before testing)
 - Only a single pre-specified hypothesis is being tested, so multiplicity correction
   is not applicable
-edam_operation: http://edamontology.org/operation_2262
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3173
 - http://edamontology.org/topic_2269
@@ -46,7 +46,7 @@ metadata:
   - massstat
   - purrr
   - tidyMass
-  edam_operation: http://edamontology.org/operation_2262
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3173
   - http://edamontology.org/topic_2269

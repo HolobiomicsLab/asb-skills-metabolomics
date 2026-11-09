@@ -13,7 +13,6 @@ when_to_use_negative:
   — use the LipidLynxX Converter module instead of the Equalizer
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
-- http://edamontology.org/topic_3353
 - http://edamontology.org/topic_0154
 tools:
 - name: LipidLynxX
@@ -42,7 +41,6 @@ metadata:
   - LipidLynxX
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
-  - http://edamontology.org/topic_3353
   - http://edamontology.org/topic_0154
   provenance_tier: literature
 license: CC-BY-4.0

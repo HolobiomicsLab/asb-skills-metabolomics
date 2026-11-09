@@ -8,7 +8,7 @@ when_to_use_negative:
   threshold, so filtering would remove no features and imputation is unnecessary
 - Applying the preprocessing to non-DIA data types (e.g. DDA or SRM QC data) where
   the >70% cutoff and minimum imputation were not validated
-edam_operation: http://edamontology.org/operation_3590
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -39,7 +39,7 @@ metadata:
   tools:
   - DIA-NN
   - iDIA-QC
-  edam_operation: http://edamontology.org/operation_3590
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

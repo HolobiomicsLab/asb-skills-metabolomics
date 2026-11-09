@@ -10,7 +10,7 @@ when_to_use_negative:
   cannot be assigned reliably.
 - You want relative concentration changes across developmental stages rather than
   static composition of the detected metabolome.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0154
@@ -39,7 +39,7 @@ metadata:
   - Chenomx
   - HMDB (Human Metabolome Database)
   - Python
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0154

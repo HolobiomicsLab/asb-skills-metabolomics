@@ -11,8 +11,7 @@ when_to_use_negative:
   sets, not scans.
 - You want to extract chemical objects empirically from existing mzML files rather
   than generate synthetic per-sample mixtures with dropout.
-edam_topics:
-- http://edamontology.org/topic_2250
+edam_topics: []
 tools:
 - name: ViMMS 2.0
   role: Provides MultipleMixtureCreator and ChemicalMixtureCreator to generate per-sample
@@ -38,8 +37,7 @@ metadata:
   - ViMMS 2.0
   - pandas
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_2250
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

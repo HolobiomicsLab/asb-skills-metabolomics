@@ -12,7 +12,6 @@ when_to_use_negative:
   & 13C)
 edam_topics:
 - http://edamontology.org/topic_3172
-- http://edamontology.org/topic_1319
 tools:
 - name: NMRProcFlow
   role: GUI application providing the interactive spectra viewer in which ppm areas
@@ -48,7 +47,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
-  - http://edamontology.org/topic_1319
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

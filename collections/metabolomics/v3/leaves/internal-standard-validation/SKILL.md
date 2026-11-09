@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3633
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3310
 tools:
 - name: uafR
   role: Provides mzExacto() to extract standard compound areas per sample and standardifyIt()
@@ -43,7 +42,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3633
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3310
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

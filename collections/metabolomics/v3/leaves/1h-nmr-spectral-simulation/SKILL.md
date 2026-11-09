@@ -10,7 +10,7 @@ when_to_use_negative:
   or nuclei other than 1H — these are outside MetAssimulo 2.0's scope
 - You need MS or chromatography data simulation — this skill covers only NMR spectral
   simulation
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3361
 tools:
@@ -48,7 +48,7 @@ metadata:
   - conda
   - gdown
   - pip
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3361
   provenance_tier: literature

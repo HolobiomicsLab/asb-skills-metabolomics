@@ -10,7 +10,7 @@ when_to_use_negative:
   models MNAR/LOD-type missingness
 - Values above the quantile cut-offs must be preserved untouched — masking is strictly
   one-sided (left-censoring) and will not remove high-value entries
-edam_operation: http://edamontology.org/operation_3595
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -43,7 +43,7 @@ metadata:
   - GSimp
   - MVI-evaluation
   - R
-  edam_operation: http://edamontology.org/operation_3595
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

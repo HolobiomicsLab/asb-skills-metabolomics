@@ -12,7 +12,7 @@ when_to_use_negative:
   despite not being designed for it
 - Query compounds whose own reference spectra must remain in the library — this skill
   requires the spectrum-disjoint evaluation setup
-edam_operation: http://edamontology.org/operation_0329
+edam_operation: http://edamontology.org/operation_0474
 edam_topics:
 - http://edamontology.org/topic_3175
 tools:
@@ -48,7 +48,7 @@ metadata:
   - CSI:FingerID
   - CSI:FingerID 1.2.0
   - SIRIUS 4
-  edam_operation: http://edamontology.org/operation_0329
+  edam_operation: http://edamontology.org/operation_0474
   edam_topics:
   - http://edamontology.org/topic_3175
   provenance_tier: literature

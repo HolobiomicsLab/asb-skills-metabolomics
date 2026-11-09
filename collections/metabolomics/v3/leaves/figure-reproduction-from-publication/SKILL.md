@@ -11,8 +11,7 @@ when_to_use_negative:
 - The MWAS association results do not yet exist — run the MWASTools association models
   (partial correlations, generalized linear models) first before visualizing.
 edam_operation: http://edamontology.org/operation_0337
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MWASTools
   role: Provides MWAS_skylineNMR and the metabo_SE example data used to regenerate
@@ -41,8 +40,7 @@ metadata:
   - knitr
   - rmarkdown
   edam_operation: http://edamontology.org/operation_0337
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

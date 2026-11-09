@@ -11,7 +11,7 @@ when_to_use_negative:
   formation states a priori
 - The target exceeds the small-molecule regime validated here (benchmark metabolites
   <205 Da); computational cost grows rapidly beyond that scope
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3332
 tools:
@@ -51,7 +51,7 @@ metadata:
   - TeraChem
   - density functional theory
   - nanoreactor (LearnReactions.py)
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3332
   provenance_tier: literature

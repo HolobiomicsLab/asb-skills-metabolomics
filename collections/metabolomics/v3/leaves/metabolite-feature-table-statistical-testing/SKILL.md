@@ -15,7 +15,7 @@ when_to_use_negative:
 - A single overall omnibus hypothesis is needed rather than a battery of per-feature
   tests — the FDR adjustment assumes many independent per-feature tests, so this skill
   is inappropriate when only a few pre-specified features are of interest.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
@@ -50,7 +50,7 @@ metadata:
   - POMAShiny
   - R
   - tidyverse
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092

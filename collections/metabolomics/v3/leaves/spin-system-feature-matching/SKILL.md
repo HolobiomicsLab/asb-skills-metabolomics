@@ -12,8 +12,7 @@ when_to_use_negative:
   two samples.
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
-- http://edamontology.org/topic_1312
-- http://edamontology.org/topic_3272
+- http://edamontology.org/topic_0749
 tools:
 - name: MADByTE
   role: Performs the sample-to-sample spin system feature comparison and generates
@@ -45,8 +44,7 @@ metadata:
   - NMRglue
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
-  - http://edamontology.org/topic_1312
-  - http://edamontology.org/topic_3272
+  - http://edamontology.org/topic_0749
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -13,8 +13,7 @@ when_to_use_negative:
 - When comparing reconstructed models directly against reference models via reaction
   cross-references — the article notes this comparison was hampered by a lack of reaction
   cross-references to other name spaces
-edam_topics:
-- http://edamontology.org/topic_2254
+edam_topics: []
 tools:
 - name: COMMIT
   role: Performs the community-dependent conditional gap filling (100 iterations)
@@ -52,8 +51,7 @@ metadata:
   - SMETANA
   - memote
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_2254
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

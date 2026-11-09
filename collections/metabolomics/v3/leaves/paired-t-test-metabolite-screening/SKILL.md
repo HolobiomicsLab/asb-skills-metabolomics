@@ -10,7 +10,7 @@ when_to_use_negative:
   to the boundary-flux inference step.
 - Only a single time-point measurement exists (no paired 0 h reference) — use a one-sample
   or single-factor test instead.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0203
@@ -37,7 +37,7 @@ metadata:
     url: https://github.com/LewisResearchGroup/MINNO
   tools:
   - MINNO
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0203

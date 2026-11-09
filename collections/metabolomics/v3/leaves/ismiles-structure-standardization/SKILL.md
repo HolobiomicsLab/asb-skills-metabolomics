@@ -12,7 +12,7 @@ when_to_use_negative:
   it is dropped rather than truncated
 - 'Offline raw-data processing is required: the README states the current version
   does not support offline processing of raw data'
-edam_operation: http://edamontology.org/operation_0229
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -50,7 +50,7 @@ metadata:
   - PubChemPy
   - Python 3.10.5
   - RDKit
-  edam_operation: http://edamontology.org/operation_0229
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

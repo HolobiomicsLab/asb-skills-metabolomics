@@ -16,7 +16,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_0092
-- http://edamontology.org/topic_3353
 tools:
 - name: LipidOne 2.0
   role: Web platform that fits the PLS-DA model on the scaled LMS matrix and renders
@@ -45,7 +44,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_0092
-  - http://edamontology.org/topic_3353
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

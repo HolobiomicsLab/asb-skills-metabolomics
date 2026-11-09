@@ -14,7 +14,6 @@ when_to_use_negative:
 - When comparing more than two ROIs in a single test — the workflow defines fold-change
   between a pair of regions at a time.
 edam_topics:
-- http://edamontology.org/topic_3389
 - http://edamontology.org/topic_2269
 tools:
 - name: rMSIKeyIon
@@ -53,7 +52,6 @@ metadata:
   - rMSIproc
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3389
   - http://edamontology.org/topic_2269
   provenance_tier: literature
 license: CC-BY-4.0

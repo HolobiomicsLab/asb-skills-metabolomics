@@ -9,7 +9,7 @@ when_to_use_negative:
   similarity, not fragmentation-similarity.
 - When no anchor-suspect pairing or candidate derivative list exists yet (e.g. before
   BAM/PROXIMAL2 has generated products) — there are no structures to fingerprint.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0081
 - http://edamontology.org/topic_0154
@@ -40,7 +40,7 @@ metadata:
   - BAM
   - Pandas
   - RDKit
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0081
   - http://edamontology.org/topic_0154

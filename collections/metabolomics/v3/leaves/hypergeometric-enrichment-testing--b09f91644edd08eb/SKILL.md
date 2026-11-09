@@ -12,11 +12,10 @@ when_to_use_negative:
 - When the metabolite list has not yet been batch-effect corrected (e.g. via dbnorm
   ber/ComBat), as raw lists contained too few metabolites from lipid pathways to trigger
   enrichment.
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3345
 - http://edamontology.org/topic_0154
-- http://edamontology.org/topic_3557
 tools:
 - name: ConsensusPathDB
   role: Web tool that performs the hypergeometric over-representation analysis of
@@ -49,11 +48,10 @@ metadata:
   - Human Metabolome Database (HMDB)
   - KEGG pathways database
   - dbnorm
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3345
   - http://edamontology.org/topic_0154
-  - http://edamontology.org/topic_3557
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

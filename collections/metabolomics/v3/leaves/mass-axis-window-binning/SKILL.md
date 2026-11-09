@@ -12,7 +12,6 @@ when_to_use_negative:
   produces the windowed/binned intermediate, not signal/noise labels
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3294
 tools:
 - name: pyproteolizard-data
   role: data-access layer providing PyTimsDataHandle and frame/spectrum objects over
@@ -59,7 +58,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3294
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -11,8 +11,7 @@ when_to_use_negative:
   trained only on positive ion mode (H+) spectra
 - The task is library matching of already-known compounds rather than de novo annotation
   of unknowns from low-resolution data
-edam_topics:
-- http://edamontology.org/topic_0031
+edam_topics: []
 tools:
 - name: miniaturized mass spectrometer
   role: Source instrument producing the low-resolution MSn spectra (e.g., for on-site
@@ -37,8 +36,7 @@ metadata:
   - TeFT
   - miniaturized mass spectrometer
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0031
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

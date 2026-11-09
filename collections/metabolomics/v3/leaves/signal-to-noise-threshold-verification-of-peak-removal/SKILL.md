@@ -12,7 +12,7 @@ when_to_use_negative:
   step
 - The input is already a peak table with no intensity trace — verification requires
   re-scanning the corrected spectrum, so a peaks-only object cannot be checked
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 tools:
 - name: subMALDI
   role: Provides the SNR-based peak detection (per-segment median absolute deviation
@@ -41,7 +41,7 @@ metadata:
   - MassSpecWavelet
   - R
   - subMALDI
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

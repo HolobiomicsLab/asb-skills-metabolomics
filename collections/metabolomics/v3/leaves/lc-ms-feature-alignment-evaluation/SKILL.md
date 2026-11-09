@@ -10,7 +10,7 @@ when_to_use_negative:
   accuracy across runs
 - Your dataset lacks manually annotated library analytes, so TP/FP/F_ACC/A_ACC cannot
   be computed
-edam_operation: http://edamontology.org/operation_3807
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
@@ -52,7 +52,7 @@ metadata:
   - XCMS
   - numpy
   - pandas
-  edam_operation: http://edamontology.org/operation_3807
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092

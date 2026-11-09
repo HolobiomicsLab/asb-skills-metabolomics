@@ -9,7 +9,7 @@ when_to_use_negative:
 - Input is rule-based detector output such as antiSMASH cluster predictions that lack
   continuous per-domain scores to threshold
 - No labeled genome annotations are available to estimate FPR/TPR operating points
-edam_operation: http://edamontology.org/operation_3579
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0797
 - http://edamontology.org/topic_0154
@@ -52,7 +52,7 @@ metadata:
   - HMMER
   - Prodigal
   - bgc-pipeline
-  edam_operation: http://edamontology.org/operation_3579
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0797
   - http://edamontology.org/topic_0154

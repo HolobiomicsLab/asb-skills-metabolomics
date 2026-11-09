@@ -12,8 +12,7 @@ when_to_use_negative:
 - The pipeline of interest is targeted metabolomics or a non-MS omics workflow outside
   the untargeted metabolomics mass spectrometry pipeline MetumpX packages
 edam_operation: http://edamontology.org/operation_0306
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MetumpX
   role: The Ubuntu-based software package whose setup script and tool manifest are
@@ -37,8 +36,7 @@ metadata:
   - MetumpX
   - Ubuntu
   edam_operation: http://edamontology.org/operation_0306
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

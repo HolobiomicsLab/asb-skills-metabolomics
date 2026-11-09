@@ -12,8 +12,7 @@ when_to_use_negative:
 - The sample matrix is not plasma NMR (Batman was benchmarked here on human EDTA plasma
   spectra)
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: Batman
   role: Bayesian MCMC-based quantification engine; fits spectra with a customized
@@ -49,8 +48,7 @@ metadata:
   - NMRQNet
   - rDolphin
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   ASCA, MEBA, or two-factor analysis modes instead
 - The goal is metabolite annotation of all m/z values rather than screening for significant
   hits — MetaboShiny performs annotation only on significant hits from the analysis
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0219
@@ -38,7 +38,7 @@ metadata:
   - MetaboAnalystR
   - MetaboShiny
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0219

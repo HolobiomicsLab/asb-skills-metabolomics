@@ -12,8 +12,7 @@ when_to_use_negative:
 - Only a handful of spectra need processing and a heavyweight per-spectrum fitting
   approach's multi-minute runtime is acceptable
 edam_operation: http://edamontology.org/operation_3214
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: SMolESY-select
   role: Fully automated algorithm that assigns and directly integrates the 22 metabolite
@@ -44,8 +43,7 @@ metadata:
   - SMolESY
   - SMolESY-select
   edam_operation: http://edamontology.org/operation_3214
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

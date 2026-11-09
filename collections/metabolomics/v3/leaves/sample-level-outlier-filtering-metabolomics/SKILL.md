@@ -12,8 +12,7 @@ when_to_use_negative:
 - The metabolite matrix has already passed QCprep and only needs score projection
   via comp.CVD_score, comp.T2D_Ahola_Olli, or comp.mort_score.
 edam_operation: http://edamontology.org/operation_3680
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MiMIR
   role: R package providing QCprep, QCprep_surrogates, subset_samples_miss, subset_samples_zero,
@@ -37,8 +36,7 @@ metadata:
   - MiMIR
   - R
   edam_operation: http://edamontology.org/operation_3680
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

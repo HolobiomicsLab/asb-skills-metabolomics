@@ -11,7 +11,6 @@ when_to_use_negative:
   is the appropriate path)
 edam_operation: http://edamontology.org/operation_3443
 edam_topics:
-- http://edamontology.org/topic_3653
 - http://edamontology.org/topic_3473
 tools:
 - name: MSIght
@@ -47,7 +46,6 @@ metadata:
   - pyimzML
   edam_operation: http://edamontology.org/operation_3443
   edam_topics:
-  - http://edamontology.org/topic_3653
   - http://edamontology.org/topic_3473
   provenance_tier: literature
 license: CC-BY-4.0

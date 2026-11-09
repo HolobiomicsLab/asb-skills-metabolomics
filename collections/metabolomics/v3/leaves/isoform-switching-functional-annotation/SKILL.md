@@ -9,7 +9,7 @@ when_to_use_negative:
 - The goal is simple gene-level differential expression without interest in isoform
   usage or switching events — the gene-only DE modules (edgeR, DESeq2, RankProduct)
   suffice.
-edam_operation: http://edamontology.org/operation_2490
+edam_operation: http://edamontology.org/operation_2950
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3169
@@ -55,7 +55,7 @@ metadata:
   - Singularity
   - Trim Galore
   - signalP
-  edam_operation: http://edamontology.org/operation_2490
+  edam_operation: http://edamontology.org/operation_2950
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3169

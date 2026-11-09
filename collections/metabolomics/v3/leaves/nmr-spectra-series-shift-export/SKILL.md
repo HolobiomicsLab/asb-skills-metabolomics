@@ -12,8 +12,7 @@ when_to_use_negative:
 - Only 2D-NMR processing is needed; this skill addresses the 1D-NMR segmental alignment
   step of the pre-processing workflow.
 edam_operation: http://edamontology.org/operation_3215
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: metabolabpy
   role: Provides the segmental alignment routine that computes the correlation-maximising
@@ -42,8 +41,7 @@ metadata:
   - metabolabpy
   - numpy
   edam_operation: http://edamontology.org/operation_3215
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

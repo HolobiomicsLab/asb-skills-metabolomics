@@ -8,7 +8,7 @@ when_to_use_negative:
   which tunes a weight matrix per metabolite rather than MLP hyper-parameters.
 - The input data is not paired microbe/metabolite count matrices in the comma-delimited
   CSV format MiMeNet_train.py expects.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0621
@@ -31,7 +31,7 @@ metadata:
   repo_url: https://github.com/YDaiLab/MiMeNet
   tools:
   - MiMeNet
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0621

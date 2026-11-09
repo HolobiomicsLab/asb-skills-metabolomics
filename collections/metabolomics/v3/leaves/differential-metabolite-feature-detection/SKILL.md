@@ -12,7 +12,6 @@ when_to_use_negative:
   group, making the differential PG/CG fold-change screening undefined
 edam_operation: http://edamontology.org/operation_3214
 edam_topics:
-- http://edamontology.org/topic_3652
 - http://edamontology.org/topic_0091
 tools:
 - name: MS-Dial
@@ -46,7 +45,6 @@ metadata:
   - MS-Dial
   edam_operation: http://edamontology.org/operation_3214
   edam_topics:
-  - http://edamontology.org/topic_3652
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

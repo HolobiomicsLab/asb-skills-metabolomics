@@ -10,7 +10,7 @@ when_to_use_negative:
   can be built from the libraries
 - You are comparing spectra-level properties (peaks, adducts, ionization modes) rather
   than structure-level chemical-space coverage
-edam_operation: http://edamontology.org/operation_3945
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_2258
@@ -51,7 +51,7 @@ metadata:
   - matchms
   - pip
   - umap-learn
-  edam_operation: http://edamontology.org/operation_3945
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_2258

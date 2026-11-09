@@ -11,7 +11,7 @@ when_to_use_negative:
   not the comparison target.
 - Only a handful of molecules need predicting once — profiling overhead outweighs
   the benefit of a timing benchmark.
-edam_operation: http://edamontology.org/operation_3839
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3418
 - http://edamontology.org/topic_3361
@@ -43,7 +43,7 @@ metadata:
   - NEIMS
   - RDKit Cheminformatics package
   - Tensorflow
-  edam_operation: http://edamontology.org/operation_3839
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3418
   - http://edamontology.org/topic_3361

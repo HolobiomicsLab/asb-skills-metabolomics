@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0366
 edam_topics:
 - http://edamontology.org/topic_0625
-- http://edamontology.org/topic_3234
 tools:
 - name: bcftools
   role: Left-aligns (normalizes) variants so repeat-region indels are represented
@@ -38,7 +37,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0366
   edam_topics:
   - http://edamontology.org/topic_0625
-  - http://edamontology.org/topic_3234
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

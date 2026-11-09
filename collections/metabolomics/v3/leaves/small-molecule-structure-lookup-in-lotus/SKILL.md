@@ -12,8 +12,7 @@ when_to_use_negative:
 - When metabolites are not covered by LOTUS or the user lacks a user-defined metabolite
   database to substitute
 edam_operation: http://edamontology.org/operation_0361
-edam_topics:
-- http://edamontology.org/topic_3311
+edam_topics: []
 tools:
 - name: MEANtools
   role: Performs the adduct mapping of mass features and the SQLite query against
@@ -37,8 +36,7 @@ metadata:
   - LOTUS
   - MEANtools
   edam_operation: http://edamontology.org/operation_0361
-  edam_topics:
-  - http://edamontology.org/topic_3311
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

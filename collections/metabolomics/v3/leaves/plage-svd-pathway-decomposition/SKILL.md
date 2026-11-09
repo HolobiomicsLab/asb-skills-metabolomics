@@ -17,7 +17,6 @@ edam_operation: http://edamontology.org/operation_2939
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3577
-- http://edamontology.org/topic_3557
 tools:
 - name: sspa
   role: Python package providing the PLAGE/SVD single-sample pathway scoring method
@@ -55,7 +54,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3577
-  - http://edamontology.org/topic_3557
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

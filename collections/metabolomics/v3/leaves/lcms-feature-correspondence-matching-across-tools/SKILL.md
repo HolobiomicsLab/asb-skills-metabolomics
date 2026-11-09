@@ -10,7 +10,7 @@ when_to_use_negative:
   against
 - The data are low-resolution or non-Orbitrap platforms where asari is not yet optimized
   — tool comparison conclusions may not transfer
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -40,7 +40,7 @@ metadata:
   - Python
   - XCMS
   - asari
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

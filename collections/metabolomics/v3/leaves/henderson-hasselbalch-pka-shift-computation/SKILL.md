@@ -9,7 +9,7 @@ when_to_use_negative:
   leaving equation (3) undefined
 - You are simulating non-pH-sensitive peak features such as the blood protein background
   rather than metabolite peak positions
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 tools:
@@ -40,7 +40,7 @@ metadata:
   - MetAssimulo 2
   - MetAssimulo 2.0
   - Python
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   provenance_tier: literature

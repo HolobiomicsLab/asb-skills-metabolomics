@@ -10,7 +10,6 @@ when_to_use_negative:
 - If the input is raw, unbinned NMR acquisition files rather than a binned data matrix,
   the upstream bucketing step must run first; this skill operates on the binned matrix.
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3520
 tools:
 - name: CloMet
@@ -41,7 +40,6 @@ metadata:
   - Workflows4Metabolomics
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

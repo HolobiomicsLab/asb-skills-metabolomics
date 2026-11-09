@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3695
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3331
 tools:
 - name: ChemDistiller
   role: Annotation engine whose --delta_mz (ppm) MS1 candidate filter this skill reproduces;
@@ -44,7 +43,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3695
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3331
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -11,9 +11,8 @@ when_to_use_negative:
   QC.
 - A single global QC/imputation is desired across all 24 models; MiMIR instead runs
   per-model QC in parallel with model-specific parameters.
-edam_operation: http://edamontology.org/operation_3577
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0091
 tools:
 - name: MiMIR
@@ -49,9 +48,8 @@ metadata:
   - stats
   - tidyverse
   - xtable
-  edam_operation: http://edamontology.org/operation_3577
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

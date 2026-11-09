@@ -10,7 +10,7 @@ when_to_use_negative:
   — this skill operates post-decoder, on generated structures.
 - When ground-truth structures are unavailable for the test compounds, since no scaffold
   or functional-group reference exists to query against.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0081
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - PyTorch
   - RDKit
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0081
   provenance_tier: literature

@@ -12,7 +12,7 @@ when_to_use_negative:
   must scale with dataset size to be meaningful)
 - The normalization method of interest is not QC sample-based (e.g., sample-based
   only normalization outside the Metanorm/TIGER/SERFF scope)
-edam_operation: http://edamontology.org/operation_3843
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -60,7 +60,7 @@ metadata:
   - rGAM
   - rLOESS
   - tGAM
-  edam_operation: http://edamontology.org/operation_3843
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

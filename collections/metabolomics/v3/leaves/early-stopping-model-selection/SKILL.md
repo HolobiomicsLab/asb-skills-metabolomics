@@ -8,7 +8,7 @@ when_to_use_negative:
   split exists — there is no validation loss to monitor, so early stopping is inapplicable
 - Input is a fixed-epoch benchmark reproduction where the paper specifies an exact
   epoch count and no validation-based stopping criterion
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0091
@@ -41,7 +41,7 @@ metadata:
   - Python
   - Python 3.10
   - Snakemake
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0091

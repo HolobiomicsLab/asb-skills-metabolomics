@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3435
 tools:
 - name: SAND
   role: Produces the quantification estimates under test, via hybrid Markov chain
@@ -39,7 +38,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3435
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

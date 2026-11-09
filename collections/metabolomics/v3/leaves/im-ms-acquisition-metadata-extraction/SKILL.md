@@ -13,7 +13,7 @@ when_to_use_negative:
 - The instrument data is not in a format the PreProcessor ingests (e.g., non-Agilent,
   non-UIMF vendor formats); the article notes conversion to UIMF as an intermediate
   step may be needed for other IM-MS instrumentation.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 tools:
@@ -34,7 +34,7 @@ metadata:
   license_tier: unknown
   tools:
   - PNNL PreProcessor
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   provenance_tier: literature

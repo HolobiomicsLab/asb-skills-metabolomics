@@ -13,7 +13,7 @@ when_to_use_negative:
 - Input data has not yet been through POMAShiny's imputation/normalization/outlier-removal
   pre-processing panels (e.g. features with >20% missing values per group are still
   present).
-edam_operation: http://edamontology.org/operation_3287
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -46,7 +46,7 @@ metadata:
   - POMAShiny
   - R
   - tidyverse
-  edam_operation: http://edamontology.org/operation_3287
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

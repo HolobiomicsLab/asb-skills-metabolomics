@@ -12,7 +12,7 @@ when_to_use_negative:
   calls.
 - Only a single annotation tool is available — the skill's core value is cross-tool
   concordance against ClinVar, not single-tool annotation.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_0622
@@ -43,7 +43,7 @@ metadata:
   - SnpEff
   - VEP
   - Variant Effect Predictor (VEP)
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_0622

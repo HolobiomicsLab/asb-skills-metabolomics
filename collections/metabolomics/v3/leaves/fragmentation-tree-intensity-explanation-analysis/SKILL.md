@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3695
 edam_topics:
 - http://edamontology.org/topic_0092
-- http://edamontology.org/topic_3822
 tools:
 - name: OpenMS
   role: Processes the input mzML/mzXML files and implements the low-quality MS/MS
@@ -54,7 +53,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3695
   edam_topics:
   - http://edamontology.org/topic_0092
-  - http://edamontology.org/topic_3822
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

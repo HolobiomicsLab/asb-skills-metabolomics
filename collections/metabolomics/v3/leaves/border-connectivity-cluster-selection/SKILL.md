@@ -13,7 +13,6 @@ when_to_use_negative:
   for tissue segmentation
 edam_operation: http://edamontology.org/operation_3432
 edam_topics:
-- http://edamontology.org/topic_3620
 - http://edamontology.org/topic_0121
 tools:
 - name: msiFlow
@@ -49,7 +48,6 @@ metadata:
   - msiFlow
   edam_operation: http://edamontology.org/operation_3432
   edam_topics:
-  - http://edamontology.org/topic_3620
   - http://edamontology.org/topic_0121
   provenance_tier: literature
 license: CC-BY-4.0

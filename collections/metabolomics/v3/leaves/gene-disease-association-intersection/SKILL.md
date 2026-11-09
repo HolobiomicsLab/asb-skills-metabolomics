@@ -11,7 +11,7 @@ when_to_use_negative:
   (use LDSC or MESC instead) rather than count curated gene-disease targets
 - Associations below evidence score 0.8 are acceptable — the counting logic and reported
   figures depend on this threshold
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - Open Targets
   - sparklyr
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   provenance_tier: literature

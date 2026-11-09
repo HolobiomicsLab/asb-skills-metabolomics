@@ -14,7 +14,6 @@ when_to_use_negative:
   inside an existing R script rather than run a standalone service
 edam_operation: http://edamontology.org/operation_3454
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0091
 tools:
 - name: QC4Metabolomics
@@ -51,7 +50,6 @@ metadata:
   - Shiny
   edam_operation: http://edamontology.org/operation_3454
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

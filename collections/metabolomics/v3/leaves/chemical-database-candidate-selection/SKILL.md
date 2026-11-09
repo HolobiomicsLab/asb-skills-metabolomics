@@ -11,7 +11,7 @@ when_to_use_negative:
   interface.
 - The goal is a standalone chemical-library build (e.g. in silico fragmentation outside
   VInSMoC) rather than selecting candidates for VInSMoC spectral search.
-edam_operation: http://edamontology.org/operation_3754
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3174
@@ -38,7 +38,7 @@ metadata:
   tools:
   - VInSMoC
   - npanalysis.org server (run.npanalysis.org)
-  edam_operation: http://edamontology.org/operation_3754
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3174

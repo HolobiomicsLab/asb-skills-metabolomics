@@ -8,7 +8,7 @@ when_to_use_negative:
   assay-derived pathway accessibility within one database.
 - The objective is quantifying metabolite misidentification effects rather than assay-specific
   pathway coverage.
-edam_operation: http://edamontology.org/operation_0251
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -46,7 +46,7 @@ metadata:
   - MetaboAnalyst 4.0
   - Python
   - pip3
-  edam_operation: http://edamontology.org/operation_0251
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

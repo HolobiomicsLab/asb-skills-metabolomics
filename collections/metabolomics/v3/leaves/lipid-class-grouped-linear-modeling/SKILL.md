@@ -10,8 +10,7 @@ when_to_use_negative:
   cannot be fit
 - Identifications lack fatty acyl composition detail (e.g. only sum compositions),
   leaving no ECN predictors
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: LipiDex 2 Degreaser QC module
   role: Implements the per-class ECN vs. RT modeling as one of its 6 QC evidence types
@@ -37,8 +36,7 @@ metadata:
   - LipiDex 2
   - LipiDex 2 Degreaser QC module
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

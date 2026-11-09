@@ -14,7 +14,6 @@ when_to_use_negative:
   assumptions — prefer the MaRR maximal rank statistic itself
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3272
 tools:
 - name: R (>=4.0)
   role: Analysis environment for computing per-metabolite RSD across biological and
@@ -45,7 +44,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

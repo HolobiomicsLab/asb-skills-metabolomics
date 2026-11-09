@@ -11,7 +11,7 @@ when_to_use_negative:
   intermediates may be unknown
 - Only a single edge type (e.g. biochemical alone) is available — there are no overlapping
   multi-type edges to resolve
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -44,7 +44,7 @@ metadata:
   - Meta MapR
   - MetaMapR
   - R
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

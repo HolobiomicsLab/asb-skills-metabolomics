@@ -12,7 +12,7 @@ when_to_use_negative:
   or optimal entropy scoring), which does not require fragment tracking across collision
   energies
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: mzbatch.py
   role: Python library of mass spectrometry data processing methods (file operations,
@@ -47,7 +47,7 @@ metadata:
   - mzbatch.py
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

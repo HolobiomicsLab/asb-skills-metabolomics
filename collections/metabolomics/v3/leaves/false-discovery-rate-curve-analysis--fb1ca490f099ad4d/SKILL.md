@@ -10,7 +10,7 @@ when_to_use_negative:
   states) — no hit list exists yet to sweep thresholds over.
 - The goal is peak-level quality control (peak merging / peak filtering parameters)
   rather than identification-level statistical validation.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -35,7 +35,7 @@ metadata:
   tools:
   - VInSMoC
   - npanalysis.org server (run.npanalysis.org)
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

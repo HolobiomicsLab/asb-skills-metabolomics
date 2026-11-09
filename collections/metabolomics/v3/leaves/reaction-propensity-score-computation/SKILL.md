@@ -10,7 +10,7 @@ when_to_use_negative:
 - When the goal is to characterize transcriptional regulation rather than metabolic
   regulation — RPS isolates the metabolic layer and neglects enzymatic activity; use
   getGPRsFromModel/getRASscore instead.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3174
@@ -37,7 +37,7 @@ metadata:
   tools:
   - INTEGRATE
   - Python
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3174

@@ -11,7 +11,7 @@ when_to_use_negative:
   so no mol2vec embedding or molecular graph can be computed.
 - Only a small number of m/z bins are of interest and no per-bin calibration data
   (validation spectra) are available, making threshold-based peak calling unreliable.
-edam_operation: http://edamontology.org/operation_0304
+edam_operation: http://edamontology.org/operation_2422
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - SingleFrag
   - mol2vec
-  edam_operation: http://edamontology.org/operation_0304
+  edam_operation: http://edamontology.org/operation_2422
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

@@ -12,7 +12,7 @@ when_to_use_negative:
   as those were already filtered out upstream of this harmonization
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
-- http://edamontology.org/topic_3346
+- http://edamontology.org/topic_0080
 - http://edamontology.org/topic_0219
 tools:
 - name: gnfinder
@@ -40,7 +40,7 @@ metadata:
   - gnfinder
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
-  - http://edamontology.org/topic_3346
+  - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_0219
   provenance_tier: literature
 license: CC-BY-4.0

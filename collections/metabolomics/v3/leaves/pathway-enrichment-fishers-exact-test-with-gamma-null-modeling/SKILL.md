@@ -9,7 +9,7 @@ when_to_use_negative:
   metabolite identification, not replace well-annotated analyses
 - When the goal is definitive metabolite identification — mummichog is not designed
   to replace tandem mass spectrometry in metabolite identification
-edam_operation: http://edamontology.org/operation_0280
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -42,7 +42,7 @@ metadata:
   - cloud-mummichog
   - metDataModel
   - mummichog
-  edam_operation: http://edamontology.org/operation_0280
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

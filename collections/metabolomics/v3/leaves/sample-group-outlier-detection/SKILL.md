@@ -12,7 +12,7 @@ when_to_use_negative:
   extracted metrics
 - When no sample-group structure exists or a single-run dataset is provided, because
   the algorithm fits models within each sample group
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0157
@@ -35,7 +35,7 @@ metadata:
   repo_url: https://github.com/pnnl/IonToolPack
   tools:
   - PeakQC
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0157

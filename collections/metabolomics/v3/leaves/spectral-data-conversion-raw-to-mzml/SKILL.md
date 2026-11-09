@@ -11,7 +11,7 @@ when_to_use_negative:
 - The task requires training-data compilation from MassIVE-KB, where spectra are retrieved
   per-scan from the MassIVE FTP server rather than converted wholesale from vendor
   raw files.
-edam_operation: http://edamontology.org/operation_0355
+edam_operation: http://edamontology.org/operation_2929
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -41,7 +41,7 @@ metadata:
   - Python
   - conda
   - pip
-  edam_operation: http://edamontology.org/operation_0355
+  edam_operation: http://edamontology.org/operation_2929
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

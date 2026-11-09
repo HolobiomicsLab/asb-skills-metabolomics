@@ -10,7 +10,7 @@ when_to_use_negative:
   no high-quality peak table exists
 - The goal is peak detection quality assessment rather than differential abundance
   between conditions
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0203
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Python 3
   - WiPP
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0203

@@ -10,7 +10,7 @@ when_to_use_negative:
   so no per-module line coverage can be measured against a reported figure.
 - You only need functional verification of CLI behavior (e.g. that extract/validate/convert
   run end-to-end), not quantitative coverage measurement across modules.
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3372
 tools:
@@ -38,7 +38,7 @@ metadata:
   - MESSES
   - Python 3
   - jsonschema
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3372
   provenance_tier: literature

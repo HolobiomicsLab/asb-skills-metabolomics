@@ -9,7 +9,7 @@ when_to_use_negative:
   Chemical objects — use Environment.write_mzML for scan export instead
 - You need a human-readable or cross-language interchange format; pickle files are
   Python-specific and tied to the vimms class definitions
-edam_operation: http://edamontology.org/operation_0223
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -40,7 +40,7 @@ metadata:
   - numpy
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_0223
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

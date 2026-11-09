@@ -10,7 +10,7 @@ when_to_use_negative:
   than a substructure pattern
 - No fingerprint prefilter is available for the target structure collection, making
   the CDK confirmation step the only filter at intractable cost
-edam_operation: http://edamontology.org/operation_3391
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3382
 - http://edamontology.org/topic_0091
@@ -44,7 +44,7 @@ metadata:
   - MongoDB
   - OpenChemLib
   - Spring
-  edam_operation: http://edamontology.org/operation_3391
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3382
   - http://edamontology.org/topic_0091

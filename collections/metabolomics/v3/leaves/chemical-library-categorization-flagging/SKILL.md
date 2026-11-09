@@ -11,7 +11,7 @@ when_to_use_negative:
   identified compound names
 - Compounds lack published PubChem entries or canonical SMILES — decontamination removes
   such chemicals before enrichment, so categorate() would return unresolved identities
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3334
 - http://edamontology.org/topic_2258
@@ -46,7 +46,7 @@ metadata:
   - R
   - fmcsR
   - uafR
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3334
   - http://edamontology.org/topic_2258

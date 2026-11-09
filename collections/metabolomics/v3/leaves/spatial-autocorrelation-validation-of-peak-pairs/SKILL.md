@@ -11,8 +11,7 @@ when_to_use_negative:
 - The goal is metabolite identity annotation against HMDB/KEGG/LIPIDMAPS databases
   rather than isotope/adduct peak-pair classification
 edam_operation: http://edamontology.org/operation_0314
-edam_topics:
-- http://edamontology.org/topic_3925
+edam_topics: []
 tools:
 - name: MetaboCoreUtils
   role: Provides the isotopologues function used to screen peak pairs conforming to
@@ -41,8 +40,7 @@ metadata:
   - SMAnalyst
   - spdep
   edam_operation: http://edamontology.org/operation_0314
-  edam_topics:
-  - http://edamontology.org/topic_3925
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

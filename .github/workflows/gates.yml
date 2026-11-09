@@ -28,9 +28,9 @@ jobs:
             # local strict rehearsal of 2026-11-09 fails on it (release surface,
             # release gate and receipt re-verification). Add it back once the
             # maintainers regenerate its receipt or the caller gains a per-row strict flag.
-    # Pin the tooling commit recorded in collections.yaml for the release.
+    # Pin the merged EDAM remap tooling for the v3.0.1 patch.
     # Bump this full commit SHA deliberately when adopting newer gate tooling.
-    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@b260f24ae51addcdbe223e8849b4f2a98f47c9bc
+    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@c5623a3307d53c20ea053dc922ae1584858e31ec
     with:
       domain: ${{ matrix.collection.domain }}
       collection_path: ${{ matrix.collection.collection_path }}

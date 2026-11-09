@@ -10,7 +10,7 @@ when_to_use_negative:
   metabolite association networks
 - A pre-existing Cytoscape network only needs layout or styling, not re-export of
   MetaMapR edge lists or node-ID mapping
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3361
 tools:
@@ -46,7 +46,7 @@ metadata:
   - R
   - Shiny
   - Shiny server
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3361
   provenance_tier: literature

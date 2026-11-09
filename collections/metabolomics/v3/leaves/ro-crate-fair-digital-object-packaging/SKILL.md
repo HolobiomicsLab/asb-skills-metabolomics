@@ -13,7 +13,7 @@ when_to_use_negative:
   regulations prohibit sharing them, so the crate can only carry a synthetic dataset
   as in this case study
 edam_topics:
-- http://edamontology.org/topic_3061
+- http://edamontology.org/topic_3068
 tools:
 - name: ro-crate-py
   role: Python library used to initialize the RO-Crate, register the workflow root
@@ -49,7 +49,7 @@ metadata:
   - ro-crate-py
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3061
+  - http://edamontology.org/topic_3068
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

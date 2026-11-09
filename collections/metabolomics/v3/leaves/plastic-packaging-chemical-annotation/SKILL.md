@@ -12,7 +12,7 @@ when_to_use_negative:
   explicitly states this strategy only works for known unknowns.
 - Data come from non-plastic matrices (e.g. natural product extracts); cppDB's plastic-chemical
   coverage is the rationale, so annotation quality degrades.
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -50,7 +50,7 @@ metadata:
   - MS-DIAL 4.38
   - MS-FINDER
   - mspcompiler
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

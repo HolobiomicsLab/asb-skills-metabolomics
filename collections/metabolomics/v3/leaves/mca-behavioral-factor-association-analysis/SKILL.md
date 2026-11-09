@@ -11,7 +11,7 @@ when_to_use_negative:
 - The association of interest involves raw omics features rather than latent factors
   — this skill tests precomputed MOFA factors and cluster memberships, not individual
   probes or metabolites
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3517
@@ -57,7 +57,7 @@ metadata:
   - Nextflow
   - SNFpy
   - gee (R package)
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3517

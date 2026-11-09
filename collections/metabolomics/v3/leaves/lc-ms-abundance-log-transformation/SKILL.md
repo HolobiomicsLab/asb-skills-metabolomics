@@ -9,7 +9,7 @@ when_to_use_negative:
 - Working with count-based data (e.g. RNA-seq) where a different transformation (e.g.
   variance-stabilizing) is appropriate
 - The analysis goal is peak detection or raw signal inspection, not statistical modelling
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3173
 tools:
@@ -31,7 +31,7 @@ metadata:
   tools:
   - R
   - notame
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3173
   provenance_tier: literature

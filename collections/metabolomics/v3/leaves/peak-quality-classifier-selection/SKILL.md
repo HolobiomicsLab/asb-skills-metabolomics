@@ -12,7 +12,7 @@ when_to_use_negative:
   final external validation reporting.
 - Your performance data are not paired over shared CV folds/runs, so ranked comparisons
   across candidates (the assumption behind Friedman's test) do not hold.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -53,7 +53,7 @@ metadata:
   - plotrix
   - scmamp
   - scmamp R package
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

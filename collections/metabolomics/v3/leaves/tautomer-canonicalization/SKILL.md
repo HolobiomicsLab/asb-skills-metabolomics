@@ -13,7 +13,6 @@ when_to_use_negative:
   be parsed/sanitized by RDKit — these records are rejected before this stage.
 edam_operation: http://edamontology.org/operation_3660
 edam_topics:
-- http://edamontology.org/topic_0261
 - http://edamontology.org/topic_3318
 tools:
 - name: RDKit
@@ -46,7 +45,6 @@ metadata:
   - matchms
   edam_operation: http://edamontology.org/operation_3660
   edam_topics:
-  - http://edamontology.org/topic_0261
   - http://edamontology.org/topic_3318
   provenance_tier: literature
 license: CC-BY-4.0

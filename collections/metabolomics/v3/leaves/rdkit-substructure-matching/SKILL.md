@@ -10,7 +10,7 @@ when_to_use_negative:
   sharing a common substructure.
 - The pair fails upstream eligibility filters (e.g., precursor mass ≥ 2000 Da or mass
   difference ≥ 50%), making substructure verification moot.
-edam_operation: http://edamontology.org/operation_3555
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - ModiFinder
   - RDKit
-  edam_operation: http://edamontology.org/operation_3555
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   provenance_tier: literature

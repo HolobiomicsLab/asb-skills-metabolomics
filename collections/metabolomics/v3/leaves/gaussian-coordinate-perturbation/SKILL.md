@@ -11,7 +11,7 @@ when_to_use_negative:
   only alters spot locations, not the feature matrix X.
 - You need a changelog/identified dataset provenance — the article provides no accession
   for the spatial transcription data or MSI-MALDI data used in the pseudo-paired evaluations.
-edam_operation: http://edamontology.org/operation_3845
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_3174
@@ -46,7 +46,7 @@ metadata:
   - Python
   - Scanpy
   - haCCA
-  edam_operation: http://edamontology.org/operation_3845
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_3174

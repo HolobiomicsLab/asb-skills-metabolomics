@@ -11,7 +11,7 @@ when_to_use_negative:
 - Spectra represent different adducts or ionization modes of the same compound that
   should be analyzed jointly rather than split by polarity, since this skill partitions
   on polarity by design
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -40,7 +40,7 @@ metadata:
   - Python
   - SpectralEntropy
   - matchms
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

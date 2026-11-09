@@ -12,7 +12,7 @@ when_to_use_negative:
   of simulation-based comparison).
 - Working with low-resolution or non-FT instruments (e.g. TOF or Orbitrap) where FT-ICR
   transient-to-spectrum transformation is not applicable.
-edam_operation: http://edamontology.org/operation_3620
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3315
@@ -49,7 +49,7 @@ metadata:
   - MALDI FT-ICR mass spectrometer
   - MEISTER
   - MEISTER_simulation.ipynb (multiscale_analysis)
-  edam_operation: http://edamontology.org/operation_3620
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3315

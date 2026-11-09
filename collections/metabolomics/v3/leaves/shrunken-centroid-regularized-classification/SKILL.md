@@ -14,7 +14,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2990
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: Cardinal
   role: Provides spatialShrunkenCentroids() for regularized shrunken-centroid segmentation/classification
@@ -47,7 +47,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_2990
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
 - No sample metadata/demographic variables are available to test as sources of variation.
 - The data are already pathway-transformed (e.g., a PDS matrix from lilikoi.PDSfun)
   rather than raw metabolite-level measurements.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_2269
@@ -41,7 +41,7 @@ metadata:
   - Lilikoi v2.0
   - M3C
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_2269

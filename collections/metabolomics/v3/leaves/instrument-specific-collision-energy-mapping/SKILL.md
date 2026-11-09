@@ -11,7 +11,6 @@ when_to_use_negative:
 - The spectra are EI-MS/MS rather than ESI-MS/MS; the CFM-ID ESI pipeline and QTOF/HCD
   energy mapping do not apply.
 edam_topics:
-- http://edamontology.org/topic_3521
 - http://edamontology.org/topic_3520
 tools:
 - name: CFM-ID 4.0
@@ -42,7 +41,6 @@ metadata:
   - CFM-ID 4.0
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3521
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

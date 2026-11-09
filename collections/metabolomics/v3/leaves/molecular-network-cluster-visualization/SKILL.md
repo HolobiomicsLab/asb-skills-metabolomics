@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_0260
 tools:
 - name: DEREPLICATOR+
   role: Produces the significant compound–spectrum matches (FDR-filtered) whose identities
@@ -46,7 +45,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_0260
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -13,9 +13,7 @@ when_to_use_negative:
   Met-ID-parsed HMDB (or LIPID MAPS) SQLite database, so the 26,202 / 4,951 reference
   counts are not meaningful
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3389
-- http://edamontology.org/topic_0057
+edam_topics: []
 tools:
 - name: Met-ID
   role: Provides MetIDServer (context-manager local server), the client's list_metabolites()
@@ -37,9 +35,7 @@ metadata:
   tools:
   - Met-ID
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3389
-  - http://edamontology.org/topic_0057
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

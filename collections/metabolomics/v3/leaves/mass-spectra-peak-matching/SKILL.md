@@ -10,7 +10,7 @@ when_to_use_negative:
   — centroiding and peak picking must happen first
 - Need for identity-level confirmation rather than similarity-based ranking; a score
   above 0.6 alone does not guarantee correct identification
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -37,7 +37,7 @@ metadata:
   tools:
   - MassBank-cli-tools
   - MassBank3
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

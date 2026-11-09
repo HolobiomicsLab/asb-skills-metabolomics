@@ -13,7 +13,7 @@ when_to_use_negative:
   the cell-relative flux states the pipeline is designed to compare
 - When you lack enough sampled solutions per condition for the Mann-Whitney U test
   to be informative (e.g. nSamples too small relative to the feasible-region complexity)
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2259
@@ -58,7 +58,7 @@ metadata:
   - mannWhitneyUTest
   - randomSampling
   - rasIntegration
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2259

@@ -12,7 +12,6 @@ when_to_use_negative:
   rather than short-horizon binary classification — use the risk-score workflow instead
 edam_operation: http://edamontology.org/operation_3557
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3474
 tools:
 - name: Metabolome-Transformer
@@ -49,7 +48,6 @@ metadata:
   - scikit-learn
   edam_operation: http://edamontology.org/operation_3557
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

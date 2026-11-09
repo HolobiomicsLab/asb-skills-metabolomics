@@ -10,7 +10,6 @@ when_to_use_negative:
   than retrieving/matching edges from external pathway databases
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3312
 tools:
 - name: netgsa
   role: R package whose obtainEdgeList function exposes the edge-list retrieval and
@@ -42,7 +41,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3312
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

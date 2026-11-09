@@ -12,7 +12,7 @@ when_to_use_negative:
   normalization-plus-clustering
 - Only one imaging region/patient is present, so Scanorama batch correction across
   batches has no batches to integrate
-edam_operation: http://edamontology.org/operation_3262
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 tools:
@@ -42,7 +42,7 @@ metadata:
   - Leiden
   - Scanorama
   - scSpaMet
-  edam_operation: http://edamontology.org/operation_3262
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   provenance_tier: literature

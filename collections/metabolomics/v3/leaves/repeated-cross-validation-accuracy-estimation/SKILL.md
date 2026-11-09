@@ -11,8 +11,7 @@ when_to_use_negative:
   — other endpoints need their own classifier and validation design
 - The goal is assessing replicate variability or signal-drift removal itself rather
   than retention of biological signal via classification
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: R
   role: Used to run the 30 repeats of 10-fold cross-validation and perform all randomization
@@ -40,8 +39,7 @@ metadata:
   - SVM classifier
   - hRUV
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

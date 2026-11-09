@@ -13,7 +13,7 @@ when_to_use_negative:
 - The analysis is a small batch where sum-based or internal-standard normalization
   already yields median RSD below ~30%; SERDA's value was demonstrated on the 563-metabolite,
   >4000-sample, 1.2-year GC-MS study
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0203
@@ -42,7 +42,7 @@ metadata:
   - R
   - keras
   - reticulate
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0203

@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3767
 edam_topics:
 - http://edamontology.org/topic_3474
-- http://edamontology.org/topic_3272
 tools:
 - name: PyTorch
   role: Framework for implementing the [CLS] token, BERT encoder layers, and classification
@@ -45,7 +44,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3767
   edam_topics:
   - http://edamontology.org/topic_3474
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

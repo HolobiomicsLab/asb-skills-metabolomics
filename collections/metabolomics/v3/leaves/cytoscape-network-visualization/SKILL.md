@@ -11,7 +11,7 @@ when_to_use_negative:
   is needed
 - Only MS1 features without fragmentation (MS/MS) scans are available, since edges
   depend on fragmentation cosine similarity
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3520
@@ -49,7 +49,7 @@ metadata:
   - MassIVE
   - MetaboDirect
   - pandas
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3520

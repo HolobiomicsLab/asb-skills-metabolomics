@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_0092
-- http://edamontology.org/topic_3274
 tools:
 - name: EMPeror
   role: Generates the standalone HTML5/WebGL visualization and provides the interactive
@@ -45,7 +44,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_0092
-  - http://edamontology.org/topic_3274
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

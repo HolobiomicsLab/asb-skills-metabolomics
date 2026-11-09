@@ -12,7 +12,6 @@ when_to_use_negative:
 - Structural annotations (neither spectral library ms2_smiles nor CSI:FingerID csi_smiles
   structures) are absent, so no 5-level taxonomy can be assigned.
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0084
 tools:
 - name: Qemistree (q2-qemistree)
@@ -59,7 +58,6 @@ metadata:
   - iTOL
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0084
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,7 @@ when_to_use_negative:
   drift signal can be estimated.
 - The analysis goal is between-batch variation, not within-run drift; use batch effect
   correction strategies instead.
-edam_operation: http://edamontology.org/operation_3287
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -40,7 +40,7 @@ metadata:
   - R
   - notame
   - smooth.spline
-  edam_operation: http://edamontology.org/operation_3287
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

@@ -12,10 +12,9 @@ when_to_use_negative:
   a wrong ppm offset
 - When the analyte matrix is not serum/plasma-like and lacks a reliable glucose anomeric
   signal to reference to
-edam_operation: http://edamontology.org/operation_3794
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
-- http://edamontology.org/topic_3272
 tools:
 - name: SMolESY-select
   role: consumes the calibrated spectra; calibration is described as part of its automated
@@ -42,10 +41,9 @@ metadata:
   - SMolESY
   - SMolESY-select
   - STOCSY
-  edam_operation: http://edamontology.org/operation_3794
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

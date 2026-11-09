@@ -11,7 +11,7 @@ when_to_use_negative:
   comparison rather than the command-line two-organism functional comparison
 - The goal is single-organism network reconstruction without a pairwise comparison
   (tools like AutoKEGGRec or KBase address that)
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0602
@@ -43,7 +43,7 @@ metadata:
   - Java
   - KEGG database
   - MetNet
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0602

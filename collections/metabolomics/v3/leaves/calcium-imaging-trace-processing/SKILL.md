@@ -13,8 +13,7 @@ when_to_use_negative:
 - Raw imaging frames rather than extracted intensity-vs-time traces - trace extraction
   must happen before this correction step.
 edam_operation: http://edamontology.org/operation_3233
-edam_topics:
-- http://edamontology.org/topic_3860
+edam_topics: []
 tools:
 - name: Instant Clue
   role: Desktop GUI used to load the time-series data, apply baseline-correction/transformation
@@ -41,8 +40,7 @@ metadata:
   - Instant Clue
   - Python >=3.4
   edam_operation: http://edamontology.org/operation_3233
-  edam_topics:
-  - http://edamontology.org/topic_3860
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

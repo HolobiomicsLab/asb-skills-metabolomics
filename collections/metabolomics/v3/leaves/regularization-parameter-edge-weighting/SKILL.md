@@ -13,7 +13,7 @@ when_to_use_negative:
 - When analyzing a single group — DNEA performs joint network estimation across two
   experimental conditions, and this weighting scheme is defined in that two-group
   workflow
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 tools:
@@ -42,7 +42,7 @@ metadata:
   - BiocParallel
   - DNEA R package
   - R
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   provenance_tier: literature

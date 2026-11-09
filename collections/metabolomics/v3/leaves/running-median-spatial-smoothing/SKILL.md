@@ -10,7 +10,7 @@ when_to_use_negative:
   linescan — the filter as specified operates on the projected axis only
 - Analyzing tissues without a linear developmental axis, where linescan projection
   along a single axis is not meaningful (DIMPLE is designed for linear gradients)
-edam_operation: http://edamontology.org/operation_3804
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -43,7 +43,7 @@ metadata:
   - DESI-MSI
   - DIMPLE
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3804
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

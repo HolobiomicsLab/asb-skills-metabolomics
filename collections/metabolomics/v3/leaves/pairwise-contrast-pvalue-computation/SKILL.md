@@ -13,7 +13,7 @@ when_to_use_negative:
   appropriate choice.
 - Only a single group's data is available with no treatment-group design file, since
   pairwise contrasts between groups cannot be computed without group annotations.
-edam_operation: http://edamontology.org/operation_3311
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0203
@@ -42,7 +42,7 @@ metadata:
   - Galaxy
   - Python
   - SECIMTools
-  edam_operation: http://edamontology.org/operation_3311
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0203

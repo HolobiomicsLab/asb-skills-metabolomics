@@ -12,9 +12,8 @@ when_to_use_negative:
   panel described here.
 - When input is already a processed isotopologue table and the task is downstream
   statistical analysis rather than raw-data isotopologue annotation.
-edam_operation: http://edamontology.org/operation_3765
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0621
 tools:
 - name: isoSCAN
@@ -47,9 +46,8 @@ metadata:
   - GC-(q)TOF
   - R
   - isoSCAN
-  edam_operation: http://edamontology.org/operation_3765
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0621
   provenance_tier: literature
 license: CC-BY-4.0

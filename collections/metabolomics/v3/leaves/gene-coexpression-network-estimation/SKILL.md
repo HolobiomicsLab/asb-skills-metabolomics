@@ -10,7 +10,7 @@ when_to_use_negative:
   DE-only methods like SPIA or PRS may suffice and are computationally lighter
 - You require a quick off-the-shelf enrichment without network estimation — over-representation
   methods do not need adjacency matrices
-edam_operation: http://edamontology.org/operation_3949
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_0203
@@ -39,7 +39,7 @@ metadata:
   - Cytoscape
   - knitr
   - netgsa
-  edam_operation: http://edamontology.org/operation_3949
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_0203

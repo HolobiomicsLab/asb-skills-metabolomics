@@ -13,8 +13,7 @@ when_to_use_negative:
 - The target records are BGC–MS/MS links (MIBiG identifier + MS/MS URL + scan number)
   rather than project-level extraction/sample-preparation metadata
 edam_operation: http://edamontology.org/operation_0306
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: Paired Omics Data Platform
   role: Provides the List-tab keyword search ('methanol + cells') over project extraction/sample-preparation
@@ -38,8 +37,7 @@ metadata:
   - Paired Omics Data Platform
   - Zenodo
   edam_operation: http://edamontology.org/operation_0306
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

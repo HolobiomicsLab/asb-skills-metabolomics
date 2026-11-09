@@ -16,7 +16,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3803
 edam_topics:
 - http://edamontology.org/topic_3399
-- http://edamontology.org/topic_3481
 tools:
 - name: ROASMI
   role: Provides the initial unretrained ensemble checkpoint and the RankNet-based
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3803
   edam_topics:
   - http://edamontology.org/topic_3399
-  - http://edamontology.org/topic_3481
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

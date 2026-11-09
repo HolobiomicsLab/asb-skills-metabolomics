@@ -10,7 +10,7 @@ when_to_use_negative:
   available from lilikoi.MetaTOpathway/PDSfun).
 - When the pathway of interest has no KEGG map or the target organism is not available
   in KEGG (the function relies on KEGG species codes such as 'hsa').
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3172
@@ -37,7 +37,7 @@ metadata:
   tools:
   - Lilikoi v2.0
   - R
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3172

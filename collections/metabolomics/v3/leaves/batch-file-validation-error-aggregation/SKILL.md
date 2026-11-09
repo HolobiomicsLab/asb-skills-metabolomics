@@ -11,7 +11,7 @@ when_to_use_negative:
   corpus-wide quality-control error tallies.
 - Files fail to parse in mwtab.fileio.read_files — these are recorded and skipped,
   not validated, so they should not be included in the error tallies.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 - http://edamontology.org/topic_0091
@@ -45,7 +45,7 @@ metadata:
   - jsonschema
   - mwtab
   - pandas
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   - http://edamontology.org/topic_0091

@@ -10,7 +10,7 @@ when_to_use_negative:
   exists — feature generation (MS2PIP, DeepLC, basic features) must be run first.
 - Data are not from a target/decoy search design (no decoy identifiers) — the semi-supervised
   training cannot separate positives from negatives.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -54,7 +54,7 @@ metadata:
   - Percolator
   - Ristretto
   - ristretto
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

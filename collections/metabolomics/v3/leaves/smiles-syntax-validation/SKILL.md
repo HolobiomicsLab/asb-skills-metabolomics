@@ -10,7 +10,7 @@ when_to_use_negative:
   syntax — parsing success does not confirm the structure is the right molecule
 - Entries are already published MIBiG data that have passed the community curation
   and validation cycle described for MIBiG 3.0
-edam_operation: http://edamontology.org/operation_2431
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0089
 - http://edamontology.org/topic_0154
@@ -31,7 +31,7 @@ metadata:
   license_tier: open
   tools:
   - PIKAChU
-  edam_operation: http://edamontology.org/operation_2431
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0089
   - http://edamontology.org/topic_0154

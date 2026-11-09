@@ -10,7 +10,7 @@ when_to_use_negative:
   — there is no MS/MS spectrum to retrieve
 - You need centroided peak lists or identifications rather than raw spectrum arrays
   — mzapy provides raw data extraction, not database search results
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 tools:
@@ -42,7 +42,7 @@ metadata:
   - MZA
   - h5py
   - mzapy
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   provenance_tier: literature

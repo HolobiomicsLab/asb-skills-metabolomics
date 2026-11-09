@@ -12,7 +12,6 @@ when_to_use_negative:
   not the task under test
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3822
 tools:
 - name: G-Aligner
   role: Feature alignment method under evaluation; treats features and potential correspondences
@@ -58,7 +57,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3822
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

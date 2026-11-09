@@ -10,7 +10,7 @@ when_to_use_negative:
   MeTEor's occurrence-ranked pathway listing
 - Data are not metabolomics feature trajectories processed in MeTEor (the enrichment
   module consumes MeTEor/MetaboAnalyst output)
-edam_operation: http://edamontology.org/operation_4003
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 tools:
@@ -44,7 +44,7 @@ metadata:
   - KEGGREST
   - MeTEor
   - MetaboAnalyst
-  edam_operation: http://edamontology.org/operation_4003
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   provenance_tier: literature

@@ -14,7 +14,7 @@ when_to_use_negative:
   applied
 - When only negative-ion-mode spectra are available — the article's BitterMasS implementation
   makes predictions based on spectra 'obtained in positive ion mode'
-edam_operation: http://edamontology.org/operation_0505
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -41,7 +41,7 @@ metadata:
   - BitterMasS
   - DrugBank
   - MassBank
-  edam_operation: http://edamontology.org/operation_0505
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

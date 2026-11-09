@@ -13,8 +13,7 @@ when_to_use_negative:
   interface.
 - Rows lack structural identifiers (InChI/InChIKey) and cannot be completed beforehand
   — the import function will not operate, so records should be curated upstream instead.
-edam_topics:
-- http://edamontology.org/topic_3310
+edam_topics: []
 tools:
 - name: PeakForest webapp
   role: Hosts the batch compound-import module and the chemical compound entity data
@@ -42,8 +41,7 @@ metadata:
   - Maven
   - PeakForest webapp
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3310
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

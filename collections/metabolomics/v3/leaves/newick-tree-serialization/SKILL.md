@@ -11,7 +11,6 @@ when_to_use_negative:
   tree without replicate support
 edam_operation: http://edamontology.org/operation_0323
 edam_topics:
-- http://edamontology.org/topic_0069
 - http://edamontology.org/topic_0121
 tools:
 - name: compareMS2 2.0
@@ -38,7 +37,6 @@ metadata:
   - compareMS2 2.0
   edam_operation: http://edamontology.org/operation_0323
   edam_topics:
-  - http://edamontology.org/topic_0069
   - http://edamontology.org/topic_0121
   provenance_tier: literature
 license: CC-BY-4.0

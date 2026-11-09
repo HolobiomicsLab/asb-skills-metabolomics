@@ -13,7 +13,7 @@ when_to_use_negative:
 - The input is already a fully curated matrix where low-RSD filtering was previously
   applied; reapplying would not change the result and would lose provenance of earlier
   filter steps
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -46,7 +46,7 @@ metadata:
   - TidyMS
   - pyopenms
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

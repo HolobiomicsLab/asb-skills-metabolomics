@@ -12,7 +12,7 @@ when_to_use_negative:
 - Goal is model selection among correction methods by residual batch variability alone
   (use dbnormSCORE adj-R2 scoring instead), not biological validity assessment against
   clinical variables
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_3520
@@ -49,7 +49,7 @@ metadata:
   - R
   - ber
   - dbnorm
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_3520

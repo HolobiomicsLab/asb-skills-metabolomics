@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0323
 edam_topics:
 - http://edamontology.org/topic_3517
-- http://edamontology.org/topic_2250
 tools:
 - name: Qemistree
   role: Implements make-hierarchy, which computes pairwise fingerprint distances and
@@ -61,7 +60,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0323
   edam_topics:
   - http://edamontology.org/topic_3517
-  - http://edamontology.org/topic_2250
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

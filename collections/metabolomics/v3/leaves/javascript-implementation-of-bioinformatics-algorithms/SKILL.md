@@ -13,8 +13,7 @@ when_to_use_negative:
 - Only a single dataset needs inspecting (e.g., internal quality via the heatmap or
   spectra2species modes) — no distance matrix or tree conversion is required
 edam_operation: http://edamontology.org/operation_0323
-edam_topics:
-- http://edamontology.org/topic_0069
+edam_topics: []
 tools:
 - name: compareMS2 2.0
   role: Electron/JavaScript application whose GUI computes the distance matrix from
@@ -40,8 +39,7 @@ metadata:
   - MEGA11
   - compareMS2 2.0
   edam_operation: http://edamontology.org/operation_0323
-  edam_topics:
-  - http://edamontology.org/topic_0069
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

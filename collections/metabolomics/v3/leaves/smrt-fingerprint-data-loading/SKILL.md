@@ -12,7 +12,7 @@ when_to_use_negative:
 - The input dataset is not the METLIN SMRT RT dataset (e.g., MS/MS spectra or other
   chromatographic modalities), since SMRT covers reverse-phase chromatography retention
   times specifically
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3316
 - http://edamontology.org/topic_0091
@@ -33,7 +33,7 @@ metadata:
   license_tier: open
   tools:
   - Keras
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3316
   - http://edamontology.org/topic_0091

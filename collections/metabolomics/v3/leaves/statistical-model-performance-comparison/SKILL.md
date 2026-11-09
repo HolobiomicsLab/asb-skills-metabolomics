@@ -11,7 +11,7 @@ when_to_use_negative:
   and scaled on the log2' before upload
 - Datasets without batch-level labels in the first column, since the score is based
   on regression of metabolite intensity on batch level
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0203
@@ -50,7 +50,7 @@ metadata:
   - R
   - ber
   - dbnorm
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0203

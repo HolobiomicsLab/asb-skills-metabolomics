@@ -14,7 +14,6 @@ when_to_use_negative:
   script should first be used to select the best normalization method)
 edam_operation: http://edamontology.org/operation_2940
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0091
 tools:
 - name: MetaboDirect
@@ -55,7 +54,6 @@ metadata:
   - seaborn
   edam_operation: http://edamontology.org/operation_2940
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

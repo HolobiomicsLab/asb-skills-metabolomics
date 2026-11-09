@@ -10,7 +10,7 @@ when_to_use_negative:
   standards), making chromatogram-similarity drift estimation redundant
 - The goal is raw file format conversion or compression rather than drift estimation
   (use AirdPro/Aird SDK instead)
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -45,7 +45,7 @@ metadata:
   - AirdPro
   - AirdSDK
   - MRMPro
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

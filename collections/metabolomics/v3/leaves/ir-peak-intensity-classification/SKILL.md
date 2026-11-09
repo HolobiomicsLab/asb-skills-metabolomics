@@ -11,8 +11,7 @@ when_to_use_negative:
 - The spectrum still needs baseline/phase correction of raw FID data — the paper flags
   advanced correction as an unimplemented future improvement
 edam_operation: http://edamontology.org/operation_3357
-edam_topics:
-- http://edamontology.org/topic_3273
+edam_topics: []
 tools:
 - name: ChemSpectra
   role: Performs automatic peak detection on the IR curve per a default or manually
@@ -42,8 +41,7 @@ metadata:
   - JavaScript
   - react-spectra-editor
   edam_operation: http://edamontology.org/operation_3357
-  edam_topics:
-  - http://edamontology.org/topic_3273
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

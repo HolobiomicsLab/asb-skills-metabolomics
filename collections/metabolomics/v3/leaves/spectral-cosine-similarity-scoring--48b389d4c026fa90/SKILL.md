@@ -10,7 +10,7 @@ when_to_use_negative:
   the paper explicitly excludes MS/MS spectra with missing collision energies
 - Evaluating CFM-ID on datasets where METLIN17-trained compounds overlap the test
   set, since train/test separation is not guaranteed for CFM-ID
-edam_operation: http://edamontology.org/operation_3212
+edam_operation: http://edamontology.org/operation_3211
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -46,7 +46,7 @@ metadata:
   - FIORA
   - ICEBERG
   - fiora-predict
-  edam_operation: http://edamontology.org/operation_3212
+  edam_operation: http://edamontology.org/operation_3211
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

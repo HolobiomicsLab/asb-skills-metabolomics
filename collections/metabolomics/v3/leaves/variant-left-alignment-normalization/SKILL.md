@@ -12,8 +12,7 @@ when_to_use_negative:
 - The task involves natural-products data mining (NPLinker/GNPS/AntiSMASH workflows)
   rather than germline variant normalization.
 edam_operation: http://edamontology.org/operation_3227
-edam_topics:
-- http://edamontology.org/topic_3268
+edam_topics: []
 tools:
 - name: bcftools
   role: Left-aligns (normalizes) all VCF records so repeat-region indels are represented
@@ -36,8 +35,7 @@ metadata:
   - ANNOVAR
   - bcftools
   edam_operation: http://edamontology.org/operation_3227
-  edam_topics:
-  - http://edamontology.org/topic_3268
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

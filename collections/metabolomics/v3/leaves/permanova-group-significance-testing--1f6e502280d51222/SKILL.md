@@ -13,7 +13,6 @@ when_to_use_negative:
   rather than between-sample group separation.
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3389
 tools:
 - name: QIIME 2
   role: Runs beta diversity, beta-phylogenetic (weighted UniFrac), PERMANOVA (beta-group-significance),
@@ -52,7 +51,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3389
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

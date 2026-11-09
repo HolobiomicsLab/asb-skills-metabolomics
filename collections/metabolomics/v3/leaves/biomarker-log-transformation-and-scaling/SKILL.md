@@ -13,8 +13,7 @@ when_to_use_negative:
 - Data come from a different metabolomics platform with different scaling behavior
   and no zero-inflated biomarkers; verify transformation assumptions before applying.
 edam_operation: http://edamontology.org/operation_3435
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: R
   role: Environment in which the per-cohort x+1, log-transformation and SD-scaling
@@ -37,8 +36,7 @@ metadata:
   - Nightingale Health NMR metabolomics platform
   - R
   edam_operation: http://edamontology.org/operation_3435
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

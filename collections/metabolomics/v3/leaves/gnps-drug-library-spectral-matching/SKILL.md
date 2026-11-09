@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3216
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3521
 tools:
 - name: GNPS Drug Library
   role: MS/MS spectral library of drugs and their metabolites/analogs used to annotate
@@ -49,7 +48,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3216
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3521
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

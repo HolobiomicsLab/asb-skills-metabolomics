@@ -13,7 +13,7 @@ when_to_use_negative:
 - When the library is small enough to score exhaustively — then the 1 ppm pre-selection
   gate adds little value and may discard valid matches with slightly inaccurate precursor
   masses
-edam_operation: http://edamontology.org/operation_3212
+edam_operation: http://edamontology.org/operation_3211
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -45,7 +45,7 @@ metadata:
   - gensim
   - matchms
   - spec2vec
-  edam_operation: http://edamontology.org/operation_3212
+  edam_operation: http://edamontology.org/operation_3211
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

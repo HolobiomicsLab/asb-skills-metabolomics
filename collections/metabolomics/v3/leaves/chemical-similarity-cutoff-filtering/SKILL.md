@@ -11,8 +11,7 @@ when_to_use_negative:
   feasibility rather than structural similarity to targets.
 - No target compounds are defined, so no maximum-similarity score can be computed
   for pruning.
-edam_topics:
-- http://edamontology.org/topic_3331
+edam_topics: []
 tools:
 - name: Pickaxe
   role: Generates the novel compound/reaction network via reaction rules and applies
@@ -42,8 +41,7 @@ metadata:
   - MongoDB
   - Pickaxe
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3331
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

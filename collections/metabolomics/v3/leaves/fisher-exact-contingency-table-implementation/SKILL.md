@@ -13,7 +13,6 @@ when_to_use_negative:
   numbers of false-positive pathways.
 edam_operation: http://edamontology.org/operation_3438
 edam_topics:
-- http://edamontology.org/topic_3364
 - http://edamontology.org/topic_0154
 tools:
 - name: scipy stats fisher_exact
@@ -46,7 +45,6 @@ metadata:
   - scipy stats fisher_exact
   edam_operation: http://edamontology.org/operation_3438
   edam_topics:
-  - http://edamontology.org/topic_3364
   - http://edamontology.org/topic_0154
   provenance_tier: literature
 license: CC-BY-4.0

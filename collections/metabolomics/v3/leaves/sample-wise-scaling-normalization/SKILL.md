@@ -11,7 +11,7 @@ when_to_use_negative:
 - When a sequential combination of normalizations is the goal, call NormCombined directly
   rather than chaining NormScaling manually (though NormCombined itself chains median
   scaling after rlsc by default).
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -44,7 +44,7 @@ metadata:
   - NormalizeMets
   - R
   - statTarget
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

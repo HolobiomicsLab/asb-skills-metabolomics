@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3216
 edam_topics:
 - http://edamontology.org/topic_0593
-- http://edamontology.org/topic_3389
 tools:
 - name: SMolESY-select
   role: Performs the automatic calibration step that shifts every spectrum to the
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3216
   edam_topics:
   - http://edamontology.org/topic_0593
-  - http://edamontology.org/topic_3389
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

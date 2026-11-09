@@ -12,7 +12,6 @@ when_to_use_negative:
   study
 edam_topics:
 - http://edamontology.org/topic_3315
-- http://edamontology.org/topic_2254
 tools:
 - name: RDKit
   role: Parses MIBiG compound SMILES, computes Morgan fingerprints (radius=4) and
@@ -37,7 +36,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
-  - http://edamontology.org/topic_2254
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

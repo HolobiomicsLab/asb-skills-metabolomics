@@ -13,7 +13,6 @@ when_to_use_negative:
 - No group/clinical variable is needed downstream (e.g. purely QC-oriented inspection
   where no differential analysis or grouped visualization is planned)
 edam_topics:
-- http://edamontology.org/topic_3311
 - http://edamontology.org/topic_0091
 tools:
 - name: lipidr
@@ -42,7 +41,6 @@ metadata:
   - lipidr
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3311
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,7 +12,7 @@ when_to_use_negative:
 - The task is spectral library search or molecular formula annotation rather than
   structure prediction from biotransformation rules - use SIRIUS or library matching
   instead of this skill.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3316
 - http://edamontology.org/topic_0154
@@ -53,7 +53,7 @@ metadata:
   - PyTorch Geometric
   - RDKit
   - RetroRules
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3316
   - http://edamontology.org/topic_0154

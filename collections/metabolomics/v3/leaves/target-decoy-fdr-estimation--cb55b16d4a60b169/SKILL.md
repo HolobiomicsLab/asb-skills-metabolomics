@@ -10,7 +10,7 @@ when_to_use_negative:
   addresses alignment-level FDR of feature groups, not PSM-level FDR.
 - When the task is quantification accuracy rather than alignment confidence; the paper
   notes alignment has less influence on quantification than feature extraction.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -37,7 +37,7 @@ metadata:
   tools:
   - DeepRTAlign
   - PyTorch
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

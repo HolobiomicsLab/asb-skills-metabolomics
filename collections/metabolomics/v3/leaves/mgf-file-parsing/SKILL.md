@@ -8,7 +8,7 @@ when_to_use_negative:
   counts must be taken after MGF conversion or with a different parser.
 - The goal is pairwise dataset similarity/distance computation between spectra sets
   — that is compareMS2's distance metric, not spectrum counting.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -31,7 +31,7 @@ metadata:
   repo_url: https://github.com/524D/compareMS2.git
   tools:
   - compareMS2
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

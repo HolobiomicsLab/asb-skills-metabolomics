@@ -11,8 +11,7 @@ when_to_use_negative:
   or the Iterative Fragment Selection approach instead) rather than enriching a parent-chemical
   list with identifiers
 edam_operation: http://edamontology.org/operation_0224
-edam_topics:
-- http://edamontology.org/topic_0261
+edam_topics: []
 tools:
 - name: U.S. EPA Chemistry Dashboard
   role: External lookup service joined on CASRN to attach chemical names, synonyms,
@@ -37,8 +36,7 @@ metadata:
   - HExpMetDB
   - U.S. EPA Chemistry Dashboard
   edam_operation: http://edamontology.org/operation_0224
-  edam_topics:
-  - http://edamontology.org/topic_0261
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

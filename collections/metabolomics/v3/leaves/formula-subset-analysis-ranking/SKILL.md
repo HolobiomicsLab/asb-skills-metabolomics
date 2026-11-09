@@ -14,7 +14,7 @@ when_to_use_negative:
 - You require an up-to-date chemical database — the FSA-packaged PubChem snapshot
   is outdated (109,383,767 compounds vs 112,419,402 as of 2022/11/27), so counts and
   rankings may differ
-edam_operation: http://edamontology.org/operation_3861
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0154
@@ -46,7 +46,7 @@ metadata:
   tools:
   - FSA
   - PubChem
-  edam_operation: http://edamontology.org/operation_3861
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0154

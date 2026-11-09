@@ -12,7 +12,7 @@ when_to_use_negative:
   the training split or prediction step.
 - Your molecules have no valid SMILES representation (RDKit cannot parse them) — fingerprint
   and descriptor extraction will fail before the graph is built.
-edam_operation: http://edamontology.org/operation_3710
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3332
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Mol2CCS
   - RDKit (v2023.09.5)
-  edam_operation: http://edamontology.org/operation_3710
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3332
   provenance_tier: literature

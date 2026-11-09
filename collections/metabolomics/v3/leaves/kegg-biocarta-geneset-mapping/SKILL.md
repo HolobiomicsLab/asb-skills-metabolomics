@@ -12,7 +12,7 @@ when_to_use_negative:
   formed.
 - A gene-set method other than the KEGG/Biocarta collections is required, e.g. custom
   or GO-term gene sets not present among the ~400 pathways used here.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -32,7 +32,7 @@ metadata:
   license_tier: open
   tools:
   - PLAGE
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

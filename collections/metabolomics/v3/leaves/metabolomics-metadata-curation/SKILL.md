@@ -13,7 +13,6 @@ when_to_use_negative:
   service with column characteristics or AND/OR logic instead of re-curating records)
 edam_topics:
 - http://edamontology.org/topic_3391
-- http://edamontology.org/topic_3272
 tools:
 - name: PeakForest
   role: 'Target infrastructure: open-source Java Web application (version 8) whose
@@ -45,7 +44,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3391
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

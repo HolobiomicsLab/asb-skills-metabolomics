@@ -13,8 +13,7 @@ when_to_use_negative:
 - A Metaboprep object is needed immediately — set return_Metaboprep=TRUE or build
   it with Metaboprep(data=..., features=..., samples=...) rather than exporting raw
   tab-delimited files.
-edam_topics:
-- http://edamontology.org/topic_3822
+edam_topics: []
 tools:
 - name: metaboprep
   role: Provides the platform-specific importers (read_metabolon, read_nightingale)
@@ -43,8 +42,7 @@ metadata:
   - metaboprep
   - readxl
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3822
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -11,7 +11,7 @@ when_to_use_negative:
   feature tables
 - When sample size is too small for 6-fold CV to be meaningful, or when class distributions
   are severely imbalanced such that the paper warns performance 'may be limited'
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3474
@@ -46,7 +46,7 @@ metadata:
   - scikit-learn
   - thop
   - torchinfo
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3474

@@ -12,7 +12,7 @@ when_to_use_negative:
   been modeled.
 - A feature has more than 20 percent missing values or fails the 80-percent non-zero
   rule, so there is insufficient QC signal to fit a stable RF regression.
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -50,7 +50,7 @@ metadata:
   - XCMS
   - random forest
   - statTarget
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

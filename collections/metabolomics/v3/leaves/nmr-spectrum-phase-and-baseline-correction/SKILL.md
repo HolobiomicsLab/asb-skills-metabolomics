@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2928
 edam_topics:
 - http://edamontology.org/topic_0593
-- http://edamontology.org/topic_3272
 tools:
 - name: Protomix
   role: Python package whose px.phase_correction, px.internal_referencing, px.baseline_correction(method='airpls'),
@@ -41,7 +40,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2928
   edam_topics:
   - http://edamontology.org/topic_0593
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

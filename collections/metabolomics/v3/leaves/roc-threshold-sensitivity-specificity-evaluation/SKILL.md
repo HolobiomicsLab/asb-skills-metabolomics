@@ -12,7 +12,7 @@ when_to_use_negative:
 - The results are intended for clinical decision-making — the README states the data
   'are intended for experimental reference only and should not be directly interpreted
   or used to guide human medicine'
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0593
 - http://edamontology.org/topic_0091
@@ -53,7 +53,7 @@ metadata:
   - conda
   - mzbatch.py
   - pip
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0593
   - http://edamontology.org/topic_0091

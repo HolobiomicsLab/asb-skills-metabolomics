@@ -13,7 +13,7 @@ when_to_use_negative:
 - The pathway requires multi-substrate reactions or stereoisomer resolution — RetroRules-based
   rules are designed for single-substrate reactions only and MEANtools filters stereomeric
   conversion rules, so exported DAGs will not represent those steps correctly
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_3318
@@ -41,7 +41,7 @@ metadata:
   tools:
   - Cytoscape
   - MEANtools
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_3318

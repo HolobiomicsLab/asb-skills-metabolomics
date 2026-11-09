@@ -11,7 +11,6 @@ when_to_use_negative:
   a complete matrix; other analyses may tolerate missing entries directly.
 edam_operation: http://edamontology.org/operation_3557
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0203
 tools:
 - name: pcaMethods
@@ -40,7 +39,6 @@ metadata:
   - pcaMethods
   edam_operation: http://edamontology.org/operation_3557
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

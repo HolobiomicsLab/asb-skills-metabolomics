@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2239
 edam_topics:
 - http://edamontology.org/topic_3174
-- http://edamontology.org/topic_3272
 tools:
 - name: MiMeNet
   role: MLPNN used to predict the community metabolome from microbial taxonomic features
@@ -45,7 +44,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2239
   edam_topics:
   - http://edamontology.org/topic_3174
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   structure to remove
 - When peaks fail the 80 percent non-zero threshold or carry more than 20 percent
   missing values — these are filtered rather than integrated
-edam_operation: http://edamontology.org/operation_0528
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3360
@@ -48,7 +48,7 @@ metadata:
   - XCMS
   - random forest
   - statTarget
-  edam_operation: http://edamontology.org/operation_0528
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3360

@@ -10,7 +10,7 @@ when_to_use_negative:
   validation step
 - The data comes from the Lipid One 2.0 web tool itself, which already performs duplicate
   and label checking at upload time
-edam_operation: http://edamontology.org/operation_3757
+edam_operation: null
 tools:
 - name: Lipid One 2.0
   role: Reference web implementation whose upload step detects duplicate lipid names
@@ -34,7 +34,7 @@ metadata:
   - Lipid One 2.0
   - LipidOne 2.0
   - R
-  edam_operation: http://edamontology.org/operation_3757
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

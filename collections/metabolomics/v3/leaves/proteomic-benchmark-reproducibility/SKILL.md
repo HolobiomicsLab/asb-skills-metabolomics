@@ -13,7 +13,7 @@ when_to_use_negative:
 - Samples are so dissimilar that the default QC workflow reports very few results
   — in that case the README recommends FDR=1 plus a score > 0.5 filter instead of
   strict decoy-based FDR control.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -42,7 +42,7 @@ metadata:
   tools:
   - DeepRTAlign
   - PyTorch
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

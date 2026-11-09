@@ -12,8 +12,7 @@ when_to_use_negative:
   compare against, or the original study used a different compound-annotation framework
   whose design cannot be mirrored
 edam_operation: http://edamontology.org/operation_0306
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: uafR
   role: Automates GC-MS component-area retrieval, decontamination of tentative identifications,
@@ -40,8 +39,7 @@ metadata:
   - devtools
   - uafR
   edam_operation: http://edamontology.org/operation_0306
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

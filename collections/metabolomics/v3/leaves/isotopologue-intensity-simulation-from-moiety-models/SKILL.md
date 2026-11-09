@@ -10,7 +10,7 @@ when_to_use_negative:
   EMU framework) rather than isotopologue-profile noise characterization
 - You need model selection among candidate moiety models ranked by AICc; this skill
   assumes a fixed, already-specified model
-edam_operation: http://edamontology.org/operation_0304
+edam_operation: http://edamontology.org/operation_2422
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -46,7 +46,7 @@ metadata:
   - matplotlib
   - moiety_modeling
   - scipy
-  edam_operation: http://edamontology.org/operation_0304
+  edam_operation: http://edamontology.org/operation_2422
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

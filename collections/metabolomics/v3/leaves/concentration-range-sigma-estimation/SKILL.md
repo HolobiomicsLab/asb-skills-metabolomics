@@ -13,7 +13,7 @@ when_to_use_negative:
   step.
 - Input concentration data are already per-sample measurements with their own empirical
   SDs, rather than HMDB 5.0 range entries that must be converted.
-edam_operation: http://edamontology.org/operation_3572
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -44,7 +44,7 @@ metadata:
   - MetAssimulo 2
   - MetAssimulo 2.0
   - Python
-  edam_operation: http://edamontology.org/operation_3572
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

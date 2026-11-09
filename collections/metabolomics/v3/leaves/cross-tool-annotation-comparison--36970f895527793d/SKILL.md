@@ -9,7 +9,7 @@ when_to_use_negative:
 - Spectra lack known ground-truth structures, so correct-hit retrieval rates cannot
   be scored
 - Only one tool is being evaluated and no cross-tool baseline comparison is required
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_3520
@@ -46,7 +46,7 @@ metadata:
   - ChemDistiller
   - MetFrag
   - SIRIUS
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_3520

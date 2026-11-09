@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than the fixed-effect coefficients
 - You need random-effect (subject intercept) estimates rather than patient-metadata
   fixed-effect coefficients
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_2269
@@ -42,7 +42,7 @@ metadata:
   - devtools
   - lme4
   - lmm2met
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_2269

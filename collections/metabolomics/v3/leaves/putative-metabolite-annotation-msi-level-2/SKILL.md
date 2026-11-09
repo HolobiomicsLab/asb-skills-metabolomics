@@ -13,7 +13,7 @@ when_to_use_negative:
 - The user requires structural confirmation by tandem-MS spectral matching rather
   than accurate-mass-only putative annotation; this skill yields level 2 identities
   only.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0121
@@ -47,7 +47,7 @@ metadata:
   - MetaDBparse
   - MetaboShiny
   - R
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0121

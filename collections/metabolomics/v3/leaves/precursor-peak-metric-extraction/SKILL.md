@@ -12,7 +12,7 @@ when_to_use_negative:
   choice
 - The goal is unattended, command-line QC across batches over months and years — per
   the discussion this is planned functionality, not yet delivered by the GUI workflow
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3366
@@ -40,7 +40,7 @@ metadata:
   tools:
   - MZA
   - PeakQC
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3366

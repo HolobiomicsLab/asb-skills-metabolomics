@@ -13,7 +13,7 @@ when_to_use_negative:
 - When high-quality full-length heavy-chain assembly is the goal — the article reports
   low heavy-chain coverage/accuracy, showing complete de novo protein sequencing remains
   challenging
-edam_operation: http://edamontology.org/operation_3777
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -47,7 +47,7 @@ metadata:
   - BLAST
   - Casanovo
   - Novor
-  edam_operation: http://edamontology.org/operation_3777
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

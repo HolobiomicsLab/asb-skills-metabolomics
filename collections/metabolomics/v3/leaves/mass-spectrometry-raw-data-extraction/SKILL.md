@@ -11,7 +11,7 @@ when_to_use_negative:
   interface to unprocessed MS data).
 - The data is plain LC-MS without an IMS dimension and an existing LC-MS tool with
   well-established algorithms already covers the workflow.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -44,7 +44,7 @@ metadata:
   - MZA (mza converter)
   - h5py
   - mzapy
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

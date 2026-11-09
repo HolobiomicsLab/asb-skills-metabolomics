@@ -10,7 +10,7 @@ when_to_use_negative:
   are filtered out and cannot be placed on the chemical hierarchy
 - The analysis goal is molecular annotation (spectral library matching, ClassyFire
   taxonomy) rather than sample-to-sample comparison — use annotation workflows instead
-edam_operation: http://edamontology.org/operation_3141
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3173
 tools:
@@ -46,7 +46,7 @@ metadata:
   - Empress
   - QIIME 2
   - Qemistree
-  edam_operation: http://edamontology.org/operation_3141
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3173
   provenance_tier: literature

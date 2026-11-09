@@ -13,7 +13,7 @@ when_to_use_negative:
 - The target compounds are outside the metabolite scope of the trained models (e.g.
   peptides or masses > 1000 Da in the Metlin 2015 setup)
 edam_topics:
-- http://edamontology.org/topic_0217
+- http://edamontology.org/topic_0218
 tools:
 - name: CFM-ID 4.0
   role: Implements the fragmentation-graph generation, adjacency-matrix/connectivity
@@ -49,7 +49,7 @@ metadata:
   - Metlin
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0217
+  - http://edamontology.org/topic_0218
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

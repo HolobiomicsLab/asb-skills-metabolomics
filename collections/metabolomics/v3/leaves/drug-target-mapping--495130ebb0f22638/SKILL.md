@@ -10,7 +10,7 @@ when_to_use_negative:
   deletion, so the essentiality semantics differ from the Fig. 1E classification
 - DrugBank access is unavailable and no equivalent curated drug-target association
   source can be reconciled to the model's gene identifiers
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0208
 - http://edamontology.org/topic_3407
@@ -42,7 +42,7 @@ metadata:
   - COBRApy
   - Python
   - Reconstructor
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0208
   - http://edamontology.org/topic_3407

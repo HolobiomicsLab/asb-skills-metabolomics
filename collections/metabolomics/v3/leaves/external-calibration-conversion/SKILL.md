@@ -10,7 +10,7 @@ when_to_use_negative:
   unsuitable IS selection (e.g. 4-hydroxy-proline vs proline) introduces bias
 - You are running on macOS — QuantyFey is compatible with Windows operating systems
   only (the Apptainer version is slow and difficult to set up there)
-edam_operation: http://edamontology.org/operation_3441
+edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0154
@@ -42,7 +42,7 @@ metadata:
   - MultiQuant 3.0.3
   - QuantyFey
   - R 4.2.0
-  edam_operation: http://edamontology.org/operation_3441
+  edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0154

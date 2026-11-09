@@ -13,7 +13,6 @@ when_to_use_negative:
   absent from the ~1.2 billion public MASST-searched spectra)
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3315
 - http://edamontology.org/topic_0092
 tools:
@@ -42,7 +41,6 @@ metadata:
   - Nextflow
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3315
   - http://edamontology.org/topic_0092
   provenance_tier: literature

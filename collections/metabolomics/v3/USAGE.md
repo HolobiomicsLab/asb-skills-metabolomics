@@ -172,9 +172,9 @@ PY
 absolute-lipid-concentration-quantification
 ```
 
-Of the 11,830 rows, 10,927 have at least one EDAM topic and 9,184 have an EDAM
-operation; 427 distinct operations occur. The most frequent topic IDs are
-`topic_3520` (4,797 rows), `topic_0091` (2,233), `topic_3172` (1,625),
+Of the 11,830 rows, 10,788 have at least one EDAM topic and 8,773 have an EDAM
+operation; 285 distinct operations occur. The most frequent topic IDs are
+`topic_3520` (4,816 rows), `topic_0091` (2,233), `topic_3172` (1,625),
 `topic_0121` (1,395) and `topic_0092` (893).
 
 ### `asbb search`

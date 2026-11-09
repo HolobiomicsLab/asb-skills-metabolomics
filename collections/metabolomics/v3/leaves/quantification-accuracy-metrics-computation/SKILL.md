@@ -10,7 +10,7 @@ when_to_use_negative:
   truth cannot be computed
 - You need quantified peak feature tables rather than an accuracy assessment of existing
   ones
-edam_operation: http://edamontology.org/operation_2447
+edam_operation: http://edamontology.org/operation_2479
 edam_topics:
 - http://edamontology.org/topic_0593
 - http://edamontology.org/topic_3520
@@ -43,7 +43,7 @@ metadata:
   - MATLAB
   - NMRbox
   - SAND
-  edam_operation: http://edamontology.org/operation_2447
+  edam_operation: http://edamontology.org/operation_2479
   edam_topics:
   - http://edamontology.org/topic_0593
   - http://edamontology.org/topic_3520

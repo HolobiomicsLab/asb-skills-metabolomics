@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2238
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3813
 tools:
 - name: R
   role: Implementation language for the score test and Satterthwaite approximation;
@@ -41,7 +40,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2238
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3813
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

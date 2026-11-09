@@ -10,9 +10,9 @@ when_to_use_negative:
   repository format is not one of MESSES's supported formats (currently only mwTab).
 - The data cannot be tagged per the MESSES tagging system, since extraction into the
   Experiment Description Specification schema is a prerequisite for validation.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: MESSES
   role: Provides the validate command that checks extracted JSON against the Experiment
@@ -44,9 +44,9 @@ metadata:
   - Python 3
   - jsonschema
   - mwtab
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

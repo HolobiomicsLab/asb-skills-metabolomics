@@ -12,8 +12,7 @@ when_to_use_negative:
 - Interpreting NP Analyst outputs (scatter plot, network, community views) — normalization
   is an upstream input-preparation step
 edam_operation: http://edamontology.org/operation_3435
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: NP Analyst
   role: Consumes the normalized bioassay profile matrix to compute Activity Scores
@@ -35,8 +34,7 @@ metadata:
   - NP Analyst
   - Tableau
   edam_operation: http://edamontology.org/operation_3435
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

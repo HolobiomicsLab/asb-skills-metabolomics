@@ -14,7 +14,6 @@ when_to_use_negative:
   not use or require MS/MS data for library construction
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3482
 tools:
 - name: metScribeR
   role: R package providing the Shiny workflow that extracts adduct chromatograms,
@@ -51,7 +50,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3482
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

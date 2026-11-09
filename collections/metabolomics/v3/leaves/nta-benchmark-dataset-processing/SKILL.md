@@ -11,8 +11,7 @@ when_to_use_negative:
   peak count to interpret overlap fractions against.
 - The input is already a single curated feature table from one platform with no second
   tool's output to compare against.
-edam_topics:
-- http://edamontology.org/topic_3364
+edam_topics: []
 tools:
 - name: Mass-Suite (MSS)
   role: Candidate extractor whose feature output (from mssmain.get_scans + mssmain.peak_pick
@@ -50,8 +49,7 @@ metadata:
   - XCMS
   - pymzML
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3364
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

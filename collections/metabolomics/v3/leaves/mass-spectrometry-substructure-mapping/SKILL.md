@@ -10,7 +10,7 @@ when_to_use_negative:
   (or MZmine MGF) — no Mass2Motif relations exist to map.
 - The goal is chemical class annotation rather than MS2LDA substructure mapping —
   use the ChemicalClasses_to_Network workflow instead.
-edam_operation: http://edamontology.org/operation_0515
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -54,7 +54,7 @@ metadata:
   - RMolNetEnhancer
   - networkx
   - pyMolNetEnhancer
-  edam_operation: http://edamontology.org/operation_0515
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

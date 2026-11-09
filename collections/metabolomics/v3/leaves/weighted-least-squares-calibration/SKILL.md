@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3914
 tools:
 - name: MRMQuant
   role: Performs the least-squares standard-curve regression (constant/linear/quadratic,
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3914
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

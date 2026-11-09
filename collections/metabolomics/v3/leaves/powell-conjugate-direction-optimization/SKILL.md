@@ -9,10 +9,8 @@ when_to_use_negative:
   cannot be seeded from it
 - Manual/interactive phase correction by visual inspection is required instead of
   automated correction
-edam_operation: http://edamontology.org/operation_3257
-edam_topics:
-- http://edamontology.org/topic_0521
-- http://edamontology.org/topic_3272
+edam_operation: null
+edam_topics: []
 tools:
 - name: MetaboLabPy 0.9.66
   role: Provides the nmrData object and the reference-spectrum baseline-based automatic
@@ -45,10 +43,8 @@ metadata:
   - numpy
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_3257
-  edam_topics:
-  - http://edamontology.org/topic_0521
-  - http://edamontology.org/topic_3272
+  edam_operation: null
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

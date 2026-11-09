@@ -9,7 +9,7 @@ when_to_use_negative:
   data directly
 - The goal is to enhance signal quality (smoothing, saturation repair, demultiplexing)
   rather than to export acquisition metadata
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -34,7 +34,7 @@ metadata:
   tools:
   - Lipid Annotator
   - PNNL PreProcessor
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

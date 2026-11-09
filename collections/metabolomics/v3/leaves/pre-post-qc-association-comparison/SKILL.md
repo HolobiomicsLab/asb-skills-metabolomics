@@ -10,7 +10,7 @@ when_to_use_negative:
   directly, with no prefiltering of samples or columns beforehand
 - The outcome is not time-to-event — Cox models are inappropriate for cross-sectional
   or binary case-control designs
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3360
 - http://edamontology.org/topic_3416
@@ -42,7 +42,7 @@ metadata:
   - R (survival analysis)
   - data.table
   - ukbnmr
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3360
   - http://edamontology.org/topic_3416

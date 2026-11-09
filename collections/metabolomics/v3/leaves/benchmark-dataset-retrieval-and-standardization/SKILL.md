@@ -11,8 +11,7 @@ when_to_use_negative:
   would only risk altering sample/molecule identity
 - The goal is to score or rank processing workflows (stage S5 assessment) rather than
   to acquire and format the benchmark data
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: NOREVA
   role: R package whose PrepareInuputFiles function ingests the standardized peak
@@ -43,8 +42,7 @@ metadata:
   - NOREVA
   - R
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

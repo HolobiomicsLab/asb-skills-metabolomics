@@ -12,7 +12,7 @@ when_to_use_negative:
   which the article flags as a bias in fold-change interpretation
 - Bulk metabolite queries across heterogeneous external databases (HMDB, MetabolomicsWorkbench)
   lacking standardized metadata; this skill requires harmonized BinBase triad metadata
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -40,7 +40,7 @@ metadata:
   - BinBase
   - BinDiscover
   - SciPy
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

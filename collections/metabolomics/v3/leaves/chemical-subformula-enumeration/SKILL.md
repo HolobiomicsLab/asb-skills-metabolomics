@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3633
 edam_topics:
 - http://edamontology.org/topic_0154
-- http://edamontology.org/topic_0132
 tools:
 - name: RDKit
   role: Parses InChI/SMILES/rdmol blobs into molecular graphs whose bonds are recursively
@@ -53,7 +52,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3633
   edam_topics:
   - http://edamontology.org/topic_0154
-  - http://edamontology.org/topic_0132
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

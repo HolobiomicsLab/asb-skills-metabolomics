@@ -9,7 +9,7 @@ when_to_use_negative:
   data.
 - You need compound identification against a spectral library rather than generating
   theoretical isotope-pattern models from enumeration.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -37,7 +37,7 @@ metadata:
   tools:
   - FeatureFinderMetabo
   - OpenMS
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

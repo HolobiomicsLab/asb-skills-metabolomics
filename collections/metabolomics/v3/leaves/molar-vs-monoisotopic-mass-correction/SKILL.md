@@ -9,8 +9,7 @@ when_to_use_negative:
 - The parent mass is already monoisotopic and consistent with the annotation — no
   correction is warranted, and the spectrum should instead be routed to other filters
   (e.g. adduct/precursor or annotation-match repair).
-edam_topics:
-- http://edamontology.org/topic_3364
+edam_topics: []
 tools:
 - name: matchms
   role: Framework providing the Spectrum objects and the filter/pipeline mechanism
@@ -35,8 +34,7 @@ metadata:
   - RDKit
   - matchms
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3364
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

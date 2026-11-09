@@ -12,7 +12,7 @@ when_to_use_negative:
   as the number of protomers/tautomers increases
 - Very large metabolites where unrestricted B3LYP/6–31G* NVE MD of ≥1000 steps is
   computationally infeasible
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3339
 tools:
@@ -44,7 +44,7 @@ metadata:
   - B3LYP
   - CIDMD_setup
   - TeraChem
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3339
   provenance_tier: literature

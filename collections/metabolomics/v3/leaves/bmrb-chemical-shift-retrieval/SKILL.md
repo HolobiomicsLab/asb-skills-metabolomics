@@ -8,9 +8,8 @@ when_to_use_negative:
   is PyINETA's peak picking/clustering pipeline, not database construction.
 - When 13C chemical shift assignments for the target metabolites are not present in
   BMRB; the simulated database cannot cover compounds missing from the source.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0593
 tools:
 - name: PyINETA
@@ -31,9 +30,8 @@ metadata:
   tools:
   - PyINETA
   - Python
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0593
   provenance_tier: literature
 license: CC-BY-4.0

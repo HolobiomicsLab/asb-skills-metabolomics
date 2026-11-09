@@ -10,7 +10,7 @@ when_to_use_negative:
   validation — use Visodbnorm or dbnormSCORE instead
 - Dataset has more than 2000 features, where dbnorm's Visodbnorm/dbnormSCORE functions
   are not recommended for computational speed
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -50,7 +50,7 @@ metadata:
   - ber
   - dbnorm
   - limma
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

@@ -12,7 +12,7 @@ when_to_use_negative:
   is computationally expensive
 - When pairs contain stereochemical or salt-form nuances that RDKit's default MCS
   matching with ringMatchesRingOnly=False would mis-handle
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0081
 - http://edamontology.org/topic_3314
@@ -35,7 +35,7 @@ metadata:
   tools:
   - RDKit
   - pandas
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0081
   - http://edamontology.org/topic_3314

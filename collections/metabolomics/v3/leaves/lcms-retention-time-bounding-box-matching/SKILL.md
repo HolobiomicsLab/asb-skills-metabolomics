@@ -10,7 +10,7 @@ when_to_use_negative:
   so scan-in-box eligibility edges cannot be formed
 - The aim is to design or benchmark new DDA acquisition strategies in silico with
   ViMMS rather than to compute a per-injection coverage upper bound
-edam_operation: http://edamontology.org/operation_3949
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -30,7 +30,7 @@ metadata:
   license_tier: open
   tools:
   - ViMMS
-  edam_operation: http://edamontology.org/operation_3949
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

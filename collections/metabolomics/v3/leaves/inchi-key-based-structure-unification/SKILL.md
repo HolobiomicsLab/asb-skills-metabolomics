@@ -11,7 +11,7 @@ when_to_use_negative:
   those are rejected upstream and never reach the unification step
 - When you only need exact-structure matching including stereochemistry (originalInchiKey),
   not the stereochemistry-free core grouping this skill performs
-edam_operation: http://edamontology.org/operation_3334
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -40,7 +40,7 @@ metadata:
   - CDK
   - MongoDB
   - RDKit
-  edam_operation: http://edamontology.org/operation_3334
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

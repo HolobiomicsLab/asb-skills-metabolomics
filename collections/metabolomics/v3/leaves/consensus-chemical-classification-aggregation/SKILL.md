@@ -13,7 +13,7 @@ when_to_use_negative:
   DBResult file) has been applied.
 - The analysis requires biological-role/chemical-diversity vocabulary rather than
   the ChemOnt superclass/class/subclass hierarchy used by ConCISE.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -59,7 +59,7 @@ metadata:
   - GNPS
   - Python
   - SIRIUS
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

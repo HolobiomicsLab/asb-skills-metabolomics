@@ -10,7 +10,7 @@ when_to_use_negative:
   analysis module (SFS) rather than the lipidome distance matrix.
 - When analysis state must be persisted between sessions — the README states it is
   not possible to store or load an analysis.
-edam_operation: http://edamontology.org/operation_0505
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3382
 tools:
@@ -43,7 +43,7 @@ metadata:
   - LipidSpace
   - OpenBLAS
   - lambda-lanczos
-  edam_operation: http://edamontology.org/operation_0505
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3382
   provenance_tier: literature

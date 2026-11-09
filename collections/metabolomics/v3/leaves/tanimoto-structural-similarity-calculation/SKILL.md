@@ -11,7 +11,7 @@ when_to_use_negative:
   without structures
 - Edge weights are already provided similarity scores and only thresholding/export
   is required
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3314
@@ -53,7 +53,7 @@ metadata:
   - MetaMapR
   - PubChem Substructure Fingerprints
   - R
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3314

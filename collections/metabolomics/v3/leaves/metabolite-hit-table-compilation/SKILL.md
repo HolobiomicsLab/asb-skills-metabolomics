@@ -14,7 +14,6 @@ when_to_use_negative:
   table rather than consuming it
 edam_operation: http://edamontology.org/operation_3632
 edam_topics:
-- http://edamontology.org/topic_3621
 - http://edamontology.org/topic_3174
 tools:
 - name: IDSL.FSA
@@ -47,7 +46,6 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_3632
   edam_topics:
-  - http://edamontology.org/topic_3621
   - http://edamontology.org/topic_3174
   provenance_tier: literature
 license: CC-BY-4.0

@@ -11,7 +11,7 @@ when_to_use_negative:
   available, so re-picking would only duplicate work
 - You need annotation of compounds with no matched INADEQUATE network — unmatched
   peaks are left unassigned by design
-edam_operation: http://edamontology.org/operation_3256
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0593
 - http://edamontology.org/topic_3172
@@ -42,7 +42,7 @@ metadata:
   - NMRbox
   - PyINETA
   - Python
-  edam_operation: http://edamontology.org/operation_3256
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0593
   - http://edamontology.org/topic_3172

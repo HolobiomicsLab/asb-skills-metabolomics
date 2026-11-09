@@ -8,7 +8,7 @@ when_to_use_negative:
   cannot be computed.
 - The task is upstream peak detection or spectral matching rather than post-identification
   QC filtering of a feature table.
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -35,7 +35,7 @@ metadata:
   tools:
   - LipiDex 2
   - LipiDex 2 Degreaser QC module
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

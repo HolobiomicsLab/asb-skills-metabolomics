@@ -11,7 +11,7 @@ when_to_use_negative:
   question (PCA or hierarchical clustering alone suffices)
 - The data are not elemental-concentration profiles (IonFlow's applicability to metabolomics
   is stated as only potential, not demonstrated)
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3366
 tools:
@@ -37,7 +37,7 @@ metadata:
   tools:
   - Galaxy
   - IonFlow
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3366
   provenance_tier: literature

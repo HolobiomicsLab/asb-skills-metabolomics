@@ -13,9 +13,8 @@ when_to_use_negative:
   on the original data as reported
 - Input is biomarker measurement QC flags rather than concentrations — R-squared regression
   on covariates applies to the concentration matrix, not the flag columns
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0203
 tools:
 - name: ukbnmr
@@ -50,9 +49,8 @@ metadata:
   - R
   - data.table
   - ukbnmr
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

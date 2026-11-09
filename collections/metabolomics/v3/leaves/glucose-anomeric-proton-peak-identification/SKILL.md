@@ -9,8 +9,7 @@ when_to_use_negative:
 - The input is not a blood-derived 1D 1H NMR profile (e.g. tissue extracts or 2D-Jres
   data), where the glucose anomeric proton is not the routine reference signal
 edam_operation: http://edamontology.org/operation_3222
-edam_topics:
-- http://edamontology.org/topic_3381
+edam_topics: []
 tools:
 - name: SMolESY-select
   role: Implements the automatic calibration routine that shifts the glucose anomeric
@@ -36,8 +35,7 @@ metadata:
   - MTBLS395
   - SMolESY-select
   edam_operation: http://edamontology.org/operation_3222
-  edam_topics:
-  - http://edamontology.org/topic_3381
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

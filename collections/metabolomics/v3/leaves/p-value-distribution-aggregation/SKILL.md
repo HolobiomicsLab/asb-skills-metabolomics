@@ -10,7 +10,7 @@ when_to_use_negative:
   or memory), since this skill only aggregates p-value statistics.
 - When p-values are not comparable across methods (e.g. mixing calibrated and uncalibrated
   scores), as mean/variance comparison becomes meaningless.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -41,7 +41,7 @@ metadata:
   - Python
   - SciPy
   - pandas
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

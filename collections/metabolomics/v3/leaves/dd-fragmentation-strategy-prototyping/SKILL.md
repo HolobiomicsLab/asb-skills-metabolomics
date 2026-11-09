@@ -11,7 +11,7 @@ when_to_use_negative:
   design
 - You need validated biological identifications rather than acquisition-schedule development;
   this skill evaluates coverage of picked peaks, not compound annotation
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: ViMMS
   role: Virtual metabolomics mass spectrometer used to simulate MS1/MS2 scans, seed
@@ -36,7 +36,7 @@ metadata:
   - IAPI
   - MZmine 2
   - ViMMS
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

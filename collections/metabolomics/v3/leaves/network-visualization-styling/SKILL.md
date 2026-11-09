@@ -10,7 +10,7 @@ when_to_use_negative:
   Query) where per-type node coloring is not the goal
 - The required visual encoding is quantitative (e.g. expression fold-change mapping)
   rather than categorical node-type coloring
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -39,7 +39,7 @@ metadata:
   - CyTargetLinker
   - Cytoscape
   - R
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

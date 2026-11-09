@@ -11,8 +11,7 @@ when_to_use_negative:
 - Datasets are not represented in the METASPACE knowledge base (e.g., QTOF data with
   no public availability), so the annotation-based filters cannot be computed
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: METASPACE
   role: Source of the public dataset metadata and annotation records that the filters
@@ -38,8 +37,7 @@ metadata:
   - METASPACE
   - METASPACE-ML
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,8 +10,7 @@ when_to_use_negative:
   matrix-cluster formulas for annotation filtering
 - Biologically relevant molecular annotations (not matrix artifacts) are the target
   of enumeration
-edam_topics:
-- http://edamontology.org/topic_0035
+edam_topics: []
 tools:
 - name: METASPACE
   role: Knowledge base used to annotate MALDI-imaging datasets with the custom DHB
@@ -33,8 +32,7 @@ metadata:
   tools:
   - METASPACE
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0035
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

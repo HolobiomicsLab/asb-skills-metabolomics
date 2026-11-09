@@ -12,8 +12,7 @@ when_to_use_negative:
   of matrix-to-mode routing
 - Data filtering of a user-supplied .csv (sample names in rows, analyte names in columns)
   is the actual goal, not the app's routing logic
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: R
   role: Language used to encode the routing(matrix, scenario) dispatch function and
@@ -43,8 +42,7 @@ metadata:
   - RShiny
   - Shiny
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -13,7 +13,7 @@ when_to_use_negative:
   do not yet standardize these fields.
 - The task is interactive curation during upload to a public library rather than offline
   cleaning; a dedicated validator tool for that is only proposed as future work.
-edam_operation: http://edamontology.org/operation_3524
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -45,7 +45,7 @@ metadata:
   - Python
   - RDKit
   - matchms
-  edam_operation: http://edamontology.org/operation_3524
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

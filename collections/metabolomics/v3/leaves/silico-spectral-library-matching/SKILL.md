@@ -10,7 +10,7 @@ when_to_use_negative:
   assembly relies on 1 ppm / 10 ppm precursor mass accuracy tolerances
 - The molecule class falls outside the ANN model's trained domain (e.g., needs 3D
   structure; CFM-ID or 3DMolMS may be alternatives)
-edam_operation: http://edamontology.org/operation_3859
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0154
@@ -43,7 +43,7 @@ metadata:
   - 3DMolMS
   - SingleFrag
   - mol2vec
-  edam_operation: http://edamontology.org/operation_3859
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0154

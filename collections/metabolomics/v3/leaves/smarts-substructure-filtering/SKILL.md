@@ -11,7 +11,7 @@ when_to_use_negative:
   often fails in this case and AnnoMe cannot resolve it.
 - When the structures behind the spectra are unknown or cannot be matched by SMARTS
   queries, since filtering relies on substructure matching of library structures.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0605
@@ -44,7 +44,7 @@ metadata:
   - Python
   - git
   - uv
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0605

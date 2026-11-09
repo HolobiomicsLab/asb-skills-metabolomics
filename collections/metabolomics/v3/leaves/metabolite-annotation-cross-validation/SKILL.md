@@ -11,7 +11,7 @@ when_to_use_negative:
   routes — the model has inherent limitations anticipating these
 - When no candidate structure set or predicted/in silico MS/MS library exists — the
   evaluation requires spectral matching against CFM-ID-predicted candidates
-edam_operation: http://edamontology.org/operation_0229
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -46,7 +46,7 @@ metadata:
   - DeepMet
   - Python
   - RDKit
-  edam_operation: http://edamontology.org/operation_0229
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

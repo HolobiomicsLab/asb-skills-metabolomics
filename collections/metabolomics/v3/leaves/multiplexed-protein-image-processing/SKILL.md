@@ -9,7 +9,7 @@ when_to_use_negative:
 - Processing TOF-SIMS/3D-SMF metabolite image channels — the SIMS modality has its
   own processing track in notebook 01 and should not receive IMC antibody-channel
   denoising parameters
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3383
 - http://edamontology.org/topic_0121
@@ -32,7 +32,7 @@ metadata:
   license_tier: open
   tools:
   - scSpaMet
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3383
   - http://edamontology.org/topic_0121

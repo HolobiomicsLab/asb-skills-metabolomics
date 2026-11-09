@@ -12,7 +12,7 @@ when_to_use_negative:
   and need confirmation
 edam_operation: http://edamontology.org/operation_3214
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
 tools:
 - name: massPix
@@ -42,7 +42,7 @@ metadata:
   - massPix
   edam_operation: http://edamontology.org/operation_3214
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121
   provenance_tier: literature
 license: CC-BY-4.0

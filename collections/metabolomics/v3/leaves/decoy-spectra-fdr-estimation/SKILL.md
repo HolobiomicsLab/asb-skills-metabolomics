@@ -10,7 +10,7 @@ when_to_use_negative:
   MS2 spectra) since decoy-MS2 evaluation requires spectral matching
 - No decoy MS2 reference spectra or negative-control spectral entries are available
   for the metabolite space being annotated
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0121
@@ -50,7 +50,7 @@ metadata:
   - dplyr
   - igraph
   - readr
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0121

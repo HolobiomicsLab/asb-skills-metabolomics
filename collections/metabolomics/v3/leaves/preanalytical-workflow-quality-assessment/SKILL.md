@@ -13,7 +13,6 @@ when_to_use_negative:
   is desired — Bruker's BiobankQC already covers that narrower scope.
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0091
 tools:
 - name: PRIMA Panel
@@ -46,7 +45,6 @@ metadata:
   - Shiny
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

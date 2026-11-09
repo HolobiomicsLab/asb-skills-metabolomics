@@ -12,7 +12,7 @@ when_to_use_negative:
 - When querying large non-Wikidata RDF graphs — this skill is grounded in the Wikidata
   endpoint and its LOTUS statements; other endpoints may have different schema and
   limits.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_3336
@@ -43,7 +43,7 @@ metadata:
   - SPARQL
   - lotus-web
   - lotus-wikidata-interact
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_3336

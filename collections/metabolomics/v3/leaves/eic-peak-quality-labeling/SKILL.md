@@ -11,7 +11,7 @@ when_to_use_negative:
   curation.
 - Datasets lacking corresponding .mzXML or .mzML raw files, so EIC plots cannot be
   rendered or the source of poor EIC shapes cannot be traced.
-edam_operation: http://edamontology.org/operation_3765
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -43,7 +43,7 @@ metadata:
   - EVA
   - XCMS
   - pyEVA
-  edam_operation: http://edamontology.org/operation_3765
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

@@ -12,7 +12,7 @@ when_to_use_negative:
 - The dataset does not contain multiple tissues (e.g., a single tissue time course),
   since the classification logic depends on comparing enrichment across liver, spleen,
   pancreas, muscle, and lung.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3292
 tools:
@@ -39,7 +39,7 @@ metadata:
   - NMRbox
   - PyINETA
   - Python
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3292
   provenance_tier: literature

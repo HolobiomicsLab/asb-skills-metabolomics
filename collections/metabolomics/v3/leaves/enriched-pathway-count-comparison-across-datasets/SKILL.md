@@ -11,7 +11,7 @@ when_to_use_negative:
 - A ground-truth list of truly enriched pathways is required — the paper explicitly
   notes no ground-truth dataset exists for identifying which enriched pathways are
   correct, so the count comparison cannot arbitrate which set is biologically right.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -40,7 +40,7 @@ metadata:
   - Jupyter Notebook (reproducible_simulations.ipynb)
   - Python
   - scipy stats fisher_exact
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

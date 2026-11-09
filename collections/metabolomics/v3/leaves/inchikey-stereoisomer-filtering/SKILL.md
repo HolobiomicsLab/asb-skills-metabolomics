@@ -8,7 +8,7 @@ when_to_use_negative:
   blocks), the filter is a no-op and adds no value
 - When the analysis goal is to explicitly enumerate and report stereoisomer-level
   distinctions rather than collapse them to one connectivity-level representative
-edam_operation: http://edamontology.org/operation_3679
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0154
@@ -45,7 +45,7 @@ metadata:
   - MetFragR/metfRag
   - OpenBabel
   - xcms
-  edam_operation: http://edamontology.org/operation_3679
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0154

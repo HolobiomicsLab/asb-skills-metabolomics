@@ -12,7 +12,6 @@ when_to_use_negative:
   calibrated against 600 MHz SMolESY Δv1/2 line widths is not meaningful.
 edam_operation: http://edamontology.org/operation_3218
 edam_topics:
-- http://edamontology.org/topic_0041
 - http://edamontology.org/topic_3520
 tools:
 - name: SMolESY-select
@@ -44,7 +43,6 @@ metadata:
   - STOCSY
   edam_operation: http://edamontology.org/operation_3218
   edam_topics:
-  - http://edamontology.org/topic_0041
   - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0

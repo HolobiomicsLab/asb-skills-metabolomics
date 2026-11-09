@@ -10,7 +10,7 @@ when_to_use_negative:
   of complex mixtures, since predict_m_m1_m2 covers only M, M+1, M+2
 - The input already contains measured monoisotopic masses (e.g., PrecursorMonoisotopicMz
   from MZA metadata) that need no theoretical prediction
-edam_operation: http://edamontology.org/operation_3441
+edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_3520
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Python
   - mzapy
-  edam_operation: http://edamontology.org/operation_3441
+  edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_3520
   provenance_tier: literature

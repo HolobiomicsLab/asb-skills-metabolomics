@@ -14,8 +14,7 @@ when_to_use_negative:
 - Input is already a feature table — AutoTuner operates on raw converted data (.mzML/.mzXML/.CDF)
   prior to feature-table generation
 edam_operation: http://edamontology.org/operation_0306
-edam_topics:
-- http://edamontology.org/topic_3279
+edam_topics: []
 tools:
 - name: AutoTuner
   role: R package whose TIC peak detection step surfaces the per-peak TIC peaks that
@@ -40,8 +39,7 @@ metadata:
   - AutoTuner
   - R
   edam_operation: http://edamontology.org/operation_0306
-  edam_topics:
-  - http://edamontology.org/topic_3279
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

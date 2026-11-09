@@ -13,7 +13,6 @@ when_to_use_negative:
   rather than validate tabular sample metadata
 edam_operation: http://edamontology.org/operation_0335
 edam_topics:
-- http://edamontology.org/topic_3216
 - http://edamontology.org/topic_0121
 tools:
 - name: GNPS
@@ -49,7 +48,6 @@ metadata:
   - pandas
   edam_operation: http://edamontology.org/operation_0335
   edam_topics:
-  - http://edamontology.org/topic_3216
   - http://edamontology.org/topic_0121
   provenance_tier: literature
 license: CC-BY-4.0

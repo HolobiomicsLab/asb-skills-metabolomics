@@ -10,7 +10,7 @@ when_to_use_negative:
   (proteomic integration is planned for future development)
 - The annotation target is not HMDB/LipidMaps — e.g. spectra-level compound identification
   requiring MS/MS spectral matching is outside this skill's scope
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0153
@@ -50,7 +50,7 @@ metadata:
   - R
   - devtools
   - metid
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0153

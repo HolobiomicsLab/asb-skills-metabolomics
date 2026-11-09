@@ -11,7 +11,7 @@ when_to_use_negative:
   them
 - MALDI data have not been annotated via METASPACE, so m/z features lack lipid identities
   and no neutral-lipid species can be named
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0154
@@ -45,7 +45,7 @@ metadata:
   - Python
   - SCANPY
   - SpaceM
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0154

@@ -10,8 +10,7 @@ when_to_use_negative:
   100-spectra batch benchmark
 - The task is 2D NMR or metabolic tracer data analysis, which this timing benchmark
   does not cover
-edam_topics:
-- http://edamontology.org/topic_0523
+edam_topics: []
 tools:
 - name: MetaboLabPy
   role: Primary package under benchmark; runs the timed batch sequence (0.3 Hz LB,
@@ -50,8 +49,7 @@ metadata:
   - pandas
   - scipy
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0523
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

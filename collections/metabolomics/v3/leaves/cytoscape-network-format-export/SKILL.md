@@ -9,7 +9,7 @@ when_to_use_negative:
 - Network is a microbe-microbe or metabolite-metabolite (non-bipartite) interaction
   network, which is a different graph structure from the module-module bipartite graph
   this skill exports.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -30,7 +30,7 @@ metadata:
   license_tier: open
   tools:
   - MiMeNet
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

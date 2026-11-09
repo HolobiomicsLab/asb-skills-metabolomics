@@ -12,7 +12,7 @@ when_to_use_negative:
   RT, or arrival time errors), so Isolation Forest has no per-metric features to score.
 - The question is general batch quality assessment rather than pinpointing defective
   runs/metrics — PeakQC's PCA-on-MS1 step is the appropriate prior step in that case.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 - http://edamontology.org/topic_3520
@@ -36,7 +36,7 @@ metadata:
   repo_url: https://github.com/pnnl/IonToolPack
   tools:
   - PeakQC
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   - http://edamontology.org/topic_3520

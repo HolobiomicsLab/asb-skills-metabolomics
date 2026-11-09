@@ -11,7 +11,7 @@ when_to_use_negative:
   — a Benjamini-Hochberg procedure would be the appropriate alternative
 - When P values are not independent or not validly computed (e.g. correlations from
   overlapping CV folds) — Bonferroni does not repair invalid base tests
-edam_operation: http://edamontology.org/operation_2263
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -40,7 +40,7 @@ metadata:
   - SciPy
   - pandas
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_2263
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

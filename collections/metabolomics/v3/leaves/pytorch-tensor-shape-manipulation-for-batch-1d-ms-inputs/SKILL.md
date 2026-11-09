@@ -14,7 +14,6 @@ when_to_use_negative:
   fail to learn embedding representations in such extreme cases
 edam_topics:
 - http://edamontology.org/topic_3474
-- http://edamontology.org/topic_3862
 tools:
 - name: PyTorch
   role: Implement the two-layer FC encoder (LayerNorm/ReLU/Dropout), the two 1D convolutional
@@ -40,7 +39,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
-  - http://edamontology.org/topic_3862
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

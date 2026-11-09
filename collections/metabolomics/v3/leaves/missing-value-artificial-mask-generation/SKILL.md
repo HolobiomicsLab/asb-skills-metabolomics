@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
 - http://edamontology.org/topic_2269
-- http://edamontology.org/topic_3076
 tools:
 - name: R
   role: Statistical environment in which the complete datasets are loaded, values
@@ -42,7 +41,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
   - http://edamontology.org/topic_2269
-  - http://edamontology.org/topic_3076
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -10,7 +10,7 @@ when_to_use_negative:
   than candidate ranking — MassSpecGym defines these as separate challenges.
 - When reference library coverage is sufficient for direct spectral matching, since
   ML-based ranking is motivated by limited library coverage.
-edam_operation: http://edamontology.org/operation_3804
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0154
@@ -55,7 +55,7 @@ metadata:
   - pytorch
   - pytorch-geometric
   - rdkit
-  edam_operation: http://edamontology.org/operation_3804
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0154

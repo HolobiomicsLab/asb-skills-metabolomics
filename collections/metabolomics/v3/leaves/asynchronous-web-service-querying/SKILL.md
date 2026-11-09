@@ -11,7 +11,7 @@ when_to_use_negative:
   conversions like molecular weight from SMILES via RDKit), not arbitrary web APIs
 - When the user needs a no-code workflow and reproducibility through a web interface
   — use the Galaxy wrapper instead of writing asyncio scripts directly
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3383
 - http://edamontology.org/topic_3316
@@ -48,7 +48,7 @@ metadata:
   - IDSM
   - MSMetaEnhancer
   - matchms
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3383
   - http://edamontology.org/topic_3316

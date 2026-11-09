@@ -12,8 +12,7 @@ when_to_use_negative:
 - Descriptors cannot be computed for a large fraction of compounds (e.g., salts or
   metal-containing structures not first standardized), making the PCA basis unrepresentative
 edam_operation: http://edamontology.org/operation_2939
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: Retip
   role: Provides chem.space(db_rt, target, title) for PCA chemical-space superposition
@@ -44,8 +43,7 @@ metadata:
   - ggplot2
   - rcdk
   edam_operation: http://edamontology.org/operation_2939
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

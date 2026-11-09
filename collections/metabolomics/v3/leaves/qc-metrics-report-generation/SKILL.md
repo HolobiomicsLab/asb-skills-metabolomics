@@ -12,7 +12,7 @@ when_to_use_negative:
   mass calibration
 - The data is not MS acquisition data (e.g. genomics or imaging) — PeakQC is omics-agnostic
   across MS omics types but operates on mass spectrometry acquisitions only
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -40,7 +40,7 @@ metadata:
   tools:
   - IonToolPack
   - PeakQC
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

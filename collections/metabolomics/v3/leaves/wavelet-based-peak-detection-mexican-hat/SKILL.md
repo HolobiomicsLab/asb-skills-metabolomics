@@ -13,7 +13,6 @@ when_to_use_negative:
   listed as future development, not part of this workflow
 edam_topics:
 - http://edamontology.org/topic_3517
-- http://edamontology.org/topic_3652
 tools:
 - name: AriumMS
   role: Host app whose ROI search generates the ROI chromatographic profiles; the
@@ -45,7 +44,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
-  - http://edamontology.org/topic_3652
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

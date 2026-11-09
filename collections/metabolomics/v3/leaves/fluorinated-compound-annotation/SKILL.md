@@ -10,7 +10,7 @@ when_to_use_negative:
   assays)
 - Analysis goal is general metabolomics or lipidomics — FluoroMatch defaults target
   PFAS unless Lipid <- TRUE is explicitly set
-edam_operation: http://edamontology.org/operation_3212
+edam_operation: http://edamontology.org/operation_3211
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -41,7 +41,7 @@ metadata:
   - FluoroMatch 2.0
   - FluoroMatch Flow 2.0
   - FluoroMatch Modular
-  edam_operation: http://edamontology.org/operation_3212
+  edam_operation: http://edamontology.org/operation_3211
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

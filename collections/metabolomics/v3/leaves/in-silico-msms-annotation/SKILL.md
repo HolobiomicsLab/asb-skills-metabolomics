@@ -10,7 +10,7 @@ when_to_use_negative:
 - When features belong to lipid or macrocyclic natural-product classes (e.g. Marchantin)
   where SIRIUS false positives and complex fragmentation make in silico ranking unreliable
 - When input is not tandem MS2 data (MAW takes MS2 .mzML files as input in R)
-edam_operation: http://edamontology.org/operation_3804
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3172
@@ -63,7 +63,7 @@ metadata:
   - Spectra
   - maw-py
   - maw-r
-  edam_operation: http://edamontology.org/operation_3804
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3172

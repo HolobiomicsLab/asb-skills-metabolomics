@@ -10,7 +10,7 @@ when_to_use_negative:
   inconsistencies exist between ClinVar web pages and its VCF
 - When the analysis targets low-review-status ClinVar entries, which are not the curated
   high-review (two-star) reference population used to validate this skill
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 tools:
@@ -43,7 +43,7 @@ metadata:
   - ClinVar
   - SnpEff
   - Variant Effect Predictor (VEP)
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   provenance_tier: literature

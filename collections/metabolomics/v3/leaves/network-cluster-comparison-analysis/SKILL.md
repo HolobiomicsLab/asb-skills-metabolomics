@@ -9,7 +9,7 @@ when_to_use_negative:
   lost by an existing fixed-threshold (e.g., cosine >= 0.7) network.
 - The input is already a feature table or quantified abundance matrix rather than
   raw MS2 spectra needing spectral-similarity networking.
-edam_operation: http://edamontology.org/operation_3934
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -33,7 +33,7 @@ metadata:
   repo_url: https://github.com/Alexander0/molecular_communities
   tools:
   - molecular_communities
-  edam_operation: http://edamontology.org/operation_3934
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

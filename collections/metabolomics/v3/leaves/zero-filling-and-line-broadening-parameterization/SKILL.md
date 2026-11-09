@@ -11,8 +11,7 @@ when_to_use_negative:
 - Processing 2D-NMR data or multivariate-statistics preparation steps (segmental alignment,
   spectral scaling, variance stabilisation) rather than the FID-to-spectrum conversion
   step itself.
-edam_topics:
-- http://edamontology.org/topic_3177
+edam_topics: []
 tools:
 - name: MetaboLabPy
   role: Executes the zero-filling (131,072 points), 0.3 Hz exponential line broadening,
@@ -51,8 +50,7 @@ metadata:
   - pandas
   - scipy
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3177
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

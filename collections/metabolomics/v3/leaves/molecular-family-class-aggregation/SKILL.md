@@ -12,7 +12,7 @@ when_to_use_negative:
 - When the goal is BGC-side (genome-based) class assignment rather than structure-based
   metabolite classes — that uses MIBiG-derived classifications instead of CANOPUS
   predictions
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 tools:
 - name: CANOPUS
   role: Predicts structure-based ClassyFire and NPClassifier classes directly from
@@ -50,7 +50,7 @@ metadata:
   - NPClassifier
   - NPLinker
   - SIRIUS
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

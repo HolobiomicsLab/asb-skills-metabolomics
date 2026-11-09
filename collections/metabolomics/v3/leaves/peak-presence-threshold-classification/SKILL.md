@@ -14,7 +14,6 @@ when_to_use_negative:
   bins.
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3272
 tools:
 - name: SingleFrag
   role: Source of the per-MZ-position ANN/GNN/COM models, thresholds, and spectraPrediction.ipynb
@@ -43,7 +42,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

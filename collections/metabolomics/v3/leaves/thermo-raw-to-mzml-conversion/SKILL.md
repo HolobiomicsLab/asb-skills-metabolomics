@@ -11,8 +11,7 @@ when_to_use_negative:
 - The goal is direct in-memory analysis without a persisted columnar file — HDF5 output
   via arcMS may be preferable when large filesize is acceptable
 edam_operation: http://edamontology.org/operation_0324
-edam_topics:
-- http://edamontology.org/topic_3822
+edam_topics: []
 tools:
 - name: arcMS
   role: R package providing convert_mzml_to_parquet() and mzml_to_dt / mzml_to_sample_dataset
@@ -43,8 +42,7 @@ metadata:
   - R
   - arcMS
   edam_operation: http://edamontology.org/operation_0324
-  edam_topics:
-  - http://edamontology.org/topic_3822
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

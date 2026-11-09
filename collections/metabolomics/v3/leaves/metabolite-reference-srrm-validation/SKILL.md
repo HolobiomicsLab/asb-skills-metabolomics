@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3214
 edam_topics:
 - http://edamontology.org/topic_0593
-- http://edamontology.org/topic_3883
 tools:
 - name: ROIAL-NMR
   role: Consumes the compiled chemical shift + SRRM reference databases (HMDB-derived,
@@ -55,7 +54,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3214
   edam_topics:
   - http://edamontology.org/topic_0593
-  - http://edamontology.org/topic_3883
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

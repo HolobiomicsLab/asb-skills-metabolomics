@@ -11,7 +11,7 @@ when_to_use_negative:
 - The candidate list is already dereplicated (e.g., converted from a suspect list
   of unique InChIKeys, as done for STOFF-IDENT in MetFrag2.2), so no first-block redundancy
   exists to remove
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0154
@@ -45,7 +45,7 @@ metadata:
   - MetFrag2.2
   - MetFragRelaunched
   - PubChem
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0154

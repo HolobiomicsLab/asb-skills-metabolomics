@@ -10,7 +10,7 @@ when_to_use_negative:
   species supported); pathway analysis will not apply
 - Only MS2 spectra annotation is needed — use the MS2 Peak Annotation module with
   the spectra databases (~1.5 million MS2 spectra) instead
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3172
@@ -48,7 +48,7 @@ metadata:
   - MetaboAnalystR
   - MetaboAnalystR 4.0
   - R
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3172

@@ -13,7 +13,7 @@ when_to_use_negative:
   traditional molecular networking
 - Dataset contains more than ~5000 features; the article anticipates dashboard difficulties
   for larger data sets and liberal settings
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -51,7 +51,7 @@ metadata:
   - matchms
   - ms2deepscore
   - specXplore
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

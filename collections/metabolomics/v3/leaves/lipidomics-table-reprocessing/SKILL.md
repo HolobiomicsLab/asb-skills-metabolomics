@@ -10,7 +10,7 @@ when_to_use_negative:
   — liputils works on processed, final lipidomic data, not instrument files
 - Lipid identifiers follow a nomenclature that is neither 'CLASS N:N/M:M/..' format,
   bracketed isomer format, nor RefMet-compliant
-edam_operation: http://edamontology.org/operation_3234
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0091
@@ -42,7 +42,7 @@ metadata:
   - Python
   - liputils
   - pandas
-  edam_operation: http://edamontology.org/operation_3234
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0091

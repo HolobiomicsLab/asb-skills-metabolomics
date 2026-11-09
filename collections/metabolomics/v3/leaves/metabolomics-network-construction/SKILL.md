@@ -10,7 +10,7 @@ when_to_use_negative:
 - Input is raw NMR spectra rather than a quantified metabolite concentration table
   — peaks must first be identified (Chenomx 800 MHz library, 380 metabolites) and
   normalized
-edam_operation: http://edamontology.org/operation_3984
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0203
@@ -46,7 +46,7 @@ metadata:
   - matplotlib
   - pcaglasso
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3984
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0203

@@ -12,7 +12,7 @@ when_to_use_negative:
   must precede setup.
 - Multiple-collision sequences are required — the paper notes 'In CIDMD, an automatic
   multiple collision method has not yet been implemented yet.'
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: CIDMD_setup
   role: Generates collider initial positions and velocities (start.xyz, vel.xyz) for
@@ -43,7 +43,7 @@ metadata:
   - CIDMD_setup
   - TeraChem
   - density functional theory
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

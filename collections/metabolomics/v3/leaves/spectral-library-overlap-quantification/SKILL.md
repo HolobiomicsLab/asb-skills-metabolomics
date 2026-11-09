@@ -10,7 +10,7 @@ when_to_use_negative:
   than the first-14-character skeleton level used here
 - The task is spectral peak/matching overlap rather than compound-identity coverage
   comparison
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -48,7 +48,7 @@ metadata:
   - pip
   - tmap
   - upsetplot
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

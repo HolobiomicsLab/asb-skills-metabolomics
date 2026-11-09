@@ -12,7 +12,7 @@ when_to_use_negative:
   annotation or interpretation step, only pattern identification and preliminary candidates
 - Input is already a registered, segmented feature table ready for clustering — use
   the segmentation or molecular_heterogeneity_flow workflows instead of re-registering
-edam_operation: http://edamontology.org/operation_3804
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3391
@@ -53,7 +53,7 @@ metadata:
   - Snakemake
   - imzy
   - msiFlow
-  edam_operation: http://edamontology.org/operation_3804
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3391

@@ -14,8 +14,7 @@ when_to_use_negative:
   than a population-level mismatch statistic; LipidSpace's 'Ignore lipid sn-positions'
   mode exists for that case but at reduced performance
 edam_operation: http://edamontology.org/operation_0282
-edam_topics:
-- http://edamontology.org/topic_3993
+edam_topics: []
 tools:
 - name: LIPID MAPS
   role: Source database from which fully resolved lipid records and their carbon chain
@@ -46,8 +45,7 @@ metadata:
   - LipidSpace
   - cppgoslin (Goslin)
   edam_operation: http://edamontology.org/operation_0282
-  edam_topics:
-  - http://edamontology.org/topic_3993
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -12,7 +12,7 @@ when_to_use_negative:
 - You need spectra from repositories not listed in the paper's dataset (e.g. mzCloud
   content), which is referenced separately and not part of the MoNA-deposited open
   subset
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3315
@@ -46,7 +46,7 @@ metadata:
   - MoNA
   - Python
   - spectra-hash
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3315

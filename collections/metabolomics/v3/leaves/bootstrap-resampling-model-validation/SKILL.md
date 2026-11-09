@@ -13,7 +13,7 @@ when_to_use_negative:
   univariate models.
 - When sample size is too small for stable resampling with replacement of study subjects
   — bootstrap CIs will be unreliable.
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3366
 - http://edamontology.org/topic_0203
@@ -39,7 +39,7 @@ metadata:
   tools:
   - MWASTools
   - R
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3366
   - http://edamontology.org/topic_0203

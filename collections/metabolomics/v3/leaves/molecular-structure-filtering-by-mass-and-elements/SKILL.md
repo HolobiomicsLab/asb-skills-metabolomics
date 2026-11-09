@@ -11,7 +11,7 @@ when_to_use_negative:
   or benchmarking without the five-rule preprocessing.
 - When ionic compounds, salts, or molecules over 1000 Da are explicitly of analytical
   interest — all are deliberately excluded by this skill.
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3314
@@ -43,7 +43,7 @@ metadata:
   - FastEI
   - NEIMS repository (deep-molecular-massspec)
   - RDKit (v2022.03.3)
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3314

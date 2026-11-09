@@ -14,7 +14,6 @@ when_to_use_negative:
   runtime makes pairwise re-simulation impractical
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3399
 tools:
 - name: MRSCloud
@@ -52,7 +51,6 @@ metadata:
   - RStudio
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3399
   provenance_tier: literature
 license: CC-BY-4.0

@@ -11,7 +11,7 @@ when_to_use_negative:
   to consume and per-community subgraphs cannot be formed.
 - Retaining cycles within communities is essential (e.g., for downstream loop/alternating-path
   analyses), since spanning trees are by definition cycle-free.
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3318
@@ -36,7 +36,7 @@ metadata:
   tools:
   - NetworkX
   - pandas
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3318

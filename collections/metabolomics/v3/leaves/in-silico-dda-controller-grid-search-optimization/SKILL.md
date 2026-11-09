@@ -10,10 +10,9 @@ when_to_use_negative:
   directly on hardware without simulation
 - When the objective is not coverage of fragmented unique ions (e.g., optimizing for
   intensity or reproducibility metrics not modeled in the simulation)
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3334
-- http://edamontology.org/topic_0057
 tools:
 - name: ViMMS
   role: Virtual metabolomics mass spectrometer used to seed full-scan mzML files and
@@ -31,10 +30,9 @@ metadata:
   license_tier: open
   tools:
   - ViMMS
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3334
-  - http://edamontology.org/topic_0057
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -14,7 +14,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3799
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3525
+- http://edamontology.org/topic_0128
 tools:
 - name: PathIntegrate
   role: Multi-View MB-PLS framework whose models are evaluated by 5-times repeated
@@ -45,7 +45,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3799
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3525
+  - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

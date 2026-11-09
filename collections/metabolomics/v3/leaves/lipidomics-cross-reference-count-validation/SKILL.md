@@ -13,7 +13,6 @@ when_to_use_negative:
   tested — conversion may fail unless a suitable rules file exists in lynx/configurations/rules/input
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
-- http://edamontology.org/topic_3353
 - http://edamontology.org/topic_0091
 tools:
 - name: LipidLynxX
@@ -46,7 +45,6 @@ metadata:
   - LipidLynxX
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
-  - http://edamontology.org/topic_3353
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

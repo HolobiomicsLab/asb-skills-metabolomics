@@ -11,7 +11,7 @@ when_to_use_negative:
   or NMR data) — the zigzag-index rationale is specific to LC/MS peak morphology.
 - When only a single metric's cutoff needs tuning — the skill's core value is the
   head-to-head comparison of six metrics, not threshold optimization in isolation.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -57,7 +57,7 @@ metadata:
   - Matlab
   - Q-TOF Premier mass spectrometer
   - XCMS
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

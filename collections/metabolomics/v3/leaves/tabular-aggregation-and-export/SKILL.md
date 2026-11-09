@@ -9,7 +9,7 @@ when_to_use_negative:
 - Input is already an aggregated feature/category table; recounting would be redundant
 - Molecular structures are not in SDF/molfile format and cannot be parsed by RDKit
   for taxonomy mapping
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3314
 - http://edamontology.org/topic_0218
@@ -35,7 +35,7 @@ metadata:
   - Python
   - RDKit
   - pandas
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3314
   - http://edamontology.org/topic_0218

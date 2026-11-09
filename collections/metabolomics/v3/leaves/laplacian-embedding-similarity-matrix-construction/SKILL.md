@@ -13,7 +13,7 @@ when_to_use_negative:
 - Cases where you only need plain peak-matching similarity without the fragment-similarity
   graph embedding (i.e., cosine-based spectral similarity scores).
 edam_topics:
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
 tools:
 - name: SIMILE
@@ -47,7 +47,7 @@ metadata:
   - scipy
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121
   provenance_tier: literature
 license: CC-BY-4.0

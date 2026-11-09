@@ -11,8 +11,7 @@ when_to_use_negative:
   averages aggregated across matches.
 - The comparison targets spectral match scoring (normalized dot product between library
   and query spectra), not curation-quality ratings.
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: GNPS
   role: Source of the GNPS-Collection and GNPS-Community library spectra and their
@@ -32,8 +31,7 @@ metadata:
   tools:
   - GNPS
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

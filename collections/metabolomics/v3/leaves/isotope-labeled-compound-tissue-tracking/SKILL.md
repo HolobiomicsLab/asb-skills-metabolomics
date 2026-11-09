@@ -9,7 +9,7 @@ when_to_use_negative:
 - The goal is compound annotation from raw INADEQUATE spectra rather than downstream
   tissue-distribution classification; PyINETA's peak-picking/network-matching skill
   handles that upstream step.
-edam_operation: http://edamontology.org/operation_0301
+edam_operation: http://edamontology.org/operation_0303
 edam_topics:
 - http://edamontology.org/topic_3047
 - http://edamontology.org/topic_3172
@@ -39,7 +39,7 @@ metadata:
   - NMRbox
   - PyINETA
   - Python
-  edam_operation: http://edamontology.org/operation_0301
+  edam_operation: http://edamontology.org/operation_0303
   edam_topics:
   - http://edamontology.org/topic_3047
   - http://edamontology.org/topic_3172

@@ -10,7 +10,7 @@ when_to_use_negative:
   workflow) rather than shift data extraction.
 - You need time-domain or processed spectra files themselves rather than the assigned
   shift loop — fetch those from the BMRB FTP metabolomics directory instead.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0593
 - http://edamontology.org/topic_3366
@@ -50,7 +50,7 @@ metadata:
   - PyNMR-STAR
   - RBMRB
   - STARch
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0593
   - http://edamontology.org/topic_3366

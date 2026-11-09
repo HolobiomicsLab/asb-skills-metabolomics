@@ -10,7 +10,7 @@ when_to_use_negative:
   matrix has been computed — the msFeaST preprocessing/similarity step must run first
 - When plain adjacency (connectivity without per-edge similarity strength) is sufficient
   and per-edge pairwise scores are not needed
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3316
 - http://edamontology.org/topic_2269
@@ -38,7 +38,7 @@ metadata:
   tools:
   - globaltest
   - msFeaST
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3316
   - http://edamontology.org/topic_2269

@@ -11,8 +11,7 @@ when_to_use_negative:
   of mass spectrometry peaks
 - The peak table has not been normalized — compute diversity only after test_normalization-guided
   normalization to avoid intensity-scale artifacts
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: MetaboDirect
   role: Command-line pipeline whose chemodiversity analysis step computes the Shannon,
@@ -54,8 +53,7 @@ metadata:
   - seaborn
   - vegan
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

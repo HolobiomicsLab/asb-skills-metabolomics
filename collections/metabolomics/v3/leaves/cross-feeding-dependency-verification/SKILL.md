@@ -11,7 +11,7 @@ when_to_use_negative:
   cross-feeding interactions in existing functional models
 - Only individual isolate models are available without community composition, since
   SMETANA requires a collection of models in SBML format
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0121
 tools:
@@ -47,7 +47,7 @@ metadata:
   - COMMIT
   - SMETANA
   - pheatmap
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0121
   provenance_tier: literature

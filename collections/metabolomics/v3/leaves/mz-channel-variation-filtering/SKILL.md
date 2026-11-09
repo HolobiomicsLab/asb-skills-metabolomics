@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3695
 edam_topics:
 - http://edamontology.org/topic_0605
-- http://edamontology.org/topic_3885
 tools:
 - name: GcDUO
   role: R package whose Module III evaluates per-window m/z variation and selects
@@ -50,7 +49,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3695
   edam_topics:
   - http://edamontology.org/topic_0605
-  - http://edamontology.org/topic_3885
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

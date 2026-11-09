@@ -11,7 +11,7 @@ when_to_use_negative:
   check rather than an automated post-processing step.
 - When comparing more than two sample groups or when the goal is unsupervised clustering
   rather than patient-vs-control biomarker testing.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 tools:
@@ -45,7 +45,7 @@ metadata:
   tools:
   - NMRQNet
   - rDolphin
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   provenance_tier: literature

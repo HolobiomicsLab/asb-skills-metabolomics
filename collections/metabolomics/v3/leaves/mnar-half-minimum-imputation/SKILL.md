@@ -13,7 +13,6 @@ when_to_use_negative:
   zeros/absences
 edam_operation: http://edamontology.org/operation_3557
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_2269
 tools:
 - name: Viime
@@ -49,7 +48,6 @@ metadata:
   - Viime
   edam_operation: http://edamontology.org/operation_3557
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_2269
   provenance_tier: literature
 license: CC-BY-4.0

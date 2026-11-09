@@ -12,7 +12,6 @@ when_to_use_negative:
   — ESP training requires best_model_mlp_*.pt and best_model_gnn_*.pt first.
 edam_topics:
 - http://edamontology.org/topic_3474
-- http://edamontology.org/topic_3482
 tools:
 - name: PyTorch
   role: Implements the learnable low-rank factors Dl of Ql = Dl Dl^T, the mixing residual
@@ -52,7 +51,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
-  - http://edamontology.org/topic_3482
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

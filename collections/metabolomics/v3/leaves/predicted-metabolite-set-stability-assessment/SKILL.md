@@ -12,7 +12,7 @@ when_to_use_negative:
 - Input is not an untargeted LC/MS feature table (e.g. targeted assays or pre-annotated
   compounds), where mummichog's pathway/module approach on unassigned m/z features
   does not apply
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0218
@@ -40,7 +40,7 @@ metadata:
   tools:
   - JMS
   - mummichog
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0218

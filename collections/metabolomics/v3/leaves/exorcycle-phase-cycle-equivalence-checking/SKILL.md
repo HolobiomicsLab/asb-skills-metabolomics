@@ -14,7 +14,6 @@ when_to_use_negative:
   there can be much lower (0.68 for Gln)
 edam_operation: http://edamontology.org/operation_2428
 edam_topics:
-- http://edamontology.org/topic_0592
 - http://edamontology.org/topic_3334
 tools:
 - name: MRSCloud
@@ -41,7 +40,6 @@ metadata:
   - MRSCloud
   edam_operation: http://edamontology.org/operation_2428
   edam_topics:
-  - http://edamontology.org/topic_0592
   - http://edamontology.org/topic_3334
   provenance_tier: literature
 license: CC-BY-4.0

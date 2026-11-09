@@ -13,7 +13,6 @@ when_to_use_negative:
   error structure differ from the IVDr NMR data the models were fitted on.
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3338
 tools:
 - name: PRIMA Panel
@@ -52,7 +51,6 @@ metadata:
   - Shiny
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3338
   provenance_tier: literature
 license: CC-BY-4.0

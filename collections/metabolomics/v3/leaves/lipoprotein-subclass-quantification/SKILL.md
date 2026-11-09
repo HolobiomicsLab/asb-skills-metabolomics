@@ -12,9 +12,7 @@ when_to_use_negative:
   concentration tables or other biofluids, for which no biofluid-specific pipeline
   is yet developed)
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_0151
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: NMRQNet
   role: Deep-learning CRNN pipeline that fits library components (metabolites, 24
@@ -45,9 +43,7 @@ metadata:
   - EDTA plasma analysis (NMRQNet tutorial)
   - NMRQNet
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_0151
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

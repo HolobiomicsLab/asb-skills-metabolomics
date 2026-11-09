@@ -11,7 +11,7 @@ when_to_use_negative:
   that have not been through Viime's upload, error correction, and imputation steps).
 - The goal is a non-parametric group comparison — Viime's univariate option is the
   Wilcoxon rank sum test, not ANOVA.
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3570
 - http://edamontology.org/topic_0091
@@ -53,7 +53,7 @@ metadata:
   - R
   - Viime
   - pandas
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3570
   - http://edamontology.org/topic_0091

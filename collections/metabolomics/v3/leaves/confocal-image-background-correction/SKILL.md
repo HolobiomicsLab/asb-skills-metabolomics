@@ -11,7 +11,7 @@ when_to_use_negative:
 - The requested task is the colocalization measurement itself (block scrambling, 200
   randomizations, diagonal selection in the 2D histogram); this skill is only the
   prerequisite intensity-correction step, not the measurement.
-edam_operation: http://edamontology.org/operation_3590
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3391
 tools:
@@ -44,7 +44,7 @@ metadata:
   - Effectene
   - MIPAV
   - Zeiss LSM 510 confocal microscope
-  edam_operation: http://edamontology.org/operation_3590
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3391
   provenance_tier: literature

@@ -13,7 +13,7 @@ when_to_use_negative:
   be constructed first
 - Candidate compounds lack isomer counterparts in the reference library, so longitudinal
   fragment-profile matching cannot distinguish them
-edam_operation: http://edamontology.org/operation_3765
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -50,7 +50,7 @@ metadata:
   - conda
   - mzbatch.py
   - pip
-  edam_operation: http://edamontology.org/operation_3765
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

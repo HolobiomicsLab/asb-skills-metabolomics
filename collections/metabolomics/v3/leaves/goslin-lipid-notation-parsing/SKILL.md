@@ -13,8 +13,7 @@ when_to_use_negative:
   (TPMetrics) or generic dataset-size reduction for manual comparison (RowMerger)
   rather than lipid-name abbreviation
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3822
+edam_topics: []
 tools:
 - name: Goslin
   role: Parses lipid annotation names into head group, total carbon count, number
@@ -40,8 +39,7 @@ metadata:
   - Goslin
   - TurboPutative
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3822
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

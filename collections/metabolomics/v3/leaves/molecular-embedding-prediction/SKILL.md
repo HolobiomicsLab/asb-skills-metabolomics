@@ -10,7 +10,7 @@ when_to_use_negative:
   obtained with a smaller or larger reference are not directly comparable
 - You have raw mzML/centroided profile data rather than MSP peak lists — ChemEmbed's
   preprocessing expects MSP files converted to structured DataFrames
-edam_operation: http://edamontology.org/operation_3807
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -52,7 +52,7 @@ metadata:
   - PyTorch
   - RDKit
   - numpy >=
-  edam_operation: http://edamontology.org/operation_3807
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

@@ -13,7 +13,7 @@ when_to_use_negative:
 - Your dataset is small (e.g., a handful of identified molecules); the meta-learning
   projection approach was designed to learn from as few as 10 molecules, whereas this
   skill requires tens of thousands of RTs.
-edam_operation: http://edamontology.org/operation_3949
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0154
 - http://edamontology.org/topic_3520
@@ -57,7 +57,7 @@ metadata:
   - XGBoost
   - alvaDesc
   - cmmrt
-  edam_operation: http://edamontology.org/operation_3949
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0154
   - http://edamontology.org/topic_3520

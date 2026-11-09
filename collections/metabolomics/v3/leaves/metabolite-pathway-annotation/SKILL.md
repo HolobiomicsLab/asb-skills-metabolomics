@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0226
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3389
 tools:
 - name: Python
   role: Scripted assembly of the annotated metabolite table and KEGG set/GSEA scoring
@@ -38,7 +37,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0226
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3389
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

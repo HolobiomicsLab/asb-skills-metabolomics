@@ -11,7 +11,7 @@ when_to_use_negative:
 - The table is not a feature-by-sample intensity table (e.g. it is an empirical compound
   JSON or annotation table), since the per-feature minimum logic assumes feature columns
   of intensities.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -39,7 +39,7 @@ metadata:
   tools:
   - Python
   - pcpfm
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

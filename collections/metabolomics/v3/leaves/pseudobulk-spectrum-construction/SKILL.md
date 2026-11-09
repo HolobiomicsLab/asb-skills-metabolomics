@@ -10,7 +10,7 @@ when_to_use_negative:
   destroys the spatial dimension needed for localization.
 - Data from a non-linear developmental axis where linear gradient assumptions of DIMPLE
   do not apply.
-edam_operation: http://edamontology.org/operation_3615
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -46,7 +46,7 @@ metadata:
   - DESI-MSI
   - DIMPLE
   - batchcdfread
-  edam_operation: http://edamontology.org/operation_3615
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

@@ -11,7 +11,7 @@ when_to_use_negative:
   across chemically similar families
 - When MS2-based annotation is required — this skill depends on CSA MS1-derived annotations
   and is not a replacement for MS/MS library searches via IDSL.FSA
-edam_operation: http://edamontology.org/operation_3743
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_0154
@@ -42,7 +42,7 @@ metadata:
   - ChemRICH
   - IDSL.CSA
   - R
-  edam_operation: http://edamontology.org/operation_3743
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3172
   - http://edamontology.org/topic_0154

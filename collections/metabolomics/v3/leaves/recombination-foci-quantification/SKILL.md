@@ -11,7 +11,7 @@ when_to_use_negative:
   in number') without explicit numeric means and SDs per zone.
 - Statistics beyond transcription are needed (e.g. p-values, ANOVA) — these were performed
   separately in Prism 6/GraphPad, not by this extraction step.
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 tools:
 - name: pandas
   role: Assemble the 16 genotype-zone-marker rows and write foci_means.csv
@@ -35,7 +35,7 @@ metadata:
   - GraphPad Prism
   - Microsoft Excel
   - pandas
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

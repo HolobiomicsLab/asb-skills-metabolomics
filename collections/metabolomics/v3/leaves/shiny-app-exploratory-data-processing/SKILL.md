@@ -14,7 +14,6 @@ when_to_use_negative:
   supported by the app
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
-- http://edamontology.org/topic_3319
 - http://edamontology.org/topic_0091
 tools:
 - name: ADViSELipidomics
@@ -46,7 +45,6 @@ metadata:
   - metabolomicsWorkbenchR
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
-  - http://edamontology.org/topic_3319
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

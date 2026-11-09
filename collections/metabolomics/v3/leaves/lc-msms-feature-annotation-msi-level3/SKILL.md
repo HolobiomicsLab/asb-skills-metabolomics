@@ -9,7 +9,7 @@ when_to_use_negative:
 - Input files are raw vendor files that have not gone through UmetaFlow pre-processing
   and OpenMS feature/adduct annotation; SiriusAdapter requires the featureXML with
   adduct information, not raw data.
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0605
@@ -53,7 +53,7 @@ metadata:
   - Snakemake
   - UmetaFlow
   - pyOpenMS
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0605

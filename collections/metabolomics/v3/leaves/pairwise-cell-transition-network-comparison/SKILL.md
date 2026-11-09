@@ -12,9 +12,8 @@ when_to_use_negative:
 - Input is a full trajectory-level dataset where stage-specific transitions are not
   separable into ordered pairs, or the metabolite matrix comes from a non-ordered
   design (no meaningful sequential transitions to truncate to).
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_0203
 tools:
 - name: MetaboLINK (PCA-GLASSO algorithm)
@@ -48,9 +47,8 @@ metadata:
   - matplotlib
   - pcaglasso
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

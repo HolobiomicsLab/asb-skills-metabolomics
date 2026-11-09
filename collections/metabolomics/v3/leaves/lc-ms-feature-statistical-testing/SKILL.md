@@ -11,7 +11,7 @@ when_to_use_negative:
   univariate group comparison
 - The design has no explicit grouping variable, so group-wise tests like Welch's t-test
   or ANOVA are not applicable
-edam_operation: http://edamontology.org/operation_3650
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3520
@@ -37,7 +37,7 @@ metadata:
   tools:
   - R
   - notame
-  edam_operation: http://edamontology.org/operation_3650
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3520

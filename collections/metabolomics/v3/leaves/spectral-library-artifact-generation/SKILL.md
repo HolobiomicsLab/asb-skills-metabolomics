@@ -9,7 +9,7 @@ when_to_use_negative:
   Searcher or Peak Finder role, not library generation.
 - User needs annotated fragment peaks from existing MS2/MS3+ matches — use the Lipid
   Spectral Annotator, not the Library Generator.
-edam_operation: http://edamontology.org/operation_3567
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0153
 - http://edamontology.org/topic_3174
@@ -36,7 +36,7 @@ metadata:
   tools:
   - LipiDex 2
   - LipiDex 2 Library Generator
-  edam_operation: http://edamontology.org/operation_3567
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0153
   - http://edamontology.org/topic_3174

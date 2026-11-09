@@ -12,7 +12,7 @@ when_to_use_negative:
 - Data comes from a source-specific collection (e.g., SuperNatural II subset) that
   fails COCONUT quality control and has not been unified into the uniqueNaturalProduct
   table
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 tools:
 - name: pandas
   role: Loading the COCONUT PostgreSQL snapshot, filtering to NPs with a recorded
@@ -34,7 +34,7 @@ metadata:
   tools:
   - matplotlib
   - pandas
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

@@ -11,7 +11,7 @@ when_to_use_negative:
   matching must precede CI estimation.
 - Analyzing targeted peak-picking quality directly rather than assessing NPP output
   reliability against a benchmark.
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0091
@@ -44,7 +44,7 @@ metadata:
   - R
   - boot
   - mzRAPP
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0091

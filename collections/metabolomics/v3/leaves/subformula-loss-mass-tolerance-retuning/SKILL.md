@@ -12,7 +12,7 @@ when_to_use_negative:
 - The goal is distinguishing isomeric compounds or in-source fragments, which MS/MS
   spectral matching alone cannot resolve even after denoising
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: Spectral Denoising
   role: Performs electronic denoising (removes ions with identical intensities greater
@@ -46,7 +46,7 @@ metadata:
   - spectral_operations.entropy_similairty
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted
