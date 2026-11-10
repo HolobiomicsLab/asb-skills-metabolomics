@@ -1,8 +1,8 @@
 {
   "generator_version": "1.0.0",
-  "source_digest": "dc012aee9ab2857e9d13de1afbb14c68cac7682884669ca59f3055a3fd4e2de7",
+  "source_digest": "c8f3b4b9ea47d363548a5ef61c8d297200c5dbd74b3f8d38b7abbd187dc7a6ce",
   "collection": {
-    "path": "/Users/nothiasl/git/_asb_worktrees/asb-skills-metabolomics--f3/collections/metabolomics/v3",
+    "path": "collections/metabolomics/v3",
     "version": 3
   },
   "kind": "topics",
