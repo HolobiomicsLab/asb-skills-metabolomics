@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T13:58:59.411097+00:00",
+  "generated_at": "2026-11-10T17:16:27.231703+00:00",
   "collection_dir": "collections/metabolomics/v3",
   "corpus_path": "collections/metabolomics/v3/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "311fa1b1d9092672e886ba99bddcdcce28c8e1969a04be719425e93f297dadc5",
+      "sha256": "96321adc76202cdcf3fa0d673c59352dc0b2c911409ee3bc753886fb8e80e271",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 3443,
-          "sha256": "14d8d5a3d3093676cb57336e66a4b3ca6ab56fe3413b543abe7116faa14d2c56"
+          "sha256": "245cf5aca7e3809a177b86b6885a00f9b4d7d8f0ba79edf7c9afbc3b249c7dd5"
         },
         {
           "path": "CITATION.cff",
@@ -77,8 +77,8 @@
         },
         {
           "path": "USAGE.md",
-          "bytes": 18288,
-          "sha256": "04f655a82993bd770950f619998bf16b84a30e7e892a994a491cd3562fc71c24"
+          "bytes": 18296,
+          "sha256": "9173dcf7f69bb70b94322e29747a31d8c8dd8586c308d503cba1cd609708e2b6"
         },
         {
           "path": "bin",
@@ -86,8 +86,8 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 23077,
-          "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+          "bytes": 24610,
+          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
         },
         {
           "path": "bin/semantic_search.py",
@@ -96,8 +96,8 @@
         },
         {
           "path": "collection.yaml",
-          "bytes": 521632,
-          "sha256": "9f481aaed9f641f2b84ca8f4008b382cd687036c280737a3d5aa81720d7a62ac"
+          "bytes": 521631,
+          "sha256": "b993f81208f06481ecce5d556ee0999f59c58e67b30f6260b4143a71c44cccd0"
         },
         {
           "path": "corpus.yaml",
@@ -106598,8 +106598,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2266,
-          "sha256": "6eaa0f3a89f83a8a2220ccf9b5849c9307d3c95903e2e01ec079f228043ed318"
+          "bytes": 3083,
+          "sha256": "602e4f9c9d23f7520182ef9a75d8d1c2c726a43a604a6e6d383fe074bb061015"
         },
         {
           "path": "skills_index.json",
@@ -116570,8 +116570,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 7327,
-          "sha256": "6a90f1f1ab00a1b5aee23b35f54f98b5cb498c3ba6b96ec05cde3445aed93e05"
+          "bytes": 7467,
+          "sha256": "770402e15329e0bb27198dc735785877ddd0688448faf88613f384267d814b96"
         },
         {
           "path": "workflows/compound-class-annotation",
@@ -117364,5 +117364,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "43e0de4015eb040feec46cd777d113df3c7f00be05798e102284045ad1751944"
+  "receipt_sha256": "25e13a2b8435c046a131108f611e36d54d4196b616bb6de77450ee9ac138bbcc"
 }
