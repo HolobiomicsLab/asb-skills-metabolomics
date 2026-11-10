@@ -6,12 +6,12 @@
   "generated_at": "2026-11-09T16:21:26.492993+00:00",
   "mode": "write",
   "input": {
-    "collection": "/Users/nothiasl/git/_asb_worktrees/asb-skills-metabolomics--ce-ms/collections/metabolomics/v3",
+    "collection": "<checkout>/collections/metabolomics/v3",
     "skills_index_sha256": "c8f3b4b9ea47d363548a5ef61c8d297200c5dbd74b3f8d38b7abbd187dc7a6ce",
     "leaf_count": 11830
   },
   "rules": {
-    "path": "/Users/nothiasl/git/asb-skill-collections/scripts/rules/metabolomics/technique_rules.yaml",
+    "path": "<tooling>/scripts/rules/metabolomics/technique_rules.yaml",
     "version": "2026-11-09.1",
     "sha256": "0c11754e524a0bc7c5ff89a94800666f96f701c12accf745d9c2a5d6a3e93ca9"
   },

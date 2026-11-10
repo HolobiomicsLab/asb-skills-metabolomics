@@ -7,7 +7,8 @@ suggested, decision recorded).
 
 These files use the `asb-corpus/1.0` schema with every entry at `status: hold`, so
 accepted entries paste directly into a release `corpus.yaml`. They are **not** part
-of any release: `verify-paper.yml` only gates `status: included`.
+of any release: they sit outside every collection tree, so the content gates
+never read them.
 
 ## Lifecycle
 
@@ -15,8 +16,8 @@ of any release: `verify-paper.yml` only gates `status: included`.
 2. A curator (or an automated curation pass) resolves the metadata and appends a
    normalized entry to the current `wave-*.yaml` here, with a `triage` block.
 3. At the next curation wave, a maintainer reviews each entry against
-   [`governance/SOURCES.md`](../../../governance/SOURCES.md) and, on accept, moves it
-   into `collections/metabolomics/v2/corpus.yaml` with `status: included`.
+   [`governance/SOURCES.md`](https://github.com/HolobiomicsLab/asb-skill-collections/blob/main/governance/SOURCES.md) and, on accept, moves it
+   into the `corpus.yaml` of the collection version being built, with `status: included`.
 4. The entry is removed from (or marked resolved in) the wave file.
 
 `resource_type` distinguishes method papers from software / data-infrastructure /
