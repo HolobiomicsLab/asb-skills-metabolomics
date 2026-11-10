@@ -137,7 +137,7 @@ by default.
 From the repository root:
 
 ```bash
-python collections/metabolomics/v3/bin/search_skills.py \
+python3 collections/metabolomics/v3/bin/search_skills.py \
   --query "spectral library matching" --tool GNPS --json -k 3
 ```
 
@@ -155,7 +155,7 @@ topic IRI. With an empty query it browses the filtered set in deterministic
 order; add words to rank within that set.
 
 ```bash
-python collections/metabolomics/v3/bin/search_skills.py --edam topic_3520 -k 3
+python3 collections/metabolomics/v3/bin/search_skills.py --edam topic_3520 -k 3
 ```
 
 ```text
@@ -167,7 +167,7 @@ python collections/metabolomics/v3/bin/search_skills.py --edam topic_3520 -k 3
 ```
 
 ```bash
-python collections/metabolomics/v3/bin/search_skills.py --edam operation_2945 -k 3
+python3 collections/metabolomics/v3/bin/search_skills.py --edam operation_2945 -k 3
 ```
 
 ```text
@@ -236,7 +236,7 @@ Put the file at `collections/metabolomics/v3/.cache/leafemb_v3.npz`, or point
 
 ```bash
 ASB_LEAF_EMB_CACHE=<path>/metabolomics-v3-leafemb.npz \
-python collections/metabolomics/v3/bin/semantic_search.py \
+python3 collections/metabolomics/v3/bin/semantic_search.py \
   --query "lipid class annotation" --mode semantic -k 3
 ```
 
@@ -258,7 +258,7 @@ end-to-end execution was not.
 Find a workflow with the router, the index, or:
 
 ```bash
-python collections/metabolomics/v3/bin/search_skills.py \
+python3 collections/metabolomics/v3/bin/search_skills.py \
   --query "untargeted LC-MS/MS annotation" --target workflows -k 3
 ```
 
@@ -358,7 +358,7 @@ pointers and read the cited source before adopting a threshold.
 ## 6. Licence tiers
 
 Collection content is CC-BY-4.0; repository code is Apache-2.0. See
-[`LICENSING.md`](../../LICENSING.md). A leaf's `license_tier` concerns the
+[`LICENSING.md`](../../../LICENSING.md). A leaf's `license_tier` concerns the
 underlying tool, not the CC-BY status of the skill text or the paper's reuse
 rights. Read the tool's own licence before redistribution or commercial use.
 
