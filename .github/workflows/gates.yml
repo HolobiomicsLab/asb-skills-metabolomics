@@ -18,19 +18,18 @@ jobs:
         collection:
             - domain: metabolomics
               collection_path: collections/metabolomics/v3
-              # Receipt re-verification is left to the release procedure: the strict
-              # receipt under receipts/0aff65e99ace/ digests the gate implementation of
-              # the tooling that produced it (8 November 2026), so any later pinned
-              # tooling reports an implementation_sha256 mismatch (local rehearsal of
-              # 9 November 2026, every gate passing otherwise).
-              receipts_path: ""
+              # The receipt under receipts/0aff65e99ace/ was regenerated with the DOI
+              # commit of v3.0.1 (10 November 2026) and verifies with the tooling pinned
+              # below. It digests the gate implementation, so a later pin that changes
+              # the gate needs a new receipt or an empty receipts_path.
+              receipts_path: "receipts/0aff65e99ace"
             # v2 is not in the matrix: its receipt predates the strict gate and the
             # local strict rehearsal of 2026-11-09 fails on it (release surface,
             # release gate and receipt re-verification). Add it back once the
             # maintainers regenerate its receipt or the caller gains a per-row strict flag.
-    # Pin the tooling that adds the edam_strict input (v3.0.1 carries the T2 remap, so the strict EDAM gate holds).
+    # Pin the tooling commit that registers metabolomics-v3.0.1 (v3.0.1 carries the T2 remap, so the strict EDAM gate holds).
     # Bump this full commit SHA deliberately when adopting newer gate tooling.
-    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@d68884284c5a2764a672130d3ce7cf270394a3f8
+    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@95cb2a07189cfc2776c644ad283cf9f621b9ca96
     with:
       domain: ${{ matrix.collection.domain }}
       collection_path: ${{ matrix.collection.collection_path }}

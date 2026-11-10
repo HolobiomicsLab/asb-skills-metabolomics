@@ -7,7 +7,13 @@
 | deposit-draft | 2026-11-09T21:45:38Z | 83d2e97549e3b74e1c1c4c59ae96592dfcf149c1 | `{"archive_sha256": "b1a993bedd5eed74f419a6fe5e486fa47d0836f98d7a2d59ca51909eb4e4d861"}` |
 | record-doi | 2026-11-10T10:46:15Z | 83d2e97549e3b74e1c1c4c59ae96592dfcf149c1 | `{"CITATION.cff": "8530cbb79a53507351968a3284618f2ca55ce7863bb5bb800dee5edf50059c62", "README.md": "e229cc6348f444e6bff77db5e2491a8777577c02aa181b20b92f0c4bf9352bcb", "RELEASE.yaml": "d64a24a6cdc45c29a2be1411df6dfb2b45e51a1e2ee287e3d27e74c3d1b0a7a4", "USAGE.md": "04f655a82993bd770950f619998bf16b84a30e7e892a994a491cd3562fc71c24", "marketplace.json": "7af38250d482bf6b3b2d5c67064fbcd1d27f0b22b4f1f0195c47dfedc2532636", "plugin.json": "c022f7911cb01b5283cd50bc07f72ecc7b2462ad0631b0157aab42736c353357"}` |
 | receipt | 2026-11-10T10:53:58Z | 83d2e97549e3b74e1c1c4c59ae96592dfcf149c1 | `{"receipt": "69b86953752711c66f94b08445a702b6ca86d2a693641cc37e0634053cb1a87f"}` |
+| manifest | 2026-11-10T10:57:00Z | a415c366c03d7fb68eecafb2df611323910e9129 | `{"catalogue_jsonld": "34d11b0f68371258b15ce2d82bf726a32a2a4a89de842c857f09a202b3cc1f63", "collections_yaml": "b7853ccf8976cfeeb7b8a2f483dc55c38be958279ed39744888a22591ddee133"}` |
+| tag | 2026-11-10T11:07:00Z | a415c366c03d7fb68eecafb2df611323910e9129 | `{}` |
 
 ## Owner actions
 
 - OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24093587, then run record-doi --doi <version DOI>
+- OWNER: git tag metabolomics-v3.0.1 a415c366c03d7fb68eecafb2df611323910e9129
+- OWNER: git push origin metabolomics-v3.0.1
+- OWNER: git tag metabolomics-v3.0.1 a415c366c03d7fb68eecafb2df611323910e9129
+- OWNER: git push origin metabolomics-v3.0.1
