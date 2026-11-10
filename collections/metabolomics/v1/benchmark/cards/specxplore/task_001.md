@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T13:50:40.898251+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_specxplore/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_specxplore/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `information-extraction`
 - GitHub: `kevinmildau/specXplore`

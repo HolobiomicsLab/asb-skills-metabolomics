@@ -287,7 +287,7 @@
     "reference-library-alignment",
     "collision-cross-section-measurement-quality-control"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mobilipid/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mobilipid/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "mobil_lipid_system",

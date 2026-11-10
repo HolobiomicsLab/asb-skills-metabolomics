@@ -367,7 +367,7 @@
     "statistical-hypothesis-testing-mean-comparison",
     "enrichment-analysis-validated-links"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_nplinker",
+  "source_package": "<builder>/outputs/asbb_pilot/pkg_nplinker",
   "spine_condition_ids": [
     "COND_STD_STRAIN_CORR_ONLY",
     "COND_SIZE_LARGE_GCF_MF",

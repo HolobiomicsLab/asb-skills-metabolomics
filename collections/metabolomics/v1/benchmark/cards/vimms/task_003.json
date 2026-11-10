@@ -275,7 +275,7 @@
     "lc-ms-scan-acquisition-orchestration",
     "simulation-control-loop-architecture"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_vimms/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_vimms/synthesized_package",
   "spine_condition_ids": [
     "COND_TOPN_DDA",
     "COND_BEER_TOPN",

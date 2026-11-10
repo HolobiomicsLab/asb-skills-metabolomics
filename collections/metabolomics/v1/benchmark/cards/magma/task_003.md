@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T07:32:39.548179+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_magma/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_magma/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `information-extraction`, `data-processing`
 - GitHub: `NLeSC/MAGMa`

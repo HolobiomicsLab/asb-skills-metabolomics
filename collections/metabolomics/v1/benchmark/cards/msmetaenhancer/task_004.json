@@ -313,7 +313,7 @@
     "unit-test-design-for-cheminformatics",
     "smiles-inchi-round-trip-validation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_msmetaenhancer/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_msmetaenhancer/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "COMP_CONVERTER_BASE",

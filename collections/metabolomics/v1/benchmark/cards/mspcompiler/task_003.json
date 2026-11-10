@@ -257,7 +257,7 @@
     "mass-spectrometry-column-polarity-filtering",
     "r-object-inspection-and-validation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mspcompiler/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mspcompiler/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "TOOL_EXTRACT_STRUCTURE",

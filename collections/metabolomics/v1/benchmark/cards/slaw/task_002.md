@@ -3,7 +3,7 @@
 - Task ID: `task_002`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T07:18:56.699764+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_slaw/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_slaw/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`
 - DOI: `10.1021/acs.analchem.1c02687`

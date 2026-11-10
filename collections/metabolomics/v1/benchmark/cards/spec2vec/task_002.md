@@ -3,7 +3,7 @@
 - Task ID: `task_002`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T06:52:35.005391+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_spec2vec`
+- Source package: `<builder>/outputs/asbb_pilot/pkg_spec2vec`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `benchmark-evaluation`, `data-analysis`
 - DOI: `10.1371/journal.pcbi.1008724`

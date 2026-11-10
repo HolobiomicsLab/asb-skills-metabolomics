@@ -314,7 +314,7 @@
     "corrected-intensity-table-validation",
     "quantitative-ms-data-preprocessing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_quantyfey/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_quantyfey/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "sys_quantyfey",

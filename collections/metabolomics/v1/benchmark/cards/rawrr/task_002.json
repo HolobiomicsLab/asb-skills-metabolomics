@@ -269,7 +269,7 @@
     "r-package-installation-and-runtime-verification",
     "c-sharp-wrapper-invocation-from-r"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_rawrr/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_rawrr/synthesized_package",
   "spine_condition_ids": [
     "cond_benchmark_rawrr"
   ],

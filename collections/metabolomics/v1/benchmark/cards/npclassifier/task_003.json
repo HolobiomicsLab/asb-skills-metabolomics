@@ -256,7 +256,7 @@
     "deep-learning-model-architecture-validation",
     "model-deployment-preparation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_npclassifier/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_npclassifier/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "ARCH_TENSORFLOW_SERVING",

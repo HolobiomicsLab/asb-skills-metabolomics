@@ -234,7 +234,7 @@
     "feature-table-moniker-management",
     "zero-value-handling-in-mass-spectrometry-data"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pcpfm/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_pcpfm/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "ARCH-PREPROCESS",

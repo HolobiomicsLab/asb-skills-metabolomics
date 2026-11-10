@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T12:33:51.764194+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_metaboannotator/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_metaboannotator/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-analysis`, `information-extraction`
 - DOI: `10.1021/acs.analchem.1c03032`

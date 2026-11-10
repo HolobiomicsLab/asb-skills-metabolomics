@@ -207,7 +207,7 @@
     "high-resolution-mass-spectrometry-interpretation",
     "feature-annotation-filtering"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pfdeltascreen/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_pfdeltascreen/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "PFDeltaScreen_System",

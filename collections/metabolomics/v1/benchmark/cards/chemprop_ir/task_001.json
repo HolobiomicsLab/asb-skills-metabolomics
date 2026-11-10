@@ -240,7 +240,7 @@
     "pytorch-model-instantiation-and-forward-pass",
     "spectral-features-module-integration"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_chemprop_ir/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_chemprop_ir/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "chemprop_IR_system",

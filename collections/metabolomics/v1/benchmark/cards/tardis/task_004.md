@@ -3,7 +3,7 @@
 - Task ID: `task_004`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T07:24:56.964844+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_tardis/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_tardis/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `visualization`, `benchmark-evaluation`
 - DOI: `10.1021/acs.analchem.5c00567`

@@ -3,7 +3,7 @@
 - Task ID: `task_004`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T07:27:43.705003+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_falcon/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_falcon/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-analysis`, `statistical-analysis`
 - DOI: `10.1002/rcm.9153`

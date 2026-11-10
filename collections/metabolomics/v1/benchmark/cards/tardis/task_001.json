@@ -307,7 +307,7 @@
     "polarity-mode-filtering-lcms",
     "mass-charge-retention-time-validation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_tardis/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_tardis/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "comp_tardisPeaks",

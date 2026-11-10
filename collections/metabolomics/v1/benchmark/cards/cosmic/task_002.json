@@ -306,7 +306,7 @@
     "molecular-fingerprint-parsing",
     "sirius-spectral-request-construction"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_cosmic/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_cosmic/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "csi_fingerid"

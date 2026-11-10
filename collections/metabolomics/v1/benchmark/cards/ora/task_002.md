@@ -3,7 +3,7 @@
 - Task ID: `task_002`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T09:39:35.903004+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_ora/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_ora/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `simulation`, `data-analysis`, `visualization`
 - Input from: `task_001`

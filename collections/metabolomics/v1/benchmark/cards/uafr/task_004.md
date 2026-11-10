@@ -3,7 +3,7 @@
 - Task ID: `task_004`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T12:18:23.894299+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_uafr/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_uafr/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `statistical-analysis`
 - GitHub: `castratton/uafR`

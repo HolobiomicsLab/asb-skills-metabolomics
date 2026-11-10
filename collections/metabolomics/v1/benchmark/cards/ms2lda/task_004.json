@@ -280,7 +280,7 @@
     "motif-similarity-ranking-interpretation",
     "json-serialization-and-data-structure-design"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_ms2lda/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_ms2lda/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "COMP-MOTIFDB",

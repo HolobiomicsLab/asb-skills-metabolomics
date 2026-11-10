@@ -234,7 +234,7 @@
     "model-ablation-study-design",
     "tandem-mass-spectra-interpretation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mistcf/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mistcf/synthesized_package",
   "spine_condition_ids": [
     "DENOVO_CONDITION"
   ],

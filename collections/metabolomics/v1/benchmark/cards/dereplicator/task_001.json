@@ -288,7 +288,7 @@
     "lantibiotic-structure-annotation",
     "spectral-library-matching-ripp"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_dereplicator/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_dereplicator/synthesized_package",
   "spine_condition_ids": [
     "COND_FASTA_INPUT",
     "COND_ANTISMASH_INPUT",

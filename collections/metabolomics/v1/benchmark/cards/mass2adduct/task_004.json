@@ -240,7 +240,7 @@
     "adduct-mass-matching-to-reference-database",
     "msi-data-format-interoperability"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mass2adduct/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mass2adduct/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "SYS_MASS2ADDUCT",

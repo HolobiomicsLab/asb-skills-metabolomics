@@ -358,7 +358,7 @@
     "workflow-pipeline-execution-validation",
     "spectral-library-matching-and-scoring"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_tima/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_tima/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "SYS-TIMA",

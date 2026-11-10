@@ -3,7 +3,7 @@
 - Task ID: `task_004`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T12:49:30.022773+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_cmmrt/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_cmmrt/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `model-training`, `benchmark-evaluation`, `data-analysis`
 - DOI: `10.1186/s13321-022-00613-8`

@@ -255,7 +255,7 @@
     "metabolite-abundance-stratification",
     "diversity-visualization-by-treatment"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_metabodirect",
+  "source_package": "<builder>/outputs/asbb_pilot/pkg_metabodirect",
   "spine_condition_ids": [
     "Cond_Benchmark_40samples",
     "Cond_Benchmark_120samples",

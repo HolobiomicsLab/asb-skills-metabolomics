@@ -373,7 +373,7 @@
     "spectrum-visualization-and-figure-rendering",
     "usi-spectrum-retrieval-and-loading"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_spectrumutils/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_spectrumutils/synthesized_package",
   "spine_condition_ids": [
     "cond_spectrum_utils_040"
   ],

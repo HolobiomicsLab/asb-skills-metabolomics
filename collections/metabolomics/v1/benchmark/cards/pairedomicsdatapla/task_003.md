@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T06:05:14.068972+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pairedomicsdatapla/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_pairedomicsdatapla/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-processing`, `benchmark-evaluation`
 - GitHub: `iomega/paired-data-form`

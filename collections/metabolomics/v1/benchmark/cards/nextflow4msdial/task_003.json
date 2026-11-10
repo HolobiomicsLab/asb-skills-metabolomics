@@ -314,7 +314,7 @@
     "ms-dial-feature-detection-configuration",
     "workflow-output-validation-and-qa"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_nextflow4msdial/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_nextflow4msdial/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "sys_nextflow4ms_dial",

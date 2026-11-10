@@ -239,7 +239,7 @@
     "metadata-field-verification",
     "qc-workflow-component-inspection"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_qc4metabolomics/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_qc4metabolomics/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "QC4Metabolomics_system",

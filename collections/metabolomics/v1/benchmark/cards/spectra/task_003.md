@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T05:59:54.721704+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_spectra/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_spectra/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `benchmark-evaluation`
 - GitHub: `rformassspectrometry/Spectra`

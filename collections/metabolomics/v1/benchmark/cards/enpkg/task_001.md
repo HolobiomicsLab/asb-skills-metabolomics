@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T21:43:52.866079+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_enpkg/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_enpkg/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `benchmark-evaluation`
 - DOI: `10.1021/acscentsci.3c00800`

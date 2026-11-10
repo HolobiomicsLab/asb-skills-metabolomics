@@ -372,7 +372,7 @@
     "lipid-candidate-matching",
     "file-format-validation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_lipidmatch/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_lipidmatch/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "lipidmatch_system",

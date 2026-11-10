@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T13:51:25.323491+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_deepion/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_deepion/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `data-augmentation`
 - GitHub: `gankLei-X/DeepION`

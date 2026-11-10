@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T08:26:15.469347+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_integrate`
+- Source package: `<builder>/outputs/asbb_pilot/pkg_integrate`
 - Domain: `bioinformatics`
 - Subtask categories: `data-analysis`, `statistical-analysis`, `simulation`
 - DOI: `10.1371/journal.pcbi.1009337`

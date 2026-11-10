@@ -298,7 +298,7 @@
     "spectral-vector-normalization-by-intensity",
     "missing-fraction-quality-filtering-for-embeddings"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_spec2vec",
+  "source_package": "<builder>/outputs/asbb_pilot/pkg_spec2vec",
   "spine_condition_ids": [
     "COND_SPEC2VEC_UNIQUEINCHIKEY",
     "COND_SPEC2VEC_ALLPOSITIVE",

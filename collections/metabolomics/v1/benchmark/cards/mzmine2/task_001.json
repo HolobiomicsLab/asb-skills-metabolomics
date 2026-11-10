@@ -1176,7 +1176,7 @@
     "figure_table_interpretation",
     "reproducibility_gap_detection"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mzmine2/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mzmine2/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [],
   "subdomains": [],

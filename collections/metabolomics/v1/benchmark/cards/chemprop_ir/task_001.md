@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T10:08:52.688980+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_chemprop_ir/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_chemprop_ir/synthesized_package`
 - Domain: `chemistry / chemoinformatics`
 - Subtask categories: `data-processing`, `modeling`
 - Quality: Score 2/5 — Coherent: false, placeholder, 4 grounding failures

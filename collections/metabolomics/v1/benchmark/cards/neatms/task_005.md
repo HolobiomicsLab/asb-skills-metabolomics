@@ -3,7 +3,7 @@
 - Task ID: `task_005`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T07:11:40.529655+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_neatms/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_neatms/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `model-training`, `data-processing`, `benchmark-evaluation`
 - GitHub: `bihealth/NeatMS`

@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T13:48:51.562475+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_m2s/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_m2s/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `data-analysis`
 - GitHub: `rjdossan/M2S`

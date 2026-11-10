@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T09:49:49.938730+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_commit/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_commit/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-processing`, `information-extraction`
 - Quality: Score 2/5 — placeholder, 4 grounding failures

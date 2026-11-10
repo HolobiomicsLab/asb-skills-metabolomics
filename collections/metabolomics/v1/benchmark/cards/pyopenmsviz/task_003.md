@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T07:19:11.067804+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pyopenmsviz/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_pyopenmsviz/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `visualization`, `benchmark-evaluation`
 - GitHub: `OpenMS/pyopenms_viz`

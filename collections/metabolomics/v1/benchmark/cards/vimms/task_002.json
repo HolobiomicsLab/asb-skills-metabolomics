@@ -312,7 +312,7 @@
     "fragmentation-strategy-comparison-across-datasets",
     "peak-detection-and-alignment-in-metabolomics"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_vimms/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_vimms/synthesized_package",
   "spine_condition_ids": [
     "COND_BEER_TOPN"
   ],

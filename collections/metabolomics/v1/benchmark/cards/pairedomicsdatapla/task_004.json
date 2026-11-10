@@ -268,7 +268,7 @@
     "field-type-identification",
     "validation-report-generation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pairedomicsdatapla/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_pairedomicsdatapla/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "comp-json-schema",

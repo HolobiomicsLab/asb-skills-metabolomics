@@ -304,7 +304,7 @@
     "documentation-mining-for-project-architecture",
     "structured-inventory-compilation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_magma/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_magma/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "MAGMa_System",

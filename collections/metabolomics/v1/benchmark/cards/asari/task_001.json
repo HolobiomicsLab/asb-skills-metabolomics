@@ -428,7 +428,7 @@
     "peak-quality-assessment-by-selectivity-and-snr-metrics",
     "metabolomics-database-search-and-formula-matching"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_asari/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_asari/synthesized_package",
   "spine_condition_ids": [
     "COND_LOW_INTENSITY_TRACK"
   ],

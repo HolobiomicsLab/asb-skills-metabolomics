@@ -261,7 +261,7 @@
     "tandem-mass-spectrum-preprocessing-and-normalization",
     "adduct-specific-model-fine-tuning"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mistcf/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mistcf/synthesized_package",
   "spine_condition_ids": [
     "DENOVO_CONDITION"
   ],

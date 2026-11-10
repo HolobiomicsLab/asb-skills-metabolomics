@@ -226,7 +226,7 @@
     "class-specific-ccs-calculation",
     "arrival-time-to-ccs-conversion"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_moccal/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_moccal/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "MOCCal_system",

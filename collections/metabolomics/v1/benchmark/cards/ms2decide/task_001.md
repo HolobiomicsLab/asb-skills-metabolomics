@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T12:37:44.199543+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_ms2decide/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_ms2decide/synthesized_package`
 - GitHub: `MejriY/MS2DECIDE`
 
 ## Classification

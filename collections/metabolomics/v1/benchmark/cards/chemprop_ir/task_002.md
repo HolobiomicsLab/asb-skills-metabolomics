@@ -3,7 +3,7 @@
 - Task ID: `task_002`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T10:08:52.688980+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_chemprop_ir/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_chemprop_ir/synthesized_package`
 - Domain: `chemistry / chemoinformatics`
 - Subtask categories: `data-processing`, `information-extraction`
 - Input from: `task_001`

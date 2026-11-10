@@ -241,7 +241,7 @@
     "field-mapping-and-transformation",
     "unit-test-design-for-data-processing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_messes/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_messes/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "conversion_directives_engine",
