@@ -389,7 +389,7 @@
     "memory-profiling-and-benchmarking",
     "chunk-wise-data-processing-optimization"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_spectra/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_spectra/synthesized_package",
   "spine_condition_ids": [
     "parallel_processing_condition",
     "serial_processing_condition"

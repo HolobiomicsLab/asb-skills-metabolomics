@@ -248,7 +248,7 @@
     "cosine-similarity-spectral-clustering",
     "chromatographic-peak-overlap-resolution"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mshub/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mshub/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "SYS_MSHUB",

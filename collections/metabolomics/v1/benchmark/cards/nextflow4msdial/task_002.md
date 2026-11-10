@@ -3,7 +3,7 @@
 - Task ID: `task_002`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T07:13:54.833263+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_nextflow4msdial/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_nextflow4msdial/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `benchmark-evaluation`
 - GitHub: `Nextflow4Metabolomics/nextflow4ms-dial`

@@ -227,7 +227,7 @@
     "spatial-correlation-analysis-in-imaging-mass-spectrometry",
     "multiple-testing-correction-bonferroni"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mass2adduct/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mass2adduct/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "SYS_MASS2ADDUCT",

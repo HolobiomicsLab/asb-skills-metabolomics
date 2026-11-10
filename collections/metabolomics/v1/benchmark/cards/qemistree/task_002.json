@@ -206,7 +206,7 @@
     "tree-structural-integrity-assessment",
     "mass-spectrometry-feature-tree-interpretation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_qemistree/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_qemistree/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "sys_q2_qemistree",

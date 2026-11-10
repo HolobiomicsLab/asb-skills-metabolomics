@@ -254,7 +254,7 @@
     "spectral-similarity-scoring",
     "compound-identification-from-ms-data"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_corems/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_corems/synthesized_package",
   "spine_condition_ids": [
     "COND-004",
     "COND-005",

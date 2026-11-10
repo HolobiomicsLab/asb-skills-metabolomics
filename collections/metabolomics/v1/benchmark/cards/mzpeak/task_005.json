@@ -293,7 +293,7 @@
     "structured-data-element-checking",
     "interoperability-testing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mzpeak/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mzpeak/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "mzPeak_format",

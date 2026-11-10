@@ -199,7 +199,7 @@
     "repository-source-code-setup",
     "test-suite-pass-fail-reporting"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_massql/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_massql/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "massql_system",

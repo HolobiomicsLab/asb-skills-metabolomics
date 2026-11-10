@@ -208,7 +208,7 @@
     "noise-filtering-threshold-application",
     "spectral-library-entry-generation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_metaboannotator/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_metaboannotator/synthesized_package",
   "spine_condition_ids": [
     "COND-001"
   ],

@@ -289,7 +289,7 @@
     "spectral-data-quality-assessment",
     "peak-intensity-threshold-optimization"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_matchms/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_matchms/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "matchms_system",

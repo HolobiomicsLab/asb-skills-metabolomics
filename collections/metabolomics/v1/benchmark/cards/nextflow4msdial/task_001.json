@@ -254,7 +254,7 @@
     "lc-hrms-data-preprocessing-pipeline",
     "sequential-tool-integration-and-data-routing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_nextflow4msdial/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_nextflow4msdial/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "sys_nextflow4ms_dial",

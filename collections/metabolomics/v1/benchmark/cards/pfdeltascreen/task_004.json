@@ -209,7 +209,7 @@
     "pfas-characteristic-mass-difference-detection",
     "mzml-spectrum-data-parsing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pfdeltascreen/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_pfdeltascreen/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "mzML_Dataset",

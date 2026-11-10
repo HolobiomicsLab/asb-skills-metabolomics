@@ -3,7 +3,7 @@
 - Task ID: `task_005`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T08:56:40.523217+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_nplinker`
+- Source package: `<builder>/outputs/asbb_pilot/pkg_nplinker`
 - Domain: `bioinformatics`
 - Subtask categories: `data-analysis`, `statistical-analysis`, `benchmark-evaluation`
 - DOI: `10.1371/journal.pcbi.1008920`

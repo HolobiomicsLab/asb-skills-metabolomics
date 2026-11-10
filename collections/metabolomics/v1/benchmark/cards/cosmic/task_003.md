@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T21:20:51.157086+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_cosmic/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_cosmic/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `information-extraction`
 - GitHub: `sirius-ms/sirius`

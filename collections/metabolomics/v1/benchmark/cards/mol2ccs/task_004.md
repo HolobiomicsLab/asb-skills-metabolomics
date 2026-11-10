@@ -3,7 +3,7 @@
 - Task ID: `task_004`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T13:12:43.788519+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mol2ccs/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_mol2ccs/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `model-training`, `benchmark-evaluation`, `data-analysis`
 - GitHub: `enveda/ccs-prediction`

@@ -411,7 +411,7 @@
     "multi-omics-dataset-integration",
     "statistical-significance-testing-metabolic-networks"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_integrate",
+  "source_package": "<builder>/outputs/asbb_pilot/pkg_integrate",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "INTEGRATE_system",

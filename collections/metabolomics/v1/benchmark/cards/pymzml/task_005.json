@@ -286,7 +286,7 @@
     "file-handler-interface-integration-and-registration",
     "random-access-and-sequential-iteration-pattern-implementation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pymzml/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_pymzml/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "pymzml_system",

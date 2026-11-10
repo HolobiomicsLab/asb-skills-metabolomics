@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T08:03:26.683093+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_metabodirect`
+- Source package: `<builder>/outputs/asbb_pilot/pkg_metabodirect`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `information-extraction`, `benchmark-evaluation`
 - GitHub: `Coayala/MetaboDirect`

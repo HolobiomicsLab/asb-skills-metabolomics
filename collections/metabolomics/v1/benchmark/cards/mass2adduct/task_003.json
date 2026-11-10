@@ -246,7 +246,7 @@
     "spectral-annotation-and-overlay-visualization",
     "sodium-adduct-detection-and-classification"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mass2adduct/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mass2adduct/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "COMP_MASSDIFF_OBJ",

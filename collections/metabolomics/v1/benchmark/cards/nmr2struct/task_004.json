@@ -300,7 +300,7 @@
     "chemical-graph-connectivity-validation",
     "performance-degradation-quantification-and-analysis"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_nmr2struct/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_nmr2struct/synthesized_package",
   "spine_condition_ids": [
     "Cond_UpTo19HeavyAtoms"
   ],

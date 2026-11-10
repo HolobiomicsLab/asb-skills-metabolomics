@@ -3,7 +3,7 @@
 - Task ID: `task_004`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T21:24:43.431654+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_lotus/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_lotus/synthesized_package`
 - Domain: `chemistry / chemoinformatics`
 - Subtask categories: `data-processing`, `data-curation`
 - DOI: `10.1007/s00044-016-1764-y`

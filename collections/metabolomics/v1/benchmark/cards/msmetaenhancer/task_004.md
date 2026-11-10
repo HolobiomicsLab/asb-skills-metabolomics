@@ -3,7 +3,7 @@
 - Task ID: `task_004`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T05:39:21.024441+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_msmetaenhancer/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_msmetaenhancer/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `modeling`
 - GitHub: `RECETOX/MSMetaEnhancer`

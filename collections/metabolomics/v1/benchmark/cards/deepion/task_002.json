@@ -201,7 +201,7 @@
     "representation-vector-dimensionality-reduction",
     "contrastive-learning-encoder-construction"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_deepion/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_deepion/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "deepion_system",

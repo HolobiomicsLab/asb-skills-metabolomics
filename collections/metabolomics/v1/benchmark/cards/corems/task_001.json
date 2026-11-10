@@ -248,7 +248,7 @@
     "molecular-formula-assignment-and-validation",
     "mass-error-calculation-and-reporting"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_corems/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_corems/synthesized_package",
   "spine_condition_ids": [
     "COND-001",
     "COND-002",

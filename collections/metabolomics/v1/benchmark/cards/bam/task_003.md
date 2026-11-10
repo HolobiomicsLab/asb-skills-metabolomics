@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T14:05:17.730493+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_bam/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_bam/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-analysis`, `information-extraction`, `visualization`
 - GitHub: `HassounLab/BAM`

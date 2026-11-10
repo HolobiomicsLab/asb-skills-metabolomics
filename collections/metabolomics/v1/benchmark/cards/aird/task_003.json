@@ -334,7 +334,7 @@
     "artifact-size-measurement-and-range-verification",
     "multi-stage-dockerfile-interpretation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_aird/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_aird/synthesized_package",
   "spine_condition_ids": [
     "artifact_docker_image_windows",
     "artifact_docker_image_linux",

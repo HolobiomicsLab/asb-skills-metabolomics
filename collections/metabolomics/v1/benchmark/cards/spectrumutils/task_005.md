@@ -3,7 +3,7 @@
 - Task ID: `task_005`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T07:16:56.758905+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_spectrumutils/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_spectrumutils/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `visualization`, `information-extraction`
 - DOI: `10.1021/acs.analchem.9b04884`

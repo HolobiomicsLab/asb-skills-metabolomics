@@ -316,7 +316,7 @@
     "tandem-mass-spectrum-deconvolution-isotope-annotation",
     "hdf5-output-validation-verification"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_deimos/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_deimos/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "deimos_system",

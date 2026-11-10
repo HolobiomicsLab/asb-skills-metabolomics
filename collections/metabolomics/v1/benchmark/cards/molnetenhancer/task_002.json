@@ -306,7 +306,7 @@
     "gnps-network-graph-processing",
     "substructure-annotation-integration"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_molnetenhancer/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_molnetenhancer/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "GNPS",

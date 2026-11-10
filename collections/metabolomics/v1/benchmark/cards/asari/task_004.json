@@ -319,7 +319,7 @@
     "feature-table-row-count-validation",
     "quality-control-metric-distribution-analysis"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_asari/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_asari/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "TOOL_SCIPY_FIND_PEAKS",

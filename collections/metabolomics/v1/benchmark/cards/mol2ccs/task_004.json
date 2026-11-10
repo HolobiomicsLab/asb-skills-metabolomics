@@ -276,7 +276,7 @@
     "model-hyperparameter-transfer-and-tuning",
     "inference-performance-benchmarking"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mol2ccs/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mol2ccs/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "system_ccs_prediction",

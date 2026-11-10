@@ -217,7 +217,7 @@
     "chromatographic-feature-extraction",
     "mass-spectrometry-feature-table-construction"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pfdeltascreen/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_pfdeltascreen/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "PFDeltaScreen_System",

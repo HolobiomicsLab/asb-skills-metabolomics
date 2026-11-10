@@ -189,7 +189,7 @@
     "plant-metabolic-network-validation",
     "community-dependent-reaction-inference"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_commit/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_commit/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "SYS_COMMIT",

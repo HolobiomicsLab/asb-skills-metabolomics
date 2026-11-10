@@ -3,7 +3,7 @@
 - Task ID: `task_002`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T13:31:46.023986+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mspcompiler/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_mspcompiler/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `data-analysis`
 - GitHub: `QizhiSu/mspcompiler`

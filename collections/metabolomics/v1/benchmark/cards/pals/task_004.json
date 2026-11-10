@@ -252,7 +252,7 @@
     "pathway-activity-decomposition-via-plage",
     "rank-order-correlation-analysis"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pals/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_pals/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "PALS_system",

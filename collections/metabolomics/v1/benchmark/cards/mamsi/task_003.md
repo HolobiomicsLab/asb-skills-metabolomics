@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T13:26:03.540713+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mamsi/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_mamsi/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `visualization`
 - DOI: `10.1371/journal.pcbi.1011814`

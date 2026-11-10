@@ -292,7 +292,7 @@
     "graph-based-metabolite-similarity-assessment",
     "gnps-molecular-network-integration"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_minems2/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_minems2/synthesized_package",
   "spine_condition_ids": [
     "COND_GNPS_COMPONENTS",
     "COND_DEFAULT_PARAMS"

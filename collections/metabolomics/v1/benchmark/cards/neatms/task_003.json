@@ -286,7 +286,7 @@
     "true-positive-false-positive-rate-calculation",
     "probability-threshold-tuning-for-chemical-detection"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_neatms/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_neatms/synthesized_package",
   "spine_condition_ids": [
     "cond_full_training",
     "cond_default_threshold",

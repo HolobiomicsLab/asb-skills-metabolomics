@@ -3,7 +3,7 @@
 - Task ID: `task_002`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T13:03:49.640231+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_qc4metabolomics/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_qc4metabolomics/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `benchmark-evaluation`
 - GitHub: `stanstrup/QC4Metabolomics`

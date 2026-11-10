@@ -202,7 +202,7 @@
     "molecular-descriptor-interpretation",
     "batch-prediction-comparison"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_bittermass/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_bittermass/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "SYS_BitterPredict",

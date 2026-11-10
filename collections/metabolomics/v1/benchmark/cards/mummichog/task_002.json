@@ -295,7 +295,7 @@
     "metabolomics-functional-prediction-workflow-validation",
     "documentation-and-metadata-modernization"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mummichog/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mummichog/synthesized_package",
   "spine_condition_ids": [
     "mummichog2"
   ],

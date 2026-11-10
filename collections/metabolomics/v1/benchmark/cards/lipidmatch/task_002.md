@@ -3,7 +3,7 @@
 - Task ID: `task_002`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T06:03:34.399740+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_lipidmatch/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_lipidmatch/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-analysis`, `information-extraction`
 - GitHub: `GarrettLab-UF/LipidMatch`

@@ -220,7 +220,7 @@
     "untargeted-metabolomics-data-processing",
     "matlab-package-execution"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_m2s/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_m2s/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "tool_matlab",

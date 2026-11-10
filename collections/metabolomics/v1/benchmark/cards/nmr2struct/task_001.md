@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T09:55:01.678255+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_nmr2struct/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_nmr2struct/synthesized_package`
 - Domain: `chemistry / chemoinformatics`
 - Subtask categories: `model-training`, `benchmark-evaluation`, `information-extraction`
 - Quality: Score 2/5 — Coherent: false, 4 grounding failures

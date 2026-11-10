@@ -306,7 +306,7 @@
     "build-status-documentation",
     "java-build-artifact-validation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mzmine3/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mzmine3/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "mzmine_system",

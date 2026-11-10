@@ -320,7 +320,7 @@
     "checkpoint-selection-based-on-validation-metric",
     "state-dict-serialization-and-extraction"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_fiddle/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_fiddle/synthesized_package",
   "spine_condition_ids": [
     "cond_orbitrap_expanded",
     "cond_ablation_components"

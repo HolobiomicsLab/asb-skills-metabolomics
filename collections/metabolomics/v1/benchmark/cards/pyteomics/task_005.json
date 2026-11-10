@@ -239,7 +239,7 @@
     "bioconda-package-installation",
     "installation-validation-and-diagnostics"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pyteomics/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_pyteomics/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "pyteomics_system",

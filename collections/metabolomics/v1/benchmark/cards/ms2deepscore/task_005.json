@@ -294,7 +294,7 @@
     "embedding-space-visualization-and-interpretation",
     "structural-clustering-validation-in-chemical-space"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_ms2deepscore",
+  "source_package": "<builder>/outputs/asbb_pilot/pkg_ms2deepscore",
   "spine_condition_ids": [
     "cond_ms2deepscore_no_uncertainty",
     "cond_ms2deepscore_with_uncertainty",

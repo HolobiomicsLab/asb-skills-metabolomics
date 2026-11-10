@@ -233,7 +233,7 @@
     "dropout-regularization-application",
     "siamese-network-embedding-generation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_ms2deepscore",
+  "source_package": "<builder>/outputs/asbb_pilot/pkg_ms2deepscore",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "siamese_network_architecture",

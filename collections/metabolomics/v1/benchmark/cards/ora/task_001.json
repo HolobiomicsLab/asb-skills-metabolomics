@@ -214,7 +214,7 @@
     "simulation-output-validation",
     "git-repository-cloning"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_ora/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_ora/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "system_simulation_pipeline",

@@ -3,7 +3,7 @@
 - Task ID: `task_004`
 - Schema version: `0.18.0`
 - Created at: `2026-06-16T05:40:21.538092+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_dereplicator/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_dereplicator/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-processing`, `visualization`, `information-extraction`
 - GitHub: `ablab/npdtools`

@@ -347,7 +347,7 @@
     "mass-spectrometry-visualization-mirror-plots",
     "peak-table-filtering-by-mz-and-retention-time"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_xcms/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_xcms/synthesized_package",
   "spine_condition_ids": [
     "cond_msw_peak_detection",
     "cond_centwave_dda"

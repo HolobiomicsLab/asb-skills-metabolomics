@@ -257,7 +257,7 @@
     "statistical-distribution-analysis-across-cohorts",
     "deep-learning-model-inference-batch-prediction"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_ps2ms/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_ps2ms/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "sys_ps2ms",

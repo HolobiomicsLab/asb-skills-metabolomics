@@ -224,7 +224,7 @@
     "multitask-learning-inference-and-decoding",
     "molecular-structure-ground-truth-matching-and-accuracy-evaluation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_nmr2struct/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_nmr2struct/synthesized_package",
   "spine_condition_ids": [
     "Cond_UpTo19HeavyAtoms"
   ],

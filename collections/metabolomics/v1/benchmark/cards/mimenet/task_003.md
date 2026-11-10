@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T07:36:08.260853+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_mimenet`
+- Source package: `<builder>/outputs/asbb_pilot/pkg_mimenet`
 - Domain: `bioinformatics`
 - Subtask categories: `data-analysis`, `modeling`, `visualization`
 - DOI: `10.1371/journal.pcbi.1009021`

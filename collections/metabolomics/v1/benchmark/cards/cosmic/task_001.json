@@ -311,7 +311,7 @@
     "hierarchical-spectrum-object-construction",
     "vendor-format-to-standard-conversion"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_cosmic/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_cosmic/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "sirius_system",

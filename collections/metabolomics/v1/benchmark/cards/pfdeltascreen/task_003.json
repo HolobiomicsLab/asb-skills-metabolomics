@@ -210,7 +210,7 @@
     "feature-grouping-by-mass-defect",
     "mass-spectrometry-feature-annotation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_pfdeltascreen/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_pfdeltascreen/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "PFAS_Prioritization_Architecture",

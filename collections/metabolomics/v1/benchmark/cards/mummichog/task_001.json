@@ -207,7 +207,7 @@
     "mass-to-charge-tolerance-matching",
     "untargeted-metabolomics-feature-analysis"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mummichog/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_mummichog/synthesized_package",
   "spine_condition_ids": [
     "mummichog2"
   ],

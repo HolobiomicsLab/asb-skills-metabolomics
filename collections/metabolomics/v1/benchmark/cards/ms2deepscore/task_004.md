@@ -3,7 +3,7 @@
 - Task ID: `task_004`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T07:16:21.763690+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/pkg_ms2deepscore`
+- Source package: `<builder>/outputs/asbb_pilot/pkg_ms2deepscore`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `modeling`
 - DOI: `10.1186/s13321-021-00558-4`

@@ -231,7 +231,7 @@
     "sample-relationship-visualization",
     "metabolomics-sample-comparison"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_memo/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_memo/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "MEMO_SYSTEM",

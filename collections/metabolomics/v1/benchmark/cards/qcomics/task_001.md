@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T10:50:21.360243+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_qcomics/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_qcomics/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `information-extraction`
 - Quality: Score 2/5 — Coherent: false, placeholder, 3 grounding failures

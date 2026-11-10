@@ -219,7 +219,7 @@
     "tandem-mass-spectrum-clustering",
     "spectrum-similarity-nearest-neighbor-indexing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_falcon/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_falcon/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "falcon_system",

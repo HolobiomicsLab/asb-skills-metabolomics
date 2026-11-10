@@ -189,7 +189,7 @@
     "biomolecular-class-ccs-mapping",
     "twim-ms-data-processing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_moccal/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_moccal/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "comp_class_assignment",

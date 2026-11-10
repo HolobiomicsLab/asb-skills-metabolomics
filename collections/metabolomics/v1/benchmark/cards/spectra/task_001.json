@@ -361,7 +361,7 @@
     "dataframe-and-numericlist-manipulation",
     "spectrum-subsetting-and-merging"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_spectra/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_spectra/synthesized_package",
   "spine_condition_ids": [
     "readonly_backend_condition",
     "readwrite_backend_condition",

@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T21:14:42.808593+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_mzmine2/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_mzmine2/synthesized_package`
 - GitHub: `mzmine/mzmine`
 
 ## Classification

@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T21:17:53.323536+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_biosynfoni/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_biosynfoni/synthesized_package`
 - Domain: `chemistry / chemoinformatics`
 - Subtask categories: `data-processing`, `benchmark-evaluation`
 - GitHub: `lucinamay/biosynfoni`

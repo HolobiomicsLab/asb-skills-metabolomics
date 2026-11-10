@@ -217,7 +217,7 @@
     "environment-validation-and-verification",
     "package-version-compatibility-checking"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_enpkg/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_enpkg/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "enpkg_full_system"

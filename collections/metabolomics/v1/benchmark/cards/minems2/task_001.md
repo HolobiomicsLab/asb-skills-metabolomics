@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T13:45:46.320542+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_minems2/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_minems2/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-analysis`, `model-evaluation`, `information-extraction`
 - GitHub: `odisce/mineMS2`

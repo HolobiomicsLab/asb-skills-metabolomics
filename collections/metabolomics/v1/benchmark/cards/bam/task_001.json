@@ -246,7 +246,7 @@
     "annotation-accuracy-and-coverage-metrics-computation",
     "reference-prediction-comparison-evaluation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_bam/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_bam/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "dataset_validation_data",

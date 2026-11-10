@@ -333,7 +333,7 @@
     "dataframe-lazy-loading-comparison",
     "r-object-size-measurement-and-benchmarking"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_spectra/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_spectra/synthesized_package",
   "spine_condition_ids": [
     "parallel_processing_condition",
     "serial_processing_condition"

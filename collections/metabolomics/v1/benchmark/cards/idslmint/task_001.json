@@ -279,7 +279,7 @@
     "spectral-tensor-representation-and-preprocessing",
     "attention-mechanism-validation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_idslmint/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_idslmint/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "IDSL_MINT_system",

@@ -236,7 +236,7 @@
     "lipid-species-annotation-assessment",
     "ranked-result-extraction-and-display"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_metaboannotator/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_metaboannotator/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "COMP-007",

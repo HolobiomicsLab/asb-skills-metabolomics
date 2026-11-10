@@ -3,7 +3,7 @@
 - Task ID: `task_005`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T21:44:19.295434+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_ms2lda/synthesized_package`
+- Source package: `<builder>/outputs/asbb_pilot/coll_ms2lda/synthesized_package`
 - Domain: `mass-spectrometry / metabolomics`
 - Subtask categories: `data-processing`, `visualization`
 - GitHub: `vdhooftcompmet/MS2LDA`

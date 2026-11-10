@@ -249,7 +249,7 @@
     "statistical-score-distribution-analysis",
     "search-mode-configuration-optimization"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_corems/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_corems/synthesized_package",
   "spine_condition_ids": [
     "COND-006",
     "COND-007",

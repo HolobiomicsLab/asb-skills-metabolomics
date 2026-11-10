@@ -350,7 +350,7 @@
     "mzml-format-output-generation-and-validation",
     "metabolite-detection-and-acquisition-performance-benchmarking"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_vimms/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_vimms/synthesized_package",
   "spine_condition_ids": [
     "COND_TOPN_DDA",
     "COND_BEER_TOPN",

@@ -224,7 +224,7 @@
     "nested-data-structure-construction-for-chemical-metadata",
     "chemical-name-normalization-and-publish-database-integration"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_uafr/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_uafr/synthesized_package",
   "spine_condition_ids": [
     "COND-known-chemicals-explicit"
   ],

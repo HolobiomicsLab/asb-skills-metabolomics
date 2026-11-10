@@ -303,7 +303,7 @@
     "matrix-structure-verification-and-reproducibility-assessment",
     "memo-ms-api-usage-and-parameter-configuration"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_memo/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_memo/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "MEMO_SYSTEM",

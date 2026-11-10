@@ -258,7 +258,7 @@
     "poisson-noise-injection-for-imaging",
     "mass-spectrometry-image-preprocessing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_deepion/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_deepion/synthesized_package",
   "spine_condition_ids": [
     "mode_col",
     "mode_iso"

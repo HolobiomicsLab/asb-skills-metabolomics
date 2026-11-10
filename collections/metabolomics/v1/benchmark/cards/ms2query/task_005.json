@@ -320,7 +320,7 @@
     "ci-status-badge-deployment",
     "code-quality-metrics-interpretation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_pilot/coll_ms2query/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_pilot/coll_ms2query/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "ms2query_system",
