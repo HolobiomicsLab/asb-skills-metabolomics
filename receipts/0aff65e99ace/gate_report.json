@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T17:16:27.231703+00:00",
+  "generated_at": "2026-11-11T00:35:35.029485+00:00",
   "collection_dir": "collections/metabolomics/v3",
   "corpus_path": "collections/metabolomics/v3/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "96321adc76202cdcf3fa0d673c59352dc0b2c911409ee3bc753886fb8e80e271",
+      "sha256": "b1bf9988f1834e23a46db893d660538e4f47b285f7f32db7f1077f42ddec08fa",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -63,7 +63,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 527,
-          "sha256": "c022f7911cb01b5283cd50bc07f72ecc7b2462ad0631b0157aab42736c353357"
+          "sha256": "b26d74b2bd9dd5e8117192c07779d23055fbf9625a011335ace109bb011dc3a7"
         },
         {
           "path": ".zenodo.json",
@@ -72,13 +72,13 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 1090,
-          "sha256": "2e3fac18c5322e87cc9666483379075feed226389763c95b4b2ff91d334a8f8d"
+          "bytes": 1192,
+          "sha256": "376cbf65777e5e97f15dfab01e5ca993c3690cde891d46b4ffc77a30e62fc564"
         },
         {
           "path": "USAGE.md",
           "bytes": 18296,
-          "sha256": "9173dcf7f69bb70b94322e29747a31d8c8dd8586c308d503cba1cd609708e2b6"
+          "sha256": "82e78323c86e6e354547204d59ffcd300873920a91d797f76fb96b43ce523648"
         },
         {
           "path": "bin",
@@ -117364,5 +117364,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "25e13a2b8435c046a131108f611e36d54d4196b616bb6de77450ee9ac138bbcc"
+  "receipt_sha256": "9f2767de34b7d52dbd6ac7a663ae52bc474002d0ada25a1fe39e03ce8f209750"
 }
