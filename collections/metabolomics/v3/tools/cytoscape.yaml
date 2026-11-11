@@ -68,8 +68,10 @@ source_repos:
 - https://github.com/CyTargetLinker/linkset-automation
 - https://github.com/mikehellstern/netgsa
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/medema-group/BiG-SCAPE
+entry_kind: software
+license_tier: open
+license: LGPL-2.1
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://cytoscape.org/download.html
+repo_url: https://github.com/cytoscape/cytoscape-impl

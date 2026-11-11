@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/CMDM-Lab/GAME
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/CMDM-Lab/GAME
+entry_kind: software
+license_tier: open
+license: PSF-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://docs.python.org/2.7/license.html
+repo_url: https://github.com/python/cpython

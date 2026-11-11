@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/jhhung/PS2MS
 - https://github.com/hejjack/SpecTUS
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/jhhung/PS2MS
+license_evidence: null
+repo_url: null

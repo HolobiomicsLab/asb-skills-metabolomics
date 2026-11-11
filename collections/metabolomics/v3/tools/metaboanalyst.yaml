@@ -121,8 +121,10 @@ source_repos:
 - https://github.com/AdrianHaun/AriumMS
 - https://github.com/RASpicer/MetabolomicsTools
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/ComPlat/chem-spectra-app
+license_evidence: null
+repo_url: null

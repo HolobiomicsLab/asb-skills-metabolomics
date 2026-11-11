@@ -622,8 +622,10 @@ source_repos:
 - https://github.com/JonZwe/PFAScreen
 - https://github.com/Leo-Cheng-Lab/ROIAL-NMR
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/MolecularCartography/Optimus
+entry_kind: software
+license_tier: open
+license: PSF-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE
+repo_url: https://github.com/python/cpython

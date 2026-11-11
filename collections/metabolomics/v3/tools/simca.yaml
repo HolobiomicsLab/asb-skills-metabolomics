@@ -9,8 +9,10 @@ derived_from:
   title: Diagnostic metabolite biomarkers of chronic typhoid carriage
 source_repos: []
 schema_version: 0.2.0
-license_tier: unknown
+entry_kind: vendor_product
+license_tier: restricted
 license: null
-license_detection: null
-license_subject: null
+license_detection: vendor-product
+license_subject: tool
+license_evidence: null
 repo_url: null

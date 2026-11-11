@@ -131,8 +131,10 @@ source_repos:
 - https://github.com/sangeeta97/ccs_find
 - https://github.com/mpriessner/MultiModalSpectralTransformer
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/Buglakova/13C-SpaceM
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/conda/conda/HEAD/LICENSE
+repo_url: https://github.com/conda/conda

@@ -32,8 +32,10 @@ source_repos:
 - https://github.com/biocore/q2-qemistree
 - https://github.com/Wang-Bioinformatics-Lab/Reverse_metabolomics_library_generation
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks
+entry_kind: software
+license_tier: open
+license: GPL-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/mzmine/mzmine2/HEAD/LICENSE.txt
+repo_url: https://github.com/mzmine/mzmine2

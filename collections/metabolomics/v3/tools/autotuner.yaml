@@ -16,8 +16,10 @@ source_repos:
 - https://github.com/crmclean/autotuner
 - https://github.com/HuanLab-backup/Paramounter
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/KujawinskiLaboratory/Autotuner
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/AutoTuner
+repo_url: https://github.com/crmclean/Autotuner

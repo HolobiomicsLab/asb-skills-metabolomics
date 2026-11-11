@@ -8,8 +8,10 @@ derived_from:
   title: Robust Metabolomics Data Normalization across Scales and Experimental Designs
 source_repos: []
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
+license_evidence: null
 repo_url: null

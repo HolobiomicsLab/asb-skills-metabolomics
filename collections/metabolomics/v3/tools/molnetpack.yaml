@@ -14,8 +14,10 @@ derived_from:
 source_repos:
 - https://github.com/JosieHong/3DMolMS
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: noncommercial
+license: CC-BY-NC-SA-4.0
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/molnetpack
 repo_url: https://github.com/JosieHong/3DMolMS

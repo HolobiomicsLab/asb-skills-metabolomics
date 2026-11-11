@@ -40,8 +40,10 @@ source_repos:
 - https://github.com/urmi-21/MetaOmGraph
 - https://github.com/peakforest/peakforest-webapp
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/FangLabNTU/HExpMetDB
+license_evidence: null
+repo_url: null

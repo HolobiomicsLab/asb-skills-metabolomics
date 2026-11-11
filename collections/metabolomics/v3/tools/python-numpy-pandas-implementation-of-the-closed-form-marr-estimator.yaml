@@ -8,8 +8,10 @@ derived_from:
   title: 'Maximum Rank Reproducibility: A Nonparametric Approach to Assessing Reproducibility in Replicate Experiments'
 source_repos: []
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
+license_evidence: null
 repo_url: null

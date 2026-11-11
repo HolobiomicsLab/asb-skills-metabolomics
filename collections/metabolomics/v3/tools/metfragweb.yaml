@@ -9,8 +9,10 @@ derived_from:
   title: 'Shinyscreen: mass spectrometry data inspection and quality checking utility'
 source_repos: []
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
+license_evidence: null
 repo_url: null

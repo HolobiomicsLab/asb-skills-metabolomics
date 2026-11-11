@@ -18,8 +18,10 @@ source_repos:
 - https://github.com/HinesLab/MOCCal
 - https://github.com/leesulab/arcMS
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/pnnl/deimos
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/deimos
+repo_url: http://github.com/pnnl/deimos

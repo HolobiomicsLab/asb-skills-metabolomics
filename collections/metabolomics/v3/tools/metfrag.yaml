@@ -88,8 +88,10 @@ source_repos:
 - https://github.com/mohimanilab/molDiscovery
 - https://github.com/RASpicer/MetabolomicsTools
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/sirius-ms/sirius
+entry_kind: software
+license_tier: open
+license: LGPL-2.1-or-later
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://ipb-halle.github.io/MetFrag/
+repo_url: https://github.com/ipb-halle/MetFragRelaunched

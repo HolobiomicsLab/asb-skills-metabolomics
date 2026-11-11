@@ -8,8 +8,10 @@ derived_from:
   title: Automatic and Quantitative Measurement of Protein-Protein Colocalization in Live Cells
 source_repos: []
 schema_version: 0.2.0
+entry_kind: artefact
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
+license_evidence: null
 repo_url: null

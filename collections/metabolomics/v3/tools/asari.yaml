@@ -28,8 +28,10 @@ source_repos:
 - https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics
 - https://github.com/shuzhao-li-lab/asari_pcpfm_tutorials
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/shuzhao-li-lab/asari
+license_evidence: null
+repo_url: null

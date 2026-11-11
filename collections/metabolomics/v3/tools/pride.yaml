@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/wh-xu/Hyper-Spec
 - https://github.com/RTKlab-BYU/MSConnect
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/wh-xu/Hyper-Spec
+license_evidence: null
+repo_url: null

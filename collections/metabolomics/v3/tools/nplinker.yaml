@@ -21,8 +21,10 @@ source_repos:
 - https://github.com/NPLinker/nplinker
 - https://github.com/iomega/paired-data-form
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/nplinker/
 repo_url: https://github.com/NPLinker/nplinker

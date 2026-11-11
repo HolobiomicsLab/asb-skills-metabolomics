@@ -10,8 +10,10 @@ source_repos:
 - https://github.com/olobion/Retip
 - https://github.com/oloBion/Retip
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/olobion/Retip
+entry_kind: software
+license_tier: open
+license: CC-BY-4.0
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/retip
+repo_url: https://github.com/oloBion/Retip

@@ -8,8 +8,10 @@ derived_from:
   title: AKT1 and MYC Induce Distinctive Metabolic Fingerprints in Human Prostate Cancer
 source_repos: []
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
+license_evidence: null
 repo_url: null
