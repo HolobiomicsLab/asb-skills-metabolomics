@@ -14,9 +14,9 @@ source_repos:
 - https://github.com/boecker-lab/sirius
 schema_version: 0.2.0
 entry_kind: software
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-license_evidence: null
-repo_url: null
+license_tier: noncommercial
+license: LicenseRef-SIRIUS-academic-use
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md
+repo_url: https://github.com/sirius-ms/sirius

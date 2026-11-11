@@ -9896,11 +9896,11 @@
       "10.1038/s41587-021-01045-9"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": null,
+    "license_tier": "noncommercial",
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sirius-ms/sirius",
     "used_by_skills": [
       "bile-acid-conjugate-chemistry",
       "casmi-contest-score-retrieval-and-harmonization",
@@ -9942,7 +9942,7 @@
       "tandem-ms-spectral-library-search"
     ],
     "entry_kind": "software",
-    "license_evidence": null,
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
     "source_paper_repos": [
       "https://github.com/sirius-ms/sirius"
     ]
@@ -10173,11 +10173,11 @@
       "10.1038/s41587-021-01045-9"
     ],
     "techniques": [],
-    "license_tier": "unknown",
+    "license_tier": "noncommercial",
     "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": null,
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sirius-ms/sirius",
     "used_by_skills": [
       "casmi-contest-score-retrieval-and-harmonization",
       "confidence-score-fdr-estimation",
@@ -10188,7 +10188,7 @@
       "tandem-ms-spectral-library-search"
     ],
     "entry_kind": "software",
-    "license_evidence": null,
+    "license_evidence": "https://bio.informatik.uni-jena.de/terms-of-service-fsu-csi",
     "source_paper_repos": [
       "https://github.com/sirius-ms/sirius"
     ]
@@ -74595,11 +74595,11 @@
       "10.1038/s41592-019-0344-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": null,
+    "license_tier": "noncommercial",
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sirius-ms/sirius",
     "used_by_skills": [
       "benchmark-result-reproduction--8b8c51de7de5aa0e",
       "collision-energy-spectra-merging",
@@ -74655,7 +74655,7 @@
       "theoretical-isotope-distribution-computation"
     ],
     "entry_kind": "software",
-    "license_evidence": null,
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
     "source_paper_repos": [
       "https://github.com/sirius-ms/sirius"
     ]
@@ -74668,11 +74668,11 @@
       "10.1021/acs.analchem.8b04698"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": null,
+    "license_tier": "noncommercial",
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sirius-ms/sirius",
     "used_by_skills": [
       "accuracy-rate-calculation",
       "msi-level1-authentic-standard-validation",
@@ -74681,7 +74681,7 @@
       "structure-candidate-ranking-comparison"
     ],
     "entry_kind": "software",
-    "license_evidence": null,
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
     "source_paper_repos": [
       "https://github.com/sirius-ms/sirius"
     ]
@@ -74694,11 +74694,11 @@
       "10.1101/2025.11.12.688047"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": null,
+    "license_tier": "noncommercial",
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sirius-ms/sirius",
     "used_by_skills": [
       "adduct-annotation-lcms-features",
       "consensus-spectrum-construction",
@@ -74710,7 +74710,7 @@
       "sirius-commandline-workflow"
     ],
     "entry_kind": "software",
-    "license_evidence": null,
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
     "source_paper_repos": [
       "https://github.com/HassounLab/MVP"
     ]
@@ -74764,11 +74764,11 @@
       "10.1002/cmtd.202400088"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": null,
+    "license_tier": "noncommercial",
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sirius-ms/sirius",
     "used_by_skills": [
       "annotation-benchmark-evaluation",
       "annotation-success-rate-benchmark-comparison",
@@ -74815,7 +74815,7 @@
       "taxonomically-informed-annotation-reranking"
     ],
     "entry_kind": "software",
-    "license_evidence": null,
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
     "source_paper_repos": [
       "https://github.com/FangYuan717/ROASMI",
       "https://github.com/HassounLab/BAM",
@@ -74868,11 +74868,11 @@
       "10.1038/s42004-024-01189-0"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": null,
+    "license_tier": "noncommercial",
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sirius-ms/sirius",
     "used_by_skills": [
       "baseline-spectra-benchmark-comparison",
       "casmi-2017-benchmark-evaluation",
@@ -74890,7 +74890,7 @@
       "wilcoxon-signed-rank-test"
     ],
     "entry_kind": "software",
-    "license_evidence": null,
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
     "source_paper_repos": [
       "https://github.com/thumingo/TeFT"
     ]
@@ -84501,11 +84501,11 @@
       "10.1038/s42256-020-00234-6"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": null,
+    "license_tier": "noncommercial",
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sirius-ms/sirius",
     "used_by_skills": [
       "adduct-constrained-msms-annotation",
       "annotation-accuracy-benchmarking",
@@ -84534,7 +84534,7 @@
       "zodiac-posterior-score-threshold-analysis"
     ],
     "entry_kind": "software",
-    "license_evidence": null,
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
     "source_paper_repos": [
       "https://github.com/biocore/q2-qemistree",
       "https://github.com/boecker-lab/sirius",
