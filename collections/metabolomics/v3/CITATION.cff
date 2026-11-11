@@ -3,10 +3,13 @@ message: If you use this collection, please cite it as below.
 title: ASB Metabolomics Skill Collection v3
 abstract: 'ASB Metabolomics: 11830 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
 version: '3'
-doi: 10.5281/zenodo.24093587
-date-released: '2026-11-09'
+doi: 10.5281/zenodo.24122117
+date-released: '2026-11-10'
 license: CC-BY-4.0
 identifiers:
+- type: doi
+  value: 10.5281/zenodo.24122117
+  description: Zenodo version DOI of v3.0.2 (2026-11-10)
 - type: doi
   value: 10.5281/zenodo.24093587
   description: Zenodo version DOI of v3.0.1 (2026-11-09)
