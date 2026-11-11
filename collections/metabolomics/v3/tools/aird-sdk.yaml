@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/CSi-Studio/AirdPro
 - https://github.com/CSi-Studio/MRMPro-Doc
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/CSi-Studio/Aird-SDK
+license_evidence: null
+repo_url: null

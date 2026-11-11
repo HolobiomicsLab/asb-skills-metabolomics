@@ -60,8 +60,10 @@ source_repos:
 - https://github.com/alexandrovteam/S2IsoMEr
 - https://github.com/NikVetr/MoTrPAC_Complex_Traits
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/mariallr/GcDuo
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/tidyverse/dplyr/HEAD/DESCRIPTION
+repo_url: https://github.com/tidyverse/dplyr

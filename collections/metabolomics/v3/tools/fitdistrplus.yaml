@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/NikVetr/MoTrPAC_Complex_Traits
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/NikVetr/MoTrPAC_Complex_Traits
+entry_kind: software
+license_tier: open
+license: GPL-2.0-or-later
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=fitdistrplus
+repo_url: https://github.com/lbbe-software/fitdistrplus

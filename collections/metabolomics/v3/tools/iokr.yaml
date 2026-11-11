@@ -9,8 +9,10 @@ derived_from:
 source_repos:
 - https://github.com/aalto-ics-kepaco/retention_order_prediction
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/aalto-ics-kepaco/retention_order_prediction
+license_evidence: null
+repo_url: null

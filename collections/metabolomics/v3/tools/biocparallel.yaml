@@ -24,8 +24,10 @@ source_repos:
 - https://github.com/Karnovsky-Lab/DNEA
 - https://github.com/sipss/GCIMS
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/kuwisdelu/Cardinal
+entry_kind: software
+license_tier: open
+license: GPL-2.0-only OR GPL-3.0-only OR BSL-1.0
+license_detection: bioconductor-package
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/BiocParallel
+repo_url: https://github.com/Bioconductor/BiocParallel

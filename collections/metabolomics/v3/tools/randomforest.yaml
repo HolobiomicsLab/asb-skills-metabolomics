@@ -21,8 +21,10 @@ source_repos:
 - https://github.com/IP4M/R-scripts-for-iMAP
 - https://github.com/lanagarmire/lilikoi
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/oloBion/Retip
+license_evidence: null
+repo_url: null

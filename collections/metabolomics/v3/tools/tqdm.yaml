@@ -11,8 +11,10 @@ source_repos:
 - https://github.com/yuxuanliao/pSCNN
 - https://github.com/yuxuanliao/pSCNN.git
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/yuxuanliao/pSCNN
+entry_kind: software
+license_tier: open
+license: MPL-2.0 AND MIT
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/tqdm/
+repo_url: https://github.com/tqdm/tqdm

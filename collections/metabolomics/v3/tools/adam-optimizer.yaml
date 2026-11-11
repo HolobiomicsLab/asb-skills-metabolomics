@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/WoodFY/MSMCE
 - https://github.com/TamirBar-Tov/NetAurHPD-Network-Auralization-Hyperlink-Prediction-Method
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/WoodFY/MSMCE
+license_evidence: null
+repo_url: null

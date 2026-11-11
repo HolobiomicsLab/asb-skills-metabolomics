@@ -20,8 +20,10 @@ source_repos:
 - https://github.com/MoseleyBioinformaticsLab/MESSES
 - https://github.com/MoseleyBioinformaticsLab/mwtab
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/MoseleyBioinformaticsLab/MESSES
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause-Clear
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/mwtab/
+repo_url: https://github.com/MoseleyBioinformaticsLab/mwtab

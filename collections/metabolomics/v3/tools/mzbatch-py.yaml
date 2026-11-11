@@ -10,8 +10,10 @@ source_repos:
 - https://github.com/academicCQMD/LongitudinalProf-MSMS-Method
 - https://github.com/yourusername/LongitudinalProf-MSMS-Method.git
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/academicCQMD/LongitudinalProf-MSMS-Method
+license_evidence: null
+repo_url: null

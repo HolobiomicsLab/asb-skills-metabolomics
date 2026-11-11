@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/rjdossan/M2S
 - https://github.com/hhabra/metabCombiner
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/rjdossan/M2S
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: bioconductor-package
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/metabCombiner
+repo_url: https://www.github.com/hhabra/metabCombiner

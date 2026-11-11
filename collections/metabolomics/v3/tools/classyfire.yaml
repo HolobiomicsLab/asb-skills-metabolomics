@@ -57,8 +57,10 @@ source_repos:
 - https://github.com/biocore/q2-qemistree
 - https://github.com/FanzhouKong/spectral_denoising
 schema_version: 0.2.0
-license_tier: unknown
+entry_kind: software
+license_tier: noncommercial
 license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/sirius-ms/sirius
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: http://classyfire.wishartlab.com/
+repo_url: null

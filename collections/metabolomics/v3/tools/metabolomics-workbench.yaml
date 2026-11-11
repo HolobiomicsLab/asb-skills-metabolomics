@@ -26,8 +26,10 @@ source_repos:
 - https://github.com/robinschmid/microbe_masst
 - https://github.com/ShinyFabio/ADViSELipidomics
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/rmallol/clomet
+license_evidence: null
+repo_url: null

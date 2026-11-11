@@ -36,8 +36,10 @@ source_repos:
 - https://github.com/univieCUBE/PyCoMo
 - https://github.com/emmamglass/reconstructor
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/qLSLab/integrate
+entry_kind: software
+license_tier: open
+license: GPL-2.0 OR LGPL-2.1
+license_detection: repository-licence-file
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/opencobra/cobrapy/HEAD/LICENSE
+repo_url: https://github.com/opencobra/cobrapy

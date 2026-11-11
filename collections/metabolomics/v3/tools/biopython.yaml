@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/facundof2016/CCSP2.0
 - https://github.com/CPU-HORDB/HORDB
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/facundof2016/CCSP2.0
+entry_kind: software
+license_tier: open
+license: LicenseRef-Biopython-License-Agreement
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/biopython/biopython/HEAD/LICENSE.rst
+repo_url: https://github.com/biopython/biopython

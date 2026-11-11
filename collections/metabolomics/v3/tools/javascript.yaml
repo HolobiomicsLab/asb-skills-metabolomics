@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/ComPlat/chem-spectra-app
 - https://github.com/lidawei1975/colmarvista
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/ComPlat/react-spectra-editor
+license_evidence: null
+repo_url: null

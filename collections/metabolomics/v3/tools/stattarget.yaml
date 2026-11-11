@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/metabolomicstats/NormalizeMets
 - https://github.com/13479776/statTarget
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/metabolomicstats/NormalizeMets
+entry_kind: software
+license_tier: open
+license: LGPL-3.0-or-later
+license_detection: bioconductor-package
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/statTarget
+repo_url: null

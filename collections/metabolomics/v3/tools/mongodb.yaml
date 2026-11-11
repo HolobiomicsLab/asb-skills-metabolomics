@@ -24,8 +24,10 @@ source_repos:
 - https://github.com/tyo-nu/pickaxe_paper
 - https://github.com/CSi-Studio/MetaPro
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/mSorok/COCONUT
+license_evidence: null
+repo_url: null
