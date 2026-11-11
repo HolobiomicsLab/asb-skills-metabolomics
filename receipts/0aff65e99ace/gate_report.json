@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-11T06:11:47.845589+00:00",
+  "generated_at": "2026-11-11T07:34:06.900869+00:00",
   "collection_dir": "collections/metabolomics/v3",
   "corpus_path": "collections/metabolomics/v3/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "18514bef9bef971e4416ba3309ddc82f90d6541782fe91ad43a36755cec2c90c",
+      "sha256": "c129f963ba12b5b09bfae4ada7cd13825e2aaa6eaa9f0c3aeec9a9ab49d2dd36",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -106608,8 +106608,8 @@
         },
         {
           "path": "tool_licenses.json",
-          "bytes": 196225,
-          "sha256": "ed4163c637eec63c4586c0d1e8d82822f529066198f54fb585e00f9d857ba377"
+          "bytes": 200364,
+          "sha256": "913853d3326ecf1a1c59b27dbaa7e0f8c3f0be1df92483d2d602816011ce7a0c"
         },
         {
           "path": "tools",
@@ -107922,8 +107922,8 @@
         },
         {
           "path": "tools/cosmic.yaml",
-          "bytes": 722,
-          "sha256": "17c41abc88aa864f2e2926d20f6bdd28bbb8c9c77ea5c2422f51f27ef370a8f5"
+          "bytes": 854,
+          "sha256": "0dfbab8dc3a82979772401ee03dae65c14f2f786fd8689da77e494b012896944"
         },
         {
           "path": "tools/cowplot.yaml",
@@ -107967,8 +107967,8 @@
         },
         {
           "path": "tools/csi-fingerid-1-2-0.yaml",
-          "bytes": 561,
-          "sha256": "8a804ef267289b507d5680774b97ccf1147ffbd827d79ee583fcfaf5a231bbad"
+          "bytes": 661,
+          "sha256": "3c9d3e52be02eaeb15eb6b92dd79482b0b25935e26e90391ed527ee2608f4b07"
         },
         {
           "path": "tools/csi-fingerid-iokr.yaml",
@@ -115267,28 +115267,28 @@
         },
         {
           "path": "tools/sirius-4.yaml",
-          "bytes": 1416,
-          "sha256": "05333ad6e8d01afa165ffd7bca4c233c4cfde1614497b37060e3ce0ea2a55afe"
+          "bytes": 1548,
+          "sha256": "84d0d096e4c96e104d4e53c73badf50570f17f777111a8beeba6c5cf981b7316"
         },
         {
           "path": "tools/sirius-csi-finger-id.yaml",
-          "bytes": 450,
-          "sha256": "b08f639faf39cd9d9b7cbb10a799c7db729a8f5d8529a6b8a3b40995c1803142"
+          "bytes": 582,
+          "sha256": "25c84a0109c66e132519f686709e5527946ca96713d1069d10d60a39e5c910c6"
         },
         {
           "path": "tools/sirius-v6-1-0.yaml",
-          "bytes": 577,
-          "sha256": "a92e519a563b10cd09649b5bc8931600fff1ead13dcb57dfde239ca8b77956b6"
+          "bytes": 709,
+          "sha256": "5a4ac3236d7966b00dc5cb698887a99e25d26be586cc59eac91e201140a0f86f"
         },
         {
           "path": "tools/sirius.yaml",
-          "bytes": 12064,
-          "sha256": "a2bca21fcf3c24a039c2a438c3a228047f8e57f4c5da33d271722791fec696ea"
+          "bytes": 12196,
+          "sha256": "baa932ed5b281f21bccfed7c807ba61b4254510774ebfeb51156defa2af6b8fd"
         },
         {
           "path": "tools/sirius4.yaml",
-          "bytes": 633,
-          "sha256": "7d70bbda7a0dd9875e5f7e612fc805deac585d41f35d98322c714f520fb2125b"
+          "bytes": 765,
+          "sha256": "506974753df1f3091e928db87ab277ecafbeba53b3ac87d70e4102b604b836aa"
         },
         {
           "path": "tools/skyline.yaml",
@@ -116557,13 +116557,13 @@
         },
         {
           "path": "tools/zodiac.yaml",
-          "bytes": 648,
-          "sha256": "e46b1aad488e7fd733fbf0bbb53db7ed8bff7e16e69ab9dd0b799baad7a7f6a3"
+          "bytes": 780,
+          "sha256": "4647429ec39944cec835d5d7031650c28f01cd450fee7a2aabbc4b7cdd5bf119"
         },
         {
           "path": "tools_index.json",
-          "bytes": 2969659,
-          "sha256": "655a3f0273fcf1988ce2cc2b600598397a49f8b882be19f20e6e76bc33613e14"
+          "bytes": 2970761,
+          "sha256": "fab8e35a1dc4f57916e6eeb4d497583b430c6d42a3969c768ac6fd06268cfc2d"
         },
         {
           "path": "workflows",
@@ -117369,5 +117369,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "0072f730b433481c1f8a9314f42f1442d12358c15c4869e385930c8070dbade4"
+  "receipt_sha256": "1e340c2fc86458ac7d6b4ac53c67406f5a351226592ce3498d350aa57492031f"
 }

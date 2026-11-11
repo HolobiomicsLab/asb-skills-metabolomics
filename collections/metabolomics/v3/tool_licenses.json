@@ -821,6 +821,21 @@
       "verified": "2026-11-11"
     }
   },
+  "cosmic": {
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_tier": "noncommercial",
+    "license_raw": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
+    "repo_url": "https://github.com/sirius-ms/sirius",
+    "route": "reviewed",
+    "matched": "COSMIC (SIRIUS)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed-context",
+      "verified": "2026-11-11"
+    }
+  },
   "cowplot": {
     "license": "GPL-2.0-only",
     "license_tier": "open",
@@ -847,6 +862,21 @@
     }
   },
   "csi-fingerid": {
+    "license": null,
+    "license_tier": "noncommercial",
+    "license_raw": null,
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://bio.informatik.uni-jena.de/terms-of-service-fsu-csi",
+    "repo_url": "https://github.com/sirius-ms/sirius",
+    "route": "reviewed",
+    "matched": "CSI:FingerID (SIRIUS web service)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "csi-fingerid-1-2-0": {
     "license": null,
     "license_tier": "noncommercial",
     "license_raw": null,
@@ -5507,6 +5537,81 @@
       "verified": "2026-11-11"
     }
   },
+  "sirius": {
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_tier": "noncommercial",
+    "license_raw": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
+    "repo_url": "https://github.com/sirius-ms/sirius",
+    "route": "reviewed",
+    "matched": "SIRIUS",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed-context",
+      "verified": "2026-11-11"
+    }
+  },
+  "sirius-4": {
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_tier": "noncommercial",
+    "license_raw": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
+    "repo_url": "https://github.com/sirius-ms/sirius",
+    "route": "reviewed",
+    "matched": "SIRIUS",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed-context",
+      "verified": "2026-11-11"
+    }
+  },
+  "sirius-csi-finger-id": {
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_tier": "noncommercial",
+    "license_raw": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
+    "repo_url": "https://github.com/sirius-ms/sirius",
+    "route": "reviewed",
+    "matched": "SIRIUS",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed-context",
+      "verified": "2026-11-11"
+    }
+  },
+  "sirius-v6-1-0": {
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_tier": "noncommercial",
+    "license_raw": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
+    "repo_url": "https://github.com/sirius-ms/sirius",
+    "route": "reviewed",
+    "matched": "SIRIUS",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed-context",
+      "verified": "2026-11-11"
+    }
+  },
+  "sirius4": {
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_tier": "noncommercial",
+    "license_raw": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
+    "repo_url": "https://github.com/sirius-ms/sirius",
+    "route": "reviewed",
+    "matched": "SIRIUS",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed-context",
+      "verified": "2026-11-11"
+    }
+  },
   "skyline": {
     "license": "Apache-2.0",
     "license_tier": "open",
@@ -6287,6 +6392,21 @@
     "entry_kind": "software",
     "identity": {
       "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "zodiac": {
+    "license": "LicenseRef-SIRIUS-academic-use",
+    "license_tier": "noncommercial",
+    "license_raw": "LicenseRef-SIRIUS-academic-use",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/sirius-ms/sirius/HEAD/README.md",
+    "repo_url": "https://github.com/sirius-ms/sirius",
+    "route": "reviewed",
+    "matched": "ZODIAC (SIRIUS)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed-context",
       "verified": "2026-11-11"
     }
   }
