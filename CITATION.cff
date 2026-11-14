@@ -52,6 +52,9 @@ identifiers:
 - type: doi
   value: 10.5281/zenodo.24122117
   description: Zenodo version DOI of v3.0.2 (2026-11-10)
+- type: doi
+  value: 10.5281/zenodo.24224655
+  description: Zenodo version DOI of v3.1.0 (2026-11-14)
 references:
 - type: software
   title: AgenticScienceBuilder

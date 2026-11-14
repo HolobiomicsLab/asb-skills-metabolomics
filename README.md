@@ -16,9 +16,9 @@ the governance documents and the community contribution loop live in
 |---|---|---|---|---|---|
 | `collections/metabolomics/v1` | ASB Metabolomics Skill Collection v1 | 1,485 | 292 | 2026-06-15 | not deposited |
 | `collections/metabolomics/v2` | ASB Metabolomics Skill Collection v2 (expansion) | 5,859 | 909 | 2026-06-22 | [10.5281/zenodo.20794027](https://doi.org/10.5281/zenodo.20794027) |
-| `collections/metabolomics/v3` | ASB Metabolomics Skill Collection v3 (consolidated rebuild, 20 composite workflows) | 11,830 | 1,989 | 2026-11-10 | [10.5281/zenodo.24122117](https://doi.org/10.5281/zenodo.24122117) |
+| `collections/metabolomics/v3` | ASB Metabolomics Skill Collection v3 (consolidated rebuild, 20 composite workflows) | 11,830 | 1,989 | 2026-11-14 | [10.5281/zenodo.24224655](https://doi.org/10.5281/zenodo.24224655) |
 
-The v3 release is tagged `metabolomics-v3.0.1`. The concept DOI of the metabolomics lineage, which covers all versions, is [10.5281/zenodo.20794026](https://doi.org/10.5281/zenodo.20794026).
+The v3 release is tagged `metabolomics-v3.1.0`. The concept DOI of the metabolomics lineage, which covers all versions, is [10.5281/zenodo.20794026](https://doi.org/10.5281/zenodo.20794026).
 
 Per-technique packs under `packs/metabolomics/`: `ce-ms`, `direct-infusion`, `gc-ms`, `ion-mobility`, `lc-ms`, `ms-generic`, `ms-imaging`, `nmr`.
 
