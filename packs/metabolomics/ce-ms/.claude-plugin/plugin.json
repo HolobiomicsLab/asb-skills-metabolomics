@@ -1,7 +1,7 @@
 {
   "name": "metabolomics-ce-ms",
   "description": "ASB Metabolomics — CE-MS. CE-MS subset of the ASB metabolomics collection: 113 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs). Packaged auto-grounding (kb+local).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Holobiomics Lab",
     "url": "https://github.com/HolobiomicsLab"
