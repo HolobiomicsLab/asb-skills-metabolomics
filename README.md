@@ -24,17 +24,17 @@ This repository holds the metabolomics collections of AgenticScienceBuilder (ASB
 |---|---|---|---|---|---|
 | `collections/metabolomics/v1` | ASB Metabolomics Skill Collection v1 (legacy) | 1,485 | 292 | 2026-06-15 | not deposited |
 | `collections/metabolomics/v2` | ASB Metabolomics Skill Collection v2 (expansion) | 5,859 | 909 | 2026-06-22 | [10.5281/zenodo.20794027](https://doi.org/10.5281/zenodo.20794027) |
-| `collections/metabolomics/v3` | ASB Metabolomics Skill Collection v3 (consolidated rebuild, 20 composite workflows) | 11,830 | 1,989 | 2026-11-14 | [10.5281/zenodo.24224655](https://doi.org/10.5281/zenodo.24224655) |
+| `collections/metabolomics/v3` | ASB Metabolomics Skill Collection v3 (consolidated rebuild, 20 composite workflows) | 11,830 | 1,989 | 2026-11-15 | [10.5281/zenodo.24255500](https://doi.org/10.5281/zenodo.24255500) |
 
 ## Status
 
-Collection `v3`, built from corpus cut `0aff65e99ace`, is released on `main` at tag `metabolomics-v3.1.0` and archived on Zenodo under the version DOI [10.5281/zenodo.24224655](https://doi.org/10.5281/zenodo.24224655). The earlier `v1` and `v2` collections stay in the repository; they are not part of this release.
+Collection `v3`, built from corpus cut `0aff65e99ace`, is released on `main` at tag `metabolomics-v3.1.1` and archived on Zenodo under the version DOI [10.5281/zenodo.24255500](https://doi.org/10.5281/zenodo.24255500). The earlier `v1` and `v2` collections stay in the repository; they are not part of this release.
 
 | Item | State |
 |---|---|
 | Release gate | [`receipts/0aff65e99ace/gate_report.json`](receipts/0aff65e99ace/gate_report.json) reports `warn`: 14 of 16 checks pass, 1 gives a warning and 1 is not applicable (`cut_manifest`). The warning concerns two open-access quote spans, of 418 and 386 characters, that exceed the 300-character snippet guidance. [`receipts/0aff65e99ace/verify.txt`](receipts/0aff65e99ace/verify.txt) records receipt and target re-verification with exit code 0. |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/metabolomics/v3` |
-| DOI | [10.5281/zenodo.24224655](https://doi.org/10.5281/zenodo.24224655) (this version). The Zenodo deposit metadata is in [`collections/metabolomics/v3/.zenodo.json`](collections/metabolomics/v3/.zenodo.json). |
+| DOI | [10.5281/zenodo.24255500](https://doi.org/10.5281/zenodo.24255500) (this version). The Zenodo deposit metadata is in [`collections/metabolomics/v3/.zenodo.json`](collections/metabolomics/v3/.zenodo.json). |
 | Concept DOI | [10.5281/zenodo.20794026](https://doi.org/10.5281/zenodo.20794026) (all versions) |
 
 ## What is inside
@@ -187,7 +187,7 @@ This repository was split from `asb-skill-collections` at commit `f554641c2` (`m
 
 ## Citation
 
-Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24224655](https://doi.org/10.5281/zenodo.24224655); its concept DOI, which covers all versions, is [10.5281/zenodo.20794026](https://doi.org/10.5281/zenodo.20794026).
+Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24255500](https://doi.org/10.5281/zenodo.24255500); its concept DOI, which covers all versions, is [10.5281/zenodo.20794026](https://doi.org/10.5281/zenodo.20794026).
 
 ## Licence
 
