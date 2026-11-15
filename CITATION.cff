@@ -14,7 +14,7 @@ abstract: 'Curated, evidence-grounded skill and software-tool collection for com
   of every skill is cited in its provenance block (provenance.source_papers) and must be cited alongside the collection. Released
   by the Holobiomics Lab (CNRS / Université Côte d''Azur). Source repositories: collection - https://github.com/HolobiomicsLab/asb-skills-metabolomics;
   registry and tooling - https://github.com/HolobiomicsLab/asb-skill-collections; generating pipeline
-  - https://github.com/HolobiomicsLab/AgenticScienceBuilder. Licence: collection content CC-BY-4.0; code
+  - AgenticScienceBuilder (repository to follow). Licence: collection content CC-BY-4.0; code
   Apache-2.0; verbatim quotes under quotation right (LICENSING.md).'
 keywords:
 - metabolomics
@@ -58,7 +58,6 @@ identifiers:
 references:
 - type: software
   title: AgenticScienceBuilder
-  repository-code: https://github.com/HolobiomicsLab/AgenticScienceBuilder
   authors: &id001
   - family-names: Nothias
     given-names: Louis-Félix
