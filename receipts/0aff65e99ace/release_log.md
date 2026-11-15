@@ -2,12 +2,12 @@
 
 | Stage | Done at | Repository commit | Digests |
 |---|---|---|---|
-| gate | 2026-11-14T16:27:30Z | 4eeb9bff32577e91eacb998b4a30445745678895 | `{"candidate_tree": "sha256:897621e50798d388df2fe59561fbcfa95780669cb734294c09a7c08829d71477", "gate_report": "0f94e1ee127ab5b366811b5d8f1987bebe38d30ce674b467c519355dd6a7acb5"}` |
-| deposit-plan | 2026-11-14T16:51:40Z | 4eeb9bff32577e91eacb998b4a30445745678895 | `{"archive_sha256": "7ee2ddc000996cb3239532f72a67cb804480574ae4152c09f26e8f449121f994", "extra:metabolomics-v3-leafemb.npz": "3fb24fcdb29d95dabf1a9ef3917ebdca639f3c894d499f2b748fb9bedfec1b62"}` |
-| deposit-draft | 2026-11-14T16:53:20Z | 4eeb9bff32577e91eacb998b4a30445745678895 | `{"archive_sha256": "7ee2ddc000996cb3239532f72a67cb804480574ae4152c09f26e8f449121f994"}` |
-| record-doi | 2026-11-14T21:25:18Z | 4eeb9bff32577e91eacb998b4a30445745678895 | `{".zenodo.json": "bd5a40049606f80c608b5685b34d47b5a56eb873f617adc8174de198ae5c816c", "CITATION.cff": "94e3074a4ded49cdb6802f0639b015c62f93319d98f6e4307a7f640746996290", "README.md": "14a5facc6c1e2748f70408223881fb2b110dde73b0dd426125d889ad2ded1c1d", "RELEASE.yaml": "c3080cc5205bb6890dcbb5e5ca52e080ff980fcadf768c962ad37f1c7f3ec234", "USAGE.md": "97f8fb9ebf2f9d088d331ce0c1799e9de711a31a4e6d8c40c5fae721d695e688", "marketplace.json": "bae24030b3fa441ee50f0e0c51a32c7e4be03d30c8ec07ee27b094038b0e8511", "plugin.json": "ff8f576fbd0b9f96d122fa77f94aecc29a77b08e427b282c6f103e61ced1e105"}` |
-| receipt | 2026-11-14T21:32:11Z | 4eeb9bff32577e91eacb998b4a30445745678895 | `{"receipt": "9ab2add8ff861022939e4d86f804b8b6a7b2a020d1507801739896dfbd8db1b6"}` |
+| gate | 2026-11-15T18:28:02Z | 3631e57cfde60dd2553e7b15d704b750ad6e7fb1 | `{"candidate_tree": "sha256:d807bb615d0de28f1d71207e2c35da1e38e47773e336d98e3f2dd3dd2813542d", "gate_report": "4d389e718c688c02c70c7ceb03aa40bd61f719293296a40280c9f74014c34c81"}` |
+| deposit-plan | 2026-11-15T18:28:06Z | 3631e57cfde60dd2553e7b15d704b750ad6e7fb1 | `{"archive_sha256": "de29134fc6fda2c1012a5fd192fd0c0fb2f67f8a67828b04125e368d42e61184", "extra:metabolomics-v3-leafemb.npz": "3fb24fcdb29d95dabf1a9ef3917ebdca639f3c894d499f2b748fb9bedfec1b62"}` |
+| deposit-draft | 2026-11-15T18:49:00Z | 3631e57cfde60dd2553e7b15d704b750ad6e7fb1 | `{"archive_sha256": "de29134fc6fda2c1012a5fd192fd0c0fb2f67f8a67828b04125e368d42e61184"}` |
+| record-doi | 2026-11-15T19:10:21Z | 3631e57cfde60dd2553e7b15d704b750ad6e7fb1 | `{".zenodo.json": "291ed66f98d438dc966ac8deacb9368430aaf6491010fa5661afbb832c279035", "CITATION.cff": "23905041880dd171213eee96326c6d12ffe0fb74550b052d6f1b17588067b79f", "README.md": "904d6caea503161c20fdfda7507331df30a951be2a2856d6a2bc000f6503bab1", "RELEASE.yaml": "b7ccca6355be92b19ea028e61882d84e69bc320172d3de5d71414702f6343cd2", "USAGE.md": "ddce843727b7d79f773a37157f0755a9d4b4470b886136011a6b0ee133503028", "marketplace.json": "8f6fdf61d5f2ba1adc1514fbf50ddf3081c46793bd82fd59e7d3cbac3b2fe067", "plugin.json": "b4066204487b538ed4b4b15c6e4c1983fd19c14e4b78e31e8f661e1899b22977"}` |
+| receipt | 2026-11-15T19:18:41Z | 3631e57cfde60dd2553e7b15d704b750ad6e7fb1 | `{"receipt": "bad41e06027e0a344685c03eb4d283455b800ac2f9943dd78ad00c935566aafd"}` |
 
 ## Owner actions
 
-- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24224655, then run record-doi --doi <version DOI>
+- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24255500, then run record-doi --doi <version DOI>
