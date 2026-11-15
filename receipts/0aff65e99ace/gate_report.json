@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-14T21:28:38.578394+00:00",
+  "generated_at": "2026-11-15T17:17:41.527975+00:00",
   "collection_dir": "collections/metabolomics/v3",
   "corpus_path": "collections/metabolomics/v3/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "b894cc12324745b282ca670e967580b7ffe881558437428bb7efbf3a265a5da6",
+      "sha256": "e8e4d007bdeacb53957a09f88a5009fd0d1ca03f2548c8d708e5bb096c8aeabb",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -67,8 +67,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 3443,
-          "sha256": "bd5a40049606f80c608b5685b34d47b5a56eb873f617adc8174de198ae5c816c"
+          "bytes": 3192,
+          "sha256": "b1d81e936e90e23400a2c4e14bbe3fdac05e7105a91c7943a37cbaff92e5467e"
         },
         {
           "path": "CITATION.cff",
@@ -86,8 +86,8 @@
         },
         {
           "path": "bin/report_issue.py",
-          "bytes": 44558,
-          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+          "bytes": 44518,
+          "sha256": "fc5f56dc586aa6bb28d4930ce4170204633cdcc0f70ade2221b3c1db79ae5d4d"
         },
         {
           "path": "bin/search_skills.py",
@@ -106603,8 +106603,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 4334,
-          "sha256": "e589f16237ce83f872740cf01fab16be379e0940d0c6aa292fb4bb9a3c895e4f"
+          "bytes": 4326,
+          "sha256": "cd338c267581bfc25428a11625ce743c159014d679724dd0e16fb95b23f6f52e"
         },
         {
           "path": "skills_index.json",
@@ -116580,8 +116580,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 8718,
-          "sha256": "6753f3e35991d738eebd6f32b604f2792a2e4ebf9e3d917ecdb4186ba16ffbf6"
+          "bytes": 8710,
+          "sha256": "29023c942c62e728b33f0a814992480a86f98bc87890a7a04cc650a368084c12"
         },
         {
           "path": "workflows/compound-class-annotation",
@@ -117374,5 +117374,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "830f3d3a81f578323e2bf9a60e72defd81f44f3db702c14d90bdc45d462ebd04"
+  "receipt_sha256": "6b5990d688bb5b659eebb1173ee046494875127de2e3dcbbc4270f01a1fef902"
 }
