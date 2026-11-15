@@ -3,8 +3,6 @@
 Propose a paper through [this repository's issue form](https://github.com/HolobiomicsLab/asb-skills-metabolomics/issues/new?template=propose-paper.md).
 Keep the proposal short and include a DOI, repository or project link where available. A curator decides
 whether to build and release it.
-People without access to this repository file the proposal as an issue on the public
-master repository instead, and a maintainer stages it here.
 
 Propose a skill or report a problem with shared tooling, governance or retrieval on the
 [public master repository](https://github.com/HolobiomicsLab/asb-skill-collections/issues).
