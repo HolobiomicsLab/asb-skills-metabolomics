@@ -1,7 +1,7 @@
 {
   "name": "metabolomics-ms-imaging",
   "description": "ASB Metabolomics — MS-imaging. MS-imaging subset of the ASB metabolomics collection: 291 evidence-grounded skills (lighter than the full collection; skills may also appear in other technique packs). Packaged auto-grounding (kb+local).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Holobiomics Lab",
     "url": "https://github.com/HolobiomicsLab"
